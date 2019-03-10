@@ -14,13 +14,16 @@ du -hs node_modules/stack node_modules/stack-work || true
 #   the build of this project. Since a full build takes more than the
 #   half-hour build time limit of the Netlify robot, we need to move
 #   these to some place that will be saved when we're building on
-#   Netlify. (We don't want to do this otherwise.)
+#   Netlify. (We don't want to do this otherwise.) We use the undocumented
+#   /opt/build/cache/ directory for this. See:
+#     https://www.contentful.com/blog/2018/05/17/faster-static-site-builds-part-one-process-only-what-you-need/
 #
+netlify_cachedir=/opt/build/cache
 if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
     echo ===== Linking cache dirs for Netlify
-    mkdir -p node_modules/stack node_modules/stack-work
-    ln -s "$basedir/node_modules/stack/" ~/.stack
-    ln -s node_modules/stack-work/ .stack-work
+    mkdir -p "$netlify_cachedir/stack" "$netlify_cachedir/stack-work"
+    ln -s "$netlify_cachedir/stack/" ~/.stack
+    ln -s "$netlify_cachedir/stack-work/" .stack-work
 fi
 
 echo ========== Creating keep files
