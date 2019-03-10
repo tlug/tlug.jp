@@ -45,8 +45,8 @@ echo ========== cwd=$(/bin/pwd -P).
 echo ========== ENV
 #env
 echo ==========
-sleep 5     # Allow Netlify to finish logging
-exit 99
+sleep 5             # Allow Netlify to finish logging
+trap '' 0; exit 0   # Exit with success to see if that saves the cache.
 
 mkdir -p ~/.local/bin/
 export PATH=~/.local/bin:$PATH
