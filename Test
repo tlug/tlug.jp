@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e -o pipefail
+
+trap 'echo 1>&2 FAILED.; exit 1;' 0
+
+stack --version || curl -sSL https://get.haskellstack.org/ | sh
+stack upgrade
+stack build
+stack exec site build 
+
+trap '' 0

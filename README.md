@@ -11,6 +11,13 @@ The current developers/maintainers are Curt Sampson (`@0cjs`)
 Building
 --------
 
+#### Automatic Build
+
+`./Test` should build and test the site, installing [Haskell Stack]
+if necessary.
+
+#### Manual Build
+
 Install [Haskell Stack], usually with one of the following:
 
     curl -sSL https://get.haskellstack.org/ | sh
