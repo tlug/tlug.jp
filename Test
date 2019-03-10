@@ -5,9 +5,12 @@ trap 'echo 1>&2 FAILED.; exit 1;' 0
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
-echo ========== node_modules/
-du -hs node_modules/ || true
-du -hs node_modules/stack node_modules/stack-work || true
+show_cache() {
+    echo ========== $netlify_cachedir
+    du -hs $netlify_cachedir || true
+    du -hs $netlify_cachedir/stack $netlify_cachedir/stack-work || true
+}
+
 
 #   Netlify caches neither ~/.stack/ which contains our downloaded GCC
 #   and builds of downloaded packages, nor .stack-work, which contains
@@ -19,6 +22,7 @@ du -hs node_modules/stack node_modules/stack-work || true
 #     https://www.contentful.com/blog/2018/05/17/faster-static-site-builds-part-one-process-only-what-you-need/
 #
 netlify_cachedir=/opt/build/cache
+show_cache  # XXX
 if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
     echo ===== Linking cache dirs for Netlify
     mkdir -p "$netlify_cachedir/stack" "$netlify_cachedir/stack-work"
@@ -27,17 +31,15 @@ if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
 fi
 
 echo ========== Creating keep files
-echo keep > node_modules/stack/KEEP || true
-echo keep > node_modules/stack-work/KEEP || true
-echo ========== node_modules/
-du -hs node_modules/ || true
-du -hs node_modules/stack node_modules/stack-work || true
+echo keep > $netlify_cachedir/stack/KEEP || true
+echo keep > $netlify_cachedir/stack-work/KEEP || true
+show_cache  # XXX
 echo ========== HOME=$HOME
-ls -al ~
+#ls -al ~
 echo ========== cwd=$(/bin/pwd -P).
-ls -al
+#ls -al
 echo ========== ENV
-env
+#env
 echo ==========
 sleep 5     # Allow Netlify to finish logging
 exit 99
