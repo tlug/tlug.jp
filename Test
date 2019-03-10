@@ -22,7 +22,7 @@ show_cache() {
 #   /opt/build/cache/ directory for this. See:
 #     https://www.contentful.com/blog/2018/05/17/faster-static-site-builds-part-one-process-only-what-you-need/
 #
-netlify_cachedir=~/.m2/repository/
+netlify_cachedir=~/.cache
 show_cache  # XXX
 if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
     echo ===== Linking cache dirs for Netlify
