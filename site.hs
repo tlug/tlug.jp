@@ -52,7 +52,7 @@ main = hakyll $ do
         route idRoute
         compile copyFileCompiler
 
-    match "index.html.ja" $ do
+    match "index.ja.html" $ do
         route idRoute
         compile copyFileCompiler
 
