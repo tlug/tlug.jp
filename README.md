@@ -35,7 +35,7 @@ the website itself are:
     stack exec site watch -- --host HOST --port PORT 
 
 For the second command `--host` and `--port` are optional. The server
-will not automatically a page for the site or referesh changed pages.
+will not automatically load a page for the site or refresh changed pages.
 
 
 
