@@ -5,6 +5,10 @@ trap 'echo 1>&2 FAILED.; exit 1;' 0
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
+echo ========== node_modules/
+du -hs node_modules/ || true
+du -hs node_modules/stack node_modules/stack-work || true
+
 #   Netlify caches neither ~/.stack/ which contains our downloaded GCC
 #   and builds of downloaded packages, nor .stack-work, which contains
 #   the build of this project. Since a full build takes more than the
