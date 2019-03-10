@@ -45,6 +45,8 @@ echo ========== cwd=$(/bin/pwd -P).
 echo ========== ENV
 #env
 echo ==========
+mkdir -p _site/
+echo "Nothing here." > _site/index.txt
 sleep 5             # Allow Netlify to finish logging
 trap '' 0; exit 0   # Exit with success to see if that saves the cache.
 
