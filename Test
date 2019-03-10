@@ -5,6 +5,19 @@ trap 'echo 1>&2 FAILED.; exit 1;' 0
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
+#   Netlify caches neither ~/.stack/ which contains our downloaded GCC
+#   and builds of downloaded packages, nor .stack-work, which contains
+#   the build of this project. Since a full build takes more than the
+#   half-hour build time limit of the Netlify robot, we need to move
+#   these to some place that will be saved.
+#mkdir -p node_modules/stack node_modules/stack-work
+#ln -s node_modules/stack/ ~/.stack
+#ln -s node_modules/stack-work/ .stack-work
+
+ls -l ~ .
+env
+exit 99
+
 mkdir -p ~/.local/bin/
 export PATH=~/.local/bin:$PATH
 stack --version \
