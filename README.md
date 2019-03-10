@@ -8,6 +8,7 @@ generated using [Hakyll].
 The current developers/maintainers are Curt Sampson (`@0cjs`)
 <cjs@cynic.net> and Jim Tittsler (`@jimt`) <jimt@onjapan.net>.
 
+
 Building
 --------
 
@@ -38,7 +39,23 @@ For the second command `--host` and `--port` are optional. The server
 will not automatically load a page for the site or refresh changed pages.
 
 
+Deployment
+----------
+
+For the moment this site is deployed to two locations on [Netlify].
+Pushing new commits to the `master` branch on GitHub should trigger a
+build and the results should soon be visible on:
+
+- <https://tlug.netlify.com> using Jim's Netlify account.
+- <https://cjs-tlug.netlify.com>> using cjs's Netlify account.
+
+As we don't currently have an shared organization account on Netlify,
+only the account owner can see the build logs. We'll be discussing
+later what we can do about this.
+
+
 
 <!-------------------------------------------------------------------->
 [Hakyll]: https://jaspervdj.be/hakyll/
 [Haskell Stack]: https://docs.haskellstack.org/
+[Netlify]: https://www.netlify.com/
