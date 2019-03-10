@@ -7,6 +7,7 @@ cd "$basedir"
 
 show_cache() {
     echo ========== $netlify_cachedir
+    ls -la $netlify_cachedir || true
     du -hs $netlify_cachedir || true
     du -hs $netlify_cachedir/stack $netlify_cachedir/stack-work || true
 }
