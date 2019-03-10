@@ -8,7 +8,9 @@ trap 'echo 1>&2 FAILED.; exit 1;' 0
 
 mkdir -p ~/.local/bin/
 export PATH=~/.local/bin:$PATH
-stack --version || curl -sSL https://get.haskellstack.org/ | sh
+stack --version \
+    || curl -sSL https://get.haskellstack.org/ | sh -s - -d ~/.local/bin
+
 stack upgrade
 stack build
 stack exec site build 
