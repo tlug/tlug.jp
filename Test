@@ -25,6 +25,7 @@ ls -al
 echo ========== ENV
 env
 echo ==========
+sleep 5     # Allow Netlify to finish logging
 exit 99
 
 mkdir -p ~/.local/bin/
