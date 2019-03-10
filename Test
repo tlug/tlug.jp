@@ -9,13 +9,22 @@ cd "$basedir"
 #   and builds of downloaded packages, nor .stack-work, which contains
 #   the build of this project. Since a full build takes more than the
 #   half-hour build time limit of the Netlify robot, we need to move
-#   these to some place that will be saved.
-#mkdir -p node_modules/stack node_modules/stack-work
-#ln -s node_modules/stack/ ~/.stack
-#ln -s node_modules/stack-work/ .stack-work
+#   these to some place that will be saved when we're building on
+#   Netlify. (We don't want to do this otherwise.)
+#
+if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
+    mkdir -p node_modules/stack node_modules/stack-work
+    ln -s node_modules/stack/ ~/.stack
+    ln -s node_modules/stack-work/ .stack-work
+fi
 
-ls -l ~ .
+echo ========== HOME=$HOME
+ls -al ~
+echo ========== cwd=$(/bin/pwd -P).
+ls -al
+echo ========== ENV
 env
+echo ==========
 exit 99
 
 mkdir -p ~/.local/bin/
