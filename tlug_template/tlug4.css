@@ -1,0 +1,130 @@
+body {
+	font-family: sans-serif;
+}
+
+h2 {
+	color: #D90000;
+}
+
+p.BigFirst {
+	font-family: sans-serif;
+	font-size: medium;
+}
+
+p.BigFirst:first-letter {
+	font-size: large;
+}
+
+#lang_options {
+	float: top right;
+	font-size: 12px;
+	text-align: right;
+}
+
+#top #sponsor {
+	float: top right;
+	font-size: 12px;
+	text-align: right;
+}
+
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#logo img {
+	border: 0;
+}
+
+#header {
+	color: #777;
+	font-size: 42px;
+	margin-left: 215px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+
+#menu {
+	float: left;
+	margin-top: 30px;
+	width: 200px;
+}
+
+#menu h2 {
+	color: #D90000;
+	font-weight: bold;
+	font-size: small;
+}
+
+#menu a {
+	font-size: small;
+}
+
+#menu ul {
+	margin-top: -5px;
+}
+
+#menu li {
+	list-style-type: none;
+	padding-left: -20px;
+	margin-left: -20px;
+}
+
+.search input {
+	width:130px;
+	background-color:#ffffff;
+	border:1px #666666 solid;
+	font-size: 10px;
+	color: #666666;
+	font-family: arial,sans-serif;
+}
+
+#searchgo {
+	width:35px;
+	background-color:  #D90000;
+	border:0px #ffffff solid;
+	font-size: 10px;
+	color: #ffffff;
+	font-family: arial,sans-serif;
+	font-weight:bold;
+}
+
+#mllists ul {
+	margin-top: 5px;
+}
+
+.content {
+	padding-left: 15px;
+	margin-left: 200px;
+	padding-right: 15px;
+	border-left: 1px dotted #D90000;
+}
+
+.content blockquote {
+	font-size: large;
+	color: #D90000;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: right;
+	width: 250px;
+}
+
+#footer {
+	clear: left;
+	border-top: 1px dotted #D90000;
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+}
+
+#events h4 {
+	padding-left: 10px;
+}
+#events p {
+	padding-left: 25px;
+}
