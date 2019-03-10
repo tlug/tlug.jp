@@ -13,8 +13,9 @@ cd "$basedir"
 #   Netlify. (We don't want to do this otherwise.)
 #
 if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
+    echo ===== Linking cache dirs for Netlify
     mkdir -p node_modules/stack node_modules/stack-work
-    ln -s node_modules/stack/ ~/.stack
+    ln -s "$basedir/node_modules/stack/" ~/.stack
     ln -s node_modules/stack-work/ .stack-work
 fi
 
