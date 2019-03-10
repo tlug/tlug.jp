@@ -23,6 +23,12 @@ if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
     ln -s node_modules/stack-work/ .stack-work
 fi
 
+echo ========== Creating keep files
+echo keep > node_modules/stack/KEEP || true
+echo keep > node_modules/stack-work/KEEP || true
+echo ========== node_modules/
+du -hs node_modules/ || true
+du -hs node_modules/stack node_modules/stack-work || true
 echo ========== HOME=$HOME
 ls -al ~
 echo ========== cwd=$(/bin/pwd -P).
