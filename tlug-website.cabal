@@ -1,0 +1,21 @@
+name:                tlug-website
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/0cjs/tlug-website#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Curt J. Sampson
+maintainer:          cjs@cynic.net
+copyright:            2019 Curt J. Sampson &lt;cjs@cynic.net&gt;
+category:             website
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable tlug-website
+  main-is:             site.hs
+  default-language:    Haskell2010
+  ghc-options:         -threaded
+  build-depends:       base >= 4.7 && < 5,
+                       hakyll
