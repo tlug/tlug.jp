@@ -22,7 +22,7 @@ show_cache() {
 #   /opt/build/cache/ directory for this. See:
 #     https://www.contentful.com/blog/2018/05/17/faster-static-site-builds-part-one-process-only-what-you-need/
 #
-netlify_cachedir=/opt/build/cache/.m2/
+netlify_cachedir=~/.m2/
 show_cache  # XXX
 if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
     echo ===== Linking cache dirs for Netlify
@@ -31,8 +31,8 @@ if [[ $HOME = /opt/buildhome && -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
     ln -s "$netlify_cachedir/stack-work/" .stack-work
 fi
 
-echo ========== /opt/build/cache/
-ls -la /opt/build/cache/
+#echo ========== /opt/build/cache/
+#ls -la /opt/build/cache/
 echo ========== Creating keep files
 echo keep > $netlify_cachedir/stack/KEEP || true
 echo keep > $netlify_cachedir/stack-work/KEEP || true
