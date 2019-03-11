@@ -14,8 +14,12 @@ Building
 
 #### Automatic Build
 
-`./Test` should build and test the site, installing [Haskell Stack]
-if necessary.
+`./Test` should build and test the site, installing [Haskell Stack] if
+necessary. Stack will be installed to `~/.local/bin/`, but if it
+requires OS package dependencies that you don't have installed on your
+system you may be required to respond to a sudo password prompt for
+the package installer.
+
 
 #### Manual Build
 
