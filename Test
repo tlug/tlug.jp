@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 set -e -o pipefail
+trap 'echo 1>&2 FAILED.; exit 1;' 0
 
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
-
-trap 'echo 1>&2 FAILED.; exit 1;' 0
 
 stackbin=~/.local/bin
 mkdir -p "$stackbin"
