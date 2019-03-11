@@ -1,0 +1,62 @@
+#!/bin/bash
+#
+#  git-commit-filetree - commit an arbitrary tree of files
+#                        to a branch in a git repository.
+#
+#  Version:  cjsnjr.2016-02-19.0
+#
+#  Authors:
+#    Curt J. Sampson <cjs@cynic.net>
+#    Nishant Rodrigues <nishantjr@gmail.com>
+#  Please find the latest version of this (with tests and copying rights) at:
+#    https://github.com/cjs-cynic-net/git-commit-filetree
+#
+
+set -e
+
+SUBDIRECTORY_OK=1
+. "$(git --exec-path)/git-sh-setup"
+
+index_file=$(mktemp)
+internal_error=true
+trap 'rm -f $index_file; $internal_error && err 255 "INTERNAL ERROR. FAILED!"' 0
+
+err() {
+    local exitcode="$1"; shift
+    internal_error=false
+    echo 1>&2 "$@"
+    exit $exitcode
+}
+
+branch="$1"; shift || true
+path="$1"; shift || true
+[ -z "$path" -o -n "$1" ] \
+    && err 129 "Usage: git commit-filetree <branch> <path>"
+
+# Check that we have no uncommited or unknown files.
+git diff-index --quiet HEAD \
+    || err  1 "Cannot commit with uncommited files in working copy."
+[ -z "$(git ls-files --exclude-standard --others)" ] \
+    || err  1 "Cannot commit with untracked files in working copy."
+
+ref=refs/heads/$(echo $branch | sed -e 's,^refs/heads/,,')
+git show-ref -q --verify $ref || err 128 "Invalid ref: $ref"
+
+source_sha=$(git show --quiet --pretty='format:%h')
+
+# Switch to an index separate from repo working copy.
+export GIT_INDEX_FILE=$index_file
+
+git read-tree --empty
+git --work-tree="$path" add -A
+tree_sha=$(git write-tree)
+parent_tree_sha=$(git log -1 $ref --format='%T')
+[ "$tree_sha" = "$parent_tree_sha" ] && { internal_error=false; exit 0; }
+
+commit_msg="Build from source commit $source_sha."
+commit_sha=$(echo "$commit_msg" | git commit-tree $tree_sha -p $ref)
+
+git update-ref $ref $commit_sha \
+    -m "commit-filetree: $commit_msg"
+
+internal_error=false
