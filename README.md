@@ -10,6 +10,14 @@ JS call an API on another server.
 The current developers/maintainers are Curt Sampson (`@0cjs`)
 <cjs@cynic.net> and Jim Tittsler (`@jimt`) <jimt@onjapan.net>.
 
+### Discussion Forums
+
+For real-time chat, [TLUG Gitter room] can be read on the web without
+authentication; posting messages requires authentication with a
+GitHub, GitLab or Twitter account.
+
+There is also the [TLUG mailing list], with [archives] on the web.
+
 
 Building
 --------
@@ -65,3 +73,6 @@ later what we can do about this.
 [Hakyll]: https://jaspervdj.be/hakyll/
 [Haskell Stack]: https://docs.haskellstack.org/
 [Netlify]: https://www.netlify.com/
+[TLUG Gitter room]: https://gitter.im/tlug/tlug
+[TLUG mailing list]: https://lists.tlug.jp/list.html
+[archives]: https://lists.tlug.jp/ML/index.html
