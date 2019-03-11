@@ -1,9 +1,11 @@
 tlug.jp: Tokyo Linux Users Group Website
 ========================================
 
-This is a work in progress for the new version of <https://tlug.jp>,
-the Tokyo Linux Users group website. It's intended to be statically
-generated using [Hakyll].
+This is an experimental work in progress for one possible new version
+of <https://tlug.jp>, the Tokyo Linux Users group website. It's a
+fully static site generated using [Hakyll], intended to be deployed to
+a CDN such as [Netlify]. It's possible to add dynamic elements by having
+JS call an API on another server.
 
 The current developers/maintainers are Curt Sampson (`@0cjs`)
 <cjs@cynic.net> and Jim Tittsler (`@jimt`) <jimt@onjapan.net>.
