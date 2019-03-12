@@ -2,6 +2,18 @@
 set -e -o pipefail
 trap 'echo 1>&2 FAILED.; exit 1;' 0
 
+relbranch=gh-pages
+
+die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
+
+commit_release_branch=false
+while true; do case "$1" in
+    -B)     shift; commit_release_branch=true;;
+    -*)     die 2 "Error: unknown option: '$1'";;
+    *)      break;;
+esac; done
+[[ ${#@} -eq 0 ]] || die 2 "Error: extra arguments:" "$@"
+
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
@@ -17,5 +29,10 @@ stack --version 2>/dev/null || {
 stack upgrade
 stack build
 stack exec site build 
+
+$commit_release_branch && {
+    echo "Committing built site in _site/ to $relbranch"
+    bin/git-commit-filetree "$relbranch" _site/
+}
 
 trap '' 0
