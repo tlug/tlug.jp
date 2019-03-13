@@ -18,9 +18,21 @@ install_stack() {
     }
 }
 
+setup_sastack() {
+    local sastack="$basedir/_sastack/"
+    local sabin="$sastack/.local/bin"
+    #   If this doesn't already exist, our pre-built Stack
+    #   is not installed correctly.
+    [[ -x $sabin/stack ]] \
+        || die 1 "Stand-alone _sastack/ not availble or incorrectly built"
+    export STACK_ROOT="$sastack/.stack"
+    export PATH="$sabin:$PATH"
+}
+
 commit_release_branch=false
 while true; do case "$1" in
     --branch-release)   shift; commit_release_branch=true;;
+    --netlify-test)     shift; export NETLIFY_IMAGES_CDN_DOMAIN=1;;
     -*)                 die 2 "Error: unknown option: '$1'";;
     *)                  break;;
 esac; done
@@ -29,7 +41,11 @@ esac; done
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
-install_stack
+if [[ -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
+    setup_sastack   # We're building on Netlify; use pre-built Stack/Hakyll
+else
+    install_stack
+fi
 stack upgrade
 stack build
 stack exec site build
