@@ -70,17 +70,16 @@ uncommitted changes on the current (source) branch when doing this.
 You can then push your source and build branches with `git push
 --all`. (Consider adding `--dry-run` to test this.)
 
-If you're doing staging deployments of the "master" shared repo,
-<https://github.com/tlug/tlug.jp>, please ensure you co-ordinate with
-the other developers using that repo, since everyone will be sharing
-that `gh-pages` branch. It's usually better to do staging deployments
-using your own fork repo.
+If you're doing staging deployments of the [master repo], please
+ensure you co-ordinate with the other developers using that repo,
+since everyone will be sharing that `gh-pages` branch. It's usually
+better to do staging deployments using your own fork repo.
 
 #### GitHub Pages Deployment
 
 <https://tlug.github.io/tlug.jp/> is a deployment of the `gh-pages`
-branch from the <https://github.com/tlug/tlug.jp> repo, and is updated
-automatically with new pushes to that branch.
+branch from the [master repo], and is updated automatically with new
+pushes to that branch.
 
 Anybody with a fork of the repo can also deploy to GitHub pages in
 the same way; see the [GitHub Pages] documentation for details.
@@ -107,8 +106,11 @@ on this is in progress.
 Production Deployment
 ---------------------
 
-There is currently no production deployment system, since this is
-an experimental version of the TLUG site.
+There is currently no production deployment system, since this is an
+experimental version of the TLUG site. However, it's intended that in
+the future the "master" version of the site code from which the
+production version is deployed will be the version of this repo stored
+at <https://github.com/tlug/tlug.jp>.
 
 
 
@@ -120,3 +122,4 @@ an experimental version of the TLUG site.
 [TLUG Gitter room]: https://gitter.im/tlug/tlug
 [TLUG mailing list]: https://lists.tlug.jp/list.html
 [archives]: https://lists.tlug.jp/ML/index.html
+[master repo]: https://github.com/tlug/tlug.jp
