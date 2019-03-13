@@ -86,6 +86,12 @@ Anybody with a fork of the repo can also deploy to [GitHub Pages][ghp]
 in the same way. [The documentation][ghp] has full details, but is
 missing a few important points.
 
+First, remember that even if your repo is private, the GitHub Pages
+deployed from that repo is fully public and anybody can fetch any
+contents from the `gh-pages` branch if they know the name.
+Additionally, some pages may continue to be served even after the repo
+has been deleted.
+
 After you fork the repo it may appear already to be configured for
 deployment under a [project pages][ghp-projectpg] URL, but it isn't.
 As per the documentation on [configuring a publishing
