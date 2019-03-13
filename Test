@@ -6,6 +6,18 @@ relbranch=gh-pages
 
 die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
 
+#   Install Haskell Stack if necessary and ensure it's in $PATH.
+install_stack() {
+    stackbin=~/.local/bin
+    mkdir -p "$stackbin"
+    export PATH=~/.local/bin:$PATH
+    stack --version 2>/dev/null || {
+        echo "Installing stack to $stackbin/"
+        echo "This may need to sudo to install additional OS packages."
+        curl -sSL https://get.haskellstack.org/ | sh -s - -d "$stackbin"
+    }
+}
+
 commit_release_branch=false
 while true; do case "$1" in
     --branch-release)   shift; commit_release_branch=true;;
@@ -17,15 +29,7 @@ esac; done
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
-stackbin=~/.local/bin
-mkdir -p "$stackbin"
-export PATH=~/.local/bin:$PATH
-stack --version 2>/dev/null || {
-    echo "Installing stack to $stackbin/"
-    echo "This may need to sudo to install additional OS packages."
-    curl -sSL https://get.haskellstack.org/ | sh -s - -d "$stackbin"
-}
-
+install_stack
 stack upgrade
 stack build
 stack exec site build 
