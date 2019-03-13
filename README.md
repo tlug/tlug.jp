@@ -65,11 +65,11 @@ this repo, including [GithHub Pages][ghp] (on `github.io`) and
 [Netlify].
 
 If you have a local `gh-pages` branch in your repo (usually created
-with `git checkout gh-pages`), you can pass the `-B` option to `Test`
-to do a new build and commit it to that branch. You must not have any
-uncommitted changes on the current (source) branch when doing this.
-You can then push your source and build branches with `git push
---all`. (Consider adding `--dry-run` to test this.)
+with `git checkout gh-pages`), you can pass the `--branch-release`
+option to `Test` to do a new build and commit it to that branch. You
+must not have any uncommitted changes on the current (source) branch
+when doing this. You can then push your source and build branches with
+`git push --all`. (Consider adding `--dry-run` to test this.)
 
 If you're doing staging deployments of the [master repo], please
 ensure you co-ordinate with the other developers using that repo,
