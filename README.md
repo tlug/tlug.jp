@@ -61,7 +61,8 @@ Staging Deployment
 
 Staging deployments of local builds can currently be done to any
 system that can serve the files on the `gh-pages` branch of a copy of
-this repo, including [GithHub Pages] \(on `github.io`) and [Netlify].
+this repo, including [GithHub Pages][ghp] (on `github.io`) and
+[Netlify].
 
 If you have a local `gh-pages` branch in your repo (usually created
 with `git checkout gh-pages`), you can pass the `-B` option to `Test`
@@ -81,8 +82,30 @@ better to do staging deployments using your own fork repo.
 branch from the [master repo], and is updated automatically with new
 pushes to that branch.
 
-Anybody with a fork of the repo can also deploy to GitHub pages in
-the same way; see the [GitHub Pages] documentation for details.
+Anybody with a fork of the repo can also deploy to [GitHub Pages][ghp]
+in the same way. [The documentation][ghp] has full details, but is
+missing a few important points.
+
+After you fork the repo it may appear already to be configured for
+deployment under a [project pages][ghp-projectpg] URL, but it isn't.
+As per the documentation on [configuring a publishing
+source][ghp-pubconfig] you should go to "Settings", ensure "Options"
+is selected at the left, and scroll down to the "GitHub Pages"
+section.
+
+The "Source" dropdown already says "gh-pages branch", but this seems
+to be the case even when it's not configured; you need to drop down
+the menu and select "gh-pages branch" (again) anyway. This should
+automatically save and you should then see a message at the top of
+that section saying "Your site is ready to be published at
+<http://USER.github.io/tlug.jp>>, where `USER` is your GitHub user name.
+
+You then need to commit something to the `gh-pages` branch to trigger
+deployment of the site; the easiest way to do this is to select the
+branch from the drop-down at the main page for the site (i.e., taking
+you to <https://github.com/USER/tlug.jp/tree/gh-pages>) and use the
+"Create new file" button to add an empty file with any name,
+committing it directly to the `gh-pages` branch to triger deployment.
 
 #### Netlify
 
@@ -115,11 +138,13 @@ at <https://github.com/tlug/tlug.jp>.
 
 
 <!-------------------------------------------------------------------->
-[GithHub Pages]: https://help.github.com/categories/github-pages-basics/
 [Hakyll]: https://jaspervdj.be/hakyll/
 [Haskell Stack]: https://docs.haskellstack.org/
 [Netlify]: https://www.netlify.com/
 [TLUG Gitter room]: https://gitter.im/tlug/tlug
 [TLUG mailing list]: https://lists.tlug.jp/list.html
 [archives]: https://lists.tlug.jp/ML/index.html
+[ghp-projectpg]: https://help.github.com/en/articles/user-organization-and-project-pages#project-pages-sites
+[ghp-pubconfig]: https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
+[ghp]: https://help.github.com/pages/
 [master repo]: https://github.com/tlug/tlug.jp
