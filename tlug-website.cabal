@@ -4,7 +4,7 @@ version:             0.1.0.0
 -- description:
 homepage:            https://github.com/0cjs/tlug-website#readme
 license:             BSD3
-license-file:        LICENSE
+license-file:        LICENSE.md
 author:              Curt J. Sampson
 maintainer:          cjs@cynic.net
 copyright:            2019 Curt J. Sampson &lt;cjs@cynic.net&gt;
