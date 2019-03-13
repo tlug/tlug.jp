@@ -32,7 +32,7 @@ cd "$basedir"
 install_stack
 stack upgrade
 stack build
-stack exec site build 
+stack exec site build
 
 $commit_release_branch && {
     echo "Committing built site in _site/ to $relbranch"
