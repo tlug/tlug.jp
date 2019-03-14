@@ -3,6 +3,7 @@ set -e -o pipefail
 trap 'x=$?; echo 1>&2 "FAILED ($x)."; exit $x' 0
 
 relbranch=gh-pages
+saspreload_url=file:///dev/null
 
 die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
 
@@ -18,32 +19,33 @@ install_stack() {
     }
 }
 
-setup_sastack() {
-    local sastack="$basedir/_sastack/"
-    local sabin="$sastack/.local/bin"
-    #   If this doesn't already exist, our pre-built Stack
-    #   is not installed correctly.
-    [[ -x $sabin/stack ]] \
-        || die 1 "Stand-alone _sastack/ not availble or incorrectly built"
-    export STACK_ROOT="$sastack/.stack"
-    export PATH="$sabin:$PATH"
-}
-
 commit_release_branch=false
+sasbuild=''     # Set: do build using _sastack instead of user's Stack
+saspreload=''   # Set: test preload of _sastack; implies -b
 while true; do case "$1" in
-    --branch-release)   shift; commit_release_branch=true;;
-    --netlify-test)     shift; export NETLIFY_IMAGES_CDN_DOMAIN=1;;
-    -*)                 die 2 "Error: unknown option: '$1'";;
-    *)                  break;;
+    --branch-release)       shift; commit_release_branch=true;;
+    -b|--sastack-build)     shift; sasbuild=1;;
+    -p|--sastack-preload)   shift; saspreload=1; sasbuild=1;;
+    -*)                     die 2 "Error: unknown option: '$1'";;
+    *)                      break;;
 esac; done
 [[ ${#@} -eq 0 ]] || die 2 "Error: extra arguments:" "$@"
 
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
-if [[ -n $NETLIFY_IMAGES_CDN_DOMAIN ]]; then
-    setup_sastack   # We're building on Netlify; use pre-built Stack/Hakyll
+if [[ -n $sasbuild || -x _sastack/sastack-setup ]]; then
+    #   Note we assume that build services will automatically check out
+    #   the submodule, letting sastack determine how to set up Stack.
+    eval $(
+        _sastack/sastack-setup \
+            ${sasbuild:+-b _sastack/stackroot} \
+            ${saspreload:+-p "$saspreload_url"} \
+    )
 else
+    #   The user has chosen not to check out the submodule and is not
+    #   explicitly requesting its use, so do a normal net install of
+    #   Stack (if necessary) using its default/existing configuration.
     install_stack
 fi
 stack upgrade
