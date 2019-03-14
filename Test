@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e -o pipefail
-trap 'echo 1>&2 FAILED.; exit 1;' 0
+trap 'x=$?; echo 1>&2 "FAILED ($x)."; exit $x' 0
 
 relbranch=gh-pages
 
