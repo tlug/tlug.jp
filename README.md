@@ -18,6 +18,12 @@ GitHub, GitLab or Twitter account.
 
 There is also the [TLUG mailing list], with [archives] on the web.
 
+### Site Organization and Future Development
+
+See the [ORGANIZATION.md](ORGANIZATION.md) file for information on
+the current organization of the site, organization of the previous
+site(s) and ideas for where to move forward from here.
+
 
 Building
 --------
