@@ -12,11 +12,11 @@ The current developers/maintainers are Curt Sampson (`@0cjs`)
 
 ### Discussion Forums
 
-For real-time chat, [TLUG Gitter room] can be read on the web without
-authentication; posting messages requires authentication with a
-GitHub, GitLab or Twitter account.
-
-There is also the [TLUG mailing list], with [archives] on the web.
+* [TLUG Gitter room]. Web or desktop/mobile app. Read without
+  authentication; GitHub/GitLab/Twitter authentication needed to post.
+  Full history visible to all. Private channels also available.
+* `irc:chat.freenode.net/#tlug.jp`. No history (?).
+* [TLUG mailing list]. [Archives] on the web.
 
 ### Site Organization and Future Development
 
