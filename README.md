@@ -20,9 +20,11 @@ There is also the [TLUG mailing list], with [archives] on the web.
 
 ### Site Organization and Future Development
 
-See the [ORGANIZATION.md](ORGANIZATION.md) file for information on
-the current organization of the site, organization of the previous
-site(s) and ideas for where to move forward from here.
+See the [ORGANIZATION.md](ORGANIZATION.md) file for information on the
+current organization of the site, organization of the previous site(s)
+and ideas for where to move forward from here. See also
+[PROPOSALS](PROPOSALS.md) for discussion of random ideas that we could
+implement.
 
 
 Building
@@ -59,7 +61,6 @@ locally-built site and rebuild it when the source files change:
 
 `--host` and `--port` are optional. The server will not automatically
 load or refresh pages in your browser when the site changes.
-
 
 
 Staging Deployment
@@ -129,13 +130,10 @@ but we do have staging URLs set up under personal accounts:
 - <https://tlug.netlify.com> using Jim's Netlify account.
 - <https://cjs-tlug.netlify.com>> using cjs's Netlify account.
 
-### Non-local Builds
+### Non-local Builds/Build Servers
 
-[Netlify] and other services can build and deploy the site from
-source, rather than serving a pre-built `gh-pages` branch.
-Unfortunately the current build doesn't work for that because the
-initial build exceeds the 30-minute Netlify build robot timeout; work
-on this is in progress.
+Some proof-of-concept work has been done on this. See
+[PROPOSALS](PROPOSALS.md) for more details.
 
 
 Production Deployment
@@ -150,13 +148,15 @@ at <https://github.com/tlug/tlug.jp>.
 
 
 <!-------------------------------------------------------------------->
-[Hakyll]: https://jaspervdj.be/hakyll/
-[Haskell Stack]: https://docs.haskellstack.org/
-[Netlify]: https://www.netlify.com/
 [TLUG Gitter room]: https://gitter.im/tlug/tlug
 [TLUG mailing list]: https://lists.tlug.jp/list.html
 [archives]: https://lists.tlug.jp/ML/index.html
+[master repo]: https://github.com/tlug/tlug.jp
+
+[Hakyll]: https://jaspervdj.be/hakyll/
+[Haskell Stack]: https://docs.haskellstack.org/
+
+[Netlify]: https://www.netlify.com/
 [ghp-projectpg]: https://help.github.com/en/articles/user-organization-and-project-pages#project-pages-sites
 [ghp-pubconfig]: https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
 [ghp]: https://help.github.com/pages/
-[master repo]: https://github.com/tlug/tlug.jp
