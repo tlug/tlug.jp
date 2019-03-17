@@ -43,6 +43,11 @@ Our old system runs on two servers:
 - `kirakira.tlug.jp` (`202.224.46.216`) for `lists.tlug.jp`, running
   the Mailman web interface and serving the mail archives.
 
+Sources of information include:
+- [Special:Version] gives version information for our server software.
+  It's all circa 2006: MediaWiki 1.8.2, PHP 5.1.6 and MySQL 5.0.95-log.
+- [TlugAdmin:StartPage] links to various admin-related information.
+
 ### Akari Static Assets ("docroot")
 
 The docroot for `akari` contains the code for the current site and
@@ -53,7 +58,9 @@ redirects in the Apache configuration (e.g., [`/meetings.php`]).
 We need to go through all of this and figure out what parts we want
 to migrate to the new site.
 
-Here are the components we've currently identified:
+Following are the components we've currently identified. For content
+in the wiki, [Special:Allpages] and [Special:Specialpages] are
+probably helpful here.
 
 - Top pages (Japanese and English):
   - `/index.html`, `/index.jp.html`
@@ -66,6 +73,7 @@ Here are the components we've currently identified:
   - Additional static content files (images, presentation slides,
     etc.) under `/meetings/`.
 - Non-meeting Wiki Pages
+  - User pages
 - Old site content that is still linked, e.g., `/docs.php`.
 - Other Static Content?
 
@@ -113,6 +121,10 @@ should only issue redirects to `www.tlug.jp`.
 
 <!-------------------------------------------------------------------->
 [Meetings:Locations:Yoga:Sun]: http://www.tlug.jp/wiki/Meetings:Locations:Yoga:Sun
+[Special:Allpages]: http://tlug.jp/wiki/Special:Allpages
+[Special:Specialpages]: http://tlug.jp/wiki/Special:Specialpages
+[Special:Version]: http://tlug.jp/wiki/Special:Version
+[TlugAdmin:StartPage]: http://tlug.jp/wiki/TlugAdmin:StartPage
 [`/meeting.php`]: https://www.tlug.jp/meeting.php
 [`/meetings.php`]: https://www.tlug.jp/meetings.php
 [akari.tlug.jp]: https://github.com/jimt/akari.tlug.jp
