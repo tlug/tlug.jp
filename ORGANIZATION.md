@@ -43,7 +43,7 @@ Our old system runs on two servers:
 - `kirakira.tlug.jp` (`202.224.46.216`) for `lists.tlug.jp`, running
   the Mailman web interface and serving the mail archives.
 
-### Akari Static Assets ("docroot") 
+### Akari Static Assets ("docroot")
 
 The docroot for `akari` contains the code for the current site and
 several older versions of the site, as well as various backup copies
