@@ -7,8 +7,10 @@ fully static site generated using [Hakyll], intended to be deployed to
 a CDN such as [Netlify]. It's possible to add dynamic elements by having
 JS call an API on another server.
 
-The current developers/maintainers are Curt Sampson (`@0cjs`)
-<cjs@cynic.net> and Jim Tittsler (`@jimt`) <jimt@onjapan.net>.
+The current developers/maintainers are:
+- Curt Sampson (`@0cjs`) <cjs@cynic.net>
+- Jim Tittsler (`@jimt`) <jimt@onjapan.net>
+- `@sssjjjnnn`
 
 ### Discussion Forums
 
