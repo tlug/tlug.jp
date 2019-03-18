@@ -26,56 +26,58 @@ main = hakyll $ do
     -- initial project template. We're keeping this here as an example
     -- until we've extracted everything we need from it.
 
-    match "images/*" $ do
+    match "example/images/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "example/css/*" $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["example/about.rst", "example/contact.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate
+                "example/templates/default.html" defaultContext
             >>= relativizeUrls
 
-    match "posts/*" $ do
+    match "example/posts/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "example/templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "example/templates/default.html" postCtx
             >>= relativizeUrls
 
-    create ["archive.html"] $ do
+    create ["example/archive.html"] $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll "example/posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Archives"            `mappend`
                     defaultContext
-
             makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= loadAndApplyTemplate
+                    "example/templates/archive.html" archiveCtx
+                >>= loadAndApplyTemplate
+                    "example/templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    match "blog-index.html" $ do
+    match "example/index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll "example/posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Home"                `mappend`
                     defaultContext
-
             getResourceBody
                 >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= loadAndApplyTemplate
+                    "example/templates/default.html" indexCtx
                 >>= relativizeUrls
 
-    match "templates/*" $ compile templateCompiler
+    match "example/templates/*" $ compile templateCompiler
 
 
 --------------------------------------------------------------------------------
