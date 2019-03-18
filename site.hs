@@ -2,24 +2,17 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
+import           System.FilePath (joinPath, splitPath)
 
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
 
-    match "index.html" $ do
-        route idRoute
-        compile copyFileCompiler
-
-    match "index.ja.html" $ do
-        route idRoute
-        compile copyFileCompiler
-
-    -- This is the path used for CSS, images, etc. on the old site;
-    -- we should probably tidy this up.
-    match "tlug_template/*" $ do
-        route   idRoute
+    -- All our "just serve these files" content.
+    -- Much may be stuff we should build from nicer source, but don't.
+    match "docroot/**" $ do
+        route   dropInitialComponent
         compile copyFileCompiler
 
     -- The rest of this is the sample code for a blog site from the
@@ -81,8 +74,18 @@ main = hakyll $ do
 
 
 --------------------------------------------------------------------------------
+
+-- Drop the given number of leading path components
+dropInitialComponents :: Int -> Routes
+dropInitialComponents n = customRoute $
+    joinPath . drop n . splitPath . toFilePath
+
+dropInitialComponent = dropInitialComponents 1
+
+--------------------------------------------------------------------------------
+-- Also sample blog site code
+
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
-
