@@ -19,10 +19,6 @@ Currently the top directory of this new site contains:
 - Work out details of `tlug.jp` → `www.tlug.jp` redirect (see below).
 - Look through the current site logs for incoming deep links that we should
   consider maintaining.
-- Remove the sample content, noting in the README how to go back to look at
-  it as an example.
-- Move all site content to subdirectories, perhaps with some thought as to
-  the overall site format.
 - Sort out what CSS is used by which parts of the old site (in particular
   the top page and MediaWiki pages), and consolidate this into a single CSS
   file or set of files used everywhere in the new site.
