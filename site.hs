@@ -7,6 +7,25 @@ import           Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
+
+    match "index.html" $ do
+        route idRoute
+        compile copyFileCompiler
+
+    match "index.ja.html" $ do
+        route idRoute
+        compile copyFileCompiler
+
+    -- This is the path used for CSS, images, etc. on the old site;
+    -- we should probably tidy this up.
+    match "tlug_template/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    -- The rest of this is the sample code for a blog site from the
+    -- initial project template. We're keeping this here as an example
+    -- until we've extracted everything we need from it.
+
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -14,12 +33,6 @@ main = hakyll $ do
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
-
-    -- This is the path used for CSS, images, etc. on the old site;
-    -- we should probably tidy this up.
-    match "tlug_template/*" $ do
-        route   idRoute
-        compile copyFileCompiler
 
     match (fromList ["about.rst", "contact.markdown"]) $ do
         route   $ setExtension "html"
@@ -48,16 +61,6 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    match "index.html" $ do
-        route idRoute
-        compile copyFileCompiler
-
-    match "index.ja.html" $ do
-        route idRoute
-        compile copyFileCompiler
-
-    -- This is the top page for the blog sample code, kept here as
-    -- an example until we've extracted everything we need from it.
     match "blog-index.html" $ do
         route idRoute
         compile $ do
