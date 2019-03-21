@@ -7,8 +7,20 @@ relbranch=gh-pages
 die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
 
 #   Install Haskell Stack if necessary and ensure it's in $PATH.
-install_stack() {
-    stackbin=~/.local/bin
+install_or_upgrade_stack() {
+    #   Don't try to upgrade a non-clean build more than once per hour.
+    local ts_file="$basedir/.stack-work/stack-upgrade-timestamp"
+    local ts=$(stat --format "%Y" "$ts_file" 2>/dev/null)
+    : ts=${ts:=0}
+    local age=$(( $(date '+%s') - $ts))
+    [[ $age -lt 3600 ]] && return 0     # Don't check more than once per hour.
+
+    mkdir -p "$(dirname "$ts_file")"
+    touch "$ts_file"
+
+    stack upgrade && return 0
+
+    local stackbin=~/.local/bin
     mkdir -p "$stackbin"
     export PATH=~/.local/bin:$PATH
     stack --version 2>/dev/null || {
@@ -41,8 +53,7 @@ esac; done
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
-install_stack
-stack upgrade
+install_or_upgrade_stack
 stack build
 #   `site build` does an incremental build that assumes that the site
 #   compiler hasn't changed. We need `rebuild` in case it has. (An
