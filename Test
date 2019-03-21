@@ -18,14 +18,25 @@ install_stack() {
     }
 }
 
+usage() {
+    local errmsg="$@"
+    [[ -n $errmsg ]] && echo 1>&2 "Argument error: $errmsg"
+    echo 1>&2 "Usage: $(basename "$0") [options]"
+    echo 1>&2 "Options:"
+    echo 1>&2 "  -C  clean build (cleans this project, not Stack dependencies)"
+    echo 1>&2 "  --branch-release  commit built site to gh-pages branch"
+    exit 2
+}
+
 commit_release_branch=false
 while true; do case "$1" in
     -C)                 shift; git clean -fdx;;
     --branch-release)   shift; commit_release_branch=true;;
-    -*)                 die 2 "Error: unknown option: '$1'";;
+    -h|--help)          shift; usage;;
+    -*)                 usage "unknown option: '$1'";;
     *)                  break;;
 esac; done
-[[ ${#@} -eq 0 ]] || die 2 "Error: extra arguments:" "$@"
+[[ ${#@} -eq 0 ]] || usage "extra arguments:" "$@"
 
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
