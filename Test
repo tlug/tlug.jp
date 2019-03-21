@@ -33,13 +33,11 @@ cd "$basedir"
 install_stack
 stack upgrade
 stack build
-#   A rebuilt site compiler doesn't know how it's been changed, and so
-#   doesn't know what parts of the site need to be rebuilt. So just
-#   rebuild everything; most of the time is site compiler startup
-#   anyway. If you're only changing site content, you probably want to
-#   be using `stack exec site watch`.
-rm -rf _cache _site
-stack exec site build
+#   `site build` does an incremental build that assumes that the site
+#   compiler hasn't changed. We need `rebuild` in case it has. (An
+#   optimization would be to detect whether the site compiler has
+#   changed or not.)
+stack exec site rebuild
 
 $commit_release_branch && {
     echo "Committing built site in _site/ to $relbranch"
