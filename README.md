@@ -28,6 +28,10 @@ and ideas for where to move forward from here. See also
 [Proposals](Proposals.md) for discussion of random ideas that we could
 implement.
 
+The [Hakyll](Hakyll.md) file documents random things about hacking on
+the site compiler itself (`site.hs`). You can safely skip this if
+you're just working on site content.
+
 
 Building
 --------
