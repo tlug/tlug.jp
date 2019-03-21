@@ -2,10 +2,30 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
-import           System.FilePath (joinPath, splitPath)
-
+import           System.FilePath (joinPath, splitPath, replaceExtension)
+import           Text.Pandoc (Pandoc, ReaderOptions, runPure, readMediaWiki)
+import           Data.Text as DT (pack)
 
 --------------------------------------------------------------------------------
+
+mediawikiCompiler :: Compiler (Item String)
+mediawikiCompiler =
+     do markup <- getResourceBody
+        pandoc <- read defaultHakyllReaderOptions markup
+        return $ writePandoc pandoc
+    where
+        ropt = defaultHakyllReaderOptions
+        -- This is a copy of Hakyll.Web.Pandoc.readPandocWith the first
+        -- argument to `traverse` replaced with `readMediaWiki ropt`
+        -- because the original function is hardcoded to select the Pandoc
+        -- read function based on the source file extension, which our
+        -- source files do not have.
+        read :: ReaderOptions -> Item String -> Compiler (Item Pandoc)
+        read ropt item =
+            case runPure $ traverse (readMediaWiki ropt) (fmap DT.pack item) of
+                 Left err    -> fail $ "MediaWiki parse failed: " ++ show err
+                 Right item' -> return item'
+
 main :: IO ()
 main = hakyll $ do
 
@@ -14,6 +34,12 @@ main = hakyll $ do
     match "docroot/**" $ do
         route   dropInitialComponent
         compile copyFileCompiler
+
+    match "wiki/*" $ do
+        route   idRoute     -- No extension; netlify config serves as text/html
+        compile $ do
+            -- pandocCompiler
+            mediawikiCompiler
 
     -- The rest of this is the sample code for a blog site from the
     -- initial project template. We're keeping this here as an example
