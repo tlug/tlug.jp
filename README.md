@@ -25,7 +25,7 @@ The current developers/maintainers are:
 See the [ORGANIZATION](ORGANIZATION.md) file for information on the
 current organization of the site, organization of the previous site(s)
 and ideas for where to move forward from here. See also
-[PROPOSALS](PROPOSALS.md) for discussion of random ideas that we could
+[Proposals](Proposals.md) for discussion of random ideas that we could
 implement.
 
 
