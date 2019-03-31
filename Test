@@ -8,6 +8,8 @@ die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
 
 #   Install Haskell Stack if necessary and ensure it's in $PATH.
 install_or_upgrade_stack() {
+    export PATH=$PATH:~/.local/bin
+
     #   Don't try to upgrade a non-clean build more than once per hour.
     local ts_file="$basedir/.stack-work/stack-upgrade-timestamp"
     local ts=$(stat --format "%Y" "$ts_file" 2>/dev/null)
@@ -22,7 +24,6 @@ install_or_upgrade_stack() {
 
     local stackbin=~/.local/bin
     mkdir -p "$stackbin"
-    export PATH=~/.local/bin:$PATH
     stack --version 2>/dev/null || {
         echo "Installing stack to $stackbin/"
         echo "This may need to sudo to install additional OS packages."
