@@ -1,19 +1,30 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE QuasiQuotes #-}
 import           Data.Monoid (mappend)
 import           Hakyll
 import           System.FilePath (joinPath, splitPath, replaceExtension)
 import           Text.Pandoc (Pandoc, ReaderOptions, runPure, readMediaWiki)
 import           Data.Text as DT (pack)
+import           Text.RE.Replace
+import           Text.RE.TDFA.String
 
 --------------------------------------------------------------------------------
 
 mediawikiCompiler :: Compiler (Item String)
 mediawikiCompiler =
      do markup <- getResourceBody
-        pandoc <- read defaultHakyllReaderOptions markup
+        subst  <- substTemplate markup
+        pandoc <- read defaultHakyllReaderOptions subst
         return $ writePandoc pandoc
     where
+        templateLink :: String -> String
+        templateLink s =
+            Text.RE.Replace.replaceAll
+                "[[./Template:$1.html|Template $1 Params $2]]"
+                $ s *=~ [re|{{$([^|\]*)$(\|.*)?}}|]
+        substTemplate :: (Item String) -> Compiler (Item String)
+        substTemplate item = return (fmap templateLink item)
         ropt = defaultHakyllReaderOptions
         -- This is a copy of Hakyll.Web.Pandoc.readPandocWith the first
         -- argument to `traverse` replaced with `readMediaWiki ropt`
