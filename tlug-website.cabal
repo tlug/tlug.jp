@@ -1,13 +1,12 @@
 name:                   tlug-website
-version:                0.1.0.0
--- synopsis:
--- description:
-homepage:               https://github.com/0cjs/tlug-website#readme
-license:                BSD3
+version:                0.0.0.0
+synopsis:               The Tokyo Linux Users' Group Website
+homepage:               https://github.com/tlug/tlug.jp#readme
+license:                OtherLicense
 license-file:           LICENSE.md
-author:                 Curt J. Sampson
-maintainer:             cjs@cynic.net
-copyright:              2019 Curt J. Sampson &lt;cjs@cynic.net&gt;
+author:                 Curt J. Sampson et al.
+maintainer:             https://github.com/tlug/tlug.jp/issues
+copyright:              2019 Curt J. Sampson et al.
 category:               website
 build-type:             Simple
 extra-source-files:     README.md
