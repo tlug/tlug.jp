@@ -1,8 +1,9 @@
+cabal-version:          2.2
 name:                   tlug-website
 version:                0.0.0.0
 synopsis:               The Tokyo Linux Users' Group Website
 homepage:               https://github.com/tlug/tlug.jp#readme
-license:                OtherLicense
+license:                CC-BY-4.0
 license-file:           LICENSE.md
 author:                 Curt J. Sampson et al.
 maintainer:             https://github.com/tlug/tlug.jp/issues
@@ -10,7 +11,6 @@ copyright:              2019 Curt J. Sampson et al.
 category:               website
 build-type:             Simple
 extra-source-files:     README.md
-cabal-version:          >=1.10
 
 executable site
     main-is:            site.hs
