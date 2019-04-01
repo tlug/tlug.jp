@@ -19,6 +19,6 @@ common deps
                         hakyll,
                         filepath
 
-executable site
+executable site-compiler
     import:             deps
-    main-is:            site.hs
+    main-is:            app/SiteCompiler.hs

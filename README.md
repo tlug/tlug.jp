@@ -29,8 +29,8 @@ and ideas for where to move forward from here. See also
 implement.
 
 The [Hakyll](Hakyll.md) file documents random things about hacking on
-the site compiler itself (`site.hs`). You can safely skip this if
-you're just working on site content.
+the site compiler itself (`app/SiteCompiler.hs`). You can safely skip
+this if you're just working on site content.
 
 
 Building
@@ -56,14 +56,14 @@ does a build, test and optional release. The steps it performs are:
    with:
 
        stack build --test
-       stack exec site build
+       stack exec site-compiler build
 
 3. Run tests (of which we currently have none).
 
 Hakyll also includes a preview server that will serve the
 locally-built site and rebuild it when the source files change:
 
-    stack exec site watch -- --host HOST --port PORT
+    stack exec site-compiler watch -- --host HOST --port PORT
 
 `--host` and `--port` are optional. The server will not automatically
 load or refresh pages in your browser when the site changes.

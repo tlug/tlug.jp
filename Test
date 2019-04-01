@@ -36,7 +36,7 @@ usage() {
     echo 1>&2 "Usage: $(basename "$0") [options]"
     echo 1>&2 "Options:"
     echo 1>&2 "  -C  clean build (cleans this project, not Stack dependencies)"
-    echo 1>&2 "  --branch-release  commit built site to gh-pages branch"
+    echo 1>&2 "  --branch-release  commit compiled site to gh-pages branch"
     exit 2
 }
 
@@ -55,14 +55,14 @@ cd "$basedir"
 
 install_or_upgrade_stack
 stack build
-#   `site build` does an incremental build that assumes that the site
-#   compiler hasn't changed. We need `rebuild` in case it has. (An
-#   optimization would be to detect whether the site compiler has
-#   changed or not.)
-stack exec site rebuild
+#   `site-compiler build` does an incremental build that assumes that
+#   the site compiler hasn't changed. We need `rebuild` in case it
+#   has. (An optimization would be to detect whether the site compiler
+#   has changed or not.)
+stack exec site-compiler rebuild
 
 $commit_release_branch && {
-    echo "Committing built site in _site/ to $relbranch"
+    echo "Committing compiled site in _site/ to $relbranch"
     bin/git-commit-filetree "$relbranch" _site/
 }
 
