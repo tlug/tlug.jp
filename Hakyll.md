@@ -42,6 +42,19 @@ Routes
 Compilers
 ---------
 
+A compiler is a function run in the `Compiler` monad that does
+transformations on the data from source files, producing one or more
+output files for the release. New compiler functions may be built from
+sequences of existing compiler functions.
+
+Commonly used compilers are `copyFileCompiler` (straight copy of
+source to output) and `pandocCompiler` and `loadAndApplyTemplate`
+(often used together in sequence).
+
+It's often convenient to use the `pandoc` command line tool to test
+what Pandoc will do with specific input. This can be installed locally
+with `stack install pandoc`.
+
 ### Metadata
 
 YAML metadata in files appears to be handled by Pandoc, not by Hakyll.
