@@ -26,4 +26,7 @@ executable site-compiler
 test-suite test
     import:             deps
     type:               exitcode-stdio-1.0
-    main-is:            app/Test.hs
+    main-is:            ../app/Test.hs
+    build-depends:      HTF
+    hs-source-dirs:     src/
+    other-modules:      TLUG.Hello, TLUG.HelloTest

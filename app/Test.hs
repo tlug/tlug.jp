@@ -1,7 +1,9 @@
-import System.Exit (exitFailure, exitSuccess)
+{-# OPTIONS_GHC -F -pgmF htfpp #-}
+
+module Main where
+
+import Test.Framework
+import {-@ HTF_TESTS @-} TLUG.HelloTest
 
 main :: IO ()
-main =
-     do putStrLn "Write some tests!"
-        --exitFailure     -- uncomment for testing
-        exitSuccess
+main = htfMain htf_importedTests
