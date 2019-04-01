@@ -42,7 +42,7 @@ usage() {
 
 commit_release_branch=false
 while true; do case "$1" in
-    -C)                 shift; git clean -fdx;;
+    -C)                 shift; git clean -fdX;;
     --branch-release)   shift; commit_release_branch=true;;
     -h|--help)          shift; usage;;
     -*)                 usage "unknown option: '$1'";;
