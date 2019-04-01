@@ -54,7 +54,7 @@ basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
 install_or_upgrade_stack
-stack build
+stack build --test
 #   `site-compiler build` does an incremental build that assumes that
 #   the site compiler hasn't changed. We need `rebuild` in case it
 #   has. (An optimization would be to detect whether the site compiler

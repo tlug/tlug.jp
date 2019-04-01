@@ -22,3 +22,8 @@ common deps
 executable site-compiler
     import:             deps
     main-is:            app/SiteCompiler.hs
+
+test-suite test
+    import:             deps
+    type:               exitcode-stdio-1.0
+    main-is:            app/Test.hs
