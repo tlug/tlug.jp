@@ -30,3 +30,4 @@ test-suite test
     build-depends:      HTF
     hs-source-dirs:     src/
     other-modules:      TLUG.Hello, TLUG.HelloTest
+                      , TLUG.MediaWiki, TLUG.MediaWikiTest
