@@ -4,12 +4,8 @@ TLUG Site Organization
 New Design
 ----------
 
-Currently the top directory of this new site contains:
-- Configuration and support files (`README.md`, `stack.yaml`, `site.hs`).
-- Sample content (for a blog site) from the Hakyll template initially used
-  to generate this.
-- Site content migrated from the old TLUG site (`index.html`,
-  `tlug_template/tlug4.css` etc.)
+See the following sections for an overview of the directories and
+files in this repository.
 
 ### To-do Ideas
 
@@ -24,6 +20,36 @@ Currently the top directory of this new site contains:
   file or set of files used everywhere in the new site.
 - Consider creating a "historical curiousities" area of the site to dump
   old content without too much reformatting work.
+
+
+Repository Organization
+-----------------------
+
+The repository contains the following directories and files:
+- `*.md`: Documentation, such as `README.md` and this document.
+- `Test`: A script that builds and tests everything and compiles the site.
+- `bin/`: Tools used as part of the build and/or deploy process.
+- `app/`, `src/`: Haskell source code and tests for the site compiler.
+  - `src/` is code shared amongst all programs we build
+  - `app/SiteCompiler.hs` is the main module for `site-compiler`.
+  - `app/Test.hs` is the main module for the unit test runner.
+- `docroot/`: Static files copied directly to the compiled site.
+- `example/`: Files for the example blog site for Hakyll.
+- `wiki/`: MediaWiki markup source for pages from the old wiki.
+- `stack.yaml`: Haskell Stack configuration.
+- `tlug-website.cabal`: Build configuration for this project.
+
+In addition, the following will appear as part of the build process:
+- `_site/`: The output directory for the compiled site.
+- `_cache/`: Cached information to speed the site compiler.
+- `.stack-work/`: Haskell Stack's output dir for programs, object files, etc.
+- `.HTF/`: Cache for the Haskell Test Framework.
+
+The `docroot/` currently contains only a bit of content copied from
+the old site, enough to display the home page.
+
+The `wiki/` directory is currently empty, but has some pages on
+development branches where we're working on the code to render them.
 
 
 Previous Site(s)
