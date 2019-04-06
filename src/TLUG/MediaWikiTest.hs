@@ -5,6 +5,15 @@ module TLUG.MediaWikiTest (htf_thisModulesTests) where
 import Test.Framework
 import TLUG.MediaWiki
 
+test_runparser = do
+    assertEqual 'x' (runParser char "x")
+
+test_readNothing = do
+    assertEqual 17 (runParser readNothingGiveInt "")
+
+test_parsePage = do
+    assertEqual [Markup "abc"] (parsePage "abc")
+
 test_parse = do
      assertEqual [Markup "abc"] (parsePage "abc")
      assertEqual [ Markup "hello"

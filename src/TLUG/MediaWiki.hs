@@ -35,8 +35,8 @@
 module TLUG.MediaWiki
     ( Page, Chunk(..)
     , parsePage
+    , runParser, char, readNothingGiveInt,
     ) where
-
 
 type Page = [Chunk]
 
@@ -50,7 +50,62 @@ data Chunk
     deriving (Show, Eq)
 
 parsePage :: String -> Page
-parsePage s = parseMarkup [] s
+parsePage s = runParser chunks s
+
+data ParserState = ParserState
+    { remaining :: String
+    }
+newtype Parser a = Parser (ParserState -> (a, ParserState))
+
+instance Functor Parser where
+    -- fmap :: (a -> b) -> Parser a -> Parser b
+    fmap = error "Implement fmap!"
+instance Applicative Parser where
+    -- pure :: a -> Parser a
+    pure x = Parser $ \state -> (x, state)
+    -- Parser (a -> b) -> Parser a -> Parser b
+    (<*>) = error "Implement <*>!"
+instance Monad Parser where
+    -- Parser a -> (a -> Parser b) -> Parser b
+    --   Is above type correct?
+    --   Below, where do we get an `a` to feed to `f`?
+    --   And how do we get the `b` out to return?
+    -- (Parser pf) >>= f = Parser $ \state -> (?b?, state)
+    (>>=) = error "Write (>>=)!"
+
+    -- (>>) :: Parser a -> Parser b -> Parser b
+
+runParser :: Parser a -> String -> a
+runParser (Parser f) s =
+    case f (ParserState s) of
+        (x, ParserState "")  -> x
+        otherwise            -> error "Incomplete parse"
+
+-- Just for a test? Maybe we don't really need this.
+char :: Parser Char
+char = Parser (\state ->
+            case (remaining state) of
+                ""       -> error "Unexpected EOF!"
+                (c:cs)   -> (c, ParserState cs)
+              )
+
+readNothingGiveInt :: Parser Int
+readNothingGiveInt = return 17
+
+chunks :: Parser [Chunk]
+chunks = do
+    nthng <- nothing
+    chunks <- many chunk
+    return chunks
+
+nothing :: Parser ()
+nothing = return ()
+
+many :: Parser a -> Parser [a]
+many = undefined
+
+chunk :: Parser Chunk
+chunk = undefined
 
 type MarkupAcc = String
 type Remainder = String
