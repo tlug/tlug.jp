@@ -7,7 +7,12 @@ import TLUG.MediaWiki
 
 test_parse = do
      assertEqual [Markup "abc"] (parsePage "abc")
-     assertEqual [Markup "hello", Transclude "ThisIsATransclude" [], Markup "goodbye"]
-         (parsePage "hello{{ThisIsATransclude|param1|param2=hi}}goodbye")
-     assertEqual [Markup "hello", Transclude "hi" []]
-         (parsePage "hello{{hi")
+     assertEqual [ Markup "hello"
+                 , Transclude "TranscludeName" [("", "value1"), ("",""), ("name2", "value2")]
+                 , Markup "goodbye"
+                 ]
+         (parsePage "hello{{TranscludeName|value1||name2=value2}}goodbye")
+     assertEqual [Markup "hello", Transclude "hi" [("", "bye"), ("","")]]
+         (parsePage "hello{{hi|bye|")
+     assertEqual [Markup "hello"]
+         (parsePage "hello{{")
