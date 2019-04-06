@@ -64,4 +64,6 @@ parseMarkup acc rem = parseMarkup' acc rem
         unaccumulate acc = Markup $ reverse acc
 
 parseTransclude :: Remainder -> [Chunk]
-parseTransclude xs = []
+parseTransclude ('}':'}':xs) = Transclude "" [] : parseMarkup "" xs
+parseTransclude (x:xs) = parseTransclude xs
+parseTransclude [] = [Transclude "" []]
