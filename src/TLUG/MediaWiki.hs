@@ -59,11 +59,19 @@ parseMarkup acc rem = parseMarkup' acc rem
     where
         parseMarkup' :: MarkupAcc -> Remainder -> [Chunk]
         parseMarkup' acc [] = [unaccumulate acc]
-        parseMarkup' acc ('{':'{':xs) = unaccumulate acc : parseTransclude xs
+        parseMarkup' acc ('{':'{':xs) = unaccumulate acc : parseTransclude "" xs
         parseMarkup' acc (x:xs) = parseMarkup' (x:acc) xs
         unaccumulate acc = Markup $ reverse acc
 
-parseTransclude :: Remainder -> [Chunk]
-parseTransclude ('}':'}':xs) = Transclude "" [] : parseMarkup "" xs
-parseTransclude (x:xs) = parseTransclude xs
-parseTransclude [] = [Transclude "" []]
+parseTransclude :: String -> Remainder -> [Chunk]
+parseTransclude acc ('}':'}':xs) = Transclude (reverse acc) [] : parseMarkup "" xs
+parseTransclude acc ('|':xs) =
+    let (args,remainder) = parseTranscludeArgs xs
+     in Transclude (reverse acc) args : remainder
+parseTransclude acc (x:xs) = parseTransclude (x:acc) xs
+parseTransclude acc [] = [Transclude (reverse acc) []]
+
+parseTranscludeArgs :: Remainder -> ([String], [Chunk])
+parseTranscludeArgs ('}':'}':xs) = ([], parseMarkup "" xs)
+parseTranscludeArgs (x:xs) = parseTranscludeArgs xs
+parseTranscludeArgs [] = ([], [])
