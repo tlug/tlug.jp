@@ -49,11 +49,19 @@ data Chunk
     deriving (Show, Eq)
 
 parsePage :: String -> Page
-parsePage s = parse [] s
+parsePage s = parseMarkup [] s
 
-type Accum = String
+type MarkupAcc = String
 type Remainder = String
 
-parse :: Accum -> Remainder -> [Chunk]
-parse acc "" = [Markup $ reverse acc]
-parse acc (x:xs) = parse (x:acc) xs
+parseMarkup :: MarkupAcc -> Remainder -> [Chunk]
+parseMarkup acc rem = parseMarkup' acc rem
+    where
+        parseMarkup' :: MarkupAcc -> Remainder -> [Chunk]
+        parseMarkup' acc [] = [unaccumulate acc]
+        parseMarkup' acc ('{':'{':xs) = unaccumulate acc : parseTransclude xs
+        parseMarkup' acc (x:xs) = parseMarkup' (x:acc) xs
+        unaccumulate acc = Markup $ reverse acc
+
+parseTransclude :: Remainder -> [Chunk]
+parseTransclude xs = []
