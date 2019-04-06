@@ -40,11 +40,12 @@ module TLUG.MediaWiki
 
 type Page = [Chunk]
 
+type ParamList = [(String,String)]
 data Chunk
     = Markup String
     | Transclude
       { pageName :: String
-      , params   :: [String]
+      , params   :: ParamList
       }
     deriving (Show, Eq)
 
@@ -71,7 +72,7 @@ parseTransclude acc ('|':xs) =
 parseTransclude acc (x:xs) = parseTransclude (x:acc) xs
 parseTransclude acc [] = [Transclude (reverse acc) []]
 
-parseTranscludeArgs :: Remainder -> ([String], [Chunk])
+parseTranscludeArgs :: Remainder -> (ParamList, [Chunk])
 parseTranscludeArgs ('}':'}':xs) = ([], parseMarkup "" xs)
 parseTranscludeArgs (x:xs) = parseTranscludeArgs xs
 parseTranscludeArgs [] = ([], [])
