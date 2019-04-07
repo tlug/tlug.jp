@@ -77,14 +77,11 @@ instance Applicative Parser where
         )
 
 instance Monad Parser where
-    -- Parser a -> (a -> Parser b) -> Parser b
-    --   Is above type correct?
-    --   Below, where do we get an `a` to feed to `f`?
-    --   And how do we get the `b` out to return?
-    -- (Parser pf) >>= f = Parser $ \state -> (?b?, state)
-    (>>=) = error "Write (>>=)!"
-
-    -- (>>) :: Parser a -> Parser b -> Parser b
+    -- (>>=) :: Parser a -> (a -> Parser b) -> Parser b
+    (>>=) aParser a2bFunc = Parser (
+        \aState -> let (aResult, bState) = doParse aParser aState in
+            doParse (a2bFunc aResult) bState
+        )
 
 runParser :: Parser a -> String -> a
 runParser (Parser f) s =
