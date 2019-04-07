@@ -25,6 +25,14 @@ test_parserApp = do
 test_parserApp2 = do
     assertEqual ('a','y') (runParser (liftA2 (\a b -> (a,b)) char char) "ay")
 
+test_parserMonad = do
+    assertEqual ('a','y') (runParser (do
+                                             a <- char
+                                             b <- char
+                                             return (a,b)
+                                     )
+                           "ay")
+
 {-
 test_parsePage = do
     assertEqual [Markup "abc"] (parsePage "abc")
