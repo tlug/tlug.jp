@@ -55,15 +55,12 @@ parsePage s = runParser chunks s
 data ParserState = ParserState
     { remaining :: String
     }
-newtype Parser a = Parser (ParserState -> (a, ParserState))
-
-doParse :: Parser a -> ParserState -> (a, ParserState)
-doParse (Parser f) s = f s
+newtype Parser a = Parser { unParser :: (ParserState -> (a, ParserState)) }
 
 instance Functor Parser where
     -- fmap :: (a -> b) -> Parser a -> Parser b
     fmap abFunc aParser = Parser (
-        \aState -> let (aResult, bState) = doParse aParser aState in
+        \aState -> let (aResult, bState) = unParser aParser aState in
             (abFunc aResult, bState)
         )
 
@@ -72,15 +69,15 @@ instance Applicative Parser where
     pure x = Parser $ \state -> (x, state)
     -- <*> :: Parser (a -> b) -> Parser a -> Parser b
     (<*>) abParser aParser = Parser (
-        \aState -> let (abFunc, bState) = doParse abParser aState in
-            doParse (fmap abFunc aParser) bState
+        \aState -> let (abFunc, bState) = unParser abParser aState in
+            unParser (fmap abFunc aParser) bState
         )
 
 instance Monad Parser where
     -- (>>=) :: Parser a -> (a -> Parser b) -> Parser b
     (>>=) aParser a2bFunc = Parser (
-        \aState -> let (aResult, bState) = doParse aParser aState in
-            doParse (a2bFunc aResult) bState
+        \aState -> let (aResult, bState) = unParser aParser aState in
+            unParser (a2bFunc aResult) bState
         )
 
 runParser :: Parser a -> String -> a
