@@ -57,14 +57,25 @@ data ParserState = ParserState
     }
 newtype Parser a = Parser (ParserState -> (a, ParserState))
 
+doParse :: Parser a -> ParserState -> (a, ParserState)
+doParse (Parser f) s = f s
+
 instance Functor Parser where
     -- fmap :: (a -> b) -> Parser a -> Parser b
-    fmap = error "Implement fmap!"
+    fmap abFunc aParser = Parser (
+        \aState -> let (aResult, bState) = doParse aParser aState in
+            (abFunc aResult, bState)
+        )
+
 instance Applicative Parser where
     -- pure :: a -> Parser a
     pure x = Parser $ \state -> (x, state)
-    -- Parser (a -> b) -> Parser a -> Parser b
-    (<*>) = error "Implement <*>!"
+    -- <*> :: Parser (a -> b) -> Parser a -> Parser b
+    (<*>) abParser aParser = Parser (
+        \aState -> let (abFunc, bState) = doParse abParser aState in
+            doParse (fmap abFunc aParser) bState
+        )
+
 instance Monad Parser where
     -- Parser a -> (a -> Parser b) -> Parser b
     --   Is above type correct?
