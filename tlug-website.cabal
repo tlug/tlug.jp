@@ -35,6 +35,7 @@ test-suite test
     build-depends:      HTF
     hs-source-dirs:     src/
     other-modules:      TLUG.Hello, TLUG.HelloTest
+                      , TLUG.MonadicParserTest
                       , TLUG.Parser
                       , TLUG.WikiLink
                       , TLUG.WikiParam

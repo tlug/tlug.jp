@@ -4,6 +4,7 @@ module Main where
 
 import Test.Framework
 import {-@ HTF_TESTS @-} TLUG.HelloTest
+import {-@ HTF_TESTS @-} TLUG.MonadicParserTest
 import {-@ HTF_TESTS @-} TLUG.MediaWikiTest
 
 main :: IO ()
