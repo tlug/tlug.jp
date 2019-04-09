@@ -26,10 +26,14 @@ import Test.Framework
 
 
 {-  |
-    During the parse we need to maintain some state, which is the
-    following. A state is contstructed when we start parsing and,
-    after any relevant information is extracted from it, thrown away
-    when parsing is complete.
+    During the parse we need to maintain some state which we wrap up
+    in a value of the following type. We construct the initial version
+    of this state when we start parsing a document and, when done,
+    exract any relevant information from it before we throw it away.
+
+    The type system will make sure that any instance of this state
+    exists only during a specific parse and can't be accessed outside
+    of it.
 -}
 data ParserState = PState
     { input :: String       -- ^Text remaining to be parsed
@@ -42,8 +46,8 @@ data ParserState = PState
     this value out of the input stream.) These functions may be
     combined to produce new, more complex parsers, so they are called
     "combinators." They can be used only within a parse session. A
-    parser that has no useful information to give back will generally
-    give back '()' ("unit").
+    parser that has no particular value to return will generally give
+    back '()', the sole inhabitant of type '()' (pronounced "Unit").
 
     Hidden inside a @Parser a@ is a function that takes a
     'ParserState' and returns a tuple of @(a, ParserState)@, that is,
@@ -53,22 +57,31 @@ data ParserState = PState
     use and change parser state, such as by reducing the remaining
     input (consuming input characters).
 
-    This is probably the most difficult part of a monadic parser to
-    understand.
+    The whole point behind wrapping functions up in this is to
+    separate the "pure" parts of a parsing function (such as
+    converting a string to a number) from the other details, such as
+    the current parser state and selection and order of parser
+    functions, which we call the "structure" of a parser. (This is
+    probably the most difficult part of a monadic parser to
+    understand.) We will later see the split between the functions
+    that deal with parsing and the other functions that deal with
+    these structural issues.
 -}
 newtype Parser a = Parser { parse :: ParserState -> (a, ParserState) }
 
 {-  |
-    Run a 'Parser a' on the given input, returning the 'a' that it
-    produces. To do this we need to build a new 'ParserState', feed
-    that into the 'parse' function contained inside the 'Parser',
-    and handle the result, which is the 'a' the parser gives back
-    and the final state.
+    This starts and completes a parse by running a (top-level) 'Parser
+    a' on the given input, returning the 'a' (typically the fully
+    parsed AST) that it produces.
+
+    To do this we need to build a new 'ParserState', feed that into
+    the 'parse' function contained inside the 'Parser', and handle the
+    result, which is the 'a' the parser gives back and the final state.
 
     In a more sophisticated parser framework we'd want to check the
-    final state to see if there are errors, unconsumed input, or
-    the like and handle that appropriately. But here we just throw
-    away the final state and return the result.
+    final state to see if there are errors, unconsumed input, or the
+    like and handle that appropriately. But here we just throw away
+    the final state and return the result.
 -}
 runParser :: String     -- ^Input to be parsed
           -> Parser a   -- ^Parser to run on the input
@@ -79,69 +92,84 @@ runParser s (Parser parse) =
      in x
 
 {-  |
-    All instances of 'Monad' must be an instance of 'Functor'. An
-    instance of Functor is an (extremely) generic "structure" of some
-    sort, by which we mean just that a value of type @Functor a@ has
-    some additional information beyond the value of type @a@ that's
-    "contained in" the @Functor a@.
+    Now comes the first "structural" part. We make our 'Parser' data
+    type an instance of 'Functor'. An instance of Functor is an
+    (extremely) generic "structure" of some sort, by which we mean
+    just that a value of type @Functor a@ has some additional
+    information beyond the value of type @a@ that's "contained in"
+    the @Functor a@.
 
-    For example, a 'Maybe a' contains the additional information that
-    the @a@ is there or not: a @Maybe Int@ can be @Just 42@ or
-    @Nothing@. A 'List a' contains additional information about
-    length and order: a @List Int@ could be empty (@[]@), one Int
-    (@[3]@) or three Ints in a specific order (@[3, 1, 2]@).
+    Some examples:
+    1. The "optional type" 'Maybe a' contains additional information
+       about whether a value of type @a@ is present or not: a @Maybe
+       Int@ can be @Just 42@ (present, and 42) or @Nothing@ (absent).
+    2. The list type '[a]' contains additional information about the
+       number of values of type @a@ present (0, 1, 2, etc.) and the
+       order of these values in relation to each other. A list @[Int]@
+       could be empty (@[]@), one Int (@[3]@) or three Ints in a
+       specific order (@[3, 1, 2]@).
 
-    In the case of 'Parser', the extra structure is the state of the
-    parser, which is a relationship between parser combinators. For
-    example, a parser that reads @3@ followed by @'b'@ from the input
-    stream @"3b"@ could be built from a sequence of smaller parsers,
-    one which reads @3@ from input @"3b"@ leaving input @"b"@
-    remaining, and one which reads @'b'@ from the remaining @"b"@
-    input, leaving @""@ remaining. This is an example of "structure"
-    that involves what can be seen as control flow, in this case one
-    thing happening before (rather than at the same time or after)
-    another thing.
+    Every instance of Functor has an 'fmap' function that that takes a
+    function that can operate on the value(s) "contained in" the
+    structure and produces a similar structure where that function has
+    been applied to the "stuff inside" in some appropriate way for
+    that particular instance.
 
-    Every instance of Functor has an 'fmap' function that that takes
-    a function that can operate on the value(s) "contained in" the
-    structure and produces a similar structure with that function
-    applied to the "stuff inside" in some appropriate way for that
-    particular instance.
+    Examples, where @f x = x + 1@:
+    1. @fmap f@ on a @Maybe Int@ has two choices. If the value is
+       @Just 3@, it can extract the @3@ and apply @f@ to it,
+       afterwards re-enclosing the result @4@ into the structure as
+       @Just 4@. If the value is @Nothing@, however, the special
+       behaviour of the Maybe Functor is triggered, @f@ is not applied
+       to anything, and @Nothing@ is the result produced.
+    2. The behaviour of @fmap f@ on @[Int]@; is different because it
+       must be particular to the list structure: it applies the
+       function multiple times, once to each value inside the
+       structure. Thus @fmap f [2,3]@ results in @[f 2,f 3]@.
 
-    For example, @fmap f@ on a @Maybe Int@ will apply @f@ to the @n@
-    of a @Just n@, producing a new @Just m@, but will do nothing at
-    all to a @Nothing@, merely producing another @Nothing@. @fmap f@
-    on a @List Int@ will apply @f@ to each value in the list @[n1,
-    n2, n3]@ producing a list containing the results of those
-    applications, @[m1, m2, m3]@. Note that in both cases the
-    structure is preserved; @fmap@ on a 'Maybe' will always produce
-    another 'Maybe', never a 'List', though the variation of 'Maybe'
-    can change, e.g., @Maybe Int@ to @Maybe String@.
-
-    'fmap' must satisfy the following properties:
+    Further, because the pure function passed to `fmap` knows nothing
+    about the structure, `fmap` can never change the structure. `fmap`
+    on a 'Maybe' may never change a @Just x@ to a @Nothing@ or vice
+    versa becuase the pure function knows nothing about the presence
+    of an optional value; 'fmap' on a list may never change the length
+    of a list because the pure function doesn't know anything about
+    lengths. This is expressed in the laws of 'fmap':
 
     prop> fmap id  ==  id
     prop> fmap (f . g)  ==  fmap f . fmap g
+
+    Unlike more sophisticated languages, Haskell cannot check these
+    laws; we rely on the programmer to make sure that he writes a
+    function that will never break them.
+
+    In our case of 'Parser', the extra structure we add is the
+    'ParserState' that we always send in to a parse function and
+    retrieve (in possibly modified form) as part of the output. We
+    provide an 'fmap' function that accepts a pure function (which
+    knows nothing about this extra structure) and applies it to the
+    result of a Parser, giving us a new Parser incorporating this pure
+    function. Thus the type signature:
+
+        @fmap :: (a -> b) -> Parser a -> Parser b@
+
+    @(a -> b)@ is the pure function, @Parser a@ is the Parser
+    producing the result to which we will apply this pure function,
+    and @Parser b@ is a new parser incorporating this pure function.
+    See the tests below for examples of how this works.
 -}
 instance Functor Parser where
-    {- |
-        In our case, we convert a @Parser a@ to a @Parser b@ by
-        running the parse function within the @Parser a@, putting the
-        returned value through the @a -> b@, and preserving the
-        (possibly updated) state returned by 'parse'.
-    -}
     fmap :: (a -> b) -> Parser a -> Parser b
     fmap f (Parser parse) =
         Parser $                    -- 'fmap' gives back a new 'Parser b'
             \state ->               -- containing a function that takes a state
-                let (x, state')     -- where we get back 'a' and new state
+                let (x, state')     -- where we get back an 'a' and new state
                       = parse state -- from running the 'Parser a'
                  in (f x, state')   -- and put value a through 'f'
 
 test_functor =
-     do -- Running parser 'give42' on any input always produces 42.
+     do -- Running Parser 'give42' on any input always produces 42.
         assertEqual  42  (runParser "" give42)
-        -- Running the version converted to give back a String produces "42".
+        -- Running the Parser converted to give back a String produces "42".
         assertEqual "42" (runParser "" giveString)
     where
         -- | Parser that just gives the 'Int' 42, leaving the state unchanged.
