@@ -257,10 +257,62 @@ test_applicative_pure =
         assertEqual 13 (runParser "" (pure 13))
 
 {-  |
-    XXX figure out how to explain why we don't need to worry about
-    reply, which is really just Monad's 'ap' anyway.
+    Since we're about to become a Monad, rather than remain
+    Applicative, we don't need to worry much about the '<*>' ("apply")
+    function; this is just Monad's 'ap' function. However, we
+    implement it here, rather than re-using `ap` as provided by Monad
+    because it does serve a useful pedagogical purpose.
 
+    The idea here is that apply lets you execute functions that have
+    been lifted into the structure (usually via 'pure', obviously) to
+    arguments also in the structure. Let's say we have a pure function
+    @double x = x * 2@ and a pure value @3@. In the pure world,
+    @double 3@ would give back @6@. But both the function and its
+    argument can be lifted up into the Applicative functor and be run
+    there via @pure double <*> pure 3@, giving back the same thing as
+    @pure 6@: i.e., all the structure in the Applicative functor is
+    preserved and dealt with properly by 'pure' and '<*>'.
 
+    So while here we don't care why we need '<*>', the "how" is worth
+    understanding.
+
+    Our Parser's structure around pure values so far has been "a
+    function that takes a state and returns the new state plus the
+    pure value." But we actually want more structure than that (this
+    is why we're not just a Functor): we want also to /chain/ the
+    state through sequential applications of the functions in the
+    Parsers. (A change in the state would be no good to us if that
+    change disappeared before the next step in the parse!) For
+    example, if a parser combinator consumes the first character of
+    the string to be parsed, the next combinator should see only the
+    remainder of the string, without that first character.
+
+    The '<*>' operator is the first time so far we've seen explicit
+    sequencing of two Parsers, and our implementation of '<*>'
+    reflects that. We produce a new Parser containing a parse function
+    that, in the usual way, accepts a state and returns a new state
+    plus a result value. Its sequence of operations is:
+    1. Via pattern matching, extract the two parse functions,
+       @parse_f@ and @parse_x@ from the two Parsers we've been given.
+    2. Apply the first parse function, @parse_f@, to our input @state@
+       to produce a (possibly modified) @state'@ ("state-prime", the
+       usual terminology for a modified copy in Haskell) and the pure
+       result value of @parse_f@, which is the function to apply.
+    3. Apply the second parse function, @parse_x@ to the new @state'@
+       to produce the next state, @state''@ and the pure value to
+       which to apply the function we got above.
+    4. Apply the pure function @f@ from the first Parser to the pure
+       value @x@ from the second Parser to produce a new pure result
+       value.
+    5. Give back that new pure result value and the final state after
+       modification (if any) by the first and second Parsers.
+
+    'test_applicative_apply' below demonstrates two uses of this. The
+    first applies a function of a single argument ("double") to a
+    single value. The second, in the typical Haskell way, partially
+    applies a function of two arguments ("multiply") to the first
+    value to produce a function of a single argument which, applied to
+    the second values, produces the result.
 -}
 parserApply :: Parser (a -> b) -> Parser a -> Parser b
 (Parser parse_f) `parserApply` (Parser parse_x) =
