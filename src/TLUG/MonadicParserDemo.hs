@@ -192,3 +192,69 @@ test_functor =
         -- | Use 'fmap' with 'toString' to convert the 'give42' parser
         --   into one that gives a String instead of an Int
         giveString = fmap toString give42
+
+{-  |
+    The next step towards a Monad is the 'Applicative' typeclass. This
+    is actually a special kind of Functor (as evidenced by the fact
+    that anything that is an 'Applicative' must also be a 'Functor')
+    whose full name is "applicative functor." (Or, if you want to
+    impress your friends, you can use the true mathematical name,
+    "strong lax monoidal functor.")
+
+    We won't speak too much here about how Applicative is used in
+    programs (though some parsers work in just Applicative alone,
+    without being Monads), but this is where the structure starts
+    covering not just a single functorial value but the relationships
+    between applicative functorial values.
+
+    To be applicative we must offer two additional functions that
+    bridge the world between pure values and functions and our
+    structure.
+
+    The first function is a very simple one: 'pure', which solves the
+    problem of how we create a new structure "containing" a pure value
+    or function. (This is generally called "lifting" into the
+    structure, though the various functions that do this go by many
+    names.)
+
+    Examples:
+    1. @pure 3@ on a @Maybe Int@ gives us @Just 3@.
+    2. @pure 3@ on a a list of Int, @[Int]@, gives us @[3]@.
+
+    This is much more restrictive than what we can do with the actual
+    constructors for structure types; we cannot use 'pure' to create a
+    'Nothing', an empty list, or a list of more than one value, all of
+    these things being part of structure rather than pure values.
+    There's no need to worry about the reasons for this in this
+    application, though you will find out more about the reasons for
+    this if you study further.
+
+    In the case of our parser, 'pure' is quite simple: the pure value
+    is what the parser gives back and the structure is a function that
+    takes and returns a state, so we simply create a function that
+    takes the state, and returns our pure value and the state. Thus,
+    as shown in 'test_applicative_pure' (quite a ways below, for
+    syntax reasons), using 'runParser' on that Parser should do
+    nothing with the state and give back what was put in with 'pure'.
+-}
+instance Applicative Parser where
+
+    pure :: a -> Parser a
+    pure x = Parser $ \state -> (x, state)
+
+    (<*>) :: Parser (a -> b) -> Parser a -> Parser b
+    (Parser parseF) <*> (Parser parseX) =
+        Parser $ \state ->
+            let (f, state')  = parseF state
+                (x, state'') = parseX state'
+             in (f x, state'')
+
+test_applicative_pure =
+     do --  What we put in with pure, we get out
+        assertEqual 13 (runParser "" (pure 13))
+
+test_applicative_apply =
+     do --  Lift function that doubles and apply to 3.
+        assertEqual  6 (runParser "" $ pure (*2) <*> pure 3)
+        --  Lift multiply and partially apply to 3, then apply to 5.
+        assertEqual 15 (runParser "" $ pure (*) <*> pure 3 <*> pure 5)
