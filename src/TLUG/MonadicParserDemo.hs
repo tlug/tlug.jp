@@ -209,49 +209,65 @@ test_functor =
 
     To be applicative we must offer two additional functions that
     bridge the world between pure values and functions and our
-    structure.
+    structure: 'pure' and the binary operator '<*>'. We'll declare the
+    instance first with refrences to the actual functions and then
+    discuss each function in turn.
+-}
 
-    The first function is a very simple one: 'pure', which solves the
-    problem of how we create a new structure "containing" a pure value
-    or function. (This is generally called "lifting" into the
-    structure, though the various functions that do this go by many
-    names.)
+instance Applicative Parser where
+
+    pure :: a -> Parser a
+    pure = parserPure
+
+    (<*>) :: Parser (a -> b) -> Parser a -> Parser b
+    (<*>) = parserApply
+
+{-  |
+    'pure' solves the problem of how we create a new structure
+    "containing" a pure value or function. (This is generally called
+    "lifting" into the structure, though the various functions that do
+    this go by many names.)
 
     Examples:
     1. @pure 3@ on a @Maybe Int@ gives us @Just 3@.
     2. @pure 3@ on a a list of Int, @[Int]@, gives us @[3]@.
 
     This is much more restrictive than what we can do with the actual
-    constructors for structure types; we cannot use 'pure' to create a
-    'Nothing', an empty list, or a list of more than one value, all of
-    these things being part of structure rather than pure values.
-    There's no need to worry about the reasons for this in this
-    application, though you will find out more about the reasons for
-    this if you study further.
+    constructors for structure types: we cannot use 'pure' to create a
+    'Nothing', an empty list, or a list of more than one value since
+    all of these involve structure as well as possibly zero or more
+    than one pure value. However, for our particular purposes here,
+    where we want to get to Monad anyway, we don't need to worry about
+    the reasons for this right now.
 
-    In the case of our parser, 'pure' is quite simple: the pure value
+    For the case of our Parser, 'pure' is quite simple. The pure value
     is what the parser gives back and the structure is a function that
-    takes and returns a state, so we simply create a function that
-    takes the state, and returns our pure value and the state. Thus,
-    as shown in 'test_applicative_pure' (quite a ways below, for
-    syntax reasons), using 'runParser' on that Parser should do
-    nothing with the state and give back what was put in with 'pure'.
+    takes and returns a state, so we simply create a new Parser
+    containing a function that takes a state and returns our pure
+    value along with that same state. Thus, as shown by
+    'test_applicative_pure', using 'runParser' on that Parser should
+    do nothing with the state and give back what was put in with
+    'pure'.
 -}
-instance Applicative Parser where
-
-    pure :: a -> Parser a
-    pure x = Parser $ \state -> (x, state)
-
-    (<*>) :: Parser (a -> b) -> Parser a -> Parser b
-    (Parser parseF) <*> (Parser parseX) =
-        Parser $ \state ->
-            let (f, state')  = parseF state
-                (x, state'') = parseX state'
-             in (f x, state'')
+parserPure :: a -> Parser a
+parserPure x = Parser $ \state -> (x, state)
 
 test_applicative_pure =
      do --  What we put in with pure, we get out
         assertEqual 13 (runParser "" (pure 13))
+
+{-  |
+    XXX figure out how to explain why we don't need to worry about
+    reply, which is really just Monad's 'ap' anyway.
+
+
+-}
+parserApply :: Parser (a -> b) -> Parser a -> Parser b
+(Parser parse_f) `parserApply` (Parser parse_x) =
+    Parser $ \state ->
+        let (f, state')  = parse_f state
+            (x, state'') = parse_x state'
+         in (f x, state'')
 
 test_applicative_apply =
      do --  Lift function that doubles and apply to 3.
