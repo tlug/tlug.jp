@@ -326,3 +326,46 @@ test_applicative_apply =
         assertEqual  6 (runParser "" $ pure (*2) <*> pure 3)
         --  Lift multiply and partially apply to 3, then apply to 5.
         assertEqual 15 (runParser "" $ pure (*) <*> pure 3 <*> pure 5)
+
+{-  |
+    Monad, finally! This is what lets us sequence operations, which in
+    our Parser means sequencing the bits of the input that we read to
+    produce a final result.
+
+    Again, we need two functions: 'return' and '>>=' (pronounced
+    "bind").
+
+    The 'return' function lifts pure values into the Monad structure.
+    If this sounds familiar it's because we've already done this
+    with 'Applicative': 'return' is simply 'pure'. In fact, that's
+    the default definition in the standard library, but we define
+    it in the exact same way ourselves here for clarity.
+
+    As before we delay the discussion of '>>=' until after we've
+    done the instance declaration.
+
+    XXX from the docs:
+    Instances of 'Monad' should satisfy the following laws:
+    * @'return' a '>>=' k  =  k a@
+    * @m '>>=' 'return'  =  m@
+    * @m '>>=' (\\x -> k x '>>=' h)  =  (m '>>=' k) '>>=' h@
+
+-}
+instance Monad Parser where
+    return :: a -> Parser a
+    return = pure
+
+    (>>=) :: Parser a -> (a -> Parser b) -> Parser b
+    (>>=) = parserBind
+
+{-  |
+-}
+parserBind :: Parser a -> (a -> Parser b) -> Parser b
+_ `parserBind` _ = undefined
+
+{-
+    XXX We actually need to extend Parser to 'MonadFail' because
+    'fail' (which handles failure in @do@ expressions) is going to be
+    removed from 'Monad'. Plus we need failure anyway I'm pretty
+    sure....
+-}
