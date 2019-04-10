@@ -26,14 +26,15 @@ import Test.Framework
 
 
 {-  |
-    During the parse we need to maintain some state which we wrap up
-    in a value of the following type. We construct the initial version
-    of this state when we start parsing a document and, when done,
-    exract any relevant information from it before we throw it away.
+    During the parse we need to maintain some state, which we wrap up
+    in a value of the following 'ParserState' type. We construct the
+    initial version of this state when we start parsing a document
+    and, when done, extract any relevant information from it before we
+    throw it away.
 
-    The type system will make sure that any instance of this state
-    exists only during a specific parse and can't be accessed outside
-    of it.
+    The type system will make sure that values of this state exist
+    and are handled only during a specific parse run and cannot leak
+    out to the rest of the program.
 -}
 data ParserState = PState
     { input :: String       -- ^Text remaining to be parsed
@@ -45,23 +46,24 @@ data ParserState = PState
     will give back a value of type "a". (Frequently it would parse
     this value out of the input stream.) These functions may be
     combined to produce new, more complex parsers, so they are called
-    "combinators." They can be used only within a parse session. A
-    parser that has no particular value to return will generally give
-    back '()', the sole inhabitant of type '()' (pronounced "Unit").
+    "combinators." They can be used only within a parse run. A parser
+    that has no particular value to return will generally give back
+    '()', the sole inhabitant of type '()' (pronounced "Unit").
 
     Hidden inside a @Parser a@ is a function that takes a
     'ParserState' and returns a tuple of @(a, ParserState)@, that is,
     the value it wants to give back and the new, potentially updated
-    state. (This function may be extracted with the 'unParser'
-    function.) So internally the parser combinator has full access to
-    use and change parser state, such as by reducing the remaining
-    input (consuming input characters).
+    state. (This function may be extracted with the 'parse' function
+    automatically defined by our label on the field below.) So
+    internally the parser combinator has full access to use and change
+    parser state, such as by reducing the remaining input (consuming
+    input characters), though this isn't visible from the outside.
 
     The whole point behind wrapping functions up in this is to
     separate the "pure" parts of a parsing function (such as
     converting a string to a number) from the other details, such as
     the current parser state and selection and order of parser
-    functions, which we call the "structure" of a parser. (This is
+    functions, which we call the "structure" of a Parser. (This is
     probably the most difficult part of a monadic parser to
     understand.) We will later see the split between the functions
     that deal with parsing and the other functions that deal with
@@ -70,13 +72,14 @@ data ParserState = PState
 newtype Parser a = Parser { parse :: ParserState -> (a, ParserState) }
 
 {-  |
-    This starts and completes a parse by running a (top-level) 'Parser
-    a' on the given input, returning the 'a' (typically the fully
-    parsed AST) that it produces.
+    This starts and completes a parse run by running a (top-level)
+    'Parser a' on the given input, returning a value of type 'a'
+    (typically the fully parsed AST) that it produces.
 
     To do this we need to build a new 'ParserState', feed that into
     the 'parse' function contained inside the 'Parser', and handle the
-    result, which is the 'a' the parser gives back and the final state.
+    result, which is the value of type 'a' the parser gives back and
+    the final state.
 
     In a more sophisticated parser framework we'd want to check the
     final state to see if there are errors, unconsumed input, or the
@@ -96,44 +99,52 @@ runParser s (Parser parse) =
     type an instance of 'Functor'. An instance of Functor is an
     (extremely) generic "structure" of some sort, by which we mean
     just that a value of type @Functor a@ has some additional
-    information beyond the value of type @a@ that's "contained in"
-    the @Functor a@.
+    information beyond the "pure" value of type @a@ that's "contained
+    in" the @Functor a@.
 
     Some examples:
-    1. The "optional type" 'Maybe a' contains additional information
-       about whether a value of type @a@ is present or not: a @Maybe
-       Int@ can be @Just 42@ (present, and 42) or @Nothing@ (absent).
+    1. The optional type 'Maybe a' contains additional information
+       about whether a pure value of type @a@ is present or not: a
+       @Maybe Int@ can be @Just 42@ (present, and 42) or @Nothing@
+       (absent).
     2. The list type '[a]' contains additional information about the
        number of values of type @a@ present (0, 1, 2, etc.) and the
-       order of these values in relation to each other. A list @[Int]@
-       could be empty (@[]@), one Int (@[3]@) or three Ints in a
-       specific order (@[3, 1, 2]@).
+       order of these values in relation to each other. A list of
+       'Int' @[Int]@ could be empty (@[]@), one Int (@[3]@) or three
+       Ints in a specific order (@[3, 1, 2]@).
 
     Every instance of Functor has an 'fmap' function that that takes a
-    function that can operate on the value(s) "contained in" the
-    structure and produces a similar structure where that function has
-    been applied to the "stuff inside" in some appropriate way for
-    that particular instance.
+    function that can operate on the pure value(s) "contained in" the
+    structure of the functorial value and produces an identical
+    structure where that function has been applied to the pure values
+    "inside" in some appropriate way for that particular instance.
 
     Examples, where @f x = x + 1@:
     1. @fmap f@ on a @Maybe Int@ has two choices. If the value is
        @Just 3@, it can extract the @3@ and apply @f@ to it,
        afterwards re-enclosing the result @4@ into the structure as
        @Just 4@. If the value is @Nothing@, however, the special
-       behaviour of the Maybe Functor is triggered, @f@ is not applied
+       behaviour of 'Functor Maybe' is triggered, @f@ is not applied
        to anything, and @Nothing@ is the result produced.
     2. The behaviour of @fmap f@ on @[Int]@; is different because it
        must be particular to the list structure: it applies the
-       function multiple times, once to each value inside the
+       function multiple times, once to each pure value inside the
        structure. Thus @fmap f [2,3]@ results in @[f 2,f 3]@.
 
-    Further, because the pure function passed to `fmap` knows nothing
-    about the structure, `fmap` can never change the structure. `fmap`
-    on a 'Maybe' may never change a @Just x@ to a @Nothing@ or vice
-    versa becuase the pure function knows nothing about the presence
-    of an optional value; 'fmap' on a list may never change the length
+    An important characteristic of 'fmap' is that, because the pure
+    function passed to 'fmap' knows nothing about the structure,
+    'fmap' can never change the structure. 'fmap' on a 'Maybe' may
+    never change a @Just x@ to a @Nothing@ or vice versa becuase the
+    pure function knows nothing about the presence or absence of an
+    optional value; that's part of the structure that 'fmap never
+    changes. Similarly, 'fmap' on a list may never change the length
     of a list because the pure function doesn't know anything about
-    lengths. This is expressed in the laws of 'fmap':
+    lengths; the length of a list is part of the list's structure, not
+    connected to the pure values in the list.
+
+    This is expressed in the following laws of 'fmap'. (If you are
+    mathematically inclined you can prove that any 'fmap' function
+    that follows these laws can never change the structure.)
 
     prop> fmap id  ==  id
     prop> fmap (f . g)  ==  fmap f . fmap g
