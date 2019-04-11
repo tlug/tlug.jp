@@ -327,6 +327,15 @@ test_applicative_apply =
         --  Lift multiply and partially apply to 3, then apply to 5.
         assertEqual 15 (runParser "" $ pure (*) <*> pure 3 <*> pure 5)
 
+{- Actually, you can use a slightly simpler, but perhaps not quite
+   as clear definition, too:
+parserApply :: Parser (a -> b) -> Parser a -> Parser b
+(Parser parse_f) `parserApply` xparser =
+    Parser $ \state ->
+        let (f, state')  = parse_f state
+         in parse (fmap f xparser) state'
+-}
+
 {-  |
     Monad, finally! This is what lets us sequence operations, which in
     our Parser means sequencing the bits of the input that we read to
