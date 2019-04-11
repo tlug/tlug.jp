@@ -35,8 +35,10 @@
 module TLUG.MediaWiki
     ( Page, Chunk(..)
     , parsePage
-    , runParser, char, readNothingGiveInt,
+    , runParser, char,
     ) where
+
+import Control.Applicative;
 
 type Page = [Chunk]
 
@@ -47,6 +49,7 @@ data Chunk
       { pageName :: String
       , params   :: ParamList
       }
+    | TestChunk Char
     deriving (Show, Eq)
 
 parsePage :: String -> Page
@@ -55,84 +58,61 @@ parsePage s = runParser chunks s
 data ParserState = ParserState
     { remaining :: String
     }
-newtype Parser a = Parser { unParser :: (ParserState -> (a, ParserState)) }
+newtype Parser a = Parser { unParser :: (ParserState -> Maybe (a, ParserState)) }
 
 instance Functor Parser where
     -- fmap :: (a -> b) -> Parser a -> Parser b
-    fmap abFunc aParser = Parser (
-        \aState -> let (aResult, bState) = unParser aParser aState in
-            (abFunc aResult, bState)
+    fmap abFunc (Parser aParser) = Parser (
+        \aState -> case aParser aState of
+            Nothing -> Nothing
+            Just (aResult, bState) -> Just (abFunc aResult, bState)
         )
 
 instance Applicative Parser where
     -- pure :: a -> Parser a
-    pure x = Parser $ \state -> (x, state)
+    pure x = Parser $ \state -> Just (x, state)
     -- <*> :: Parser (a -> b) -> Parser a -> Parser b
-    (<*>) abParser aParser = Parser (
-        \aState -> let (abFunc, bState) = unParser abParser aState in
-            unParser (fmap abFunc aParser) bState
+    (Parser abParser) <*> aParser = Parser (
+        \aState -> case abParser aState of
+            Nothing -> Nothing
+            Just (abFunc, bState) -> unParser (fmap abFunc aParser) bState
+        )
+
+instance Alternative Parser where
+    -- empty :: f a
+    empty = Parser $ return Nothing
+    -- (<|>) :: f a -> f a -> f a
+    (Parser a) <|> (Parser b) = Parser (
+        \state -> case a state of
+            Nothing -> b state
+            x -> x
         )
 
 instance Monad Parser where
     -- (>>=) :: Parser a -> (a -> Parser b) -> Parser b
     (>>=) aParser a2bFunc = Parser (
-        \aState -> let (aResult, bState) = unParser aParser aState in
-            unParser (a2bFunc aResult) bState
+        \aState -> case unParser aParser aState of
+            Nothing -> Nothing
+            Just (aResult, bState) -> unParser (a2bFunc aResult) bState
         )
 
 runParser :: Parser a -> String -> a
 runParser (Parser f) s =
     case f (ParserState s) of
-        (x, ParserState "")  -> x
-        otherwise            -> error "Incomplete parse"
+        Nothing                  -> error "Parse failed"
+        Just (x, ParserState "") -> x
+        otherwise                -> error "Incomplete parse"
 
 -- Just for a test? Maybe we don't really need this.
 char :: Parser Char
 char = Parser (\state ->
             case (remaining state) of
-                ""       -> error "Unexpected EOF!"
-                (c:cs)   -> (c, ParserState cs)
+                ""       -> Nothing
+                (c:cs)   -> Just (c, ParserState cs)
               )
 
-readNothingGiveInt :: Parser Int
-readNothingGiveInt = return 17
-
 chunks :: Parser [Chunk]
-chunks = do
-    nthng <- nothing
-    chunks <- many chunk
-    return chunks
-
-nothing :: Parser ()
-nothing = return ()
-
-many :: Parser a -> Parser [a]
-many = undefined
+chunks = many chunk
 
 chunk :: Parser Chunk
-chunk = undefined
-
-type MarkupAcc = String
-type Remainder = String
-
-parseMarkup :: MarkupAcc -> Remainder -> [Chunk]
-parseMarkup acc rem = parseMarkup' acc rem
-    where
-        parseMarkup' :: MarkupAcc -> Remainder -> [Chunk]
-        parseMarkup' acc [] = [unaccumulate acc]
-        parseMarkup' acc ('{':'{':xs) = unaccumulate acc : parseTransclude "" xs
-        parseMarkup' acc (x:xs) = parseMarkup' (x:acc) xs
-        unaccumulate acc = Markup $ reverse acc
-
-parseTransclude :: String -> Remainder -> [Chunk]
-parseTransclude acc ('}':'}':xs) = Transclude (reverse acc) [] : parseMarkup "" xs
-parseTransclude acc ('|':xs) =
-    let (args,remainder) = parseTranscludeArgs xs
-     in Transclude (reverse acc) args : remainder
-parseTransclude acc (x:xs) = parseTransclude (x:acc) xs
-parseTransclude acc [] = [Transclude (reverse acc) []]
-
-parseTranscludeArgs :: Remainder -> (ParamList, [Chunk])
-parseTranscludeArgs ('}':'}':xs) = ([], parseMarkup "" xs)
-parseTranscludeArgs (x:xs) = parseTranscludeArgs xs
-parseTranscludeArgs [] = ([], [])
+chunk = Markup <$> some char
