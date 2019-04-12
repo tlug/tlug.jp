@@ -23,7 +23,7 @@ test_parse = do
     assertEqual [Markup "abc"] (parsePage "abc")
     assertEqual [
         Markup "begin",
-        Transclude "trans" [("","value1"), ("",""), ("name2","value2")],
+        Transclude "trans" [(Nothing,"value1"), (Nothing,""), (Just "name2","value2")],
         Markup "end"
         ]
         (parsePage "begin{{trans|value1||name2=value2}}end")
