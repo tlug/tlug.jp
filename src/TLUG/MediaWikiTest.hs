@@ -20,18 +20,20 @@ test_parserMonad = do
 
 test_parse = do
     assertEqual [] (parsePage "")
-    assertEqual [Markup "abc"] (parsePage "abc")
+    assertEqual [Markup "abc" False] (parsePage "abc")
     assertEqual [Transclude "trans:a b" []] (parsePage "{{trans:a b}}")
-    assertEqual [Markup "** ", Transclude "w:ja" [(Nothing,"利用者:name")]] (parsePage "** {{w:ja|利用者:name}}")
+    assertEqual [Markup "** " False, Transclude "w:ja" [(Nothing,"利用者:name")]] (parsePage "** {{w:ja|利用者:name}}")
+    assertEqual [Markup "inc" False, Markup "noinc" True] (parsePage "inc<noinclude>noinc</noinclude>")
     assertEqual [
-        Markup "begin",
+        Markup "begin" False,
         Transclude "trans" [(Nothing,"value1"), (Nothing,""), (Just "name2","value2")],
         Transclude "t2" [],
-        Markup "end"
+        Markup "end" True
         ]
-        (parsePage "begin{{trans|value1||name2=value2}}{{t2}}end")
-    assertEqual [Markup "{{{}}}{{{{}}}}{}"] (parsePage "{{{}}}{{{{}}}}{}")
-{-
+        (parsePage "begin{{trans|value1||name2=value2}}{{t2}}<noinclude>end</noinclude>")
+    assertEqual [Markup "{{{}}}{{{{}}}}{}" False] (parsePage "{{{}}}{{{{}}}}{}")
+
+{- How do we test errors?
     assertEqual [Markup "hello", Transclude "hi" [("", "bye"), ("","")]]
         (parsePage "hello{{hi|bye|")
     assertEqual [Markup "hello"]

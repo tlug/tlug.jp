@@ -34,6 +34,7 @@
 -}
 
 {-# LANGUAGE InstanceSigs #-}
+{-# LANGUAGE TupleSections #-}
 
 module TLUG.MediaWiki
     ( Page, Chunk(..)
@@ -97,13 +98,15 @@ instance Monad Parser where
 type Page = [Chunk]
 
 type ParamList = [(Maybe String,String)]
-data Chunk
-    = Markup String
+data Chunk =
+    Markup
+      { text      :: String
+      , noinclude :: Bool
+      }
     | Transclude
       { pageName :: String
       , params   :: ParamList
       }
-    | TestChunk Char
     deriving (Show, Eq)
 
 -- Runs the wiki markup parser on a string
@@ -118,9 +121,12 @@ runParser (Parser f) s =
         Just (x, ParserState "") -> x
         Just (x, ParserState s)  -> error $ "Incomplete parse: " ++ s
 
--- Check for a match without consuming any input. Is this useful?
+isAnyPrefixOf [] s = False
+isAnyPrefixOf (p:xp) s = (p `isPrefixOf` s) || (xp `isAnyPrefixOf` s)
+
+-- Check for a match without consuming any input.
 match s = Parser $ \state ->
-    if s `isPrefixOf` (remaining state) then
+    if s `isAnyPrefixOf` (remaining state) then
         Just (s, state)
     else
         Nothing
@@ -144,13 +150,10 @@ anyChar = Parser (\state ->
 -- Parses any char unless looking at one of the specified strings
 anyExcept :: [String] -> Parser Char
 anyExcept s = Parser $ \state ->
-    if anyPrefix s (remaining state) then
+    if s `isAnyPrefixOf` (remaining state) then
         Nothing
     else
         parse anyChar state
-    where
-        anyPrefix [] s = False
-        anyPrefix (p:xp) s = (p `isPrefixOf` s) || (anyPrefix xp s)
 
 -- Parses any fixed string
 string :: String -> Parser String
@@ -183,18 +186,30 @@ numBraces func = Parser $ \state ->
 
 -- Parses a transclude. Doesn't currently handle magic words.
 transclude :: Parser Chunk
-transclude = (\a b -> Transclude a b) <$
+transclude = Transclude <$
     numBraces (== 2) <*>
     some (anyExcept [transEnd, "|"]) <*>
     many param <*
     string transEnd
     where
-        param = (\a b -> (a,b)) <$ (string "|") <*> (optional (id <* string "=")) <*> id
+        param = (,) <$ string "|" <*> optional (id <* string "=") <*> id
         id = many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
 
 -- Parses a chunk of non-transclude markup
 markup :: Parser Chunk
-markup = (\s -> Markup (concat s)) <$>
-    some ((\a b -> concat [a, [b]]) <$>
-          (numBraces (/= 2)) <*> anyChar)
+markup = uncurry Markup <$> (incMarkup <|> noincMarkup)
+
+noincludeBeg = "<noinclude>"
+noincludeEnd = "</noinclude>"
+
+incMarkup = (,False) <$> rawMarkup
+noincMarkup = (,True) <$
+    string noincludeBeg <*> rawMarkup <* string noincludeEnd
+
+-- Parses raw markup that isn't parsed any further here
+rawMarkup = concat <$> some ((++) <$>
+                  numBraces (/= 2) <*
+                  noMatch [noincludeBeg, noincludeEnd] <*>
+                  ((:[]) <$> anyChar)
+                            )
