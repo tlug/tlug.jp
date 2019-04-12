@@ -34,6 +34,7 @@
 -}
 
 {-# LANGUAGE InstanceSigs #-}
+{-# LANGUAGE TupleSections #-}
 
 module TLUG.MediaWiki
     ( Page, Chunk(..)
@@ -185,26 +186,30 @@ numBraces func = Parser $ \state ->
 
 -- Parses a transclude. Doesn't currently handle magic words.
 transclude :: Parser Chunk
-transclude = (\a b -> Transclude a b) <$
+transclude = Transclude <$
     numBraces (== 2) <*>
     some (anyExcept [transEnd, "|"]) <*>
     many param <*
     string transEnd
     where
-        param = (\a b -> (a,b)) <$ (string "|") <*> (optional (id <* string "=")) <*> id
+        param = (,) <$ string "|" <*> optional (id <* string "=") <*> id
         id = many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
 
 -- Parses a chunk of non-transclude markup
 markup :: Parser Chunk
-markup = (\(s, ni) -> (Markup (concat s)) ni) <$> (incMarkup <|> noincMarkup)
+markup = uncurry Markup <$> (incMarkup <|> noincMarkup)
 
 noincludeBeg = "<noinclude>"
 noincludeEnd = "</noinclude>"
 
--- Parses raw markup that isn't parsed any further here
-rawMarkup = some ((\a b -> concat [a, [b]]) <$>
-                  (numBraces (/= 2)) <* (noMatch [noincludeBeg, noincludeEnd]) <*> anyChar)
+incMarkup = (,False) <$> rawMarkup
+noincMarkup = (,True) <$
+    string noincludeBeg <*> rawMarkup <* string noincludeEnd
 
-incMarkup = (\s -> (s, False)) <$> rawMarkup
-noincMarkup = (\s -> (s, True)) <$ string noincludeBeg <*> rawMarkup <* string noincludeEnd
+-- Parses raw markup that isn't parsed any further here
+rawMarkup = concat <$> some ((++) <$>
+                  numBraces (/= 2) <*
+                  noMatch [noincludeBeg, noincludeEnd] <*>
+                  ((:[]) <$> anyChar)
+                            )
