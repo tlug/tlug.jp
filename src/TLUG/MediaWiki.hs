@@ -46,7 +46,7 @@ import Data.List;
 
 type Page = [Chunk]
 
-type ParamList = [(String,String)]
+type ParamList = [(Maybe String,String)]
 data Chunk
     = Markup String
     | Transclude
@@ -169,9 +169,7 @@ transclude = (\a b -> Transclude a b) <$
     many param <*
     string transEnd
     where
-        param = (string "|") *> (paramName <|> paramPos)
-        paramName = (\a b -> (a,b)) <$> id <* string "=" <*> id
-        paramPos = (\b -> ("", b)) <$> id
+        param = (\a b -> (a,b)) <$ (string "|") <*> (optional (id <* string "=")) <*> id
         id = many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
 
