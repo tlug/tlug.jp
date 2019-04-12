@@ -44,25 +44,14 @@ module TLUG.MediaWiki
 import Control.Applicative;
 import Data.List;
 
-type Page = [Chunk]
-
-type ParamList = [(Maybe String,String)]
-data Chunk
-    = Markup String
-    | Transclude
-      { pageName :: String
-      , params   :: ParamList
-      }
-    | TestChunk Char
-    deriving (Show, Eq)
-
-parsePage :: String -> Page
-parsePage s = runParser chunks s
+{-
+    This is a simple monadic parser framework.
+-}
 
 data ParserState = ParserState
     { remaining :: String
     }
-newtype Parser a = Parser { unParser :: (ParserState -> Maybe (a, ParserState)) }
+newtype Parser a = Parser { parse :: (ParserState -> Maybe (a, ParserState)) }
 
 instance Functor Parser where
     fmap :: (a -> b) -> Parser a -> Parser b
@@ -79,7 +68,7 @@ instance Applicative Parser where
     (Parser abParser) <*> aParser = Parser (
         \aState -> case abParser aState of
             Nothing -> Nothing
-            Just (abFunc, bState) -> unParser (fmap abFunc aParser) bState
+            Just (abFunc, bState) -> parse (fmap abFunc aParser) bState
         )
 
 instance Alternative Parser where
@@ -95,11 +84,33 @@ instance Alternative Parser where
 instance Monad Parser where
     (>>=) :: Parser a -> (a -> Parser b) -> Parser b
     (>>=) aParser a2bFunc = Parser (
-        \aState -> case unParser aParser aState of
+        \aState -> case parse aParser aState of
             Nothing -> Nothing
-            Just (aResult, bState) -> unParser (a2bFunc aResult) bState
+            Just (aResult, bState) -> parse (a2bFunc aResult) bState
         )
 
+{-
+    This is a wiki markup parser that separates out transcludes from
+    other markup.
+-}
+
+type Page = [Chunk]
+
+type ParamList = [(Maybe String,String)]
+data Chunk
+    = Markup String
+    | Transclude
+      { pageName :: String
+      , params   :: ParamList
+      }
+    | TestChunk Char
+    deriving (Show, Eq)
+
+-- Runs the wiki markup parser on a string
+parsePage :: String -> Page
+parsePage s = runParser chunks s
+
+-- Runs a parser on a string
 runParser :: Parser a -> String -> a
 runParser (Parser f) s =
     case f (ParserState s) of
@@ -107,12 +118,14 @@ runParser (Parser f) s =
         Just (x, ParserState "") -> x
         Just (x, ParserState s)  -> error $ "Incomplete parse: " ++ s
 
+-- Check for a match without consuming any input. Is this useful?
 match s = Parser $ \state ->
     if s `isPrefixOf` (remaining state) then
         Just (s, state)
     else
         Nothing
 
+-- Inverts a match parser
 notp (Parser p) = Parser $ \state ->
     case p state of
         Nothing -> Just ([], state)
@@ -120,6 +133,7 @@ notp (Parser p) = Parser $ \state ->
 
 noMatch s = notp (match s)
 
+-- Parses a single char
 anyChar :: Parser Char
 anyChar = Parser (\state ->
             case (remaining state) of
@@ -127,15 +141,18 @@ anyChar = Parser (\state ->
                 (c:cs)   -> Just (c, ParserState cs)
               )
 
+-- Parses any char unless looking at one of the specified strings
+anyExcept :: [String] -> Parser Char
 anyExcept s = Parser $ \state ->
     if anyPrefix s (remaining state) then
         Nothing
     else
-        unParser anyChar state
+        parse anyChar state
     where
         anyPrefix [] s = False
         anyPrefix (p:xp) s = (p `isPrefixOf` s) || (anyPrefix xp s)
 
+-- Parses any fixed string
 string :: String -> Parser String
 string t = Parser (
     \state -> 
@@ -150,6 +167,8 @@ chunks = many chunk
 chunk :: Parser Chunk
 chunk = transclude <|> markup
 
+-- Parses consecutive open braces if the provided function returns
+-- true. The function arg is the number of consecutive open braces.
 numBraces :: (Int -> Bool) -> Parser String
 numBraces func = Parser $ \state ->
     let rem = (remaining state)
@@ -162,6 +181,7 @@ numBraces func = Parser $ \state ->
         else
             Nothing
 
+-- Parses a transclude. Doesn't currently handle magic words.
 transclude :: Parser Chunk
 transclude = (\a b -> Transclude a b) <$
     numBraces (== 2) <*>
@@ -173,6 +193,7 @@ transclude = (\a b -> Transclude a b) <$
         id = many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
 
+-- Parses a chunk of non-transclude markup
 markup :: Parser Chunk
 markup = (\s -> Markup (concat s)) <$>
     some ((\a b -> concat [a, [b]]) <$>
