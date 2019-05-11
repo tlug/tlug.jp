@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>Tokyo Linux Users Group</title>
-    <link rel="stylesheet" href="css/tlug4.css" type="text/css" />
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
   </head>
 
   <body>
@@ -21,7 +21,7 @@
       </div>
 
       <div id="logo">
-        <a href="/"><img src="images/shirt200.png" alt="logo" /></a>
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
       </div>
 
       <h1 id="header">
