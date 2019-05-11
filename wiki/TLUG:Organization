@@ -1,4 +1,13 @@
-<p>TLUG welcomes members who want to volunteer for any position. You can volunteer to help as much or as little as you want. All contributions are valuable.</p>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+    <div id="content">
+        <p>TLUG welcomes members who want to volunteer for any position. You can volunteer to help as much or as little as you want. All contributions are valuable.</p>
 <h2 id="current-officers">Current Officers</h2>
 <h3 id="elected">Elected</h3>
 <h4 id="president">President</h4>
@@ -66,3 +75,6 @@
 <p>Due to the nature of the position, only native-level English speakers should apply.</p>
 <h2 id="see-also">See Also</h2>
 <p><a href="Category:Admin" title="wikilink">Officers</a></p>
+    </div>
+</body>
+</html>

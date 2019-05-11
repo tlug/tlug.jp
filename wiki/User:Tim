@@ -1,4 +1,13 @@
-<figure>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+    <div id="content">
+        <figure>
 <img src="Tim.jpg" title="Tim.jpg" alt="Tim.jpg" /><figcaption>Tim.jpg</figcaption>
 </figure>
 <h2 id="general">General</h2>
@@ -24,3 +33,6 @@
 <li>Blast from the past:</li>
 </ul>
 <p>One of the early TLUG meetings: <a href="http://www.tlug.jp/meetings/9710/oct-97.html">1997-10</a> (That's me in the yellow t-shirt, in case you couldn't figure it out)</p>
+    </div>
+</body>
+</html>

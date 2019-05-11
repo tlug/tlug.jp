@@ -1,4 +1,13 @@
-<figure>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+    <div id="content">
+        <figure>
 <img src="ragga.jpg" title="ragga.jpg" alt="ragga.jpg" /><figcaption>ragga.jpg</figcaption>
 </figure>
 <p>Terve!</p>
@@ -10,3 +19,6 @@
 <code>* OSX, Debian, Ruby, Sparc, NetBSD, etc</code><br />
 <code>* ragga at this domain</code></p>
 <p>--<a href="User:Ragga" title="wikilink">ragga</a> 09:42, 4 May 2008 (JST)</p>
+    </div>
+</body>
+</html>

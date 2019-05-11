@@ -1,4 +1,13 @@
-<ul>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+    <div id="content">
+        <ul>
 <li>Christian Horn, *1978</li>
 <li>linux engineer/sysadmin/user in all corners of life</li>
 <li>cycling, reading, Japanfan since stay in 2008</li>
@@ -7,3 +16,6 @@
 <li><a href="http://fluxcoil.net" class="uri">http://fluxcoil.net</a> / chorn @ fluxcoil.net</li>
 <li><a href="http://www.linkedin.com/in/hornchristian" class="uri">http://www.linkedin.com/in/hornchristian</a></li>
 </ul>
+    </div>
+</body>
+</html>

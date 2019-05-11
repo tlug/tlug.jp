@@ -1,2 +1,14 @@
-<p>Hi,</p>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+    <div id="content">
+        <p>Hi,</p>
 <p>My Name is Satish. I`m working past 4 years in IT filed.. I would like to be meet you guys. if there is NOMIKAI metting please let me know. this is my email address (<strong>supreti.rhce@gmail.com</strong>).</p>
+    </div>
+</body>
+</html>

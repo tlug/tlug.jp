@@ -1,4 +1,13 @@
-<h2 id="personal">Personal</h2>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+    <div id="content">
+        <h2 id="personal">Personal</h2>
 <p>Hi to all, I'm Alessandro, i'm an Italian student (I live near Bergamo) of i'm 14 years old.</p>
 <p><strong>Other infos</strong>:</p>
 <ul>
@@ -31,3 +40,6 @@
 <li>I'm TLUG-member since september 2007.</li>
 <li>My contibutions are here: <a href="Special:Contributions/Ela.inoelloc" class="uri" title="wikilink">Special:Contributions/Ela.inoelloc</a></li>
 </ul>
+    </div>
+</body>
+</html>

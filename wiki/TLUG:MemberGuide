@@ -1,4 +1,13 @@
-<h2 id="overview">Overview</h2>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+    <div id="content">
+        <h2 id="overview">Overview</h2>
 <p>The Tokyo Linux Users Group is a non-profit non-political volunteer organization that seeks to</p>
 <ol>
 <li>spread the use of Linux in Japan,</li>
@@ -146,3 +155,6 @@
 <h2 id="organization-information">Organization Information</h2>
 <p>Although TLUG is non-profit, it is not officially registered as an organization. If anyone wants to register TLUG, feel free to volunteer to lead the effort.</p>
 <p>TLUG's expenses are met by donations, mainly by companies or members donating computer hardware/software which is auctioned off at technical meetings.</p>
+    </div>
+</body>
+</html>
