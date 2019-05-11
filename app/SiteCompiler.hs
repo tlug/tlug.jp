@@ -15,6 +15,9 @@ import           TLUG.MediaWiki
 main :: IO ()
 main = hakyll $ do
 
+    match "template/*" $ do
+        compile templateCompiler
+
     -- All our "just serve these files" content.
     -- Much may be stuff we should build from nicer source, but don't.
     match "docroot/**" $ do
@@ -25,6 +28,7 @@ main = hakyll $ do
         route   idRoute     -- No extension; netlify config serves as text/html
         compile $ mediawikiCompiler
               >>= fixMediawikiUrls
+              >>= loadAndApplyTemplate "template/wiki.html" defaultContext
 
     -- The rest of this is the sample code for a blog site from the
     -- initial project template. We're keeping this here as an example
