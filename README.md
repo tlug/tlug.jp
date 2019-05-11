@@ -77,17 +77,16 @@ system that can serve the files on the `gh-pages` branch of a copy of
 this repo, including [GithHub Pages][ghp] (on `github.io`) and
 [Netlify].
 
-If you have a local `gh-pages` branch in your repo (usually created
-with `git checkout gh-pages`), you can pass the `--branch-release`
-option to `Test` to do a new build and commit it to that branch. You
-must not have any uncommitted changes on the current (source) branch
-when doing this. You can then push your source and build branches with
-`git push --all`. (Consider adding `--dry-run` to test this.)
+Running `./Test --dev-release` will compile the site and commit a copy
+to a branch named for the current branch with `-release` appended. You
+must be on a branch starting with `dev/` (e.g., `dev/cjs/my-changes`)
+and your working tree must be completely clean, with no uncommited
+changes, and no untracked files. (`git stash --all` can help with
+this.)
 
-If you're doing staging deployments of the [master repo], please
-ensure you co-ordinate with the other developers using that repo,
-since everyone will be sharing that `gh-pages` branch. It's usually
-better to do staging deployments using your own fork repo.
+When complete, the `Test` script will print out the command to use to
+push up your release branch; configure Netlify to serve this branch
+and you're set.
 
 #### GitHub Pages Deployment
 
@@ -145,11 +144,15 @@ Some proof-of-concept work has been done on this. See
 Production Deployment
 ---------------------
 
-There is currently no production deployment system, since this is an
-experimental version of the TLUG site. However, it's intended that in
-the future the "master" version of the site code from which the
-production version is deployed will be the version of this repo stored
-at <https://github.com/tlug/tlug.jp>.
+Production deployment is done by commiting the compiled site to the
+`gh-pages` branch. Run `./Test --prod-release` to compile the site and
+commit the compiled code to that branch. (You must be on `master`
+branch to do this, and you must have a completely clean working copy,
+i.e., no modified files and no untracked files.)
+
+Once this is done you can push the branch up with `git push origin
+gh-pages` and Netlify will automatically pick up the changes and
+start serving them.
 
 
 

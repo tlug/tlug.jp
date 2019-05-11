@@ -2,8 +2,6 @@
 set -e -o pipefail
 trap 'x=$?; echo 1>&2 "FAILED ($x)."; exit $x' 0
 
-relbranch=gh-pages
-
 die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
 
 #   Install Haskell Stack if necessary and ensure it's in $PATH.
@@ -30,20 +28,40 @@ install_or_upgrade_stack() {
     touch "$ts_file"
 }
 
+set_prod_release_branch() {
+    curbranch=$(git rev-parse --abbrev-ref HEAD)
+    [[ $curbranch = master ]] || die 1 \
+        '--prod-release works only on `master` branch'
+    relbranch=gh-pages
+}
+
+set_dev_release_branch() {
+    curbranch=$(git rev-parse --abbrev-ref HEAD)
+    [[ $curbranch = dev/* ]] || die 1 \
+        '--dev-release work only on `dev/...` branches'
+    relbranch="${curbranch}-release"
+    if ! >/dev/null 2>&1 git rev-parse --abbrev-ref "$relbranch" --; then
+        gh_pages_first_commit=3d581a16be5f22ccf6ed43cb368cbfc912babfc3
+        echo "Creating branch $relbranch"
+        git branch "$relbranch" "$gh_pages_first_commit"
+    fi
+}
+
 usage() {
     local errmsg="$@"
     [[ -n $errmsg ]] && echo 1>&2 "Argument error: $errmsg"
     echo 1>&2 "Usage: $(basename "$0") [options]"
     echo 1>&2 "Options:"
     echo 1>&2 "  -C  clean build (cleans this project, not Stack dependencies)"
-    echo 1>&2 "  --branch-release  commit compiled site to gh-pages branch"
+    echo 1>&2 "  --prod-release  commit compiled site to gh-pages branch"
+    echo 1>&2 "  --dev-release   commit compiled site to dev release branch"
     exit 2
 }
 
-commit_release_branch=false
 while true; do case "$1" in
     -C)                 shift; git clean -fdX;;
-    --branch-release)   shift; commit_release_branch=true;;
+    --prod-release)     shift; set_prod_release_branch;;
+    --dev-release)      shift; set_dev_release_branch;;
     -h|--help)          shift; usage;;
     -*)                 usage "unknown option: '$1'";;
     *)                  break;;
@@ -61,9 +79,11 @@ stack build --test
 #   has changed or not.)
 stack exec site-compiler rebuild
 
-$commit_release_branch && {
+[[ $relbranch ]] && {
     echo "Committing compiled site in _site/ to $relbranch"
     bin/git-commit-filetree "$relbranch" _site/
+    echo 'Release with:'
+    echo "    git push origin $relbranch"
 }
 
 trap '' 0
