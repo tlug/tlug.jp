@@ -1,14 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="/css/common.css" />
-</head>
-<body>
-    <div id="content">
-        <p>Jim started the <strong>Linux</strong> conference on Twics, Tokyo's first English-language Internet-connected watering hole, back in 1994. Given another shared interest in eating, this quickly morphed into a lunch-and-Linux group known as the <a href="http://tlug.jp/">Tokyo Linux Users Group</a>.</p>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="http://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="http://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Jim started the <strong>Linux</strong> conference on Twics, Tokyo's first English-language Internet-connected watering hole, back in 1994. Given another shared interest in eating, this quickly morphed into a lunch-and-Linux group known as the <a href="http://tlug.jp/">Tokyo Linux Users Group</a>.</p>
 <p>Jim has a long history of playing with computers, from the Logo Lab at MIT in the 70s, to Heathkit and Atari in the 80s, to a design group for Chinon and later Creative Technology in the 90s. He went to <a href="http://maps.google.co.nz/maps?q=11+McKerrow+St,+Te+Anau&amp;hl=en&amp;ll=-45.413876,167.711792&amp;spn=3.204536,4.768066&amp;sll=-45.028892,166.950989&amp;sspn=1.613121,2.384033&amp;t=h&amp;z=8">New Zealand</a> for <em>a one year</em> education software project that stretched to 7 years, but is now back in Tokyo.</p>
     </div>
-</body>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
 </html>
