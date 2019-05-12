@@ -22,15 +22,17 @@ The current developers/maintainers are:
 
 ### Site Organization and Future Development
 
-See the [ORGANIZATION](ORGANIZATION.md) file for information on the
-current organization of the site, organization of the previous site(s)
-and ideas for where to move forward from here. See also
-[Proposals](Proposals.md) for discussion of random ideas that we could
-implement.
+Documentation related to this site is stored in various files under
+the [`doc/`](doc/) directory. In order of importance, these include:
 
-The [Hakyll](Hakyll.md) file documents random things about hacking on
-the site compiler itself (`app/SiteCompiler.hs`). You can safely skip
-this if you're just working on site content.
+- [`ORGANIZATION`](doc/ORGANIZATION.md): Information on the current
+  organization of the site, organization of the previous site(s) and
+  ideas for where to move forward from here.
+- [`proposals`](doc/proposals.md): Discussion of random ideas that we
+  could implement.
+- [`hakyll`](doc/hakyll.md): Information about hacking on the site
+  compiler itself (`app/SiteCompiler.hs`). You can safely skip this if
+  you're working only on site content.
 
 
 Building
