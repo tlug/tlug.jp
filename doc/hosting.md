@@ -46,34 +46,77 @@ same `/wiki/...` links as the old MediaWiki site uses.
 
 The following Netlify documentation pages may be useful:
 - [Netlify Documentation Home][nfd]
+- [GitHub Permissions][nfd-githubperms]
 - [`netlify.toml` Reference][nfd-toml] for the Netlify configuration file.
 - [Headers][nfd-headers]
+
+### Netlify GitHub App
+
+> NOTE: The exact workings of the Netlify GitHub App have not been
+> completely confirmed; this information may need to be corrected.
+
+Netlify gains access to read repos on GitHub via the [Netlify GitHub
+app][github/apps/netlify] which must be installed and configured for the
+account or organization from which repos will be read. The account you use
+to login to GitHub to do this is not relevant except that it must have
+admin privileges over the account/org where the app is being installed.
+That is to say, logging in to your personal GitHub account to configure the
+`tlug` organization Netlify app or set up a Netlify site reading `tlug`
+repos will not grant that Netlify account any access to your own GitHub
+account.
+
+The Netlify app has been installed for the `tlug` organization on GitHub;
+this is administered via the [`tlug` Netlify App settings
+page][github/tlug/settings/installations/netlify] reachable from the
+[`tlug` settings page][github/tlug/settings] on the [Installed GitHub
+Apps][github/tlug/settings/installations] tab.
+
+The app always has the following access to any repos for which it's
+enabled; this cannot be changed:
+- Read access to code.
+- Read access to metadata.
+- Read and write access to checks, commit statues and pull requests.
+
+The app is currently configured to have the above access to all repos
+(public and private) in the GitHub `tlug` organization; if necessary access
+can be restricted (using the admin pages above) to specific repos. However,
+even with the app having access to all repos, users will not be able to
+configure Netlify sites for any accounts they can't personally see with
+their own GitHub accounts.
+
+To configure a new site on the Netlify `tlug-admin` account:
+1. Log out of any Netlify account you're currently using and log in to the
+   `tlug-admin` Netlify account.
+2. When setting up the new site you will be prompted to link it to a
+   repository. Choose the "GitHub" button and you will be prompted to log
+   into GitHub, which you do with your personal account. (This will not
+   grant Netlify access to repos in your personal account unless you
+   specifically enable that; see above.)
+3. At the repo selection screen there will be a dropdown allowing you to
+   select the GitHub account or organization whose repos you want to look
+   at; choose `tlug` here.
+4. Choose the appropriate repo and it will be used for that site.
+5. Log out of the `tlug-admin` account.
 
 ### Netlify Account
 
 Because only paid ($45/month) Netlify plans offer the ability to let
 multiple Netlify accounts manage a site, we use a separate Netlify free
-account to host the site, with the password shared amongst the admins. For
-details on access to this, contact one of the following people:
+account, here called `tlug-admin`, to host the site, with the password
+shared amongst the admins. For details on access to this, contact one of
+the following people:
 - Edward Middleton (`@emiddleton`) <mailto:edward.middleton@vortorus.net>
 - Curt Sampson (`@0cjs`) <mailto:cjs@cynic.net>
 
 ### Netlify Site
 
-The Netlify site in the shared account above is `tlug-jp`:
+In the shared Netlify account above, the `tlug-jp` site, which is labeled
+`www.tlug.jp` in the master site list, is our production site.
 - Admin URL: <https://app.netlify.com/sites/tlug-jp>
 - Site ID: `fc766593-520c-4f3d-89a2-20809ffffcab`
 - Test URL: <https://tlug-jp.netlify.com>
 
-To avoid similarly having to set up a shared GitHub account, Netlify is
-configured to read the the repo using plain SSH and the [master repo] is
-[configured with Netlify's deploy key][gh-depkey] giving read-only access.
-
-However, at this point Netlify seems unable to pull the repo from GitHub;
-we don't even see a use of the configured deploy key. Curt has submitted a
-support request (as of 2019-05-12 evening) to Netlify about this.
-
-### Domain Names
+#### Domain Names
 
 The [`tlug-jp` domain configuration][domconfig-tlug] on the Netlify is set
 up to serve the following domain names:
@@ -139,10 +182,15 @@ follow that recommendation for two reasons:
 [ghp-pubconfig]: https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
 [ghp]: https://help.github.com/pages/
 [github pages]: https://pages.github.com/
+[github/tlug/settings/installations/netlify]: https://github.com/organizations/tlug/settings/installations/735931
+[github/tlug/settings/installations]: https://github.com/organizations/tlug/settings/installations
+[github/tlug/settings]: https://github.com/organizations/tlug/settings/profile
+[github/apps/netlify]: https://github.com/apps/netlify
 [master repo]: https://github.com/tlug/tlug.jp
 [netlify.toml]: ../docroot/netlify.toml
 [netlify]: https://www.netlify.com/
 [nfd-domains]: https://www.netlify.com/docs/custom-domains/
+[nfd-githubperms]: https://www.netlify.com/docs/github-permissions/
 [nfd-headers]: https://www.netlify.com/docs/headers-and-basic-auth/
 [nfd-redirects]: https://www.netlify.com/docs/redirects/
 [nfd-toml]: https://www.netlify.com/docs/netlify-toml-reference/
