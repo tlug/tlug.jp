@@ -8,24 +8,6 @@ import           Data.Text as DT (pack)
 
 --------------------------------------------------------------------------------
 
-mediawikiCompiler :: Compiler (Item String)
-mediawikiCompiler =
-     do markup <- getResourceBody
-        pandoc <- read defaultHakyllReaderOptions markup
-        return $ writePandoc pandoc
-    where
-        ropt = defaultHakyllReaderOptions
-        -- This is a copy of Hakyll.Web.Pandoc.readPandocWith the first
-        -- argument to `traverse` replaced with `readMediaWiki ropt`
-        -- because the original function is hardcoded to select the Pandoc
-        -- read function based on the source file extension, which our
-        -- source files do not have.
-        read :: ReaderOptions -> Item String -> Compiler (Item Pandoc)
-        read ropt item =
-            case runPure $ traverse (readMediaWiki ropt) (fmap DT.pack item) of
-                 Left err    -> fail $ "MediaWiki parse failed: " ++ show err
-                 Right item' -> return item'
-
 main :: IO ()
 main = hakyll $ do
 
@@ -100,13 +82,32 @@ main = hakyll $ do
 
 
 --------------------------------------------------------------------------------
+-- Custom code for our site
 
--- Drop the given number of leading path components
+-- | Drop the given number of leading path components
 dropInitialComponents :: Int -> Routes
 dropInitialComponents n = customRoute $
     joinPath . drop n . splitPath . toFilePath
 
 dropInitialComponent = dropInitialComponents 1
+
+mediawikiCompiler :: Compiler (Item String)
+mediawikiCompiler =
+     do markup <- getResourceBody
+        pandoc <- read defaultHakyllReaderOptions markup
+        return $ writePandoc pandoc
+    where
+        ropt = defaultHakyllReaderOptions
+        -- This is a copy of Hakyll.Web.Pandoc.readPandocWith the first
+        -- argument to `traverse` replaced with `readMediaWiki ropt`
+        -- because the original function is hardcoded to select the Pandoc
+        -- read function based on the source file extension, which our
+        -- source files do not have.
+        read :: ReaderOptions -> Item String -> Compiler (Item Pandoc)
+        read ropt item =
+            case runPure $ traverse (readMediaWiki ropt) (fmap DT.pack item) of
+                 Left err    -> fail $ "MediaWiki parse failed: " ++ show err
+                 Right item' -> return item'
 
 --------------------------------------------------------------------------------
 -- Also sample blog site code
