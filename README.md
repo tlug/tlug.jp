@@ -33,6 +33,7 @@ the [`doc/`](doc/) directory. In order of importance, these include:
 - [`hakyll`](doc/hakyll.md): Information about hacking on the site
   compiler itself (`app/SiteCompiler.hs`). You can safely skip this if
   you're working only on site content.
+- [`hosting`](doc/hosting.md): Information about the hosting for this site.
 
 
 Building
@@ -155,6 +156,9 @@ i.e., no modified files and no untracked files.)
 Once this is done you can push the branch up with `git push origin
 gh-pages` and Netlify will automatically pick up the changes and
 start serving them.
+
+For information about where this site is hosted and how it's
+configured, see [`doc/hosting.md`](doc/hosting.md).
 
 
 
