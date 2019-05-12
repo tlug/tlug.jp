@@ -1,3 +1,10 @@
+# Documentation for this file:
+#   https://www.netlify.com/docs/netlify-toml-reference/
+
+[build]
+    command = "# no build command"
+    publish = "."
+
 [[headers]]
     for = "/wiki/*"
     [headers.values]
