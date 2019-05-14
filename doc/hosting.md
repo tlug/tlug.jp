@@ -55,15 +55,26 @@ The following Netlify documentation pages may be useful:
 > NOTE: The exact workings of the Netlify GitHub App have not been
 > completely confirmed; this information may need to be corrected.
 
-Netlify gains access to read repos on GitHub via the [Netlify GitHub
-app][github/apps/netlify] which must be installed and configured for the
-account or organization from which repos will be read. The account you use
-to login to GitHub to do this is not relevant except that it must have
-admin privileges over the account/org where the app is being installed.
-That is to say, logging in to your personal GitHub account to configure the
-`tlug` organization Netlify app or set up a Netlify site reading `tlug`
-repos will not grant that Netlify account any access to your own GitHub
-account.
+The [Netlify GitHub app][github/apps/netlify] is what allows Netlify
+to gain access to read repos and update status on GitHub. This is
+installed and configured separately for each GitHub account or
+organization and the installation status or settings for one
+account/org cannot affect any other account/org. The app can be
+configured (in the settings for that GitHub account/org) to allow
+Netlify to read all repos or just selected ones. Uninstalling the app
+will remove all access to repos owned by that account/org.
+
+Installation and mangement of the app is done by using any GitHub
+account that has admin access to the account/org that owns the repos.
+There is no connection between the GitHub account you use to do these
+management actions and the accounts/orgs to which Netlify is given
+access when configuring a Netlify site. In particular this means that,
+__even though you log in to GitHub with your account when configuring
+a Netlify site, Netlify will not gain access to any repos outside of
+the `tlug` org, whether in your account or other orgs,__ unless you
+explicitly install the app in your account or other orgs. (Of course,
+if someone else has already installed the app in other accounts/orgs,
+Netlify will already have read access to the configured repos.)
 
 The Netlify app has been installed for the `tlug` organization on GitHub;
 this is administered via the [`tlug` Netlify App settings
