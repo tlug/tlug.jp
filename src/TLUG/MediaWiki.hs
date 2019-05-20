@@ -39,15 +39,14 @@
 module TLUG.MediaWiki
     ( Page, Chunk(..)
     , parsePage
-    , runParser, anyChar,
+    , runParser, char,
     ) where
 
 import Control.Applicative;
 import Data.List;
 
-{-
-    This is a simple monadic parser framework.
--}
+----------------------------------------------------------------------
+--  Monadic parser framework
 
 data ParserState = ParserState
     { remaining :: String
@@ -88,30 +87,7 @@ instance Monad Parser where
                 Nothing -> Nothing
                 Just (x, state') -> parse (k x) state'
 
-{-
-    This is a wiki markup parser that separates out transcludes from
-    other markup.
--}
-
-type Page = [Chunk]
-
-type ParamList = [(Maybe String,String)]
-data Chunk =
-    Markup
-      { text      :: String
-      , noinclude :: Bool
-      }
-    | Transclude
-      { pageName :: String
-      , params   :: ParamList
-      }
-    deriving (Show, Eq)
-
--- Runs the wiki markup parser on a string
-parsePage :: String -> Page
-parsePage s = runParser chunks s
-
--- Runs a parser on a string
+-- | Run a given parser on a string
 runParser :: Parser a -> String -> a
 runParser (Parser f) s =
     case f (ParserState s) of
@@ -119,70 +95,42 @@ runParser (Parser f) s =
         Just (x, ParserState "") -> x
         Just (x, ParserState s)  -> error $ "Incomplete parse: " ++ s
 
-isAnyPrefixOf [] s = False
-isAnyPrefixOf (p:xp) s = (p `isPrefixOf` s) || (xp `isAnyPrefixOf` s)
+----------------------------------------------------------------------
+--  Parser for transcludes and other text from MediaWiki markup.
 
--- Check for a match without consuming any input.
-match s = Parser $ \state ->
-    if s `isAnyPrefixOf` (remaining state) then
-        Just (s, state)
-    else
-        Nothing
+type ParamName  = Maybe String
+type ParamValue = String
+type Param     = (ParamName, ParamValue)
+data Chunk
+    = Markup { text :: String, noinclude :: Bool }
+    | Transclude { pageName :: String, params :: [Param] }
+    deriving (Show, Eq)
+type Page = [Chunk]
 
--- Inverts a match parser
-notp (Parser p) = Parser $ \state ->
-    case p state of
-        Nothing -> Just ([], state)
-        otherwise -> Nothing
+-- | Run the wiki markup parser on a string
+parsePage :: String -> Page
+parsePage s = runParser (many chunk) s
+    where
+        chunk :: Parser Chunk
+        chunk = transclude <|> markup
 
-noMatch s = notp (match s)
+-- | Parse a chunk of non-transclude markup
+markup :: Parser Chunk
+markup = uncurry Markup <$> (incMarkup <|> noincMarkup)
+    where
+        incMarkup = (,False) <$> rawMarkup
+        noincMarkup =
+            (,True) <$ string noincludeBeg <*> rawMarkup <* string noincludeEnd
+        -- Parses raw markup that isn't parsed any further here
+        rawMarkup = concat <$> some ((++) <$>
+                          numBraces (/= 2) <*
+                          noMatch [noincludeBeg, noincludeEnd] <*>
+                          ((:[]) <$> char)
+                                    )
+        noincludeBeg = "<noinclude>"
+        noincludeEnd = "</noinclude>"
 
--- Parses a single char
-anyChar :: Parser Char
-anyChar = Parser (\state ->
-            case (remaining state) of
-                ""       -> Nothing
-                (c:cs)   -> Just (c, ParserState cs)
-              )
-
--- Parses any char unless looking at one of the specified strings
-anyExcept :: [String] -> Parser Char
-anyExcept s = Parser $ \state ->
-    if s `isAnyPrefixOf` (remaining state) then
-        Nothing
-    else
-        parse anyChar state
-
--- Parses any fixed string
-string :: String -> Parser String
-string t = Parser (
-    \state -> 
-        case stripPrefix t (remaining state) of
-            Just xs -> Just (t, ParserState xs)
-            Nothing -> Nothing
-    )
-
-chunks :: Parser [Chunk]
-chunks = many chunk
-
-chunk :: Parser Chunk
-chunk = transclude <|> markup
-
--- Parses consecutive open braces if the provided function returns
--- true. The function arg is the number of consecutive open braces.
-numBraces :: (Int -> Bool) -> Parser String
-numBraces func = Parser $ \state ->
-    let rem = (remaining state)
-        countBraces ('{':xs) cnt = countBraces xs (cnt + 1)
-        countBraces _ cnt = cnt
-        count = countBraces rem 0
-    in
-        if func count then
-            Just (take count rem, ParserState $ drop count rem)
-        else
-            Nothing
-
--- Parses a transclude. Doesn't currently handle magic words.
+-- | Parse a transclude. Doesn't currently handle magic words.
 transclude :: Parser Chunk
 transclude = Transclude <$
     numBraces (== 2) <*>
@@ -194,20 +142,56 @@ transclude = Transclude <$
         id = many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
 
--- Parses a chunk of non-transclude markup
-markup :: Parser Chunk
-markup = uncurry Markup <$> (incMarkup <|> noincMarkup)
+-- Parses consecutive open braces if the provided function returns
+-- true. The function arg is the number of consecutive open braces.
+numBraces :: (Int -> Bool) -> Parser String
+numBraces f = Parser $ \state ->
+    let count                       = countBraces rem 0
+        rem                         = remaining state
+        countBraces ('{':xs) cnt    = countBraces xs (cnt + 1)
+        countBraces _ cnt           = cnt
+    in
+        if f count
+            then Just (take count rem, ParserState $ drop count rem)
+            else Nothing
 
-noincludeBeg = "<noinclude>"
-noincludeEnd = "</noinclude>"
+isAnyPrefixOf [] s      = False
+isAnyPrefixOf (p:xp) s  = (p `isPrefixOf` s) || (xp `isAnyPrefixOf` s)
 
-incMarkup = (,False) <$> rawMarkup
-noincMarkup = (,True) <$
-    string noincludeBeg <*> rawMarkup <* string noincludeEnd
+-- Check for a match without consuming any input.
+match s = Parser $ \state ->
+    if s `isAnyPrefixOf` (remaining state)
+        then Just (s, state)
+        else Nothing
 
--- Parses raw markup that isn't parsed any further here
-rawMarkup = concat <$> some ((++) <$>
-                  numBraces (/= 2) <*
-                  noMatch [noincludeBeg, noincludeEnd] <*>
-                  ((:[]) <$> anyChar)
-                            )
+-- Inverts a match parser
+notp (Parser p) = Parser $ \state ->
+    case p state of
+        Nothing -> Just ([], state)
+        otherwise -> Nothing
+
+noMatch s = notp (match s)
+
+-- | Parse a single char
+char :: Parser Char
+char = Parser $ \state ->
+    case (remaining state) of
+        ""       -> Nothing
+        (c:cs)   -> Just (c, ParserState cs)
+
+-- Parses any char unless looking at one of the specified strings
+anyExcept :: [String] -> Parser Char
+anyExcept s = Parser $ \state ->
+    if s `isAnyPrefixOf` (remaining state)
+        then Nothing
+        else parse char state
+
+-- Parses any fixed string
+string :: String -> Parser String
+string t = Parser $ \state ->
+    case stripPrefix t (remaining state) of
+        Just xs -> Just (t, ParserState xs)
+        Nothing -> Nothing
+
+
+
