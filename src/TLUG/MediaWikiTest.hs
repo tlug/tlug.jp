@@ -9,14 +9,14 @@ import Control.Applicative
 test_parserApp = do
     assertEqual
         ('a','y')
-        $ runParser ((\a b -> (a,b)) <$> anyChar <*> anyChar) "ay"
+        $ runParser ((\a b -> (a,b)) <$> char <*> char) "ay"
     assertEqual
         ('a','y')
-        $ runParser (liftA2 (\a b -> (a,b)) anyChar anyChar) "ay"
+        $ runParser (liftA2 (\a b -> (a,b)) char char) "ay"
 
 test_parserMonad =
-    let parser = do a <- anyChar
-                    b <- anyChar
+    let parser = do a <- char
+                    b <- char
                     return (a,b)
     in assertEqual ('a','y') $ runParser parser "ay"
 
