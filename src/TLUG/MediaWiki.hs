@@ -56,39 +56,37 @@ newtype Parser a = Parser { parse :: (ParserState -> Maybe (a, ParserState)) }
 
 instance Functor Parser where
     fmap :: (a -> b) -> Parser a -> Parser b
-    fmap abFunc (Parser aParser) = Parser (
-        \aState -> case aParser aState of
-            Nothing -> Nothing
-            Just (aResult, bState) -> Just (abFunc aResult, bState)
-        )
+    fmap f (Parser parse) =
+        Parser $ \state ->
+            case parse state of
+                Nothing -> Nothing
+                Just (x, state') -> Just (f x, state')
 
 instance Applicative Parser where
     pure :: a -> Parser a
     pure x = Parser $ \state -> Just (x, state)
     (<*>) :: Parser (a -> b) -> Parser a -> Parser b
-    (Parser abParser) <*> aParser = Parser (
-        \aState -> case abParser aState of
+    (Parser parse1) <*> parser2 =
+        Parser $ \state -> case parse1 state of
             Nothing -> Nothing
-            Just (abFunc, bState) -> parse (fmap abFunc aParser) bState
-        )
+            Just (f, state') -> parse (fmap f parser2) state'
 
 instance Alternative Parser where
     empty :: Parser a
     empty = Parser $ return Nothing
     (<|>) :: Parser a -> Parser a -> Parser a
-    (Parser a) <|> (Parser b) = Parser (
-        \state -> case a state of
-            Nothing -> b state
-            x -> x
-        )
+    (Parser parse1) <|> (Parser parse2) =
+        Parser $ \state -> case parse1 state of
+                               Nothing -> parse2 state
+                               x -> x
 
 instance Monad Parser where
     (>>=) :: Parser a -> (a -> Parser b) -> Parser b
-    (>>=) aParser a2bFunc = Parser (
-        \aState -> case parse aParser aState of
-            Nothing -> Nothing
-            Just (aResult, bState) -> parse (a2bFunc aResult) bState
-        )
+    parser >>= k =
+        Parser $ \state ->
+            case (parse parser) state of
+                Nothing -> Nothing
+                Just (x, state') -> parse (k x) state'
 
 {-
     This is a wiki markup parser that separates out transcludes from
