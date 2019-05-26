@@ -21,7 +21,9 @@ common deps
 
 executable site-compiler
     import:             deps
-    main-is:            app/SiteCompiler.hs
+    main-is:            SiteCompiler.hs
+    hs-source-dirs:     src/, app/
+    other-modules:      TLUG.MediaWiki
 
 test-suite test
     import:             deps

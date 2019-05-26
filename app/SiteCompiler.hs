@@ -7,6 +7,7 @@ import           System.FilePath (joinPath, splitPath, replaceExtension)
 import           Text.Pandoc (Pandoc, ReaderOptions, runPure, readMediaWiki)
 import           Data.List (isPrefixOf)
 import           Data.Text as DT (pack)
+import           TLUG.MediaWiki
 
 --------------------------------------------------------------------------------
 
@@ -96,7 +97,8 @@ dropInitialComponent = dropInitialComponents 1
 mediawikiCompiler :: Compiler (Item String)
 mediawikiCompiler =
      do markup <- getResourceBody
-        pandoc <- read defaultHakyllReaderOptions markup
+        tcmarkup <- unsafeCompiler $ parseFile (itemBody markup)
+        pandoc <- read defaultHakyllReaderOptions (Item (itemIdentifier markup) tcmarkup)
         return $ writePandoc pandoc
     where
         ropt = defaultHakyllReaderOptions

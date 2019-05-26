@@ -53,7 +53,7 @@ test_parse = do
 
 
 test_file = do
-    output <- parseFile "wiki/Meetings:2019:02"
+    output <- readFile "wiki/Meetings:2019:02" >>= parseFile
     assertEqual "\
 \== Introduction ==\n\
 \All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or entrance fees.\n\

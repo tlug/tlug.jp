@@ -111,8 +111,8 @@ data Chunk
 type Page = [Chunk]
 
 -- | Process a top-level wiki markup file
-parseFile :: FilePath -> IO String
-parseFile file = parseFile' True file
+parseFile :: String -> IO String
+parseFile str = doTransclude True $ parsePage str
 
 -- | Parse a wiki markup file
 parseFile' :: Bool -> FilePath -> IO String
