@@ -102,33 +102,32 @@ type ParamName  = Maybe String
 type ParamValue = String
 type Param     = (ParamName, ParamValue)
 data Chunk
-    = Markup { text :: String, noinclude :: Bool }
+    = Markup String
     | Transclude { pageName :: String, params :: [Param] }
+    | NoInclude Page
     deriving (Show, Eq)
 type Page = [Chunk]
 
 -- | Run the wiki markup parser on a string
 parsePage :: String -> Page
-parsePage s = runParser (many chunk) s
-    where
-        chunk :: Parser Chunk
-        chunk = transclude <|> markup
+parsePage s = runParser page s
+
+-- | Parse a page
+page :: Parser Page
+page = many chunk
+
+-- | Parse a single chunk
+chunk :: Parser Chunk
+chunk = markup <|> transclude <|> noInclude
 
 -- | Parse a chunk of non-transclude markup
 markup :: Parser Chunk
-markup = uncurry Markup <$> (incMarkup <|> noincMarkup)
-    where
-        incMarkup = (,False) <$> rawMarkup
-        noincMarkup =
-            (,True) <$ string noincludeBeg <*> rawMarkup <* string noincludeEnd
-        -- Parses raw markup that isn't parsed any further here
-        rawMarkup = concat <$> some ((++) <$>
-                          numBraces (/= 2) <*
-                          noMatch [noincludeBeg, noincludeEnd] <*>
-                          ((:[]) <$> char)
-                                    )
-        noincludeBeg = "<noinclude>"
-        noincludeEnd = "</noinclude>"
+markup = Markup <$>
+    concat <$> some ((++) <$>
+                        numBraces (/= 2) <*
+                        noMatch [noincludeBeg, noincludeEnd] <*>
+                        ((:[]) <$> char)
+                    )
 
 -- | Parse a transclude. Doesn't currently handle magic words.
 transclude :: Parser Chunk
@@ -141,6 +140,12 @@ transclude = Transclude <$
         param = (,) <$ string "|" <*> optional (id <* string "=") <*> id
         id = many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
+
+noInclude :: Parser Chunk
+noInclude = NoInclude <$ string noincludeBeg <*> page <* string noincludeEnd
+
+noincludeBeg = "<noinclude>"
+noincludeEnd = "</noinclude>"
 
 -- Parses consecutive open braces if the provided function returns
 -- true. The function arg is the number of consecutive open braces.

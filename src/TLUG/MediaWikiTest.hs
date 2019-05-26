@@ -25,33 +25,37 @@ test_parse = do
         []
         $ parsePage ""
     assertEqual
-        [Markup "abc" False]
+        [Markup "abc"]
         $ parsePage "abc"
     assertEqual
         [Transclude "trans:a b" []]
         $ parsePage "{{trans:a b}}"
     assertEqual
-        [Markup "** " False, Transclude "w:ja" [(Nothing,"利用者:name")]]
+        [Markup "** ", Transclude "w:ja" [(Nothing,"利用者:name")]]
         $ parsePage "** {{w:ja|利用者:name}}"
     assertEqual
-        [Markup "inc" False, Markup "noinc" True]
-        $ parsePage "inc<noinclude>noinc</noinclude>"
+       [Markup "inc", NoInclude [Markup "noinc", NoInclude [Markup "doublenoinc"]]]
+        $ parsePage "inc<noinclude>noinc<noinclude>doublenoinc</noinclude></noinclude>"
     assertEqual
-        [ Markup "begin" False
+        [ Markup "begin"
         , Transclude "trans"
             [ (Nothing,"value1"), (Nothing,""), (Just "name2","value2") ]
-        , Transclude "t2" []
-        , Markup "end" True
+        , NoInclude
+          [ Transclude "t2" []
+          , Markup "end"
+          ]
         ]
         $ parsePage  $ "begin{{trans|value1||name2=value2}}"
-                    ++ "{{t2}}<noinclude>end</noinclude>"
+                    ++ "<noinclude>{{t2}}end</noinclude>"
     assertEqual
-        [Markup "{{{}}}{{{{}}}}{}" False]
+        [Markup "{{{}}}{{{{}}}}{}"]
         $ parsePage "{{{}}}{{{{}}}}{}"
 
 {- How do we test errors?
-    assertEqual [Markup "hello", Transclude "hi" [("", "bye"), ("","")]]
-        (parsePage "hello{{hi|bye|")
-    assertEqual [Markup "hello"]
-        (parsePage "hello{{")
+    assertEqual
+        [Markup "hello", Transclude "hi" [(Nothing,"bye"), (Nothing,"")]]
+        $ parsePage "hello{{hi|bye|"
+    assertEqual
+        [Markup "hello"]
+        $ parsePage "hello{{"
 -}
