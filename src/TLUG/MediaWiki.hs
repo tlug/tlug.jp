@@ -35,10 +35,12 @@
 
 {-# LANGUAGE InstanceSigs #-}
 {-# LANGUAGE TupleSections #-}
+{-# LANGUAGE RecordWildCards #-}
 
 module TLUG.MediaWiki
     ( Page, Chunk(..)
     , parsePage
+    , parseFile
     , runParser, char,
     ) where
 
@@ -107,6 +109,29 @@ data Chunk
     | NoInclude Page
     deriving (Show, Eq)
 type Page = [Chunk]
+
+-- | Process a top-level wiki markup file
+parseFile :: FilePath -> IO String
+parseFile file = parseFile' True file
+
+-- | Parse a wiki markup file
+parseFile' :: Bool -> FilePath -> IO String
+parseFile' top file = parsePage <$> readFile file >>= doTransclude top
+
+-- | Replace Transclude chunks with their actual parse tree by reading
+-- | and parsing the transclude file
+doTransclude :: Bool -> Page -> IO String
+doTransclude True (NoInclude page:xs) = (++) <$> (doTransclude True page) <*> (doTransclude True xs)
+doTransclude False (NoInclude _:xs) = doTransclude False xs
+doTransclude top (Transclude{..}:xs) = (++) <$> (parseFile' False $ transFileName pageName) <*> (doTransclude top xs)
+doTransclude top (Markup x:xs) = (x ++) <$> doTransclude top xs
+doTransclude top [] = return []
+
+-- | Generate filename from a Transclude pageName
+transFileName :: String -> FilePath
+transFileName pageName =
+    "wiki/Template:" ++
+    map (\a -> if a == ' ' then '_' else a) pageName
 
 -- | Run the wiki markup parser on a string
 parsePage :: String -> Page
@@ -197,6 +222,3 @@ string t = Parser $ \state ->
     case stripPrefix t (remaining state) of
         Just xs -> Just (t, ParserState xs)
         Nothing -> Nothing
-
-
-
