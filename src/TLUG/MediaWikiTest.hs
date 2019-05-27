@@ -48,8 +48,8 @@ test_parse = do
         $ parsePage  $ "begin{{trans|value1||name2=value2}}"
                     ++ "<noinclude>{{t2}}end</noinclude>"
     assertEqual
-        [Markup "{{{}}}{{{{}}}}{}"]
-        $ parsePage "{{{}}}{{{{}}}}{}"
+        [Parameter "p", Markup "{{{{}}}}{}"]
+        $ parsePage "{{{p}}}{{{{}}}}{}"
 
 
 test_file = do
@@ -96,8 +96,8 @@ test_file = do
 \For directions or information before the meeting, call:\n\
 \* Justin: 050-5806-9898\n\
 \\n\
-\[[Category:Meetings|{{{year}}}:{{{month}}}]]\n\
-\[[Category:Meetings:{{{year}}}|{{{month}}}]]\n\
+\[[Category:Meetings|2019:02]]\n\
+\[[Category:Meetings:2019|02]]\n\
 \\n\
 \\n"
         output
