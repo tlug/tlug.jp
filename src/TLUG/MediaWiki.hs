@@ -46,6 +46,8 @@ module TLUG.MediaWiki
 
 import Control.Applicative;
 import Data.List;
+import Data.Maybe;
+import Text.Read;
 
 ----------------------------------------------------------------------
 --  Monadic parser framework
@@ -107,25 +109,42 @@ data Chunk
     = Markup String
     | Transclude { pageName :: String, params :: [Param] }
     | NoInclude Page
+    | Parameter String
     deriving (Show, Eq)
 type Page = [Chunk]
 
 -- | Process a top-level wiki markup file
 parseFile :: String -> IO String
-parseFile str = doTransclude True $ parsePage str
+parseFile str = doTransclude [] True $ parsePage str
 
 -- | Parse a wiki markup file
-parseFile' :: Bool -> FilePath -> IO String
-parseFile' top file = parsePage <$> readFile file >>= doTransclude top
+parseFile' :: [Param] -> Bool -> FilePath -> IO String
+parseFile' par top file = parsePage <$> readFile file >>= doTransclude par top
 
 -- | Replace Transclude chunks with their actual parse tree by reading
 -- | and parsing the transclude file
-doTransclude :: Bool -> Page -> IO String
-doTransclude True (NoInclude page:xs) = (++) <$> (doTransclude True page) <*> (doTransclude True xs)
-doTransclude False (NoInclude _:xs) = doTransclude False xs
-doTransclude top (Transclude{..}:xs) = (++) <$> (parseFile' False $ transFileName pageName) <*> (doTransclude top xs)
-doTransclude top (Markup x:xs) = (x ++) <$> doTransclude top xs
-doTransclude top [] = return []
+doTransclude :: [Param] -> Bool -> Page -> IO String
+doTransclude par True (NoInclude page:xs) = (++) <$> (doTransclude par True page) <*> (doTransclude par True xs)
+doTransclude par False (NoInclude _:xs) = doTransclude par False xs
+doTransclude par top (Transclude{..}:xs) = (++) <$> (parseFile' params False $ transFileName pageName) <*> (doTransclude par top xs)
+doTransclude par top (Markup x:xs) = (x ++) <$> doTransclude par top xs
+doTransclude par top (Parameter x:xs) = ((replaceParam par x) ++) <$> doTransclude par top xs
+doTransclude par top [] = return []
+
+replaceParam :: [Param] -> String -> String
+replaceParam params name =
+    let namepar = find (\(pn,pv) -> pn == Just name) params
+        pospar = getParamIndex params (readMaybe name :: Maybe Int)
+        par = if isJust namepar then namepar else pospar
+    in
+        case par of
+            Just (_,np) -> np
+            Nothing -> "<nowiki>{{{" ++ name ++ "}}}</nowiki>"
+    where
+        getParamIndex params pos = case pos of
+            Nothing -> Nothing
+            Just idx -> if (idx < 0) || (idx >= length params) then Nothing
+                        else Just $ params !! idx
 
 -- | Generate filename from a Transclude pageName
 transFileName :: String -> FilePath
@@ -144,13 +163,13 @@ page = many chunk
 
 -- | Parse a single chunk
 chunk :: Parser Chunk
-chunk = markup <|> transclude <|> noInclude
+chunk = markup <|> transclude <|> parameter <|> noInclude
 
 -- | Parse a chunk of non-transclude markup
 markup :: Parser Chunk
 markup = Markup <$>
     concat <$> some ((++) <$>
-                        numBraces (/= 2) <*
+                        numBraces (\a -> (a /= 2) && (a /= 3)) <*
                         noMatch [noincludeBeg, noincludeEnd] <*>
                         ((:[]) <$> char)
                     )
@@ -166,6 +185,12 @@ transclude = Transclude <$
         param = (,) <$ string "|" <*> optional (id <* string "=") <*> id
         id = many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
+
+parameter = Parameter <$
+    numBraces (== 3) <*>
+    some (anyExcept [paramEnd]) <*
+    string paramEnd
+    where paramEnd = "}}}"
 
 noInclude :: Parser Chunk
 noInclude = NoInclude <$ string noincludeBeg <*> page <* string noincludeEnd
