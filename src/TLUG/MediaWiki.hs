@@ -130,7 +130,8 @@ doTransclude top [] = return []
 -- | Generate filename from a Transclude pageName
 transFileName :: String -> FilePath
 transFileName pageName =
-    "wiki/Template:" ++
+    "wiki/" ++
+    (if "Template:" `isPrefixOf` pageName then "" else "Template:") ++
     map (\a -> if a == ' ' then '_' else a) pageName
 
 -- | Run the wiki markup parser on a string
