@@ -158,8 +158,8 @@ replaceParam params name =
     where
         getParamIndex params pos = case pos of
             Nothing -> Nothing
-            Just idx -> if (idx < 0) || (idx >= length params) then Nothing
-                        else Just $ params !! idx
+            Just pos -> if (pos < 1) || (pos > length params) then Nothing
+                        else Just $ params !! (pos - 1)
 
 -- | Generate filename from a Transclude pageName
 transFileName :: String -> FilePath

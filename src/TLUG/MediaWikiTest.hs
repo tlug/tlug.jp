@@ -52,10 +52,19 @@ test_parse = do
         $ parsePage "{{{p}}}{{{{}}}}{}"
 
     assertEqual
-       [Redirect "Link", Markup "content"]
+        [Transclude "ML2" [ (Nothing,"0803/msg00500.html"), (Nothing,"Dave Brown") ]]
+        $ parsePage "{{ML2|0803/msg00500.html|Dave Brown}}"
+
+    assertEqual
+        [Redirect "Link", Markup "content"]
         $ parsePage "#REDIRECT [[Link]]content"
 
 test_file = do
+    output <- parseFile "{{ML2|0803/msg00500.html|Dave Brown}}"
+    assertEqual
+        (ProcPage "[http://lists.tlug.jp/ML/0803/msg00500.html --Dave Brown]\n" Nothing)
+        $ output
+
     output <- readFile "wiki/Meetings:2019:02" >>= parseFile
     assertEqual (ProcPage "\
 \== Introduction ==\n\
