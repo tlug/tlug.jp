@@ -51,10 +51,13 @@ test_parse = do
         [Parameter "p", Markup "{{{{}}}}{}"]
         $ parsePage "{{{p}}}{{{{}}}}{}"
 
+    assertEqual
+       [Redirect "Link", Markup "content"]
+        $ parsePage "#REDIRECT [[Link]]content"
 
 test_file = do
     output <- readFile "wiki/Meetings:2019:02" >>= parseFile
-    assertEqual "\
+    assertEqual (ProcPage "\
 \== Introduction ==\n\
 \All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or entrance fees.\n\
 \\n\
@@ -100,6 +103,7 @@ test_file = do
 \[[Category:Meetings:2019|02]]\n\
 \\n\
 \\n"
+                 Nothing)
         output
 
 {- How do we test errors?

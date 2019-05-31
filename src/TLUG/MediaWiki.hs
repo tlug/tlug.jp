@@ -41,6 +41,7 @@ module TLUG.MediaWiki
     ( Page, Chunk(..)
     , parsePage
     , parseFile
+    , ProcPage(..)
     , runParser, char,
     ) where
 
@@ -110,26 +111,40 @@ data Chunk
     | Transclude { pageName :: String, params :: [Param] }
     | NoInclude Page
     | Parameter String
+    | Redirect String
     deriving (Show, Eq)
 type Page = [Chunk]
 
+-- | Processed markup plus metadata (just redirect for now)
+data ProcPage = ProcPage {
+    body :: String,
+    redirect :: Maybe String
+    } deriving (Show, Eq)
+
 -- | Process a top-level wiki markup file
-parseFile :: String -> IO String
+parseFile :: String -> IO ProcPage
 parseFile str = doTransclude [] True $ parsePage str
 
 -- | Parse a wiki markup file
-parseFile' :: [Param] -> Bool -> FilePath -> IO String
+parseFile' :: [Param] -> Bool -> FilePath -> IO ProcPage
 parseFile' par top file = parsePage <$> readFile file >>= doTransclude par top
 
 -- | Replace Transclude chunks with their actual parse tree by reading
 -- | and parsing the transclude file
-doTransclude :: [Param] -> Bool -> Page -> IO String
-doTransclude par True (NoInclude page:xs) = (++) <$> (doTransclude par True page) <*> (doTransclude par True xs)
+doTransclude :: [Param] -> Bool -> Page -> IO ProcPage
+doTransclude par True (NoInclude page:xs) = concatPP <$> (doTransclude par True page) <*> (doTransclude par True xs)
 doTransclude par False (NoInclude _:xs) = doTransclude par False xs
-doTransclude par top (Transclude{..}:xs) = (++) <$> (parseFile' params False $ transFileName pageName) <*> (doTransclude par top xs)
-doTransclude par top (Markup x:xs) = (x ++) <$> doTransclude par top xs
-doTransclude par top (Parameter x:xs) = ((replaceParam par x) ++) <$> doTransclude par top xs
-doTransclude par top [] = return []
+doTransclude par top (Transclude{..}:xs) = concatPP <$> (parseFile' params False $ transFileName pageName) <*> (doTransclude par top xs)
+doTransclude par top (Markup x:xs) = strPP x <$> doTransclude par top xs
+doTransclude par top (Parameter x:xs) = strPP (replaceParam par x) <$> doTransclude par top xs
+doTransclude par top (Redirect x:xs) = (\a -> a { redirect = Just x }) <$> doTransclude par top xs
+doTransclude par top [] = return $ ProcPage "" Nothing
+
+strPP :: String -> ProcPage -> ProcPage
+strPP a b = b { body = a ++ body b }
+
+concatPP :: ProcPage -> ProcPage -> ProcPage
+concatPP a = strPP $ body a
 
 replaceParam :: [Param] -> String -> String
 replaceParam params name =
@@ -163,14 +178,14 @@ page = many chunk
 
 -- | Parse a single chunk
 chunk :: Parser Chunk
-chunk = markup <|> transclude <|> parameter <|> noInclude
+chunk = markup <|> transclude <|> parameter <|> noInclude <|> redir
 
 -- | Parse a chunk of non-transclude markup
 markup :: Parser Chunk
 markup = Markup <$>
     concat <$> some ((++) <$>
                         numBraces (\a -> (a /= 2) && (a /= 3)) <*
-                        noMatch [noincludeBeg, noincludeEnd] <*>
+                        noMatch [noincludeBeg, noincludeEnd, redirTag] <*>
                         ((:[]) <$> char)
                     )
 
@@ -197,6 +212,15 @@ noInclude = NoInclude <$ string noincludeBeg <*> page <* string noincludeEnd
 
 noincludeBeg = "<noinclude>"
 noincludeEnd = "</noinclude>"
+
+redir = Redirect <$
+    string (redirTag ++ " [[") <*
+    many (string ":") <*>
+    some (anyExcept [redirEnd]) <*
+    string redirEnd
+    where redirEnd = "]]"
+
+redirTag = "#REDIRECT"
 
 -- Parses consecutive open braces if the provided function returns
 -- true. The function arg is the number of consecutive open braces.
