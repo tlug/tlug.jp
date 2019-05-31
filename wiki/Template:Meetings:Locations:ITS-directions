@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>A rough translation of the Japanese directions on the <a href="http://www.its-kenpo.or.jp/restaurant/itigaya_kaigisitu/map.html">Map</a> page:</p>
+<ul>
+<li><strong>都営大江戸線　牛込柳町駅</strong> (Toei Oedo line, UshigomeYanagichou stn):</li>
+</ul>
+<p><em>(approx 8-mins walk)</em></p>
+<ol>
+<li>Use the EAST EXIT, turn RIGHT onto GAIEN HIGASHI Street at the ORIGIN BENTO shop (IchigayaYanagichou intersection).</li>
+</ol>
+<p>Note: It seems that the East exit is tucked away on the north side of Okubo Street, so you'll need to cross the road to get to Origin Bento in the first place. Addition map detail <a href="http://map.yahoo.co.jp/print?lat=35.41.47.0&amp;lon=139.43.42.0&amp;prop=transit&amp;sc=2&amp;memo=%A1%DA%B5%ED%B9%FE%CC%F8%C4%AE%B1%D8%BC%FE%CA%D5%A4%CE%C3%CF%BF%DE%A1%DB%01%0a%A2%A3%BF%B7%BD%C9%C0%BE%B8%FD%A2%AA%B5%ED%B9%FE%CC%F8%C4%AE%28+2008%C7%AF03%B7%EE05%C6%FC+13%3A39%BD%D0%C8%AF+%A1%C1+2008%C7%AF03%B7%EE05%C6%FC+13%3A45%C5%FE%C3%E5+%29%0a%BD%EA%CD%D7%BB%FE%B4%D6%A1%A76%3C%2Fspan%3E%CA%AC%A1%CA%BE%E8%BC%D66%CA%AC%A1%CB%0a%B1%BF%C4%C2%A1%A7%CA%D2%C6%BB170%B1%DF%0a%BE%E8%A4%EA%B4%B9%A4%A8%A1%A70%B2%F3">here</a>.</p>
+<ol>
+<li>Follow GAIEN HIGASHI Street south thru' the shopping district to the IchigayaNakanochou intersection (3rd traffic light down - just before there will be a Family Mart on your right) and turn RIGHT.</li>
+<li>Proceed down the LEFT-side of the Women's Medical University Street, 1F of the cylindrical shaped, glass-faced building on the left.</li>
+</ol>
+<ul>
+<li><strong>都営新宿線　曙橋駅</strong> (Toei Shinjuku line, AkebonoBashi stn):</li>
+</ul>
+<p><em>(approx6-mins walk)</em></p>
+<ol>
+<li>Use the A3 EXIT, once outside, there will be an information board around to your LEFT.</li>
+<li>Facing the information board, walk LEFT down the street. Once you reach the end, turn RIGHT and walk up the hill to the intersection. Turn LEFT at the intersection (on the left you will past Dr Ishii's Surgery/Hospital).</li>
+<li>You will arrive at a 3-way intersection. Proceed straight thru' the middle street of the intersection (the narrowest street - for pedestrians only)</li>
+<li>Once you reach the end of this street, 1F of the cylindrical shaped, glass-faced building on the left.</li>
+</ol>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

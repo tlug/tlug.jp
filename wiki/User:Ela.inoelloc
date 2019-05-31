@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="personal">Personal</h2>
+<p>Hi to all, I'm Alessandro, i'm an Italian student (I live near Bergamo) of i'm 14 years old.</p>
+<p><strong>Other infos</strong>:</p>
+<ul>
+<li>I speack italian, english, franch, and also shell language, C, C++, PHP.</li>
+<li>I use Ubuntu Linux 7.04 and rarely Windows XP.</li>
+<li>I use only open source softwares.</li>
+<li>I like music (I play the piano, the flute and the guitar), I hear often Fabrizio de André and the classic Music</li>
+</ul>
+<h2 id="contact-me">Contact me</h2>
+<ul>
+<li>Email: <a href="mailto:ela.inoelloc@katamail.com">Ela Inoelloc &lt;ela.inoelloc@katamail.com&gt;</a></li>
+<li>Websites:
+<ul>
+<li><a href="http://colleweb.netsons.org/">Colleweb (EN)</a></li>
+<li><a href="http://antipetrolio.netsons.org">No Petroleum!!!</a></li>
+<li><a href="http://colleweb.ilbello.com">Alternative wiki</a></li>
+</ul></li>
+<li>Blogs:
+<ul>
+<li><a href="http://pciula.wordpress.com/">PC Ciula</a></li>
+<li><a href="http://pr0ciula.blogspot.com/">Pr0 language</a></li>
+</ul></li>
+<li>Wiki
+<ul>
+<li><includeonly><a href="http://it.wikipedia.org/wiki/User:Acolleoni">User:Acolleoni (Wikipedia it)</a></includeonly></li>
+</ul></li>
+</ul>
+<h2 id="tlug">TLUG</h2>
+<ul>
+<li>I'm TLUG-member since september 2007.</li>
+<li>My contibutions are here: <a href="/wiki/Special:Contributions/Ela.inoelloc" class="uri" title="wikilink">Special:Contributions/Ela.inoelloc</a></li>
+</ul>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

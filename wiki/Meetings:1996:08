@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p><em>Craig Oda August 11, 1996</em> <a href="http://www.tlug.jp/meetings/1996/96aug.html">1</a>, <a href="http://lists.tlug.jp/ML/9608/msg00030.html">2</a>, <a href="http://lists.tlug.jp/ML/9608/msg00044.html">3</a></p>
+<h2 id="pre-lunch">Pre-Lunch</h2>
+<p><a href="Jim_Tittsler" title="wikilink">Jim Tittsler</a> waited at under the Big Box sign at Takadanobaba station as <a href="Joe_Marcha" title="wikilink">Joe Marcha</a> rumbled by on his big 750 motorbike. The pre-lunch talk focused on IP masquerading and how to connect a Linux box to an Internet Service Provider and use an unused IP range to provide service for your entire line off of a single account. Jim and I speculated on how people could run an entire network off of a single 3,000 yen/month account. Jim is currently using wireless broadcasts bounced off a satellite to provide two-way communication to a BBS in his house running on a Linux box.</p>
+<h2 id="lunch">Lunch</h2>
+<p>An excellent pasta lunch was devoured at the Spaghetti Factory. Jim and I had the combination Mizthra (spelling?) cheese and meat sauce, while Joe opted for the more encompassing four sauce spaghetti special. The Spaghetti Factory also had a good minestrone soup. Included with the meal was bread and a soft-drink. We departed the comfortable surroundings of the restaurant after 45 minutes and left behind about 1400 yen per person.</p>
+<h2 id="the-meeting-at-data-stream-k.k.">The Meeting at Data Stream K.K.</h2>
+<p>I would like to thank <a href="Jim_Tittsler" title="wikilink">Jim Tittsler</a> for allowing us to use the Data Stream K.K. facilities.</p>
+<h3 id="linux-desktop-features">Linux Desktop Features</h3>
+<p>Jim showed us TkDesk which looks like a capable desktop file manager. The icons appeared to be carefully chosen so as to not interfere with the color mapping of other programs. Jim had only 256 colors on his Linux box and Netscape and other programs ran fine.</p>
+<p>Jim also had a hacked version of xearth which showed satellite positions across the globe. He also had a cool looking satellite tracking program that he was able to use as a root window.</p>
+<h3 id="programming-environments">Programming Environments</h3>
+<p>Since the meeting focused on Java and Linux, we discussed the merits of using Linux as a programming environment. Joe and I use emacs while Jim uses jed. Jed is basically a lightweight emacs. Jim and Joe open up two x-windows side by side. I split the emacs window horizontally, run a shell in the lower window, then switch back and forth with C-xo. Both Jed and emacs can do syntax highlighting. No one at the meeting seemed to use debuggers or make files at the present time.</p>
+<p>Jim gave a demonstration of the Microsoft J++ Integrated Development Environment running under Windows NT. The only thing that was helpful was the help function of the IDE.</p>
+<p>The conclusion was that there is no advantage to using an IDE unless you are already accustomed to using it or if you do not understand the “make” program. Everyone at the meeting agreed that Linux was at least as good if not better than other platforms for Java development.</p>
+<h3 id="programming-tools">Programming Tools</h3>
+<p>Jim gave an excellent demonstration of Visual Java. Visual Java is an applet that speeds development time by allowing the developer to visually create the user interface. It is very similar to visual basic. The demonstration used the site found at <a href="http://www.eas.asu.edu/&amp;nbsplu/visualJava.html" class="uri">http://www.eas.asu.edu/&amp;nbsplu/visualJava.html</a></p>
+<h3 id="examples-of-java">Examples of Java</h3>
+<p>There was a demonstration of a Java applet that showed cross sections of the human body. Cross sections could be changed both vertically and horizontally.</p>
+<p>The group also took a look at the Jigsaw server developed by the W3 consortium which is written in Java.</p>
+<p>We also chatted with a person from Texas using a unique Java chat applet called the Fog.</p>
+<p>We made an effort to show a doom-like Java game applet, but had some problems with Netscape 2.0.2 crashing.</p>
+<h3 id="hacking-linux">Hacking Linux</h3>
+<p>Of course, the main reason people use Linux is because of it's hack value. Jim told us of his BBS and web server on Linux. He makes good use of telehoudai. Jim is looking for a script that automatically uploads web pages to a remote web server every night. Jim demoed a cool BBS written in perl. Everyone agreed that Perl lets you do powerful things in a small amount of code. The meeting ended as Jim showed us an 4-line LCD screen that he was hacking so that it could work with the serial port. I figure if the guy has that much free time he should write a device driver for an ISDN card. :-)</p>
+<h2 id="next-meeting">Next Meeting</h2>
+<p>We were talking about having the next meeting on September 21. Or was it September 22nd??</p>
+<p><a href="Category:Meetings" title="wikilink">1996:08</a> <a href="Category:Meetings:1996" title="wikilink">08</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

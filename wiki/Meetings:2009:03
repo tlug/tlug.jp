@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="introduction">Introduction</h2>
+<p>TLUG meetings will be announced on this page. We are always looking for people who would like to give demonstrations. If you have any ideas about meeting events, please let us know.</p>
+<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or <b>entrance fees</b>.</p>
+<p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
+<p>As a general rule, the Technical Meetings are held on the 2nd SAT of odd numbered months and the Nomikai Meetings are usually held on the 2nd FRI of even numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
+<h2 id="meeting-2009---03">Meeting / 2009 - 03</h2>
+<p><strong>Template:Meetings:Vitals placeholder</strong></p>
+<h3 id="itinerary">Itinerary</h3>
+<h4 id="presentations">Presentations</h4>
+<h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
+<p><strong>“Cracking Japanese text apart with Mecab”</strong> By <em>Akira Kurogane</em></p>
+<p>Mecab is a well-regarded natural language processing library for Japanese text. Already it is an important tool for linguistic study and no doubt is used in many search tools, but a third use has been found- helping non-native readers learn nihongo as they read it (e.g. on the web). Some methodology explained, and some demonstrations given.</p>
+<p><strong>Links related to the talk:</strong></p>
+<p>Firefox add-on for easy demonstration of Mecab: <a href="http://code.google.com/p/xpcom-mecab/">xpcom-mecab</a></p>
+<p><a href="http://code.google.com/p/furigana-injector/">Furigana Injector</a>. (N.B. Please download from the development homepage link to the left. The last version released on the official Mozilla Add-ons site is an old one that does not apply Mecab.)</p>
+<p><a href="http://mecab.sourceforge.net/">Main homepage for Mecab</a> Mailing list for <a href="http://lists.sourceforge.jp/mailman/listinfo/mecab-devel">developers</a>, <a href="http://lists.sourceforge.jp/mailman/listinfo/mecab-users">users</a></p>
+<p>Package names for the compiled command-line programs are simply “mecab”, “mecab-devel”, etc.. The usual dictionary to use is IPADIC, i.e. package “mecab-ipadic”. (In some distributions the dictionary may be available in different charsets, e.g. mecab-ipadic-utf8. Use whichever you like.) There is also a MacPort (at least for older versions) and a Windows installer.</p>
+<h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
+<p>Short break <em>(maybe)</em></p>
+<h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
+<p><strong>“Version Control from RCS to git”</strong> By <em>Stephen J. Turnbull</em></p>
+<p>This talk will cover the presenters experience with a number of version control systems, including RCS, CVS, Arch, Darcs, git, Bazaar, and Mercurial.</p>
+<h4 id="other-items-on-the-agenda-are">Other items on the agenda are:</h4>
+<ol>
+<li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
+<li>Auction (bring any gear that would would like to donate to TLUG)</li>
+</ol>
+<h3 id="contact-info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li><a href="Edward_Middleton" title="wikilink">Edward Middleton</a> : 090-3689-0292</li>
+<li><a href="user:zuco" title="wikilink"> Pietro Zuco</a> : 080-3351-1358</li>
+</ul>
+<h2 id="coverage">Coverage</h2>
+<ul>
+<li><a href="http://blogs.sun.com/jimgris/entry/tokyo_linux_user_group_031409">blog post with lots of great photos</a> by <a href="/wiki/User:Jimgris" title="wikilink"> Jim Grisanzio</a></li>
+</ul>
+<p><a href="Category:Meetings" title="wikilink">2009:03</a> <a href="Category:Meetings:2009" title="wikilink">03</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

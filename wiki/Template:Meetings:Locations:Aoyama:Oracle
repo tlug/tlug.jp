@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p><a href="http://www.oracle.co.jp/aoyamacenter/">Oracle Japan Corporation</a><br />
+日本オラクル株式会社<br />
+東京都港区北青山2-5-8　オラクル青山センター 13F<br />
+Oracle Aoyama Center, <b>13</b>th floor<br />
+2-5-8 Kita-Aoyama,<br />
+Minato-ku Tokyo Japan<br />
+[ <a href="http://maps.google.com/maps?q=%E3%82%AA%E3%83%A9%E3%82%AF%E3%83%AB%E9%9D%92%E5%B1%B1%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;hl=en&amp;cd=1&amp;ei=h0EkTNOLNY_guwOW-dTLCA&amp;sig2=fue81cXhs77V4gPUVp6lHg&amp;sll=35.671243,139.718456&amp;sspn=0.047972,0.101452&amp;doflg=ptk&amp;ie=UTF8&amp;view=map&amp;f=d&amp;daddr=%E6%97%A5%E6%9C%AC,+%E3%80%92107-0061+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E5%8C%97%E9%9D%92%E5%B1%B1%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%98+%E9%9D%92%E5%B1%B1%EF%BC%AF%EF%BC%AD%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2&amp;geocode=CYjAe7OwG9xxFedMIAIdaO9TCCEoN1LJcld-yg&amp;ved=0CBMQ_wY&amp;ll=35.671792,139.718499&amp;spn=0.005674,0.012681&amp;t=h&amp;z=17&amp;start=0">Train</a> ]</p>
+<p><a href="Category:Template:Meetings:Locations:Aoyama" title="wikilink">Oracle</a> <a href="Category:Template:Meetings:Locations" title="wikilink">Aoyama:Oracle</a> <a href="Category:Template:Meetings" title="wikilink">Locations:Aoyama:Oracle</a> <a href="Category:Template" title="wikilink">Meetings:Locations:Aoyama:Oracle</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

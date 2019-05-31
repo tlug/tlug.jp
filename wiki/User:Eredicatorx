@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>About ME: <img src="me-mirror.jpg" title="fig:me-mirror.jpg" alt="me-mirror.jpg" /></p>
+<p><strong>Name:</strong> Erin D. Hughes</p>
+<p><strong>Occupation:</strong> Unix “Engineer”</p>
+<p>I use that term loosely cause while I do solve problems... they are usually more human than computer.</p>
+<p><strong>About Me:</strong></p>
+<p>''What's my Name?</p>
+<p>''</p>
+<p>Seriously my name is Erin...</p>
+<p>I look at most problems as not .... something that needs to be fixed, but something that needs to have all sides understand it, meditated, then resolved in a way that works for the benefit of all involved. A mediator or problem solver if you will.</p>
+<p>At this point in my life I find this a strange turn from my younger years, where as a Marine I would in the very basic sense of the word, bludgeon most problems to death. I suppose I do still do that, but instead of a real bludgeoning I stick with problems, and twist arms on both sides till they shake hands, and make up.</p>
+<p>My current job for example is the last level of support for the 2nd largest ISP in Tokyo. While most of my peers are concerned with the how of most problems...... I am concerned with the what and the why. Hence I am not the ... best guy at my job, but I am usually regarded as one of the best guys on my job. I marry the what the customers need and sales people want with the how that comes with getting it done.</p>
+<p><strong>OS:</strong> Desktop: Fedora/ubuntu/free bsd Server: Centos/Solaris10</p>
+<p><strong>For FUN:</strong> Surfing, Rugby, Karate, Photography, Playing with Eric-ku!!</p>
+<p><strong>TV</strong> WWE and other semi violent nonsense.</p>
+<p><strong>Music</strong> Rap Punk &amp; of course Heavy Metal!</p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

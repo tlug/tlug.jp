@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>From the <a href="http://lists.tlug.jp/ML/0707/msg00708.html">TLUG mailing list</a><br />
+Quoth Josh Glover:</p>
+<p>If you have two more-or-less similar machines (meaning mainly that the target machine has a hard drive at least as large as the source; the kernel seems to cope with most other differences as “trivial”, assuming you have a pretty modular one like most distros give you these days, ya damn kids!) and you want to clone one:</p>
+<ol>
+<li>Plug both machines into a fast hub, or use a <a href="http://en.wikipedia.org/wiki/Ethernet_crossover_cable">Ethernet_crossover_cable (Wikipedia)</a></li>
+</ol>
+<p><code>to connect them directly</code></p>
+<ol>
+<li>Boot up both machines from a LiveCD like <a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/releases/x86/current/livecd/livecd-i686-installer-2007.0.iso">Gentoo</a> or <a href="ftp://ftp.kernel.org/pub/dist/knoppix/KNOPPIX_V5.1.1CD-2007-01-04-EN.iso">KNOPPIX</a></li>
+<li>Bring up networking on both machines. I would advise giving them both private addresses, say 192.168.1.1 for the source and 192.168.1.254 for the target (and thus that is how my examples will work)</li>
+<li>Determine the device name of the hard drive on each machine. If you have an <a href="http://en.wikipedia.org/wiki/IDE">IDE (Wikipedia)</a></li>
+</ol>
+<p><code>drive, your device will almost certainly be /dev/hda, and if you have a </code><a href="http://en.wikipedia.org/wiki/SCSI"><code>SCSI</code><code> </code><code>(Wikipedia)</code></a><br />
+<code>(or </code><a href="http://en.wikipedia.org/wiki/SATA"><code>SATA</code><code> </code><code>(Wikipedia)</code></a></p>
+<p>? can someone confirm this) drive, it will be <code>/dev/sda</code>. To verify this, run:</p>
+<pre><code>sudo /sbin/fdisk -l /dev/hda</code></pre>
+<p>or</p>
+<pre><code>sudo /sbin/fdisk -l /dev/sda</code></pre>
+<p>(Note that the option is a lowercase “L”, not the digit “one” or a capital “eye”). If you have the right drive, the output should look something like this:</p>
+<pre><code>Disk /dev/hda: 60.0 GB, 60011642880 bytes&amp;#13;255 heads, 63 sectors/track, 7296 cylinders&amp;#13;Units = cylinders of 16065 * 512 = 8225280 bytes&amp;#13;&amp;#13;   Device Boot    Start       End    Blocks   Id  System&amp;#13;/dev/hda1   *         1        13    104391   83  Linux&amp;#13;/dev/hda2            14      7042  56460442+  83  Linux&amp;#13;/dev/hda3          7043      7296   2040255   82  Linux swap</code></pre>
+<ol>
+<li>On the target machine:
+<ol>
+<li><pre><code>HDD_DEV=/dev/sda</code></pre>
+<p>replace <code>/dev/sda</code> with the appropriate device name from the previous step</p></li>
+<li><pre><code>TARGET_PORT=2727</code></pre></li>
+<li><pre><code>dd if=/dev/zero of=${HDD_DEV}</code></pre></li>
+<li><pre><code>nc -l -p ${TARGET_PORT} | dd of=${HDD_DEV}</code></pre></li>
+</ol></li>
+<li>On the source machine:
+<ol>
+<li><pre><code>HDD_DEV=/dev/hda</code></pre>
+<p>Replace <code>/dev/hda</code> with the appropriate device name.</p></li>
+<li><pre><code>TARGET_IP=192.168.1.254</code></pre>
+<p>Replace 192.168.1.254 with the correct IP address if you did not follow my advice because you know better. ;)</p></li>
+<li><pre><code>TARGET_PORT=2727</code></pre></li>
+<li><pre><code>dd if=${HDD_DEV} | nc ${TARGET_IP} ${TARGET_PORT}</code></pre></li>
+</ol></li>
+<li>Wait for a while</li>
+<li>Once the transfer finishes (you will know when you get dropped back to a command prompt; switch to a different virtual terminal and run <code>top</code> if you'd like to monitor the procedure--<code>dd</code> and <code>nc</code> processes should be consistently near the top until completion), reboot the target machine off its hard drive</li>
+</ol>
+<p><a href="Category:Linux_Help:Tip_of_the_Day" title="wikilink">dd</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

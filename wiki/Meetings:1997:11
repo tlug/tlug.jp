@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>from <a href="http://www.tlug.jp/meetings/9711/nov-97.html">1</a> <em>By C. Oda November 14, 1997</em></p>
+<h2 id="raging-success-in-the-hot-tokyo-night">Raging Success in the Hot Tokyo Night</h2>
+<p>Thanks to the hard work of Demian Martos, the November 13 weekday meeting was a hot success. Wild TLUG members almost set the Tengu izakaya on fire when the napkins got too close to the sukiyaka burner and erupted in flames. Rob Bickel rushed to the rescue and extinguished the fire before we damaged the drinking establishment. We paid respects to 8-10 pitchers of beer and numerous plates of yakitori, beef, eggplant, rice, niku jyaga, chicken karaage, spinach salad, beef salad, and other fine dishes. A night of fun was enjoyed for a reasonable 1,800 yen per person plus a 200 yen donation to TLUG.</p>
+<h2 id="the-lads-and-ladies-who-made-it-all-happen">The Lads and Ladies Who Made it All Happen</h2>
+<p>Amidst laughter and beer we got a lot of work done. Many thanks to the TLUGers at the meeting who did all the work and donated 200 yen to TLUG.</p>
+<p>Eighteen drunken members squeezed into a corner of Tengu, including 3 ladies. Perhaps one of the ladies can rise to the position of Ms. TLUG '98?</p>
+<ul>
+<li>Craig Oda</li>
+<li>John Little</li>
+<li>Ken Harada</li>
+<li>Viktor Pavlenko</li>
+<li>David Heffernan</li>
+<li>Dmytro Koralev</li>
+<li>Daniel Kenny</li>
+<li>Fernando Shimatsu</li>
+<li>Yoko Onaka</li>
+<li>Misako Kijima</li>
+<li>Yuko Ogawa</li>
+<li>Demian Martos</li>
+<li>Joe Marchak</li>
+<li>Shinotsuka Katsutoshi</li>
+<li>Ken Schwarz</li>
+<li>Rob Bickel</li>
+<li>Pau Velando</li>
+</ul>
+<h2 id="financial-matters">Financial Matters</h2>
+<p>Enjoying a wave of increased profitability, TLUG collected 3,411 yen. This brings our total cash reserves to 4,411 yen. Craig did the transfer at an ATM with the new TLUG nice account bank card. In this way, he avoided any bank charges.</p>
+<p>Possible uses of the funds include purchasing refreshments at the next TLUG meeting or perhaps putting some money up front for the printing of T-shirts, if this is necessary.</p>
+<p>Remember that the last use of funds was to register with G.L.U.E. All TLUG members now qualify for a 10 percent discount with SSC, publishers of Linux Journal, on all publications, including Linux Journal subscriptions. TLUG members also qualify for a 10 percent discount from Linux Mall.</p>
+<h2 id="tlug-t-shirt-design-contest">TLUG T-shirt Design Contest</h2>
+<p>Demian Martos and Pau Valando volunteered to head a project to design, produce, and sell TLUG T-shirts. Initial design was submitted by the triple threat trio of Yoko Onaka, Misako Kijima, and Yuko Ogawa.</p>
+<h2 id="tlug-and-jlug-community-relations">TLUG and JLUG Community Relations</h2>
+<p>Ken Harada volunteered to head a project to establish a nomikai (bacchanalia) with Japanese JLUG members in Tokyo.</p>
+<h2 id="tlug-and-japanese-book-from-o-reilly">TLUG and Japanese Book from O' Reilly</h2>
+<p>Craig, Joe, Stephen, and Hiro are leading the project to publish a book on Japanese support under Linux. Ken Harada is interfacing with the people from Project JE to see if we can get cooperation. We're seeking volunteers to test Japanese software under Linux and document problems and solutions encountered.</p>
+<h2 id="next-meeting-is-december-13th">Next Meeting is December 13th</h2>
+<p>The next meeting is scheduled for December 13th on a Saturday. Six Sparc machines will be raffled off with 500 yen tickets. Three of the machines will be fully functional. All proceeds will be donated to TLUG.</p>
+<p>Be there for the best friends and hottest cutting edge technology in Tokyo!</p>
+<p><a href="Category:Meetings" title="wikilink">1997:11</a> <a href="Category:Meetings:1997" title="wikilink">11</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h1 id="words-and-distance">Words and distance</h1>
+<p>My current commute book Aldous Huxley's “Brave new world”, published in 1932. It is about a utopia where everything and everyone is in a state induced and mandated compulsory happiness. Books are verboten. People are conditioned and created in castes to fullfill their role in society. I have read only until chapter 5 and although the book is captivating, it is also depressing. Perhaps not a good book to read on a typical Tokyo commute. Is Tokyo a utopia or going towards one ? Contrast it to Osaka and you might think so. Slowly but surely every landpiece is replaced by a “mansion” or office tower that screams utopistic shiny happiness... not!</p>
+<p>Somehow this <a href="http://www.youtube.com/watch?v=-mdyFdgUNfI">song</a> reflects my state of mind quite well 8^D</p>
+<p>Update 2008/3/27<br />
+Finished the book. Wow, Shocking ending. Recommended reading for people who still wonder what human life is about. I also found the book rather funny at times.</p>
+<p>Update 2008/4/2<br />
+Read Dan Brown's “Da Vinci code”. I was sure it was the xxxx guy who was behind the whole thing, but in the end there was an interesting twisting of the plot. The historical references were quite fascinating. While the book is not anti-religion per se, it made me really think of what kind of damage organized groups can do.</p>
+<p>Some earlier books I've read. Putting here for further elaboration.</p>
+<p>“On the Road”, 1957, Jack Kerouac<br />
+“No god but God”, 2006, Reza Aslan<br />
+“Man's search for meaning”, 1946, Viktor Frankl<br />
+“Pattern recognition”, 2003, William Gibson<br />
+Update 2008/5/3<br />
+“On the road” by Jack Kerouac is a great road-book. It tells about the longing for the road, for the west - or the east. It reminded me of “Zen and the art of motorcycle maintenance” by Robert Pirsig. Not for the metaphysical part, but for the part describing some remote areas and the life there. When I got my drivers' license, some friends and I started going on the road each summer. We were usually headed for France. Once, we got there via a camping trip through Poland, Tchequoslovakia and Switzerland. Once we were on the fast road with an old Peugeot 504. It dropped half of the muffler somewhere and we had to patch it every couple hundred kilometers. And then, the life changing trip was a sleepless ride to a french language school in Rouen, France. Perhaps I should start a journal about those days. It's a pity most of the pictures taken on the road are gone, thanks to some - not gentleman - burglar...</p>
+<hr />
+<p>--<a href="/wiki/User:Ragga" title="wikilink">ragga</a> 14:24, 3 May 2008 (JST)</p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

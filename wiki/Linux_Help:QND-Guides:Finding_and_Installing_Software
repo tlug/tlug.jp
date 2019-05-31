@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="introduction">Introduction</h2>
+<p>As you will have noted from our <a href="/wiki/:Category:Linux_Help:QND-Guides" title="wikilink">other QND Guides</a>, they start with asking if you have the particular program, and have you start by typing which <program_name></p>
+<p>As each distribution has its own way of installing software, this guide is intended as a pointer to installing software in the distributions with which we are familiar.</p>
+<h2 id="distributions">Distributions</h2>
+<h3 id="red-hat-linux">Red Hat Linux</h3>
+<p>Red Hat Linux developed the now common RPM system. (RPM actually stands for Red Hat Package Manager.) Most of the software mentioned in these QND guides will be found on one of the CDs. A typical Red Hat distribution consists of 3 or 4 CDs. Most software will have to be installed as the <em>root</em> user.</p>
+<p>So, insert the CD. (Unless mentioned otherwise in a QND guide, you might as well start with the first one.)</p>
+<p>Login as <em>root</em>, or do a</p>
+<pre><code>su - root</code></pre>
+<p>Then,</p>
+<p><code>mount /dev/cdrom</code><br />
+<code>cd /mnt/cdrom/RedHat/RPMS</code><br />
+<code>ls &lt;program_name*&gt;</code></p>
+<p>For example, if you were searching for fetchmail, you would type, after cd'ing to the RPMS directory</p>
+<p><code>ls fetchmail*</code></p>
+<p>If it's not on the first CD that you tried then</p>
+<p><code>cd</code><br />
+<code>umount /dev/cdrom</code></p>
+<p>Then repeat the procedure with the next CD. Once you've found the program, which will be the program name with a version number, for example <em>fetchmail-5.9.11.rpm</em> then</p>
+<p><code>rpm -Uvh fetchmail-5.9.11.rpm</code></p>
+<p>You'll see some information as it's being installed. When done, umount and eject the CDROM as above.</p>
+<p>(We'll continue to use fetchmail as our example package)</p>
+<h3 id="mandrake-linux">Mandrake Linux</h3>
+<p>Mandrake also uses the RPM format. The procedure is actually, at least last time any of us tried it, identical since Mandrake still keeps its RPMS in a folder called <em>RedHat/RPMS</em>.</p>
+<h3 id="gentoo-linux">Gentoo Linux</h3>
+<p>Gentoo uses the portage system. Again packages usually have to be installed as root. To find out if it's available in portage</p>
+<p><code>emerge -s fetchmail</code></p>
+<p>You'll get a result like</p>
+<p><code>* net-mail/fetchmail</code><br />
+<code>Latest version Available: 5.9.11</code></p>
+<p>It will usually also give the homepage and a brief description.</p>
+<p>So, assuming the package is available in portage then</p>
+<p><code>emerge fetchmail</code></p>
+<p>(You may first want to do</p>
+<p><code>emerge -pv fetchmail</code></p>
+<p>to see what other packages may be installed as dependencies.)</p>
+<h3 id="debian">Debian</h3>
+<p>Debian's apt system is well known for its ease of use. To search for a program one types</p>
+<p><code>apt-cache search fetchmail</code></p>
+<p>To install it, one usually only need type</p>
+<p><code>apt-get install fetchmail</code></p>
+<h3 id="archlinux">ArchLinux</h3>
+<p>Arch Linux is a relatively little-known distro, though it deserves more notice. It is one of the easiest, as far as installing software. To see if a package is available do</p>
+<p><code>pacman -Ss fetchmail</code></p>
+<p>You will then find the name of the package. Usually, when installing, you don't need the version number and can simply then do</p>
+<p><code>pacman -Sy fetchmail</code></p>
+<p>You will then see it download and install fetchmail.</p>
+<h3 id="freebsd">FreeBSD</h3>
+<p>FreeBSD uses the ports system. Most software mentioned in these guides will be available in their ports. So,</p>
+<p><code>cd /usr/ports</code><br />
+<code>whereis fetchmail</code></p>
+<p>In this case you'll get the answer of /usr/ports/mail/fetchmail.</p>
+<p>Another, probably better way to do it is</p>
+<p><code>make search name=fetchmail</code><br />
+<code>cd /usr/ports/mail/fetchmail</code><br />
+<code>make install</code></p>
+<p>Again this must be done as root.</p>
+<h3 id="netbsd">NetBSD</h3>
+<p>NetBSD is almost identical to FreeBSD save that rather than /usr/ports it is in /usr/pkgsrc. So</p>
+<p><code>cd /usr/pkgsrc/mail/fetchmail; make install</code></p>
+<p>The QND guides give the link to a program's home page. If the program is not available with your distribution, the home page will almost always have information about getting the program, often having the source code and/or rpms available.</p>
+<p>If you're not familiar with installing source code then fear not--we also have a QND guide for it.</p>
+<h2 id="continuing">Continuing</h2>
+<p>Now repeat step one of the QND guide that you were reading. For example, if it was the fetchmail guide then</p>
+<p><code>which fetchmail</code></p>
+<p>If Step 1 still fails, then something subtle is probably wrong. Try emailing your local Linux Users Group or other Linux mailing list to which you subscribe. One good one for beginners is the linux@yahoogroups.com list. (We know that you are member of one or the other) something like “I am trying to install fetchmail on (your distribution, version included). I am using the following method (include the commands that you ran to install it). However, I run 'which fetchmail' and it isn't found. Does anyone have any idea what I'm doing wrong? Thanks in advance.”</p>
+<p>Now that you're done with this, you can go back to the QND guide that you were reading and continue with what is usually step 3.</p>
+<p><a href="Category:Linux_Help:QND-Guides" title="wikilink">Installing_Software</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

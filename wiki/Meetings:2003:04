@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>from <a href="http://lists.tlug.jp/ML/0304/msg00033.html">1</a></p>
+<h2 id="april-technical-meeting">April Technical Meeting</h2>
+<p>All Linux lovers, and supporters of open source code and free software are invited to attend the next Tokyo Linux Users Group meeting. Membership is open to anyone. There are currently no membership dues or entrance fees.</p>
+<p><code> Date:   Saturday, April 5th, 2002</code><br />
+<code> Place: Wall Street Associates Japan Boardroom.</code><br />
+<code>        5/F Yam Building, 11-3, Ginza 7-chome,</code><br />
+<code>        Chuo-ku, Tokyo, 104-0061, Japan</code><br />
+<code>        Tel:  (813) 5537 7211</code><br />
+<code>        Fax:  (813) 5537 7213</code><br />
+<code>        map:  </code><a href="http://www.wsagroupjapan.co.jp/ContactUs/images/WSA-MAP.gif"><code>http://www.wsagroupjapan.co.jp/ContactUs/images/WSA-MAP.gif</code></a><code>      </code><br />
+<code> Time:   14:00-16:30</code><br />
+<code>       </code></p>
+<h2 id="topics">Topics</h2>
+<h3 id="sajjad-zaidi">Sajjad Zaidi</h3>
+<p>“Using SSH to Bypass Firewalls and Run Remote Applications Securely”</p>
+<h3 id="theo-logian">Theo Logian</h3>
+<p>will talk about nagios <a href="http://www.nagios.org" class="uri">http://www.nagios.org</a>, &quot;&quot;&quot; Nagios is a host and service monitor designed to inform you of network problems before your clients, end-users or managers do. It has been designed to run under the Linux operating system, but works fine under most *NIX variants as well. The monitoring daemon runs intermittent checks on hosts and services you specify using external “plugins” which return status information to Nagios. When problems are encountered, the daemon can send notifications out to administrative contacts in a variety of different ways (email, instant message, SMS, etc.). Current status information, historical logs, and reports can all be accessed via a web browser. &quot;&quot;&quot;</p>
+<p>Reminder: TLUG is a non-profit, self-supported organization. In order to cover occasional expenses, we hold auctions to raise funds. The proceeds are saved in the TLUG account and is used for server hardware maintenance, domain name registration, to rent a meeting space when a free venue isn't available, etc. Please bring items that you would like to donate for auction.</p>
+<h2 id="after-the-meeting">After the meeting</h2>
+<p>We will continue chatting over a few beers.</p>
+<h2 id="contact">Contact</h2>
+<ul>
+<li>Mauro ......090-2492-0840 (Keitai)</li>
+<li>Baba ......070-5561-0255 (PHS)</li>
+</ul>
+<p><a href="Category:Meetings" title="wikilink">2003:04</a> <a href="Category:Meetings:2003" title="wikilink">04</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

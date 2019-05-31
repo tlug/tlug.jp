@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>NOTE: Sun Japan is now part of Oracle Japan. The sign at the elevators in the Yoga SBS building will say Oracle Corporation -- not Sun Microsystems. However, the logo at the top of the building outside <a href="http://www.flickr.com/photos/jimgris/4507344557/">still says Sun Microsystems</a>.<br />
+<a href="http://jp.sun.com/">Oracle Japan Corporation</a><br />
+日本オラクル株式会社<br />
+SBS Tower, <b>27</b>th floor<br />
+4-10-1 Yoga,<br />
+東京都世田谷区用賀４−１０−１SBSタワー<br />
+Setagaya-ku Tokyo, Japan<br />
+<b>WARNING</b>: Do NOT follow the map on the Oracle/Sun website. Follow the links BELOW.<br />
+[ <a href="http://maps.google.co.jp/maps?f=d&amp;saddr=%E6%B8%8B%E8%B0%B7%E9%A7%85&amp;daddr=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E7%94%A8%E8%B3%804-10-1&amp;hl=ja&amp;geocode=683348815625358964,35.658517,139.701334%3B11376509672142226973,35.626641,139.632930&amp;mra=ls&amp;date=08%2F09%2F13&amp;time=13:50&amp;ttype=arr&amp;noexp=0&amp;noal=0&amp;sort=time&amp;sll=35.635507,139.663939&amp;sspn=0.095289,0.109692&amp;ie=UTF8&amp;z=13&amp;start=0">Train</a> ] [ <a href="Meetings:Locations:Yoga:Sun" title="wikilink">Directions (日本語/English/Photos)</a> ]</p>
+<p><a href="Category:Template:Meetings:Locations:Yoga" title="wikilink">Sun</a> <a href="Category:Template:Meetings:Locations" title="wikilink">Yoga:Sun</a> <a href="Category:Template:Meetings" title="wikilink">Locations:Yoga:Sun</a> <a href="Category:Template" title="wikilink">Meetings:Locations:Yoga:Sun</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

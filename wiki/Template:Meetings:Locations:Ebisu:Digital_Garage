@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Digital Garage<br />
+<a href="http://garage.co.jp/en/corporate/access.html">Digital Gate Building</a><br />
+3-5-7 Ebisu-minami, Shibuya-ku<br />
+Tokyo 150-0022, Japan<br />
+8 minutes walk from Ebisu Station<br />
+<a href="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=%E6%97%A5%E6%9C%AC%E6%81%B5%E6%AF%94%E5%AF%BF%E9%A7%85%EF%BC%88%E6%9D%B1%E4%BA%AC%EF%BC%89&amp;daddr=Japan,+T%C5%8Dky%C5%8D-to+Shibuya-ku%E6%81%B5%E6%AF%94%E5%AF%BF%E5%8D%97%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%95&amp;hl=en&amp;geocode=%3BCTg1S3I7T1mrFRLrHwIdHbZTCCnTqvBhRosYYDHVL2hIMlanwg&amp;mra=ls&amp;sll=35.646226,139.703837&amp;sspn=0.045058,0.05579&amp;g=%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%81%B5%E6%AF%94%E5%AF%BF%E5%8D%973-5-7&amp;ie=UTF8&amp;z=17&amp;start=0">Google Maps</a></p>
+<p><a href="Category:Template:Meetings:Locations:Ebisu" title="wikilink">Digital_Garage</a> <a href="Category:Template:Meetings:Locations" title="wikilink">Ebisu:Digital_Garage</a> <a href="Category:Template:Meetings" title="wikilink">Locations:Ebisu:Digital_Garage</a> <a href="Category:Template" title="wikilink">Meetings:Locations:Ebisu:Digital_Garage</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

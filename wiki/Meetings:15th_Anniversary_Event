@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="overview">Overview</h2>
+<h3 id="date">Date</h3>
+<p>October 22th, 2009 (Thursday)</p>
+<h3 id="time">Time</h3>
+<p>19:30 - 22:00</p>
+<h3 id="event">Event</h3>
+<p>standing party with buffet dinner and all-you-can-drink (primarily a social activity)</p>
+<h3 id="location">Location</h3>
+<p><a href="http://www.pizzeria.jp/2008/02/chiocciolpizzeria.html">Chiocciol@ Pizzeria</a></p>
+<p><strong>** Note: The max. 40 person limit has been resolved, 50 - 60 persons should be OK. **</strong><br />
+<strong>** It will be a standing buffet, as originally planned **</strong><br />
+<strong>** If you haven't already RSVP'd, then please contact Ed. so we can put you on the list and keep track of numbers **</strong><br />
+<strong>** [This notice current as of 2009-10-22 15:30 (tim)] **</strong></p>
+<h3 id="address">Address</h3>
+<p>Akihabara UDX 1F Chiyoda-ku, Sotokanda 4-14-1</p>
+<h3 id="cost">Cost</h3>
+<p>5,000 yen</p>
+<h3 id="menu">Menu</h3>
+<ul>
+<li>antipasto</li>
+<li>pizzas margherita and quattro formacio</li>
+<li>spaghetti (suwaigani pepperoncini and tagliatelle Bologna-style meat sauce.)</li>
+<li>insalata mista</li>
+<li>dolce</li>
+</ul>
+<h3 id="drinks">Drinks</h3>
+<ul>
+<li>wine (red &amp; white)</li>
+<li>draft beer</li>
+<li>orange juice</li>
+<li>oolong tea</li>
+</ul>
+<h2 id="details">Details</h2>
+<p>This event is <a href="15th_Anniversary_Project" title="wikilink">to celebrate the 15th anniversary</a> of the creation of TLUG.</p>
+<p>We need to confirm numbers to book the venue so please post something to the <a href="http://lists.tlug.jp/list.html#tlug">tlug list</a> or register at the <a href="http://atnd.org/events/1645">TLUG 15th Anniversary Party page on atnd.org</a> if you are planning on attending.</p>
+<h3 id="contact-info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li><a href="Edward_Middleton" title="wikilink">Edward Middleton</a> : 090-3689-0292</li>
+<li><a href="Alberto_Tomita" title="wikilink">Alberto Tomita</a> : 080-3463-9256</li>
+</ul>
+<p><a href="Category:Meetings" title="wikilink">2009:09</a> <a href="Category:Meetings:2009" title="wikilink">09</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="february-technical-meeting-information">February Technical Meeting Information</h2>
+<p>from <a href="http://www.tlug.jp/meetings/9902/index.html">1</a></p>
+<p><code> Date: 13 February, 1999</code><br />
+<code> Meeting Time: 12:30</code><br />
+<code> Meeting Place: Temple University</code><br />
+<code> 2-8-12 Minami Azabu,</code><br />
+<code> Minato-ku, Tokyo</code><br />
+<code> (map at </code><a href="http://www.tuj.ac.jp/maps.html"><code>http://www.tuj.ac.jp/maps.html</code></a><code>)</code><br />
+<code> Meeting Topic:  Steven Baur and Martin Buchholz</code><br />
+<code> XEmacs/Mule/Internationalization and Open Source Software development</code></p>
+<h2 id="technical-meeting-topic">Technical Meeting Topic</h2>
+<p><strong>Steven Baur</strong> (aka “Mr. XEmacs”) is the head maintainer of XEmacs (since 19.15/20.0) and has a great deal of experience in various areas of software development.</p>
+<p><strong>Martin Buchholz</strong> is currently the active developer most familiar with Mule internals. He was formerly employed by Sun Microsystems to work on XEmacs, and in particular on Mule.</p>
+<p>Steven and Martin talked about the current status of XEmacs development, Mule and multi-lingual support, the influence of Java on internationalization and the future of XEmacs and Emacs-like environments. They also talked about Open Source Software (OSS) development issues, such as project management, commercial support for an independent OSS project, and the future of internationalization in the Open Source community. Martin explained his efforts in optimizing XEmacs, gave a framework for comparing Lisp and Java, and showed us his vision of the free software/open source world.</p>
+<p>They answered questions from the audience that were not only about the technical aspects of XEmacs, but also how the XEmacs team is organized and how development is coordinated.</p>
+<p>Their interaction with TLUG members was extremely valuable, both for them to get feedback from the audience, and for TLUGers to benefit from their experience and wisdom.</p>
+<ul>
+<li>TLUG snackmaster Shigeo Honda coordinated a group of volunteers who secured lunch for everybody,</li>
+<li>and while we enjoyed our pizza and beer, Ron Sears and Sean Mannon booted up their laptops running KDE (a great GUI, comparable to MS-W... in ease-to-use but far more powerful) and Word Perfect,</li>
+<li>TLUG librarian Jonathan Byrne started cataloging all our books and CDs,</li>
+<li>Austin Kurahone burned the latest edition of the TLUG CDs, with the latest 2.2.x kernel updates, KDE 1.1, Netscape Communicator/Mozilla, emulators, games, CGIs, XFree86 3.3.1, the Monash nihongo archives, the TLUG mailing list/web pages archives, and much more,</li>
+<li>and Jim Tittsler showed again his talents as auctioneer, getting bids on speakers, keyboards, power supplies, RedHat CD-ROMs, mouse pads, T-shirts, desktop machines.</li>
+</ul>
+<h2 id="raffle-and-items-for-auction">Raffle and items for auction</h2>
+<p>The following items were auctioned at the meeting:</p>
+<ul>
+<li>RedHat Linux Variety Pack CD-ROMs (contains the Red Hat Linux 5.2 distribution for the Alpha, Intel and SPARCplatforms, along with the source code)</li>
+<li>TLUG CD-ROMs (TLUG original! featuring the updated TLUG mailing list and Web archives, Monash Nihongo Archive, Linux kernels v2.2.1 and v2.0.36, XFree86 3.3.3.1, Netscape/Muriari, Mozilla, and more)</li>
+<li>hardware: 486 desktop machines, keyboards, speakers, power supplies</li>
+<li>RedHat Linux T-shirts, mouse pads, bumper stickers</li>
+</ul>
+<p>Thanks are also due to Stephen Turnbull, for contacting the guest speakers, to Oliver Bolzer, TLUG Japanese liaison, and to Stephen Carter, for contacting Temple University (who also provided us storage space; 4 boxes full of TLUG assets for use at the meetings are now being kept in the TUJ basement).</p>
+<h2 id="meeting-place">Meeting Place</h2>
+<p>(map at <a href="http://www.tuj.ac.jp/maps.html" class="uri">http://www.tuj.ac.jp/maps.html</a>)</p>
+<p>The Temple University Japan (TUJ) Campus is located at 'San no Hashi' (the street name is 'Sakurada Dori'). The DHC building across the street has a HUGE four sided sign that says DHC. The 06 bus from Shibuya stops at Furukawa-bashi, which is a one block walk away from TUJ. TUJ is in a single big building with a sign out front, right on Sakurada Dori.</p>
+<p><a href="Category:Meetings" title="wikilink">1999:02</a> <a href="Category:Meetings:1999" title="wikilink">02</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Author: <a href="/wiki/User:Jmglov" title="wikilink">Josh Glover</a></p>
+<h2 id="creating-patches-with-diff">Creating Patches with diff</h2>
+<p>In a shell, change to the directory where the file you wish to make a patch for is located. Copy the original file (before your edits) to the same directory (you <strong>did</strong> make a backup copy of it before you edited it, right?). Now, type in the shell:</p>
+<p><code>diff -uN original_file new_file &gt;patch.original_file</code></p>
+<p>where <em>original_file</em> is the filename of the original file and <em>new_file</em> is the filename of the new file (the one containing your edits).</p>
+<p>This technique also works for creating a patch for a whole directory tree (e.g. creating a Linux kernel patch). Just add the -r flag to your diff command:</p>
+<p><code>diff -uNr original_dir new_dir &gt;patch.original_dir</code></p>
+<p>Here is a concrete example of creating a patch against the vanilla Linux kernel's source tree:</p>
+<p><code>cd /usr/src</code><br />
+<code>diff -uNr linux-2.4.19 linux-2.4.19-my_version \</code><br />
+<code>  &gt;patch.linux-2.4.19-my_version</code></p>
+<p>That is all there is to creating patches with diff. Move on to <a href="#Applying_Patches_with_Patch" title="wikilink">#Applying Patches with Patch</a> to see how to apply them with patch.</p>
+<h2 id="applying-patches-with-patch">Applying Patches with Patch</h2>
+<p>Copy the patch that you generated in Step 2 to the directory containing the file to which you want to apply the patch. Now, type in your shell:</p>
+<p><code>patch &lt;patch_file</code></p>
+<p>where <em>patch_file</em> is the filename of the patch file. Note that the filename of the file to be patched must be the same as it was in <a href="#Creating_Patches_with_diff" title="wikilink">#Creating Patches with diff</a>.</p>
+<p>If you want to apply a patch to a whole directory tree, add a -p1 to your patch command:</p>
+<p><code>patch -p1 &lt;patch_file</code></p>
+<p>Here is a concrete example of applying a patch to your Linux kernel source tree:</p>
+<p><code>cd /usr/src</code><br />
+<code>patch -p1 &lt;patch.linux-2.4.19-my_version</code></p>
+<p>Congratulations, you are finished.</p>
+<h2 id="references">References</h2>
+<p>For more information on diff and patch, see:</p>
+<ul>
+<li><a href="http://www.gnu.org/software/diffutils/diffutils.html" class="uri">http://www.gnu.org/software/diffutils/diffutils.html</a></li>
+<li><a href="http://www.gnu.org/manual/diffutils/html_mono/diff.html" class="uri">http://www.gnu.org/manual/diffutils/html_mono/diff.html</a></li>
+</ul>
+<p><a href="Category:Linux_Help:QND-Guides" title="wikilink">Patches</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Author: <a href="/wiki/User:Jmglov" title="wikilink">Josh Glover</a></p>
+<h2 id="introduction">Introduction</h2>
+<p>This guide demonstrates how to install the <a href="http://www.gentoo.org/">Gentoo Linux distribution</a> in a <em>chroot</em> jail. This can be done on a Gentoo system (obviously) or even an entirely different distribution, such as <a href="http://www.redhat.com/">Red Hat Linux</a>! This guide has been tested on RHEL3, but should work on at least <a href="http://fedora.redhat.com/">Fedora Core</a> releases, and probably Red Hat Linux 7.x, 8.0, and 9.0. It should also work on any modern Linux distribution, such as <a href="http://www.us.debian.org/">Debian</a> (and by extension, <a href="http://www.ubuntulinux.org/">Ubuntu</a> and <a href="http://www.knopper.net/knoppix/index-en.html">KNOPPIX</a>), <a href="http://wwwnew.mandriva.com/">Mandriva</a>, <a href="http://www.novell.com/linux/suse/">SuSE</a>, and so on. Please add your success stories to the talk page for this article, and I will be happy to add them to this guide.</p>
+<h2 id="why-would-anyone-do-this">Why Would Anyone Do This?</h2>
+<p>You may be wondering exactly why anyone in his or her right mind would want to run one distribution inside another. The easy answer to this question is that I am not exactly in my right mind. The actual answer is a little more complicated, but here are some common reasons:</p>
+<ul>
+<li>You are forced (by company policy or hardware configuration) to use a crappy Linux distribution--such as Red Hat Linux--and you would much rather be using a Real Linux Distribution: i.e. Gentoo.</li>
+<li>You need a test machine, and prefer to use your workstation instead of obtaining dedicated hardware.</li>
+<li>You want to give users of your hosting service their own “virtual” machines.</li>
+</ul>
+<h2 id="directories">Directories</h2>
+<p>This guide assumes that you want to install Gentoo into a directory called faketoo in your home directory. If you want to install it elsewhere, that is fine, but you will need to watch out for occurrences of faketoo in this guide and change them to reflect your directory choice.</p>
+<h2 id="free-space-requirements">Free Space Requirements</h2>
+<p>Before you can install Gentoo into a jail, you should verify that you have enough space. The core system install requires just about 1GB of space. Of course, if you are planning to install hefty software packages like <a href="http://packages.gentoo.org/search/?sstring=xorg-x11">X</a>, <a href="http://packages.gentoo.org/search/?sstring=openoffice">OpenOffice.org</a>, <a href="http://packages.gentoo.org/search/?sstring=mozilla-firefox">Firefox</a>, or a full <a href="http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29">LAMP</a> stack, you will need to allow more free space. As a guide, here are some recommendations based on the feedback of people who have followed these steps:</p>
+<ul>
+<li>Servers:
+<ul>
+<li>LAMP web application server + mailserver: 2GB</li>
+</ul></li>
+<li>Workstations / Desktops:
+<ul>
+<li>X with FluxBox window manager (i.e. no GNOME / KDE bloat): 5GB</li>
+</ul></li>
+</ul>
+<h2 id="obtaining-gentoo-installation-media">Obtaining Gentoo Installation Media</h2>
+<p>You will need, at the very least, a Gentoo stage3 tarball. You probably also want a Portage snapshot tarball. Both of these wonderful things can be located on your <a href="http://www.gentoo.org/main/en/mirrors.xml">favourite Gentoo mirror</a>:</p>
+<ul>
+<li>Stage 3 tarball: in the releases/YOUR_ARCHITECTURE/current/stages/ directory. For example, if you are located in Japan and you have a Pentium 4 processor, you will want to download <a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/releases/x86/current/stages/pentium4/stage3-pentium4-2005.1-r1.tar.bz2" class="uri">ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/releases/x86/current/stages/pentium4/stage3-pentium4-2005.1-r1.tar.bz2</a> (from Tokyo University's screamin' fast mirror).</li>
+<li>Portage snapshot: snapshots/portage-latest.tar.bz2 file; e.g. <a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/snapshots/portage-latest.tar.bz2" class="uri">ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/snapshots/portage-latest.tar.bz2</a> for Japanese Gentooists.</li>
+</ul>
+<p>Save these files into your home directory, like so:</p>
+<p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
+<br />
+<code># If you are installing Gentoo into a chroot jail on a Gentoo host, comment out</code><br />
+<code># the next line (by adding a '#' character to the beginning of the line) and</code><br />
+<code># uncomment the line after it</code><br />
+<font color="red"><code>#GENTOO_ON_GENTOO=0</code><br />
+<code>GENTOO_ON_GENTOO=1</code></font><br />
+<br />
+<font color="red"><code>GENTOO_MIRROR=</code><a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO"><code>ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO</code></a></font><br />
+<br />
+<code># Normally, if you are installing into a jail on Gentoo, you will want to use</code><br />
+<code># a GENTOO_CPU and GENTOO_ARCH that match your real installation. The next bit</code><br />
+<code># of code attempts to detect this. If you think you know better, comment out the</code><br />
+<code># next line (by adding a '#' character to the beginning of the line) and set</code><br />
+<code># GENTOO_CPU and GENTOO_ARCH manually</code><br />
+<font color="red"><code>GENTOO_ARCH_AUTODETECT=1</code><br />
+<br />
+<code>GENTOO_CPU=pentium4</code><br />
+<code>GENTOO_ARCH=x86</code></font><br />
+<br />
+<code># Only change this line if you changed GENTOO_ARCH to something besides </code>“<code>x86</code>”<br />
+<font color="red"><code>GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages/${GENTOO_CPU}</code></font><br />
+<br />
+<code>if test ${GENTOO_ARCH_AUTODETECT} -ne 0; then</code><br />
+<code>    GENTOO_CPU=`sed -n -e 's/^.\+-march=</code><span class="math inline">$[^ ]\+$</span><code>.\+$/\1/p' /etc/make.conf`</code><br />
+<code>    GENTOO_ARCH=x86</code><br />
+<code>    GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages/${GENTOO_CPU}</code><br />
+<br />
+<code>    chost=`sed -n -e 's/^CHOST=&quot;</code><span class="math inline">$[^\-]\+$</span><code>-.\+$/\1/p' /etc/make.conf`</code><br />
+<code>    case </code>“<code>${chost}</code>”<code> in</code><br />
+<code>        </code>“<code>alpha</code>”<code> )</code><br />
+<code>            GENTOO_ARCH=alpha</code><br />
+<code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
+<code>            ;;</code><br />
+<code>        </code>“<code>i386</code>”<code> | </code>“<code>i486</code>”<code> | </code>“<code>i586</code>”<code> )</code><br />
+<code>            GENTOO_ARCH=x86</code><br />
+<code>            GENTOO_CPU=x86</code><br />
+<code>            ;;</code><br />
+<code>        </code>“<code>i686</code>”<code> )</code><br />
+<code>            case </code>“<code>${GENTOO_CPU}</code>”<code> in</code><br />
+<code>               </code>“<code>pentium3</code>”<code> | </code>“<code>pentium4</code>”<code> | </code>“<code>pentium-m</code>”<code> | </code>“<code>athlon-xp</code>”<code> )</code><br />
+<code>                    # No change to GENTOO_CPU necessary</code><br />
+<code>                    ;;</code><br />
+<code>               </code>“<code>prescott</code>”<code> )</code><br />
+<code>                    GENTOO_CPU=pentium4</code><br />
+<code>                    ;;</code><br />
+<code>                * )</code><br />
+<code>                    GENTOO_CPU=i686</code><br />
+<code>                    ;;</code><br />
+<code>            esac</code><br />
+<code>            ;;</code><br />
+<code>        </code>“<code>hppa1.1</code>”<code> | </code>“<code>hppa2.0</code>”<code> )</code><br />
+<code>            GENTOO_ARCH=hppa</code><br />
+<code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
+<code>            ;;</code><br />
+<code>        </code>“<code>powerpc</code>”<code> )</code><br />
+<code>            GENTOO_ARCH=ppc</code><br />
+<code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
+<code>            ;;</code><br />
+<code>        </code>“<code>x86_64</code>”<code> )</code><br />
+<code>            GENTOO_ARCH=amd64</code><br />
+<code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
+<code>            ;;</code><br />
+<code>    esac</code><br />
+<code>fi</code><br />
+<br />
+<code>wget --passive-ftp ${GENTOO_MIRROR}/${GENTOO_STAGE_PATH}/stage3-${GENTOO_CPU}-\*.tar.bz2</code><br />
+<code>wget --passive-ftp ${GENTOO_MIRROR}/snapshots/portage-latest.tar.bz2</code></p>
+<h2 id="creating-the-chroot-jail-and-installing-gentoo-into-it">Creating the chroot Jail and Installing Gentoo into It</h2>
+<p>Before we can install Gentoo into a chroot jail, we must create the jail. Which is a simple as:</p>
+<p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
+<font color="red"><code>FAKETOO_JAIL=${HOME}/faketoo</code></font><br />
+<br />
+<code>mkdir ${FAKETOO_JAIL}</code></p>
+<p>Now, populate the jail with the stage3 tarball:</p>
+<p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
+<font color="red"><code>GENTOO_SOURCES=${HOME}</code></font><br />
+<br />
+<code>cd ${FAKETOO_JAIL}</code><br />
+<br />
+<code># See the text below if you do not know what sudo does</code><br />
+<code>sudo -v</code><br />
+<br />
+<code>bunzip2 -c ${GENTOO_SOURCES}/stage3-${GENTOO_CPU}-*.tar.bz2 | \</code><br />
+<code> sudo tar xvp</code></p>
+<p>You may have noticed that there was some mention of <em>sudo</em> above; if this puzzles you, see the <a href="#sudo_Explained" title="wikilink">#sudo Explained</a> section below.</p>
+<p>You now have the Gentoo core system installed. In order to use Gentoo's excellent Portage tree, you will need to extract the Portage snapshot tarball into the jail. Of course, if you are installing onto a Gentoo system, you have the option of using the host system's Portage tree, in which case you should skip this step, but pay close attention to <a href="#Mounting_/dev_and_/proc" title="wikilink">the next step</a>, as you will need to bind mount the Portage tree in addition to the other mounts.</p>
+<p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
+<br />
+<code># If you want to use the host system's Portage tree, comment out the next line</code><br />
+<code># (by adding a '#' character to the beginning of the line), and uncomment the</code><br />
+<code># one following it</code><br />
+<font color="red"><code>FAKETOO_INSTALL_PORTAGE=1</code><br />
+<code>#FAKETOO_INSTALL_PORTAGE=0</code></font><br />
+<br />
+<code>if test ${FAKETOO_INSTALL_PORTAGE} -ne 0; then</code><br />
+<code>    cd ${FAKETOO_JAIL}</code><br />
+<code>    bunzip2 -c ${GENTOO_SOURCES}/portage-latest.tar.bz2 | \</code><br />
+<code>     sudo tar xv -C usr/</code><br />
+<code>else</code><br />
+<code>    sudo mkdir -p usr/portage var/tmp/portage</code><br />
+<code>fi</code></p>
+<h2 id="mounting-dev-and-proc">Mounting /dev and /proc</h2>
+<p>Gentoo is all installed inside the jail, but before you can use it like a real system, you must mount <em>/dev</em> and <em>/proc</em> inside the jail so that programs running in the jail have kernel-level access to your hardware.</p>
+<p><font color="red"><strong>Note that this is not what you normally want with a chroot jail, which is supposed to help mitigate a daemon being compromised! In our setup, however, we want to run Gentoo as if it was running directly on the real root filesystem.</strong></font></p>
+<p>Here is how to mount <em>/dev</em> and <em>/proc</em> (and, while we're at it, <em>/usr/src</em>, so that Gentoo can get at our kernel sources (which is required by some packages, like <em>net-wireless/wireless-tools</em>). Also, if you want to use the host system's Portage tree, we will need to mount two additional directories.</p>
+<p><code>sudo -v</code><br />
+<code>sudo mount -o bind /dev ${FAKETOO_JAIL}/dev</code><br />
+<code>sudo mount -t proc none ${FAKETOO_JAIL}/proc</code><br />
+<code>sudo mount -o bind /usr/src ${FAKETOO_JAIL}/usr/src</code><br />
+<code>if test ${FAKETOO_INSTALL_PORTAGE} -eq 0; then</code><br />
+<code>    sudo mount -o bind /usr/portage ${FAKETOO_JAIL}/usr/portage</code><br />
+<code>    sudo mount -o bind /var/tmp/portage ${FAKETOO_JAIL}/var/tmp/portage</code><br />
+<code>fi</code></p>
+<h2 id="entering-the-jail-for-the-first-time">Entering the Jail for the First Time</h2>
+<p>We are nearing the end, my friends! Before you enter the Gentoo jail for the very first time, you will need to copy your DNS resolver configuration over, and create one file that seems to be missing from Gentoo's baselayout. And if you have chosen to use the host system's Portage tree in a previous step, you will want to copy the host system's main Portage configuration file in to use as a starting point:</p>
+<p><code>sudo -v</code><br />
+<code>sudo cp /etc/resolv.conf ${FAKETOO_JAIL}/etc/resolv.conf</code><br />
+<code>echo 'default' &gt;/tmp/softlevel</code><br />
+<code>sudo mv /tmp/softlevel ${FAKETOO_JAIL}/var/lib/init.d/softlevel</code><br />
+<code>if test ${FAKETOO_INSTALL_PORTAGE} -eq 0; then</code><br />
+<code>    sudo cp /etc/make.conf ${FAKETOO_JAIL}/etc/make.conf</code><br />
+<code>fi</code></p>
+<p>Now, you can enter the jail and start using your new, fake Gentoo system!</p>
+<p><code>sudo -v</code><br />
+<code>sudo chroot ${FAKETOO_JAIL} /bin/su - root</code><br />
+<code>env-update</code><br />
+<code>source /etc/profile</code><br />
+<code>export PS1=': \u@FAKETOO; '</code><br />
+<code>export PS2=': ; '</code></p>
+<p>These steps will deposit you into your jail as the root user. You can now continue the normal Gentoo installation process by configuring Portage.</p>
+<p>Please note that if you have installed your chrooted Gentoo on a Gentoo host system and have elected to use the host system's Portage, you probably want diverge from the instructions in the following ways:</p>
+<ul>
+<li>Instead of updating the Portage tree from inside the jail, let the host system be responsible for syncing the Portage tree.</li>
+<li>You will almost certainly want to use the same Portage profile as the host system.</li>
+<li>When configuring the USE variable, do not change the CHOST, CFLAGS, or MAKEOPTS variables unless you have a very good reason to do so.</li>
+</ul>
+<h2 id="starting-and-stopping-faketoo">Starting and Stopping Faketoo</h2>
+<p>Everytime you shut your computer down, you should first stop Faketoo. And after booting up, you must start Faketoo again before you can use it. The easiest way to accomplish this is by creating two scripts in your bin directory:</p>
+<p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
+<br />
+<font color="red"><code>BINDIR=${HOME}/bin</code><br />
+<code>FAKETOO_CRON=vixie-cron</code></font><br />
+<br />
+<code>cat &gt;${BINDIR}/faketoo-start &lt;&lt;EOF</code><br />
+<code>FAKETOO_JAIL=${FAKETOO_JAIL}</code><br />
+<code>FAKETOO_CRON=${FAKETOO_CRON}</code><br />
+<code>FAKETOO_INSTALL_PORTAGE=${FAKETOO_INSTALL_PORTAGE}</code><br />
+<br />
+<code>sudo -v</code><br />
+<code>sudo cp /etc/resolv.conf \${FAKETOO_JAIL}/etc/resolv.conf</code><br />
+<code>sudo mount -o bind /dev \${FAKETOO_JAIL}/dev</code><br />
+<code>sudo mount -t proc none \${FAKETOO_JAIL}/proc</code><br />
+<code>sudo mount -o bind /usr/src \${FAKETOO_JAIL}/usr/src</code><br />
+<br />
+<code>if test \${FAKETOO_INSTALL_PORTAGE} -eq 0; then</code><br />
+<code>    sudo mount -o bind /usr/portage ${FAKETOO_JAIL}/usr/portage</code><br />
+<code>    sudo mount -o bind /var/tmp/portage ${FAKETOO_JAIL}/var/tmp/portage</code><br />
+<code>fi</code><br />
+<br />
+<code>sudo chroot \${FAKETOO_JAIL} /bin/su - root -c </code>“<code>/etc/init.d/\${FAKETOO_CRON}</code><code> </code><code>start</code>”<br />
+<code>EOF</code><br />
+<br />
+<code>cat &gt;${BINDIR}/faketoo-stop &lt;&lt;EOF</code><br />
+<code>sudo chroot \${FAKETOO_JAIL} /bin/su - root -c </code>“<code>/etc/init.d/\${FAKETOO_CRON}</code><code> </code><code>stop</code>”<br />
+<code>EOF</code><br />
+<br />
+<code>chmod +x ${BINDIR}/faketoo-*</code></p>
+<h2 id="entering-the-jail-normally">Entering the Jail Normally</h2>
+<p>Once you have your chrooted system fully installed, you will probably want to add a non-root user for daily use, and enter the jail as that user. Easy as pie:</p>
+<p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
+<br />
+<font color="red"><code>FAKETOO_USER=${USER}</code></font><br />
+<br />
+<code>sudo -v</code><br />
+<code>sudo chroot ${FAKETOO_JAIL} /bin/su - ${FAKETOO_USER}</code></p>
+<p>These steps will deposit you into your jail as the root user. You can now continue the normal Gentoo installation process by configuring Portage.</p>
+<h2 id="sudo-explained">sudo Explained</h2>
+<p><em>sudo</em> is a wrapper that lets you run a single command with superuser--root--privileges. When you ran</p>
+<pre><code>sudo -v</code></pre>
+<p>in the <a href="#Creating_the_chroot_Jail_and_Installing_Gentoo_into_It" title="wikilink">#Creating the chroot Jail and Installing Gentoo into It</a> section above, you were asking sudo for a token, which allows you to commands as root for a few minutes, without being prompted for a password every time. The password that</p>
+<pre><code>sudo -v</code></pre>
+<p>expects you to enter is almost certainly your own, but if that doesn't work, try your system's root password (some distributions may setup sudo incorrectly).</p>
+<p><a href="Category:Linux_Help:QND-Guides" title="wikilink">Gentoo</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

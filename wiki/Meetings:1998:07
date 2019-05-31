@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>from <a href="http://www.tlug.jp/meetings/9807/index.html">1</a> <em>17 July, 1998</em></p>
+<h2 id="july-party-events">July Party Events</h2>
+<p><code> July Nomikai Information</code><br />
+<code> Date: 17 July, 1998</code><br />
+<code> Nomikai Meeting Time: 19:30</code><br />
+<code> Nomikai Meeting Place: Tengu Tokyo EkiMae</code><br />
+<code> Chuo-ku, Kyobashi 1-1-6, EchiZenYa Bld. B1/B2</code><br />
+<code> Phone: 03-3275-3691</code><br />
+<code> Events: drink and eat (primarily a social activity)</code><br />
+<code> Next Regular Meeting: 8 August</code><br />
+<code> Additional Information:</code></p>
+<p>TLUG's Friday evening nomikai was a roaring success thanks to the 28 people that came out and had a good time. The highlight of the evening was a Sparc 4c disk install by Chris Sekiya and Jonathan Byrne using a Toshiba laptop running minicom as a terminal emulator. It may have been the first Sparc install at an izakaya *ever* : )</p>
+<p>Jonathan adds Joe Marchak is being too modest here. It was really an install by Joe and Chris on my disk, with me in attendance. This install was especially made possible by Joe, who not only brought an incredibly huge backpack of stuff, including a Sparc LX and an external SCSI enclosure, but also made not one, but two, jogs to his office to get things that we suddenly found we would need.</p>
+<p>Special thanks to Shigeo Honda for being snackmaster, and to Alberto Tomita for taking photographs of the event.</p>
+<p>This event was open to all Linux users and friends, and was to promote casual linux (and non-linux) related discussions over a few cold ones.</p>
+<p>Someone was waiting at Tokyo station Yaesu chuo ticket gate at 19:15. Here is a picture of Yaesu Chuo ticket gate: <a href="http://www.imasy.or.jp/Yaesu-Chuo.jpg" class="uri">http://www.imasy.or.jp/Yaesu-Chuo.jpg</a></p>
+<p>Tengu is about 5 minutes away from the Yaesu Chuo exit of the JR Tokyo train station. It is on the right hand side of Yaesu Dori if you are walking out of the station.</p>
+<p><a href="Category:Meetings" title="wikilink">1998:07</a> <a href="Category:Meetings:1998" title="wikilink">07</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

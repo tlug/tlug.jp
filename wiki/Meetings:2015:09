@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="introduction">Introduction</h2>
+<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or entrance fees.</p>
+<p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
+<p>As a general rule, the Technical Meetings are held on the 2nd Saturday of odd-numbered months and the Nomikai Meetings are usually held on the 2nd Friday of even-numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
+<h2 id="technical-meeting">Technical Meeting</h2>
+<h4 id="date">Date</h4>
+<p>September 12, 2015 (Saturday)</p>
+<h4 id="time">Time</h4>
+<p>13:30-16:30</p>
+<h4 id="location">Location</h4>
+<p>IIJ (Internet Initiative Japan)<br />
+Iidabashi Grand Bloom<br />
+2-10-2 Fujimi<br />
+Chiyoda-ku, Tokyo 102-0071<br />
+<a href="http://www.iij.ad.jp/en/company/about/map/head-office.html">Map</a></p>
+<ul>
+<li>Wait at the reception in the <a href="http://iidabashi-gb.jp/floor/index.html">office entrance lobby in the 2F</a></li>
+<li>We will all go together to the room at 13:30</li>
+<li>If you arrive after that phone Edward to be let in Ph. 090 3689 0292</li>
+</ul>
+<h4 id="itinerary">Itinerary</h4>
+<h5 id="presentations">Presentations</h5>
+<h6 id="coroutines-by-benjamin-kowarsch">Coroutines (by <a href="Benjamin_Kowarsch" title="wikilink">Benjamin Kowarsch</a>)</h6>
+<p>Coroutines are a multi-threading model that is a highly scalable alternative to preemptive threads. There is an interesting paper called “Revisiting Coroutines” by De Moura and Ierusalimschy of the Polytechnic University of Rio de Janeiro, and of Lua fame.</p>
+<p>This paper was the basis to redesign coroutines in Modula-2. Benjamin will show how coroutines differ from preemptive threads and what kind of support there is in different languages.</p>
+<h6 id="postgresql-9.4-9.5-and-beyond-by-satoshi-nagayasu">PostgreSQL 9.4, 9.5 and Beyond (by <a href="Satoshi_Nagayasu" title="wikilink">Satoshi Nagayasu</a>)</h6>
+<p>Recently, PostgreSQL has succeeded in getting popularity among web developers. In this talk, Satoshi will introduce the new features in the latest release 9.4 (JSON, Analytics, Logical Decoding, etc.) to take advantages of the latest PostgreSQL advancement, and share a quick look in the upcoming release 9.5. And he will also introduce his personal projects around PostgreSQL.</p>
+<h5 id="nijikai">nijikai</h5>
+<p>After the presentations we will go for drinks somewhere around Iidabashi Station.</p>
+<h5 id="other-items-on-the-agenda">Other items on the agenda</h5>
+<ol>
+<li>Introduction of new members</li>
+<li>News about Linux/Open Source, general announcements, Q&amp;A</li>
+<li>Auction (bring any gear that would would like to donate to TLUG)</li>
+</ol>
+<h3 id="contact-info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li><a href="Edward_Middleton" title="wikilink">Edward Middleton</a> : 090-3689-0292</li>
+<li><a href="Alberto_Tomita" title="wikilink">Alberto Tomita</a> : 080-3463-9256</li>
+</ul>
+<p><a href="Category:Meetings" title="wikilink">2015:09</a> <a href="Category:Meetings:2015" title="wikilink">09</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

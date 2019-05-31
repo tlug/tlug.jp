@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="introduction">Introduction</h2>
+<p>This technical meeting will be followed by the Bonenkai.</p>
+<p>TLUG meetings will be announced on this page. We are always looking for people who would like to give demonstrations. If you have any ideas about meeting events, please let us know.</p>
+<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. Membership is open to anyone. There are currently no membership dues or entrance fees.</p>
+<p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
+<p>As a general rule, the Technical Meetings are held on the 2nd SAT of odd numbered months and the Nomikai Meetings are usually held on the 2nd FRI of even numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
+<h2 id="meeting-2009---19">Meeting / 2009 - 19</h2>
+<p><strong>Template:Meetings:Vitals placeholder</strong></p>
+<h3 id="itinerary">Itinerary</h3>
+<h4 id="presentations">Presentations</h4>
+<h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
+<p><strong>“Parallels[1] virtualization products for Linux”</strong> By <em><a href="Alexei_Anisimov" title="wikilink">Alexei Anisimov</a></em></p>
+<p><em>Parallels Virtuozzo Containers:</em></p>
+<ul>
+<li>Overview, general information, features</li>
+<li>Installation, hardware/software system requirements</li>
+<li>Managements tools - CLI, GUI</li>
+<li>Basic operations, containers isolation</li>
+<li>Virtuozzo templates - OS/application, standard/EZ</li>
+<li>VZFS (Virtuozzo File System) and COW (copy-on-write)</li>
+<li>Containers limits, resource management</li>
+<li>Networking - bridged (veth) and routed (venet0) modes</li>
+</ul>
+<p><em>OpenVZ</em></p>
+<ul>
+<li>General information</li>
+<li>Difference between OpenVZ[2] and Virtuozzo</li>
+</ul>
+<p><em>Parallels Server Bare Metal</em></p>
+<ul>
+<li>General information</li>
+<li>Combination of OS (Virtuozzo containers) and hypervisor (virtual machines) virtualization layers on a single server</li>
+<li>GUI tools - Parallels management console (PMC) and Parallels virtual automation (PVA)</li>
+</ul>
+<p>1. <a href="http://www.parallels.com/eu/products/pvc45/" class="uri">http://www.parallels.com/eu/products/pvc45/</a><br />
+2. <a href="http://openvz.org/" class="uri">http://openvz.org/</a></p>
+<h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
+<p>Short break <em>(maybe)</em></p>
+<h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
+<p><strong>“Linux and the Top500”</strong> By <em><a href="Avi_Telyas" title="wikilink">Avi Telyas</a></em></p>
+<ul>
+<li>What is the Top 500
+<ul>
+<li>Who is in there</li>
+<li>Trends and Future</li>
+<li>Japan in Top 500</li>
+</ul></li>
+<li>Linux in top 500
+<ul>
+<li>Which distributions, vendors</li>
+</ul></li>
+<li>OpenEverything - The actual Technology part
+<ul>
+<li>OFED - Open Fabrics Alliance</li>
+<li>OpenSM</li>
+<li>OpenMPI
+<ul>
+<li>Including a quick overview of MPI</li>
+</ul></li>
+</ul></li>
+</ul>
+<h4 id="other-items-on-the-agenda-are">Other items on the agenda are:</h4>
+<ol>
+<li>Introduction of new members</li>
+<li>News about Linux/Open Source, general announcements, Q&amp;A</li>
+<li>Auction (bring any gear that would would like to donate to TLUG)</li>
+</ol>
+<h3 id="contact-info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li><a href="Edward_Middleton" title="wikilink">Edward Middleton</a> : 090-3689-0292</li>
+<li><a href="user:zuco" title="wikilink"> Pietro Zuco</a> : 080-3351-1358</li>
+</ul>
+<h2 id="bonenkai">Bonenkai</h2>
+<h3 id="date">Date</h3>
+<p>December 19th, 2009 (Saturday)</p>
+<h3 id="time">Time</h3>
+<p>17:00-19:00</p>
+<h3 id="location">Location</h3>
+<p><strong>Zaru</strong><br />
+Zero Gate 4F, 16-9 Udagawa-cho, Shibuya-ku, Tokyo<br />
+[ <a href="http://r.gnavi.co.jp/g064216/">Info (In Japanese)</a> ] [ <a href="http://r.gnavi.co.jp/g064216/map1.htm">map</a> ]</p>
+<h3 id="costs">Costs</h3>
+<p>Will be divided up among participants (usually around 3,000-5,000 yen)</p>
+<h3 id="details">Details</h3>
+<p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
+<p>Even if you want to come at the last minute it's okay - we may have to squeeze a bit, but please come!</p>
+<h3 id="contact-info-1">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li><a href="Edward_Middleton" title="wikilink">Edward Middleton</a> : 090-3689-0292</li>
+<li><a href="user:zuco" title="wikilink"> Pietro Zuco</a> : 080-3351-1358</li>
+</ul>
+<p><a href="Category:Meetings" title="wikilink">2009:12</a> <a href="Category:Meetings:2009" title="wikilink">12</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

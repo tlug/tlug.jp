@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Author: <a href="/wiki/User:Jmglov" title="wikilink">Josh Glover</a></p>
+<h2 id="introduction">Introduction</h2>
+<p>This guide instructs you on creating an SSH keypair to use for passwordless authentication. This solution should not be used for serious security; see instead <a href="http://mah.everybody.org/docs/ssh">ssh-agent</a>.</p>
+<h2 id="generating-a-keypair">Generating a Keypair</h2>
+<p>To generate a keypair, run:</p>
+<p><code>ssh-keygen -t dsa</code></p>
+<p>(you are advised not to protect the key with a password, as you will then be prompted for the password everytime you connect). The keypair will be saved (by default) in <em>$HOME/.ssh/id_dsa</em>, and <em>$HOME/.ssh/id_dsa.pub</em> (the .pub file is the public key, and the other is the corresponding private key).</p>
+<h2 id="setting-permissions">Setting Permissions</h2>
+<p>Now, set the permissions to protect your <em>$HOME/.ssh/ directory</em>. (Note that these modes are the most lax permissions that these files and directories are allowed to have. You may certainly set the permissions stricter.)</p>
+<p><code>chmod 711 $HOME/</code><br />
+<code>chmod 700 $HOME/.ssh/</code><br />
+<code>chmod 644 $HOME/.ssh/*</code><br />
+<code>chmod 600 $HOME/.ssh/id_dsa</code></p>
+<h2 id="adding-public-key-to-remote-authorized_keys-files">Adding Public Key to Remote authorized_keys Files</h2>
+<p>Finally, add the public key to the <em>$HOME/.ssh/authorized_keys</em> file on each machine to which you wish to connect and set the correct permissions. (Note that you will be prompted for a password with each command. An alternative is to login to server and run the commands locally. If you do so, remove the quoting from the rightmost arguments.)</p>
+<p><code>cat $HOME/.ssh/id_dsa.pub server 'cat &gt;&gt;.ssh/authorized_keys'</code><br />
+<code>ssh server chmod 711 </code>“<code>$HOME/</code>”<br />
+<code>ssh server chmod 700 </code>“<code>$HOME/.ssh</code>”<br />
+<code>ssh server chmod 644 </code>“<code>$HOME/.ssh/authorized_keys</code>”</p>
+<p>For each machine you want to be able to connect from, first copy the <em>id_dsa</em> file (the private key) to that machine, then follow the above steps.</p>
+<p><a href="Category:Linux_Help:QND-Guides" title="wikilink">SSH_Keypair_Authentication</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

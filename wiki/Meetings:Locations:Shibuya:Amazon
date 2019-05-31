@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="address">Address</h2>
+<p><a href="http://www.amazon.co.jp/">Amazon.co.jp</a> headquarters<br />
+Shibuya Cross Tower, 6F<br />
+2-15-1 Shibuya<br />
+Shibuya-ku, Tokyo, Japan<br />
+[ <a href="http://maps.google.co.jp/?q=%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B72-15-1+(Shibuya+Cross+Tower)&amp;ie=UTF8&amp;z=16&amp;om=1&amp;iwloc=addr">map</a> ] [ <a href="Meetings:Locations:Shibuya:Amazon" title="wikilink">details</a> ]</p>
+<h2 id="directions">Directions</h2>
+<h3 id="tokyo-metro-shibuya-station">Tokyo Metro Shibuya Station</h3>
+<ol>
+<li>Enter the JR / Tokyu station and <a href="#JR_/_Tokyu_Shibuya_Station" title="wikilink">follow the directions</a> from there.</li>
+</ol>
+<h3 id="jr-tokyu-shibuya-station">JR / Tokyu Shibuya Station</h3>
+<ol>
+<li>Take the Miyamasuzaka exit (宮益坂方面), which is the long one that goes over the street right in front of the Tokyu Toyoku Line gates</li>
+<li>Follow the exit all the way over the street (do not take any of the stairs on the right or left) until it dumps you out into an alley</li>
+<li>When you come out of the exit, keep walking straight until the alley turns to the right</li>
+<li>Turn right</li>
+<li>When you come out of the alley, there will be an elevated pedestrian bridge on your left</li>
+<li>Take the stairs, and cross the pedestrian bridge</li>
+<li>This will put you in the courtyard of Shibuya Cross Tower</li>
+<li>Enter the doors in front of you (head towards the Starbucks)</li>
+<li>Take the second set of elevators on the left (the ones that service floors 1-17)</li>
+<li>Go to the 6th floor</li>
+<li>Get out of the elevator and head towards the Amazon.co.jp office (the other office on this floor is Oracle, which is not what you want)</li>
+<li>Knock on the door</li>
+</ol>
+<h2 id="facilities">Facilities</h2>
+<ul>
+<li>Wireless LAN (802.11bg, unencrypted)</li>
+<li>VGA projector</li>
+</ul>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

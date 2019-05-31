@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>''' <a href="please_register" title="wikilink">please register</a> your attendance with <a href="http://tlug.doorkeeper.jp/events/14417">Doorkeeper</a><strong><br />
+</strong> we need to have at least 25 people registered <a href="by_September_20" title="wikilink">by September 20</a> '''</p>
+<h2 id="overview">Overview</h2>
+<h3 id="date">Date</h3>
+<p>September 26, 2014 (Friday)</p>
+<h3 id="time">Time</h3>
+<p>19:30 - 21:30</p>
+<h3 id="event">Event</h3>
+<p>Celebration of the TLUG 20th Anniversary<br />
+with food (fixed course) and drinks (all-you-can-drink)</p>
+<h3 id="location">Location</h3>
+<p><a href="http://www.outbacksteakhouse.co.jp/en/location/obg_shinagawa.html">Outback Bar&amp;Grill Shinagawa (Konan side)</a></p>
+<p><em>' not to be confused with the Outback Steakhouse on the other side of Shinagawa station</em>'<br />
+</p>
+<h3 id="address">Address</h3>
+<p>2-16-2 Konan, Minato-ku, Tokyo<br />
+Shinagawa Grand Commons Taiyo Life Blg 3F</p>
+<h3 id="cost">Cost</h3>
+<ul>
+<li>5,000 yen (pre-paid)<br />
+</li>
+<li>5,800 yen (at the door)</li>
+</ul>
+<p>''' <a href="please_register" title="wikilink">please register</a> your attendance with <a href="http://tlug.doorkeeper.jp/events/14417">Doorkeeper</a><strong><br />
+</strong> we need to have at least 25 people registered <a href="by_September_20" title="wikilink">by September 20</a> '''</p>
+<h3 id="contact-info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li><a href="Edward_Middleton" title="wikilink">Edward Middleton</a> : 090-3689-0292</li>
+<li><a href="Alberto_Tomita" title="wikilink">Alberto Tomita</a> : 080-3463-9256</li>
+</ul>
+<p><a href="Category:Meetings" title="wikilink">2014:09</a> <a href="Category:Meetings:2014" title="wikilink">09</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

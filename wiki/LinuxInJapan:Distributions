@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Distributions in Japan. This page English translation of Linux.or.jp's distribution information.</p>
+<h2 id="rpm-family">RPM Family</h2>
+<ul>
+<li><a href="http://www.kondara.org/">Kondara MNU/Linux</a><br />
+Kondara MNU/Linux is RPM based Linux distribution. Basic installation enables both Japanese and English environments.</li>
+</ul>
+<ul>
+<li><a href="http://www.laser5.co.jp/">LASER5 Linux</a><br />
+LASER5 Linux 6.0 is a commercial distributor from <a href="http://www.laser5.co.jp/">Laser 5 Co., Ltd.</a> Much of the installer and desktop environments have been Japanized and the latest kernel and software are ready to use. It comes with a lot of printed manuals and is benign to the newbies. They have an online support for installation.</li>
+</ul>
+<ul>
+<li><a href="http://www.linux-mandrake.com/en/">Linux Mandrake</a><br />
+Mandrake is based on RedHat 6.x. Its default desktop environment is KDE and its software are optimised for Pentium CPUs.</li>
+</ul>
+<ul>
+<li><a href="http://www.mlb.co.jp/">Linux MLD</a> Linux MLD is a commercial distro from <a href="http://www.mlb.co.jp/">MediaLab</a>, using Windows95. Its installation is unique: installs from Window95, using its device information and repartitioning the FAT16 or 32 partition.</li>
+</ul>
+<ul>
+<li><a href="http://www.mlb.co.jp/live/">LiveLinux</a><br />
+CD bootable Linux from <a href="http://www.mlb.co.jp/">MediaLab</a> for experiment use.</li>
+</ul>
+<ul>
+<li><a href="http://www.miraclelinux.com/">Miracle Linux</a><br />
+is designed for business use with Linux's reliability, stability and scalability, and with a good support as a corporate server. It is designed to work with Oracle for database menagement and is ready for business application. Internet <em>時代のプラットフォームとして開発された Miracle Linux は,より早く確実に高付加価値システムが構築できる環境を提供いたします.</em></li>
+</ul>
+<ul>
+<li><a href="http://www.holonlinux.com/">HOLON Linux</a><br />
+is from HOLON as a succeed to Linux2000G.</li>
+</ul>
+<ul>
+<li><a href="http://www.jp.caldera.com/">OpenLinux</a><br />
+Caldera International, Inc. (Nasdaq: CALD) is under “Unifying UNIX with Linux for Business” philosophy and advocates “Develop-on, Deploy-on, Manage.” <a href="http://www.jp.caldera.com/">www.jp.caldera.com</a><em>をご覧ください.</em></li>
+</ul>
+<ul>
+<li><a href="http://www.jp.redhat.com/">Red Hat Linux</a><br />
+Red Hat Linux is from <a href="http://www.jp.redhat.com/">RedHat Co., Ltd.</a> and is designed for office use with good security support.</li>
+</ul>
+<ul>
+<li><a href="http://www.suse.com/">SuSE</a><br />
+is a popular package in Europe. They are famous for good knowledge in opensource society, providing the drivers to <a href="http://www.xfree86.org/">XFree86</a>. They are RPM-based and have recently released the first Japanese version.</li>
+</ul>
+<ul>
+<li><a href="http://www.turbolinux.co.jp/">Turbolinux</a><br />
+Turbolinux Japanese Edition is a commercial distribution from <a href="http://www.turbolinux.co.jp/">Turbolinux Japan</a> with Japanese installer and desktop environment. It comes with the latest kernel and software as well as manuals and is easy for newbies. They also supply online installation support.</li>
+</ul>
+<ul>
+<li><a href="http://www.vinelinux.org/">Vine Linux</a><br />
+Vine Linux is a distribution to supply Japanese environment. The basic installation installs enables Japanese environment.</li>
+</ul>
+<h2 id="tgz-family">TGZ Family</h2>
+<ul>
+<li><a href="http://www.linet.gr.jp/~kojima/Plamo/">Plamo Linux</a><br />
+Plamo Linux is based on <a href="http://www.slackware.org/">Slackware</a>, with Japanese installer and document database. They have the Namazu-backed search facility of Japanese documentations.</li>
+</ul>
+<ul>
+<li><a href="http://www.slackware.org/">Slackware</a> Slackware is a classic distribution. They also have [<a href="http://www.egroups.co.jp/group/slackware-pkg" class="uri">http://www.egroups.co.jp/group/slackware-pkg</a>&quot;&gt;Mail Magazine of Package Updates</A> in Japanese.</li>
+</ul>
+<h2 id="deb-family">DEB Family</h2>
+<ul>
+<li><a href="http://www.debian.org/">Debian GNU/Linux</a><br />
+<a href="http://www.jp.debian.org/intro/about#what">Debian</a> (でびあん) GNU/Linux offers very <a href="http://www.jp.debian.org/devel/help">open development environment</a> and is very competent with commercial distributors. They define <a href="http://www.jp.debian.org/intro/free">free software</a> as Debian Free Software Guideline (<a href="http://www.jp.debian.org/social_contract#guidelines">DFSG</a>) and is well known for the inspection of software licenses.</li>
+</ul>
+<ul>
+<li>Omoikane GNU/Linux<br />
+is from <a href="http://www.omoikane.co.jp/">Omoikane</a> and compatible with Debian GNU/Linux.</li>
+</ul>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

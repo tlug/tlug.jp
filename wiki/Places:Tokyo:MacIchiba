@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="vitals">Vitals</h2>
+<ul>
+<li>Name: Mac市場 (MacIchiba)</li>
+<li>Website: <a href="http://www.macichiba.com/">ja</a></li>
+<li>Map:
+<ul>
+<li><a href="http://maps.google.co.jp/maps?near=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E5%A4%96%E7%A5%9E%E7%94%B0%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%91%EF%BC%95&amp;q=mac%E5%B8%82%E5%A0%B4&amp;f=l&amp;hl=ja&amp;ie=UTF8&amp;om=1&amp;z=19&amp;iwloc=A">Google Maps</a></li>
+<li><a href="http://www.macichiba.com/map.html">macichiba.com</a></li>
+</ul></li>
+</ul>
+<h2 id="description">Description</h2>
+<p><a href="http://en.wikipedia.org/wiki/Mac">Mac (Wikipedia)</a></p>
+<p><code>speciality shop in </code><a href="/wiki/:Category:Places:Tokyo:Akihabara" title="wikilink"><code>Akihabara</code></a><code>.</code></p>
+<h2 id="discovery-by">Discovery By</h2>
+<p>From the <a href="http://lists.tlug.jp/ML/0706/msg00257">TLUG mailing list</a><br />
+Quoth Mattia Dongili:</p>
+<dl>
+
+<dd>
+</dd>
+</dl>
+<p><code>I've found this one recently: </code><a href="http://www.macichiba.com/"><code>http://www.macichiba.com/</code></a><br />
+<code>they are in Akihabara (what a surprise), 東京都千代田区外神田3-12-15</code><br />
+<code>paste it in google maps and you're done :) (well they also have a map on</code><br />
+<code>the website).</code><br />
+<br />
+<code>Well, obviously I can't guarantee for the quality of their used</code><br />
+<code>appliances, but take a look.</code><br />
+<code>There are more shops around that have Ibooks, but this one has a</code><br />
+<code>dedicated floor.</code></p>
+<p><a href="Category:Places" title="wikilink">Tokyo:MacIchiba</a> <a href="Category:Places:Tokyo" title="wikilink">MacIchiba</a> <a href="Category:Places:Tokyo:Akihabara" title="wikilink">MacIchiba</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

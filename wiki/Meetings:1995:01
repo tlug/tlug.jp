@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>from <a href="http://www.tlug.jp/meetings/1995/95jan.html">1</a></p>
+<h2 id="what-happened-in-january">What happened in January?</h2>
+<h2 id="food-place">Food Place</h2>
+<p>Steak Kuishinbo near the CTI office:</p>
+<p>We enjoyed reasonably priced beef. I had the oroshi-steak set with salad, soup and rice for about 800 yen.</p>
+<h2 id="meeting-place">Meeting Place</h2>
+<p>Linux heaven! The CTI head offices with Linux machines coming out of the walls.</p>
+<h2 id="crazed-members-present">Crazed Members Present</h2>
+<ul>
+<li><a href="Nori_Nishigaya" title="wikilink">Nori Nishigaya</a> anishi at cyber.ad.jp,</li>
+<li><a href="Craig_Oda" title="wikilink">Craig Oda</a> craig ay twics.com,</li>
+<li><a href="Steve_Casmar" title="wikilink">Steve Casmar</a> casmar at twics.com,</li>
+<li><a href="Jim_Tittsler" title="wikilink">Jim Tittsler</a> jwt at shrine.cyber.ad.jp,</li>
+<li><a href="Rainer_Mager" title="wikilink">Rainer Mager</a> rvm at fore.com,</li>
+<li><a href="Dave_Madden" title="wikilink">Dave Madden</a> dhm at vheissu.net.dcl.co.jp,</li>
+<li><a href="James_Ellison" title="wikilink">James Ellison</a> jellison at shrine.cyber.ad.jp,</li>
+<li><a href="Joe_Marchak" title="wikilink">Joe Marchak</a> (Get on the net Joe :-)</li>
+</ul>
+<h2 id="summary-of-events">Summary of events</h2>
+<p>This month's theme was interpretted languages and Rainer (rvm@fore.com) was prepared with a TCL demo that showed various system performance statistics. We discussed TkPerl, Rex, and forth. Everyone is still looking for development languages that are cross-platform. We really want a PIGUI (Platform Independent Graphic User Interface), but have not found a suitable tool yet. TkPerl is still in alpha, so it might be best to stick to Tk/TCL.</p>
+<p>jellison@shrine.cyber.ad.jp, (James), explained how to create “compiled” perl programs with a unix command and a Perl flag.</p>
+<p>Dave explained a few pointers on kanji input with Wnn and also spoke about a few tricks with audio output.</p>
+<p>We also spoke about new kernel patches, e-cash, and Linux compared to other UNIX operating systems such as SunOS, Solaris, BSD and HP/UX. Everyone thinks Linux is the best! :-)</p>
+<h2 id="summary-of-decisions">Summary of Decisions</h2>
+<p>A temporary mailing list will be set up courtesy of Cyber Technologies International (CTI). CTI has also agreed to donate meeting space for the meetings. We are going to hold the meetings on the third Sunday of every month with the next meeting on February 19th, 1995 at 11:00 a.m.</p>
+<p>Everyone is encouraged to volunteer to do demonstrations. Before a demo, you should communicate your intention with others by use of the mailing list.</p>
+<p><a href="Category:Meetings" title="wikilink">1995:01</a> <a href="Category:Meetings:1995" title="wikilink">01</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

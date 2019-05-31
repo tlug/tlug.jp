@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>from <a href="http://www.tlug.jp/meetings/9706/june-97.html">1</a> Saturday, June 14 1997</p>
+<p>The June 14th meeting was another success. It started off at Tokyo station where we dined on Okonomiyaki. Most peopled went for the mixed-yaki, Craig went for the gusto and ordered the oomori portion.</p>
+<p>John Little brought a camera and took a few pictures. We were all amazed at Joe Marchak's 20&quot; color monitor on a Linux machine running Red Hat with Motif. Thank you Joe and HSBC for hosting the meeting.</p>
+<p>Alberto Tomita removed the Applixware student version on Joe's machine and installed the Applixware Developer's version for a demonstration. This was a pleasent surprise. Applixware developer is a full-blown graphical object oriented development environment. Alberto was able to learn the basics of program creation and put together a program with buttons, labels, and an input box in about 15 minutes from the time he first touched the machine.</p>
+<p>Tim Meegs and Leo commented that the GUI development IDE was pretty interesting and Tim mentioned that it had a more graphical integration than MS Visual C++. There was a small sample application that read in a real-time Reuters feed. The class library looked good. We were able to open an MS Excel file and save it as HTML. Joe commented that the HTML code produced by Applixware was much more readable than the code produced by Office '97.</p>
+<p>We then tried to install Caldera Open Linux on John Little's Compaq server with a 6 disk IDE disk array. Unfortunately, the installation bogged down. However, we did learn that Caldera Open Linux is in Red Hat Package Manager format and Alberto commented that it was almost the same as the Red Hat distribution. CDs were passed out and a few members mentioned that they would try to do an install and tell everyone how it went.</p>
+<p><a href="Category:Meetings" title="wikilink">1997:06</a> <a href="Category:Meetings:1997" title="wikilink">06</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

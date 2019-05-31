@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p><a href="http://www.tlug.jp/ML/0602/msg00169.html">Mailing list archive link</a></p>
+<p>I assume many TLUGgers already know this one, but:</p>
+<ol>
+<li>Browse to your favourite search engine (e.g. Google)</li>
+<li>Search for your favourite thing (e.g. TLUG): <a href="http://www.google.com/search?hl=en&amp;q=tlug&amp;btnG=Google+Search" class="uri">http://www.google.com/search?hl=en&amp;q=tlug&amp;btnG=Google+Search</a></li>
+<li>Bookmark the results page (I suggest filing the bookmark in a folder called “Quick Searches” or something like that)</li>
+<li>Bookmarks &gt; Manage Bookmarks</li>
+<li>Locate the bookmark you just created</li>
+<li>Right click, then select Properties</li>
+<li>In the “Location:” textbox, find the search term that you used when creating the bookmark (e.g. “tlug”, from our previous example)</li>
+<li>Replace the search term with “%s”, taking care to not change anything else in the URI (e.g. our “Location:” textbox should now read “<a href="http://www.google.com/search?hl=en&amp;q=%s&amp;btnG=Google+Search" class="uri">http://www.google.com/search?hl=en&amp;q=%s&amp;btnG=Google+Search</a>”;)</li>
+<li>In the “Keyword:” textbox, enter a single word or letter (e.g. “g”) to use as the keyword for quick searches (explanation to follow)</li>
+<li>In the “Description:” textbox, enter the same word you chose for “Keyword:” (e.g. “g”); this is simply because the Bookmarks Manager does not display the keyword in its simple view</li>
+<li>Click OK</li>
+<li>Return to a browser window, click in the location textbox, and enter the keyword that you selected above, a single space, then some search terms (e.g. g “quick-n-dirty guides”)</li>
+<li>Press Enter or click Go</li>
+<li>Voila!</li>
+</ol>
+<p>For additional fun, I have attached a bookmarks file containing a folder full of my favourite quick searches. You can import this straight into your Mozilla / Firefox by choosing the Bookmarks &gt; Manage Bookmarks to open the Bookmarks Manager, then selecting File &gt; Import from the menu. Choose From File, click Next, select my quick-searches.html file from wherever you saved it, then click open. This will create a new folder called “jmglov Quick Searches” in your top-level Bookmarks folder.</p>
+<p>Use these as a starting point for your own collection!</p>
+<p>Cheers, Josh</p>
+<p>PS: Yes, I do know about Mycroft search plugins <a href="http://mycroft.mozdev.org/download.html?name=pgp.mit.edu&amp;submitform=Search">1</a> <a href="http://mycroft.mozdev.org/download.html?name=kobesearch.cpan.org&amp;submitform=Search">2</a> <a href="http://www.jmglov.net/opensource/">3</a>, but I find “Ctrl + L g foo Enter” faster even than “Ctrl + L Tab foo (Ctrl + (Up|Down))* Enter”. :)</p>
+<p><a href="Category:Linux_Help:Tip_of_the_Day" title="wikilink">Firefox</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

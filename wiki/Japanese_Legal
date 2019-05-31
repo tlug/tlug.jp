@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="japanese-laws">Japanese Laws</h2>
+<ul>
+<li>[ <a href="http://www.cas.go.jp/jp/seisaku/hourei/data2.html" class="uri">http://www.cas.go.jp/jp/seisaku/hourei/data2.html</a> Cabinet Secretariat translations ]</li>
+<li>[ <a href="http://www.ehs.or.jp/en/index_en.html" class="uri">http://www.ehs.or.jp/en/index_en.html</a> EHS translations ]</li>
+<li>[ <a href="http://homepage2.nifty.com/paper/lawcollection.htm" class="uri">http://homepage2.nifty.com/paper/lawcollection.htm</a> ]</li>
+</ul>
+<h3 id="constitution-of-japan">Constitution of Japan</h3>
+<ul>
+<li>[ <a href="http://www.kantei.go.jp/foreign/constitution_and_government_of_japan/constitution_e.html" class="uri">http://www.kantei.go.jp/foreign/constitution_and_government_of_japan/constitution_e.html</a> translation of Japanese Constitution ]</li>
+<li>[ <a href="http://en.wikipedia.org/wiki/Constitution_of_Japan" class="uri">http://en.wikipedia.org/wiki/Constitution_of_Japan</a> Wikipedia reference ]</li>
+</ul>
+<h2 id="legal-advice">Legal Advice</h2>
+<p>edward: I can't vouch for any of the referenced sources.</p>
+<ul>
+<li>[ <a href="http://www.nichibenren.or.jp/en/legal/counceling.html" class="uri">http://www.nichibenren.or.jp/en/legal/counceling.html</a> ]</li>
+<li>[ <a href="http://www.consular.australia.or.jp/lawyerstokyo.html" class="uri">http://www.consular.australia.or.jp/lawyerstokyo.html</a> ]</li>
+</ul>
+<h2 id="arrest-in-japan">Arrest In Japan</h2>
+<blockquote>
+<p><strong>Article 34.</strong> No person shall be arrested or detained without being at once informed of the charges against him or without the immediate privilege of counsel; nor shall he be detained without adequate cause; and upon demand of any person such cause must be immediately shown in open court in his presence and the presence of his counsel.<br />
+<em>Translation of the Constitution of Japan</em></p>
+</blockquote>
+<ul>
+<li>[ <a href="http://www.nichibenren.or.jp/en/legal/arrest_01.html" class="uri">http://www.nichibenren.or.jp/en/legal/arrest_01.html</a> JFBA advice ]</li>
+<li>[ <a href="http://www.tlug.jp/ML/0610/msg00108.html" class="uri">http://www.tlug.jp/ML/0610/msg00108.html</a> US and British embassy advice ]</li>
+<li>[ <a href="http://www.nichibenren.or.jp/en/legal/arrest_contact_list.html" class="uri">http://www.nichibenren.or.jp/en/legal/arrest_contact_list.html</a> duty Attorney contact numbers ]</li>
+</ul>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>Nothing on this page constitutes legal advice. If you require legal advice seek a qualified lawyer.</p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

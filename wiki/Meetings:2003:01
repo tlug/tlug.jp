@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>
+      </div>
+
+      <div id="lang_options">
+        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+        <input type="hidden" name="cof" value="FORID:0" />
+        <input type="text" size="25" name="q" />
+        <input id="searchgo" type="submit" value="Go" />
+        </form>
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+      </div>
+    </div>
+
+    <div class="content">
+      <p>from <a href="http://lists.tlug.jp/ML/0301/msg00119.html">1</a></p>
+<ul>
+<li><a href="http://www.sajjadzaidi.com/tlugjan2003.html">pictures of meeting on Sajjad Zaidi's Blog</a></li>
+</ul>
+<p>All Linux lovers, and supporters of open source code and free software are invited to attend the next Tokyo Linux Users Group meeting. Membership is open to anyone. There are currently no membership dues or entrance fees.</p>
+<p><code> Date: Saturday, January 18th, 2003</code><br />
+<code> Place: Leading Edge Co., Ltd.</code><br />
+<code>   (This is our last meeting held at Leading Edge's hall. </code><br />
+<code>   We'd like to thank Leading Edge for hosting our meetings</code><br />
+<code>   regularly since 2001. For directions, please visit</code><br />
+<code>   </code><a href="http://www.leadinge.co.jp/access/body_e.html"><code>http://www.leadinge.co.jp/access/body_e.html</code></a><code>) </code><br />
+<code> Time: 13:30 (until around 17:00)</code></p>
+<h2 id="topics">Topics</h2>
+<h3 id="spam-prevention-attend-if-you-run-your-own-linux-mail-server">Spam Prevention: Attend if you run your own Linux mail server!</h3>
+<p>Jim Tittsler will speak briefly about some of the more recent spam detection/prevention/filtering techniques including SpamAssassin &lt;<a href="http://www.SpamAssassin.org/" class="uri">http://www.SpamAssassin.org/</a>&gt; and SpamBayes &lt;<a href="http://SpamBayes.SourceForge.net/" class="uri">http://SpamBayes.SourceForge.net/</a>&gt;.</p>
+<ul>
+<li><a href="http://www.onjapan.net/notes/spam/">presentation notes</a></li>
+</ul>
+<h2 id="election">Election</h2>
+<p>This year, we're looking to elect new president who can serve the wonderful Tokyo Linux user community for the year 2003.</p>
+<p>President's job includes organizing technical meetings, (i.e., finding a meeting hall and speakers) set the general direction for the group, boss around the other officers (just kidding!) and promote the use of linux through technical meetings and drinking parties.</p>
+<p>Currently, the key positions are held by members listed below:</p>
+<p><code> President (domainname caretaker): Ayako Kato</code><br />
+<code> Uvae Prez: Mauro Sauco</code><br />
+<code> Sysadmin: Sajjad Zaidi</code><br />
+<code> Listmaster: Josh Glover</code><br />
+<code> Webmaster: Yoshihiko Baba</code><br />
+<code> Auctioneer: Jim Tittsler</code><br />
+<code> Tresurer: Tim Meggs</code><br />
+<code> (ShadowPresident: Alberto Tomita)</code></p>
+<h2 id="project-at-osdl-japan">Project at OSDL Japan</h2>
+<p>OSDL (Open Source Development Lab) currently hosts TLUG's server free or charge in their Yokohama datacentre, on the condition that TLUG proposes a Linux-based project with them, for which they will provide development environment. This is a great way to contribute to the open source community.</p>
+<p>If you have any suggestions, please bring them here for us to discuss and participate in.</p>
+<p>For more information please visit <a href="http://www.osdl.jp/" class="uri">http://www.osdl.jp/</a></p>
+<h2 id="tlug-auction-and-misc-topics">TLUG auction and misc topics</h2>
+<p>(Please see Jim's posting - our auctions are great fun!)</p>
+<h2 id="after-the-meeting">After the meeting</h2>
+<p>We'll continue our meeting over some beer. (Place TBD)</p>
+<h2 id="contact">Contact</h2>
+<ul>
+<li>Mauro ......090-2492-0840 (Keitai)</li>
+<li>Kato ......070-5591-7003 (PHS)</li>
+</ul>
+<p><a href="Category:Meetings" title="wikilink">2003:01</a> <a href="Category:Meetings:2003" title="wikilink">01</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>
