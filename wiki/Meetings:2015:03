@@ -12,12 +12,12 @@
   <body>
     <div id="top">
       <div id="sponsor">
-        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
-        </p>
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
       </div>
 
       <div id="lang_options">
-        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
       </div>
 
       <div id="logo">
@@ -31,18 +31,105 @@
 
     <div id="menu">
       <div class="search">
+        <!-- <h2>Search</h2> -->
+
         <!-- Google CSE Search Box Begins -->
         <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
         <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
-        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
-        <input type="hidden" name="cof" value="FORID:0" />
-        <input type="text" size="25" name="q" />
-        <input id="searchgo" type="submit" value="Go" />
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
         </form>
+
         <!-- Google CSE Search Box Ends -->
       </div>
 
       <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
       </div>
     </div>
 
@@ -65,9 +152,9 @@ tel: 03-3492-2451<br />
 <p>[<a href="http://www.sonicweb-asp.jp/shinagawa/map?theme=th_15#pos=139.716619,35.6226453&amp;feature=19005" class="uri">http://www.sonicweb-asp.jp/shinagawa/map?theme=th_15#pos=139.716619,35.6226453&amp;feature=19005</a>::::10 (in Japanese)]</p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="an-exploration-of-recursive-descent-parsing-by-benjamin-kowarsch">An Exploration of Recursive Descent Parsing (by <a href="Benjamin_Kowarsch" title="wikilink">Benjamin Kowarsch</a>)</h6>
+<h6 id="an-exploration-of-recursive-descent-parsing-by-benjamin-kowarsch">An Exploration of Recursive Descent Parsing (by Benjamin Kowarsch)</h6>
 <p>This presentation will give a general overview of common parsing techniques and examine RD parsing in further detail. In particular it will show how to design, visualise and troubleshoot grammars suitable for RD parsing and how to transform such grammars into handwritten RD parsers. It will also give a brief overview how to use ANTLRworks for grammar evaluation and troubleshooting. Finally it will introduce an unnamed free open source script that generates publishing quality syntax diagrams.</p>
-<h6 id="x-com-and-its-open-source-remakes-by-andreas-kieckens">X-COM and its open source remakes (by <a href="Andreas_Kieckens" title="wikilink">Andreas Kieckens</a>)</h6>
+<h6 id="x-com-and-its-open-source-remakes-by-andreas-kieckens">X-COM and its open source remakes (by Andreas Kieckens)</h6>
 <p>X-COM is an old DOS game that combines world-wide strategy with small squad turn-based tactics. It is not *too* famous, but people who've played it (including the presenter) often praise it as one of the best games ever made. Over the years, a lot of game developers have attempted to recreate its magic. Several of these projects are open source and even more can run on Linux. This presentation will give an overview and show some of these games in action.</p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks somewhere around Gotanda Station.</p>
@@ -80,16 +167,16 @@ tel: 03-3492-2451<br />
 <h3 id="contact-info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
-<li><a href="Edward_Middleton" title="wikilink">Edward Middleton</a> : 090-3689-0292</li>
-<li><a href="Alberto_Tomita" title="wikilink">Alberto Tomita</a> : 080-3463-9256</li>
+<li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
+<li>Alberto Tomita : 080-3463-9256</li>
 </ul>
-<p><a href="Category:Meetings" title="wikilink">2015:03</a> <a href="Category:Meetings:2015" title="wikilink">03</a></p>
+<p>Category:Meetings Category:Meetings:2015</p>
     </div>
 
     <div id="footer">
       <div id="sponsor">
-        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
-        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
       </div>
 
       <div id="copyright">
@@ -97,7 +184,6 @@ tel: 03-3492-2451<br />
         Established June 16, 1994</p>
       </div>
     </div>
-
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

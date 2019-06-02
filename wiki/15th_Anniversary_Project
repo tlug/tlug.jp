@@ -12,12 +12,12 @@
   <body>
     <div id="top">
       <div id="sponsor">
-        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
-        </p>
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
       </div>
 
       <div id="lang_options">
-        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
       </div>
 
       <div id="logo">
@@ -31,18 +31,105 @@
 
     <div id="menu">
       <div class="search">
+        <!-- <h2>Search</h2> -->
+
         <!-- Google CSE Search Box Begins -->
         <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
         <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
-        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
-        <input type="hidden" name="cof" value="FORID:0" />
-        <input type="text" size="25" name="q" />
-        <input id="searchgo" type="submit" value="Go" />
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
         </form>
+
         <!-- Google CSE Search Box Ends -->
       </div>
 
       <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
       </div>
     </div>
 
@@ -50,31 +137,31 @@
       <h2 id="purpose">Purpose</h2>
 <p>This page is for coordinating projects to celebrate the 15th anniversary of the creation of TLUG.</p>
 <ul>
-<li><a href="http://lists.tlug.jp/MLadm/0902/msg00004.html">initial proposal</a> by <a href="Alberto_Tomita" title="wikilink">Alberto Tomita</a></li>
+<li><a href="http://lists.tlug.jp/MLadm/0902/msg00004.html">initial proposal</a> by Alberto Tomita</li>
 </ul>
 <h2 id="projects">Projects</h2>
 <h3 id="historical-timeline">Historical Timeline</h3>
 <p>List up past-officers in chronological order, along with other tid bits about where meetings have been held and special guest speakers/events over the years.</p>
 <ul>
-<li><a href="TLUG_Timeline" title="wikilink"> TLUG Timeline</a></li>
-<li><a href="Searching_Archives_with_Google" title="wikilink"> Methods for effectively searching TLUG mailing list archives with Google</a></li>
-<li><a href="http://lists.tlug.jp/ML/0401/msg00126.html">Post about first meeting</a> by <a href="/wiki/User:JimTittsler" title="wikilink"> Jim Tittsler</a></li>
+<li><a href="./TLUG_Timeline">TLUG Timeline</a></li>
+<li><a href="./Searching_Archives_with_Google">Methods for effectively searching TLUG mailing list archives with Google</a></li>
+<li><a href="http://lists.tlug.jp/ML/0401/msg00126.html">Post about first meeting</a> by <a href="./User:JimTittsler">Jim Tittsler</a></li>
 </ul>
 <h3 id="testimonial-videos">Testimonial Videos</h3>
 <p>A collection of testimonials from founding members, scanning pictures, and looking at video footage that may (or may not) be archived on hikari.</p>
 <ul>
-<li><a href="/wiki/User:Btm" title="wikilink"> Bruce McIntosh</a> has offered to take charge of this.</li>
-<li><a href="Meetings:1999:03" title="wikilink"> video of 1999 March nomikai</a></li>
+<li>User:Btm has offered to take charge of this.</li>
+<li><a href="./Meetings:1999:03">video of 1999 March nomikai</a></li>
 </ul>
 <h3 id="photo-album">Photo Album</h3>
 <p>Create a photo album giving the photo history of TLUG.</p>
-<p><em>A while back I linked the old meeting archives (most with some photos) <a href="Meetings:Archive" title="wikilink"> *here*</a> in to the wiki. So at least there are some pics, albeit very low res for the early digi cam pics.</em> - <a href="/wiki/User:Tim" title="wikilink"> Tim Meggs</a></p>
+<p><em>A while back I linked the old meeting archives (most with some photos) <a href="./Meetings:Archive">*here*</a> in to the wiki. So at least there are some pics, albeit very low res for the early digi cam pics.</em> - <a href="./User:Tim">Tim Meggs</a></p>
 <ul>
-<li><a href="Meetings:1995:07#Summary_of_events" title="wikilink"> 1995 23rd Jul meeting photos</a> taken by <a href="Steve_Myers" title="wikilink">Steve Myers</a></li>
+<li><a href="./Meetings:1995:07#Summary_of_events">1995 23rd Jul meeting photos</a> taken by Steve Myers</li>
 <li><a href="http://lists.tlug.jp/ML/9912/msg00265.html">1999 bonenkai photos</a></li>
-<li><a href="http://www.sajjadzaidi.com/tlugjan2003.html">2003 Jan meeting</a>] by <a href="Sajjad_Zaidi" title="wikilink">Sajjad Zaidi</a></li>
-<li><a href="http://www.flickr.com/photos/jimgris/collections/72157605163519045/">Recent TLUG photos</a> by <a href="/wiki/User:Jimgris" title="wikilink"> Jim Grisanzio</a></li>
-<li><a href="http://www.flickr.com/search/?q=tlug&amp;w=65393447%40N00">Recent TLUG photos</a> by <a href="/wiki/User:Zuco" title="wikilink">Pietro Zuco</a></li>
+<li><a href="http://www.sajjadzaidi.com/tlugjan2003.html">2003 Jan meeting</a>] by Sajjad Zaidi</li>
+<li><a href="http://www.flickr.com/photos/jimgris/collections/72157605163519045/">Recent TLUG photos</a> by <a href="./User:Jimgris">Jim Grisanzio</a></li>
+<li><a href="http://www.flickr.com/search/?q=tlug&amp;w=65393447%40N00">Recent TLUG photos</a> by <a href="./User:Zuco">Pietro Zuco</a></li>
 </ul>
 <h3 id="celebration-party">Celebration Party</h3>
 <ul>
@@ -93,8 +180,8 @@
 
     <div id="footer">
       <div id="sponsor">
-        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
-        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
       </div>
 
       <div id="copyright">
@@ -102,7 +189,6 @@
         Established June 16, 1994</p>
       </div>
     </div>
-
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

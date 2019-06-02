@@ -12,12 +12,12 @@
   <body>
     <div id="top">
       <div id="sponsor">
-        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
-        </p>
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
       </div>
 
       <div id="lang_options">
-        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
       </div>
 
       <div id="logo">
@@ -31,18 +31,105 @@
 
     <div id="menu">
       <div class="search">
+        <!-- <h2>Search</h2> -->
+
         <!-- Google CSE Search Box Begins -->
         <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
         <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
-        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
-        <input type="hidden" name="cof" value="FORID:0" />
-        <input type="text" size="25" name="q" />
-        <input id="searchgo" type="submit" value="Go" />
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
         </form>
+
         <!-- Google CSE Search Box Ends -->
       </div>
 
       <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
       </div>
     </div>
 
@@ -95,10 +182,10 @@
 <p>Comments or offers to help should be sent to the TLUG webmaster.</p>
 <h4 id="meetings">Meetings</h4>
 <p>TLUG techincal meetings are held on the second Saturday of every odd month. Demonstrations, talks, and equipment are made available for the membership.</p>
-<p>See the <a href="Current_Meeting" title="wikilink">meeting page</a> for details about upcoming meetings.</p>
+<p>See the <a href="./Current_Meeting">meeting page</a> for details about upcoming meetings.</p>
 <h4 id="parties">Parties</h4>
 <p>Parties are held on a week night of every even month. The social interaction, beer, and food is an excellent way to create a stronger Linux community spirit.</p>
-<p>See the <a href="Current_Meeting" title="wikilink">meeting page</a> for details about upcoming parties.</p>
+<p>See the <a href="./Current_Meeting">meeting page</a> for details about upcoming parties.</p>
 <h4 id="discounts">Discounts</h4>
 <p>TLUG is a member of GLUE and qualifies for discounts on SCC publications, including Linux Journal. WGS also offers TLUG members a discount.</p>
 <h4 id="prizes">Prizes</h4>
@@ -108,7 +195,7 @@
 <h2 id="size-of-group">Size of Group</h2>
 <p>The size of TLUG is calculated as the combined number of people on the TLUG mailing list and TLUG digest. There are over 240 people actively using the mailing list. The April 11th, 1998 meeting brought together over 65 Linux enthusiasts in Tokyo, including Tague Griffith of Netscape Communication's I18N division and Cliff Miller, the first President of TurboLinux.</p>
 <h2 id="structure-of-group">Structure of Group</h2>
-<p>TLUG is loosely structured. If you want to volunteer, don't be shy - we can use your help. A rough organization chart is available at <a href="/wiki/TLUG:Organization" class="uri" title="wikilink">TLUG:Organization</a></p>
+<p>TLUG is loosely structured. If you want to volunteer, don't be shy - we can use your help. A rough organization chart is available at <a href="./TLUG:Organization">TLUG:Organization</a></p>
 <h2 id="joining-tlug">Joining TLUG</h2>
 <p>If you join the mailing list, you're considered a member. There are no membership dues or fees. Anyone is free to show up for the meetings or parties and to leave at any time. We try to get a listing of attendees prior to the meeting date so we can make reservations, but if someone has free time at the last minute, feel free to drop by. Since the group tries to promote Linux use, it encourages everyone in Tokyo to drop by.</p>
 <p>Language hasn't been a problem. Japanese and English have been mixing smoothly. There are pockets of Spanish, Portuguese and Russian. Pictures of the members are available on the member pages, so you can look at the crowd before you venture to a meeting.</p>
@@ -199,8 +286,8 @@
 
     <div id="footer">
       <div id="sponsor">
-        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
-        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
       </div>
 
       <div id="copyright">
@@ -208,7 +295,6 @@
         Established June 16, 1994</p>
       </div>
     </div>
-
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

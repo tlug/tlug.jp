@@ -12,12 +12,12 @@
   <body>
     <div id="top">
       <div id="sponsor">
-        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
-        </p>
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
       </div>
 
       <div id="lang_options">
-        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
       </div>
 
       <div id="logo">
@@ -31,30 +31,117 @@
 
     <div id="menu">
       <div class="search">
+        <!-- <h2>Search</h2> -->
+
         <!-- Google CSE Search Box Begins -->
         <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
         <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
-        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
-        <input type="hidden" name="cof" value="FORID:0" />
-        <input type="text" size="25" name="q" />
-        <input id="searchgo" type="submit" value="Go" />
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
         </form>
+
         <!-- Google CSE Search Box Ends -->
       </div>
 
       <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
       </div>
     </div>
 
     <div class="content">
-      <p>Author: <a href="/wiki/User:Jmglov" title="wikilink">Josh Glover</a></p>
+      <p>Author: <a href="./User:Jmglov">Josh Glover</a></p>
 <h2 id="introduction">Introduction</h2>
 <p>I find it quite repulsive that the behaviour of the major music and movie corporations forces me to include this disclaimer, but here it is:</p>
 <p><font color="red"><em>This guide is provided for informational purposes only. I in no way advocate copyright infringement. The reader is hereby warned to use this guide in a manner consistent with all applicable copyright laws.</em></font></p>
 <p>This guide demonstrates how to back up single- and dual-layer DVD media onto single-layer recordable DVD media (DVD+R and DVD-R) on Unix-like operating systems (e.g. Linux). If you run Windows, there are many point-and-click tools that should get the job done.</p>
 <p>Note that MPEG video is a fairly complex beast, and thus there are many ways of skinning it. This guide shows you a way that works for the author. Other methods exist, using other tools. If you find a way that works better for you, great.</p>
 <h2 id="tools-of-the-trade">Tools of the Trade</h2>
-<p>You will need to download and install the following tools. For help on this, see the <a href="Linux_Help:QND-Guides:Finding_and_Installing_Software" class="uri" title="wikilink">Linux_Help:QND-Guides:Finding_and_Installing_Software</a> or your distribution's documentation.</p>
+<p>You will need to download and install the following tools. For help on this, see the <a href="./Linux_Help:QND-Guides:Finding_and_Installing_Software">Linux_Help:QND-Guides:Finding_and_Installing_Software</a> or your distribution's documentation.</p>
 <h3 id="single-layer-dvds">Single-layer DVDs</h3>
 <p>In order to back up single-layer DVDs, you will need the following tools:</p>
 <ul>
@@ -180,13 +267,13 @@ What we just did was asking Perl to handle some arithmetic for us:</p>
 </ol>
 <h2 id="conclusion">Conclusion</h2>
 <p>Following all of the steps in either one of these methods should result in a single-layer DVD that can play in any standard DVD player (provided that said DVD player can handle DVD+R or DVD-R media--depending on which you used--but that is a whole other can of worms).</p>
-<p><a href="Category:Linux_Help:QND-Guides" title="wikilink">DVD_Backup</a></p>
+<p>Category:Linux_Help:QND-Guides</p>
     </div>
 
     <div id="footer">
       <div id="sponsor">
-        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
-        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
       </div>
 
       <div id="copyright">
@@ -194,7 +281,6 @@ What we just did was asking Perl to handle some arithmetic for us:</p>
         Established June 16, 1994</p>
       </div>
     </div>
-
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

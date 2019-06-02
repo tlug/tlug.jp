@@ -12,12 +12,12 @@
   <body>
     <div id="top">
       <div id="sponsor">
-        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
-        </p>
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
       </div>
 
       <div id="lang_options">
-        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
       </div>
 
       <div id="logo">
@@ -31,18 +31,105 @@
 
     <div id="menu">
       <div class="search">
+        <!-- <h2>Search</h2> -->
+
         <!-- Google CSE Search Box Begins -->
         <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
         <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
-        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
-        <input type="hidden" name="cof" value="FORID:0" />
-        <input type="text" size="25" name="q" />
-        <input id="searchgo" type="submit" value="Go" />
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
         </form>
+
         <!-- Google CSE Search Box Ends -->
       </div>
 
       <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
       </div>
     </div>
 
@@ -56,7 +143,7 @@ SBS Tower, <b>27</b>th floor<br />
 東京都世田谷区用賀４−１０−１SBSタワー<br />
 Setagaya-ku Tokyo, Japan<br />
 <b>WARNING</b>: Do NOT follow the map on the Oracle/Sun website. Follow the links BELOW.<br />
-[ <a href="http://maps.google.co.jp/maps?f=d&amp;saddr=%E6%B8%8B%E8%B0%B7%E9%A7%85&amp;daddr=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E7%94%A8%E8%B3%804-10-1&amp;hl=ja&amp;geocode=683348815625358964,35.658517,139.701334%3B11376509672142226973,35.626641,139.632930&amp;mra=ls&amp;date=08%2F09%2F13&amp;time=13:50&amp;ttype=arr&amp;noexp=0&amp;noal=0&amp;sort=time&amp;sll=35.635507,139.663939&amp;sspn=0.095289,0.109692&amp;ie=UTF8&amp;z=13&amp;start=0">Train</a> ] [ <a href="Meetings:Locations:Yoga:Sun" title="wikilink">Directions (日本語/English/Photos)</a> ]</p>
+[ <a href="http://maps.google.co.jp/maps?f=d&amp;saddr=%E6%B8%8B%E8%B0%B7%E9%A7%85&amp;daddr=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E7%94%A8%E8%B3%804-10-1&amp;hl=ja&amp;geocode=683348815625358964,35.658517,139.701334%3B11376509672142226973,35.626641,139.632930&amp;mra=ls&amp;date=08%2F09%2F13&amp;time=13:50&amp;ttype=arr&amp;noexp=0&amp;noal=0&amp;sort=time&amp;sll=35.635507,139.663939&amp;sspn=0.095289,0.109692&amp;ie=UTF8&amp;z=13&amp;start=0">Train</a> ] [ <a href="./Meetings:Locations:Yoga:Sun">Directions (日本語/English/Photos)</a> ]</p>
 <h2 id="directions">Directions</h2>
 <ol>
 <li>Take the Tokyu-Denentoshi line (田園都市線) to Yoga (用賀). The Express train does not stop at Yoga. Use the local.</li>
@@ -79,46 +166,46 @@ Setagaya-ku Tokyo, Japan<br />
 <h2 id="photos">Photos</h2>
 <p>(See the image below) Oracle/Sun has a few floors in this building. This is the tallest building in Yoga. You can`t miss it.</p>
 <figure>
-<img src="sun-1.jpg" title="sun-1.jpg" alt="sun-1.jpg" /><figcaption>sun-1.jpg</figcaption>
+<img src="/images/sun-1.jpg" title="/images/sun-1.jpg" alt="/images/sun-1.jpg" /><figcaption>/images/sun-1.jpg</figcaption>
 </figure>
 <p>(See the image below) From the train, when you walk through the ticket gate, turn right toward the North Exit.</p>
 <figure>
-<img src="sun-2.jpg" title="sun-2.jpg" alt="sun-2.jpg" /><figcaption>sun-2.jpg</figcaption>
+<img src="/images/sun-2.jpg" title="/images/sun-2.jpg" alt="/images/sun-2.jpg" /><figcaption>/images/sun-2.jpg</figcaption>
 </figure>
 <p>(See the image below) After you turn right toward the North Exit, just walk straight.</p>
 <figure>
-<img src="sun-3.jpg" title="sun-3.jpg" alt="sun-3.jpg" /><figcaption>sun-3.jpg</figcaption>
+<img src="/images/sun-3.jpg" title="/images/sun-3.jpg" alt="/images/sun-3.jpg" /><figcaption>/images/sun-3.jpg</figcaption>
 </figure>
 <p>(See the image below) Keep walking straight out of the station and straight into the Setagaya Business Square (SBS) building. Note that the Sun Microsystems logo in the left corner of the image below no longer exists.</p>
 <figure>
-<img src="sun-4.jpg" title="sun-4.jpg" alt="sun-4.jpg" /><figcaption>sun-4.jpg</figcaption>
+<img src="/images/sun-4.jpg" title="/images/sun-4.jpg" alt="/images/sun-4.jpg" /><figcaption>/images/sun-4.jpg</figcaption>
 </figure>
 <p>(See the image below) Keep walking straight until you see the Saint-Germain Bakery.</p>
 <figure>
-<img src="sun-5.jpg" title="sun-5.jpg" alt="sun-5.jpg" /><figcaption>sun-5.jpg</figcaption>
+<img src="/images/sun-5.jpg" title="/images/sun-5.jpg" alt="/images/sun-5.jpg" /><figcaption>/images/sun-5.jpg</figcaption>
 </figure>
 <p>(See the image below) When you get to the Saint-Germain Bakery, turn left and walk toward the escalators.</p>
 <figure>
-<img src="sun-6.jpg" title="sun-6.jpg" alt="sun-6.jpg" /><figcaption>sun-6.jpg</figcaption>
+<img src="/images/sun-6.jpg" title="/images/sun-6.jpg" alt="/images/sun-6.jpg" /><figcaption>/images/sun-6.jpg</figcaption>
 </figure>
 <p>(See the image below) When you get to the escalators, keep walking straight and look for the elevators directly in back of the escalators. Go to the 27th floor.</p>
 <figure>
-<img src="sun-7.jpg" title="sun-7.jpg" alt="sun-7.jpg" /><figcaption>sun-7.jpg</figcaption>
+<img src="/images/sun-7.jpg" title="/images/sun-7.jpg" alt="/images/sun-7.jpg" /><figcaption>/images/sun-7.jpg</figcaption>
 </figure>
 <p>(See the image below) This is the view from the street looking down into Yoga Station.</p>
 <figure>
-<img src="sun-8.jpg" title="sun-8.jpg" alt="sun-8.jpg" /><figcaption>sun-8.jpg</figcaption>
+<img src="/images/sun-8.jpg" title="/images/sun-8.jpg" alt="/images/sun-8.jpg" /><figcaption>/images/sun-8.jpg</figcaption>
 </figure>
 <p>(See the image below) This is the view from the street level (first floor) escalators in the main lobby. Elevators are right behind the escalators. Go to the 27th floor.</p>
 <figure>
-<img src="sun-9.jpg" title="sun-9.jpg" alt="sun-9.jpg" /><figcaption>sun-9.jpg</figcaption>
+<img src="/images/sun-9.jpg" title="/images/sun-9.jpg" alt="/images/sun-9.jpg" /><figcaption>/images/sun-9.jpg</figcaption>
 </figure>
     </div>
 
     <div id="footer">
       <div id="sponsor">
-        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
-        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
       </div>
 
       <div id="copyright">
@@ -126,7 +213,6 @@ Setagaya-ku Tokyo, Japan<br />
         Established June 16, 1994</p>
       </div>
     </div>
-
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

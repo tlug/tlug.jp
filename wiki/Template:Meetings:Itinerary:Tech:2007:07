@@ -12,12 +12,12 @@
   <body>
     <div id="top">
       <div id="sponsor">
-        <p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
-        </p>
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
       </div>
 
       <div id="lang_options">
-        <p>| English | <a href="/index.html.ja">日本語</a> |</p>
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
       </div>
 
       <div id="logo">
@@ -31,51 +31,138 @@
 
     <div id="menu">
       <div class="search">
+        <!-- <h2>Search</h2> -->
+
         <!-- Google CSE Search Box Begins -->
         <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
         <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
-        <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
-        <input type="hidden" name="cof" value="FORID:0" />
-        <input type="text" size="25" name="q" />
-        <input id="searchgo" type="submit" value="Go" />
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
         </form>
+
         <!-- Google CSE Search Box Ends -->
       </div>
 
       <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
       </div>
     </div>
 
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="all-the-world-is-a-filesystem-what-fuse-is-and-why-you-care-by-josh-glover">“All the World is a Filesystem: What FUSE is and Why You Care” by <a href="Josh_Glover" title="wikilink">Josh Glover</a></h5>
+<h5 id="all-the-world-is-a-filesystem-what-fuse-is-and-why-you-care-by-josh-glover">“All the World is a Filesystem: What FUSE is and Why You Care” by Josh Glover</h5>
 <p>Josh explained FUSE (Filesystem in UserSpacE), introduced a few neat filesystems built on top of FUSE, and mentioned his s3fs-jmglov. A future Lightning talk will be used to present s3fs-jmglov once the code advances beyond Proof-Of-Concept stage.</p>
 <h4 id="lightning-talks">Lightning Talks</h4>
 <p>''From <a href="http://en.wikipedia.org/wiki/Lightning_Talk">Lightning_Talk (Wikipedia)</a> ''</p>
 <blockquote>
 <p>A Lightning Talk is a short presentation given at a conference or similar forum. Unlike other presentations, lightning talks last only a few minutes and several will usually be delivered in a single period by different speakers.</p>
 </blockquote>
-<h5 id="opensolaris-an-update-on-happenings-in-japan-and-around-the-world-by-jim-grisanzio-sr.-program-manager-opensolaris-engineering">“OpenSolaris: an update on happenings in Japan and around the world”, by <a href="Jim_Grisanzio" title="wikilink">Jim Grisanzio</a>, Sr. Program Manager, OpenSolaris Engineering</h5>
+<h5 id="opensolaris-an-update-on-happenings-in-japan-and-around-the-world-by-jim-grisanzio-sr.-program-manager-opensolaris-engineering">“OpenSolaris: an update on happenings in Japan and around the world”, by <a href="./Jim_Grisanzio">Jim Grisanzio</a>, Sr. Program Manager, OpenSolaris Engineering</h5>
 <p>Jim had OpenSolaris DVDs for all; if you could not make the meeting but want to try out OpenSolaris, you can download CD or DVD images or the OpenSolaris Starter Kit, or request a Starter Kit be mailed to you, free of charge!</p>
-<h5 id="time-tracking-thats-not-evil-by-emerson-mills">“Time Tracking that's not Evil” by <a href="Emerson_Mills" title="wikilink">Emerson Mills</a></h5>
-<h5 id="partitioning-with-lvm2-by-edward-middleton">“Partitioning with LVM2” by <a href="/wiki/User:edward" title="wikilink"> Edward Middleton</a></h5>
+<h5 id="time-tracking-thats-not-evil-by-emerson-mills">“Time Tracking that's not Evil” by Emerson Mills</h5>
+<h5 id="partitioning-with-lvm2-by-edward-middleton">“Partitioning with LVM2” by <a href="./User:Edward">Edward Middleton</a></h5>
 <h4 id="demos">Demos</h4>
 <p>Questions, trouble-shooting, and smaller demonstrations. If you need some help or have something to show off, please bring your notebook.</p>
-<h5 id="xemacs-by-stephen-j.-turnbull-xemacs-project-release-manager">“XEmacs” by <a href="Stephen_J._Turnbull" title="wikilink">Stephen J. Turnbull</a>, XEmacs Project Release Manager</h5>
+<h5 id="xemacs-by-stephen-j.-turnbull-xemacs-project-release-manager">“XEmacs” by Stephen J. Turnbull, XEmacs Project Release Manager</h5>
 <p>Stephen showed</p>
 <h3 id="other-items-on-the-agenda">Other Items on the Agenda</h3>
 <ol>
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><a href="Category:Template:Meetings" title="wikilink">Itinerary</a> <a href="Category:Template" title="wikilink">Meetings:Itinerary</a></p>
+<p>Category:Template:Meetings Category:Template</p>
     </div>
 
     <div id="footer">
       <div id="sponsor">
-        <p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
-        <p><a href="http://tlug.jp/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
       </div>
 
       <div id="copyright">
@@ -83,7 +170,6 @@
         Established June 16, 1994</p>
       </div>
     </div>
-
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
