@@ -23,7 +23,8 @@ executable site-compiler
     import:             deps
     main-is:            SiteCompiler.hs
     hs-source-dirs:     src/, app/
-    other-modules:      TLUG.MediaWiki
+    other-modules:      TLUG.Parser
+                      , TLUG.MediaWiki
 
 test-suite test
     import:             deps
@@ -31,5 +32,5 @@ test-suite test
     main-is:            ../app/Test.hs
     build-depends:      HTF
     hs-source-dirs:     src/
-    other-modules:      TLUG.Hello, TLUG.HelloTest
+    other-modules:      TLUG.Parser
                       , TLUG.MediaWiki, TLUG.MediaWikiTest
