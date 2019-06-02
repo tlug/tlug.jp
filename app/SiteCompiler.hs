@@ -19,6 +19,11 @@ main = hakyll $ do
     match "template/*" $ do
         compile templateCompiler
 
+    match "docroot/*.html" $ do
+        route   dropInitialComponent
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "template/main.html" defaultContext
+
     -- All our "just serve these files" content.
     -- Much may be stuff we should build from nicer source, but don't.
     match "docroot/**" $ do
@@ -110,7 +115,7 @@ mediawikiCompiler =
                 pandoc <- read defaultHakyllReaderOptions tcitem
                 let pdoc = writePandoc pandoc
                 fixurl <- fixMediawikiUrls pdoc
-                tmpl <- loadAndApplyTemplate "template/wiki.html" defaultContext fixurl
+                tmpl <- loadAndApplyTemplate "template/main.html" defaultContext fixurl
                 return tmpl
     where
         ropt = defaultHakyllReaderOptions
