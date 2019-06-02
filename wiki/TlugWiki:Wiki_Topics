@@ -13,7 +13,7 @@
 ** [[User:edward|Edward]] answer: wouldn't this stuff be better on the main page that way we could solve the rss issues as well.
 * RSS
 ** What type of RSS?
-** Look at the top of [http://tlug.jp/wiki/index.php/Special:Recentchanges Recent Changes]. It has Atom and RSS already
+** Look at the top of [[Special:Recentchanges]]. It has Atom and RSS already
 *** [[User:Zev|zev]]: Yes, but if we were to make a meetings page that lists the meetings then we could do an RSS feed by adding these parameters to the URL "action=histroy&feed=rss", but I that would just be the edits of that page.  I would like to have the actuall details of each meeting be a unique entry in the feed.  A very shallow look on the MediaWiki help pages seems to point to Wikipedia scraping the pages and then making an external feed for that...
 
 == Completed Topics ==

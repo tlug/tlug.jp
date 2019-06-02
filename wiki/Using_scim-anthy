@@ -120,7 +120,7 @@ Many distributions include Japanese fonts by default.  However, if they don't, y
 At different times, I've had different results.  For instance, CentOS offered ttfonts-ja, Fedora offered something like fonts-japanese.noarch.  Regardless, the search for fonts-ja usually gave me results.  In ArchLinux one adds ttf-arphic-uming and ttf-arphic-ukai with pacman.  
 
 One can always donwnload the substitute kochi fonts from                                                                                                                                                                                
-[[http://download.sourceforge.jp/efont/5411/ sourceforge.jp]].  Get the package kochi-substitute-20030809.tar.bz2.  Decompress and untar it, and it will create a kochi-substitute-20030809 directory.  In the directory you'll see two files with a ttf ending, the kochi-gothic and kochi-mincho substitute fonts.  Move them into one of the directories that your distribution searches for fonts--as mentioned above, you can grep FontPath in /etc/X11/xorg.conf.  
+[http://download.sourceforge.jp/efont/5411/ sourceforge.jp].  Get the package kochi-substitute-20030809.tar.bz2.  Decompress and untar it, and it will create a kochi-substitute-20030809 directory.  In the directory you'll see two files with a ttf ending, the kochi-gothic and kochi-mincho substitute fonts.  Move them into one of the directories that your distribution searches for fonts--as mentioned above, you can grep FontPath in /etc/X11/xorg.conf.  
 
 For the beginner, you decompress and untar it with
 

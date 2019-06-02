@@ -81,7 +81,9 @@ parseFile str =
 
 -- | Parse a wiki markup file
 parseFile' :: [Param] -> Bool -> FilePath -> IO ProcPage
-parseFile' par top file = parsePage <$> readFile file >>= doTransclude par top
+parseFile' par top file =
+    if file == "" then return $ ProcPage "" Nothing
+    else parsePage <$> readFile file >>= doTransclude par top
 
 -- | Replace Transclude chunks with their actual parse tree by reading
 -- | and parsing the transclude file
@@ -120,9 +122,11 @@ replaceParam params name =
 -- | Generate filename from a Transclude pageName
 transFileName :: String -> FilePath
 transFileName pageName =
-    "wiki/" ++
-    (if "Template:" `isPrefixOf` pageName then "" else "Template:") ++
-    map (\a -> if a == ' ' then '_' else a) pageName
+    -- not sure what this does, maybe looks up a caption?
+    if "Image:" `isPrefixOf` pageName then ""
+    else "wiki/" ++
+         (if "Template:" `isPrefixOf` pageName then "" else "Template:") ++
+         map (\a -> if a == ' ' then '_' else a) pageName
 
 -- | Run the wiki markup parser on a string
 parsePage :: String -> Page

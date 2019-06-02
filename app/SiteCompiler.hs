@@ -8,6 +8,7 @@ import           Text.Pandoc (Pandoc, ReaderOptions, runPure, readMediaWiki)
 import           Data.List (isPrefixOf)
 import           Data.Text as DT (pack)
 import           Data.Maybe;
+import           Debug.Trace;
 import           TLUG.MediaWiki
 import           TLUG.WikiLink
 
@@ -105,6 +106,7 @@ dropInitialComponent = dropInitialComponents 1
 mediawikiCompiler :: Compiler (Item String)
 mediawikiCompiler =
      do markup <- getResourceBody
+        -- fpath <- getResourceFilePath; traceM fpath
         let parse = parseFile (itemBody markup)
         tcmarkup <- unsafeCompiler $ body <$> parse
         tcredir <- unsafeCompiler $ redirect <$> parse
