@@ -9,6 +9,7 @@ import           Data.List (isPrefixOf)
 import           Data.Text as DT (pack)
 import           Data.Maybe;
 import           TLUG.MediaWiki
+import           TLUG.WikiLink
 
 --------------------------------------------------------------------------------
 
@@ -154,15 +155,10 @@ fixMediawikiUrls :: Item String -> Compiler (Item String)
 fixMediawikiUrls item = do
     return $ fmap (withUrls fixLink) item
     where
-        namespaces =
-            [ ":", "Special:", "User:"              -- MediaWiki standard
-            , "TLUG:", "TlugWiki:", "TlugAdmin:"    -- Custom to TLUG
-            ]
-        fixLink url | isNamespaced url namespaces = "/wiki/" ++ url
-                    | otherwise                   =             url
-        isNamespaced s [] = False
-        isNamespaced s (p:ps) | p `isPrefixOf` s = True
-                              | otherwise        = isNamespaced s ps
+        fixLink url =
+            if urlSchemeHack `isPrefixOf` url then
+                drop (length urlSchemeHack) url
+            else url
 
 --------------------------------------------------------------------------------
 -- Also sample blog site code

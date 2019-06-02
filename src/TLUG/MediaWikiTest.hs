@@ -108,8 +108,8 @@ test_file = do
 \For directions or information before the meeting, call:\n\
 \* Justin: 050-5806-9898\n\
 \\n\
-\[[Category:Meetings|2019:02]]\n\
-\[[Category:Meetings:2019|02]]\n\
+\Category:Meetings\n\
+\Category:Meetings:2019\n\
 \\n\
 \\n"
                  Nothing)

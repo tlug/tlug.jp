@@ -50,6 +50,7 @@ import Data.List;
 import Data.Maybe;
 import Text.Read;
 import TLUG.Parser;
+import TLUG.WikiLink;
 
 ----------------------------------------------------------------------
 --  Parser for transcludes and other text from MediaWiki markup.
@@ -74,7 +75,9 @@ data ProcPage = ProcPage {
 
 -- | Process a top-level wiki markup file
 parseFile :: String -> IO ProcPage
-parseFile str = doTransclude [] True $ parsePage str
+parseFile str =
+    (doTransclude [] True $ parsePage str) >>= fixlinks
+    where fixlinks pp = (\x -> ProcPage x (redirect pp)) <$> fixWikiLinks (body pp)
 
 -- | Parse a wiki markup file
 parseFile' :: [Param] -> Bool -> FilePath -> IO ProcPage

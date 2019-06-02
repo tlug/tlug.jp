@@ -64,7 +64,7 @@ instance Monad Parser where
 runParser :: Parser a -> String -> a
 runParser (Parser f) s =
     case f (ParserState s) of
-        Nothing                  -> error "Parse failed"
+        Nothing                  -> error $ "Parse failed: " ++ s
         Just (x, ParserState "") -> x
         Just (x, ParserState s)  -> error $ "Incomplete parse: " ++ s
 

@@ -17,7 +17,7 @@ common deps
     ghc-options:        -threaded -Werror -fwarn-incomplete-patterns
     build-depends:      base >= 4.7 && < 5,
                         hakyll,
-                        filepath, text, pandoc
+                        filepath, directory, text, pandoc
 
 executable site-compiler
     import:             deps
@@ -25,6 +25,7 @@ executable site-compiler
     hs-source-dirs:     src/, app/
     other-modules:      TLUG.Parser
                       , TLUG.MediaWiki
+                      , TLUG.WikiLink
 
 test-suite test
     import:             deps
@@ -33,4 +34,5 @@ test-suite test
     build-depends:      HTF
     hs-source-dirs:     src/
     other-modules:      TLUG.Parser
+                      , TLUG.WikiLink
                       , TLUG.MediaWiki, TLUG.MediaWikiTest
