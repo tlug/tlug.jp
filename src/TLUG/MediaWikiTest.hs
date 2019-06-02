@@ -48,7 +48,7 @@ test_parse = do
         $ parsePage  $ "begin{{trans|value1||name2=value2}}"
                     ++ "<noinclude>{{t2}}end</noinclude>"
     assertEqual
-        [Parameter "p", Markup "{{{{}}}}{}"]
+        [Markup "{{{p}}}{{{{}}}}{}"]
         $ parsePage "{{{p}}}{{{{}}}}{}"
 
     assertEqual
@@ -63,6 +63,11 @@ test_file = do
     output <- parseFile "{{ML2|0803/msg00500.html|Dave Brown}}"
     assertEqual
         (ProcPage "[http://lists.tlug.jp/ML/0803/msg00500.html --Dave Brown]\n" Nothing)
+        $ output
+
+    output <- parseFile "{{Template:Meetings:Itinerary:Tech:2005|presentations=ThePres}}"
+    assertEqual
+        (ProcPage "=== Itinerary ===\n\n\n==== Presentations ====\nThePres\n\n\n=== Other Items on the Agenda ===\n# Introduction of new members, news about Linux/Open Source, general announcements, Q&A\n# Auction (bring any gear that would would like to donate to TLUG)\n\n\n" Nothing)
         $ output
 
     output <- readFile "wiki/Meetings:2019:02" >>= parseFile

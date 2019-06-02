@@ -8,6 +8,7 @@ module TLUG.Parser
     , runParser
     , char
     , string
+    , space
     , anyExcept
     , noMatch
     ) where
@@ -105,3 +106,10 @@ string t = Parser $ \state ->
     case stripPrefix t (remaining state) of
         Just xs -> Just (t, ParserState xs)
         Nothing -> Nothing
+
+space :: Parser Char
+space = Parser $ \state ->
+    let s = remaining state in
+        if s == "" then Nothing
+        else let (c:cs) = s in
+            if isSpace c then Just (c, ParserState cs) else Nothing

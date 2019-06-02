@@ -26,6 +26,7 @@ executable site-compiler
     other-modules:      TLUG.Parser
                       , TLUG.MediaWiki
                       , TLUG.WikiLink
+                      , TLUG.WikiParam
 
 test-suite test
     import:             deps
@@ -35,4 +36,5 @@ test-suite test
     hs-source-dirs:     src/
     other-modules:      TLUG.Parser
                       , TLUG.WikiLink
+                      , TLUG.WikiParam
                       , TLUG.MediaWiki, TLUG.MediaWikiTest

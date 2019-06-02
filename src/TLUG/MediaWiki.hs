@@ -49,8 +49,10 @@ import Control.Applicative;
 import Data.List;
 import Data.Maybe;
 import Text.Read;
+import Debug.Trace;
 import TLUG.Parser;
 import TLUG.WikiLink;
+import TLUG.WikiParam;
 
 ----------------------------------------------------------------------
 --  Parser for transcludes and other text from MediaWiki markup.
@@ -62,7 +64,6 @@ data Chunk
     = Markup String
     | Transclude { pageName :: String, params :: [Param] }
     | NoInclude Page
-    | Parameter String
     | Redirect String
     deriving (Show, Eq)
 type Page = [Chunk]
@@ -83,7 +84,7 @@ parseFile str =
 parseFile' :: [Param] -> Bool -> FilePath -> IO ProcPage
 parseFile' par top file =
     if file == "" then return $ ProcPage "" Nothing
-    else parsePage <$> readFile file >>= doTransclude par top
+    else parsePage <$> replaceWikiParams par <$> readFile ({-trace ("ReadFile: " ++ show file ++ ", " ++ show par)-} file) >>= doTransclude par top
 
 -- | Replace Transclude chunks with their actual parse tree by reading
 -- | and parsing the transclude file
@@ -92,7 +93,6 @@ doTransclude par True (NoInclude page:xs) = concatPP <$> (doTransclude par True 
 doTransclude par False (NoInclude _:xs) = doTransclude par False xs
 doTransclude par top (Transclude{..}:xs) = concatPP <$> (parseFile' params False $ transFileName pageName) <*> (doTransclude par top xs)
 doTransclude par top (Markup x:xs) = strPP x <$> doTransclude par top xs
-doTransclude par top (Parameter x:xs) = strPP (replaceParam par x) <$> doTransclude par top xs
 doTransclude par top (Redirect x:xs) = (\a -> a { redirect = Just x }) <$> doTransclude par top xs
 doTransclude par top [] = return $ ProcPage "" Nothing
 
@@ -101,23 +101,6 @@ strPP a b = b { body = a ++ body b }
 
 concatPP :: ProcPage -> ProcPage -> ProcPage
 concatPP a = strPP $ body a
-
--- | Replace positional/named parameter references in a transcluded
--- | file (e.g. {{{param}}}) with the passed-in values.
-replaceParam :: [Param] -> String -> String
-replaceParam params name =
-    let namepar = find (\(pn,pv) -> pn == Just name) params
-        pospar = getParamIndex params (readMaybe name :: Maybe Int)
-        par = if isJust namepar then namepar else pospar
-    in
-        case par of
-            Just (_,np) -> np
-            Nothing -> "<nowiki>{{{" ++ name ++ "}}}</nowiki>"
-    where
-        getParamIndex params pos = case pos of
-            Nothing -> Nothing
-            Just pos -> if (pos < 1) || (pos > length params) then Nothing
-                        else Just $ params !! (pos - 1)
 
 -- | Generate filename from a Transclude pageName
 transFileName :: String -> FilePath
@@ -138,13 +121,13 @@ page = many chunk
 
 -- | Parse a single chunk
 chunk :: Parser Chunk
-chunk = markup <|> transclude <|> parameter <|> noInclude <|> redir
+chunk = markup <|> transclude <|> noInclude <|> redir
 
 -- | Parse a chunk of non-transclude markup
 markup :: Parser Chunk
 markup = Markup <$>
     concat <$> some ((++) <$>
-                        numBraces (\a -> (a /= 2) && (a /= 3)) <*
+                        numBraces (/= 2) <*
                         noMatch [noincludeBeg, noincludeEnd, redirTag] <*>
                         ((:[]) <$> char)
                     )
@@ -153,19 +136,14 @@ markup = Markup <$>
 transclude :: Parser Chunk
 transclude = Transclude <$
     numBraces (== 2) <*>
-    some (anyExcept [transEnd, "|"]) <*>
+    some (anyExcept [transEnd, "|", "\n"]) <*
+    many (anyExcept [transEnd, "|"]) <*>
     many param <*
     string transEnd
     where
         param = (,) <$ string "|" <*> optional (id <* string "=") <*> id
-        id = many (anyExcept [transEnd, "|", "="])
+        id = (many space) *> many (anyExcept [transEnd, "|", "="])
         transEnd = "}}"
-
-parameter = Parameter <$
-    numBraces (== 3) <*>
-    some (anyExcept [paramEnd]) <*
-    string paramEnd
-    where paramEnd = "}}}"
 
 noInclude :: Parser Chunk
 noInclude = NoInclude <$ string noincludeBeg <*> page <* string noincludeEnd
