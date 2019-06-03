@@ -20,7 +20,7 @@ data Chunk
     = Markup String
     | WikiLink { ref :: String, anc :: String, text :: String }
     | Anchor String
-    | Image String
+    | Image { ref :: String, args :: String }
     deriving (Show, Eq)
 type Page = [Chunk]
 
@@ -28,26 +28,39 @@ type Page = [Chunk]
 fixWikiLinks :: String -> IO String
 fixWikiLinks s = do
     files <- listDirectory "wiki"
-    fixLinks files $ runParser page s
+    images <- listDirectory "docroot/images"
+    fixLinks files images $ runParser page s
 
-fixLinks :: [FilePath] -> Page -> IO String
-fixLinks files (x:xs) = do
+fixLinks :: [FilePath] -> [FilePath] -> Page -> IO String
+fixLinks files images (x:xs) = do
     str <- case x of
                WikiLink ref anc text -> cleanupWikiLink files ref anc text
                Anchor s -> return s
-               Image s -> return $ "[[Image:/images/" ++ s ++ "]]"
+               Image ref arg -> cleanupImageLink images ref arg
                Markup s -> return s
-    rem <- fixLinks files xs
+    rem <- fixLinks files images xs
     return $ str ++ rem
-fixLinks files [] = return ""
+fixLinks files images [] = return ""
 
 -- | Clean up a normal wiki link
 cleanupWikiLink :: [FilePath] -> String -> String -> String -> IO String
 cleanupWikiLink files ref anc text = do
     let file = getWikiFile files (replChars $ delEndSpace $ ref)
     return $ if file == ""
-        then {-trace ("BADLINK: "++ ref)-} ref
+        then {-trace ("BADLINK: "++ ref)-} "<font color=#CC2200>" ++
+        (if text == "" then ref else text)
+        ++ "</font>"
         else wikiLink2Link (file ++ anc) ref text
+    where
+        delEndSpace = dropWhileEnd isSpace
+
+-- | Clean up an image link
+cleanupImageLink :: [FilePath] -> String -> String -> IO String
+cleanupImageLink files ref arg = do
+    let file = getWikiFile files (replChars $ delEndSpace $ ref)
+    return $ if file == ""
+        then {-trace ("BADIMG: "++ ref)-} "<font color=#CC2200>" ++ ref ++ "</font>"
+        else "[[Image:/images/" ++ file ++ arg ++ "]]"
     where
         delEndSpace = dropWhileEnd isSpace
 
@@ -129,5 +142,10 @@ anchor = Anchor <$> string (wikilinkBeg ++ "#")
 image :: Parser Chunk
 image = Image <$
     string (wikilinkBeg ++ "Image:") <*>
-    some (anyExcept ["]"]) <*
+    some (anyExcept ["]", "|"]) <*>
+    args <*
     string "]]"
+    where
+        argstr s = if isJust s then fromJust s else ""
+        args = argstr <$>
+            optional ((++) <$> string "|" <*> (some $ anyExcept ["]"]))
