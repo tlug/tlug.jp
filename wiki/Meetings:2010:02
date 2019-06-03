@@ -155,7 +155,7 @@ Hibiya Central Bldg B1<br />
 <h3 id="contact-info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
 <h2 id="technical-meeting">Technical Meeting</h2>
 <h3 id="introduction">Introduction</h3>
@@ -176,13 +176,13 @@ Shibuya-ku Tokyo<br />
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
 <h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
-<p><strong>“Nmap: The Network Mapper”</strong> By <em>Matthew (Karamoon)</em></p>
+<p><strong>“Nmap: The Network Mapper”</strong> By <em><font color="#CC2200">Matthew (Karamoon)</font></em></p>
 <p>Fyodor's Nmap port scanner is an essential open-source tool for sysadmins, penetration testers and curious people. It is also one of the few pieces of software to have achieved cult status, being featured in movies as bad as The Matrix Reloaded and Die Hard 4.</p>
 <p>This talk will begin with a brief overview of port scanning for those unfamiliar with the topic. The main uses of Nmap will then be discussed, as well as different types of scans, scan optimization, OS detection and defense against port scanning.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
 <h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
-<p><strong>“OpenSolaris Bible Translation Project for Japanese”</strong> by <em>Michael Sullivan</em></p>
+<p><strong>“OpenSolaris Bible Translation Project for Japanese”</strong> by <em><font color="#CC2200">Michael Sullivan</font></em></p>
 <p>Michael Sullivan will talk about OpenSolaris Bible Translation Project for Japanese, and the class they will be running as part of this effort.</p>
 <h5 id="other-items-on-the-agenda-are">Other items on the agenda are:</h5>
 <ol>
@@ -195,7 +195,7 @@ Shibuya-ku Tokyo<br />
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2010</p>
+<p><font color="#CC2200">2010:02</font> <font color="#CC2200">02</font></p>
     </div>
 
     <div id="footer">

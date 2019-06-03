@@ -136,7 +136,7 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="running-android-on-the-beagle-bone-black-bbb-by-nikolay-elenkov">Running Android on the Beagle Bone Black (BBB) (by Nikolay Elenkov)</h6>
+<h6 id="running-android-on-the-beagle-bone-black-bbb-by-nikolay-elenkov">Running Android on the Beagle Bone Black (BBB) (by <font color="#CC2200">Nikolay Elenkov</font>)</h6>
 <p>This talk will introduce the BBB development board and</p>
 <p>describe some of the steps required to run Android 4.2 using</p>
 <p>the 3.8 kernel on it. It will then briefly introduce what</p>

@@ -134,8 +134,8 @@
     </div>
 
     <div class="content">
-      <h2 id="meeting-year---month">Meeting / {{{year}}} - {{{month}}}</h2>
-<p>Category:Template:Meetings Category:Template</p>
+      <h2 id="meeting--">Meeting /  - </h2>
+<p><font color="#CC2200">Title</font> <font color="#CC2200">Meetings:Title</font></p>
     </div>
 
     <div id="footer">

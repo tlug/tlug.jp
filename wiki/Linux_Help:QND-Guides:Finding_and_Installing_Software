@@ -135,7 +135,7 @@
 
     <div class="content">
       <h2 id="introduction">Introduction</h2>
-<p>As you will have noted from our Category:Linux_Help:QND-Guides, they start with asking if you have the particular program, and have you start by typing which <program_name></p>
+<p>As you will have noted from our <font color="#CC2200">other QND Guides</font>, they start with asking if you have the particular program, and have you start by typing which <program_name></p>
 <p>As each distribution has its own way of installing software, this guide is intended as a pointer to installing software in the distributions with which we are familiar.</p>
 <h2 id="distributions">Distributions</h2>
 <h3 id="red-hat-linux">Red Hat Linux</h3>
@@ -201,7 +201,7 @@
 <p><code>which fetchmail</code></p>
 <p>If Step 1 still fails, then something subtle is probably wrong. Try emailing your local Linux Users Group or other Linux mailing list to which you subscribe. One good one for beginners is the linux@yahoogroups.com list. (We know that you are member of one or the other) something like “I am trying to install fetchmail on (your distribution, version included). I am using the following method (include the commands that you ran to install it). However, I run 'which fetchmail' and it isn't found. Does anyone have any idea what I'm doing wrong? Thanks in advance.”</p>
 <p>Now that you're done with this, you can go back to the QND guide that you were reading and continue with what is usually step 3.</p>
-<p>Category:Linux_Help:QND-Guides</p>
+<p><font color="#CC2200">Installing_Software</font></p>
     </div>
 
     <div id="footer">

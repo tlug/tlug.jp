@@ -138,11 +138,11 @@
 <h2 id="tlug-related">TLUG Related</h2>
 <ul>
 <li><a href="./Current_Meeting">Next meeting</a></li>
-<li>Category:Meetings</li>
+<li><font color="#CC2200">Past Meetings</font></li>
 <li><a href="./TLUG_Timeline">TLUG_Timeline</a></li>
 <li><a href="./15th_Anniversary_Project">15th Anniversary Project</a></li>
 <li><a href="./TLUG.sig">TLUG.sig</a> amusing quotes from our members</li>
-<li>NPO_Howto
+<li><font color="#CC2200">NPO_Howto</font>
 <ul>
 <li>How TLUG became a NPO</li>
 <li>Steps for an organization to model and try on their own</li>
@@ -159,17 +159,17 @@
 <li>More general Linux help information</li>
 </ul></li>
 <li><a href="./Projects">Projects</a> - Projects that have been proposed and/or are being worked on by TLUG members</li>
-<li>Category:Translations - TLUG translation projects</li>
-<li>Category:Places</li>
-<li>Category:Articles</li>
-<li>Category:Admin - public information on the administration of TLUG</li>
+<li><font color="#CC2200">Translations</font> - TLUG translation projects</li>
+<li><font color="#CC2200">Places</font></li>
+<li><font color="#CC2200">Articles</font></li>
+<li><font color="#CC2200">Admin</font> - public information on the administration of TLUG</li>
 <li><a href="./Marketplace">Marketplace</a></li>
 <li><a href="./Tlug_Shirt">Tlug Shirt</a></li>
 <li><a href="./Japanese_And_Linux_Howto">Japanese And Linux Howto</a>
 <ul>
 <li>Describes how to install japanese language on any linux</li>
 </ul></li>
-<li>Japanese Hardware Support Linux
+<li><font color="#CC2200">Japanese Hardware Support Linux</font>
 <ul>
 <li>DeviceName (Also have a picture for each device?)</li>
 </ul></li>
@@ -187,7 +187,7 @@
 <li>Sources of Legal advice</li>
 <li>Arrest in Japan</li>
 </ul></li>
-<li>FreeGeek Japan
+<li><font color="#CC2200">FreeGeek Japan</font>
 <ul>
 <li>Recycle old equipment using FOSS</li>
 <li>FreeGeek_Howto</li>
@@ -199,7 +199,7 @@
 <li><a href="./TlugWiki:EditHOWTO">Hey, I can't edit anything! Help!</a></li>
 <li><a href="./TlugWiki:Wiki_Topics">Discussion about this wiki itself</a></li>
 <li><a href="./TlugWiki:Wiki_Topics">Suggestions for the Wiki</a></li>
-<li>Special:Listusers</li>
+<li><font color="#CC2200">Who all is on this wiki?</font></li>
 </ul>
 <h2 id="wikimedia-references">Wikimedia references</h2>
 <ul>

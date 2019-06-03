@@ -141,7 +141,7 @@
 <p><code>   dpkg -l | awk '/^ii/{print $2, $3}'</code><br />
 <code>   dpkg -l | grep ^ii</code></p>
 <p>Regards, Chuck</p>
-<p>Category:Linux_Help:Tip_of_the_Day</p>
+<p><font color="#CC2200">dpkg</font></p>
     </div>
 
     <div id="footer">

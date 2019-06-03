@@ -149,25 +149,25 @@
 Suginami-ku Tokyo 167-0042<br />
 <a href="https://www.nishiogiplace.com/">website</a> <a href="https://goo.gl/maps/Y6eCDZZTWaz">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
-<p><strong>“Introduction to Snakemake” - by Raymond Wan</strong></p>
+<p><strong>“Introduction to Snakemake” - by <font color="#CC2200">Raymond Wan</font></strong></p>
 <p>Snakemake is a workflow definition language similar to Make that is gradually becoming popular in the field of bioinformatics. Even so, there is nothing about Snakemake that limits its use to bioinformatics. Unlike Make, the Snakemake language is Python-based. In this talk, I will introduce Snakemake and provide examples of how it can be used for data analysis.</p>
-<p>''' “VDO, transparent Linux compression/de-duplication layer” by Christian Horn '''</p>
+<p>''' “VDO, transparent Linux compression/de-duplication layer” by <font color="#CC2200">Christian Horn</font> '''</p>
 <ul>
 <li>Use cases: where can VDO help?</li>
 <li>VDO setup and configuration</li>
 <li>How is VDO influencing read/write performance?</li>
 <li>How much storage space can I save for my use cases?</li>
 </ul>
-<p>''' “Linux on the Nintendo Switch” - by Christian Horn '''</p>
+<p>''' “Linux on the Nintendo Switch” - by <font color="#CC2200">Christian Horn</font> '''</p>
 <ul>
 <li>Why is Linux@nintendo-switch interesting at all, what is required to get it running?</li>
 <li>What works, what works not, on various distros? What is the Linux installation looking like?</li>
 <li>Demo (will be hard to show it nicely, as HDMI output is not working and the internal screen is small)</li>
 </ul>
-<p>''' “Introduction to Matrix, a platform for unified, decentralised, secure communication” - by Alexey Rusakov '''</p>
+<p>''' “Introduction to Matrix, a platform for unified, decentralised, secure communication” - by <font color="#CC2200">Alexey Rusakov</font> '''</p>
 <p>The talk will discuss Matrix (https://www.matrix.org), an open network for real-time communications. I will describe its main features (servers federation, end-to-end encryption, bridging) and show what sets Matrix apart from many other messengers. I'll further talk about how one can use Matrix to bridge communities across other networks, both proprietary and open, including IRC, Telegram and Slack. An overview of the ecosystem and a short demo will conclude the talk.</p>
 <h4 id="after">After</h4>
-<p>After the technical meeting we will move on to the <a href="https://www.oktober-fest.jp/hibiya/">Oktober Fest at Hibiya park</a>, where Benjamin Kowarsch has informed us he will be serving at the stall for “<a href="https://www.weltenburger.de/sortiment/">Weltenburger</a>, the world's oldest abbey brewery, in operation since at least AD 1035 in Bavaria.”</p>
+<p>After the technical meeting we will move on to the <a href="https://www.oktober-fest.jp/hibiya/">Oktober Fest at Hibiya park</a>, where <font color="#CC2200">Benjamin Kowarsch</font> has informed us he will be serving at the stall for “<a href="https://www.weltenburger.de/sortiment/">Weltenburger</a>, the world's oldest abbey brewery, in operation since at least AD 1035 in Bavaria.”</p>
 <h5 id="other-items-on-the-agenda">Other items on the agenda</h5>
 <ol>
 <li>Introduction of new members</li>
@@ -181,7 +181,7 @@ Suginami-ku Tokyo 167-0042<br />
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2018</p>
+<p><font color="#CC2200">2018:07</font> <font color="#CC2200">07</font></p>
     </div>
 
     <div id="footer">

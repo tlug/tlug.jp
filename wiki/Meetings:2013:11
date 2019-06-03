@@ -151,7 +151,7 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p><a href="http://www.iij.ad.jp/en/company/about/map/head-office.html">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="programming-smart-cardssim-cards-by-nikolay-elenkov">Programming Smart Cards/SIM Cards (by Nikolay Elenkov)</h6>
+<h6 id="programming-smart-cardssim-cards-by-nikolay-elenkov">Programming Smart Cards/SIM Cards (by <font color="#CC2200">Nikolay Elenkov</font>)</h6>
 <p>Programming and using Smart Cards on Linux. Nikolay will cover the basics of smart card programming and introduce some of the major open source middleware and tools available for Linux.</p>
 <h6 id="introduction-to-webrtc-by-edward-middleton">Introduction to WebRTC (by <a href="./Edward_Middleton">Edward Middleton</a>)</h6>
 <p>Edward will cover the history of peer-to-peer technology in the web. He'll look at the WebRTC API's and protocols, and then cover some interesting open-source projects using WebRTC technology.</p>
@@ -171,9 +171,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2013</p>
+<p><font color="#CC2200">2013:11</font> <font color="#CC2200">11</font></p>
     </div>
 
     <div id="footer">

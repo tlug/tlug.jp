@@ -136,9 +136,9 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="using-linux-to-learn-how-to-play-guitar-with-tuxguitar-by-andreas-kieckens">Using Linux to learn how to play guitar with TuxGuitar (by Andreas Kieckens)</h6>
+<h6 id="using-linux-to-learn-how-to-play-guitar-with-tuxguitar-by-andreas-kieckens">Using Linux to learn how to play guitar with TuxGuitar (by <font color="#CC2200">Andreas Kieckens</font>)</h6>
 <p>TuxGuitar is a tool that allows you to compose music and download other people's compositions. It's focused mostly around guitar and is a great tool to learn the instrument. Andreas will give a tour of the software and how he uses it to practice guitar playing or write down music that he comes up with.</p>
-<h6 id="adventures-in-tail-call-optimization-by-travis-cardwell">Adventures in Tail Call Optimization (by Travis Cardwell)</h6>
+<h6 id="adventures-in-tail-call-optimization-by-travis-cardwell">Adventures in Tail Call Optimization (by <font color="#CC2200">Travis Cardwell</font>)</h6>
 <p>Tail call optimization is a feature of a programming language (compiler or interpreter) that is essential for writing efficient recursive functions. Travis will explain tail call optimization and then show its (mis)use in various programming languages, including some that do not support it.</p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks at Wara-Wara Hanzomon <a href="http://goo.gl/maps/MH9b3" class="uri">http://goo.gl/maps/MH9b3</a></p>

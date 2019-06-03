@@ -144,7 +144,7 @@
 <p><code>$ ls -a</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <h3 id="dash-files">Dash Files</h3>
@@ -157,7 +157,7 @@
 <dt>Contributor(s)</dt>
 <dd><a href="./User:Bruno">Bruno</a>
 </dd>
-<dd>User:Mattia
+<dd><font color="#CC2200">Mattia</font>
 </dd>
 </dl>
 <dl>
@@ -173,7 +173,7 @@
 <code>$ rm '*' '?'</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Daniel
+<dd><font color="#CC2200">Daniel</font>
 </dd>
 </dl>
 <dl>
@@ -215,7 +215,7 @@
 <p>What is the difference between “<code>+</code>” and “<code>\;</code>” notations? Why would you choose one over the other?</p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 <dd><a href="./User:Bruno">Bruno</a>
 </dd>
@@ -235,7 +235,7 @@
 <p>Q: When would permissions like this be useful?</p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -253,7 +253,7 @@
 <p>Q: When would permissions like this be useful?</p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -271,7 +271,7 @@
 <p>Q: When would permissions like this be useful?</p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -289,7 +289,7 @@
 <p>Q: When would permissions like this be useful?</p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -309,7 +309,7 @@
 <p><code>$ sudo bash -c 'echo tlug &gt; /etc/hostname'</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -375,7 +375,7 @@
 <code>cat ${TMPFILE}</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 <dd><a href="./User:Bruno">Bruno</a>
 </dd>
@@ -402,7 +402,7 @@
 </ul>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -423,7 +423,7 @@
 <p><code>$ kill -9 $PID  # sends KILL signal to $PID</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -439,7 +439,7 @@
 <p><code>$ fuser -v -m /mnt/stick</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -465,7 +465,7 @@
 <p>If that does not work, the parent process must be killed.</p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 <dd><a href="./User:Bruno">Bruno</a>
 </dd>
@@ -482,7 +482,7 @@
 </ul>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -504,7 +504,7 @@
 <p><code>$ netstat -pt</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
 <dl>
@@ -519,7 +519,7 @@
 <code>| sed 's/^/\a/'</code></p>
 <dl>
 <dt>Contributor(s)</dt>
-<dd>User:Travis
+<dd><font color="#CC2200">Travis</font>
 </dd>
 </dl>
     </div>

@@ -152,10 +152,10 @@ tel: 03-3492-2451<br />
 <p>[<a href="http://www.sonicweb-asp.jp/shinagawa/map?theme=th_15#pos=139.716619,35.6226453&amp;feature=19005" class="uri">http://www.sonicweb-asp.jp/shinagawa/map?theme=th_15#pos=139.716619,35.6226453&amp;feature=19005</a>::::10 (in Japanese)]</p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="getting-started-with-raspberry-pi-2-by-masafumi-ohta">Getting Started with Raspberry Pi 2 (by Masafumi Ohta)</h6>
+<h6 id="getting-started-with-raspberry-pi-2-by-masafumi-ohta">Getting Started with Raspberry Pi 2 (by <font color="#CC2200">Masafumi Ohta</font>)</h6>
 <p>Ohta-san will recap the presentation he delivered at LinuxCon Japan 2015. He will speak about 'why RPi2 was suddenly released' with insights he gained in his trip to the UK, where he met Eben Upton at the Pi-Tower in Cambridge.</p>
 <p>He will also talk about some of the new OSes working on RPi 2 (Window IoT and others), and give answers to questions he was asked by Linaro and SUSE staff at LinuxCon.</p>
-<h6 id="full-network-virtualization-with-openvnet-0.7-by-andreas-kieckens">Full network virtualization with OpenVNet 0.7 (by Andreas Kieckens)</h6>
+<h6 id="full-network-virtualization-with-openvnet-0.7-by-andreas-kieckens">Full network virtualization with OpenVNet 0.7 (by <font color="#CC2200">Andreas Kieckens</font>)</h6>
 <p>After two years of development, Andreas and his colleagues have released OpenVNet 0.7 which allows you to fully virtualize networks using OpenFlow. During this presentation he will explain what exactly network virtualization is, how OpenVNet achieves it and what some of its use cases could be. To top it off he will show a live demo where OpenVNet is used to join two cloud systems (Amazon EC2 and Wakame-vdc) together in a single network. <a href="http://openvnet.org" class="uri">http://openvnet.org</a></p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks somewhere around Gotanda Station.</p>
@@ -169,9 +169,9 @@ tel: 03-3492-2451<br />
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2015</p>
+<p><font color="#CC2200">2015:07</font> <font color="#CC2200">07</font></p>
     </div>
 
     <div id="footer">

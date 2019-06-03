@@ -137,8 +137,8 @@
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
 <h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
-<p><strong>“VRML browsing”</strong> By <em>Lewske Wada</em></p>
-<p>Lewske Wada will talk about using VRML in the browser. He will give and introduction and cover all major issues of using VRML in the browser.</p>
+<p><strong>“VRML browsing”</strong> By <em><font color="#CC2200">Lewske Wada</font></em></p>
+<p><font color="#CC2200">Lewske Wada</font> will talk about using VRML in the browser. He will give and introduction and cover all major issues of using VRML in the browser.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
 <h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
@@ -150,7 +150,7 @@
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

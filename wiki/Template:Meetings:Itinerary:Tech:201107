@@ -137,7 +137,7 @@
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
 <h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
-<p><strong>“Linux Storage - an introduction to FCoE/DCB”</strong> by <em>Jack Morgan</em></p>
+<p><strong>“Linux Storage - an introduction to FCoE/DCB”</strong> by <em><font color="#CC2200">Jack Morgan</font></em></p>
 <p>Linux storage options are growing with each release of the Linux kernel. I will introduce Fiber Channel over Ethernet (FCoE) and it's adjacent technology Data Canter Bridging (DCB) for 10Gbe adapters. I will cover some of the technical details of these two technologies, discuss how to get them installed/configured on your system and provide a demonstration, assuming we have Internet access. Here are a few links:</p>
 <p>FCoE:</p>
 <ul>

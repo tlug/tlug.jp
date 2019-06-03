@@ -207,7 +207,7 @@
 <pre><code>su - root&amp;#13;rpm -Uvh gd-1.8.4-4.i386.rpm gd-devel-1.8.4-4.i386.rpm</code></pre>
 <p>If the RPMs install with no problems, return to Step 2 and try again. If not, turn to your LUG.</p></li>
 </ol>
-<p>Category:Linux_Help:QND-Guides</p>
+<p><font color="#CC2200">MRTG</font></p>
     </div>
 
     <div id="footer">

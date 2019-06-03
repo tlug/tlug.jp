@@ -151,9 +151,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p><a href="http://www.iij.ad.jp/en/company/about/map/head-office.html">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="version-control-done-right-by-andreas-kieckens">“Version Control Done Right” by Andreas Kieckens</h6>
+<h6 id="version-control-done-right-by-andreas-kieckens">“Version Control Done Right” by <font color="#CC2200">Andreas Kieckens</font></h6>
 <p>A brief explanation of what Version control is and why Andreas uses GIT and not another one. Then he'll describe a successful GIT branching system in detail and explain why you should use it.</p>
-<h6 id="debian-on-the-desktop-a-guide-for-ubuntu-refugees-by-travis-cardwell">“Debian on the Desktop: A Guide for Ubuntu Refugees” by Travis Cardwell</h6>
+<h6 id="debian-on-the-desktop-a-guide-for-ubuntu-refugees-by-travis-cardwell">“Debian on the Desktop: A Guide for Ubuntu Refugees” by <font color="#CC2200">Travis Cardwell</font></h6>
 <p>Many desktop environments these days offer premature mobile- oriented user interfaces, gluttonous resource utilization, and over- minimization. This talk gives tips for overcoming these issues by setting up a modern desktop on Debian 7. Topics to be covered include the testing distribution, backports, multiarch, third-party software installation, and alternative window managers.</p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks at Za Watami Jinbocho</p>
@@ -169,9 +169,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2013</p>
+<p><font color="#CC2200">2013:06</font> <font color="#CC2200">06</font></p>
     </div>
 
     <div id="footer">

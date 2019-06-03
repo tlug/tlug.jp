@@ -144,7 +144,7 @@
 <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
 <h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
-<p><strong>“All your base are belong to us”</strong> by <em>Marty Pauley</em></p>
+<p><strong>“All your base are belong to us”</strong> by <em><font color="#CC2200">Marty Pauley</font></em></p>
 <p>Marty Pauley will talk about network security. In Marty's words</p>
 <p><code> &quot;It's great to have a net connection almost everywhere. But when</code><br />
 <code> you read your email, are you the only one reading it? And while you may</code><br />
@@ -153,7 +153,7 @@
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
 <p>Short break <em>(maybe)</em></p>
 <h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
-<p><strong>“Running a NAS with OpenSolaris ZFS”</strong> by <em>Michael Sullivan</em></p>
+<p><strong>“Running a NAS with OpenSolaris ZFS”</strong> by <em><font color="#CC2200">Michael Sullivan</font></em></p>
 <p>Michael will give an explanation and demonstration of the following:</p>
 <ol>
 <li>ZFS and setting it up for flexibility (10-15 minutes).</li>
@@ -180,7 +180,7 @@
 <ul>
 <li><a href="http://blogs.sun.com/jimgris/entry/tokyo_linux_user_group_071109">blog post with lots of great photos</a> by <a href="./User:Jimgris">Jim Grisanzio</a></li>
 </ul>
-<p>Category:Meetings Category:Meetings:2009</p>
+<p><font color="#CC2200">2009:07</font> <font color="#CC2200">07</font></p>
     </div>
 
     <div id="footer">

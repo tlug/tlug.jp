@@ -151,9 +151,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p><a href="http://www.iij.ad.jp/en/company/about/map/head-office.html">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="honeypots-and-other-open-source-security-tools-from-the-honeynet-project-by-benny-ketelslegers">“Honeypots and other open-source security tools from the Honeynet Project” by Benny Ketelslegers</h6>
+<h6 id="honeypots-and-other-open-source-security-tools-from-the-honeynet-project-by-benny-ketelslegers">“Honeypots and other open-source security tools from the Honeynet Project” by <font color="#CC2200">Benny Ketelslegers</font></h6>
 <p>The Honeynet Project is a leading international security research organization, dedicated to investigating the latest attacks, developing open source security tools to improve Internet security and learning how malicious hackers behave. In this presentation, we will learn what kind of honeypots there are, how they are used and the insights they give into network/system attacks. Secondly, a run-through will be given of the (open-source) tools provided by the project and how to use them.</p>
-<h6 id="wakame-vdc-by-andreas-kieckens">“Wakame-vdc” by Andreas Kieckens</h6>
+<h6 id="wakame-vdc-by-andreas-kieckens">“Wakame-vdc” by <font color="#CC2200">Andreas Kieckens</font></h6>
 <p>Wakame-vdc is an open source IaaS system written in Ruby that runs on Ubuntu and OpenSolaris. During this presentation he will briefly explain what an IaaS system is and what advantages it has over a standard data centre. He will then cover several of Wakame's features and explain some of the bleeding edge software it uses. (such as virtualizing the network itself using OpenFlow.) If there's an internet connection available, there will also be a live demo.</p>
 <h5 id="other-items-on-the-agenda">Other items on the agenda</h5>
 <ol>
@@ -165,9 +165,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2012</p>
+<p><font color="#CC2200">2012:01</font> <font color="#CC2200">01</font></p>
     </div>
 
     <div id="footer">

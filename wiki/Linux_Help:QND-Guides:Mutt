@@ -150,7 +150,7 @@ source ~/.mutt_aliases</code></pre>
 <p>This tells mutt where to look for your aliases. This will serve as an address book. Now we create our .mutt_aliases file.</p>
 <pre><code>touch .mutt_aliases</code></pre>
 <p>Now, if you receive mail from someone and want to add them to your aliases, while on their email hit the a key. Mutt will begin a dialog. It's usually safe to accept the defaults save for the last question, which is something like save to /.mutt_aliases? For that question, change it to ~/.mutt_aliases. If, however, it says save it to /home/john/.mutt_aliases then it's safe to accept it.</p>
-<p>This should enable you to get mutt up and running. Mutt is a very powerful and configurable client and there countless other options. For further reading you can start with a more detailed <a href="http://home.nyc.rr.com/computertaijutsu/mutt.html">page of mine</a> and, of course, the mutt manual which should probably be on your machine in /usr/share/doc/mutt[version number]. It's also available on line <a href="http://dev.mutt.org/doc/manual.html">here</a>. Category:Linux_Help:QND-Guides</p>
+<p>This should enable you to get mutt up and running. Mutt is a very powerful and configurable client and there countless other options. For further reading you can start with a more detailed <a href="http://home.nyc.rr.com/computertaijutsu/mutt.html">page of mine</a> and, of course, the mutt manual which should probably be on your machine in /usr/share/doc/mutt[version number]. It's also available on line <a href="http://dev.mutt.org/doc/manual.html">here</a>. <font color="#CC2200">Mutt</font></p>
     </div>
 
     <div id="footer">

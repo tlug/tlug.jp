@@ -135,13 +135,13 @@
 
     <div class="content">
       <p>From the [<a href="http://lists.tlug.jp/ML/" class="uri">http://lists.tlug.jp/ML/</a></nowiki>:</p>
-<p>}|{{{3}}}}}</p>
-<p>{{{4}}}</p>
-<p>Category:Linux_Help:Tip_of_the_Day</p>
-<p>Creates a Category:Linux_Help:Tip_of_the_Day entry.</p>
+<p>}|}}</p>
+<p></p>
+<p><font color="#CC2200"></font></p>
+<p>Creates a <font color="#CC2200">Tip_of_the_Day</font> entry.</p>
 <pre><code></code></pre>
 <p>would produce:</p>
-<p>Category:Template</p>
+<p><font color="#CC2200">TotD</font></p>
     </div>
 
     <div id="footer">

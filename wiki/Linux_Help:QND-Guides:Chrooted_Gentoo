@@ -348,7 +348,7 @@
 <p>in the <a href="#Creating_the_chroot_Jail_and_Installing_Gentoo_into_It" title="wikilink">#Creating the chroot Jail and Installing Gentoo into It</a> section above, you were asking sudo for a token, which allows you to commands as root for a few minutes, without being prompted for a password every time. The password that</p>
 <pre><code>sudo -v</code></pre>
 <p>expects you to enter is almost certainly your own, but if that doesn't work, try your system's root password (some distributions may setup sudo incorrectly).</p>
-<p>Category:Linux_Help:QND-Guides</p>
+<p><font color="#CC2200">Gentoo</font></p>
     </div>
 
     <div id="footer">

@@ -137,13 +137,13 @@
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
 <h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
-<p><strong>“Linux Networking for Aster*sk and VoIP”</strong> By <em>Simon Gibson</em></p>
-<p>Simon Gibson will covering NTP, DHCP, TFTP / FTP, hosts.conf etc., with the focus being on the services and software packages available with Linux to allow a machine to function as a complete system.</p>
+<p><strong>“Linux Networking for Aster*sk and VoIP”</strong> By <em><font color="#CC2200">Simon Gibson</font></em></p>
+<p><font color="#CC2200">Simon Gibson</font> will covering NTP, DHCP, TFTP / FTP, hosts.conf etc., with the focus being on the services and software packages available with Linux to allow a machine to function as a complete system.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
 <h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
-<p><strong>“Scripting Languages in Android”</strong> by <em>Eduardo Gonzalez</em></p>
-<p>Eduardo Gonzalez will talk about the differences between running native apps and running scripts on Android, how to install Python and Ruby interpreters inside ASE (Android Scripting Environment). Eduardo will also demo doing crazy things like running a web server with the API's.</p>
+<p><strong>“Scripting Languages in Android”</strong> by <em><font color="#CC2200">Eduardo Gonzalez</font></em></p>
+<p><font color="#CC2200">Eduardo Gonzalez</font> will talk about the differences between running native apps and running scripts on Android, how to install Python and Ruby interpreters inside ASE (Android Scripting Environment). Eduardo will also demo doing crazy things like running a web server with the API's.</p>
 <h5 id="other-items-on-the-agenda-are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
@@ -152,7 +152,7 @@
 </ol>
 <h4 id="notes">Notes</h4>
 <p>Due to system changes wireless internet may not be available on the day.</p>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

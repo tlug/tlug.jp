@@ -138,7 +138,7 @@
 <h2 id="current-officers">Current Officers</h2>
 <h3 id="elected">Elected</h3>
 <h4 id="president">President</h4>
-<p><img src="/images/edward.jpg" title="fig:/images/edward.jpg" alt="/images/edward.jpg" /> <a href="./User:Edward">Edward Middleton</a></p>
+<p><img src="/images/Edward.jpg" title="fig:/images/Edward.jpg" alt="/images/Edward.jpg" /> <a href="./User:Edward">Edward Middleton</a></p>
 <h4 id="vice-president">Vice President</h4>
 <h4 id="treasurer">Treasurer</h4>
 <p><img src="/images/Tim.jpg" title="fig:/images/Tim.jpg" alt="/images/Tim.jpg" /> <a href="./User:Tim">Tim Meggs</a></p>
@@ -146,15 +146,15 @@
 <h4 id="sysadmin">Sysadmin</h4>
 <p><img src="/images/R_muffin_thumb.jpg" title="fig:/images/R_muffin_thumb.jpg" alt="/images/R_muffin_thumb.jpg" /> <a href="./User:Ragga">Henri 'ragga muffin' Servomaa</a></p>
 <h4 id="listmaster">Listmaster</h4>
-<p><img src="/images/josh_glover.jpg" title="fig:/images/josh_glover.jpg" alt="/images/josh_glover.jpg" /> <a href="./User:Jmglov">Josh Glover</a></p>
+<p><img src="/images/Josh_glover.jpg" title="fig:/images/Josh_glover.jpg" alt="/images/Josh_glover.jpg" /> <a href="./User:Jmglov">Josh Glover</a></p>
 <h4 id="list-moderators">List Moderators</h4>
 <ul>
-<li>User:Scottro</li>
+<li><font color="#CC2200">Scott Robbins</font></li>
 <li>Jonathan Byrne</li>
 <li>Godwin Stewart</li>
 </ul>
 <h4 id="webmaster">Webmaster</h4>
-<p><img src="/images/Smallpenguin.jpg" title="fig:/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a> <img src="/images/keith.jpg" title="fig:/images/keith.jpg" alt="/images/keith.jpg" /> <a href="./User:Bawdo2001">Keith Bawden</a></p>
+<p><img src="/images/Smallpenguin.jpg" title="fig:/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a> <img src="/images/Keith.jpg" title="fig:/images/Keith.jpg" alt="/images/Keith.jpg" /> <a href="./User:Bawdo2001">Keith Bawden</a></p>
 <h4 id="wikimaster">Wikimaster</h4>
 <p><img src="/images/Smallpenguin.jpg" title="fig:/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a></p>
 <h4 id="editor-in-chief">Editor in Chief</h4>
@@ -176,8 +176,8 @@
 <li>Keep our <a href="http://www.tlug.jp/listpolicy.php">List Policy</a> documentation up to date and clearly stated.</li>
 <li>Document the current mailing list mechanism, with an eye on improvements; see also:
 <ol>
-<li>TlugAdmin:Email Archives Info</li>
-<li>TlugAdmin:Mailing List</li>
+<li><font color="#CC2200">TlugAdmin:Email Archives Info</font></li>
+<li><font color="#CC2200">TlugAdmin:Mailing List</font></li>
 </ol></li>
 <li>Handle automatic deferrals of list-bound mail and sort the spam from the ham.</li>
 </ol>
@@ -201,7 +201,7 @@
 </ol>
 <p>Due to the nature of the position, only native-level English speakers should apply.</p>
 <h2 id="see-also">See Also</h2>
-<p>Category:Admin</p>
+<p><font color="#CC2200">Officers</font></p>
     </div>
 
     <div id="footer">

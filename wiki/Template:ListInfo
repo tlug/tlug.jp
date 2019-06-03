@@ -134,11 +134,11 @@
     </div>
 
     <div class="content">
-      <p>[<a href="http://www.tlug.jp/mailman/listinfo/" class="uri">http://www.tlug.jp/mailman/listinfo/</a>{{{1}}} the <em>{{{1}}}</em> mailing list] Makes a <code>mailto:</code> link to a TLUG mailing list.</p>
+      <p>[<a href="http://www.tlug.jp/mailman/listinfo/" class="uri">http://www.tlug.jp/mailman/listinfo/</a> the <em></em> mailing list] Makes a <code>mailto:</code> link to a TLUG mailing list.</p>
 <p>[http://www.tlug.jp/mailman/listinfo/tlug-admin the ''tlug-admin'' mailing list]</p>
 <p>would produce:</p>
 <p><a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></p>
-<p>Category:Template</p>
+<p><font color="#CC2200">ListInfo</font></p>
     </div>
 
     <div id="footer">

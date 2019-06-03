@@ -134,15 +134,15 @@
     </div>
 
     <div class="content">
-      <p>From the [<a href="http://lists.tlug.jp/ML/" class="uri">http://lists.tlug.jp/ML/</a>{{{1}}} TLUG mailing list]<br />
-Quoth {{{2}}}:</p>
+      <p>From the [<a href="http://lists.tlug.jp/ML/" class="uri">http://lists.tlug.jp/ML/</a> TLUG mailing list]<br />
+Quoth :</p>
 <p>Makes a link to the main TLUG mailing list archives.</p>
 <pre><code>From the [http://lists.tlug.jp/ML/0707/msg00028.html TLUG mailing list]&lt;br /&gt;
 Quoth Josh Glover:</code></pre>
 <p>would produce:</p>
 <p>From the <a href="http://lists.tlug.jp/ML/0707/msg00028.html">TLUG mailing list</a><br />
 Quoth Josh Glover:</p>
-<p>Category:Template</p>
+<p><font color="#CC2200">ML</font></p>
     </div>
 
     <div id="footer">

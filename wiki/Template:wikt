@@ -134,11 +134,11 @@
     </div>
 
     <div class="content">
-      <p>[<a href="http://en.wiktionary.org/wiki/" class="uri">http://en.wiktionary.org/wiki/</a>{{{1}}} {{{1}}} (Wiktionary)] Creates a link to Wiktionary (English).</p>
+      <p>[<a href="http://en.wiktionary.org/wiki/" class="uri">http://en.wiktionary.org/wiki/</a>  (Wiktionary)] Creates a link to Wiktionary (English).</p>
 <p>[http://en.wiktionary.org/wiki/collabo collabo (Wiktionary)]</p>
 <p>would produce:</p>
 <p><a href="http://en.wiktionary.org/wiki/collabo">collabo (Wiktionary)</a></p>
-<p>Category:Template</p>
+<p><font color="#CC2200">wikt</font></p>
     </div>
 
     <div id="footer">

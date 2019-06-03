@@ -136,8 +136,8 @@
     <div class="content">
       <h5 id="video">Video</h5>
 <p>Weren't able to make it to the meeting? You can view the presentations on YouTube!</p>
-<p>{{{video}}}</p>
-<p>Category:Template:Meetings:Itinerary Category:Template:Meetings Category:Template</p>
+<p></p>
+<p><font color="#CC2200">Video</font> <font color="#CC2200">Itinerary:Video</font> <font color="#CC2200">Meetings:Itinerary:Video</font></p>
     </div>
 
     <div id="footer">

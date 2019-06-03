@@ -136,10 +136,10 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="coroutines-by-benjamin-kowarsch">Coroutines (by Benjamin Kowarsch)</h6>
+<h6 id="coroutines-by-benjamin-kowarsch">Coroutines (by <font color="#CC2200">Benjamin Kowarsch</font>)</h6>
 <p>Coroutines are a multi-threading model that is a highly scalable alternative to preemptive threads. There is an interesting paper called “Revisiting Coroutines” by De Moura and Ierusalimschy of the Polytechnic University of Rio de Janeiro, and of Lua fame.</p>
 <p>This paper was the basis to redesign coroutines in Modula-2. Benjamin will show how coroutines differ from preemptive threads and what kind of support there is in different languages.</p>
-<h6 id="postgresql-9.4-9.5-and-beyond-by-satoshi-nagayasu">PostgreSQL 9.4, 9.5 and Beyond (by Satoshi Nagayasu)</h6>
+<h6 id="postgresql-9.4-9.5-and-beyond-by-satoshi-nagayasu">PostgreSQL 9.4, 9.5 and Beyond (by <font color="#CC2200">Satoshi Nagayasu</font>)</h6>
 <p>Recently, PostgreSQL has succeeded in getting popularity among web developers. In this talk, Satoshi will introduce the new features in the latest release 9.4 (JSON, Analytics, Logical Decoding, etc.) to take advantages of the latest PostgreSQL advancement, and share a quick look in the upcoming release 9.5. And he will also introduce his personal projects around PostgreSQL.</p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks somewhere around Iidabashi Station.</p>

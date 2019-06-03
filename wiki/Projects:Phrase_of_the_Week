@@ -141,9 +141,9 @@
 <h2 id="status">Status</h2>
 <ul>
 <li>Tue, 31 Jul 2007 19:49:58 +0900: Proposed by Ken Burling</li>
-<li>Fri, 3 Aug 2007 15:48:56 +0900: Feedback from Delyana Burdjeva-Glover, technical suggestions from User:Jglover</li>
+<li>Fri, 3 Aug 2007 15:48:56 +0900: Feedback from Delyana Burdjeva-Glover, technical suggestions from <font color="#CC2200">Josh Glover</font></li>
 <li>Tue, 7 Aug 2007 12:04:45 +0900: Formal proposal and wiki, RSS drafts by Ken Burling</li>
-<li>Mon, 20 Aug 2007 14:50:00 +0900: Initial wiki draft by User:Jglover</li>
+<li>Mon, 20 Aug 2007 14:50:00 +0900: Initial wiki draft by <font color="#CC2200">Josh Glover</font></li>
 </ul>
 <h2 id="rss">RSS</h2>
 <?xml version="1.0" ?>
@@ -176,7 +176,7 @@
 <code> </code></channel><br />
 </rss></p>
 <h2 id="see-also">See Also</h2>
-<p>Category:Projects</p>
+<p><font color="#CC2200">Phrase of the Week</font></p>
     </div>
 
     <div id="footer">

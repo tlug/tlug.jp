@@ -137,7 +137,7 @@
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
 <h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
-<p><strong>“Using the shell effectively”</strong> By <em>Zev Blut</em></p>
+<p><strong>“Using the shell effectively”</strong> By <em><font color="#CC2200">Zev Blut</font></em></p>
 <p>Zev will give a talk/demo/workshop about using the unix shell more effectively. His talk will include effective shell navigation with readline and history.</p>
 <p><code> &quot;After a nice schooling about some shell navigation techniques at RubyKaigi,</code><br />
 <code>  I figured I should share the love.&quot;</code></p>
@@ -148,7 +148,7 @@
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
 <p>Short break <em>(maybe)</em></p>
 <h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
-<p><strong>“Hackerspaces Are Everywhere, Including Tokyo!”</strong> by <em>Matthew (Karamoon)</em></p>
+<p><strong>“Hackerspaces Are Everywhere, Including Tokyo!”</strong> by <em><font color="#CC2200">Matthew (Karamoon)</font></em></p>
 <p>A hackerspace is a group of hackers/techies/geeks/artists who set up a physical space in order to explore technology and create projects and tools together. There are more than 300 hackerspaces around the world, the newest of which has just opened in Tokyo. This talk will cover the worldwide hackerspace movement, focusing on Tokyo's two hackerspaces “4nchor5 la6” and “The Tokyo Hackerspace”. Time allowing, two 10-minute videos about hackerspaces and their projects will be shown.</p>
 <h4 id="other-items-on-the-agenda-are">Other items on the agenda are:</h4>
 <ol>
@@ -156,7 +156,7 @@
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

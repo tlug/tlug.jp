@@ -134,8 +134,8 @@
     </div>
 
     <div class="content">
-      <h2 id="nomikai-year---month">Nomikai / {{{year}}} - {{{month}}}</h2>
-<p>Category:Template:Meetings:Nomikai Category:Template</p>
+      <h2 id="nomikai--">Nomikai /  - </h2>
+<p><font color="#CC2200">Title</font> <font color="#CC2200">Meetings:Nomikai:Title</font></p>
     </div>
 
     <div id="footer">

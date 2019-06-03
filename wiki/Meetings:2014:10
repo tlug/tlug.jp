@@ -151,9 +151,9 @@ Shibuya-ku, Tokyo 150-0011</p>
 <p><a href="https://goo.gl/maps/yEZBz">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="introduction-to-functional-programming-hands-on-with-racket-by-travis-cardwell">Introduction to Functional Programming: Hands-On with Racket (by Travis Cardwell)</h6>
+<h6 id="introduction-to-functional-programming-hands-on-with-racket-by-travis-cardwell">Introduction to Functional Programming: Hands-On with Racket (by <font color="#CC2200">Travis Cardwell</font>)</h6>
 <p>Travis will give an interactive class on the basics of functional programming using <a href="http://racket-lang.org">Racket</a>, a dialect of Scheme. Please install Racket (not Minimal Racket) onto a laptop and bring it with you to the meeting!</p>
-<h6 id="adventures-in-tail-call-optimization-by-travis-cardwell">Adventures in Tail Call Optimization (by Travis Cardwell)</h6>
+<h6 id="adventures-in-tail-call-optimization-by-travis-cardwell">Adventures in Tail Call Optimization (by <font color="#CC2200">Travis Cardwell</font>)</h6>
 <p>Tail call optimization is a feature of a programming language (compiler or interpreter) that is essential for writing efficient recursive functions. Travis will explain tail call optimization and then show its (mis)use in various programming languages, including some that do not support it.</p>
 <h6 id="discussion-presentation-wish-list">Discussion: Presentation Wish List</h6>
 <p>What kind of topics would you like to see at a future TLUG technical meeting? Travis will chair a discussion where we create a wish list, which will later be posted to the mailing list so that any member can pick a topic that they know about and share their knowledge at future meetings.</p>
@@ -169,9 +169,9 @@ Shibuya-ku, Tokyo 150-0011</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2014</p>
+<p><font color="#CC2200">2014:10</font> <font color="#CC2200">10</font></p>
     </div>
 
     <div id="footer">

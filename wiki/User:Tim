@@ -141,7 +141,7 @@
 <p>First started using computers back around '81, on Apple II Plus', with Apple DOS, assembly, <a href="http://en.wikipedia.org/wiki/Logo_%28programming_language%29">Logo</a> and of course <a href="http://en.wikipedia.org/wiki/Applesoft_BASIC">Applesoft BASIC</a>! University years meant moving on to Pascal and C, before revisiting assembler again a few years later.</p>
 <p>Over the years have used many different systems including early DEC <a href="http://en.wikipedia.org/wiki/Programmed_Data_Processor">PDP</a>, Gould and <a href="http://en.wikipedia.org/wiki/Honeywell">Honeywell</a> DPS-6 systems. Not to mention all manner of industrial systems, TDC 3000, SCAN 3000, IPC 620, MA500, MX200, EST555Z.</p>
 <figure>
-<img src="/images/TDCS3000LCN.JPG" title="TDC 3000" alt="TDC 3000" /><figcaption>TDC 3000</figcaption>
+<img src="/images/TDCS3000LCN.jpg" title="TDC 3000" alt="TDC 3000" /><figcaption>TDC 3000</figcaption>
 </figure>
 <p>Started using Linux (circa 1996) with RedHat on an old SPARCstation (SLC to be precise) and have mostly stayed with the RedHat related distros since. These days (continuing in that vein) I tend to use CentOS, but on x86 hardware. Have been known to dabble with Debian and NetBSD too.</p>
 <p>Still have a decent SPARC collection at home, but rarely have time to tinker.</p>
@@ -154,7 +154,7 @@
 <li>TLUG treasurer &amp; domain name administrator. (also wore the TLUG sys admin cap for a few years).</li>
 </ul>
 <ul>
-<li>A few TLUG wiki contributions here and there: Special:Contributions/Tim</li>
+<li>A few TLUG wiki contributions here and there: <font color="#CC2200">Special:Contributions/Tim</font></li>
 </ul>
 <ul>
 <li>Blast from the past:</li>

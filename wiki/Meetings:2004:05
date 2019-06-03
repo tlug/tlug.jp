@@ -139,11 +139,11 @@
 <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
 <h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
-<p><strong>“Web Development Environment with Mozilla Suite and Firefox”</strong> By <em>Taro Matsuzawa</em></p>
-<p>Taro Matsuzawa (Mozilla Gumi) will talk about some of the extensions for web development, including useful tools like a Javascript Debugger.</p>
+<p><strong>“Web Development Environment with Mozilla Suite and Firefox”</strong> By <em><font color="#CC2200">Taro Matsuzawa</font></em></p>
+<p><font color="#CC2200">Taro Matsuzawa</font> (Mozilla Gumi) will talk about some of the extensions for web development, including useful tools like a Javascript Debugger.</p>
 <h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
-<p><strong>“Mozilla Japan/Mozilla Foundation: Future of Mozilla Technologies”</strong> By <em>Katsuhiko Momoi</em></p>
-<p>Katsuhiro Momoi is currently on the steering committee to establish Mozilla Japan, a non-profit organization to promote Mozilla technologies, development and distribution, and will talk about the current status and future directions of Mozilla development, including a Q&amp;A session on Mozilla technologies in general.</p>
+<p><strong>“Mozilla Japan/Mozilla Foundation: Future of Mozilla Technologies”</strong> By <em><font color="#CC2200">Katsuhiko Momoi</font></em></p>
+<p><font color="#CC2200">Katsuhiro Momoi</font> is currently on the steering committee to establish Mozilla Japan, a non-profit organization to promote Mozilla technologies, development and distribution, and will talk about the current status and future directions of Mozilla development, including a Q&amp;A session on Mozilla technologies in general.</p>
     </div>
 
     <div id="footer">

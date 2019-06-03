@@ -151,13 +151,13 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p><a href="http://www.iij.ad.jp/en/company/about/map/head-office.html">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="living-on-the-command-line-by-kalin-kozhuharov">Living on the command line (by Kalin Kozhuharov)</h6>
+<h6 id="living-on-the-command-line-by-kalin-kozhuharov">Living on the command line (by <font color="#CC2200">Kalin Kozhuharov</font>)</h6>
 <p>Ninja skillz for emergency Data Analytics or how to stay in command of when something hits the fan...</p>
 <p>What do you do when, out of the blue, you sense emergency in the air, but you have no exact idea what is coming, from where it is going to hit you and since when it has been lurking? You get the data, all the data you can, and analyze it to extract information. You may already have the data, but in hard-to-digest form, spread among people, servers and some backup tapes. Or you may not, so you have to go out and collect it first. Then analyze it. But not in emergency! You have to do all at once, with no sleep, some food and more caffeine, completely out of control most of the time. I help clients with security issues as may day (night?) job, digging into all kinds of (legacy) systems, trying to understand what happened (fancy named Digital Forensics), when and eventually who did it. I have to deal with all kinds of data, stored in multitude of (first seen this) formats/media, most of it _very_ badly formatted/(not) cleansed or simply missing. Usually starting on a Friday night, when most sysadmins had already had more than enough alcohol in their bloodstream to be useful.</p>
 <p>To cope with all I use the COMMAND LINE, hell I live on the command line!</p>
 <p>I grep with fancy regex-es, cut and sort, while forking many finds and shove data up pipes of all kind and visualize data in gnuplot. To glue all that I use Bash and Perl and Vim.</p>
 <p>After 3/11, LoL, I got involved with Safecast in another emergency - understanding what happened in Fukushima Dai-ichi NPP. I used more or less the same methods and since data is public, I'll use it in a demo of CLI approaches to Data Analytics. We'll analyze and visualize some of the data with some ninja tricks, stay alert!</p>
-<h6 id="linux-quiz-by-travis-cardwell">Linux Quiz (by Travis Cardwell)</h6>
+<h6 id="linux-quiz-by-travis-cardwell">Linux Quiz (by <font color="#CC2200">Travis Cardwell</font>)</h6>
 <p>Would you like to explore and expand your knowledge of Linux? The Linux Quiz will be an interactive discussion where people of all experience levels, from beginners to seasoned sysadmins, can ask questions and share their knowledge about all things Linux in a friendly, non-competitive atmosphere.</p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks at Za Watami Jinbocho</p>
@@ -173,9 +173,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2014</p>
+<p><font color="#CC2200">2014:05</font> <font color="#CC2200">05</font></p>
     </div>
 
     <div id="footer">

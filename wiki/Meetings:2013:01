@@ -151,7 +151,7 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p><a href="http://www.iij.ad.jp/en/company/about/map/head-office.html">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="nagira---nagios-restful-api-by-dmytro-kovalov">“Nagira - Nagios RESTful API” by Dmytro Kovalov</h6>
+<h6 id="nagira---nagios-restful-api-by-dmytro-kovalov">“Nagira - Nagios RESTful API” by <font color="#CC2200">Dmytro Kovalov</font></h6>
 <p>Nagira is open source project for development of web services API for popular monitoring system Nagios.</p>
 <p>RESTful API allows remote access to read configuration data and object status database of Nagios. Using same HTTP(S) protocol Nagira also allows to submit passive check results for hosts and service checks. In future versions planned also to be able to change Nagios configuration and control Nagios server.</p>
 <p>Using webservices API would allow:</p>
@@ -186,9 +186,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2013</p>
+<p><font color="#CC2200">2013:01</font> <font color="#CC2200">01</font></p>
     </div>
 
     <div id="footer">

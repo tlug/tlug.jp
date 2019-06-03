@@ -152,11 +152,11 @@ tel: 03-3492-2451<br />
 <p>[<a href="http://www.sonicweb-asp.jp/shinagawa/map?theme=th_15#pos=139.716619,35.6226453&amp;feature=19005" class="uri">http://www.sonicweb-asp.jp/shinagawa/map?theme=th_15#pos=139.716619,35.6226453&amp;feature=19005</a>::::10 (in Japanese)]</p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="androids-security-architecture-by-nikolay-elenkov">Android's Security Architecture (by Nikolay Elenkov)</h6>
+<h6 id="androids-security-architecture-by-nikolay-elenkov">Android's Security Architecture (by <font color="#CC2200">Nikolay Elenkov</font>)</h6>
 <p>This talk will give an overview of Android's security architecture from the bottom up, and present the major Android subsystems and components that relate to device and data security. The talk will cover broader topics that affect all applications, such as package and user management, permissions and device policy, and will also touch on more specific ones such as cryptographic providers, PKI, and credential storage. Some of the changes introduced in the new Android 6.0 (Marshmallow) release will also be explored.</p>
-<h6 id="deduplicating-backup-schemes-by-jim-tittsler">Deduplicating Backup Schemes (by Jim Tittsler)</h6>
+<h6 id="deduplicating-backup-schemes-by-jim-tittsler">Deduplicating Backup Schemes (by <font color="#CC2200">Jim Tittsler</font>)</h6>
 <p>Attic/Borg and Restic are examples of modern backup programs that provide encryption, compression, and data integrity checks that are space efficient even for massive files like virtual machine images. And there are convenience features like mounting your backups as filesystems. Perhaps it is time to replace those old rsnapshot, rdiff-backup and duplicity scripts.</p>
-<h6 id="wakame-vdc-on-arch-linux-by-andreas-kieckens">Wakame-vdc on Arch Linux (by Andreas Kieckens)</h6>
+<h6 id="wakame-vdc-on-arch-linux-by-andreas-kieckens">Wakame-vdc on Arch Linux (by <font color="#CC2200">Andreas Kieckens</font>)</h6>
 <p>Wakame-vdc is an open source data centre virtualization suite that Andreas (and his colleagues) gets paid to develop. Though it officially only supports Centos, Andreas has been working on some scripts to get it up and running from scratch on Arch Linux using LXC and KVM.</p>
 <p>During the presentation Andreas will briefly talk about what Wakame-vdc is, explain what the scripts do to set it up and talk about how he plans to use it to manage his multiple development and test environments Full disclosure: The scripts are still in development and just how much will actually work during the presentation is going to be a surprise. :p</p>
 <h5 id="nijikai">nijikai</h5>
@@ -171,9 +171,9 @@ tel: 03-3492-2451<br />
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2015</p>
+<p><font color="#CC2200">2015:11</font> <font color="#CC2200">11</font></p>
     </div>
 
     <div id="footer">

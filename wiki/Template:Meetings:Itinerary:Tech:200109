@@ -136,9 +136,9 @@
     <div class="content">
       <h2 id="topics">Topics</h2>
 <h3 id="roxen-web-server-and-pike">Roxen Web Server and Pike</h3>
-<p><em>by Martin Baehr</em></p>
+<p><em>by <font color="#CC2200">Martin Baehr</font></em></p>
 <h3 id="xemacs">XEmacs</h3>
-<p><em>by Stephen Turnbull</em></p>
+<p><em>by <font color="#CC2200">Stephen Turnbull</font></em></p>
     </div>
 
     <div id="footer">

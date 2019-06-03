@@ -136,7 +136,7 @@
     <div class="content">
       <h2 id="overview">Overview</h2>
 <p>The Translations project will be a point to refer for all the peoples that want to translate some pages of this wiki in their language.</p>
-<p>We will use also the category Category:Translations</p>
+<p>We will use also the category <font color="#CC2200">Translations</font></p>
 <h2 id="language-subprojects">Language SubProjects</h2>
 <p>Every language will have a subproject page on Project:Translations:Language (es: <a href="./Projects:Translations:Italian">Projects:Translations:Italian</a>).</p>
 <p>The page of the subproject will be written in the language of the subproject.</p>
@@ -144,7 +144,7 @@
 <ul>
 <li>23:58, 7 September 2007 (JST) - Proposal of project by <a href="./User:Ela.inoelloc">Ela Inoelloc</a></li>
 </ul>
-<p>Category:Projects</p>
+<p><font color="#CC2200">Translations</font></p>
     </div>
 
     <div id="footer">

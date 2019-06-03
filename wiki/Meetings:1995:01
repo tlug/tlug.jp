@@ -143,14 +143,14 @@
 <p>Linux heaven! The CTI head offices with Linux machines coming out of the walls.</p>
 <h2 id="crazed-members-present">Crazed Members Present</h2>
 <ul>
-<li>Nori Nishigaya anishi at cyber.ad.jp,</li>
-<li>Craig Oda craig ay twics.com,</li>
-<li>Steve Casmar casmar at twics.com,</li>
-<li>Jim Tittsler jwt at shrine.cyber.ad.jp,</li>
-<li>Rainer Mager rvm at fore.com,</li>
-<li>Dave Madden dhm at vheissu.net.dcl.co.jp,</li>
-<li>James Ellison jellison at shrine.cyber.ad.jp,</li>
-<li>Joe Marchak (Get on the net Joe :-)</li>
+<li><font color="#CC2200">Nori Nishigaya</font> anishi at cyber.ad.jp,</li>
+<li><font color="#CC2200">Craig Oda</font> craig ay twics.com,</li>
+<li><font color="#CC2200">Steve Casmar</font> casmar at twics.com,</li>
+<li><font color="#CC2200">Jim Tittsler</font> jwt at shrine.cyber.ad.jp,</li>
+<li><font color="#CC2200">Rainer Mager</font> rvm at fore.com,</li>
+<li><font color="#CC2200">Dave Madden</font> dhm at vheissu.net.dcl.co.jp,</li>
+<li><font color="#CC2200">James Ellison</font> jellison at shrine.cyber.ad.jp,</li>
+<li><font color="#CC2200">Joe Marchak</font> (Get on the net Joe :-)</li>
 </ul>
 <h2 id="summary-of-events">Summary of events</h2>
 <p>This month's theme was interpretted languages and Rainer (rvm@fore.com) was prepared with a TCL demo that showed various system performance statistics. We discussed TkPerl, Rex, and forth. Everyone is still looking for development languages that are cross-platform. We really want a PIGUI (Platform Independent Graphic User Interface), but have not found a suitable tool yet. TkPerl is still in alpha, so it might be best to stick to Tk/TCL.</p>
@@ -159,7 +159,7 @@
 <p>We also spoke about new kernel patches, e-cash, and Linux compared to other UNIX operating systems such as SunOS, Solaris, BSD and HP/UX. Everyone thinks Linux is the best! :-)</p>
 <h2 id="summary-of-decisions">Summary of Decisions</h2>
 <p>A temporary mailing list will be set up courtesy of Cyber Technologies International (CTI). CTI has also agreed to donate meeting space for the meetings. We are going to hold the meetings on the third Sunday of every month with the next meeting on February 19th, 1995 at 11:00 a.m.</p>
-<p>Everyone is encouraged to volunteer to do demonstrations. Before a demo, you should communicate your intention with others by use of the mailing list. Category:Meetings Category:Meetings:1995</p>
+<p>Everyone is encouraged to volunteer to do demonstrations. Before a demo, you should communicate your intention with others by use of the mailing list. <font color="#CC2200">1995:01</font> <font color="#CC2200">01</font></p>
     </div>
 
     <div id="footer">

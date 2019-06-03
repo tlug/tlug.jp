@@ -136,9 +136,9 @@
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="a-ruby-script-for-backing-up-using-amazon-s3-for-data-storage-by-lars-kotthoff">A Ruby script for backing up using Amazon S3 for data storage by Lars Kotthoff</h5>
-<p>This month Lars Kotthoff will be giving a presentation on a Ruby script he has developed for backup using Amazon S3 web service. If you are involved in a project or have something you would like to talk about, we are always looking for presenters.</p>
-<p>Thanks to Edmund Edgar and Jeff Barr this months meeting will be simulcast in Second Life at the Conference Center at Amazon Developers 1.</p>
+<h5 id="a-ruby-script-for-backing-up-using-amazon-s3-for-data-storage-by-lars-kotthoff">A Ruby script for backing up using Amazon S3 for data storage by <font color="#CC2200">Lars Kotthoff</font></h5>
+<p>This month <font color="#CC2200">Lars Kotthoff</font> will be giving a presentation on a Ruby script he has developed for backup using Amazon S3 web service. If you are involved in a project or have something you would like to talk about, we are always looking for presenters.</p>
+<p>Thanks to <font color="#CC2200">Edmund Edgar</font> and <font color="#CC2200">Jeff Barr</font> this months meeting will be simulcast in Second Life at the Conference Center at Amazon Developers 1.</p>
 <ul>
 <li><a href="http://www.flickr.com/photos/labsji/tags/tokyolinuxusersgroup/">SecondLife photos of presentation</a></li>
 </ul>
@@ -147,7 +147,7 @@
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

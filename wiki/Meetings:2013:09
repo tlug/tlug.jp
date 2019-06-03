@@ -152,7 +152,7 @@ Chiyoda-ku, Tokyo 102-0083</p>
 <p><a href="http://www.kddi-webcommunications.co.jp/corporate/map.html">J-Map(Google)</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="running-android-on-the-beagle-bone-black-bbb-by-nikolay-elenkov">Running Android on the Beagle Bone Black (BBB) (by Nikolay Elenkov)</h6>
+<h6 id="running-android-on-the-beagle-bone-black-bbb-by-nikolay-elenkov">Running Android on the Beagle Bone Black (BBB) (by <font color="#CC2200">Nikolay Elenkov</font>)</h6>
 <p>This talk will introduce the BBB development board and</p>
 <p>describe some of the steps required to run Android 4.2 using</p>
 <p>the 3.8 kernel on it. It will then briefly introduce what</p>
@@ -173,9 +173,9 @@ Chiyoda-ku, Tokyo 102-0083</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2013</p>
+<p><font color="#CC2200">2013:09</font> <font color="#CC2200">09</font></p>
     </div>
 
     <div id="footer">

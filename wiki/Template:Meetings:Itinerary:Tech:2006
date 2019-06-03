@@ -136,7 +136,7 @@
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<p>{{{presentations}}}</p>
+<p></p>
 <h4 id="demos">Demos</h4>
 <p>We will continue our experiment with the standard meeting format and leave the second half for questions, trouble-shooting, and smaller demonstrations. So, if you need some help or have something to show off, please bring your notebook.</p>
 <h3 id="other-items-on-the-agenda">Other Items on the Agenda</h3>
@@ -144,7 +144,7 @@
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

@@ -137,10 +137,10 @@
       <h3 id="agenda">Agenda</h3>
 <h4 id="presentations">Presentations</h4>
 <h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
-<p><strong>“Pre-boot Execution Environment”</strong> by <em>Kinichi Kitano</em></p>
+<p><strong>“Pre-boot Execution Environment”</strong> by <em><font color="#CC2200">Kinichi Kitano</font></em></p>
 <p>Kinichi Kitano will briefly speak about PXE(Pre-boot Execution Environment). PXE is a protocol designed by Intel that allows computers to boot through the network. He'll speaks about what is PXE, how we can use PXE and how to set up a PXE server.</p>
 <h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
-<p><strong>“Ruby”</strong> by <em>Zev Blut</em></p>
+<p><strong>“Ruby”</strong> by <em><font color="#CC2200">Zev Blut</font></em></p>
 <p>Ruby is an Object Oriented scripting language created by a Tokyo local, Yukihiro Matsumoto. Today's presentation will be a brief introduction to the programming language and development tools that make Ruby a pleasure to work with.</p>
     </div>
 

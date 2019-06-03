@@ -140,8 +140,8 @@
 <p><strong>“Deploying Gentoo servers with chef”</strong> by <em><a href="./Edward_Middleton">Edward Middleton</a></em></p>
 <p><a href="./Edward_Middleton">Edward Middleton</a> explained how to use chef to deploy and maintain Gentoo Linux based servers. The talk will cover components of the chef deployment system, basic operation and the development of chef cookbooks for Gentoo packages.</p>
 <h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
-<p><strong>“Developing a Gamers site in PHP”</strong> by <em>Andreas Kieckens</em></p>
-<p>Andreas Kieckens will talk about the development of his site for international gamers.</p>
+<p><strong>“Developing a Gamers site in PHP”</strong> by <em><font color="#CC2200">Andreas Kieckens</font></em></p>
+<p><font color="#CC2200">Andreas Kieckens</font> will talk about the development of his site for international gamers.</p>
     </div>
 
     <div id="footer">

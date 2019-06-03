@@ -156,13 +156,13 @@ Setagaya-ku Tokyo, Japan<br />
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
 <h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
-<p><strong>“Linux Networking for Aster*sk and VoIP”</strong> By <em>Simon Gibson</em></p>
-<p>Simon Gibson will covering NTP, DHCP, TFTP / FTP, hosts.conf etc., with the focus being on the services and software packages available with Linux to allow a machine to function as a complete system.</p>
+<p><strong>“Linux Networking for Aster*sk and VoIP”</strong> By <em><font color="#CC2200">Simon Gibson</font></em></p>
+<p><font color="#CC2200">Simon Gibson</font> will covering NTP, DHCP, TFTP / FTP, hosts.conf etc., with the focus being on the services and software packages available with Linux to allow a machine to function as a complete system.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
 <h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
-<p><strong>“Scripting Languages in Android”</strong> by <em>Eduardo Gonzalez</em></p>
-<p>Eduardo Gonzalez will talk about the differences between running native apps and running scripts on Android, how to install Python and Ruby interpreters inside ASE (Android Scripting Environment). Eduardo will also demo doing crazy things like running a web server with the API's.</p>
+<p><strong>“Scripting Languages in Android”</strong> by <em><font color="#CC2200">Eduardo Gonzalez</font></em></p>
+<p><font color="#CC2200">Eduardo Gonzalez</font> will talk about the differences between running native apps and running scripts on Android, how to install Python and Ruby interpreters inside ASE (Android Scripting Environment). Eduardo will also demo doing crazy things like running a web server with the API's.</p>
 <h5 id="other-items-on-the-agenda-are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
@@ -177,7 +177,7 @@ Setagaya-ku Tokyo, Japan<br />
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 <li><a href="./Jim_Grisanzio">Jim Grisanzio</a> : 090-6005-3208</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2010</p>
+<p><font color="#CC2200">2010:06</font> <font color="#CC2200">06</font></p>
 <h2 id="nomikai">Nomikai</h2>
 <h4 id="date-1">Date</h4>
 <p>June 25, 2010 (Friday)</p>
@@ -197,7 +197,7 @@ Setagaya-ku Tokyo, Japan<br />
 <h3 id="contact-info-1">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 </ul>
     </div>

@@ -136,8 +136,8 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="bioinformatics-as-viewed-by-a-computer-scientist-by-raymond-wan">“Bioinformatics as Viewed by a Computer Scientist” by Raymond Wan</h6>
-<p>Raymond Wan will introduce the field of bioinformatics (or computational biology) from the perspective of someone with a computing background. Since no knowledge in biology is assumed, I will begin with some basic concepts and then move into the types of data being analyzed by others. I will end with an overview of “second generation sequencing” and how it relates with my current work.</p>
+<h6 id="bioinformatics-as-viewed-by-a-computer-scientist-by-raymond-wan">“Bioinformatics as Viewed by a Computer Scientist” by <font color="#CC2200">Raymond Wan</font></h6>
+<p><font color="#CC2200">Raymond Wan</font> will introduce the field of bioinformatics (or computational biology) from the perspective of someone with a computing background. Since no knowledge in biology is assumed, I will begin with some basic concepts and then move into the types of data being analyzed by others. I will end with an overview of “second generation sequencing” and how it relates with my current work.</p>
     </div>
 
     <div id="footer">

@@ -136,11 +136,11 @@
     <div class="content">
       <p><em>Craig Oda August 11, 1996</em> <a href="http://www.tlug.jp/meetings/1996/96aug.html">1</a>, <a href="http://lists.tlug.jp/ML/9608/msg00030.html">2</a>, <a href="http://lists.tlug.jp/ML/9608/msg00044.html">3</a></p>
 <h2 id="pre-lunch">Pre-Lunch</h2>
-<p>Jim Tittsler waited at under the Big Box sign at Takadanobaba station as Joe Marcha rumbled by on his big 750 motorbike. The pre-lunch talk focused on IP masquerading and how to connect a Linux box to an Internet Service Provider and use an unused IP range to provide service for your entire line off of a single account. Jim and I speculated on how people could run an entire network off of a single 3,000 yen/month account. Jim is currently using wireless broadcasts bounced off a satellite to provide two-way communication to a BBS in his house running on a Linux box.</p>
+<p><font color="#CC2200">Jim Tittsler</font> waited at under the Big Box sign at Takadanobaba station as <font color="#CC2200">Joe Marcha</font> rumbled by on his big 750 motorbike. The pre-lunch talk focused on IP masquerading and how to connect a Linux box to an Internet Service Provider and use an unused IP range to provide service for your entire line off of a single account. Jim and I speculated on how people could run an entire network off of a single 3,000 yen/month account. Jim is currently using wireless broadcasts bounced off a satellite to provide two-way communication to a BBS in his house running on a Linux box.</p>
 <h2 id="lunch">Lunch</h2>
 <p>An excellent pasta lunch was devoured at the Spaghetti Factory. Jim and I had the combination Mizthra (spelling?) cheese and meat sauce, while Joe opted for the more encompassing four sauce spaghetti special. The Spaghetti Factory also had a good minestrone soup. Included with the meal was bread and a soft-drink. We departed the comfortable surroundings of the restaurant after 45 minutes and left behind about 1400 yen per person.</p>
 <h2 id="the-meeting-at-data-stream-k.k.">The Meeting at Data Stream K.K.</h2>
-<p>I would like to thank Jim Tittsler for allowing us to use the Data Stream K.K. facilities.</p>
+<p>I would like to thank <font color="#CC2200">Jim Tittsler</font> for allowing us to use the Data Stream K.K. facilities.</p>
 <h3 id="linux-desktop-features">Linux Desktop Features</h3>
 <p>Jim showed us TkDesk which looks like a capable desktop file manager. The icons appeared to be carefully chosen so as to not interfere with the color mapping of other programs. Jim had only 256 colors on his Linux box and Netscape and other programs ran fine.</p>
 <p>Jim also had a hacked version of xearth which showed satellite positions across the globe. He also had a cool looking satellite tracking program that he was able to use as a root window.</p>
@@ -158,7 +158,7 @@
 <h3 id="hacking-linux">Hacking Linux</h3>
 <p>Of course, the main reason people use Linux is because of it's hack value. Jim told us of his BBS and web server on Linux. He makes good use of telehoudai. Jim is looking for a script that automatically uploads web pages to a remote web server every night. Jim demoed a cool BBS written in perl. Everyone agreed that Perl lets you do powerful things in a small amount of code. The meeting ended as Jim showed us an 4-line LCD screen that he was hacking so that it could work with the serial port. I figure if the guy has that much free time he should write a device driver for an ISDN card. :-)</p>
 <h2 id="next-meeting">Next Meeting</h2>
-<p>We were talking about having the next meeting on September 21. Or was it September 22nd?? Category:Meetings Category:Meetings:1996</p>
+<p>We were talking about having the next meeting on September 21. Or was it September 22nd?? <font color="#CC2200">1996:08</font> <font color="#CC2200">08</font></p>
     </div>
 
     <div id="footer">

@@ -134,7 +134,7 @@
     </div>
 
     <div class="content">
-      <p>Author: User:Scottro</p>
+      <p>Author: <font color="#CC2200">Scott Robbins</font></p>
 <h2 id="introduction">Introduction</h2>
 <p>Getmail is aimed to be a replacement for fetchmail. Many people consider it faster and more secure than fetchmail. My personal experience has been that it seems to at least be a little faster.</p>
 <p>Getmail will require that python is installed. Most distributions have python so it is rare that this will be problem.</p>
@@ -239,7 +239,7 @@
 <li><pre><code>man crontab</code></pre></li>
 <li><pre><code>man 5 crontab</code></pre></li>
 </ul>
-<p>Category:Linux_Help:QND-Guides</p>
+<p><font color="#CC2200">Getmail</font></p>
     </div>
 
     <div id="footer">

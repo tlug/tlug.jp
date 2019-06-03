@@ -134,11 +134,11 @@
     </div>
 
     <div class="content">
-      <p>[<a href="http://en.wikipedia.org/wiki/" class="uri">http://en.wikipedia.org/wiki/</a>{{{1}}} {{{1}}} (Wikipedia)] Creates a link to Wikipedia (English).</p>
+      <p>[<a href="http://en.wikipedia.org/wiki/" class="uri">http://en.wikipedia.org/wiki/</a>  (Wikipedia)] Creates a link to Wikipedia (English).</p>
 <p>[http://en.wikipedia.org/wiki/Linux Linux (Wikipedia)]</p>
 <p>would produce:</p>
 <p><a href="http://en.wikipedia.org/wiki/Linux">Linux (Wikipedia)</a></p>
-<p>Category:Template</p>
+<p><font color="#CC2200">w</font></p>
     </div>
 
     <div id="footer">

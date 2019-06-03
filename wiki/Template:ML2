@@ -134,12 +134,12 @@
     </div>
 
     <div class="content">
-      <p>[<a href="http://lists.tlug.jp/ML/" class="uri">http://lists.tlug.jp/ML/</a>{{{1}}} --{{{2}}}]</p>
+      <p>[<a href="http://lists.tlug.jp/ML/" class="uri">http://lists.tlug.jp/ML/</a> --]</p>
 <p>Makes a simple link to the main TLUG mailing list archives on the poster's name.</p>
 <pre><code>[http://lists.tlug.jp/ML/0803/msg00500.html --Dave Brown]</code></pre>
 <p>would produce:</p>
 <p><a href="http://lists.tlug.jp/ML/0803/msg00500.html">--Dave Brown</a></p>
-<p>Category:Template</p>
+<p><font color="#CC2200">ML2</font></p>
     </div>
 
     <div id="footer">

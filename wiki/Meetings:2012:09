@@ -151,9 +151,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p><a href="http://www.iij.ad.jp/en/company/about/map/head-office.html">Map</a></p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="enterprise-provisioning-and-configuration-management-of-rhel-systems-by-glen-ogilvie">Enterprise Provisioning and Configuration Management of RHEL systems (by Glen Ogilvie)</h6>
+<h6 id="enterprise-provisioning-and-configuration-management-of-rhel-systems-by-glen-ogilvie">Enterprise Provisioning and Configuration Management of RHEL systems (by <font color="#CC2200">Glen Ogilvie</font>)</h6>
 <p>Introduction to the goals and aims of provisioning systems and managing the configuration of many RHEL servers accross multiple enviroments from an enterprise point of view. Following this, a brief overview of how <a href="http://www.redhat.com/products/enterprise-linux/rhn-satellite/">Red Hat Network Satellite</a> and <a href="http://puppetlabs.com/puppet/what-is-puppet/">Puppet</a> can be combined to achieve these goals. Then taking a deep technical dive into the steps a server might go through to go from bare metal to having a web application up and running, using these tools.</p>
-<h6 id="oscon-report-by-masafumi-ohta">OSCON Report (by Masafumi Ohta)</h6>
+<h6 id="oscon-report-by-masafumi-ohta">OSCON Report (by <font color="#CC2200">Masafumi Ohta</font>)</h6>
 <p>Ohta-san attended the O'Reilly Open Source Conference (<a href="http://www.oscon.com/oscon2012">OSCON 2012</a>), that took place in Portland, OR, last July. He also attended the Community Leadership Summit (<a href="http://www.communityleadershipsummit.com/about/">CLS12</a>), the event started by Jono Bacon, the community manager for the global Ubuntu community and author of The Art of Community.</p>
 <p>In his talk, Ohta-san will summarize the sessions he attended in these two events, talking about how people are contributing to the Open Source community, latest activities, and more.</p>
 <h5 id="other-items-on-the-agenda">Other items on the agenda</h5>
@@ -166,9 +166,9 @@ Chiyoda-ku, Tokyo 101-0051</p>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2012</p>
+<p><font color="#CC2200">2012:09</font> <font color="#CC2200">09</font></p>
     </div>
 
     <div id="footer">

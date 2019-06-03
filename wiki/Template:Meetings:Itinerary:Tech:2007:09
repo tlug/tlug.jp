@@ -136,15 +136,15 @@
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="an-introduction-to-xen-by-henri-servomaa">An introduction to Xen by Henri Servomaa</h5>
-<p>Henri Servomaa will be giving an introduction to Xen, how it works, the main features and limitations and some usage examples, followed by a demo</p>
+<h5 id="an-introduction-to-xen-by-henri-servomaa">An introduction to Xen by <font color="#CC2200">Henri Servomaa</font></h5>
+<p><font color="#CC2200">Henri Servomaa</font> will be giving an introduction to Xen, how it works, the main features and limitations and some usage examples, followed by a demo</p>
 <h4 id="lightning-talks">Lightning Talks</h4>
 <p>''From <a href="http://en.wikipedia.org/wiki/Lightning_Talk">Lightning_Talk (Wikipedia)</a> ''</p>
 <blockquote>
 <p>A Lightning Talk is a short presentation given at a conference or similar forum. Unlike other presentations, lightning talks last only a few minutes and several will usually be delivered in a single period by different speakers.</p>
 </blockquote>
-<h5 id="the-slashdotting-by-zev-blut">The slashdotting by Zev Blut</h5>
-<p>Zev Blut will be giving us a debrief on the TLUG slashdotting</p>
+<h5 id="the-slashdotting-by-zev-blut">The slashdotting by <font color="#CC2200">Zev Blut</font></h5>
+<p><font color="#CC2200">Zev Blut</font> will be giving us a debrief on the TLUG slashdotting</p>
 <h4 id="demos">Demos</h4>
 <p>Questions, trouble-shooting, and smaller demonstrations. If you need some help or have something to show off, please bring your notebook.</p>
 <h3 id="other-items-on-the-agenda">Other Items on the Agenda</h3>
@@ -152,7 +152,7 @@
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

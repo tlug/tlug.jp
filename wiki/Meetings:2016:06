@@ -156,14 +156,14 @@ Chiyoda-ku, Tokyo 102-0071<br />
 </ul>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="visualising-trees-and-graphs-using-tcltk-and-graphviz-by-benjamin-kowarsch">Visualising Trees and Graphs using TCL/TK and GraphViz (by Benjamin Kowarsch)</h6>
+<h6 id="visualising-trees-and-graphs-using-tcltk-and-graphviz-by-benjamin-kowarsch">Visualising Trees and Graphs using TCL/TK and GraphViz (by <font color="#CC2200">Benjamin Kowarsch</font>)</h6>
 <p>This is a rather more practical presentation of tree and graph visualisation in two parts:</p>
 <p>(1) Rendering syntax diagrams using TCL/TK</p>
 <p>In this part Benjamin will show how he generates and renders nice looking syntax diagrams (aka railroad diagrams) with an open source TCL/TK script and how you can modify the script for your own needs.</p>
 <p>(2) Generating syntax trees and rendering them with GraphViz</p>
 <p>In this part Benjamin will give a basic overview of the DOT graph language used by the open source renderer GraphViz, then he will show how he builds syntax trees from source code to generate DOT output using his own compiler (written in C) and then render the output with GraphViz.</p>
 <p>Attendees are invited to pre-install TCL/TK and GraphViz on their computers for some practical experimentation after the presentation.</p>
-<h6 id="fire-eye-services-and-technology-and-the-role-of-a-linux-admin-by-erin-hughes">Fire Eye Services and Technology and the role of a Linux Admin (by Erin Hughes )</h6>
+<h6 id="fire-eye-services-and-technology-and-the-role-of-a-linux-admin-by-erin-hughes">Fire Eye Services and Technology and the role of a Linux Admin (by <font color="#CC2200">Erin Hughes </font>)</h6>
 <p>A brief overview of Fire Eye(*) services and technology and how Linux administration skills are the key to success in securing non-Linux (e.g. Windows) environment.</p>
 <p>(*) <a href="https://www.fireeye.com/" class="uri">https://www.fireeye.com/</a></p>
 <h5 id="nijikai">Nijikai</h5>
@@ -178,9 +178,9 @@ Chiyoda-ku, Tokyo 102-0071<br />
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
-<li>Alberto Tomita : 080-3463-9256</li>
+<li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p>Category:Meetings Category:Meetings:2016</p>
+<p><font color="#CC2200">2016:06</font> <font color="#CC2200">06</font></p>
     </div>
 
     <div id="footer">

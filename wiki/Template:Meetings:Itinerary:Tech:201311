@@ -136,7 +136,7 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="programming-smart-cardssim-cards-by-nikolay-elenkov">Programming Smart Cards/SIM Cards (by Nikolay Elenkov)</h6>
+<h6 id="programming-smart-cardssim-cards-by-nikolay-elenkov">Programming Smart Cards/SIM Cards (by <font color="#CC2200">Nikolay Elenkov</font>)</h6>
 <p>Programming and using Smart Cards on Linux. Nikolay will cover the basics of smart card programming and introduce some of the major open source middleware and tools available for Linux.</p>
 <h6 id="introduction-to-webrtc-by-edward-middleton">Introduction to WebRTC (by <a href="./Edward_Middleton">Edward Middleton</a>)</h6>
 <p>Edward will cover the history of peer-to-peer technology in the web. He'll look at the WebRTC API's and protocols, and then cover some interesting open-source projects using WebRTC technology.</p>

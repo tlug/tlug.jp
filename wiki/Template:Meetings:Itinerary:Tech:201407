@@ -136,7 +136,7 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="i18n-on-linux-by-example-japanese-by-christian-horn">i18n on Linux by example: Japanese (by Christian Horn)</h6>
+<h6 id="i18n-on-linux-by-example-japanese-by-christian-horn">i18n on Linux by example: Japanese (by <font color="#CC2200">Christian Horn</font>)</h6>
 <ul>
 <li>What are i18n and l10n? Do we need that?</li>
 <li>Character encodings: what is it, what are the most important ones?</li>
@@ -147,7 +147,7 @@
 <li>i18n for webpages end email</li>
 <li>i18n in BIOS/Console/UEFI</li>
 </ul>
-<h6 id="metasepi-report-writing-netbsd-sound-drivers-in-haskell-by-kiwamu-okabe">Metasepi Report: Writing NetBSD Sound Drivers in Haskell (by Kiwamu Okabe)</h6>
+<h6 id="metasepi-report-writing-netbsd-sound-drivers-in-haskell-by-kiwamu-okabe">Metasepi Report: Writing NetBSD Sound Drivers in Haskell (by <font color="#CC2200">Kiwamu Okabe</font>)</h6>
 <p>Most strongly typed, functional programming languages are not equipped with a reentrant garbage collector. Therefore such languages are not used for operating systems programming, where the virtues of types are most desired. We propose the use of Context-Local Heaps (CLHs) to achieve reentrancy, which also increasing the speed of garbage collection. We have implemented CLHs in Ajhc <a href="http://ajhc.metasepi.org/" class="uri">http://ajhc.metasepi.org/</a>, a Haskell compiler derived from jhc <a href="http://repetae.net/computer/jhc/" class="uri">http://repetae.net/computer/jhc/</a>, rewritten some NetBSD sound drivers using Ajhc, and benchmarked them.</p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks at Wara-Wara Hanzomon <a href="http://goo.gl/maps/MH9b3" class="uri">http://goo.gl/maps/MH9b3</a></p>

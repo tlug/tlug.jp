@@ -220,7 +220,7 @@
 <p>Many distributions include Japanese fonts by default. However, if they don't, you'll have to install them. With Ubuntu, fonts are installed if you choose to add Japanese support. With RedHat and its offshoots, one can search for Japanese fonts with</p>
 <p><code>yum search fonts-ja</code></p>
 <p>At different times, I've had different results. For instance, CentOS offered ttfonts-ja, Fedora offered something like fonts-japanese.noarch. Regardless, the search for fonts-ja usually gave me results. In ArchLinux one adds ttf-arphic-uming and ttf-arphic-ukai with pacman.</p>
-<p>One can always donwnload the substitute kochi fonts from <a href="http://download.sourceforge.jp/efont/5411/" class="uri">http://download.sourceforge.jp/efont/5411/</a> sourceforge.jp. Get the package kochi-substitute-20030809.tar.bz2. Decompress and untar it, and it will create a kochi-substitute-20030809 directory. In the directory you'll see two files with a ttf ending, the kochi-gothic and kochi-mincho substitute fonts. Move them into one of the directories that your distribution searches for fonts--as mentioned above, you can grep FontPath in /etc/X11/xorg.conf.</p>
+<p>One can always donwnload the substitute kochi fonts from <a href="http://download.sourceforge.jp/efont/5411/">sourceforge.jp</a>. Get the package kochi-substitute-20030809.tar.bz2. Decompress and untar it, and it will create a kochi-substitute-20030809 directory. In the directory you'll see two files with a ttf ending, the kochi-gothic and kochi-mincho substitute fonts. Move them into one of the directories that your distribution searches for fonts--as mentioned above, you can grep FontPath in /etc/X11/xorg.conf.</p>
 <p>For the beginner, you decompress and untar it with</p>
 <p><code>tar jxvf kochi-substitute-20030809.tar.bz2</code></p>
 <p>Most font directories (a popular location on many distros is /usr/X11R6/lib/X11/fonts) will already have a truetype, TrueType or TTF directory. Move the fonts into one of those (after making sure that directory is listed in your xorg.conf's FontPaths.)</p>
@@ -309,7 +309,7 @@
 <p>If the package fails to build with an unable to allocate memory error, add the following to the scim-anthy Makefile's configuration options. (If you look at the Makefile, it will be fairly plain where these are.)</p>
 <p><code>UNLIMIT_RESOURCES=      datasize</code></p>
 <p>After that scim-anthy can be used in the same way it's used with Linux or FreeBSD, adding the various XMODIFIER and LC_CTYPE lines to your .xinitrc, along with scim -d if you want it to always be running. It will then be called with Ctrl+space and work as you would expect, entering romaji, seeing hiragana and hitting the space bar to view available kanji.</p>
-<p>Category:Japanese_And_Linux_Howto</p>
+<p><font color="#CC2200">Using_scim-anthy</font></p>
     </div>
 
     <div id="footer">

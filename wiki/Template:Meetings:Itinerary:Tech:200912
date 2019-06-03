@@ -137,7 +137,7 @@
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
 <h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
-<p><strong>“Parallels[1] virtualization products for Linux”</strong> By <em>Alexei Anisimov</em></p>
+<p><strong>“Parallels[1] virtualization products for Linux”</strong> By <em><font color="#CC2200">Alexei Anisimov</font></em></p>
 <p><em>Parallels Virtuozzo Containers:</em></p>
 <ul>
 <li>Overview, general information, features</li>
@@ -165,7 +165,7 @@
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
 <p>Short break <em>(maybe)</em></p>
 <h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
-<p><strong>“Linux and the Top500”</strong> By <em>Avi Telyas</em></p>
+<p><strong>“Linux and the Top500”</strong> By <em><font color="#CC2200">Avi Telyas</font></em></p>
 <ul>
 <li>What is the Top 500
 <ul>
@@ -193,7 +193,7 @@
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

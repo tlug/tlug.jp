@@ -138,7 +138,7 @@
 <h4 id="presentations">Presentations</h4>
 <h5 id="presentation">&lt;&lt; Presentation &gt;&gt;</h5>
 <p><strong>“Revision Control for Managing Configuration Files, Part I”</strong><br />
-By <em><a href="./Curt_Sampson">Curt Sampson</a></em> and <em>Stephen Turnbull</em></p>
+By <em><a href="./Curt_Sampson">Curt Sampson</a></em> and <em><font color="#CC2200">Stephen Turnbull</font></em></p>
 <p>This month, Curt Sampson and Steve Turnbull will talk about revision control and how to apply it to managing Linux system configuration. We will describe what revision control is, show examples of at least two revision control systems (RCS and Git), explain what the issues are when using these to manage Linux system configuration files, and introduce etckeeper, which addresses those issues.</p>
 <p>Though this is the first part of a series of talks on this subject, this installment not only gives background necessary to understanding more sophisticated concepts to be introduced later, but also provides a useful, self-contained system that will be in itself of benefit to any systems administrator.</p>
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
@@ -149,7 +149,7 @@ By <em><a href="./Curt_Sampson">Curt Sampson</a></em> and <em>Stephen Turnbull</
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p>Category:Template:Meetings Category:Template</p>
+<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

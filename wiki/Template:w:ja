@@ -134,11 +134,11 @@
     </div>
 
     <div class="content">
-      <p>[<a href="http://ja.wikipedia.org/wiki/" class="uri">http://ja.wikipedia.org/wiki/</a>{{{1}}} {{{1}}} (Wikipedia ja)] Creates a link to Wikipedia (日本語).</p>
+      <p>[<a href="http://ja.wikipedia.org/wiki/" class="uri">http://ja.wikipedia.org/wiki/</a>  (Wikipedia ja)] Creates a link to Wikipedia (日本語).</p>
 <p>[http://ja.wikipedia.org/wiki/桜 桜 (Wikipedia ja)]</p>
 <p>would produce:</p>
 <p><a href="http://ja.wikipedia.org/wiki/桜">桜 (Wikipedia ja)</a></p>
-<p>Category:Template</p>
+<p><font color="#CC2200">w:ja</font></p>
     </div>
 
     <div id="footer">
