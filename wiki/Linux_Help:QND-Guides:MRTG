@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Author: <a href="./User:Jmglov">Josh Glover</a></p>
+<h2 id="do-you-have-mrtg">Do You Have MRTG?</h2>
+<p>In a shell, type:</p>
+<p><code>which mrtg</code></p>
+<p>This should return the path to <em>mrtg</em>, probably <em>/usr/bin/mrtg</em>. If it is found, continue to <a href="#Configuring_MRTG" title="wikilink">#Configuring MRTG</a>. If it is not found, see <a href="./Linux_Help:QND-Guides:Finding_and_Installing_Software">Linux_Help:QND-Guides:Finding_and_Installing_Software</a></p>
+<h2 id="configuring-mrtg">Configuring MRTG</h2>
+<p>To generate an <em>mrtg.cfg</em> file, you can use the <em>cfgmaker</em> program (included in the MRTG distribution). In a shell, type:</p>
+<p><code>su - root</code><br />
+<code>mkdir /usr/local/mrtg</code><br />
+<code>cfgmaker --global 'WorkDir: /usr/local/mrtg' \</code><br />
+<code>         --global 'Options[_]: bits,growright' \</code><br />
+<code>         --output /etc/mrtg.cfg \</code><br />
+<code>         community@router.my.domain</code></p>
+<p>In the second command, you need to change the <em>WorkDir</em> directive to reflect the path where you want MRTG to generate its graphs and HTML pages. If you are running a webserver, it might make sense to have MRTG use a subdirectory of <em>htdocs</em>. The Red Hat RPM suggested in this QND Guide actually creates the <em>/var/www/html/mrtg</em> directory, which is probably acceptable if you have installed Apache from the Red Hat RPM as well.</p>
+<p>You will also need to change the bit of the command that says 'community@router.my.domain' to reflect the community string and hostname or IP address of whichever piece of networking hardware you will be using MRTG to monitor.</p>
+<p>For more on <em>cfgmaker</em>, type into a shell:</p>
+<p><code>man cfgmaker</code></p>
+<h2 id="letting-mrtg-grab-its-data">Letting MRTG Grab its Data</h2>
+<p>In a shell, type:</p>
+<p><code>su - root</code><br />
+<code>crontab -e</code></p>
+<p>This will bring up root's crontab in a text editor (corresponding to your <em>EDITOR</em> environment variable). At the bottom, add the two lines:</p>
+<p><code># Grab data for MRTG every five minutes</code><br />
+<code>*/5 * * * * /usr/bin/mrtg /etc/mrtg.cfg</code></p>
+<p>This will run the MRTG script every five minutes, using the config file that you created in <a href="#Configuring_MRTG" title="wikilink">#Configuring MRTG</a>. If your <em>mrtg</em> script is installed in a difference place (type</p>
+<pre><code>which mrtg</code></pre>
+<p>to find out), replace the <em>/usr/bin/mrtg</em> with that path. Likewise, if you saved your config to a file other than <em>/etc/mrtg.cfg</em>, substitute that file above.</p>
+<h2 id="view-the-results">View the Results</h2>
+<p>Congratulations, you should be done. Fire up a web browser and point it at the directory (or URL, if you are running a webserver and you chose to put your MRTG data in its documents tree) that you specified in <a href="#Configuring_MRTG" title="wikilink">#Configuring MRTG</a>. You should see plenty of colourful graphs.</p>
+<h2 id="references">References</h2>
+<ol>
+<li>For more information on MRTG, see:
+<ol>
+<li><a href="http://people.ee.ethz.ch/~oetiker/webtools/mrtg/" class="uri">http://people.ee.ethz.ch/~oetiker/webtools/mrtg/</a></li>
+<li><a href="http://people.ee.ethz.ch/~oetiker/webtools/mrtg/mrtg.html" class="uri">http://people.ee.ethz.ch/~oetiker/webtools/mrtg/mrtg.html</a></li>
+</ol></li>
+<li>For more information on SNMP (Simple Network Management Protocol, which MRTG uses to get its data), see:
+<ol>
+<li><a href="ftp://ftp.isi.edu/in-notes/rfc1157.txt" class="uri">ftp://ftp.isi.edu/in-notes/rfc1157.txt</a></li>
+<li><a href="http://www.rescomp.berkeley.edu/about/training/senior/progs/SNMP-HOWTO/SNMP-HOWTO.html" class="uri">http://www.rescomp.berkeley.edu/about/training/senior/progs/SNMP-HOWTO/SNMP-HOWTO.html</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm#xtocid176251" class="uri">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm#xtocid176251</a></li>
+</ol></li>
+<li>For more information on setting up MRTG to monitor Cisco hardware, see:
+<ol>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/mrtg.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/mrtg.htm</a></li>
+</ol></li>
+<li>And finally, for more information on enabling and configuring SNMP on Cisco hardware (you *do* use Cisco, right?), see:
+<ol>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/snmpios.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/snmpios.htm</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm</a></li>
+</ol></li>
+</ol>
+<h2 id="chasing-dependencies">Chasing Dependencies</h2>
+<p>If you are reading this, you must be having a problem with dependencies that is keeping MRTG from installing. If this is not the case, stop reading this appendix.</p>
+<p>The steps that you must follow to resolve your dependencies will again differ based on which distribution you run.</p>
+<h3 id="red-hat-mandrake-or-other-rpm-based-linux-distro">Red Hat, Mandrake, or other RPM-based Linux distro</h3>
+<p>The <em>mrtg-2.9.17-3.i386.rpm</em> RPM depends on the <em>gd-devel</em> package for generating the graphs. gd-devel has a few dependencies of its own. To fix the dependency problems, try the following steps:</p>
+<ol>
+<li>In a shell, type:
+<pre><code>rpm -q freetype-devel</code></pre>
+<p>If the <em>freetype-devel</em> package is found, move onto the next step. If not, download the <em>freetype-2.0.9-2.i386.rpm</em> and <em>freetype-devel-2.0.9-2.i386.rpm RPMs</em>. In a shell, change to the directory where you downloaded the RPMs and type:</p>
+<pre><code>su - root&amp;#13;rpm -Uvh freetype-2.0.9-2.i386.rpm freetype-devel-2.0.9-2.i386.rpm</code></pre>
+<p>If the RPMs install with no problems, move onto the next step. If not, turn to your LUG.</p></li>
+<li>In a shell, type:
+<pre><code>rpm -q libjpeg</code></pre>
+<p>If the <em>libjpeg</em> package is found, move onto the next step. If not, download <em>libjpeg-6b-19.i386.rpm</em>. In a shell, change to the directory where you downloaded the RPM and type:</p>
+<pre><code>su - root&amp;#13;rpm -Uvh libjpeg-6b-19.i386.rpm</code></pre>
+<p>If the RPM installs with no problems, move onto the next step. If not, turn to your LUG.</p></li>
+<li>Download <em>gd-1.8.4-4.i386.rpm</em> and <em>gd-devel-1.8.4-4.i386.rpm</em> files. In a shell, change to the directory where you downloaded the RPMs and type:
+<pre><code>su - root&amp;#13;rpm -Uvh gd-1.8.4-4.i386.rpm gd-devel-1.8.4-4.i386.rpm</code></pre>
+<p>If the RPMs install with no problems, return to Step 2 and try again. If not, turn to your LUG.</p></li>
+</ol>
+<p><font color="#CC2200">MRTG</font></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

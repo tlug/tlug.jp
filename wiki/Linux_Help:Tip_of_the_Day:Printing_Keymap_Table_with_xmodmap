@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p><code>xmodmap -pke</code></p>
+<p>This tip is helpful when you have a (mostly) working keyboard, and one that isn't working so well. For example, I have a Dell Latitude D410 laptop with a Japanese keyboard. For some odd reason, when I tell <a href="http://x.org/">X.org</a> to use a <em>jp106</em> keyboard model, the backslash / underscore / ろ key that is located just to the left of my right shift key does not work. Neither do the various Japanese input-specific special keys (半角 / 全角 / 漢字, 無変換, 変換, and カタカナ / ひらがな / ローマ字), the Windows keys, or the volume raise, lower, and mute keys. Luckily, I also have a <em>jp106</em> keyboard on my <a href="http://www.gentoo.org/">Gentoo</a> desktop.</p>
+<p>Here's how I got my keymap on the Dell laptop straightened out.</p>
+<ol>
+<li>On the desktop, run:
+<pre><code>xmodmap -pke</code></pre>
+<p>You will get a bunch of output like this:</p>
+<pre><code>keycode  47 = semicolon plus kana_RE&amp;#13;keycode  48 = colon asterisk kana_KE&amp;#13;keycode  49 = Zenkaku_Hankaku Kanji&amp;#13;keycode  50 = Shift_L</code></pre></li>
+<li>On the laptop, open at least two terminal emulators</li>
+<li>In one term, cd to your home directory and edit the file <em>.xmodmaprc</em> (this file most likely will not exist, and thus be empty when you edit it)</li>
+<li>In the other term, run:
+<pre><code>xev</code></pre>
+<p>This will launch a little window that, when it has focus, will spew information about X events to the terminal from which it was launched</p></li>
+<li>Get used to xev by giving it the focus, waiting for a second until there is no new output to the terminal window, then pressing a key. You should see out like this appear:
+<pre><code>KeyPress event, serial 27, synthetic NO, window 0x1600001,&amp;#13;    root 0x3b, subw 0x0, time 2049376201, (158,128), root:(1269,943),&amp;#13;    state 0x0, keycode 208 (keysym 0xff27, Hiragana_Katakana), same_screen YES,&amp;#13;    XLookupString gives 0 bytes:&amp;#13;    XmbLookupString gives 0 bytes:&amp;#13;    XFilterEvent returns: False&amp;#13;&amp;#13;KeyRelease event, serial 30, synthetic NO, window 0x1600001,&amp;#13;    root 0x3b, subw 0x0, time 2049376297, (158,128), root:(1269,943),&amp;#13;    state 0x0, keycode 208 (keysym 0xff27, Hiragana_Katakana), same_screen YES,&amp;#13;    XLookupString gives 0 bytes:</code></pre>
+<p>The main thing you want to note here is the keycode, which will be the second bit of data in the third line of every log statement output in response to a KeyPress event.</p></li>
+<li>Now, follow these steps for each key that is not working on the laptop:
+<ol>
+<li>On the laptop (i.e. non-working keyboard), give the xev window the focus, wait a few seconds and press the troublesome key. e.g. I press the backslash / underscore / ろ key</li>
+<li>Note the keycode. e.g. I see
+<pre><code>KeyPress event, serial 27, synthetic NO, window 0x1600001,&amp;#13;    root 0x3b, subw 0x0, time 2049376201, (158,128), root:(1269,943),&amp;#13;    state 0x0, keycode 211 (keysym 0x0, NoSymbol), same_screen YES,&amp;#13;    ...</code></pre>
+<p>I note keycode 211.</p></li>
+<li>On the desktop (i.e. working keyboard), find the line that corresponds to the key you are trying to map. Note that it may not have the same keycode. In my example, I find the line
+<pre><code>keycode 211 = backslash underscore kana_RO</code></pre></li>
+<li>On the laptop, switch to the terminal where you are editing <em>.xmodmaprc</em> and enter the line just as it appeared in the output of <em>xmodmap -pke</em> on the desktop, but changing the keycode if necessary. e.g. I enter
+<pre><code>keycode 211 = backslash underscore kana_RO</code></pre></li>
+</ol></li>
+<li>After entering mapping expressions into <em>.xmodmaprc</em> on the laptop for each of your troublesome keys, save <em>.xmodmaprc</em> and exit</li>
+<li>Close <em>xev</em> by hitting Ctrl-C in the terminal from which you launched it</li>
+<li>Now, make sure that the command
+<pre><code>xmodmap ${HOME}/.xmodmaprc</code></pre>
+<p>runs on startup of your window manager. If you are using an old-school <em>.xinitrc</em>, simply add the line</p>
+<pre><code>xmodmap ${HOME}/.xmodmaprc</code></pre>
+<p>to the file before the window manager is started. <font color="red"><strong>GNOME / KDE user: update this section to give instructions for running xmodmap on startup!</strong></font></p></li>
+</ol>
+<p><font color="#CC2200">xmodmap</font></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Author: <font color="#CC2200">Scott Robbins</font></p>
+<h2 id="introduction">Introduction</h2>
+<p>Getmail is aimed to be a replacement for fetchmail. Many people consider it faster and more secure than fetchmail. My personal experience has been that it seems to at least be a little faster.</p>
+<p>Getmail will require that python is installed. Most distributions have python so it is rare that this will be problem.</p>
+<p>Note that this page is about getmail version 4.x. Debian and some others, as of October 2004 are still using version 3.x For information about 3.x please see my getmail <a href="http://home.nyc.rr.com/computertaijutsu/getmail3.html">3.x page</a>. (As it is now 2007, however, I doubt that any distributions still has it. The author of getmail strongly recommends that you upgrade.)</p>
+<h2 id="installing-getmail">Installing Getmail</h2>
+<h3 id="do-you-have-getmail">Do You Have Getmail?</h3>
+<p>As fetchmail is still far better known, the chances are that you don't have getmail installed. However, it never hurts to check. At a command line type:</p>
+<p><code>which getmail</code></p>
+<p>If you get a response like <em>/usr/bin/getmail</em> or <em>/usr/local/bin/getmail</em>, you can skip to <a href="#Configuration" class="uri" title="wikilink">#Configuration</a>. Otherwise, continue with <a href="#Installing_Getmail_2" title="wikilink">#Installing Getmail_2</a>.</p>
+<h3 id="installing-getmail-1">Installing Getmail</h3>
+<p>First follow the instructions in <a href="./Linux_Help:QND-Guides:Finding_and_Installing_Software">Linux_Help:QND-Guides:Finding_and_Installing_Software</a> for information on getting and installing Getmail. If it's not included with your distribution (while it is in <a href="http://www.gentoo.org">Gentoo</a>'s portage and FreeBSD's ports, it doesn't seem to be on any of the RedHat 8.0 CDs) then go to the getmail homepage. They have both a tar.gz file and an RPM. I haven't used the RPM--the tar.gz file will work with RedHat.</p>
+<p>FreeBSD's ports or Gentoo's portage will install Getmail for you. If you've downloaded the tarball then untar it somewhere and cd to the directory that is created. Using version 4.2.2 as an example:</p>
+<p><code>tar xzf getmail-4.2.2.tar.gz</code><br />
+<code>cd getmail-4.2.2</code><br />
+<code>python setup.py build</code><br />
+<code>python setup.py install</code></p>
+<h2 id="configuration">Configuration</h2>
+<p>FreeBSD and Gentoo both include a <em>getmailrc-example</em> file. In FreeBSD it's in <em>/usr/local/share/examples/getmail/getmailrc-examples</em>. In Gentoo, the last time I looked, it was in <em>/usr/share/examples/getmail/getmailrc-examples</em>. By default, Getmail looks for a <em>.getmail/getmailrc</em> file in the user's home directory. So, as the user who will be using Getmail (for this example, we'll assume that the <em>getmailrc-example</em> is in <em>/usr/local/share/getmail</em>):</p>
+<p><code>cd</code><br />
+<code>mkdir .getmail</code><br />
+<code>cp /usr/local/share/examples/getmail/getmailrc-examples .getmail/getmailrc</code></p>
+</pre>
+<p>Now, we will edit our new <em>getmailrc</em> file. This example is for FreeBSD, which has <em>maildrop</em> in <em>/usr/local/bin</em>. Some Linux distributions will have <em>maildrop</em> in <em>/usr/bin</em>. If that's the case then change the <em>/usr/local/bin/maildrop</em> to <em>/usr/bin/maildrop</em>.</p>
+<p>(I use <em>maildrop</em> as my example because it's what I use--many others use <em>procmail</em>.)</p>
+<p>For user <em>john</em>, with an email address of <em>john@example.com</em>, email user name <em>john</em>, a password of <em>1234</em>, and an ISP whose pop server name is <em>pserver.example.com</em>, we would like our <em>getmailrc</em> to look like this:</p>
+<p><code>[options]</code><br />
+<code>verbose = 0</code><br />
+<code>delete = True</code><br />
+<br />
+<code>[retriever]</code><br />
+<code>type = SimplePOP3Retriever</code><br />
+<code>server = pserver.example.com</code><br />
+<code>username = john</code><br />
+<code>password = 1234</code><br />
+<br />
+<code>[destination]</code><br />
+<code>type = MDA_external</code><br />
+<code>path = /usr/local/bin/maildrop</code><br />
+<code>unixfrom = True</code></p>
+<p>Note the line for <em>maildrop</em>. The above is for a FreeBSD machine, where <em>maildrop</em> is in <em>/usr/local/bin</em>. If you are using Linux, then it may be in <em>/usr/bin</em>. To find out simply type at a command prompt:</p>
+<p><code>which maildrop</code></p>
+<p>and adjust your <em>getmailrc</em> accordingly. (The same holds for <em>procmail</em>, or any other external MDA.)</p>
+<h2 id="using-getmail-with-gmail">Using Getmail with Gmail</h2>
+<p>As <a href="http://mail.google.com/">Gmail</a> becomes more and more popular, folks are often making use of its POP download feature, enabling you to receive Gmail email on your normal client.</p>
+<p>As Gmail uses SSL, the above configuration would work save for the <em>SimplePop3Retriever</em> line. For a Gmail account, you want, assuming your Gmail account is <em>john@gmail.com</em> with a password of <em>1234</em>:</p>
+<p><code>[options]</code><br />
+<code>verbose = 0</code><br />
+<code>delete = True</code><br />
+<br />
+<code>[retriever]</code><br />
+<code>type = SimplePOP3SSLRetriever</code><br />
+<code>server = pop.gmail.com</code><br />
+<code>username = john</code><br />
+<code>password = 1234</code><br />
+<br />
+<code>[destination]</code><br />
+<code>type = MDA_external</code><br />
+<code>path = /usr/local/bin/maildrop</code><br />
+<code>unixfrom = True</code></p>
+</pre>
+<p>If one examines the docs, (<em>/usr/local/share/doc/getmail/configuration.txt</em> or <em>configuration.html</em> in FreeBSD) one finds that the default for the <em>unixfrom</em> line is false. However, some MDAs expect it. Both Maildrop and Procmail need it.</p>
+<h2 id="testing">Testing</h2>
+<p>To test Getmail, simply type at a command prompt :</p>
+<p><code>getmail -v</code></p>
+<p>If all is set up successfully, you should see it polling your pop server and retrieving your mail.</p>
+<h2 id="setting-up-a-cronjob-for-getmail">Setting up a Cronjob for Getmail</h2>
+<p>Unlike Fetchmail, Getmail doesn't have a daemon option, so if you want it to poll your server at regular intervals, you will have to add a <em>crontab</em> entry. The <em>man 5 crontab</em> page explains things rather clearly, but a quick example.</p>
+<p>On most systems, a user can edit his own <em>crontab</em>. So as user john you would do:</p>
+<p><code>crontab -e</code></p>
+<p>This will open up your default text editor. Type in:</p>
+<p><code>*/5 * * * * /usr/local/bin/getmail</code></p>
+<p>That will set Getmail to run every 5 minutes. If you wish to change the interval you want to change the 5 to however many minutes you wish.</p>
+<p>If for some reason you aren't able to edit your own <em>crontab</em>, then as root or with root privilege:</p>
+<p><code>crontab -eu john</code></p>
+<p>And enter:</p>
+<p><code>*/5 * * * * /usr/local/bin/getmail</code></p>
+<p>One quick note of warning. If you wanted the job to run every two hours and made a crontab like this:</p>
+<p><code>* */2 * * *</code></p>
+<p>it would be running every minute. The correct way to specify the job to run every two hours would be:</p>
+<p><code>0 */2 * * *</code></p>
+<h2 id="a-few-gotchas-mostly-fixed-by-now">A Few Gotchas (Mostly Fixed by Now)</h2>
+<p>With FreeBSD 5.1 and 5.2, I ran into an issue where Getmail would either not run at all, or I would get a “permission denied” error from <em>crontab</em>. This is mentioned on Getmail's home page. The problem is that <em>crontab</em> has a shorter <em>$PATH</em>. The file (in FreeBSD) <em>/usr/local/bin/getmail</em> is simply a shell script. The top line read:</p>
+<p><code>#!/usr/bin/env python2.3</code></p>
+<p>I had to change that to reflect the complete path to Python:</p>
+<p><code>#!/usr/bin/env /usr/local/bin/python2.3</code></p>
+<p>This is a rather old issue, long since fixed, but there are machines running 5.3 out there, so it doesn't hurt to mention it.</p>
+<p>As of December, 2004, in FreeBSD 5.3 at least, if you have the most recent versions of both Getmail and Python, a <em>DeprecationWarning</em> regarding use of the “strict” keyword gets printed. If you have Sendmail or another MTA sending you system messages, this will send you a message each time Getmail retrieves mail.</p>
+<p>To avoid this warning you can edit your <em>crontab</em> to read:</p>
+<p><code>*/5 * * * * /usr/local/bin/getmail &gt; /dev/null 2&gt;&amp;1</code></p>
+<p>This too was fixed a long time ago.</p>
+<p>With Getmail 4.x each account will need a separate <em>getmailrc</em> file. If, for instance, one gets their home and work mail, create a <em>getmailrc-home</em> and <em>getmailrc-work</em> rc file. Put both of them in your <em>.getmail</em> directory and then, call Getmail with:</p>
+<p><code>getmail -rgetmailrc-home -rgetmailrc-work</code></p>
+<p>In other words, preface the name of the rcfile with -r (and no space in between the -r and your rcfilename).</p>
+<p>Note that Getmail is going to look in <em>~/.getmail</em> for the rcfiles, so as long as both files are in that directory, you don't need to specify their full path. They don't have to be called <em>getmailrc-home</em>, etc, you can simply call them <em>home</em> and <em>work</em>. If you don't specify the rcfile name, Getmail looks for a <em>~/.getmail/getmailrc</em> file. Therefore, whether you call it <em>getmailrc-home</em> or just home, you'll get an error unless you specify the rcfile as shown above.</p>
+<p>If there is a non-fatal error, it will retrieve the mail but not delete it from the server. This is probably A Good Thing(TM). For example, in ArchLinux, where I don't have SpamAssassin, I used my <em>.mailfilter</em> file from my BSD box, where I do have it. Getmail noted that there was no SpamAssassin and it went to STDERR. The message was retrieved, but remained on the server.</p>
+<p>Another time, back when I used Procmail, the issue was a simple mistype in my <em>rc.lists</em>, having put a capital letter o instead of the numeral zero in one of my rules. Procmail noted this, wrote to STDERR and Getmail would retrieve the messages, but not delete them from the server, retrieving them each time it polled for mail.</p>
+<p>In each case, once I fixed the error in my MDA's configuration file Getmail deleted messages from the server as I wished.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="http://pyropus.ca/software/getmail/">Getmail home page</a></li>
+<li><a href="http://home.nyc.rr.com/computertaijutsu/getmail.html">A more detailed page of mine</a></li>
+<li><pre><code>man crontab</code></pre></li>
+<li><pre><code>man 5 crontab</code></pre></li>
+</ul>
+<p><font color="#CC2200">Getmail</font></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

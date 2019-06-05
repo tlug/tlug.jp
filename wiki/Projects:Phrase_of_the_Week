@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="overview">Overview</h2>
+<p>The Phrase of the Week Project is intended to be a group effort to compare and exchange languages, and provide some level of insight into the languages used. The goal is to take a commonly used Japanese phrase or idiomatic expression, and provide a literal English translation, explanation of usage and context, and a good idiomatic equivalent in English.</p>
+<p>Others would then take the expression and translate it to other languages, along with a natural language equivalents, explanations and cultural notes for the phrases chosen.</p>
+<p>At the end of the week, the editors will compile the results and post them to the TLUG Wiki, posting a link to the site in an RSS feed so that people can be notified of the changes.</p>
+<h2 id="status">Status</h2>
+<ul>
+<li>Tue, 31 Jul 2007 19:49:58 +0900: Proposed by Ken Burling</li>
+<li>Fri, 3 Aug 2007 15:48:56 +0900: Feedback from Delyana Burdjeva-Glover, technical suggestions from <font color="#CC2200">Josh Glover</font></li>
+<li>Tue, 7 Aug 2007 12:04:45 +0900: Formal proposal and wiki, RSS drafts by Ken Burling</li>
+<li>Mon, 20 Aug 2007 14:50:00 +0900: Initial wiki draft by <font color="#CC2200">Josh Glover</font></li>
+</ul>
+<h2 id="rss">RSS</h2>
+<?xml version="1.0" ?>
+<p><rss version="2.0"><br />
+<code> </code><channel><br />
+<code>   </code></p>
+<title>
+<p>TLUG-Lingo Phrase</p>
+</title>
+<p><code>   </code><link><a href="http://www.tlug.jp/wiki/Lingo_Phrase_of_the_Week"><code>http://www.tlug.jp/wiki/Lingo_Phrase_of_the_Week</code></a></link><br />
+<code>   </code><description><code>Friendly banter and language exchange.</code></description><br />
+<code>   </code><docs><a href="http://blogs.law.harvard.edu/tech/rss"><code>http://blogs.law.harvard.edu/tech/rss</code></a></docs><br />
+<code>   </code><managingEditor><code>notsure</code></managingEditor><br />
+<code>   </code><webMaster><code>webmaster@tlug.jp</code></webMaster><br />
+<br />
+<code>   </code><item><br />
+<code>     </code></p>
+<title>
+<p>LINGO: Phrase of the Week</p>
+</title>
+<p><code>     </code><link><a href="http://www.tlug.jp/wiki/Lingo_Phrase_of_the_Week"><code>http://www.tlug.jp/wiki/Lingo_Phrase_of_the_Week</code></a></link><br />
+<code>     </code><description><code>The Phrase of the Week Project is intended</code><br />
+<code>      to allow TLUGers and others who are interested exchange</code><br />
+<code>      and compare languages through the discussion of every day</code><br />
+<code>      idiomatic phrases.</code></description><br />
+<code>     </code><guid isPermaLink="true"><a href="http://www.tlug.jp/wiki/Lingo_Phrase_of_the_Week#item1"><code>http://www.tlug.jp/wiki/Lingo_Phrase_of_the_Week#item1</code></a></guid><br />
+<code>   </code></item><br />
+<br />
+<br />
+<code> </code></channel><br />
+</rss></p>
+<h2 id="see-also">See Also</h2>
+<p><font color="#CC2200">Phrase of the Week</font></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

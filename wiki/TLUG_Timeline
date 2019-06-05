@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <table>
+<thead>
+<tr class="header">
+<th><p>Years</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><a href="#1994" title="wikilink">1994</a> <a href="#1995" title="wikilink">1995</a> <a href="#1996" title="wikilink">1996</a> <a href="#1997" title="wikilink">1997</a> <a href="#1998" title="wikilink">1998</a> <a href="#1999" title="wikilink">1999</a> <a href="#2000" title="wikilink">2000</a> <a href="#2001" title="wikilink">2001</a> <a href="#2002" title="wikilink">2002</a> <a href="#2003" title="wikilink">2003</a> <a href="#2004" title="wikilink">2004</a> <a href="#2005" title="wikilink">2005</a> <a href="#2006" title="wikilink">2006</a> <a href="#2007" title="wikilink">2007</a> <a href="#2008" title="wikilink">2008</a> <a href="#2009" title="wikilink">2009</a></p></td>
+</tr>
+</tbody>
+</table>
+<p>__NOTOC__</p>
+<h3 id="section">1994</h3>
+<ul>
+<li><a href="./TLUG:MemberGuide#History">16 Jun establishment of a Linux conference on a local ISP</a> by <a href="./User:JimTittsler">Jim Tittsler</a>
+<ul>
+<li>Was this tlug@lists.twics.com? from <a href="http://examples.oreilly.com/cjkvinfo/doc/cjk.inf">1</a></li>
+</ul></li>
+<li><a href="./Meetings:1994:09">10 Sep first meeting</a></li>
+<li><a href="./TLUG:MemberGuide#History">?? Sep website began</a> at <a href="http://www.twics.com/~craig/tlug.html" class="uri">http://www.twics.com/~craig/tlug.html</a> by <font color="#CC2200">Craig Oda</font></li>
+<li><a href="./Meetings:1994:10">30 Oct meeting</a></li>
+<li><a href="./Meetings:1994:12">?? Dec meeting</a></li>
+<li><a href="./TLUG:MemberGuide#History">?? ??? mailing list setup on Metanoia</a> by <font color="#CC2200">Andrew Nishigaya</font></li>
+</ul>
+<h3 id="section-1">1995</h3>
+<ul>
+<li><a href="./Meetings:1995:01">?? Jan technical meeting</a></li>
+<li><a href="./Meetings:1995:02">?? Feb technical meeting</a></li>
+<li><a href="./Meetings:1995:03">?? Mar technical meeting</a></li>
+<li><a href="./Meetings:1995:07">23 Jul technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/ML/9507/msg00004.html">09 Jul Metanoia crashes</a> forces <font color="#CC2200">Craig Oda</font> to moves mailing list to his ISP</li>
+<li><a href="./Meetings:1995:09">24 Sep technical meeting</a></li>
+<li><a href="http://www.japaninc.com/cpj/magazine/issues/1995/sep95/09linux.html">?? Sep Japan Computing article on Linux and TLUG</a> by <font color="#CC2200">Craig Oda</font>, <a href="./Andrew_%2522Nori%2522_Nishigaya">Andrew “Nori” Nishigaya</a> and <font color="#CC2200">Rainer Mager</font></li>
+<li><a href="http://lists.tlug.jp/ML/9512/msg00011.html">06 Dec members attend Linus farewell nomikai</a></li>
+</ul>
+<h3 id="section-2">1996</h3>
+<ul>
+<li><a href="./Meetings:1996:01">28 Jan technical meeting</a></li>
+<li><a href="./Meetings:1996:03">?? Mar technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/ML/9603/msg00170.html">30 Mar first official TLUG Webmaster</a> - <font color="#CC2200">Jim Schweizer</font></li>
+<li><a href="./Meetings:1996:08">11 Aug technical meeting</a></li>
+</ul>
+<h3 id="section-3">1997</h3>
+<ul>
+<li><a href="./Meetings:1997:02">01 Feb SparcLinux Installfest</a></li>
+<li><a href="./Meetings:1997:06">14 Jun technical meeting</a></li>
+<li><a href="./Meetings:1997:08">02 Aug technical meeting</a></li>
+<li><a href="http://www.tlug.jp/docs/rms.html">08 Aug “Better Society through Free Software: Richard M. Stallman Interview”</a> by <font color="#CC2200">Hiroo Yamagata</font></li>
+<li><a href="http://www.tlug.jp/docs/linus.html">?? ??? “The Pragmatist of Free Software: Linus Torvalds Interview”</a> by <font color="#CC2200">Hiroo Yamagata</font></li>
+<li><a href="./Meetings:1997:10">?? Oct technical meeting</a>
+<ul>
+<li>first officer elections
+<ul>
+<li>President: <font color="#CC2200">Craig Oda</font></li>
+</ul></li>
+</ul></li>
+<li><a href="./Meetings:1997:11">14 Nov technical meeting</a></li>
+<li><a href="./Meetings:1997:12">13 Dec technical meeting</a>, <a href="http://search.luky.org/linux-users.1/msg04009.html">meeting announcement on linux-users ML</a></li>
+</ul>
+<h3 id="section-4">1998</h3>
+<ul>
+<li><a href="./Meetings:1998:01">14 Jan technical meeting</a></li>
+<li><a href="http://www.linuxjournal.com/article/2660">01 Feb Linux Journal article</a> <a href="http://techdoc.kvindesland.no/linux/journal/Magazines/LJ46/2660.html">2</a> by <font color="#CC2200">Craig Oda</font></li>
+<li><a href="./Meetings:1998:02">15 Feb technical meeting</a>
+<ul>
+<li><a href="http://lists.tlug.jp/ML/9802/msg00166.html">officer election</a>
+<ul>
+<li>President: <font color="#CC2200">Craig Oda</font></li>
+<li><font color="#CC2200">Joe Marchak</font></li>
+<li><font color="#CC2200">Ken Harada</font></li>
+<li><font color="#CC2200">John Little</font></li>
+<li><font color="#CC2200">Jim Schweizer</font></li>
+</ul></li>
+</ul></li>
+<li>?? Mar started using tlug.gr.jp domain name</li>
+<li><a href="./TLUG:MemberGuide#History">?? Mar TLUG gets its own server</a> hosted by <font color="#CC2200">Pacific High Tech</font></li>
+<li><a href="./Meetings:1998:04">11 Apr technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/ML/9804/msg00324.html">18 Apr TLUG got an alias from Toronto LUG</a> -&gt; <a href="http://tokyo.tlug.org/" class="uri">http://tokyo.tlug.org/</a></li>
+<li><a href="./Meetings:1998:05">15 May Nomikai</a></li>
+<li>?? Jun <a href="http://www.linux.or.jp/">JLUG</a> allow <a href="http://lists.tlug.jp/ML/9806/msg00523.html">TLUG to use tlug.linux.or.jp domain</a></li>
+<li><a href="http://lists.tlug.jp/ML/9806/msg00419.html">12 Jun mailing list shutdown by a mail loop</a> <font color="#CC2200">Jim Tittsler</font> saves the day</li>
+<li><a href="./Meetings:1998:06">13 Jun technical meeting</a>
+<ul>
+<li>Treasurer: <a href="./User:Tim">Tim Meggs</a> (newly created treasurer position)</li>
+</ul></li>
+<li><a href="./Meetings:1998:07">17 Jul nomikai</a></li>
+<li><a href="http://lists.tlug.jp/ML/9806/msg00553.html">?? Jul TLUG intro in Software Design Magazine</a></li>
+<li><a href="./Meetings:1998:08">08 Aug technical meeting</a></li>
+<li><a href="./Meetings:1998:09">18 Sep nomikai</a></li>
+<li><a href="./Meetings:1998:10">10 Oct technical meeting</a></li>
+<li><a href="./Meetings:1998:11">20 Nov nomikai</a></li>
+<li><a href="http://lists.tlug.jp/ML/9811/msg00714.html">28 Nov officers changed?</a>
+<ul>
+<li>President: <font color="#CC2200">Ken Harada</font></li>
+<li>Vice-President: <font color="#CC2200">Jim Schweizer</font></li>
+</ul></li>
+<li><a href="./Meetings:1998:12">12 Dec technical/business meeting</a></li>
+</ul>
+<h3 id="section-5">1999</h3>
+<ul>
+<li><a href="./Meetings:1999:01">14 Jan nomikai</a></li>
+<li><a href="http://lists.tlug.jp/MLadm/9901/threads.html">?? Jan Server moved to Global On-Line</a></li>
+<li><a href="./Meetings:1999:02">13 Feb technical meeting</a></li>
+<li><a href="./Meetings:1999:03">19 Mar LLUG/TLUG Joint nomikai</a> about 80 participants</li>
+<li><a href="http://lists.tlug.jp/ML/9903/msg00201.html">?? Mar tluggers transcribe tape for NHK Linux special</a></li>
+<li><a href="./Meetings:1999:04">10 Apr technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/MLadm/9905/msg00011.html">09 May farewell party</a> for <font color="#CC2200">Chris Sekiya</font></li>
+<li><a href="./Meetings:1999:05">26 May nomikai</a>
+<ul>
+<li>Eric S. Raymond attended.</li>
+</ul></li>
+<li><a href="./Meetings:1999:12">17 Dec Bonenkai</a></li>
+<li><a href="http://lists.tlug.jp/ML/9912/msg00045.html">18 Dec TLUG presentation at the Linux Conference 99</a></li>
+</ul>
+<h3 id="section-6">2000</h3>
+<ul>
+<li><a href="./Meetings:2000:01">14 Jan technical meeting</a>
+<ul>
+<li><font color="#CC2200">Ulrich Drepper</font> glibc</li>
+<li><a href="./Meetings:2000:01#Live_video_stream">event had live video stream</a></li>
+</ul></li>
+<li><a href="./Meetings:2000:02">18 Feb nomikai</a></li>
+<li><a href="./Meetings:2000:03">11 Mar technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/MLadm/0004/msg00000.html">08 Apr Jonathan Byrne takes over list administration</a></li>
+<li><a href="./Meetings:2000:04">20 Apr nomikai</a></li>
+<li><a href="./Meetings:2000:05">13 May technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/ML/0005/msg00311.html">28 May Vague Unofficial Nomikai-like Thing</a> by <font color="#CC2200">Simon Cozens</font></li>
+<li><a href="./Meetings:2000:06">16 Jun Joint meeting with YLUG/nomikai</a></li>
+<li><a href="http://lists.tlug.jp/ML/0007/msg00063.html">11 Jul list moved from majordomo to smartlist</a> by <font color="#CC2200">Christopher Sekiya</font></li>
+<li><a href="http://lists.tlug.jp/ML/0007/msg00069.html">15 Jul Informal Akihabara Tour</a> by <font color="#CC2200">Kitano-san</font></li>
+<li><a href="http://lists.tlug.jp/ML/0008/msg00013.html">05 Aug Akiba Tour &amp; Extra Nomikai</a> and <a href="http://lists.tlug.jp/ML/0008/msg00081.html">report</a></li>
+<li><a href="./Meetings:2000:08">18 Aug nomikai</a></li>
+<li><a href="http://lists.tlug.jp/ML/0102/msg00371.html">?? ???</a>
+<ul>
+<li>Webmaster: <font color="#CC2200">Uva Coder</font></li>
+</ul></li>
+</ul>
+<h3 id="section-7">2001</h3>
+<ul>
+<li><a href="./Meetings:2001:01">20 Jan technical meeting</a>
+<ul>
+<li><a href="http://lists.tlug.jp/ML/0101/msg00016.html">new president</a>
+<ul>
+<li>President: <font color="#CC2200">Jack Morgan</font></li>
+</ul></li>
+</ul></li>
+<li><a href="./Meetings:2001:02">16 Feb nomikai</a></li>
+<li><a href="http://lists.tlug.jp/ML/0103/msg00062.html">04 Mar new webmaster</a>
+<ul>
+<li>Webmaster: <font color="#CC2200">Ulrike Schmidt</font></li>
+</ul></li>
+<li><a href="./Meetings:2001:03">10 Mar technical meeting</a></li>
+<li><a href="./Meetings:2001:04">13 Apr nomikai</a></li>
+<li><a href="./Meetings:2001:05">12 May technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/ML/0105/msg00501.html">25 May mini nomikai</a></li>
+<li><a href="./Meetings:2001:06">01 Jun extraordinary nomikai</a>
+<ul>
+<li><font color="#CC2200">Rob Malda</font> “CmdrTaco”- slashdot</li>
+<li><font color="#CC2200">Scott McNeil</font> - FSG, VA Linux</li>
+<li><font color="#CC2200">Bruce Perens</font> - evangelist</li>
+</ul></li>
+<li><a href="http://lists.tlug.jp/ML/0106/msg00265.html">09 Jun new server installfest</a> at <font color="#CC2200">Jack Morgan</font></li>
+<li><a href="http://lists.tlug.jp/ML/0106/msg00592.html">24 Jun new server goes live</a></li>
+<li><a href="http://lists.tlug.jp/ML/0106/msg00600.html">26 Jun farewell nomikai</a> for <font color="#CC2200">Simon Cozen</font></li>
+<li><a href="./Meetings:2001:07">14 Jul technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/ML/0107/msg00488.html">27 Jul impromptu nomi</a></li>
+<li><a href="./Meetings:2001:08">17 Aug nomikai</a></li>
+<li><a href="./Meetings:2001:09">15 Sep technical meeting</a></li>
+</ul>
+<h3 id="section-8">2002</h3>
+<ul>
+<li><a href="./Meetings:2002:01">12 Jan technical meeting</a>
+<ul>
+<li><a href="http://lists.tlug.jp/MLadm/0201/msg00001.html">officer elections</a>
+<ul>
+<li>President: <font color="#CC2200">Ayako Kato</font></li>
+<li>Uvae-President: <font color="#CC2200">Mauro Sauco</font></li>
+<li>Web Master: <font color="#CC2200">Yoshihiko Baba</font> <a href="http://www.tlug.jp/guide/tlug_user-guide-5.html">3</a></li>
+<li>System Administrator: <font color="#CC2200">A. Sajjad Zaidi</font></li>
+<li>List Master: <a href="./User:Jmglov">Josh Glover</a></li>
+</ul></li>
+</ul></li>
+<li>?? Jul started using tlug.jp domain name.</li>
+</ul>
+<h3 id="section-9">2003</h3>
+<ul>
+<li><a href="./Meetings:2003:01">18 Jan technical meeting</a>
+<ul>
+<li><a href="http://lists.tlug.jp/ML/0301/msg00226.html">Officer Elections</a>
+<ul>
+<li>President: <font color="#CC2200">Mauro Sauco</font></li>
+<li>Uvae-President and Web Master: <font color="#CC2200">Yoshihiko Baba</font></li>
+<li>System Administrator: <font color="#CC2200">A. Sajjad Zaidi</font> <a href="http://lists.tlug.jp/ML/0405/msg00193.html">4</a></li>
+<li>Treasurer: <a href="./User:Tim">Tim Meggs</a></li>
+</ul></li>
+</ul></li>
+<li><a href="./Meetings:2003:02">07 Feb nomikai</a></li>
+<li><a href="http://lists.tlug.jp/ML/0303/msg00050.html">11 Mar Lists password protected to stop email harvesters</a></li>
+<li><a href="./Meetings:2003:04">05 Apr technical meeting</a></li>
+<li><a href="./Meetings:2003:05">16 May nomikai</a></li>
+<li><font color="#CC2200">14 Jun technical meeting</font></li>
+<li><a href="http://lists.tlug.jp/MLadm/0307/msg00011.html">10 Jul power problems in OSDL server room cause server outage</a></li>
+<li><font color="#CC2200">11 Jul nomikai</font></li>
+<li><a href="./Meetings:2003:08">09 Aug technical meeting</a></li>
+<li><a href="./Meetings:2003:09">13 Sep technical meeting</a></li>
+<li><font color="#CC2200">17 Oct nomikai</font></li>
+<li><font color="#CC2200">15 Nov technical meeting</font></li>
+<li><font color="#CC2200">12 Dec Bonenkai</font></li>
+</ul>
+<h3 id="section-10">2004</h3>
+<ul>
+<li><font color="#CC2200">07 Jan technical meeting</font></li>
+<li><font color="#CC2200">20 Feb nomikai</font></li>
+<li><font color="#CC2200">09 Apr nomikai</font></li>
+<li><a href="./Meetings:2004:05">15 May technical meeting</a>
+<ul>
+<li><a href="http://lists.tlug.jp/ML/0405/msg00193.html">officer elections</a>
+<ul>
+<li>President: <a href="./User:Zev">Zev Blut</a></li>
+<li>Uvae-President: <font color="#CC2200">Alberto Tomita</font></li>
+<li>Web Master: <font color="#CC2200">Kin-ichi Kitano</font></li>
+<li>System Administrator: <a href="./User:Tim">Tim Meggs</a></li>
+<li>Treasurer: <a href="./User:Tim">Tim Meggs</a></li>
+<li>List Master: <a href="./User:Jmglov">Josh Glover</a></li>
+</ul></li>
+</ul></li>
+<li><font color="#CC2200">10 Jul technical meeting</font></li>
+<li><font color="#CC2200">13 Aug nomikai</font></li>
+<li><font color="#CC2200">18 Sep casual meeting</font></li>
+<li><font color="#CC2200">13 Nov technical meeting</font></li>
+</ul>
+<h3 id="section-11">2005</h3>
+<ul>
+<li><a href="./Meetings:2005:01">15 Jan technical meeting</a></li>
+<li><font color="#CC2200">18 Feb nomikai</font></li>
+<li><font color="#CC2200">12 Mar technical meeting</font></li>
+<li><font color="#CC2200">08 Apr nomikai</font></li>
+<li><font color="#CC2200">21 May technical meeting</font>
+<ul>
+<li><a href="http://www.tlug.jp/ML/0505/msg00087.html">officer elections</a>
+<ul>
+<li>President: <a href="./User:Zev">Zev Blut</a></li>
+<li>Uvae-President: <font color="#CC2200">Alberto Tomita</font></li>
+<li>Treasurer: <a href="./User:Tim">Tim Meggs</a></li>
+<li>List Master: <a href="./User:Jmglov">Josh Glover</a></li>
+</ul></li>
+</ul></li>
+<li><font color="#CC2200">10 Jun nomikai</font></li>
+<li><font color="#CC2200">16 Jul technical meeting</font></li>
+<li><font color="#CC2200">12 Aug nomikai</font></li>
+<li><font color="#CC2200">10 Sep technical meeting</font></li>
+<li><a href="./Meetings:2005:10">14 Oct nomikai</a></li>
+<li><font color="#CC2200">12 Nov technical meeting</font></li>
+<li><a href="./Meetings:2005:12">09 Dec bonenkai</a></li>
+</ul>
+<h3 id="section-12">2006</h3>
+<ul>
+<li><a href="./Meetings:2006:01">14 Jan technical meeting</a></li>
+<li><a href="http://lists.tlug.jp/ML/0601/msg00797.html">03 Feb TLUG members discuss Linux in Japan with Mark Shuttleworth</a>
+<ul>
+<li><a href="http://www.linuxforums.org/reviews/converging_paths_in_tokyo.html">article about meeting</a> by <font color="#CC2200">Lyle Saxon</font></li>
+</ul></li>
+<li><a href="http://lists.tlug.jp/ML/0605/msg00102.html">13 May officer elections</a>
+<ul>
+<li>President: <a href="./User:Zev">Zev Blut</a></li>
+<li>Uvae-President: <font color="#CC2200">Alberto Tomita</font></li>
+<li>Treasurer: <a href="./User:Tim">Tim Meggs</a></li>
+</ul></li>
+<li>?? ??? Wiki setup by <a href="./User:Hoanga">Alain Hoang</a> and ???</li>
+<li><a href="http://lists.tlug.jp/ML/0612/msg00273.html">15 Dec</a> <a href="http://planet.tlug.jp/">planet TLUG</a> setup by <font color="#CC2200">Michael Reinsch</font></li>
+</ul>
+<h3 id="section-13">2007</h3>
+<ul>
+<li><a href="./Meetings:2007:01">13 Jan technical meeting</a></li>
+<li><a href="http://www.tlug.jp/ML/0704/msg00469.html">23 Apr</a> first <a href="./Tlug_Shirt">TLUG Shirt</a> <a href="http://lists.tlug.jp/ML/0705/msg00289.html">5</a> organized by <a href="./User:Zev">Zev Blut</a> with help from Ayumi Oida and Kristen McQuillin<a href="http://www.tlug.jp/ML/0705/msg00290.html">6</a></li>
+<li><a href="http://lists.tlug.jp/ML/0705/msg00288.html">12 May officer elections</a>
+<ul>
+<li>President : <a href="./User:Edward">Edward Middleton</a></li>
+<li>Uvae President : <a href="./User:Zuco">Pietro Zuco</a></li>
+<li>Web Master : <a href="./User:Bawdo2001">Keith Bawden</a> and <a href="./User:Hoanga">Alain Hoang</a></li>
+<li>Treasurer : <a href="./User:Tim">Tim Meggs</a></li>
+<li>Sys Admin : <a href="./User:Ragga">Henri Servomaa</a></li>
+<li>List Master : <a href="./User:Jmglov">Josh Glover</a></li>
+</ul></li>
+<li><a href="http://lists.tlug.jp/ML/0705/msg00297.html">26 May BBQ</a> organized by <a href="./User:Bawdo2001">Keith Bawden</a> and <font color="#CC2200">Mauro Sauco</font></li>
+<li><a href="http://www.tlug.jp/ML/0706/msg00108.html">07 Jun list archives reopened</a> by <a href="./User:Jmglov">Josh Glover</a></li>
+<li><a href="http://www.tlug.jp/MLadm/0707/msg00005.html">01 Jul utf8 support in list archives</a> thanks to <a href="./User:Jmglov">Josh Glover</a></li>
+<li>08 Jul robot.txt is fond to be blocking mail archives ;) doh!!</li>
+<li><a href="./Meetings:2007:07">14 Jul technical meeting</a></li>
+<li><a href="http://www.tlug.jp/ML/0708/msg00838.html">15 Aug “Windows is Free” article</a> by <a href="./User:Dave_M_G">Dave Gutteridge</a> brings a <font color="#CC2200">slashdotting</font></li>
+<li><a href="./Meetings:2007:08">17 Aug nomikai</a></li>
+<li>20 Aug front page redesigned by <a href="./User:Zev">Zev Blut</a></li>
+<li><a href="./Meetings:2007:09">08 Sep technical meeting</a>
+<ul>
+<li><a href="./Meetings:2007:09#The_slashdotting_by_Zev_Blut">Slashdotting postmortom</a> by <a href="./User:Zev">Zev Blut</a></li>
+</ul></li>
+<li><a href="./Meetings:2007:10">12 Oct nomikai</a></li>
+<li><a href="./Meetings:2007:11">10 Nov technical meeting</a>
+<ul>
+<li><a href="./Meetings:2007:11#Location">held jointly in SecondLife</a> by <font color="#CC2200">Edmund Earp</font> &amp; <font color="#CC2200">Jeffronius Batra</font></li>
+</ul></li>
+<li><a href="./Meetings:2007:12">07 Dec Bonenkai</a></li>
+</ul>
+<h3 id="section-14">2008</h3>
+<ul>
+<li><a href="./Meetings:2008:01">12 Jan technical meeting</a>
+<ul>
+<li><a href="http://lists.tlug.jp/ML/0801/msg00066.html">broadcast live</a> by <font color="#CC2200">Yaegashi Takeshi</font></li>
+</ul></li>
+<li><a href="./Meetings:2008:02">08 Feb nomikai</a></li>
+<li><a href="./Meetings:2008:03">08 Mar technical meeting</a></li>
+<li><font color="#CC2200">11 Apr nomikai</font></li>
+<li><a href="./Meetings:2008:05">10 May technical meeting</a>
+<ul>
+<li><a href="http://lists.tlug.jp/MLadm/0806/msg00024.html">Officers Election</a>
+<ul>
+<li>President: <a href="./User:Edward">Edward Middleton</a></li>
+<li>Vice President: <a href="./User:Zuco">Pietro Zuco</a></li>
+<li>Treasurer: <a href="./User:Tim">Tim Meggs</a></li>
+</ul></li>
+</ul></li>
+<li><font color="#CC2200">13 Jun nomikai</font></li>
+<li><a href="./Meetings:2008:07">12 Jul technical meeting</a></li>
+<li><a href="./Meetings:2008:08">08 Aug nomikai</a></li>
+<li><a href="./Meetings:2008:09">13 Sep technical meeting</a></li>
+<li><a href="./Meetings:2008:10">10 Oct nomikai</a></li>
+<li><a href="./Meetings:2008:11">08 Nov technical meeting</a></li>
+<li><a href="./Meetings:2008:12">12 Dec nomikai</a></li>
+</ul>
+<h3 id="section-15">2009</h3>
+<ul>
+<li><a href="./Meetings:2009:01">10 Jan technical meeting</a></li>
+<li><a href="./Meetings:2009:02">13 Feb nomikai</a></li>
+<li><a href="./Meetings:2009:03">14 Mar technical meeting</a></li>
+<li><a href="./Meetings:2009:04">10 Apr nomikai</a></li>
+<li><a href="./Meetings:2009:05">09 May technical meeting</a></li>
+<li><a href="./Meetings:2009:06">12 Jun nomikai</a></li>
+<li><a href="./Meetings:2009:07">11 Jul technical meeting</a></li>
+<li><font color="#CC2200">14 Aug nomikai</font></li>
+<li><a href="./Meetings:2009:09">12 Sep technical meeting</a></li>
+</ul>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

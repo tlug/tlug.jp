@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1 id="wiki-topics-for-consideration">Wiki Topics for consideration</h1>
+<ul>
+<li>File Uploads
+<ul>
+<li><a href="./User:Hoanga">Al</a> requests: Do we allow file uploads to the wiki? It's turned off</li>
+<li><a href="./User:Jmglov">Josh</a> answers: a big yessir to this!</li>
+</ul></li>
+<li>SSL - Currently we don't have https so all authentication to this wiki is over plain http. Should we use https?
+<ul>
+<li><a href="./User:Hoanga">Al</a>: Can someone create a SSL configuration for Apache? Out of the wikimaster's hands :)</li>
+<li><a href="./User:Jmglov">Josh</a> answers: I don't see a burning need for SSL</li>
+</ul></li>
+<li>What official pages do we need?
+<ul>
+<li><a href="./User:Jmglov">jmglov</a> suggests:
+<ul>
+<li>Meetings pages?</li>
+<li>Officers page</li>
+</ul></li>
+<li><a href="./User:Edward">Edward</a> answer: wouldn't this stuff be better on the main page that way we could solve the rss issues as well.</li>
+</ul></li>
+<li>RSS
+<ul>
+<li>What type of RSS?</li>
+<li>Look at the top of <font color="#CC2200">Special:Recentchanges</font>. It has Atom and RSS already
+<ul>
+<li><a href="./User:Zev">zev</a>: Yes, but if we were to make a meetings page that lists the meetings then we could do an RSS feed by adding these parameters to the URL “action=histroy&amp;feed=rss”, but I that would just be the edits of that page. I would like to have the actuall details of each meeting be a unique entry in the feed. A very shallow look on the MediaWiki help pages seems to point to Wikipedia scraping the pages and then making an external feed for that...</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="completed-topics">Completed Topics</h2>
+<ul>
+<li>Permissions Wringing - Permissions need to be (thoroughly) tested to be sure the implementation matches the policy.
+<ul>
+<li><a href="./User:Hoanga">Al</a>: I think the permissions are working. Everyone please check.</li>
+</ul></li>
+<li>Prettier URLS?
+<ul>
+<li>YES!</li>
+<li><a href="http://www.mediawiki.org/wiki/Manual:%24wgActionPaths">Action Paths</a> might help</li>
+<li><a href="./User:Jmglov">jmglov</a>: (withdrawn) <span style="text-decoration: line-through; color: red;">Along these lines, I recommend we make the page naming convention CamelCase, instead of the current Delimit_Words_With_Underscores conventions. What say ye?</span>
+<ul>
+<li><a href="./User:Zev">zev</a>: Why would we want to do that? I see we would loose the ability to express Topic titles that have spaces in them?</li>
+</ul></li>
+<li>At the very least let's trash the index.php header. See: <a href="http://meta.wikimedia.org/wiki/Eliminating_index.php_from_the_url" class="uri">http://meta.wikimedia.org/wiki/Eliminating_index.php_from_the_url</a></li>
+<li><a href="./User:Hoanga">Al</a>: Need someone with web-admin rights who can configure the apache config. I don't have apache config rights.. Josh??</li>
+</ul></li>
+<li>Logo - We need a TLUG specific wiki logo. Which one should we use?
+<ul>
+<li>How about our current TLUG penguin?
+<ul>
+<li><a href="./User:Hoanga">Al</a>: Updated</li>
+</ul></li>
+</ul></li>
+<li>Admin only access section of Wiki? I want to document various admin related things. Some should be public, but some might not be appropriate?
+<ul>
+<li><a href="./User:Hoanga">Al</a>: This has <strong>been implemented</strong>. Start documenting!</li>
+<li>Such as server software to monitor for security patches</li>
+</ul></li>
+<li>Time stamps in JST !!!!(Can we fix this soon?)
+<ul>
+<li>This should be a simple setting in MediaWiki... when?</li>
+<li>I think we can change it through this variable: <a href="http://www.mediawiki.org/wiki/Manual:%24wgLocaltimezone">http://www.mediawiki.org/wiki/Manual:%24wgLocaltimezone</a></li>
+<li>And this :<a href="http://meta.wikimedia.org/wiki/Help:Timezone" class="uri">http://meta.wikimedia.org/wiki/Help:Timezone</a></li>
+<li><a href="./User:Hoanga">Al</a>: <strong>This is done</strong> as of 2/5/2007</li>
+</ul></li>
+<li>Get the rest of the Wiki Admins online
+<ul>
+<li><a href="./User:Hoanga">Al</a>: <strong>Done</strong> at hackathon</li>
+<li><a href="./User:Jmglov">jmglov</a> suggests:
+<ul>
+<li>List policy / FAQ
+<ul>
+<li><a href="./User:Hoanga">Al</a>:Done</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

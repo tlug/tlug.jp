@@ -1,0 +1,547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="filenames">Filenames</h2>
+<h3 id="hidden-files">Hidden Files</h3>
+<p>Q. How do you “hide” a file or directory?</p>
+<p>Name the file with a <code>.</code> at the beginning:</p>
+<p><code>$ touch .hidden</code></p>
+<p>Q: How do you list such files/directories?</p>
+<p>Use the <code>-a</code> option:</p>
+<p><code>$ ls -a</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<h3 id="dash-files">Dash Files</h3>
+<p>Q: How can you remove a file named <code>-r</code>?</p>
+<p>Use <code>--</code> to tell commands where options end:</p>
+<p><code>$ touch -- -r</code><br />
+<code>$ rm -- -r</code><br />
+<code>$ rm ./-r</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><a href="./User:Bruno">Bruno</a>
+</dd>
+<dd><font color="#CC2200">Mattia</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="glob-files">Glob Files</h3>
+<p>Q: How can you remove a file named <code>*</code> or <code>?</code></p>
+<p>Use backslashes to escape such characters:</p>
+<p><code>$ touch \* \?</code><br />
+<code>$ rm \* \?</code><br />
+<code>$ rm '*' '?'</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Daniel</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="globs">Globs</h3>
+<p>Q: How can <code>.??*</code> be useful?</p>
+<p>It displays hidden files with at least two characters after the dot:</p>
+<p><code></p>
+<p><code>$ touch .1 .un .deux .trois</code><br />
+<code>$ echo .*</code><br />
+<code>.  ..  .1 .deux  .trois  .un</code><br />
+<code>$ echo .?*</code><br />
+<code>.. .1 .deux  .trois  .un</code><br />
+<code>$ echo .??*</code><br />
+<code>.deux  .trois  .un</code></p>
+<p></code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><a href="./User:Bruno">Bruno</a>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h2 id="permissions">Permissions</h2>
+<h3 id="rwxrwxrwx">-rwxrwxrwx</h3>
+<p>Q: How can you find all world-writable files/directories in <code>$HOME</code>?</p>
+<p><code>find</code> is used for recursion:</p>
+<p><code>$ find $HOME -perm -2 ! -type l -ls</code></p>
+<p>Q: How can you fix the permissions for all files found?</p>
+<p>Use <code>-exec chmod</code>:</p>
+<p><code>$ find $HOME -perm -2 ! -type l -exec chmod o-w {} +</code><br />
+<code>$ find $HOME -perm -2 ! -type l -exec chmod o-w {} \;</code></p>
+<p>What is the difference between “<code>+</code>” and “<code>\;</code>” notations? Why would you choose one over the other?</p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+<dd><a href="./User:Bruno">Bruno</a>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="rwsr-x---">-rwsr-x---</h3>
+<p>Q: What do permissions <code>-rwsr-x---</code> signify?</p>
+<ul>
+<li>SETUID</li>
+<li>When users in the group execute the file, it executes as the file owner.</li>
+<li><code>chmod 4750 file</code></li>
+</ul>
+<p>Q: When would permissions like this be useful?</p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="rwxr-sr-x">-rwxr-sr-x</h3>
+<p>Q: What do permissions <code>-rwxr-sr-x</code> signify?</p>
+<ul>
+<li>SETGID</li>
+<li>When users execute the file, it executes as the file group.</li>
+<li><code>chmod 2755 file</code></li>
+</ul>
+<p>Q: When would permissions like this be useful?</p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="drwxrwsr-x">drwxrwsr-x</h3>
+<p>Q: What do permissions <code>drwxrwsr-x</code> signify?</p>
+<ul>
+<li>SETGID</li>
+<li>When files/directories are created in this directory, they are assigned the same group, not the user's default group.</li>
+<li><code>chmod 2775 directory</code></li>
+</ul>
+<p>Q: When would permissions like this be useful?</p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="drwxrwxrwt">drwxrwxrwt</h3>
+<p>Q: What do permissions <code>drwxrwxrwt</code> signify?</p>
+<ul>
+<li><em>sticky bit</em></li>
+<li>When files/directories are created in this directory, they can only be unlinked by the owner or root.</li>
+<li><code>chmod 1777 directory</code></li>
+</ul>
+<p>Q: When would permissions like this be useful?</p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="etchostname">/etc/hostname</h3>
+<p>Q: How can you update <code>/etc/hostname</code> as a non-root user?</p>
+<p><code>$ ls -l /etc/hostname</code><br />
+<code>-rw-r--r-- 1 root root ... /etc/hostname</code><br />
+<code>$ cat /etc/hostname</code><br />
+<code>changeme</code></p>
+<p>Use <code>sudo tee</code>:</p>
+<p><code>$ echo tlug | sudo tee /etc/hostname</code></p>
+<p>Alternatively:</p>
+<p><code>$ sudo bash -c 'echo tlug &gt; /etc/hostname'</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h2 id="filesystem">Filesystem</h2>
+<h3 id="rm">rm</h3>
+<p>Q: How and when could <code>rm</code> not free disk space?</p>
+<ul>
+<li>Files are reference-counted.</li>
+<li>Disk space is not freed by <code>rm</code> if the file is in use by a process.</li>
+<li>The space should be freed when the process finishes.</li>
+</ul>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><a href="./User:Bruno">Bruno</a>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="links">Links</h3>
+<p>Q: What is the difference between <code>ln</code> and <code>ln -s</code>?</p>
+<ul>
+<li>By default, <code>ln</code> creates <em>hard</em> links:
+<ul>
+<li>Links to inodes on the same filesystem</li>
+</ul></li>
+<li>With <code>-s</code>, <code>ln</code> creates <em>symbolic</em> links:
+<ul>
+<li>Links can hold arbitrary text</li>
+<li>Links are resolved when referenced</li>
+</ul></li>
+</ul>
+<p>Q: When would you use each type of link?</p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><a href="./User:Bruno">Bruno</a>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h2 id="pipes">Pipes</h2>
+<h3 id="standard-io">Standard IO</h3>
+<p>Q: How can you run a program and not display <code>STDERR</code> (bash)?</p>
+<p>Redirect <code>STDERR</code> to <code>/dev/null</code>:</p>
+<p><code>$ somejavaprogram 2&gt; /dev/null</code></p>
+<p>Q: How can you redirect both <code>STDOUT</code> and <code>STDERR</code> to a file?</p>
+<p><code>$ somejavaprogram &gt; file.log 2&gt;&amp;1</code></p>
+<p>Q: What are doing exactly the following lines?</p>
+<p><code>TMPFILE=/tmp/$$-test</code><br />
+<code>exec 3&gt;&amp;1 &gt;${TMPFILE}</code><br />
+<code>echo ichi</code><br />
+<code>exec 1&gt;&amp;3 3&gt;&amp;-</code><br />
+<code>echo ni</code><br />
+<code>cat ${TMPFILE}</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+<dd><a href="./User:Bruno">Bruno</a>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="named-pipes">Named Pipes</h3>
+<p>Q: How do you create a named pipe?</p>
+<p><code>$ mkfifo tlug</code><br />
+<code>$ ls -l tlug</code><br />
+<code>prw-r--r-- 1 tokyo tokyo 0 May 10 15:00 tlug</code></p>
+<p>Q: How do you use named pipes?</p>
+<p>Treat them like files. On the command line, use redirection:</p>
+<p><code>one$ echo 'Hello, TLUG!' &gt; tlug</code><br />
+<code>two$ cat &lt; tlug</code></p>
+<p>Nothing is written to disk!</p>
+<p>Q: Why use named pipes?</p>
+<ul>
+<li>Fast inter-process communication (IPC)</li>
+<li>Use more than one pipe without using temporary files</li>
+</ul>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h2 id="processes">Processes</h2>
+<h3 id="slow-system">Slow System</h3>
+<p>Q: How can you determine which program is slowing down your system?</p>
+<ul>
+<li>Use <code>top</code> to locate processes with high CPU/memory usage.</li>
+<li>Use <code>iotop</code> to locate processes with high disk usage.</li>
+</ul>
+<p>Q: How can you terminate it?</p>
+<p><code>$ kill $PID  # sends TERM signal to $PID</code></p>
+<p>Q: What if that doesn't work?</p>
+<p><code>$ kill -9 $PID  # sends KILL signal to $PID</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="unmount-fail">Unmount Fail</h3>
+<p>Q: If you try to unmount a filesystem and get an error about open files, how can you solve the problem?</p>
+<p>Use <code>lsof</code> to show which processes access a directory/file:</p>
+<p><code>$ lsof /mnt/stick</code></p>
+<p>Use <code>fuser</code> to show which processes use the filesystem:</p>
+<p><code>$ fuser -v -m /mnt/stick</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<h3 id="processeszombies">Processes/Zombies</h3>
+<p>Q: What is a process? How do you create one? What is the relationship between a child process and a parent process?</p>
+<p>Q: Who is the ancestor of all processes on your system? How could it be “alive” itself?</p>
+<p>Q: What is a <em>zombie</em> process?</p>
+<ul>
+<li>When a process exits, its process descriptor stays in memory until its parent process calls <code>wait()</code>, which deletes it. A process in this state is a <em>zombie</em> process.</li>
+</ul>
+<p>Q: Why are they bad?</p>
+<ul>
+<li>A process descriptor takes a negligible amount of memory.</li>
+<li>The zombie takes up a process ID (PID).</li>
+</ul>
+<p>Q: How do you get rid of one?</p>
+<p>Send a <code>SIGCHLD</code> signal to the parent process:</p>
+<p><code>$ kill -s SIGCHLD $PID</code></p>
+<p>If that does not work, the parent process must be killed.</p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+<dd><a href="./User:Bruno">Bruno</a>
+</dd>
+</dl>
+<h3 id="substitution">Substitution</h3>
+<p>Q: What does the following do (bash)?</p>
+<p><code>$ program --in1 &lt;(makein in1.txt) \</code><br />
+<code>--in2 &lt;(makein in2.txt) \</code><br />
+<code>--out1 out1.txt --out2 out2.txt \</code><br />
+<code>&gt; stdout.txt 2&gt; stderr.txt</code></p>
+<ul>
+<li><code>&lt;()</code> runs a process and substitutes a dynamically-assigned file descriptor.</li>
+<li>The <code>&lt;()</code> commands are run in parallel, managed by the OS.</li>
+</ul>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Quiz(es)</dt>
+<dd><a href="./Meetings:2014:05">Meetings:2014:05</a>
+</dd>
+</dl>
+<dl>
+<dt>Reference(s)</dt>
+<dd><a href="http://vincebuffalo.org/2013/08/08/the-mighty-named-pipe.html" class="uri">http://vincebuffalo.org/2013/08/08/the-mighty-named-pipe.html</a>
+</dd>
+</dl>
+<h2 id="network">Network</h2>
+<h3 id="infiltrated">Infiltrated</h3>
+<p>Q: How can you determine which program is making your fiber-modem blink?</p>
+<p><code>lsof</code> is useful for listing network connections as well:</p>
+<p><code>$ lsof -i</code></p>
+<p><code>netstat</code> is also a useful utility:</p>
+<p><code>$ netstat -pt</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+<dl>
+<dt>Reference(s)</dt>
+<dd><a href="http://www.danielmiessler.com/study/lsof/" class="uri">http://www.danielmiessler.com/study/lsof/</a>
+</dd>
+</dl>
+<h3 id="ding">Ding</h3>
+<p>Q: If your terminal bell works, what standard utilities can you use to get an alert when somebody visits your website?</p>
+<p><code>tail -f</code> <em>follows</em> files, and <code>sed</code> can insert a <code>BEL</code>:</p>
+<p><code>$ tail -f /var/log/nginx/site.access.log \</code><br />
+<code>| sed 's/^/\a/'</code></p>
+<dl>
+<dt>Contributor(s)</dt>
+<dd><font color="#CC2200">Travis</font>
+</dd>
+</dl>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

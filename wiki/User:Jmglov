@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="image">Image</h2>
+<figure>
+<img src="/images/Jmglov-nc-lecture.jpg" title="/images/Jmglov-nc-lecture.jpg" alt="/images/Jmglov-nc-lecture.jpg" /><figcaption>/images/Jmglov-nc-lecture.jpg</figcaption>
+</figure>
+<h2 id="contact">Contact</h2>
+<ul>
+<li>Email: <a href="mailto:jmglov@wmalumni.com">Josh Glover &lt;jmglov@wmalumni.com&gt;</a></li>
+<li>Website: <a href="http://www.jmglov.net/">jmglov.net</a></li>
+<li>Blog:
+<ul>
+<li><a href="http://jmglov.blogspot.com/">jmglov</a></li>
+<li><a href="http://planet.tlug.jp/">Planet TLUG</a></li>
+<li><a href="http://www.schmolitics.org/">Politics Schmolitics</a></li>
+</ul></li>
+<li>Day Job: Amazon Anywhere Software Development Engineer; hit one of these sites on your mobile:
+<ul>
+<li><a href="http://amazon.jp/" class="uri">http://amazon.jp/</a></li>
+<li><a href="http://amazon.com/" class="uri">http://amazon.com/</a></li>
+<li><a href="http://amazon.co.uk/" class="uri">http://amazon.co.uk/</a></li>
+<li><a href="http://amazon.de/" class="uri">http://amazon.de/</a></li>
+<li><a href="http://amazon.fr/" class="uri">http://amazon.fr/</a></li>
+<li><a href="http://amazon.ca/" class="uri">http://amazon.ca/</a></li>
+</ul></li>
+<li>Open Source:
+<ul>
+<li><a href="http://dev.gentoo.org/~jmglov/">Gentoo Linux developer</a></li>
+</ul></li>
+<li>Wiki
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/User:Jmglov">User:Jmglov (Wikipedia)</a></li>
+</ul></li>
+</ul>
+<ul>
+<li><ul>
+<li><a href="http://en.wiktionary.org/wiki/User:Jmglov">User:Jmglov (Wiktionary)</a></li>
+</ul></li>
+</ul>
+<ul>
+<li><ul>
+<li><a href="http://ja.wikipedia.org/wiki/利用者:Jmglov">利用者:Jmglov (Wikipedia ja)</a></li>
+</ul></li>
+</ul>
+<h2 id="personal">Personal</h2>
+<p>I am a Tokyo-based Linux enthusiast, programmer, husband, and father. I run <a href="http://www.gentoo.org/">Gentoo Linux</a> with <a href="http://icculus.org/openbox/">openbox</a>, and do all of my coding in <a href="http://www.xemacs.org/">XEmacs</a>.</p>
+<h2 id="tlug">TLUG</h2>
+<p>I have been a member of <a href="http://www.tlug.jp/">TLUG</a> since late 2000, and currently serve as Listmaster.</p>
+<h2 id="wiki-contributions">Wiki Contributions</h2>
+<p>See <font color="#CC2200">Special:Contributions/Jmglov</font></p>
+<h2 id="gpg-key">GPG Key</h2>
+<p><code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code><br />
+<code>Version: PGP Key Server 0.9.6</code><br />
+<br />
+<code>mQGiBD+wLDYRBACTCon03303FlGlnoUn13Nfc3SVcIHc0eScPFgSAC8z8wJsjnNJ</code><br />
+<code>dQ5KwCPBCAOOXlkLXMehGiIKNp5mRugxc7tAfaJs7aRSlLkq2W5o81+DeDBt64hq</code><br />
+<code>FvFHidocyVuQA4CZhNu8Km1ayhICphy9v/UAYxkALGhONWmkQXIbrGKhiwCgpiA+</code><br />
+<code>QKHCiSBbMMlNTQSmBG2D2EMD/2L8ejUdiuncz+l7emVV1apjGcICY3mZIqFueWCN</code><br />
+<code>RrqIEhOi1G0rookFvCihYpx5rDThH30Dvo9ajUfAeF/FDgpTi/kr0b8/J4NjYd9H</code><br />
+<code>qWlfnmH68aiz2dOFI6zwFWzmzP6WQ67uTbekdRy1AmK4iyGegAaPsYFTHrQcs2Eb</code><br />
+<code>inmgA/4mpDBTjcoUy0+/bC+yqA7gbTRNRb3OL6VPzUIrSc2ivbiZIxjvhB3Efder</code><br />
+<code>EUzit5/r8uOH9TCkfum0qBjNGA1RkKr14rB5zIUrAAfpRvs7LH25B+WpcP4aVHyb</code><br />
+<code>g0N9FXVYGCPzcUyd7tIsFo/4pMKSrtKBq4yXJO6pT8scVF07FbQeSm9zaCBHbG92</code><br />
+<code>ZXIgPGptZ2xvdkBnbWFpbC5jb20+iEYEEBECAAYFAkP0W6kACgkQqGfbsWI4aWc4</code><br />
+<code>zwCffQSuM2zQqwThwe0BPgVms9/ym3QAnji2UQnGcLxBkUVA2omDJA21yfAriF8E</code><br />
+<code>ExECAB8FAkP0W5YCGwMHCwkIBwMCAQMVAgMDFgIBAh4BAheAAAoJECvxZ6HeijED</code><br />
+<code>ib4AnA+tICaX6aLWnU343lqUR8AJVQvbAKCDmoWX6lLM7mFayDTl9HEn3JK8D7Qf</code><br />
+<code>Sm9zaCBHbG92ZXIgPGptZ2xvdkBqbWdsb3YubmV0PohGBBARAgAGBQJD9FukAAoJ</code><br />
+<code>EKhn27FiOGlnV3oAnRIWUSNXR3gHEz+oyStXnO8QB3RpAKCW/qQ5+EGeZ+C+wi0A</code><br />
+<code>RR+MiHxiAYhGBBIRAgAGBQJAGJTVAAoJEEdqfeyc+ks1eykAn2vwZJwnuA1+f57K</code><br />
+<code>XuZKG/24O6nMAJ4p9TDwUKoFcpwk2yCVQhRXs/3meohGBBMRAgAGBQJAGHJzAAoJ</code><br />
+<code>EDJq6TaBDMFeC3cAnR9j7tGD0pcK02oEd8gXv6txSU7tAJ4vxIkY4bAEr1qHq+sa</code><br />
+<code>hCCw+Tkl1ohGBBMRAgAGBQJAGHkQAAoJEIXGMErQBNABWIcAniVRyxU25ux9SfV1</code><br />
+<code>W5P43I91+zYRAJ9Z5mYJDiD3tek5EuRndxL/XFks0YhGBBMRAgAGBQJAGTIQAAoJ</code><br />
+<code>EAvgVP4FKGQDD5cAnj2N0zjh11jx6jLwhyi34OiDP29zAJ9/7vIilkCFwpzbwtZK</code><br />
+<code>CotaNGBTGYhGBBMRAgAGBQJAGpyDAAoJEBOc4CqiUyjo1+MAn2LXwHOhVlXSJ6jg</code><br />
+<code>gU5pMy7dyqVYAJ9JOQmlu01VQ8LU5PleaMIa9WZ6hohGBBMRAgAGBQJAGx5RAAoJ</code><br />
+<code>ENzR/ZkeXfLWB6YAoLIloDkB68QqCZjqiGgKm70SW5FPAJ9GX7TLwjhs7QxO4htt</code><br />
+<code>aBp3azPAs4hGBBMRAgAGBQJAHvE6AAoJEKalxTJFW3Fm4WwAoK0nC19hk19+0P8f</code><br />
+<code>gHDso9c6R9bmAJ9aQzh4qSP+wHULDeH5EvOoAXM6bIhGBBMRAgAGBQJAIvuZAAoJ</code><br />
+<code>ELcu213w9MoEVGwAoINR8b2VEjgU236l2TkBlTpUdvF8AJ0Sn8F4Y5rTLUglxoYz</code><br />
+<code>SAhGQGJwMYhGBBMRAgAGBQJB3a+dAAoJEA8SHXsiERMFS4EAn374VVYN2kpvCUFL</code><br />
+<code>xRPSO+3yQBKHAJ4x8FdAEWS4grcAAMT3KSepS0dfCYheBBMRAgAeBQI/u3LsAhsD</code><br />
+<code>BgsJCAcDAgMVAgMDFgIBAh4BAheAAAoJECvxZ6HeijEDgwUAn20w4YNNDvzZORZe</code><br />
+<code>p/dJhfxwF01bAJwPzrFizh32om0wUOBBT9IRUEkBbbQhSm9zaCBHbG92ZXIgPGpt</code><br />
+<code>Z2xvdkBob21ldW5peC5uZXQ+iEYEEBECAAYFAkP0W6kACgkQqGfbsWI4aWeApQCc</code><br />
+<code>DYMavEU/gbKpO5HoxO9CGdlT62gAoI83Qr8nZR1RxCXviQG+2YqzpP38iEYEEhEC</code><br />
+<code>AAYFAkAYlNkACgkQR2p97Jz6SzX/sQCgpaN3F6uOLEyWc9tac0f4s13HQoEAoLIP</code><br />
+<code>8GJiPohvk6qRhTOxHPekCO8RiEYEExECAAYFAkAYcncACgkQMmrpNoEMwV4h8gCg</code><br />
+<code>7CMMUxjw+Rfpi4/D4JDKUnfkw4IAn1t9KdOMxemizuzqNnhfP8Bu/Ec6iEYEExEC</code><br />
+<code>AAYFAkAYeQwACgkQhcYwStAE0AEAFgCgnOKKOwXUX66sr3KznGdhPgtI9FUAn2c2</code><br />
+<code>jat35MouxwToE+7dGEpDFFahiEYEExECAAYFAkAZMhMACgkQC+BU/gUoZAPlxACg</code><br />
+<code>pVG5n0+ndSX2kAEi6/Y/poDvt4UAn0YkYzdcIv6Vdkar0+ON9aj0Q25piEYEExEC</code><br />
+<code>AAYFAkAanIUACgkQE5zgKqJTKOiYMwCgnmImDpN2M7vz5rzkryyDC1ofknUAoJ2C</code><br />
+<code>P4pxT/miV3tV/cpqpuEVx7RZiEYEExECAAYFAkAbHlQACgkQ3NH9mR5d8tZw1gCg</code><br />
+<code>3iIdhN0v6CCKUFCH33EVcHF8jq8AoO9mnwVXv7w5L8w/HpkqR+ASu3hAiEYEExEC</code><br />
+<code>AAYFAkAe8T4ACgkQpqXFMkVbcWYklgCgokhVybDXPQiAhxFMicfPgzNHP0UAnjnC</code><br />
+<code>kr1bLbP67Hm/a4q7uMVf9L41iEYEExECAAYFAkAi+5wACgkQty7bXfD0ygQjDACe</code><br />
+<code>O2itMLMBC+nR46zWcz2Rzv5OtxwAn2YamdrEPoFh9JXppUyUjFrWvlANiEYEExEC</code><br />
+<code>AAYFAkHdr50ACgkQDxIdeyIREwXvrgCfSCSMyDlGXi68UkB9OBiXLBKhi6MAn0uk</code><br />
+<code>SPLNIET0wQ6aLC2SozV7NhlfiFsEExECABsFAj+wLDYGCwkIBwMCAxUCAwMWAgEC</code><br />
+<code>HgECF4AACgkQK/Fnod6KMQOJTQCfVMsLnNIxTiCmp4neQECm7ezVqD0An1HJX1yS</code><br />
+<code>X6M/wznORoUNWhbPFxJPtDJKb3NoIEdsb3ZlciAoR2VudG9vIERldmVsb3Blcikg</code><br />
+<code>PGptZ2xvdkBnZW50b28ub3JnPohGBBMRAgAGBQJB3a+dAAoJEA8SHXsiERMFY7AA</code><br />
+<code>mwfUU5p2JrVZN0Adgme1s4pVaP4PAJ49R8ekfN10B6Pm9KbI9qKtsQoBPYheBBMR</code><br />
+<code>AgAeBQJAo2URAhsDBgsJCAcDAgMVAgMDFgIBAh4BAheAAAoJECvxZ6HeijEDBzUA</code><br />
+<code>nRCpLPtBCv9HupQFqvetwL7N7hAwAJ9izpR/YAv5fjCL4M7urfrtIGSi4rQ/Sm9z</code><br />
+<code>aCBHbG92ZXIgKFRva3lvIExpbnV4IFVzZXJzIEdyb3VwIExpc3RtYXN0ZXIpIDxq</code><br />
+<code>b3NoQHRsdWcuanA+iEYEExECAAYFAkHdr5oACgkQDxIdeyIREwW2IACfQtUbFWvw</code><br />
+<code>Q9N0NF2ohd+ie/y5pfoAnAkMymNpIPtqnR9VBXxsX+VIxX7PiF4EExECAB4FAkCj</code><br />
+<code>ZTgCGwMGCwkIBwMCAxUCAwMWAgECHgECF4AACgkQK/Fnod6KMQOt+wCfa05tu4MF</code><br />
+<code>KWOrb5FWhy0xMLBHVMAAnjiMNySSKrMmTf8EQaN5cpkMGhwftENKb3NoIEdsb3Zl</code><br />
+<code>ciAoQ29tcHV0ZXIgU2NpZW5jZSwgQ2xhc3Mgb2YgMjAwMykgPGptZ2xvdkB3bWFs</code><br />
+<code>dW1uaS5jb20+iGAEExECACAFAkUzbXMCGwMGCwkIBwMCBBUCCAMEFgIDAQIeAQIX</code><br />
+<code>gAAKCRAr8Weh3ooxA/axAJoDwOrlnhBxcqr8j2Ph4jScMm/fXQCgkkisDTcuyhfL</code><br />
+<code>SUrhz9V6CwrjkwG5Ag0EP7AsXhAIAK44AyWAi4GwHgeUfwoCDzzV3UXgi3EBAraE</code><br />
+<code>GimMLWriYOpFfpSitiyeNgVoWKPZS2bdG7eMe2TAuqrtHKW7q7ITgZF+QVeQhcnJ</code><br />
+<code>tdPUaM23UqrsYDpX9KiblNeeZPpVpmgl1SbIb077tFSPLBrJ8UG8JAkGOp+JOhXe</code><br />
+<code>wsAmqprm9ej7X9zWTobr7X3Bmkl3QpJzUCnCFb0TQ6L1QOi8MfYH3rkjUm0/Qlaa</code><br />
+<code>ZtqTqAy5d7X7MhdEBuFPykPA4Ehmxss94hYNvWsM87MS16cpDyeE/ci1jHkkN0El</code><br />
+<code>WkqRtCrDfTR9njme/izSjCZ+p3oZ7kXNmH/+pbrcgMkKXzAIzQcAAwUH+wSbHazP</code><br />
+<code>qgPkEdSd1h8i6wkped9aeMOiFEDPYe+i1Q0ZKP3WHxC6aXwaEBHwY8gkad6mTKG0</code><br />
+<code>+VJMZ3/m+a5m3/ZmY5M5ZtoEkJhParlMzzKYEJrQ7TDTnxhBx8V2afqwzLixaEMN</code><br />
+<code>AWBKV93V041M2IVd+WvwblJUeCL9BmyBV40ldqT1Lk+jrdqKbaVHSi2Fgoma+W6y</code><br />
+<code>r2PLhHx5YSg53lfZ9+0GaWRYM+htc+m/aXNryUAKcRDCDwnhIOdvcKbCASaWhcl/</code><br />
+<code>8ZtjbmcxH0KbK3JWsCkJtP1guCz7GNen7U6rlkz0ga81+SDQbTnIXz4sq/GcFP/j</code><br />
+<code>G6xf5lJsX6RryHyIRgQYEQIABgUCP7AsXgAKCRAr8Weh3ooxA/11AJ0WbldHnv+g</code><br />
+<code>EhVIT6aR8MmfZnQsYQCfRH31o+5DOs1lPycHctrHn2YrQYs=</code><br />
+<code>=YWHL</code><br />
+<code>-----END PGP PUBLIC KEY BLOCK-----</code></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

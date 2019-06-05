@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="overview">Overview</h2>
+<p>The TLUG article submission and publication process.</p>
+<h2 id="details">Details</h2>
+<ol>
+<li>Submit your article for review to the TLUG list by emailing it to <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></li>
+</ol>
+<p>.</p>
+<ol>
+<li>A member of the TLUG admin group will post your article under <a href="http://tlug.jp/tmp/" class="uri">http://tlug.jp/tmp/</a> (which is protected from search engine crawlers by <code>robots.txt</code>.</li>
+<li>The same member of the TLUG admin group will make an announcement on <a href="http://www.tlug.jp/mailman/listinfo/tlug">the <em>tlug</em> mailing list</a></li>
+</ol>
+<p><code>to the effect that your article is available for review, and sets a deadline for comments (two weeks is probably best, but the deadline can be longer or shorter at the discretion of the admin group).</code></p>
+<ol>
+<li>TLUG members comment on the acceptability of the article for publication on the TLUG website. Comments may be both about content and style.</li>
+<li>You should take the members' feedback into consideration and make edits as you see fit.</li>
+<li>Before the deadline, any list member may call for an up or down vote on publishing your article on the TLUG website.</li>
+<li>If such a vote is called for, it will be carried out on <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></li>
+</ol>
+<p><code>as follows:</code></p>
+<ol>
+<li><ol>
+<li>A member of the admin group will post to the list, calling for the vote and establishing a clear deadline for voting. The vote will require a <a href="http://en.wikipedia.org/wiki/plurality">plurality (Wikipedia)</a></li>
+</ol></li>
+</ol>
+<p><code>/ </code><a href="http://en.wikipedia.org/wiki/simple_majority"><code>simple_majority</code><code> </code><code>(Wikipedia)</code></a></p>
+<p>)</p>
+<ol>
+<li><ol>
+<li>Any subscriber to <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></li>
+</ol></li>
+</ol>
+<p><code>may reply to the call for vote, with either </code>“<code>yes</code>”<code>, meaning that the article is acceptable for publication as it stands, or </code>“<code>no</code>”<code>, meaning that the article is not acceptable as it stands.</code></p>
+<ol>
+<li><ol>
+<li>At the end of the voting deadline, the admin group member who called for the vote will tally up the votes and announce the results on both <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></li>
+</ol></li>
+</ol>
+<p><code>and </code><a href="http://www.tlug.jp/mailman/listinfo/tlug"><code>the</code><code> </code><em><code>tlug</code></em><code> </code><code>mailing</code><code> </code><code>list</code></a></p>
+<p>. Lack of a simple majority will result in a “yes” result.</p>
+<ol>
+<li>At this point, if your article is denied, you may edit it and resubmit it if you wish, meaning that the process starts all over (but may be accelerated). The outcome of the second vote, should there be one, is final. You may not, under ordinary circumstances, re-submit after two “no” voting outcomes.</li>
+<li>If your article is accepted, a member of the admin group will give you a TLUG-themed template into which to insert your article. The template must include:
+<ol>
+<li>TLUG navigational links</li>
+<li>The title of your article</li>
+<li>Your name</li>
+<li>A short disclaimer along same lines of those found on standard newspaper editorial pages</li>
+</ol></li>
+<li>Once you have inserted your article text into the template, send it back to the admin group member.</li>
+<li>The admin group member will post the article for one day under <a href="http://tlug.jp/tmp/" class="uri">http://tlug.jp/tmp/</a> for a last-minute sanity check by admin group members.</li>
+<li>The admin group member will move the article to its final location, under <a href="http://tlug.jp/articles/" class="uri">http://tlug.jp/articles/</a></li>
+<li>The public URI of the article will be optimised for search engines; e.g. <a href="http://tlug.jp/articles/Why-Windows-Sucks-Investigation-Root-Causes" class="uri">http://tlug.jp/articles/Why-Windows-Sucks-Investigation-Root-Causes</a> for an article entitled “Why Windows Sucks: An Investigation into the Root Causes”</li>
+<li>Please give the TLUG admin group one day's advance notice before announcing your article publicly. Please also let the admin group know where you are announcing it, so that we can prepare for a Slashdotting if necessary.</li>
+<li>You may now announce the article publicly.</li>
+</ol>
+<h2 id="see-also">See Also</h2>
+<p><font color="#CC2200">Policies:Process</font> <font color="#CC2200">Process</font></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

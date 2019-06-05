@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>TLUG welcomes members who want to volunteer for any position. You can volunteer to help as much or as little as you want. All contributions are valuable.</p>
+<h2 id="current-officers">Current Officers</h2>
+<h3 id="elected">Elected</h3>
+<h4 id="president">President</h4>
+<p><img src="/images/Edward.jpg" title="fig:/images/Edward.jpg" alt="/images/Edward.jpg" /> <a href="./User:Edward">Edward Middleton</a></p>
+<h4 id="vice-president">Vice President</h4>
+<h4 id="treasurer">Treasurer</h4>
+<p><img src="/images/Tim.jpg" title="fig:/images/Tim.jpg" alt="/images/Tim.jpg" /> <a href="./User:Tim">Tim Meggs</a></p>
+<h3 id="appointed">Appointed</h3>
+<h4 id="sysadmin">Sysadmin</h4>
+<p><img src="/images/R_muffin_thumb.jpg" title="fig:/images/R_muffin_thumb.jpg" alt="/images/R_muffin_thumb.jpg" /> <a href="./User:Ragga">Henri 'ragga muffin' Servomaa</a></p>
+<h4 id="listmaster">Listmaster</h4>
+<p><img src="/images/Josh_glover.jpg" title="fig:/images/Josh_glover.jpg" alt="/images/Josh_glover.jpg" /> <a href="./User:Jmglov">Josh Glover</a></p>
+<h4 id="list-moderators">List Moderators</h4>
+<ul>
+<li><font color="#CC2200">Scott Robbins</font></li>
+<li>Jonathan Byrne</li>
+<li>Godwin Stewart</li>
+</ul>
+<h4 id="webmaster">Webmaster</h4>
+<p><img src="/images/Smallpenguin.jpg" title="fig:/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a> <img src="/images/Keith.jpg" title="fig:/images/Keith.jpg" alt="/images/Keith.jpg" /> <a href="./User:Bawdo2001">Keith Bawden</a></p>
+<h4 id="wikimaster">Wikimaster</h4>
+<p><img src="/images/Smallpenguin.jpg" title="fig:/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a></p>
+<h4 id="editor-in-chief">Editor in Chief</h4>
+<p><font color="red">''Proposal: <a href="./User:Jmglov">Jmglov</a> 14:19, 28 July 2007 (JST)</font></p>
+<p>Open. If you are interested, volunteer on <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a> .</p>
+<h2 id="job-descriptions">Job Descriptions</h2>
+<h3 id="elected-1">Elected</h3>
+<h4 id="president-1">President</h4>
+<h4 id="vice-president-1">Vice President</h4>
+<h4 id="treasurer-1">Treasurer</h4>
+<h3 id="appointed-1">Appointed</h3>
+<h4 id="sysadmin-1">Sysadmin</h4>
+<h4 id="listmaster-1">Listmaster</h4>
+<p>The duties of the Listmaster, in order of decreasing importance, are as follows:</p>
+<ol>
+<li>Ensure that the mailing list is receiving and delivering mail.</li>
+<li>Ensure that the list archive is functioning correctly and linked appropriately from the main site.</li>
+<li>Moderate the mailing list, keeping discussions on-topic, polite, and useful.</li>
+<li>Keep our <a href="http://www.tlug.jp/listpolicy.php">List Policy</a> documentation up to date and clearly stated.</li>
+<li>Document the current mailing list mechanism, with an eye on improvements; see also:
+<ol>
+<li><font color="#CC2200">TlugAdmin:Email Archives Info</font></li>
+<li><font color="#CC2200">TlugAdmin:Mailing List</font></li>
+</ol></li>
+<li>Handle automatic deferrals of list-bound mail and sort the spam from the ham.</li>
+</ol>
+<h4 id="list-moderators-1">List Moderators</h4>
+<p>The duties of the List Moderators are as follows:</p>
+<ol>
+<li>Moderate the mailing list, keeping discussions on-topic, polite, and useful.</li>
+</ol>
+<h4 id="webmaster-1">Webmaster</h4>
+<h4 id="wikimaster-1">Wikimaster</h4>
+<h4 id="editor-in-chief-1">Editor in Chief</h4>
+<p><font color="red">''Proposal: <a href="./User:Jmglov">Jmglov</a> 14:19, 28 July 2007 (JST)</font></p>
+<p>I envision the responsibilities of this position to be as follows, in order of decreasing importance:</p>
+<ol>
+<li>Actively encourage TLUG members to write high-quality articles that can be published on the TLUG site.</li>
+<li>Ensure that submitted articles meet minimal standards of quality as described above.</li>
+<li>Guide those articles through the submission process, as outlined by <a href="./Articles:Policies:Process">Articles:Policies:Process</a>.</li>
+<li>Work with the sysadmins to make sure our bandwidth can scale to handle demand for articles.</li>
+<li>Work with the author to publicise his articles.</li>
+<li>Recruit language-specific editors to provide the same services for articles written in languages other than English.</li>
+</ol>
+<p>Due to the nature of the position, only native-level English speakers should apply.</p>
+<h2 id="see-also">See Also</h2>
+<p><font color="#CC2200">Officers</font></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

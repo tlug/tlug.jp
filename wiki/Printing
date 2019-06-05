@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="members_menu">
+	  <h2>Members</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
+
+	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="http://www.linux.or.jp/" title="Japan Linux User Group">Japan Linux User Group</a></li>
+
+	    <li><a href="http://ninjava.jp" title="The English based Software Developers Group in Tokyo">Ninjava</a></li>
+
+	    <li><a href="http://tlec.linux.or.jp/index.html" title="Tokyo Linux Entertainment Community">TLEC</a></li>
+
+	    <li><a href="http://tokyodebian.alioth.debian.org/" title="Tokyo Area Debian User Group">Tokyo Debian User Group</a></li>
+
+	    <li><a href="http://opensolaris.org/os/project/tsug/" title="Tokyo Area OpenSolaris User Group">Tokyo OpenSolaris Users Group</a></li>
+
+	    <li><a href="http://www.tokyopc.org" title="The largest English based PC Group in Tokyo">Tokyo PC Users Group</a></li>
+
+	    <li><a href="http://www.ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
+
+	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Printing Japanese in Linux (as well as FreeBSD and NetBSD) has become relatively simple. Many applications such as OpenOffice and Firefox, will automatically send things to a printer as Postscript Level 2 or higher, which correctly prints Japanese text.</p>
+<p>Much of this information was taken from an <a href="http://www.jw-stumpel.nl/stestu.html">excellent page</a>on using multilingual text in Linux by JWS.</p>
+<p>This will also enable you to print text files, such as one that you might create with vi. Open the file in firefox, hit print and it will print correctly.</p>
+<p>You can also open the file in OpenOffice (and probably AbiWord, though I haven't checked that) to print it.</p>
+<p>Another trick is to use OpenOffice to print it without actually opening OpenOffice writer.</p>
+<p>Find out what command your distribution uses to start OpenOffice. (In GUI based distributions like Ubuntu, this can sometimes be a challenge--usually, you can right click on a command and left click on properties.) In FreeBSD for example, the command is</p>
+<p><code>openoffice.org-</code><version_number><code>.  </code></p>
+<p>For example, at time of writing, to use OpenOffice I would type</p>
+<p><code>openoffice.org-SRC680_m214</code></p>
+<p>(In reality, I type openoff and hit the tab key and leave it my shell's tab completion feature.)</p>
+<p>For purposes of this discussion, say that your distribution uses the command ooffice to start OpenOffice. If you have a text file in Japanese called nihongo.txt you can print it this way</p>
+<p><code>ooffice -p nihongo.txt</code></p>
+<p>Another way to do it is to use the very good <a href="http://paps.sourceforge.net/">paps program</a>. Many distributions (e.g., Ubuntu, Fedora) have a package for it. In others, such as ArchLinux or the BSD's, you will have to install it yourself.</p>
+<p>To install it, download the source code and save it somewhere. It requires that you have doxygen, pkgconfig and pango installed. (All of these are available as packages in ArchLinux, FreeBSD and NetBSD, the only three systems where I've done this. In FreeBSD at least, pkgconfig was called pkg-config.)</p>
+<p>In Linux, it's simply a matter of downloading the source, untarring it and installing it in typical fashion. (The source code tarbarll is available at the link given above).</p>
+<p><code>tar zxvf paps</code><version_number><code>.tar.gz</code><br />
+<code>cd paps</code><version_number><br />
+<code>./cofigure &amp;&amp; make &amp;&amp; make install</code></p>
+<p>In the BSD's, if you just do this, it will compile and install, but will give an error message about installing the documentation. This documentation is more for programmers than end users--the man page and --help option are more than sufficient for the non-programmer. If you need the documentation or simply hate error messages, after untarring paps, cd into the paps<version>/doc directory and find the part in the Makefile where it says cp -dpR. Change that to cp -pR.</p>
+<p>Once it is installed, you would use it like this. Taking that same nihongo.txt file (assuming that you have used UTF-8 encoding)</p>
+<p><code>paps nihongo.txt | lp</code></p>
+<p>The paps program only works on UTF-8 encoded files. If you have used EUC or something else, you would first have to use iconv to convert it to UTF-8 encoding. The iconv program is often installed by default, but if not, it should be available as a package.</p>
+<p>To use it, first do iconv -l (a lower case letter L, as in list) to see how your distribution's version names things. For instance, in FreeBSD, doing iconv -l |grep -i euc shows me that I can use either EUC-JP or EUCJP.</p>
+<p>So, if I have a file encoded in EUC called nihongoeuc.txt I would do it this way</p>
+<p><code>iconv -f EUCJP -t UTF8|nihongoeuc.txt|paps|lp</code></p>
+<p>The -f and -t are for <em>from</em> and <em>to</em>.</p>
+<p>I have found that sylpheed (at least the last time I used it) wouldn't automatically translate things to Postscript Level 2 so I use paps with it.</p>
+<p>In the sylpheed Configuration menu there is a section for Details, External Commands. The default is lpr %s. I changed this to</p>
+<p><code>paps %s|lp</code></p>
+<p>I usually use mutt as my email client. The mutt program lets you pipe things to a command by hitting the | key. So, if I wanted to print a Japanese email I received, in mutt I would type</p>
+<p><code>|paps|lp</code></p>
+<p>I use HP printers both at work and home. The generic laserjet and deskjet drivers didn't work properly with paps, I had to install the hpijs program (available in most distributions) to get more sophisticated ppds. If it's not available in your distribution, you can get the source code from <a href="http://hplip.sourceforge.net/">the HPLIP page</a>. (The HPLIP package includes hpijs.)</p>
+<p><font color="#CC2200">Printing</font></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>
