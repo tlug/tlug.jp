@@ -55,6 +55,7 @@ Usage: $(basename "$0") [options]
 Options:
   -C              clean build (this project only, not Stack dependencies)
   -h, --help      print this help message
+  -t, --test-only compile code and run its unit tests only; don't compile site
   --prod-release  commit compiled site to gh-pages branch
   --dev-release   commit compiled site to dev release branch
 _____
@@ -62,11 +63,13 @@ _____
     exit 2
 }
 
+test_only=false
 while true; do case "$1" in
     -C)                 shift; git clean -fdX;;
     --prod-release)     shift; set_prod_release_branch;;
     --dev-release)      shift; set_dev_release_branch;;
     -h|--help)          shift; usage;;
+    -t|--test-only)     shift; test_only=true;;
     -*)                 usage "unknown option: '$1'";;
     *)                  break;;
 esac; done
@@ -77,17 +80,19 @@ cd "$basedir"
 
 install_or_upgrade_stack
 stack build --test
-#   `site-compiler build` does an incremental build that assumes that
-#   the site compiler hasn't changed. We need `rebuild` in case it
-#   has. (An optimization would be to detect whether the site compiler
-#   has changed or not.)
-stack exec site-compiler rebuild
+if ! $test_only; then
+    #   `site-compiler build` does an incremental build that assumes that
+    #   the site compiler hasn't changed. We need `rebuild` in case it
+    #   has. (An optimization would be to detect whether the site compiler
+    #   has changed or not.)
+    stack exec site-compiler rebuild
 
-[[ $relbranch ]] && {
-    echo "Committing compiled site in _site/ to $relbranch"
-    bin/git-commit-filetree "$relbranch" _site/
-    echo 'Release with:'
-    echo "    git push origin $relbranch"
-}
+    [[ $relbranch ]] && {
+        echo "Committing compiled site in _site/ to $relbranch"
+        bin/git-commit-filetree "$relbranch" _site/
+        echo 'Release with:'
+        echo "    git push origin $relbranch"
+    }
+fi
 
 trap '' 0
