@@ -50,11 +50,14 @@ set_dev_release_branch() {
 usage() {
     local errmsg="$@"
     [[ -n $errmsg ]] && echo 1>&2 "Argument error: $errmsg"
-    echo 1>&2 "Usage: $(basename "$0") [options]"
-    echo 1>&2 "Options:"
-    echo 1>&2 "  -C  clean build (cleans this project, not Stack dependencies)"
-    echo 1>&2 "  --prod-release  commit compiled site to gh-pages branch"
-    echo 1>&2 "  --dev-release   commit compiled site to dev release branch"
+    cat 1>&2 <<_____
+Usage: $(basename "$0") [options]
+Options:
+  -C              clean build (this project only, not Stack dependencies)
+  -h, --help      print this help message
+  --prod-release  commit compiled site to gh-pages branch
+  --dev-release   commit compiled site to dev release branch
+_____
     exit 2
 }
 
