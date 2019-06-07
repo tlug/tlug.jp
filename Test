@@ -58,6 +58,7 @@ Options:
   --prod-release  commit compiled site to gh-pages branch
   --dev-release   commit compiled site to dev release branch
 _____
+    trap '' 0
     exit 2
 }
 
