@@ -130,12 +130,18 @@
         </div>
 
         <div id="hosting_menu">
-          <h2>Site Hosting</h2>
-          <p>Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
+          <h2>Site Information</h2>
+	  <p>
+            This site is built with <a href="https://jaspervdj.be/hakyll/">
+            Hakyll</a> from the <a href="https://github.com/tlug/tlug.jp">
+            <code>tlug/tlug.jp</code> repo on GitHub</a>.
           </p>
-          <p><a href="https://www.netlify.com">
-             <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
+          <p>
+	    Hosting for this site is provided by
+            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
+            <br/>
+            <a href="https://www.netlify.com">
+              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
             </a>
           </p>
         </div>
