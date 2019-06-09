@@ -129,6 +129,17 @@
           </ul>
         </div>
 
+        <div id="hosting_menu">
+          <h2>Site Hosting</h2>
+          <p>Hosting for this site is provided by
+            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
+          </p>
+          <p><a href="https://www.netlify.com">
+             <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
+            </a>
+          </p>
+        </div>
+
         <div id="validator_logos_menu"></div>
       </div>
     </div>
