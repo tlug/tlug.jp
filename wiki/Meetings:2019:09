@@ -153,94 +153,40 @@
     </div>
 
     <div class="content">
-      <div id="events">
-<h2 id="comingrecent-events">Coming/Recent Events</h2>
-<!--
-	 IIJ (Internet Initiative Japan) Iidabashi Grand Bloom</br>2-10-2 Fujimi, Chiyoda-ku, Tokyo 102-0071</br>
-	--> <!--
-        <dl>
-          <dt>When:</dt>
-	  <dd>14:00 Saturday March 9, 2019</dd>
-          <dd>
-          <dt>Topics:</dt>
-          <dd><em>Dimension reduction, and word embeddings, in Natural Language Processing</em> by Darren Cook</dd>
-          <dt>Venue:</dt>
-          <dd>HENNGE Open Lounge<br>
-              Glass City Shibuya (10F reception)<br>
-              16-28 Nanpeidai-cho, Shibuya-ku<br>  
-              〒150-0036 Tokyo</br>
-
-          <a href="https://goo.gl/maps/5pafMxLFgoM2">Google Maps</a><br>
-          <a href="https://medium.com/henngeblog/how-to-get-to-hde-hq-from-mark-city-english-f182c6bbec19">Directions</a></dd>
-        </dl>
-	[ <a href="/wiki/Meetings:2019:03" title="TLUG Technical Meeting">more info</a> ]
-	--> <!--
-	BURG HOLIC - Esupasu Konseru Building 2F,</br> 3-3, Yotsuya, Shinjuku-ku, Tokyo, 160-0004</br>
-        Sudacho Shokudo - Akihabara UDX 3F,</br> 4-14-1, Sotokanda, Chiyoda-ku, Tokyo, 101-0021</br>
-	Craft Beer Tap - Yodobashi AKIBA building 8F,</br> 1-1, Kandahanaokacho, Chiyoda-ku, Tokyo, 101-0028</br>
-	Zest Cantina　G-Zone Ginza,</br> 1-2-3 Ginza, Chuo-ku, Tokyo, 104-0061</br>
-	[ <a href="/wiki/Meetings:2019:01" title="TLUG Shinnennkai">more info</a> ]
-        --> <!--
-	<h4>TLUG Server Migration Hacking Meetup</h4>
-        <p>Saturday May 11, 2019</br>
-	Working Space Co-Edo - PA Building 5F,</br>1-3-4 Shinkawa, Chuo-ku, Tokyo</br>
-	[ <a href="/wiki/Meetings:2019:05" title="TLUG Server Migration Meeting">more info</a> ]
-	</p> 
-	-->
-<h4 id="tlug-25th-anniversary-party">TLUG 25th Anniversary Party</h4>
-<p>Saturday September 14, 2019 12:00 PM</br> Weber Park - Aqua City Odaiba 7F<br />
-1-7-1 Daiba, Minato-ku, Tokyo 135-0091</br> Note: Prepayment is needed to secure the reservation for Weber Park. Please see the meeting page for more info.</br> [ <a href="/wiki/Meetings:2019:09" title="TLUG 25th BBQ">more info</a> ] [ <a href="https://tlug.doorkeeper.jp/events/96827" class="uri">register here</a> ]</p>
-<!--
-	--> <!-- Craft Beer Tap - Yodobashi AKIBA building 8F,</br> 1-1, Kandahanaokacho, Chiyoda-ku, Tokyo, 101-0028</br> --> <!-- Zest Cantina　G-Zone Ginza,</br> 1-2-3 Ginza, Chuo-ku, Tokyo, 104-0061</br> --> <!--
- 	[<a href="http://www.zest-cantina.jp/gzone/?lang=en" title="home page">home page</a>]
-        <h4>TLUG Bonenkai</h4>
-
-        <p>Tuesday December 12, 19:00-21:45 at Garden Kitchen East</p>
-
-        <p>4−25−13, Yotsuya, Shinjuku-ku, Tokyo, 160-0004</br>
-        </br>
-    [ <a href="http://www.gardenkitchen.jp/east/index.html">Homepage (ja)</a> ]</br>
---> <!-- <p>3-22-1 Shinbashi, Kawazaki Dai-ichi Bldg. B1F, Minato-ku, Tokyo</br> --> <!-- <p>2-10-2 Fujimi Chiyoda-ku, Tokyo 102-0071 </br> --> <!-- <p>1-3-10 Shinbashi</br> --> <!--   Minato-ku, Tokyo --> <!--         <p>2-10-2 Fujimi  --> <!-- Chiyoda-ku, Tokyo 102-0071  --> <!-- <p>6-5-1 Nishi Gotanda<br/> --> <!--   Shinagawa-ku, Tokyo 141-0031 --> <!--	<em style="color:red;">*** CANCELED due to weather. ***</em> --> <!--[ <a href="/wiki/Meetings:2018:01" title="TLUG Technical meeting">more info</a> ]--> <!--[ <a href="https://gurunavi.com/en/a033617/rst/">shop page</a> ]
-	[ <a href="/wiki/Meetings:2018:02" title="TLUG Nomikai">more info</a> ]
-        <br/>
-	--> <!--
-        <br/>
-        *** Please register with <a href="http://tlug.doorkeeper.jp" title="October 2016 Nomikai">doorkeeper</a> ***
-        <br/>
---><br />
-
-</p>
-</div>
-<div id="about">
-<h2 id="about-tlug">About TLUG</h2>
-<p>The Tokyo Linux Users Group grew out of the creative energies of some of Japan’s Internet pioneers. They recognized the significance of Linux and within months held the first official meeting in September of 1994.</p>
-<p>On June 16, 1994 TLUG was born as the “LINUX” conference on TWICS, which was the only public access Internet Service Provider in Japan at that time. The atmosphere was exciting and friendly, and everyone began helping each other fix problems and learn about Linux. One of the early members commented, “It felt like we were all on the edge of this frontier and that together we were taming this networked, high-tech jungle. It was great!”</p>
-<blockquote>
-“It felt like we were all on the edge of this frontier and that together we were taming this networked, high-tech jungle.”
-</blockquote>
-<p>TLUG is a non-profit users group, whose members exchange information on the development and use of the Linux kernel and Free Software Foundation tools. Physical and online meetings are held in English and Japanese. All are welcome.</p>
-</div>
-<div class="meetings">
-<h2 id="meetings">Meetings</h2>
-<p>Meeting times and places are announced on the mailing list and on the TLUG meeting page. Take a look at what happened at earlier meetings and parties.<br />
-[ <a href="wiki/Current_Meeting">Next Meeting</a> | <a href="wiki/Meetings">Past Meetings</a> ]</p>
-</div>
-<div class="members">
-<h2 id="members">Members</h2>
-<p>TLUG is made up of members from all over the world. Please see the links below to get to know some of them.<br />
-[ <a href="wiki/TLUG:Organization">Administrative Members</a> | <a href="wiki/Special:Listusers?group=tlug">Other Members</a> ]</p>
-</div>
-<div class="ml18n">
-<h2 id="multilingualization">Multilingualization</h2>
-<p>If you’re looking for information about multilingualization on Linux with Japanese, or Linux shops in Japan, you’ve come to the right place. Have a look at our documents on multilingualization/Linux in Japan.<br />
-[ <a href="docs.php">Documents</a> | <a href="linuxinjapan/index.html">Linux in Japan</a> ]</p>
-</div>
-<div class="mailing_list">
-<h2 id="get-involved">Get Involved</h2>
-<p>If you are interested in TLUG, we strongly recommend you to join TLUG. You can read the archives of both main and admin lists. Please note that the admin list requires the following username and password: <img src="images/tlug-uname.png" alt="See username with graphical browser" />/ <img src="images/tlug-pword.png" alt=" and password!" /><br />
-<br />
-[ <a href="http://lists.tlug.jp/list.html">Subscribe/Unsubscribe</a> | <a href="http://lists.tlug.jp/listpolicy.html">List Policy</a> | <a href="http://lists.tlug.jp/ML/index.html">Archives (Main)</a> | <a href="http://lists.tlug.jp/MLadm/index.html">Archives (Admin)</a> ]</p>
-</div>
+      <h2 id="introduction">Introduction</h2>
+<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or entrance fees.</p>
+<p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
+<p>As a general rule, the Technical Meetings are held on the 2nd Saturday of odd-numbered months and the Nomikai Meetings are usually held on the 2nd Friday of even-numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
+<h2 id="tlug-25th-anniversary-party">TLUG 25th Anniversary Party</h2>
+<h4 id="date">Date</h4>
+<p>September 14, 2019 (Saturday)</p>
+<h4 id="time">Time</h4>
+<p>12:00 - 14:30 (BBQ)<br />
+14:45 - 16:15 (Boat)<br />
+16:15 - (Beer)</p>
+<h4 id="event">Event</h4>
+<p>Celebrate TLUG's 25th anniversary with a BBQ and cruise</p>
+<h4 id="location">Location</h4>
+<p><strong>Weber Park</strong><br />
+Aqua City Odaiba 7F, 1-7-1 Daiba, Minato-ku, Tokyo, 135-0091<br />
+[ <a href="https://www.weberpark.com/index_us.html">Info</a> ] [ <a href="https://www.weberpark.com/">Info(ja)</a> ] [ <a href="https://g.page/weberpark?share">map</a> ]</p>
+<h4 id="cost">Cost</h4>
+<p>5000 yen for BBQ</p>
+<p>Payment details (paid by bank transfer before 9th September)</p>
+<p>三井住友銀行 横浜中央支店 普通 6939742<br />
+ミドルトン　エドワ－ド</p>
+<p>Please also register on Doorkeeper or reply to the announcement on the mailing list so we can keep track of who's coming and who's paid.</p>
+<p><a href="https://tlug.doorkeeper.jp/events/96827" class="uri">https://tlug.doorkeeper.jp/events/96827</a></p>
+<p>The 5000 yen is for the Weber Park BBQ course and must be prepaid so we can finalize the reservation. The cost for the boat ticket (1380 yen) and anything else will be split up at the time like we usually do.</p>
+<h3 id="details">Details</h3>
+<p>We'll start out with a barbecue and open bar at Weber Park in Odaiba. After that, we'll grab some drinks and hop on a boat for a 90 minute cruise to Asakusa. Once we get to Asakusa, we'll head over to the Asahi Beer HQ for a nijikai.</p>
+<p>This event is open to all Linux users and friends, and is to celebrate TLUG's 25th Anniversary. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
+<h3 id="contact-info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li>Edward: 090-3689-0292</li>
+</ul>
+<p><font color="#CC2200">2019:09</font> <font color="#CC2200">09</font></p>
     </div>
 
     <div id="footer">
