@@ -153,93 +153,33 @@
     </div>
 
     <div class="content">
-      <div id="events">
-<h2 id="comingrecent-events">Coming/Recent Events</h2>
-<!--
-	 IIJ (Internet Initiative Japan) Iidabashi Grand Bloom</br>2-10-2 Fujimi, Chiyoda-ku, Tokyo 102-0071</br>
-	--> <!--
-        <dl>
-          <dt>When:</dt>
-	  <dd>14:00 Saturday March 9, 2019</dd>
-          <dd>
-          <dt>Topics:</dt>
-          <dd><em>Dimension reduction, and word embeddings, in Natural Language Processing</em> by Darren Cook</dd>
-          <dt>Venue:</dt>
-          <dd>HENNGE Open Lounge<br>
-              Glass City Shibuya (10F reception)<br>
-              16-28 Nanpeidai-cho, Shibuya-ku<br>  
-              〒150-0036 Tokyo</br>
-
-          <a href="https://goo.gl/maps/5pafMxLFgoM2">Google Maps</a><br>
-          <a href="https://medium.com/henngeblog/how-to-get-to-hde-hq-from-mark-city-english-f182c6bbec19">Directions</a></dd>
-        </dl>
-	[ <a href="/wiki/Meetings:2019:03" title="TLUG Technical Meeting">more info</a> ]
-	--> <!--
-	BURG HOLIC - Esupasu Konseru Building 2F,</br> 3-3, Yotsuya, Shinjuku-ku, Tokyo, 160-0004</br>
-        Sudacho Shokudo - Akihabara UDX 3F,</br> 4-14-1, Sotokanda, Chiyoda-ku, Tokyo, 101-0021</br>
-	Craft Beer Tap - Yodobashi AKIBA building 8F,</br> 1-1, Kandahanaokacho, Chiyoda-ku, Tokyo, 101-0028</br>
-	Zest Cantina　G-Zone Ginza,</br> 1-2-3 Ginza, Chuo-ku, Tokyo, 104-0061</br>
-	[ <a href="/wiki/Meetings:2019:01" title="TLUG Shinnennkai">more info</a> ]
-        --> <!--
-	<h4>TLUG Server Migration Hacking Meetup</h4>
-        <p>Saturday May 11, 2019</br>
-	Working Space Co-Edo - PA Building 5F,</br>1-3-4 Shinkawa, Chuo-ku, Tokyo</br>
-	[ <a href="/wiki/Meetings:2019:05" title="TLUG Server Migration Meeting">more info</a> ]
-	</p> 
-	-->
-<h4 id="tlug-nomikai">TLUG Nomikai</h4>
-<p>Friday August 9, 2019</br> Oerbier Man - Akihabara UDX 1F,</br> 4-14-1, Sotokanda, Chiyoda-ku, Tokyo, 101-0021</br> [ <a href="/wiki/Meetings:2019:10" title="TLUG Nomikai">more info</a> ] [ <a href="https://tlug.doorkeeper.jp/events/98920" class="uri">register here</a> ]</p>
-<!--
-	--> <!-- Craft Beer Tap - Yodobashi AKIBA building 8F,</br> 1-1, Kandahanaokacho, Chiyoda-ku, Tokyo, 101-0028</br> --> <!-- Zest Cantina　G-Zone Ginza,</br> 1-2-3 Ginza, Chuo-ku, Tokyo, 104-0061</br> --> <!--
- 	[<a href="http://www.zest-cantina.jp/gzone/?lang=en" title="home page">home page</a>]
-        <h4>TLUG Bonenkai</h4>
-
-        <p>Tuesday December 12, 19:00-21:45 at Garden Kitchen East</p>
-
-        <p>4−25−13, Yotsuya, Shinjuku-ku, Tokyo, 160-0004</br>
-        </br>
-    [ <a href="http://www.gardenkitchen.jp/east/index.html">Homepage (ja)</a> ]</br>
---> <!-- <p>3-22-1 Shinbashi, Kawazaki Dai-ichi Bldg. B1F, Minato-ku, Tokyo</br> --> <!-- <p>2-10-2 Fujimi Chiyoda-ku, Tokyo 102-0071 </br> --> <!-- <p>1-3-10 Shinbashi</br> --> <!--   Minato-ku, Tokyo --> <!--         <p>2-10-2 Fujimi  --> <!-- Chiyoda-ku, Tokyo 102-0071  --> <!-- <p>6-5-1 Nishi Gotanda<br/> --> <!--   Shinagawa-ku, Tokyo 141-0031 --> <!--	<em style="color:red;">*** CANCELED due to weather. ***</em> --> <!--[ <a href="/wiki/Meetings:2018:01" title="TLUG Technical meeting">more info</a> ]--> <!--[ <a href="https://gurunavi.com/en/a033617/rst/">shop page</a> ]
-	[ <a href="/wiki/Meetings:2018:02" title="TLUG Nomikai">more info</a> ]
-        <br/>
-	--> <!--
-        <br/>
-        *** Please register with <a href="http://tlug.doorkeeper.jp" title="October 2016 Nomikai">doorkeeper</a> ***
-        <br/>
---><br />
-
-</p>
-</div>
-<div id="about">
-<h2 id="about-tlug">About TLUG</h2>
-<p>The Tokyo Linux Users Group grew out of the creative energies of some of Japan’s Internet pioneers. They recognized the significance of Linux and within months held the first official meeting in September of 1994.</p>
-<p>On June 16, 1994 TLUG was born as the “LINUX” conference on TWICS, which was the only public access Internet Service Provider in Japan at that time. The atmosphere was exciting and friendly, and everyone began helping each other fix problems and learn about Linux. One of the early members commented, “It felt like we were all on the edge of this frontier and that together we were taming this networked, high-tech jungle. It was great!”</p>
-<blockquote>
-“It felt like we were all on the edge of this frontier and that together we were taming this networked, high-tech jungle.”
-</blockquote>
-<p>TLUG is a non-profit users group, whose members exchange information on the development and use of the Linux kernel and Free Software Foundation tools. Physical and online meetings are held in English and Japanese. All are welcome.</p>
-</div>
-<div class="meetings">
-<h2 id="meetings">Meetings</h2>
-<p>Meeting times and places are announced on the mailing list and on the TLUG meeting page. Take a look at what happened at earlier meetings and parties.<br />
-[ <a href="wiki/Current_Meeting">Next Meeting</a> | <a href="wiki/Meetings">Past Meetings</a> ]</p>
-</div>
-<div class="members">
-<h2 id="members">Members</h2>
-<p>TLUG is made up of members from all over the world. Please see the links below to get to know some of them.<br />
-[ <a href="wiki/TLUG:Organization">Administrative Members</a> | <a href="wiki/Special:Listusers?group=tlug">Other Members</a> ]</p>
-</div>
-<div class="ml18n">
-<h2 id="multilingualization">Multilingualization</h2>
-<p>If you’re looking for information about multilingualization on Linux with Japanese, or Linux shops in Japan, you’ve come to the right place. Have a look at our documents on multilingualization/Linux in Japan.<br />
-[ <a href="docs.php">Documents</a> | <a href="linuxinjapan/index.html">Linux in Japan</a> ]</p>
-</div>
-<div class="mailing_list">
-<h2 id="get-involved">Get Involved</h2>
-<p>If you are interested in TLUG, we strongly recommend you to join TLUG. You can read the archives of both main and admin lists. Please note that the admin list requires the following username and password: <img src="images/tlug-uname.png" alt="See username with graphical browser" />/ <img src="images/tlug-pword.png" alt=" and password!" /><br />
-<br />
-[ <a href="http://lists.tlug.jp/list.html">Subscribe/Unsubscribe</a> | <a href="http://lists.tlug.jp/listpolicy.html">List Policy</a> | <a href="http://lists.tlug.jp/ML/index.html">Archives (Main)</a> | <a href="http://lists.tlug.jp/MLadm/index.html">Archives (Admin)</a> ]</p>
-</div>
+      <h2 id="introduction">Introduction</h2>
+<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or entrance fees.</p>
+<p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
+<p>As a general rule, the Technical Meetings are held on the 2nd Saturday of odd-numbered months and the Nomikai Meetings are usually held on the 2nd Friday of even-numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
+<h2 id="nomikai">Nomikai</h2>
+<h4 id="date">Date</h4>
+<p>October 10, 2019 (Friday)</p>
+<h4 id="time">Time</h4>
+<p>19:30 - 21:30</p>
+<h4 id="event">Event</h4>
+<p>Eat and drink (primarily a social activity)</p>
+<h4 id="location">Location</h4>
+<p><strong>Oerbier Man</strong><br />
+Akihabara UDX 1F, 4-14-1, Sotokanda, Chiyoda-ku, Tokyo, 101-0021<br />
+[ <a href="https://gurunavi.com/en/p989625/rst/">Info</a> ] [ <a href="https://r.gnavi.co.jp/pkppyctp0000/">Info(ja)</a> ] [ <a href="https://goo.gl/maps/pQPy2ZfkGP3fAf7u7">map</a> ]</p>
+<p>To help us make sure that there will be room for everyone to seat, please register your attendance here:</p>
+<p><a href="https://tlug.doorkeeper.jp/events/98920" class="uri">https://tlug.doorkeeper.jp/events/98920</a></p>
+<h4 id="cost">Cost</h4>
+<p>Around 4,000yen</p>
+<h3 id="details">Details</h3>
+<p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
+<h3 id="contact-info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li>Edward: 090-3689-0292</li>
+</ul>
+<p><font color="#CC2200">2019:10</font> <font color="#CC2200">10</font></p>
     </div>
 
     <div id="footer">
