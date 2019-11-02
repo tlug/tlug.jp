@@ -26,5 +26,9 @@ It’s an unusual computer and interesting computer released in 1987. Perhaps it
 
 The most striking feature of the Canon Cat its lack of any software application; instead it consists of a single document with all functionality provided at OS-level. There are some other interesting points too such as the embedded Forth compiler, an assembly language, a novel file system, incremental search...
 
-''' "A status update on Matrix/Riot.im" - by [[Alexey Rusakov]] '''
+''' "Decentralised secure communication with Matrix - status update" - by [[Alexey Rusakov]] '''
+
+The talk will give a briefly overview Matrix (https://www.matrix.org), an open decentralised network for real-time communications and provide a status update on what has been happening with it over the last year.
+
+It will cover advanced end-to-end encryption features, news on clients and bridges, general things about the ecosystem and future plans. Questions and extra requests are welcome: we can setup a homeserver, draft up yet-another-bot, or talk about details of the Matrix protocols.
 
