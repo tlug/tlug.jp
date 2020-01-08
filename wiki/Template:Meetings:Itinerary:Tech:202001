@@ -2,7 +2,7 @@
 
 ===== Presentations: =====
 
-''dot-home for version-control of a users environment configuration'' - Curt Sampson
+'''dot-home for version-control of a users environment configuration''' - Curt Sampson
 
 dot-home[1] lets you have version-controlled user environment
 configuration easily distributed amongst many different machines, with
