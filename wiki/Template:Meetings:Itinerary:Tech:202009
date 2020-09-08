@@ -143,7 +143,6 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations:</h5>
-<p>Presentations</p>
 <p><em>Introduction to the Rust Programming language</em> - by Edward Middleton</p>
 <p>The talk will give an outline of the language and cover the features that make it unique. Its History, the tooling, where people are using it, and some projects I have started using it in.</p>
     </div>
