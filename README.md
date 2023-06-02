@@ -136,12 +136,12 @@ because they seem to offer only paid options for that at the moment,
 but we do have staging URLs set up under personal accounts:
 
 - <https://tlug.netlify.com> using Jim's Netlify account.
-- <https://cjs-tlug.netlify.com>> using cjs's Netlify account.
+- <https://cjs-tlug.netlify.com> using cjs's Netlify account.
 
 ### Non-local Builds/Build Servers
 
 Some proof-of-concept work has been done on this. See
-[PROPOSALS](PROPOSALS.md) for more details.
+[PROPOSALS](doc/proposals.md) for more details.
 
 
 Production Deployment
