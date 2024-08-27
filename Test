@@ -4,11 +4,28 @@ trap 'x=$?; echo 1>&2 "FAILED ($x)."; exit $x' 0
 
 die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
 
+STACK_VERSION="3.1.1"
+
+stackbin=~/.local/bin
+export PATH="$PATH:$stackbin"
+
+install_stack() {
+    if stackver=$(stack --version); then
+        if ! [[ "$stackver" =~ ^Version\ ${STACK_VERSION},.* ]]; then
+            echo "WARNING: Tested with stack version $STACK_VERSION, currently using:"
+		    echo "$stackver"
+	    fi
+		return
+	fi
+
+    echo "Installing stack to $stackbin/"
+    echo "This may need to sudo to install additional OS packages."
+    mkdir -p "$stackbin"
+    curl -sSL https://get.haskellstack.org/ | sh -s - -d "$stackbin"
+}
+
 #   Install Haskell Stack if necessary and ensure it's in $PATH.
 install_or_upgrade_stack() {
-    local stackbin=~/.local/bin
-    export PATH="$PATH:$stackbin"
-
     #   Don't try to upgrade a non-clean build more than once per hour.
     local ts_file="$basedir/.stack-work/stack-upgrade-timestamp"
     local ts=$(stat --format "%Y" "$ts_file" 2>/dev/null)
@@ -16,12 +33,8 @@ install_or_upgrade_stack() {
     local age=$(( $(date '+%s') - $ts))
     [[ $age -lt 3600 ]] && return 0     # Don't check more than once per hour.
 
-    mkdir -p "$stackbin"
-
     stack upgrade || stack --version 2>/dev/null || {
-        echo "Installing stack to $stackbin/"
-        echo "This may need to sudo to install additional OS packages."
-        curl -sSL https://get.haskellstack.org/ | sh -s - -d "$stackbin"
+        install_stack
     }
 
     mkdir -p "$(dirname "$ts_file")"
@@ -78,7 +91,10 @@ esac; done
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
-install_or_upgrade_stack
+# Let's not auto-upgrade for now
+# install_or_upgrade_stack
+install_stack
+
 stack build --test
 if ! $test_only; then
     #   `site-compiler build` does an incremental build that assumes that
