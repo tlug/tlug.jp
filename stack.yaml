@@ -10,7 +10,7 @@
 #   Most packages comes from the following Stack snapshot.
 #   We use a slightly older snapshot because Hakyll is not in the
 #   latest (lts-13) snapshot.
-resolver: lts-12.26
+resolver: lts-22.33
 
 #   Paths to all packages (with a .cabal file) in this repo.
 packages: [.]
