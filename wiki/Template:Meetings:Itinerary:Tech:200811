@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,25 +135,30 @@
     <div class="content">
       <h3 id="agenda">Agenda</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
+<h5 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
 <p><strong>“Serving dynamic webpages in less then a millisecond”</strong> by <em>John Fremlin</em></p>
-<p>John Fremlin will introduce the web application platform he developed. The talk will cover issues like the greatest contributors to latency and how he dealt with them, as well as other issues he addressed in performance tuning.</p>
+<p>John Fremlin will introduce the web application platform he
+developed. The talk will cover issues like the greatest contributors to
+latency and how he dealt with them, as well as other issues he addressed
+in performance tuning.</p>
 <p>[ <a href="http://tlug.jp/meetings/2008/11/serving-dynamic-webpages-in-less-then-a-millisecond_john-fremlin.pdf">slides</a> ] [ <a href="http://tlug.jp/meetings/2008/11/serving-dynamic-webpages-in-less-then-a-millisecond_john-fremlin_handout.pdf">handout</a> ]</p>
-<h5 id="discussion-2">&lt;&lt; Discussion (2) &gt;&gt;</h5>
+<h5 id="discussion_2">&lt;&lt; Discussion (2) &gt;&gt;</h5>
 <p><strong>“designing and building high-performance HTTP systems”</strong></p>
 <p>We will hold an open discussion about the design of high performance HTTP systems.</p>
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
 <p>Short break <em>(maybe)</em></p>
-<h5 id="lightening-talk-3">&lt;&lt; Lightening Talk (3) &gt;&gt;</h5>
+<h5 id="lightening_talk_3">&lt;&lt; Lightening Talk (3) &gt;&gt;</h5>
 <p><strong>“Replacing the page cache with varnish”</strong> by <em><a href="./User:Edward">Edward Middleton</a></em></p>
-<p>Edward Middleton will explain how he used varnish to replace the page cache on his typo blog.</p>
+<p>Edward Middleton will explain how he used varnish to replace the page cache on
+his typo blog.</p>
 <p>[ <a href="http://tlug.jp/meetings/2008/11/replacing-the-page-cache-with-varnish_edward-middleton_slides.pdf">slides</a> ]</p>
-<h4 id="other-items-on-the-agenda">Other Items on the Agenda</h4>
+<h4 id="other_items_on_the_agenda">Other Items on the Agenda</h4>
 <ol>
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

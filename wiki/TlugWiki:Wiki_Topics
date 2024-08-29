@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,7 @@
     </div>
 
     <div class="content">
-      <h1 id="wiki-topics-for-consideration">Wiki Topics for consideration</h1>
+      <h1 id="wiki_topics_for_consideration">Wiki Topics for consideration</h1>
 <ul>
 <li>File Uploads
 <ul>
@@ -171,7 +163,7 @@
 </ul></li>
 </ul></li>
 </ul>
-<h2 id="completed-topics">Completed Topics</h2>
+<h2 id="completed_topics">Completed Topics</h2>
 <ul>
 <li>Permissions Wringing - Permissions need to be (thoroughly) tested to be sure the implementation matches the policy.
 <ul>
@@ -185,7 +177,7 @@
 <ul>
 <li><a href="./User:Zev">zev</a>: Why would we want to do that? I see we would loose the ability to express Topic titles that have spaces in them?</li>
 </ul></li>
-<li>At the very least let's trash the index.php header. See: <a href="http://meta.wikimedia.org/wiki/Eliminating_index.php_from_the_url" class="uri">http://meta.wikimedia.org/wiki/Eliminating_index.php_from_the_url</a></li>
+<li>At the very least let's trash the index.php header. See: <a href="http://meta.wikimedia.org/wiki/Eliminating_index.php_from_the_url">http://meta.wikimedia.org/wiki/Eliminating_index.php_from_the_url</a></li>
 <li><a href="./User:Hoanga">Al</a>: Need someone with web-admin rights who can configure the apache config. I don't have apache config rights.. Josh??</li>
 </ul></li>
 <li>Logo - We need a TLUG specific wiki logo. Which one should we use?
@@ -204,7 +196,7 @@
 <ul>
 <li>This should be a simple setting in MediaWiki... when?</li>
 <li>I think we can change it through this variable: <a href="http://www.mediawiki.org/wiki/Manual:%24wgLocaltimezone">http://www.mediawiki.org/wiki/Manual:%24wgLocaltimezone</a></li>
-<li>And this :<a href="http://meta.wikimedia.org/wiki/Help:Timezone" class="uri">http://meta.wikimedia.org/wiki/Help:Timezone</a></li>
+<li>And this :<a href="http://meta.wikimedia.org/wiki/Help:Timezone">http://meta.wikimedia.org/wiki/Help:Timezone</a></li>
 <li><a href="./User:Hoanga">Al</a>: <strong>This is done</strong> as of 2/5/2007</li>
 </ul></li>
 <li>Get the rest of the Wiki Admins online

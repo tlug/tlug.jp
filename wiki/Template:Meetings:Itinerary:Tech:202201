@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,7 +136,10 @@
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations:</h5>
 <p><em>Headscale mesh network orchistration server</em> - Edward Middleton</p>
-<p>headscale is an open source implementation of the server side of the tailscale mesh network orchestration service. The talk will cover configuring the server and clients, how to create a simple mesh network and setting up an exit node to push traffic through a private network.</p>
+<p>headscale is an open source implementation of the server side of the
+tailscale mesh network orchestration service. The talk will cover
+configuring the server and clients, how to create a simple mesh network
+and setting up an exit node to push traffic through a private network.</p>
     </div>
 
     <div id="footer">

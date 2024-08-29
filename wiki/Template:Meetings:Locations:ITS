@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,8 +136,12 @@
       <p>ITS</p>
 <p>Kantou IT Software Kenkou</p>
 <p>東京都新宿区市谷仲之町4-39 市ヶ谷会議室</p>
-<p>(Tokyo-to, Shinjuku-ku, IchigayaNakanochou 4-39, Ichigaya Meeting Room)</p>
-<p><a href="http://www.its-kenpo.or.jp/restaurant/itigaya_kaigisitu/map.html">Map</a> 「English translation of walking directions <a href="./Template:Meetings:Locations:ITS-directions">Here</a>!」<br />
+<p>(Tokyo-to, Shinjuku-ku,
+IchigayaNakanochou 4-39,
+Ichigaya Meeting Room)</p>
+<p><a href="http://www.its-kenpo.or.jp/restaurant/itigaya_kaigisitu/map.html">Map</a>
+「English translation of walking directions
+<a href="./Template:Meetings:Locations:ITS-directions">Here</a>!」<br />
 <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B8%82%E8%B0%B7%E4%BB%B2%E4%B9%8B%E7%94%BA4-39&amp;sll=35.695299,139.724738&amp;sspn=0.00213,0.004978&amp;ie=UTF8&amp;z=16&amp;iwloc=addr">Google Map</a></p>
     </div>
 

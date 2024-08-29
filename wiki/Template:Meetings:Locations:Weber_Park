@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,7 +135,12 @@
     <div class="content">
       <p><strong>Weber Park</strong><br />
 Aqua City Odaiba 7F, 1-7-1 Daiba, Minato-ku, Tokyo, 135-0091<br />
-[ <a href="https://www.weberpark.com/index_us.html">Info</a> ] [ <a href="https://www.weberpark.com/">Info(ja)</a> ] [ <a href="https://g.page/weberpark?share">map</a> ] <font color="#CC2200">Weber Park</font> <font color="#CC2200">Locations:Weber Park</font> <font color="#CC2200">Meetings:Locations:Weber Park</font></p>
+[ <a href="https://www.weberpark.com/index_us.html">Info</a> ]
+[ <a href="https://www.weberpark.com/">Info(ja)</a> ]
+[ <a href="https://g.page/weberpark?share">map</a> ]
+<font color="#CC2200">Weber Park</font>
+<font color="#CC2200">Locations:Weber Park</font>
+<font color="#CC2200">Meetings:Locations:Weber Park</font></p>
     </div>
 
     <div id="footer">

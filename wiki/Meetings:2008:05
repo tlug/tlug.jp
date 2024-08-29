@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,7 @@
     </div>
 
     <div class="content">
-      <h2 id="meeting-2008---05">Meeting / 2008 - 05</h2>
+      <h2 id="meeting_2008___05">Meeting / 2008 - 05</h2>
 <p><strong>Template:Meetings:Vitals placeholder</strong></p>
 <h3 id="itinerary">Itinerary</h3>
 <h4 id="elections">Elections</h4>
@@ -160,18 +152,19 @@
 if you have gmail account, please join <a href="http://docs.google.com/Present?docid=ddbv2dj5_10fk4ghpfh&amp;invite=cx6p78d">on-line</a><br />
 <a href="http://elinux.org/TomoyoLinux">TOMOYO Linux</a> is a Mandatory Access Control extension to Linux. The project has been trying to have their code to be merged in the mainline Linux kernel. Recent LWN article by Jonathan Corbet, <a href="http://lwn.net/Articles/277833/">“TOMOYO Linux and pathname-based security”</a> is a great summary of the past and the current status. If you are familiar with SELinux or AppArmor, <a href="http://tomoyo.sourceforge.jp/wiki-e/?WhatIs#comparison">the comparison chart</a> should give the shortest way to understand TOMOYO Linux.</li>
 <li>LiveCD demonstration (Kentaro Takeda)<br />
-Yes, it's easier than you think. You don't have to wait the tech meeting to try TOMOYO Linux LiveCD. <a href="http://tomoyo.sourceforge.jp/wiki-e/?TomoyoLive" class="uri">http://tomoyo.sourceforge.jp/wiki-e/?TomoyoLive</a></li>
+Yes, it's easier than you think. You don't have to wait the tech meeting to try TOMOYO Linux LiveCD. <a href="http://tomoyo.sourceforge.jp/wiki-e/?TomoyoLive">http://tomoyo.sourceforge.jp/wiki-e/?TomoyoLive</a></li>
 <li><a href="http://sourceforge.jp/projects/tomoyo/document/tlug200805.pdf"><em>“Why”</em> TOMOYO Linux?</a> (Tetsuo Handa)<br />
 Main architect of TOMOYO Linux, Tetsuo Handa, will give short talk on in-depth fundamental design of TOMOYO Linux for TLUG.</li>
 <li>Q&amp;A</li>
 </ol>
 <p>Contact: haradats_at_gmail.com (Toshiharu Harada, project manager)</p>
-<h3 id="other-items-on-the-agenda">Other Items on the Agenda</h3>
+<h3 id="other_items_on_the_agenda">Other Items on the Agenda</h3>
 <ol>
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">2008:05</font> <font color="#CC2200">05</font></p>
+<p><font color="#CC2200">2008:05</font>
+<font color="#CC2200">05</font></p>
     </div>
 
     <div id="footer">

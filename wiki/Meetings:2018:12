@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -157,19 +149,22 @@
 Esupasu Konseru Building 2F,<br />
 3-3, Yotsuya, Shinjuku-ku, Tokyo, 160-0004<br />
 〒160-0004東京都新宿区四谷3-3エスパスコンセールビル2F<br />
-[ <a href="https://tabelog.com/en/tokyo/A1309/A130903/13216053/?pplan_id=70855036">Info</a> ] [ <a href="https://goo.gl/maps/jf2p6DMH5CQ2">map</a> ]</p>
-<p>To help us make sure that there will be room for everyone to seat, please register your attendance here:</p>
-<p><a href="https://tlug.doorkeeper.jp/events/83008" class="uri">https://tlug.doorkeeper.jp/events/83008</a></p>
+[ <a href="https://tabelog.com/en/tokyo/A1309/A130903/13216053/?pplan_id=70855036">Info</a> ]
+[ <a href="https://goo.gl/maps/jf2p6DMH5CQ2">map</a> ]</p>
+<p>To help us make sure that there will be room for everyone
+to seat, please register your attendance here:</p>
+<p><a href="https://tlug.doorkeeper.jp/events/83008">https://tlug.doorkeeper.jp/events/83008</a></p>
 <h4 id="cost">Cost</h4>
 <p>4500 yen</p>
 <h3 id="details">Details</h3>
 <p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 </ul>
-<p><font color="#CC2200">2018:12</font> <font color="#CC2200">12</font></p>
+<p><font color="#CC2200">2018:12</font>
+<font color="#CC2200">12</font></p>
     </div>
 
     <div id="footer">

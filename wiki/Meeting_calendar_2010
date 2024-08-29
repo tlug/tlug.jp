@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,9 +133,10 @@
     </div>
 
     <div class="content">
-      <h2 id="meeting-calendar-2010">Meeting Calendar 2010</h2>
+      <h2 id="meeting_calendar_2010">Meeting Calendar 2010</h2>
 <p><br />
-====April 10 (Saturday) - Technical Meeting==== Lightning Talks:</p>
+====April 10 (Saturday) - Technical Meeting====
+Lightning Talks:</p>
 <ul>
 <li>Edward: History of TLUG</li>
 <li>Karamoon: Origins of early computing</li>
@@ -151,26 +144,43 @@
 <li>Alberto: Creating my 1st instance in the Amazon Cloud</li>
 </ul>
 <p><br />
-====April 16 (Friday) - Nomikai==== Za_Watami_Ginza-dobashi-ten<br />
-====May 8 (Saturday) - Technical Meeting==== Speakers needed<br />
-====May 21 (Friday) - Nomikai==== Town_Cryer_Hibiya</p>
-<h4 id="june-12-saturday---technical-meeting">June 12 (Saturday) - Technical Meeting</h4>
+====April 16 (Friday) - Nomikai====
+Za_Watami_Ginza-dobashi-ten<br />
+====May 8 (Saturday) - Technical Meeting====
+Speakers needed<br />
+====May 21 (Friday) - Nomikai====
+Town_Cryer_Hibiya</p>
+<h4 id="june_12_saturday___technical_meeting">June 12 (Saturday) - Technical Meeting</h4>
 <p>Speakers needed<br />
-====June 18 (Friday) - Nomikai==== Za_Watami_Ginza-dobashi-ten<br />
-====July 10 (Saturday) - Technical Meeting==== Speakers needed<br />
-====July 16 (Friday) - Nomikai==== Town_Cryer_Hibiya<br />
-====August 14 (Saturday) - Technical Meeting==== Speakers needed<br />
-====August 20 (Friday) - Nomikai==== Beer garden<br />
-====September 11 (Saturday) - Technical Meeting==== Speakers needed<br />
-====September 17 (Friday) - Nomikai==== Za_Watami_Ginza-dobashi-ten<br />
-====October 9 (Saturday) - Technical Meeting==== Speakers needed<br />
-====October 15 (Friday) - Nomikai==== Town_Cryer_Hibiya<br />
-====November 13 (Saturday) - Technical Meeting==== Speakers needed<br />
-====November 19 (Friday) - Nomikai==== Za_Watami_Ginza-dobashi-ten<br />
-====December 11 (Saturday) - Technical Meeting==== Speakers needed<br />
-====December 17 (Friday) - Nomikai==== bonenkai<br />
+====June 18 (Friday) - Nomikai====
+Za_Watami_Ginza-dobashi-ten<br />
+====July 10 (Saturday) - Technical Meeting====
+Speakers needed<br />
+====July 16 (Friday) - Nomikai====
+Town_Cryer_Hibiya<br />
+====August 14 (Saturday) - Technical Meeting====
+Speakers needed<br />
+====August 20 (Friday) - Nomikai====
+Beer garden<br />
+====September 11 (Saturday) - Technical Meeting====
+Speakers needed<br />
+====September 17 (Friday) - Nomikai====
+Za_Watami_Ginza-dobashi-ten<br />
+====October 9 (Saturday) - Technical Meeting====
+Speakers needed<br />
+====October 15 (Friday) - Nomikai====
+Town_Cryer_Hibiya<br />
+====November 13 (Saturday) - Technical Meeting====
+Speakers needed<br />
+====November 19 (Friday) - Nomikai====
+Za_Watami_Ginza-dobashi-ten<br />
+====December 11 (Saturday) - Technical Meeting====
+Speakers needed<br />
+====December 17 (Friday) - Nomikai====
+bonenkai<br />
 </p>
-<p><font color="#CC2200">Calendar:Calendar</font> <font color="#CC2200">Calendar</font></p>
+<p><font color="#CC2200">Calendar:Calendar</font>
+<font color="#CC2200">Calendar</font></p>
     </div>
 
     <div id="footer">

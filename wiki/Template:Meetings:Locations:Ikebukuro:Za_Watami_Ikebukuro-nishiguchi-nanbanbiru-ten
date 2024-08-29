@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,7 +135,12 @@
     <div class="content">
       <p><strong>Za Watami, Ikebukuro-nishiuchi-nanbanbiru-ten</strong><br />
 1-21-13 Nishi-Ikebukuro, Toshima-ku, Tokyo<br />
-[ <a href="http://gourmet.yahoo.co.jp/0000978907/0009656095/">Info (In Japanese)</a> ] [ <a href="http://gourmet.yahoo.co.jp/0000978907/0009656095/coupon/">map</a> ] <font color="#CC2200">Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font> <font color="#CC2200">Ikebukuro:Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font> <font color="#CC2200">Locations:Ikebukuro:Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font> <font color="#CC2200">Meetings:Locations:Ikebukuro:Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font></p>
+[ <a href="http://gourmet.yahoo.co.jp/0000978907/0009656095/">Info (In Japanese)</a> ]
+[ <a href="http://gourmet.yahoo.co.jp/0000978907/0009656095/coupon/">map</a> ]
+<font color="#CC2200">Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font>
+<font color="#CC2200">Ikebukuro:Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font>
+<font color="#CC2200">Locations:Ikebukuro:Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font>
+<font color="#CC2200">Meetings:Locations:Ikebukuro:Za_Watami_Ikebukuro-nishiuchi-nanbanbiru-ten</font></p>
     </div>
 
     <div id="footer">

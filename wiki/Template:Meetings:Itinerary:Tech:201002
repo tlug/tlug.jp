@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,22 +135,23 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
 <p><strong>“Nmap: The Network Mapper”</strong> By <em><font color="#CC2200">Matthew (Karamoon)</font></em></p>
 <p>Fyodor's Nmap port scanner is an essential open-source tool for sysadmins, penetration testers and curious people. It is also one of the few pieces of software to have achieved cult status, being featured in movies as bad as The Matrix Reloaded and Die Hard 4.</p>
 <p>This talk will begin with a brief overview of port scanning for those unfamiliar with the topic. The main uses of Nmap will then be discussed, as well as different types of scans, scan optimization, OS detection and defense against port scanning.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
-<h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
+<h6 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
 <p><strong>“OpenSolaris Bible Translation Project for Japanese”</strong> by <em><font color="#CC2200">Michael Sullivan</font></em></p>
 <p>Michael Sullivan will talk about OpenSolaris Bible Translation Project for Japanese, and the class they will be running as part of this effort.</p>
-<h5 id="other-items-on-the-agenda-are">Other items on the agenda are:</h5>
+<h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

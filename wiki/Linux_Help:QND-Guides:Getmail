@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -146,12 +138,12 @@
 <p>Getmail is aimed to be a replacement for fetchmail. Many people consider it faster and more secure than fetchmail. My personal experience has been that it seems to at least be a little faster.</p>
 <p>Getmail will require that python is installed. Most distributions have python so it is rare that this will be problem.</p>
 <p>Note that this page is about getmail version 4.x. Debian and some others, as of October 2004 are still using version 3.x For information about 3.x please see my getmail <a href="http://home.nyc.rr.com/computertaijutsu/getmail3.html">3.x page</a>. (As it is now 2007, however, I doubt that any distributions still has it. The author of getmail strongly recommends that you upgrade.)</p>
-<h2 id="installing-getmail">Installing Getmail</h2>
-<h3 id="do-you-have-getmail">Do You Have Getmail?</h3>
+<h2 id="installing_getmail">Installing Getmail</h2>
+<h3 id="do_you_have_getmail">Do You Have Getmail?</h3>
 <p>As fetchmail is still far better known, the chances are that you don't have getmail installed. However, it never hurts to check. At a command line type:</p>
 <p><code>which getmail</code></p>
-<p>If you get a response like <em>/usr/bin/getmail</em> or <em>/usr/local/bin/getmail</em>, you can skip to <a href="#Configuration" class="uri" title="wikilink">#Configuration</a>. Otherwise, continue with <a href="#Installing_Getmail_2" title="wikilink">#Installing Getmail_2</a>.</p>
-<h3 id="installing-getmail-1">Installing Getmail</h3>
+<p>If you get a response like <em>/usr/bin/getmail</em> or <em>/usr/local/bin/getmail</em>, you can skip to <a href="#Configuration" title="wikilink">#Configuration</a>. Otherwise, continue with <a href="#Installing_Getmail_2" title="wikilink">#Installing Getmail_2</a>.</p>
+<h3 id="installing_getmail_1">Installing Getmail</h3>
 <p>First follow the instructions in <a href="./Linux_Help:QND-Guides:Finding_and_Installing_Software">Linux_Help:QND-Guides:Finding_and_Installing_Software</a> for information on getting and installing Getmail. If it's not included with your distribution (while it is in <a href="http://www.gentoo.org">Gentoo</a>'s portage and FreeBSD's ports, it doesn't seem to be on any of the RedHat 8.0 CDs) then go to the getmail homepage. They have both a tar.gz file and an RPM. I haven't used the RPM--the tar.gz file will work with RedHat.</p>
 <p>FreeBSD's ports or Gentoo's portage will install Getmail for you. If you've downloaded the tarball then untar it somewhere and cd to the directory that is created. Using version 4.2.2 as an example:</p>
 <p><code>tar xzf getmail-4.2.2.tar.gz</code><br />
@@ -184,7 +176,7 @@
 <p>Note the line for <em>maildrop</em>. The above is for a FreeBSD machine, where <em>maildrop</em> is in <em>/usr/local/bin</em>. If you are using Linux, then it may be in <em>/usr/bin</em>. To find out simply type at a command prompt:</p>
 <p><code>which maildrop</code></p>
 <p>and adjust your <em>getmailrc</em> accordingly. (The same holds for <em>procmail</em>, or any other external MDA.)</p>
-<h2 id="using-getmail-with-gmail">Using Getmail with Gmail</h2>
+<h2 id="using_getmail_with_gmail">Using Getmail with Gmail</h2>
 <p>As <a href="http://mail.google.com/">Gmail</a> becomes more and more popular, folks are often making use of its POP download feature, enabling you to receive Gmail email on your normal client.</p>
 <p>As Gmail uses SSL, the above configuration would work save for the <em>SimplePop3Retriever</em> line. For a Gmail account, you want, assuming your Gmail account is <em>john@gmail.com</em> with a password of <em>1234</em>:</p>
 <p><code>[options]</code><br />
@@ -207,7 +199,7 @@
 <p>To test Getmail, simply type at a command prompt :</p>
 <p><code>getmail -v</code></p>
 <p>If all is set up successfully, you should see it polling your pop server and retrieving your mail.</p>
-<h2 id="setting-up-a-cronjob-for-getmail">Setting up a Cronjob for Getmail</h2>
+<h2 id="setting_up_a_cronjob_for_getmail">Setting up a Cronjob for Getmail</h2>
 <p>Unlike Fetchmail, Getmail doesn't have a daemon option, so if you want it to poll your server at regular intervals, you will have to add a <em>crontab</em> entry. The <em>man 5 crontab</em> page explains things rather clearly, but a quick example.</p>
 <p>On most systems, a user can edit his own <em>crontab</em>. So as user john you would do:</p>
 <p><code>crontab -e</code></p>
@@ -222,7 +214,7 @@
 <p><code>* */2 * * *</code></p>
 <p>it would be running every minute. The correct way to specify the job to run every two hours would be:</p>
 <p><code>0 */2 * * *</code></p>
-<h2 id="a-few-gotchas-mostly-fixed-by-now">A Few Gotchas (Mostly Fixed by Now)</h2>
+<h2 id="a_few_gotchas_mostly_fixed_by_now">A Few Gotchas (Mostly Fixed by Now)</h2>
 <p>With FreeBSD 5.1 and 5.2, I ran into an issue where Getmail would either not run at all, or I would get a “permission denied” error from <em>crontab</em>. This is mentioned on Getmail's home page. The problem is that <em>crontab</em> has a shorter <em>$PATH</em>. The file (in FreeBSD) <em>/usr/local/bin/getmail</em> is simply a shell script. The top line read:</p>
 <p><code>#!/usr/bin/env python2.3</code></p>
 <p>I had to change that to reflect the complete path to Python:</p>

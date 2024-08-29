@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -147,7 +139,10 @@
 Chiyoda-ku, Tokyo 101-0045</p>
 <p><a href="https://www.spacee.jp/listings/6415">Homepage</a></p>
 <p><a href="https://goo.gl/maps/ks83z197Jyn">Directions(Google)</a></p>
-<p><font color="#CC2200">SHAREmee</font> <font color="#CC2200">Kajicho:SHAREmee</font> <font color="#CC2200">Locations:Kajicho:SHAREmee</font> <font color="#CC2200">Meetings:Locations:Kajicho:SHAREmee</font></p>
+<p><font color="#CC2200">SHAREmee</font>
+<font color="#CC2200">Kajicho:SHAREmee</font>
+<font color="#CC2200">Locations:Kajicho:SHAREmee</font>
+<font color="#CC2200">Meetings:Locations:Kajicho:SHAREmee</font></p>
     </div>
 
     <div id="footer">

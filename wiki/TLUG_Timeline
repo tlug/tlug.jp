@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -149,7 +141,22 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="#1994" title="wikilink">1994</a> <a href="#1995" title="wikilink">1995</a> <a href="#1996" title="wikilink">1996</a> <a href="#1997" title="wikilink">1997</a> <a href="#1998" title="wikilink">1998</a> <a href="#1999" title="wikilink">1999</a> <a href="#2000" title="wikilink">2000</a> <a href="#2001" title="wikilink">2001</a> <a href="#2002" title="wikilink">2002</a> <a href="#2003" title="wikilink">2003</a> <a href="#2004" title="wikilink">2004</a> <a href="#2005" title="wikilink">2005</a> <a href="#2006" title="wikilink">2006</a> <a href="#2007" title="wikilink">2007</a> <a href="#2008" title="wikilink">2008</a> <a href="#2009" title="wikilink">2009</a></p></td>
+<td style="text-align: center;"><p><a href="#1994" title="wikilink">1994</a>
+<a href="#1995" title="wikilink">1995</a>
+<a href="#1996" title="wikilink">1996</a>
+<a href="#1997" title="wikilink">1997</a>
+<a href="#1998" title="wikilink">1998</a>
+<a href="#1999" title="wikilink">1999</a>
+<a href="#2000" title="wikilink">2000</a>
+<a href="#2001" title="wikilink">2001</a>
+<a href="#2002" title="wikilink">2002</a>
+<a href="#2003" title="wikilink">2003</a>
+<a href="#2004" title="wikilink">2004</a>
+<a href="#2005" title="wikilink">2005</a>
+<a href="#2006" title="wikilink">2006</a>
+<a href="#2007" title="wikilink">2007</a>
+<a href="#2008" title="wikilink">2008</a>
+<a href="#2009" title="wikilink">2009</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -161,12 +168,12 @@
 <li>Was this tlug@lists.twics.com? from <a href="http://examples.oreilly.com/cjkvinfo/doc/cjk.inf">1</a></li>
 </ul></li>
 <li><a href="./Meetings:1994:09">10 Sep first meeting</a></li>
-<li><a href="./TLUG:MemberGuide#History">?? Sep website began</a> at <a href="http://www.twics.com/~craig/tlug.html" class="uri">http://www.twics.com/~craig/tlug.html</a> by <font color="#CC2200">Craig Oda</font></li>
+<li><a href="./TLUG:MemberGuide#History">?? Sep website began</a> at <a href="http://www.twics.com/~craig/tlug.html">http://www.twics.com/~craig/tlug.html</a> by <font color="#CC2200">Craig Oda</font></li>
 <li><a href="./Meetings:1994:10">30 Oct meeting</a></li>
 <li><a href="./Meetings:1994:12">?? Dec meeting</a></li>
 <li><a href="./TLUG:MemberGuide#History">?? ??? mailing list setup on Metanoia</a> by <font color="#CC2200">Andrew Nishigaya</font></li>
 </ul>
-<h3 id="section-1">1995</h3>
+<h3 id="section_1">1995</h3>
 <ul>
 <li><a href="./Meetings:1995:01">?? Jan technical meeting</a></li>
 <li><a href="./Meetings:1995:02">?? Feb technical meeting</a></li>
@@ -177,14 +184,14 @@
 <li><a href="http://www.japaninc.com/cpj/magazine/issues/1995/sep95/09linux.html">?? Sep Japan Computing article on Linux and TLUG</a> by <font color="#CC2200">Craig Oda</font>, <a href="./Andrew_%2522Nori%2522_Nishigaya">Andrew “Nori” Nishigaya</a> and <font color="#CC2200">Rainer Mager</font></li>
 <li><a href="http://lists.tlug.jp/ML/9512/msg00011.html">06 Dec members attend Linus farewell nomikai</a></li>
 </ul>
-<h3 id="section-2">1996</h3>
+<h3 id="section_2">1996</h3>
 <ul>
 <li><a href="./Meetings:1996:01">28 Jan technical meeting</a></li>
 <li><a href="./Meetings:1996:03">?? Mar technical meeting</a></li>
 <li><a href="http://lists.tlug.jp/ML/9603/msg00170.html">30 Mar first official TLUG Webmaster</a> - <font color="#CC2200">Jim Schweizer</font></li>
 <li><a href="./Meetings:1996:08">11 Aug technical meeting</a></li>
 </ul>
-<h3 id="section-3">1997</h3>
+<h3 id="section_3">1997</h3>
 <ul>
 <li><a href="./Meetings:1997:02">01 Feb SparcLinux Installfest</a></li>
 <li><a href="./Meetings:1997:06">14 Jun technical meeting</a></li>
@@ -201,7 +208,7 @@
 <li><a href="./Meetings:1997:11">14 Nov technical meeting</a></li>
 <li><a href="./Meetings:1997:12">13 Dec technical meeting</a>, <a href="http://search.luky.org/linux-users.1/msg04009.html">meeting announcement on linux-users ML</a></li>
 </ul>
-<h3 id="section-4">1998</h3>
+<h3 id="section_4">1998</h3>
 <ul>
 <li><a href="./Meetings:1998:01">14 Jan technical meeting</a></li>
 <li><a href="http://www.linuxjournal.com/article/2660">01 Feb Linux Journal article</a> <a href="http://techdoc.kvindesland.no/linux/journal/Magazines/LJ46/2660.html">2</a> by <font color="#CC2200">Craig Oda</font></li>
@@ -219,7 +226,7 @@
 <li>?? Mar started using tlug.gr.jp domain name</li>
 <li><a href="./TLUG:MemberGuide#History">?? Mar TLUG gets its own server</a> hosted by <font color="#CC2200">Pacific High Tech</font></li>
 <li><a href="./Meetings:1998:04">11 Apr technical meeting</a></li>
-<li><a href="http://lists.tlug.jp/ML/9804/msg00324.html">18 Apr TLUG got an alias from Toronto LUG</a> -&gt; <a href="http://tokyo.tlug.org/" class="uri">http://tokyo.tlug.org/</a></li>
+<li><a href="http://lists.tlug.jp/ML/9804/msg00324.html">18 Apr TLUG got an alias from Toronto LUG</a> -&gt; <a href="http://tokyo.tlug.org/">http://tokyo.tlug.org/</a></li>
 <li><a href="./Meetings:1998:05">15 May Nomikai</a></li>
 <li>?? Jun <a href="http://www.linux.or.jp/">JLUG</a> allow <a href="http://lists.tlug.jp/ML/9806/msg00523.html">TLUG to use tlug.linux.or.jp domain</a></li>
 <li><a href="http://lists.tlug.jp/ML/9806/msg00419.html">12 Jun mailing list shutdown by a mail loop</a> <font color="#CC2200">Jim Tittsler</font> saves the day</li>
@@ -240,7 +247,7 @@
 </ul></li>
 <li><a href="./Meetings:1998:12">12 Dec technical/business meeting</a></li>
 </ul>
-<h3 id="section-5">1999</h3>
+<h3 id="section_5">1999</h3>
 <ul>
 <li><a href="./Meetings:1999:01">14 Jan nomikai</a></li>
 <li><a href="http://lists.tlug.jp/MLadm/9901/threads.html">?? Jan Server moved to Global On-Line</a></li>
@@ -256,7 +263,7 @@
 <li><a href="./Meetings:1999:12">17 Dec Bonenkai</a></li>
 <li><a href="http://lists.tlug.jp/ML/9912/msg00045.html">18 Dec TLUG presentation at the Linux Conference 99</a></li>
 </ul>
-<h3 id="section-6">2000</h3>
+<h3 id="section_6">2000</h3>
 <ul>
 <li><a href="./Meetings:2000:01">14 Jan technical meeting</a>
 <ul>
@@ -279,7 +286,7 @@
 <li>Webmaster: <font color="#CC2200">Uva Coder</font></li>
 </ul></li>
 </ul>
-<h3 id="section-7">2001</h3>
+<h3 id="section_7">2001</h3>
 <ul>
 <li><a href="./Meetings:2001:01">20 Jan technical meeting</a>
 <ul>
@@ -311,7 +318,7 @@
 <li><a href="./Meetings:2001:08">17 Aug nomikai</a></li>
 <li><a href="./Meetings:2001:09">15 Sep technical meeting</a></li>
 </ul>
-<h3 id="section-8">2002</h3>
+<h3 id="section_8">2002</h3>
 <ul>
 <li><a href="./Meetings:2002:01">12 Jan technical meeting</a>
 <ul>
@@ -326,7 +333,7 @@
 </ul></li>
 <li>?? Jul started using tlug.jp domain name.</li>
 </ul>
-<h3 id="section-9">2003</h3>
+<h3 id="section_9">2003</h3>
 <ul>
 <li><a href="./Meetings:2003:01">18 Jan technical meeting</a>
 <ul>
@@ -351,7 +358,7 @@
 <li><font color="#CC2200">15 Nov technical meeting</font></li>
 <li><font color="#CC2200">12 Dec Bonenkai</font></li>
 </ul>
-<h3 id="section-10">2004</h3>
+<h3 id="section_10">2004</h3>
 <ul>
 <li><font color="#CC2200">07 Jan technical meeting</font></li>
 <li><font color="#CC2200">20 Feb nomikai</font></li>
@@ -373,7 +380,7 @@
 <li><font color="#CC2200">18 Sep casual meeting</font></li>
 <li><font color="#CC2200">13 Nov technical meeting</font></li>
 </ul>
-<h3 id="section-11">2005</h3>
+<h3 id="section_11">2005</h3>
 <ul>
 <li><a href="./Meetings:2005:01">15 Jan technical meeting</a></li>
 <li><font color="#CC2200">18 Feb nomikai</font></li>
@@ -397,7 +404,7 @@
 <li><font color="#CC2200">12 Nov technical meeting</font></li>
 <li><a href="./Meetings:2005:12">09 Dec bonenkai</a></li>
 </ul>
-<h3 id="section-12">2006</h3>
+<h3 id="section_12">2006</h3>
 <ul>
 <li><a href="./Meetings:2006:01">14 Jan technical meeting</a></li>
 <li><a href="http://lists.tlug.jp/ML/0601/msg00797.html">03 Feb TLUG members discuss Linux in Japan with Mark Shuttleworth</a>
@@ -413,7 +420,7 @@
 <li>?? ??? Wiki setup by <a href="./User:Hoanga">Alain Hoang</a> and ???</li>
 <li><a href="http://lists.tlug.jp/ML/0612/msg00273.html">15 Dec</a> <a href="http://planet.tlug.jp/">planet TLUG</a> setup by <font color="#CC2200">Michael Reinsch</font></li>
 </ul>
-<h3 id="section-13">2007</h3>
+<h3 id="section_13">2007</h3>
 <ul>
 <li><a href="./Meetings:2007:01">13 Jan technical meeting</a></li>
 <li><a href="http://www.tlug.jp/ML/0704/msg00469.html">23 Apr</a> first <a href="./Tlug_Shirt">TLUG Shirt</a> <a href="http://lists.tlug.jp/ML/0705/msg00289.html">5</a> organized by <a href="./User:Zev">Zev Blut</a> with help from Ayumi Oida and Kristen McQuillin<a href="http://www.tlug.jp/ML/0705/msg00290.html">6</a></li>
@@ -445,7 +452,7 @@
 </ul></li>
 <li><a href="./Meetings:2007:12">07 Dec Bonenkai</a></li>
 </ul>
-<h3 id="section-14">2008</h3>
+<h3 id="section_14">2008</h3>
 <ul>
 <li><a href="./Meetings:2008:01">12 Jan technical meeting</a>
 <ul>
@@ -471,7 +478,7 @@
 <li><a href="./Meetings:2008:11">08 Nov technical meeting</a></li>
 <li><a href="./Meetings:2008:12">12 Dec nomikai</a></li>
 </ul>
-<h3 id="section-15">2009</h3>
+<h3 id="section_15">2009</h3>
 <ul>
 <li><a href="./Meetings:2009:01">10 Jan technical meeting</a></li>
 <li><a href="./Meetings:2009:02">13 Feb nomikai</a></li>

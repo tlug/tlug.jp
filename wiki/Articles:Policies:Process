@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -149,7 +141,7 @@
 </ol>
 <p>.</p>
 <ol>
-<li>A member of the TLUG admin group will post your article under <a href="http://tlug.jp/tmp/" class="uri">http://tlug.jp/tmp/</a> (which is protected from search engine crawlers by <code>robots.txt</code>.</li>
+<li>A member of the TLUG admin group will post your article under <a href="http://tlug.jp/tmp/">http://tlug.jp/tmp/</a> (which is protected from search engine crawlers by <code>robots.txt</code>.</li>
 <li>The same member of the TLUG admin group will make an announcement on <a href="http://www.tlug.jp/mailman/listinfo/tlug">the <em>tlug</em> mailing list</a></li>
 </ol>
 <p><code>to the effect that your article is available for review, and sets a deadline for comments (two weeks is probably best, but the deadline can be longer or shorter at the discretion of the admin group).</code></p>
@@ -165,20 +157,20 @@
 <li>A member of the admin group will post to the list, calling for the vote and establishing a clear deadline for voting. The vote will require a <a href="http://en.wikipedia.org/wiki/plurality">plurality (Wikipedia)</a></li>
 </ol></li>
 </ol>
-<p><code>/ </code><a href="http://en.wikipedia.org/wiki/simple_majority"><code>simple_majority</code><code> </code><code>(Wikipedia)</code></a></p>
+<p><code>/ </code><a href="http://en.wikipedia.org/wiki/simple_majority"><code>simple_majority (Wikipedia)</code></a></p>
 <p>)</p>
 <ol>
 <li><ol>
 <li>Any subscriber to <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></li>
 </ol></li>
 </ol>
-<p><code>may reply to the call for vote, with either </code>“<code>yes</code>”<code>, meaning that the article is acceptable for publication as it stands, or </code>“<code>no</code>”<code>, meaning that the article is not acceptable as it stands.</code></p>
+<p><code>may reply to the call for vote, with either “yes”, meaning that the article is acceptable for publication as it stands, or “no”, meaning that the article is not acceptable as it stands.</code></p>
 <ol>
 <li><ol>
 <li>At the end of the voting deadline, the admin group member who called for the vote will tally up the votes and announce the results on both <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></li>
 </ol></li>
 </ol>
-<p><code>and </code><a href="http://www.tlug.jp/mailman/listinfo/tlug"><code>the</code><code> </code><em><code>tlug</code></em><code> </code><code>mailing</code><code> </code><code>list</code></a></p>
+<p><code>and </code><a href="http://www.tlug.jp/mailman/listinfo/tlug"><code>the </code><em><code>tlug</code></em><code> mailing list</code></a></p>
 <p>. Lack of a simple majority will result in a “yes” result.</p>
 <ol>
 <li>At this point, if your article is denied, you may edit it and resubmit it if you wish, meaning that the process starts all over (but may be accelerated). The outcome of the second vote, should there be one, is final. You may not, under ordinary circumstances, re-submit after two “no” voting outcomes.</li>
@@ -190,14 +182,15 @@
 <li>A short disclaimer along same lines of those found on standard newspaper editorial pages</li>
 </ol></li>
 <li>Once you have inserted your article text into the template, send it back to the admin group member.</li>
-<li>The admin group member will post the article for one day under <a href="http://tlug.jp/tmp/" class="uri">http://tlug.jp/tmp/</a> for a last-minute sanity check by admin group members.</li>
-<li>The admin group member will move the article to its final location, under <a href="http://tlug.jp/articles/" class="uri">http://tlug.jp/articles/</a></li>
-<li>The public URI of the article will be optimised for search engines; e.g. <a href="http://tlug.jp/articles/Why-Windows-Sucks-Investigation-Root-Causes" class="uri">http://tlug.jp/articles/Why-Windows-Sucks-Investigation-Root-Causes</a> for an article entitled “Why Windows Sucks: An Investigation into the Root Causes”</li>
+<li>The admin group member will post the article for one day under <a href="http://tlug.jp/tmp/">http://tlug.jp/tmp/</a> for a last-minute sanity check by admin group members.</li>
+<li>The admin group member will move the article to its final location, under <a href="http://tlug.jp/articles/">http://tlug.jp/articles/</a></li>
+<li>The public URI of the article will be optimised for search engines; e.g. <a href="http://tlug.jp/articles/Why-Windows-Sucks-Investigation-Root-Causes">http://tlug.jp/articles/Why-Windows-Sucks-Investigation-Root-Causes</a> for an article entitled “Why Windows Sucks: An Investigation into the Root Causes”</li>
 <li>Please give the TLUG admin group one day's advance notice before announcing your article publicly. Please also let the admin group know where you are announcing it, so that we can prepare for a Slashdotting if necessary.</li>
 <li>You may now announce the article publicly.</li>
 </ol>
-<h2 id="see-also">See Also</h2>
-<p><font color="#CC2200">Policies:Process</font> <font color="#CC2200">Process</font></p>
+<h2 id="see_also">See Also</h2>
+<p><font color="#CC2200">Policies:Process</font>
+<font color="#CC2200">Process</font></p>
     </div>
 
     <div id="footer">

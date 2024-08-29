@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,8 +135,14 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="a-taste-of-digital-forensics-a-la-open-source-by-kalin-kozhuharov">“A taste of Digital Forensics, a la open source” by <font color="#CC2200">Kalin Kozhuharov</font></h6>
-<p>The first speaker Kalin Kozhuharov will give a gentle introduction into the field of Digital Forensics (DF) which was a central part of his last job and will be a major component of his new consulting business starting this March. In addition to the general concepts of DF, some of the more popular open-source tools will be mentioned. Finally Kalin will try to shed some light on a few cases involving DF that came in public recently.</p>
+<h6 id="a_taste_of_digital_forensics_a_la_open_source_by_kalin_kozhuharov">“A taste of Digital Forensics, a la open source” by <font color="#CC2200">Kalin Kozhuharov</font></h6>
+<p>The first speaker Kalin Kozhuharov will give a gentle introduction into
+the field of Digital Forensics (DF) which was a central part of his last
+job and will be a major component of his new consulting business
+starting this March. In addition to the general concepts of DF, some of
+the more popular open-source tools will be mentioned. Finally Kalin will
+try to shed some light on a few cases involving DF that came in public
+recently.</p>
     </div>
 
     <div id="footer">

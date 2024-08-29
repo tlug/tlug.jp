@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,8 @@
     </div>
 
     <div class="content">
-      <p>[<a href="http://www.tlug.jp/mailman/listinfo/" class="uri">http://www.tlug.jp/mailman/listinfo/</a> the <em></em> mailing list] Makes a <code>mailto:</code> link to a TLUG mailing list.</p>
+      <p>[<a href="http://www.tlug.jp/mailman/listinfo/">http://www.tlug.jp/mailman/listinfo/</a> the <em></em> mailing list]
+Makes a <code>mailto:</code> link to a TLUG mailing list.</p>
 <p>[http://www.tlug.jp/mailman/listinfo/tlug-admin the ''tlug-admin'' mailing list]</p>
 <p>would produce:</p>
 <p><a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a></p>

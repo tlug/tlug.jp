@@ -134,37 +134,33 @@
 
     <div class="content">
       <h2 id="introduction">Introduction</h2>
-<p>TLUG meetings will be announced on this page. We are always looking for people who would like to give demonstrations. If you have any ideas about meeting events, please let us know.</p>
-<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or <b>entrance fees</b>.</p>
+<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or entrance fees.</p>
 <p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
-<p>As a general rule, the Technical Meetings are held on the 2nd SAT of odd numbered months and the Nomikai Meetings are usually held on the 2nd FRI of even numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
-<h2 id="meeting_2007___07">Meeting / 2007 - 07</h2>
-<p><strong>Template:Meetings:Vitals placeholder</strong></p>
-<h3 id="itinerary">Itinerary</h3>
-<h4 id="presentations">Presentations</h4>
-<h5 id="all_the_world_is_a_filesystem_what_fuse_is_and_why_you_care_by_josh_glover">“All the World is a Filesystem: What FUSE is and Why You Care” by <font color="#CC2200">Josh Glover</font></h5>
-<p>Josh explained FUSE (Filesystem in UserSpacE), introduced a few neat filesystems built on top of FUSE, and mentioned his s3fs-jmglov. A future Lightning talk will be used to present s3fs-jmglov once the code advances beyond Proof-Of-Concept stage.</p>
-<h4 id="lightning_talks">Lightning Talks</h4>
-<p><em>From <a href="http://en.wikipedia.org/wiki/Lightning_Talk">Lightning_Talk (Wikipedia)</a></em></p>
-<blockquote>
-<p>A Lightning Talk is a short presentation given at a conference or similar forum. Unlike other presentations, lightning talks last only a few minutes and several will usually be delivered in a single period by different speakers.</p>
-</blockquote>
-<h5 id="opensolaris_an_update_on_happenings_in_japan_and_around_the_world_by_jim_grisanzio_sr._program_manager_opensolaris_engineering">“OpenSolaris: an update on happenings in Japan and around the world”, by <a href="./Jim_Grisanzio">Jim Grisanzio</a>, Sr. Program Manager, OpenSolaris Engineering</h5>
-<p>Jim had OpenSolaris DVDs for all; if you could not make the meeting but want to try out OpenSolaris, you can download CD or DVD images or the OpenSolaris Starter Kit, or request a Starter Kit be mailed to you, free of charge!</p>
-<h5 id="time_tracking_thats_not_evil_by_emerson_mills">“Time Tracking that's not Evil” by <font color="#CC2200">Emerson Mills</font></h5>
-<h5 id="partitioning_with_lvm2_by_edward_middleton">“Partitioning with LVM2” by <a href="./User:Edward">Edward Middleton</a></h5>
-<h4 id="demos">Demos</h4>
-<p>Questions, trouble-shooting, and smaller demonstrations. If you need some help or have something to show off, please bring your notebook.</p>
-<h5 id="xemacs_by_stephen_j._turnbull_xemacs_project_release_manager">“XEmacs” by <font color="#CC2200">Stephen J. Turnbull</font>, XEmacs Project Release Manager</h5>
-<p>Stephen showed</p>
-<h3 id="other_items_on_the_agenda">Other Items on the Agenda</h3>
-<ol>
-<li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
-<li>Auction (bring any gear that would would like to donate to TLUG)</li>
-</ol>
-<p><strong>Template:Meetings:Contacts:Tech placeholder</strong></p>
-<p><font color="#CC2200">2007:07</font>
-<font color="#CC2200">07</font></p>
+<p>As a general rule, the Technical Meetings are held on the 2nd Saturday of odd-numbered months and the Nomikai Meetings are usually held on the 2nd Friday of even-numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
+<h2 id="nomikai">Nomikai</h2>
+<h4 id="date">Date</h4>
+<p>May 24, 2023 (Friday)</p>
+<h4 id="time">Time</h4>
+<p>19:00 -</p>
+<h4 id="event">Event</h4>
+<p>Eat and drink (primarily a social activity)</p>
+<h4 id="location">Location</h4>
+<p><strong>Zest Cantina - Daikanyama</strong><br />
+B1F, 16−2 1F, Daikanyamacho, Shibuya City, Tokyo<br />
+tel 050 5445 7235<br />
+[ <a href="https://zest-cantina.jp/daikanyama/">shop</a> ]
+[ <a href="https://goo.gl/maps/9ejrTuhJ2oQLeHmV6">map</a> ]</p>
+<h4 id="cost">Cost</h4>
+<p>4,000yen party course plus any extras</p>
+<h3 id="details">Details</h3>
+<p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
+<h3 id="contact_info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li>Edward: 090-3689-0292</li>
+</ul>
+<p><font color="#CC2200">2024:05</font>
+<font color="#CC2200">05</font></p>
     </div>
 
     <div id="footer">

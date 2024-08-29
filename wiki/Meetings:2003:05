@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,7 @@
     </div>
 
     <div class="content">
-      <h2 id="may-nomikai">May Nomikai</h2>
+      <h2 id="may_nomikai">May Nomikai</h2>
 <p>from <a href="http://lists.tlug.jp/ML/0305/msg00180.html">1</a></p>
 <p><code> Date:     May  16th, 2003 (Friday)</code><br />
 <code> Time:     20:00-22:00</code><br />
@@ -153,13 +145,17 @@
 <code> Costs:    will be divided up among participants</code><br />
 <code>           see </code><a href="http://www.tlug.gr.jp/meetings/index.html"><code>http://www.tlug.gr.jp/meetings/index.html</code></a><br />
 <code>           for information on costs of previous events</code></p>
-<p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
+<p>This event is open to all Linux users and friends, and is
+to promote casual Linux (and non-Linux) related discussions
+over a few cold ones. Even if you're not a Linux user or a
+LUG member, but want to hang out with Linux people, please come.</p>
 <p>If you get lost, or simply want to get in touch with us, please call:</p>
 <ul>
 <li>BaBa : 070-5561-0255</li>
 <li>Mauro: 090-2492-0840</li>
 </ul>
-<p><font color="#CC2200">2003:05</font> <font color="#CC2200">05</font></p>
+<p><font color="#CC2200">2003:05</font>
+<font color="#CC2200">05</font></p>
     </div>
 
     <div id="footer">

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,7 @@
     </div>
 
     <div class="content">
-      <h2 id="december-technical-meeting-information">December Technical Meeting Information</h2>
+      <h2 id="december_technical_meeting_information">December Technical Meeting Information</h2>
 <p>from <a href="http://www.tlug.jp/meetings/9812/index.html">1</a> <em>Report by <a href="./User:JimTittsler">Jim Tittsler</a></em></p>
 <p><code> Date: 12 December, 1998</code><br />
 <code> Meeting Time: 12:30</code><br />
@@ -154,10 +146,10 @@
 <p><strong>Stephen Turnbull</strong> (U. Tsukuba) used a MagicPoint presentation to describe the underpinnings of Linux internationalization (I18N), localization (L10N), and multilingualization (M17N). He explained some of the issues involved in text input, output, and processing that are a function of differing natural languages. He emphasized that following established standards and protocols for true I18N, while a difficult path, is a much better (more general and more likely to be adopted into mainstream Open Source projects) solution than simply localizing an application. He mentioned that we would be able to read more on the subject in an upcoming article.</p>
 <p><strong>Scott Stone</strong> (PHT) outlined the practical methods available for adapting an English Linux system to also support Japanese. He covered the various tools available for display, input processing, and input methods under X (and the additional steps for getting a Japanese console). He discussed the languages and toolkits available that provide international support, including Perl, Tcl/Tk, and with several particularly optimistic words about the gtk toolkit. A basic theme of his talk was that it is quite practical to add Japanese to an English system with today's Linux software.</p>
 <p>For the question and answer session, Stephen and Scott were joined by Koji Ashiada (PHT), who has recently been involved in porting Applixware to the Japanese environment. All three commented on the POSIX locale scheme, and in particular the use of 'gettext' (now part of glibc) to provide separate message catalogs for different natural languages.</p>
-<h2 id="business-meeting">Business Meeting</h2>
+<h2 id="business_meeting">Business Meeting</h2>
 <p>from <a href="http://www.tlug.jp/meetings/9812/business.html">2</a> <em>Report by <a href="./User:JimTittsler">Jim Tittsler</a></em></p>
 <p>A number of organizational topics were discussed at the meeting.</p>
-<h3 id="executive-committee-and-volunteers">Executive Committee and Volunteers</h3>
+<h3 id="executive_committee_and_volunteers">Executive Committee and Volunteers</h3>
 <p>There have been a number of resignations from key positions in the TLUG executive committee over the past few months. People have moved, become more busy at work, or moved on to other interests. Our thanks to past Presidents Craig Oda and Joe Marchak, Japanese Liaison Ken Harada, and all of the directors, including John Little and Rex Walters. These guys have contributed a LOT of effort to the group. Joe in particular put an incredible amount of work into organizing the equipment for each meeting.</p>
 <p>The sense of the meeting was that we need to fill some important positions to ensure a sense of continuity and purpose, as well as to have some accountability for TLUG assets.</p>
 <p><code> President: Alberto Tomita agreed to serve as President, which was enthusiastically approved by those present.</code><br />
@@ -170,11 +162,11 @@
 <code> Listmaster: Alberto Tomita (although he will be looking for a replacement as he assumes the presidency)</code><br />
 <code> Snackmaster: Shigeo Honda</code><br />
 <code> Server Administration:  Chris Sekiya and Scott Stone</code><br />
-<code> (Sorry if I missed any of the other appointed or </code>“<code>titled</code>”<code> volunteers.)</code></p>
+<code> (Sorry if I missed any of the other appointed or “titled” volunteers.)</code></p>
 <p>And there are still more people that contribute to the club without having an official title. <Unabashed editorializing>Everyone is encouraged to volunteer and do something to make the group better. Join the tlug-admin mailing list and offer any suggestions or help that you can. TLUG always needs a steady stream of new volunteers.</editorial></p>
 <h3 id="inventory">Inventory</h3>
 <p>The president, treasurer, and librarian will conduct a rough inventory of TLUG's assets. We have acquired a number of machines, books, and miscellany, as well as using some equipment that belonged to HSBC, and so need to identify what is what. We also need to find a good place to store our equipment and library, ideally at or near our meeting site.</p>
-<h3 id="meeting-venues">Meeting Venue(s)</h3>
+<h3 id="meeting_venues">Meeting Venue(s)</h3>
 <p>We've been very fortunate to be able to meet at the HSBC offices for the past year and a half. TLUG owes them, and particularly Joe Marchak, a BIG thanks.</p>
 <ol>
 <li>Steve Carter was able to step forward and find a place at Temple University where we can meet for a nominal fee. The university administration seems flexible, and is even interested in Linux. In addition to our regular meetings, Steve suggested that it might be possible to use one of the rooms to conduct classes or seminars for the group, for things like a step-by-step installation clinic or detailed technical presentations. The only drawback to the site is that it is a little inconvenient by train, being about a 15 minute walk from the Tamachi JR or Mita subway stations, or 20 minutes from Hiroo.</li>
@@ -182,7 +174,8 @@
 <li>Stephen Turnbull proposed holding a meeting at Tsukuba, an idea which garnered some interest. He will investigate further and the topic will be discussed on the mailing lists. (See, you really should participate in tlug-admin. :-)</li>
 <li>The Tokyo Station Tengu is still the group's choice for the Nomikai.</li>
 </ol>
-<p><font color="#CC2200">1998:12</font> <font color="#CC2200">12</font></p>
+<p><font color="#CC2200">1998:12</font>
+<font color="#CC2200">12</font></p>
     </div>
 
     <div id="footer">

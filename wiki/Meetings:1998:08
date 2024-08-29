@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p>from <a href="http://www.tlug.jp/meetings/9808/index.html">1</a></p>
-<h2 id="august-meeting-information">August Meeting Information</h2>
+<h2 id="august_meeting_information">August Meeting Information</h2>
 <p><code> Date: August 8, 1998</code><br />
 <code> Lunch Meeting Time: 12:30</code><br />
 <code> Lunch Meeting Place: Tokyo JR Station Yaesu Chuo exit</code><br />
@@ -155,7 +147,7 @@
 <code> 11-1 Nihonbashi 3-chome, Chuo-ku, Tokyo 103-0027</code><br />
 <code> (Tel.) 03-5203-3925</code><br />
 <code> (fax) 03-5203-3699</code></p>
-<h2 id="meeting-topic">Meeting Topic</h2>
+<h2 id="meeting_topic">Meeting Topic</h2>
 <p>In the middle of the peak summer travel time here in Tokyo, 41 people came out to revel at the Tlug “Platform Independent Linux” meeting.</p>
 <p>Thanks to everyone who came out, we had a good time working on both the fastest TLUG machines ever (DEC Alpha 600MHz and SGI Indy 5000) and also the “I don't believe it boots linux!!” machines: an Amiga 3000, a Mac IIci and an Intel 25MHz 386 (with math chip :-).</p>
 <p>Additional photo's of the event are available for your viewing satisfaction at:</p>
@@ -165,7 +157,9 @@
 <p>Special thanks to Gaspar Sinai for the loan of his Dec Alpha, Takeshi Hakamada for bringing the SGI Indy, Chris Sekiya for the Amiga 3000 and Tim Meggs for bringing the Mac “boilermaker”. Thanks also to Shigeo Honda for again organizing the food and beverages, and Jonathan Byrne for organizing the library.</p>
 <p>Best surprise of the meeting: Jonathan's 5000 yen Sparc 2, labeled as defective at the store, booted as soon as memory was added!</p>
 <p>In addition there were free-take-as-many-as-you-can-carry 10baseT ethernet cables, power cables, UK power cables(!!), brass screws(!?!?) and other odds and ends at the door for all.</p>
-<p>The Tengu nijikai was a gathering of minds, mostly in a foggy state, and was a lot of fun. What was in those shooters, Tim? :-) <font color="#CC2200">1998:08</font> <font color="#CC2200">08</font></p>
+<p>The Tengu nijikai was a gathering of minds, mostly in a foggy state, and was a lot of fun. What was in those shooters, Tim? :-)
+<font color="#CC2200">1998:08</font>
+<font color="#CC2200">08</font></p>
     </div>
 
     <div id="footer">

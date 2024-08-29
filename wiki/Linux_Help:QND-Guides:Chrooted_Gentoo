@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,7 +136,7 @@
       <p>Author: <a href="./User:Jmglov">Josh Glover</a></p>
 <h2 id="introduction">Introduction</h2>
 <p>This guide demonstrates how to install the <a href="http://www.gentoo.org/">Gentoo Linux distribution</a> in a <em>chroot</em> jail. This can be done on a Gentoo system (obviously) or even an entirely different distribution, such as <a href="http://www.redhat.com/">Red Hat Linux</a>! This guide has been tested on RHEL3, but should work on at least <a href="http://fedora.redhat.com/">Fedora Core</a> releases, and probably Red Hat Linux 7.x, 8.0, and 9.0. It should also work on any modern Linux distribution, such as <a href="http://www.us.debian.org/">Debian</a> (and by extension, <a href="http://www.ubuntulinux.org/">Ubuntu</a> and <a href="http://www.knopper.net/knoppix/index-en.html">KNOPPIX</a>), <a href="http://wwwnew.mandriva.com/">Mandriva</a>, <a href="http://www.novell.com/linux/suse/">SuSE</a>, and so on. Please add your success stories to the talk page for this article, and I will be happy to add them to this guide.</p>
-<h2 id="why-would-anyone-do-this">Why Would Anyone Do This?</h2>
+<h2 id="why_would_anyone_do_this">Why Would Anyone Do This?</h2>
 <p>You may be wondering exactly why anyone in his or her right mind would want to run one distribution inside another. The easy answer to this question is that I am not exactly in my right mind. The actual answer is a little more complicated, but here are some common reasons:</p>
 <ul>
 <li>You are forced (by company policy or hardware configuration) to use a crappy Linux distribution--such as Red Hat Linux--and you would much rather be using a Real Linux Distribution: i.e. Gentoo.</li>
@@ -153,7 +145,7 @@
 </ul>
 <h2 id="directories">Directories</h2>
 <p>This guide assumes that you want to install Gentoo into a directory called faketoo in your home directory. If you want to install it elsewhere, that is fine, but you will need to watch out for occurrences of faketoo in this guide and change them to reflect your directory choice.</p>
-<h2 id="free-space-requirements">Free Space Requirements</h2>
+<h2 id="free_space_requirements">Free Space Requirements</h2>
 <p>Before you can install Gentoo into a jail, you should verify that you have enough space. The core system install requires just about 1GB of space. Of course, if you are planning to install hefty software packages like <a href="http://packages.gentoo.org/search/?sstring=xorg-x11">X</a>, <a href="http://packages.gentoo.org/search/?sstring=openoffice">OpenOffice.org</a>, <a href="http://packages.gentoo.org/search/?sstring=mozilla-firefox">Firefox</a>, or a full <a href="http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29">LAMP</a> stack, you will need to allow more free space. As a guide, here are some recommendations based on the feedback of people who have followed these steps:</p>
 <ul>
 <li>Servers:
@@ -165,11 +157,11 @@
 <li>X with FluxBox window manager (i.e. no GNOME / KDE bloat): 5GB</li>
 </ul></li>
 </ul>
-<h2 id="obtaining-gentoo-installation-media">Obtaining Gentoo Installation Media</h2>
+<h2 id="obtaining_gentoo_installation_media">Obtaining Gentoo Installation Media</h2>
 <p>You will need, at the very least, a Gentoo stage3 tarball. You probably also want a Portage snapshot tarball. Both of these wonderful things can be located on your <a href="http://www.gentoo.org/main/en/mirrors.xml">favourite Gentoo mirror</a>:</p>
 <ul>
-<li>Stage 3 tarball: in the releases/YOUR_ARCHITECTURE/current/stages/ directory. For example, if you are located in Japan and you have a Pentium 4 processor, you will want to download <a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/releases/x86/current/stages/pentium4/stage3-pentium4-2005.1-r1.tar.bz2" class="uri">ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/releases/x86/current/stages/pentium4/stage3-pentium4-2005.1-r1.tar.bz2</a> (from Tokyo University's screamin' fast mirror).</li>
-<li>Portage snapshot: snapshots/portage-latest.tar.bz2 file; e.g. <a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/snapshots/portage-latest.tar.bz2" class="uri">ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/snapshots/portage-latest.tar.bz2</a> for Japanese Gentooists.</li>
+<li>Stage 3 tarball: in the releases/YOUR_ARCHITECTURE/current/stages/ directory. For example, if you are located in Japan and you have a Pentium 4 processor, you will want to download <a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/releases/x86/current/stages/pentium4/stage3-pentium4-2005.1-r1.tar.bz2">ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/releases/x86/current/stages/pentium4/stage3-pentium4-2005.1-r1.tar.bz2</a> (from Tokyo University's screamin' fast mirror).</li>
+<li>Portage snapshot: snapshots/portage-latest.tar.bz2 file; e.g. <a href="ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/snapshots/portage-latest.tar.bz2">ftp://ftp.ecc.u-tokyo.ac.jp/GENTOO/snapshots/portage-latest.tar.bz2</a> for Japanese Gentooists.</li>
 </ul>
 <p>Save these files into your home directory, like so:</p>
 <p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
@@ -192,7 +184,7 @@
 <code>GENTOO_CPU=pentium4</code><br />
 <code>GENTOO_ARCH=x86</code></font><br />
 <br />
-<code># Only change this line if you changed GENTOO_ARCH to something besides </code>“<code>x86</code>”<br />
+<code># Only change this line if you changed GENTOO_ARCH to something besides “x86”</code><br />
 <font color="red"><code>GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages/${GENTOO_CPU}</code></font><br />
 <br />
 <code>if test ${GENTOO_ARCH_AUTODETECT} -ne 0; then</code><br />
@@ -200,22 +192,22 @@
 <code>    GENTOO_ARCH=x86</code><br />
 <code>    GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages/${GENTOO_CPU}</code><br />
 <br />
-<code>    chost=`sed -n -e 's/^CHOST=&quot;</code><span class="math inline">$[^\-]\+$</span><code>-.\+$/\1/p' /etc/make.conf`</code><br />
-<code>    case </code>“<code>${chost}</code>”<code> in</code><br />
-<code>        </code>“<code>alpha</code>”<code> )</code><br />
+<code>    chost=`sed -n -e 's/^CHOST="</code><span class="math inline">$[^\-]\+$</span><code>-.\+$/\1/p' /etc/make.conf`</code><br />
+<code>    case “${chost}” in</code><br />
+<code>        “alpha” )</code><br />
 <code>            GENTOO_ARCH=alpha</code><br />
 <code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
 <code>            ;;</code><br />
-<code>        </code>“<code>i386</code>”<code> | </code>“<code>i486</code>”<code> | </code>“<code>i586</code>”<code> )</code><br />
+<code>        “i386” | “i486” | “i586” )</code><br />
 <code>            GENTOO_ARCH=x86</code><br />
 <code>            GENTOO_CPU=x86</code><br />
 <code>            ;;</code><br />
-<code>        </code>“<code>i686</code>”<code> )</code><br />
-<code>            case </code>“<code>${GENTOO_CPU}</code>”<code> in</code><br />
-<code>               </code>“<code>pentium3</code>”<code> | </code>“<code>pentium4</code>”<code> | </code>“<code>pentium-m</code>”<code> | </code>“<code>athlon-xp</code>”<code> )</code><br />
+<code>        “i686” )</code><br />
+<code>            case “${GENTOO_CPU}” in</code><br />
+<code>               “pentium3” | “pentium4” | “pentium-m” | “athlon-xp” )</code><br />
 <code>                    # No change to GENTOO_CPU necessary</code><br />
 <code>                    ;;</code><br />
-<code>               </code>“<code>prescott</code>”<code> )</code><br />
+<code>               “prescott” )</code><br />
 <code>                    GENTOO_CPU=pentium4</code><br />
 <code>                    ;;</code><br />
 <code>                * )</code><br />
@@ -223,15 +215,15 @@
 <code>                    ;;</code><br />
 <code>            esac</code><br />
 <code>            ;;</code><br />
-<code>        </code>“<code>hppa1.1</code>”<code> | </code>“<code>hppa2.0</code>”<code> )</code><br />
+<code>        “hppa1.1” | “hppa2.0” )</code><br />
 <code>            GENTOO_ARCH=hppa</code><br />
 <code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
 <code>            ;;</code><br />
-<code>        </code>“<code>powerpc</code>”<code> )</code><br />
+<code>        “powerpc” )</code><br />
 <code>            GENTOO_ARCH=ppc</code><br />
 <code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
 <code>            ;;</code><br />
-<code>        </code>“<code>x86_64</code>”<code> )</code><br />
+<code>        “x86_64” )</code><br />
 <code>            GENTOO_ARCH=amd64</code><br />
 <code>            GENTOO_STAGE_PATH=releases/${GENTOO_ARCH}/current/stages</code><br />
 <code>            ;;</code><br />
@@ -240,7 +232,7 @@
 <br />
 <code>wget --passive-ftp ${GENTOO_MIRROR}/${GENTOO_STAGE_PATH}/stage3-${GENTOO_CPU}-\*.tar.bz2</code><br />
 <code>wget --passive-ftp ${GENTOO_MIRROR}/snapshots/portage-latest.tar.bz2</code></p>
-<h2 id="creating-the-chroot-jail-and-installing-gentoo-into-it">Creating the chroot Jail and Installing Gentoo into It</h2>
+<h2 id="creating_the_chroot_jail_and_installing_gentoo_into_it">Creating the chroot Jail and Installing Gentoo into It</h2>
 <p>Before we can install Gentoo into a chroot jail, we must create the jail. Which is a simple as:</p>
 <p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
 <font color="red"><code>FAKETOO_JAIL=${HOME}/faketoo</code></font><br />
@@ -274,7 +266,7 @@
 <code>else</code><br />
 <code>    sudo mkdir -p usr/portage var/tmp/portage</code><br />
 <code>fi</code></p>
-<h2 id="mounting-dev-and-proc">Mounting /dev and /proc</h2>
+<h2 id="mounting_dev_and_proc">Mounting /dev and /proc</h2>
 <p>Gentoo is all installed inside the jail, but before you can use it like a real system, you must mount <em>/dev</em> and <em>/proc</em> inside the jail so that programs running in the jail have kernel-level access to your hardware.</p>
 <p><font color="red"><strong>Note that this is not what you normally want with a chroot jail, which is supposed to help mitigate a daemon being compromised! In our setup, however, we want to run Gentoo as if it was running directly on the real root filesystem.</strong></font></p>
 <p>Here is how to mount <em>/dev</em> and <em>/proc</em> (and, while we're at it, <em>/usr/src</em>, so that Gentoo can get at our kernel sources (which is required by some packages, like <em>net-wireless/wireless-tools</em>). Also, if you want to use the host system's Portage tree, we will need to mount two additional directories.</p>
@@ -286,7 +278,7 @@
 <code>    sudo mount -o bind /usr/portage ${FAKETOO_JAIL}/usr/portage</code><br />
 <code>    sudo mount -o bind /var/tmp/portage ${FAKETOO_JAIL}/var/tmp/portage</code><br />
 <code>fi</code></p>
-<h2 id="entering-the-jail-for-the-first-time">Entering the Jail for the First Time</h2>
+<h2 id="entering_the_jail_for_the_first_time">Entering the Jail for the First Time</h2>
 <p>We are nearing the end, my friends! Before you enter the Gentoo jail for the very first time, you will need to copy your DNS resolver configuration over, and create one file that seems to be missing from Gentoo's baselayout. And if you have chosen to use the host system's Portage tree in a previous step, you will want to copy the host system's main Portage configuration file in to use as a starting point:</p>
 <p><code>sudo -v</code><br />
 <code>sudo cp /etc/resolv.conf ${FAKETOO_JAIL}/etc/resolv.conf</code><br />
@@ -309,7 +301,7 @@
 <li>You will almost certainly want to use the same Portage profile as the host system.</li>
 <li>When configuring the USE variable, do not change the CHOST, CFLAGS, or MAKEOPTS variables unless you have a very good reason to do so.</li>
 </ul>
-<h2 id="starting-and-stopping-faketoo">Starting and Stopping Faketoo</h2>
+<h2 id="starting_and_stopping_faketoo">Starting and Stopping Faketoo</h2>
 <p>Everytime you shut your computer down, you should first stop Faketoo. And after booting up, you must start Faketoo again before you can use it. The easiest way to accomplish this is by creating two scripts in your bin directory:</p>
 <p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
 <br />
@@ -332,15 +324,15 @@
 <code>    sudo mount -o bind /var/tmp/portage ${FAKETOO_JAIL}/var/tmp/portage</code><br />
 <code>fi</code><br />
 <br />
-<code>sudo chroot \${FAKETOO_JAIL} /bin/su - root -c </code>“<code>/etc/init.d/\${FAKETOO_CRON}</code><code> </code><code>start</code>”<br />
+<code>sudo chroot \${FAKETOO_JAIL} /bin/su - root -c “/etc/init.d/\${FAKETOO_CRON} start”</code><br />
 <code>EOF</code><br />
 <br />
 <code>cat &gt;${BINDIR}/faketoo-stop &lt;&lt;EOF</code><br />
-<code>sudo chroot \${FAKETOO_JAIL} /bin/su - root -c </code>“<code>/etc/init.d/\${FAKETOO_CRON}</code><code> </code><code>stop</code>”<br />
+<code>sudo chroot \${FAKETOO_JAIL} /bin/su - root -c “/etc/init.d/\${FAKETOO_CRON} stop”</code><br />
 <code>EOF</code><br />
 <br />
 <code>chmod +x ${BINDIR}/faketoo-*</code></p>
-<h2 id="entering-the-jail-normally">Entering the Jail Normally</h2>
+<h2 id="entering_the_jail_normally">Entering the Jail Normally</h2>
 <p>Once you have your chrooted system fully installed, you will probably want to add a non-root user for daily use, and enter the jail as that user. Easy as pie:</p>
 <p><code># Edit lines </code><font color="red"><code>highlighted in red</code></font><code> to match your setup</code><br />
 <br />
@@ -349,7 +341,7 @@
 <code>sudo -v</code><br />
 <code>sudo chroot ${FAKETOO_JAIL} /bin/su - ${FAKETOO_USER}</code></p>
 <p>These steps will deposit you into your jail as the root user. You can now continue the normal Gentoo installation process by configuring Portage.</p>
-<h2 id="sudo-explained">sudo Explained</h2>
+<h2 id="sudo_explained">sudo Explained</h2>
 <p><em>sudo</em> is a wrapper that lets you run a single command with superuser--root--privileges. When you ran</p>
 <pre><code>sudo -v</code></pre>
 <p>in the <a href="#Creating_the_chroot_Jail_and_Installing_Gentoo_into_It" title="wikilink">#Creating the chroot Jail and Installing Gentoo into It</a> section above, you were asking sudo for a token, which allows you to commands as root for a few minutes, without being prompted for a password every time. The password that</p>

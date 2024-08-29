@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,8 +133,8 @@
     </div>
 
     <div class="content">
-      <h2 id="past-presentations">Past Presentations</h2>
-<h2 id="proposed-presentations">Proposed Presentations</h2>
+      <h2 id="past_presentations">Past Presentations</h2>
+<h2 id="proposed_presentations">Proposed Presentations</h2>
     </div>
 
     <div id="footer">

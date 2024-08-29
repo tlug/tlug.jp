@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -145,7 +137,7 @@
 <p>As you will have noted from our <font color="#CC2200">other QND Guides</font>, they start with asking if you have the particular program, and have you start by typing which <program_name></p>
 <p>As each distribution has its own way of installing software, this guide is intended as a pointer to installing software in the distributions with which we are familiar.</p>
 <h2 id="distributions">Distributions</h2>
-<h3 id="red-hat-linux">Red Hat Linux</h3>
+<h3 id="red_hat_linux">Red Hat Linux</h3>
 <p>Red Hat Linux developed the now common RPM system. (RPM actually stands for Red Hat Package Manager.) Most of the software mentioned in these QND guides will be found on one of the CDs. A typical Red Hat distribution consists of 3 or 4 CDs. Most software will have to be installed as the <em>root</em> user.</p>
 <p>So, insert the CD. (Unless mentioned otherwise in a QND guide, you might as well start with the first one.)</p>
 <p>Login as <em>root</em>, or do a</p>
@@ -163,9 +155,9 @@
 <p><code>rpm -Uvh fetchmail-5.9.11.rpm</code></p>
 <p>You'll see some information as it's being installed. When done, umount and eject the CDROM as above.</p>
 <p>(We'll continue to use fetchmail as our example package)</p>
-<h3 id="mandrake-linux">Mandrake Linux</h3>
+<h3 id="mandrake_linux">Mandrake Linux</h3>
 <p>Mandrake also uses the RPM format. The procedure is actually, at least last time any of us tried it, identical since Mandrake still keeps its RPMS in a folder called <em>RedHat/RPMS</em>.</p>
-<h3 id="gentoo-linux">Gentoo Linux</h3>
+<h3 id="gentoo_linux">Gentoo Linux</h3>
 <p>Gentoo uses the portage system. Again packages usually have to be installed as root. To find out if it's available in portage</p>
 <p><code>emerge -s fetchmail</code></p>
 <p>You'll get a result like</p>
@@ -206,7 +198,8 @@
 <h2 id="continuing">Continuing</h2>
 <p>Now repeat step one of the QND guide that you were reading. For example, if it was the fetchmail guide then</p>
 <p><code>which fetchmail</code></p>
-<p>If Step 1 still fails, then something subtle is probably wrong. Try emailing your local Linux Users Group or other Linux mailing list to which you subscribe. One good one for beginners is the linux@yahoogroups.com list. (We know that you are member of one or the other) something like “I am trying to install fetchmail on (your distribution, version included). I am using the following method (include the commands that you ran to install it). However, I run 'which fetchmail' and it isn't found. Does anyone have any idea what I'm doing wrong? Thanks in advance.”</p>
+<p>If Step 1 still fails, then something subtle is probably wrong. Try emailing your local Linux Users Group or other Linux mailing list to which you subscribe. One good one for beginners is the linux@yahoogroups.com list. (We know that you are member of one or the other) something like
+“I am trying to install fetchmail on (your distribution, version included). I am using the following method (include the commands that you ran to install it). However, I run 'which fetchmail' and it isn't found. Does anyone have any idea what I'm doing wrong? Thanks in advance.”</p>
 <p>Now that you're done with this, you can go back to the QND guide that you were reading and continue with what is usually step 3.</p>
 <p><font color="#CC2200">Installing_Software</font></p>
     </div>

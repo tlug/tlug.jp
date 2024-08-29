@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,8 +136,12 @@
       <p>NISHIOGI PLACE<br />
 5-26-20 Nishiogi-kita<br />
 Suginami-ku Tokyo 167-0042<br />
-<a href="https://www.nishiogiplace.com/">website</a> <a href="https://goo.gl/maps/Y6eCDZZTWaz">Map</a></p>
-<p><font color="#CC2200">NISHIOGI PLACE</font> <font color="#CC2200">NishiogiKita:NISHIOGI PLACE</font> <font color="#CC2200">Locations:NishiogiKita:NISHIOGI PLACE</font> <font color="#CC2200">Meetings:Locations:NishiogiKita:NISHIOGI PLACE</font></p>
+<a href="https://www.nishiogiplace.com/">website</a>
+<a href="https://goo.gl/maps/Y6eCDZZTWaz">Map</a></p>
+<p><font color="#CC2200">NISHIOGI PLACE</font>
+<font color="#CC2200">NishiogiKita:NISHIOGI PLACE</font>
+<font color="#CC2200">Locations:NishiogiKita:NISHIOGI PLACE</font>
+<font color="#CC2200">Meetings:Locations:NishiogiKita:NISHIOGI PLACE</font></p>
     </div>
 
     <div id="footer">

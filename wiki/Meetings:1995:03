@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,13 +134,13 @@
 
     <div class="content">
       <p>from <a href="http://www.tlug.jp/meetings/1995/95mar.html">1</a></p>
-<h2 id="what-happened-in-march">What happened in March?</h2>
-<h2 id="food-place">Food Place</h2>
+<h2 id="what_happened_in_march">What happened in March?</h2>
+<h2 id="food_place">Food Place</h2>
 <p>Suzuyoshi</p>
 <p>Five of us had the nasu-piman for 700 yen. Wow, what a bargain... :-) Rainer, rebel that he is, had the number four set. I know, I have to study kanji one day. :-)</p>
-<h2 id="meeting-place">Meeting Place</h2>
+<h2 id="meeting_place">Meeting Place</h2>
 <p>Linux heaven! The CTI head offices with Linux machines coming out of the walls.</p>
-<h2 id="crazed-members-present">Crazed Members Present</h2>
+<h2 id="crazed_members_present">Crazed Members Present</h2>
 <ul>
 <li><font color="#CC2200">Nori Nishigaya</font> anishi at cyber.ad.jp,</li>
 <li><font color="#CC2200">Craig Oda</font> craig at twics.com,</li>
@@ -157,14 +149,15 @@
 <li><font color="#CC2200">Rainer Mager</font> rvm at fore.com,</li>
 <li>Jonathan jonathanr at twics.com</li>
 </ul>
-<h2 id="summary-of-events">Summary of events</h2>
+<h2 id="summary_of_events">Summary of events</h2>
 <p>The thing that interested everyone was the dynamic document extensions to HTML to allow Netscape 1.1 to do crude animations. Lots of HTML stuff, such as the HSPACE command. We had a big talk during lunch in which we decided to eventually charge membership dues.</p>
 <dl>
-
-<dd>-)
+<dt></dt>
+<dd>
+-)
 </dd>
 </dl>
-<h2 id="summary-of-decisions">Summary of Decisions</h2>
+<h2 id="summary_of_decisions">Summary of Decisions</h2>
 <ul>
 <li>10,000 yen annual membership fee</li>
 <li>1,500 yen per meeting fee if not a regular member</li>
@@ -172,7 +165,8 @@
 <li>Nori was elected to be in charge of the TLUG “Computer Acquisition Project.”</li>
 <li>Craig will open a TLUG bank account to hold our funds.</li>
 </ul>
-<p><font color="#CC2200">1995:03</font> <font color="#CC2200">03</font></p>
+<p><font color="#CC2200">1995:03</font>
+<font color="#CC2200">03</font></p>
     </div>
 
     <div id="footer">

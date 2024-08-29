@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -150,18 +142,29 @@
 <code> Place: Temple University, 2F, room 206</code><br />
 <code>        2-8-12 Minami Azabu, Minato-ku, Tokyo</code><br />
 <code>        (map at </code><a href="http://www.tuj.ac.jp/maps.html"><code>http://www.tuj.ac.jp/maps.html</code></a><code>)</code></p>
-<h2 id="technical-meeting-topic">Technical Meeting Topic</h2>
-<h3 id="labview-for-linux">LabView for Linux</h3>
-<p>Engineers from Nihon National Instruments (http://www.natinst.com/nni/) will come to show us LabView, a software for rapid prototyping/rapid development of data acquision and control systems. It creates a virtual workbench for signal processing and data analysis, transforming the computer into a virtual instrumentation system. From their web page:</p>
-<p><code>&quot;LabVIEW is a revolutionary graphical programming</code><br />
+<h2 id="technical_meeting_topic">Technical Meeting Topic</h2>
+<h3 id="labview_for_linux">LabView for Linux</h3>
+<p>Engineers from Nihon National Instruments (http://www.natinst.com/nni/)
+will come to show us LabView, a software for rapid prototyping/rapid
+development of data acquision and control systems. It creates a virtual
+workbench for signal processing and data analysis, transforming the
+computer into a virtual instrumentation system. From their web page:</p>
+<p><code>"LabVIEW is a revolutionary graphical programming</code><br />
 <code> development environment based on the G programming language for data</code><br />
 <code> acquisition and control, data analysis, and data presentation. LabVIEW</code><br />
 <code> gives you the flexibility of a powerful programming language without</code><br />
 <code> the associated difficulty and complexity because its graphical programming</code><br />
-<code> methodology is inherently intuitive to scientists and engineers.&quot;</code></p>
+<code> methodology is inherently intuitive to scientists and engineers."</code></p>
 <h3 id="udbdb2">UDB/DB2</h3>
-<p>IBM recently announced their commitment to support Linux, providing hardware, software and support solutions for their customers. The DB2 Universal Database (http://www.ibm.co.jp/software/data or, for the page in English, <a href="http://www.software.ibm.com/data" class="uri">http://www.software.ibm.com/data</a>) is one of IBM's leading software products that is been ported to Linux. Engineers from IBM Japan will come to give us a short introduction to Relational Data Base Systems, explain the UDB basics and show the latest developments. They will also give away CD-ROMs of DB2 for Linux at the meeting.</p>
-<h2 id="raffle-and-items-for-auction">Raffle and items for auction</h2>
+<p>IBM recently announced their commitment to support Linux, providing
+hardware, software and support solutions for their customers. The DB2
+Universal Database (http://www.ibm.co.jp/software/data or, for the page
+in English, <a href="http://www.software.ibm.com/data">http://www.software.ibm.com/data</a>) is one of IBM's leading
+software products that is been ported to Linux. Engineers from IBM Japan
+will come to give us a short introduction to Relational Data Base Systems,
+explain the UDB basics and show the latest developments. They will also
+give away CD-ROMs of DB2 for Linux at the meeting.</p>
+<h2 id="raffle_and_items_for_auction">Raffle and items for auction</h2>
 <p>The following items will be raffled or auctioned at the meeting:</p>
 <ul>
 <li>RedHat Linux 5.2 retail boxed version</li>
@@ -181,23 +184,38 @@
 <code>        TLUG Web/Mailing List</code><br />
 <code>        Austin's Linux System(My 50 some MB .tar.bz2 file) </code></p>
 <p><code> CD #2: Vine Linux 1.0 (release)</code></p>
-<h2 id="meeting-place">Meeting Place</h2>
-<p>(map at <a href="http://www.tuj.ac.jp/maps.html" class="uri">http://www.tuj.ac.jp/maps.html</a>)</p>
-<p>The Temple University Japan (TUJ) Campus is located at 'San no Hashi' (the street name is 'Sakurada Dori'). The DHC building across the street has a HUGE four sided sign that says DHC. The 06 bus from Shibuya stops at Furukawa-bashi, which is a one block walk away from TUJ. TUJ is in a single big building with a sign out front, right on Sakurada Dori.</p>
-<p>Cab drivers will take you right there if you ask for San no Hashi. It is a 15 minute walk from Tamachi, but while it is pretty straight forward, it needs a map, as there are a couple of jogs in the route.</p>
-<p>The 96 bus also stops there, and I think the 92 bus as well. It is a 20 minute walk from Hiro (Just go to Tengen-ji Bashi intersection and head toward Azabu Ju-ban on Meijidori), or a minimum price cab ride from either Hiro or Tamachi</p>
-<p>Once in the university building, go up the stairs opposite the elevator to the second floor, turn right down the hall to room 206. Of course you can use the elevator as needed.</p>
-<p>If you are coming to the meeting, join the mailing list by sending e-mail to majordomo@example.com including</p>
+<h2 id="meeting_place">Meeting Place</h2>
+<p>(map at <a href="http://www.tuj.ac.jp/maps.html">http://www.tuj.ac.jp/maps.html</a>)</p>
+<p>The Temple University Japan (TUJ) Campus is located at 'San no Hashi'
+(the street name is 'Sakurada Dori'). The DHC building across the street
+has a HUGE four sided sign that says DHC. The 06 bus from Shibuya stops
+at Furukawa-bashi, which is a one block walk away from TUJ. TUJ is in a
+single big building with a sign out front, right on Sakurada Dori.</p>
+<p>Cab drivers will take you right there if you ask for San no Hashi. It is a
+15 minute walk from Tamachi, but while it is pretty straight forward, it
+needs a map, as there are a couple of jogs in the route.</p>
+<p>The 96 bus also stops there, and I think the 92 bus as well. It is a 20
+minute walk from Hiro (Just go to Tengen-ji Bashi intersection and head
+toward Azabu Ju-ban on Meijidori), or a minimum price cab ride from either
+Hiro or Tamachi</p>
+<p>Once in the university building, go up the stairs opposite the elevator to
+the second floor, turn right down the hall to room 206. Of course you can
+use the elevator as needed.</p>
+<p>If you are coming to the meeting, join the mailing list by sending e-mail
+to majordomo@example.com including</p>
 <p><code> subscribe tlug</code><br />
 <code> end</code></p>
-<p>in the body of the message. You can get a feeling for what the group is like by looking at the mail on the mailing list.</p>
+<p>in the body of the message. You can get a feeling for what the group is
+like by looking at the mail on the mailing list.</p>
 <p>For any instructions or info before the meeting:</p>
 <ul>
 <li>Jonathan Byrne ............... 070-5517-9250 (PHS)</li>
 <li>Alberto Tomita ............... 070-5644-3680 (PHS)</li>
 <li>Shigeo Honda ................. 090-4396-0445 (DoCoMo)</li>
 </ul>
-<p>We look forward to seeing you there! <font color="#CC2200">1999:04</font> <font color="#CC2200">04</font></p>
+<p>We look forward to seeing you there!
+<font color="#CC2200">1999:04</font>
+<font color="#CC2200">04</font></p>
     </div>
 
     <div id="footer">

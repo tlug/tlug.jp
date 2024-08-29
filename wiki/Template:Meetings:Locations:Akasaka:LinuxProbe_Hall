@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,9 +135,14 @@
     <div class="content">
       <p><strong>LinuxProbe Hall</strong><br />
 2-14-15 Akasaka, Plaza Mikado, Minato-ku, Tokyo<br />
-[ <a href="http://www.linuxprobe.org/">homepage</a> ] [ <a href="http://www.tlug.gr.jp/~atomita/mikadomap.jpg">map</a> ]</p>
-<p>LinuxProbe is an organization working to independently test and certify hardware and software for Linux, providing unbiased information to serve the Linux community.</p>
-<p><font color="#CC2200">LinuxProbe_Hall</font> <font color="#CC2200">Akasaka:LinuxProbe_Hall</font> <font color="#CC2200">Locations:Akasaka:LinuxProbe_Hall</font> <font color="#CC2200">Meetings:Locations:Akasaka:LinuxProbe_Hall</font></p>
+[ <a href="http://www.linuxprobe.org/">homepage</a> ]
+[ <a href="http://www.tlug.gr.jp/~atomita/mikadomap.jpg">map</a> ]</p>
+<p>LinuxProbe is an organization working to independently test and certify hardware and software for Linux,
+providing unbiased information to serve the Linux community.</p>
+<p><font color="#CC2200">LinuxProbe_Hall</font>
+<font color="#CC2200">Akasaka:LinuxProbe_Hall</font>
+<font color="#CC2200">Locations:Akasaka:LinuxProbe_Hall</font>
+<font color="#CC2200">Meetings:Locations:Akasaka:LinuxProbe_Hall</font></p>
     </div>
 
     <div id="footer">

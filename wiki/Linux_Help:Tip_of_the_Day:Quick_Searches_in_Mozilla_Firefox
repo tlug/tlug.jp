@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -145,13 +137,13 @@
 <p>I assume many TLUGgers already know this one, but:</p>
 <ol>
 <li>Browse to your favourite search engine (e.g. Google)</li>
-<li>Search for your favourite thing (e.g. TLUG): <a href="http://www.google.com/search?hl=en&amp;q=tlug&amp;btnG=Google+Search" class="uri">http://www.google.com/search?hl=en&amp;q=tlug&amp;btnG=Google+Search</a></li>
+<li>Search for your favourite thing (e.g. TLUG): <a href="http://www.google.com/search?hl=en&amp;q=tlug&amp;btnG=Google+Search">http://www.google.com/search?hl=en&amp;q=tlug&amp;btnG=Google+Search</a></li>
 <li>Bookmark the results page (I suggest filing the bookmark in a folder called “Quick Searches” or something like that)</li>
 <li>Bookmarks &gt; Manage Bookmarks</li>
 <li>Locate the bookmark you just created</li>
 <li>Right click, then select Properties</li>
 <li>In the “Location:” textbox, find the search term that you used when creating the bookmark (e.g. “tlug”, from our previous example)</li>
-<li>Replace the search term with “%s”, taking care to not change anything else in the URI (e.g. our “Location:” textbox should now read “<a href="http://www.google.com/search?hl=en&amp;q=%s&amp;btnG=Google+Search" class="uri">http://www.google.com/search?hl=en&amp;q=%s&amp;btnG=Google+Search</a>”;)</li>
+<li>Replace the search term with “%s”, taking care to not change anything else in the URI (e.g. our “Location:” textbox should now read “<a href="http://www.google.com/search?hl=en&amp;q=%s&amp;btnG=Google+Search">http://www.google.com/search?hl=en&amp;q=%s&amp;btnG=Google+Search</a>”;)</li>
 <li>In the “Keyword:” textbox, enter a single word or letter (e.g. “g”) to use as the keyword for quick searches (explanation to follow)</li>
 <li>In the “Description:” textbox, enter the same word you chose for “Keyword:” (e.g. “g”); this is simply because the Bookmarks Manager does not display the keyword in its simple view</li>
 <li>Click OK</li>
@@ -159,10 +151,13 @@
 <li>Press Enter or click Go</li>
 <li>Voila!</li>
 </ol>
-<p>For additional fun, I have attached a bookmarks file containing a folder full of my favourite quick searches. You can import this straight into your Mozilla / Firefox by choosing the Bookmarks &gt; Manage Bookmarks to open the Bookmarks Manager, then selecting File &gt; Import from the menu. Choose From File, click Next, select my quick-searches.html file from wherever you saved it, then click open. This will create a new folder called “jmglov Quick Searches” in your top-level Bookmarks folder.</p>
+<p>For additional fun, I have attached a bookmarks file containing a folder full of my favourite quick searches. You can import this straight into your Mozilla / Firefox by choosing the Bookmarks &gt;
+Manage Bookmarks to open the Bookmarks Manager, then selecting File &gt; Import from the menu. Choose From File, click Next, select my quick-searches.html file from wherever you saved it, then click open. This will create a new folder called “jmglov Quick Searches” in your top-level Bookmarks folder.</p>
 <p>Use these as a starting point for your own collection!</p>
-<p>Cheers, Josh</p>
-<p>PS: Yes, I do know about Mycroft search plugins <a href="http://mycroft.mozdev.org/download.html?name=pgp.mit.edu&amp;submitform=Search">1</a> <a href="http://mycroft.mozdev.org/download.html?name=kobesearch.cpan.org&amp;submitform=Search">2</a> <a href="http://www.jmglov.net/opensource/">3</a>, but I find “Ctrl + L g foo Enter” faster even than “Ctrl + L Tab foo (Ctrl + (Up|Down))* Enter”. :)</p>
+<p>Cheers,
+Josh</p>
+<p>PS: Yes, I do know about Mycroft search plugins <a href="http://mycroft.mozdev.org/download.html?name=pgp.mit.edu&amp;submitform=Search">1</a> <a href="http://mycroft.mozdev.org/download.html?name=kobesearch.cpan.org&amp;submitform=Search">2</a> <a href="http://www.jmglov.net/opensource/">3</a>, but I find “Ctrl + L g foo Enter” faster even than “Ctrl + L Tab foo (Ctrl +
+(Up|Down))* Enter”. :)</p>
 <p><font color="#CC2200">Firefox</font></p>
     </div>
 

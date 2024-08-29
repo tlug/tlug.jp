@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -145,7 +137,10 @@
 <ul>
 <li><a href="http://tlug.jp/shirt/v1_final.png">T-shirt Design</a></li>
 </ul>
-<p>We will have the silk screen for 1 year, so we can order reprintings and put it on different colors shirts, and other such items. it could even be put on the back side of a shirt!</p>
+<p>We will have the silk screen for 1 year, so we can
+order reprintings and put it on different colors shirts,
+and other such items. it could even be put on the back
+side of a shirt!</p>
 <p>If you would like a t-shirt in the second round add your name to the list.</p>
 <h3 id="list">List</h3>
 <ol>
@@ -164,7 +159,7 @@
 <li><font color="#CC2200">Greg Simkins</font> (extra large)</li>
 <li><a href="./User:Johan_Burati">Johan Burati</a> (XXL)</li>
 </ol>
-<h2 id="other-designs-we-consider">Other designs we consider</h2>
+<h2 id="other_designs_we_consider">Other designs we consider</h2>
 <p>These can still be used in another round of shirt printing.</p>
 <ul>
 <li><a href="http://tlug.jp/shirt/TL002center.png">Horizontal</a></li>

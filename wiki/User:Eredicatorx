@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,9 +133,12 @@
     </div>
 
     <div class="content">
-      <p>About ME: <img src="/images/Me-mirror.jpg" title="fig:/images/Me-mirror.jpg" alt="/images/Me-mirror.jpg" /></p>
-<p><strong>Name:</strong> Erin D. Hughes</p>
-<p><strong>Occupation:</strong> Unix “Engineer”</p>
+      <p>About ME:
+<img src="/images/Me-mirror.jpg" title="/images/Me-mirror.jpg" alt="/images/Me-mirror.jpg" /></p>
+<p><strong>Name:</strong>
+Erin D. Hughes</p>
+<p><strong>Occupation:</strong>
+Unix “Engineer”</p>
 <p>I use that term loosely cause while I do solve problems... they are usually more human than computer.</p>
 <p><strong>About Me:</strong></p>
 <p>''What's my Name?</p>
@@ -152,10 +147,15 @@
 <p>I look at most problems as not .... something that needs to be fixed, but something that needs to have all sides understand it, meditated, then resolved in a way that works for the benefit of all involved. A mediator or problem solver if you will.</p>
 <p>At this point in my life I find this a strange turn from my younger years, where as a Marine I would in the very basic sense of the word, bludgeon most problems to death. I suppose I do still do that, but instead of a real bludgeoning I stick with problems, and twist arms on both sides till they shake hands, and make up.</p>
 <p>My current job for example is the last level of support for the 2nd largest ISP in Tokyo. While most of my peers are concerned with the how of most problems...... I am concerned with the what and the why. Hence I am not the ... best guy at my job, but I am usually regarded as one of the best guys on my job. I marry the what the customers need and sales people want with the how that comes with getting it done.</p>
-<p><strong>OS:</strong> Desktop: Fedora/ubuntu/free bsd Server: Centos/Solaris10</p>
-<p><strong>For FUN:</strong> Surfing, Rugby, Karate, Photography, Playing with Eric-ku!!</p>
-<p><strong>TV</strong> WWE and other semi violent nonsense.</p>
-<p><strong>Music</strong> Rap Punk &amp; of course Heavy Metal!</p>
+<p><strong>OS:</strong>
+Desktop: Fedora/ubuntu/free bsd
+Server: Centos/Solaris10</p>
+<p><strong>For FUN:</strong>
+Surfing, Rugby, Karate, Photography, Playing with Eric-ku!!</p>
+<p><strong>TV</strong>
+WWE and other semi violent nonsense.</p>
+<p><strong>Music</strong>
+Rap Punk &amp; of course Heavy Metal!</p>
     </div>
 
     <div id="footer">

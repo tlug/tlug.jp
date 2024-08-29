@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,21 +135,22 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
 <p><strong>“VRML browsing”</strong> By <em><font color="#CC2200">Lewske Wada</font></em></p>
 <p><font color="#CC2200">Lewske Wada</font> will talk about using VRML in the browser. He will give and introduction and cover all major issues of using VRML in the browser.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
-<h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
+<h6 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
 <p><strong>“Mapreduce, Hadoop, Hive and Piglatin”</strong> by <em><a href="./Edward_Middleton">Edward Middleton</a></em></p>
 <p><a href="./Edward_Middleton">Edward Middleton</a> will give an introduction to Mapreduce, Hadoop, Hive and Piglatin.</p>
-<h5 id="other-items-on-the-agenda-are">Other items on the agenda are:</h5>
+<h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

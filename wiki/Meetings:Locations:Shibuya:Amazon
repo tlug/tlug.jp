@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -146,13 +138,14 @@
 Shibuya Cross Tower, 6F<br />
 2-15-1 Shibuya<br />
 Shibuya-ku, Tokyo, Japan<br />
-[ <a href="http://maps.google.co.jp/?q=%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B72-15-1+(Shibuya+Cross+Tower)&amp;ie=UTF8&amp;z=16&amp;om=1&amp;iwloc=addr">map</a> ] [ <a href="./Meetings:Locations:Shibuya:Amazon">details</a> ]</p>
+[ <a href="http://maps.google.co.jp/?q=%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B72-15-1+(Shibuya+Cross+Tower)&amp;ie=UTF8&amp;z=16&amp;om=1&amp;iwloc=addr">map</a> ]
+[ <a href="./Meetings:Locations:Shibuya:Amazon">details</a> ]</p>
 <h2 id="directions">Directions</h2>
-<h3 id="tokyo-metro-shibuya-station">Tokyo Metro Shibuya Station</h3>
+<h3 id="tokyo_metro_shibuya_station">Tokyo Metro Shibuya Station</h3>
 <ol>
 <li>Enter the JR / Tokyu station and <a href="#JR_/_Tokyu_Shibuya_Station" title="wikilink">follow the directions</a> from there.</li>
 </ol>
-<h3 id="jr-tokyu-shibuya-station">JR / Tokyu Shibuya Station</h3>
+<h3 id="jr_tokyu_shibuya_station">JR / Tokyu Shibuya Station</h3>
 <ol>
 <li>Take the Miyamasuzaka exit (宮益坂方面), which is the long one that goes over the street right in front of the Tokyu Toyoku Line gates</li>
 <li>Follow the exit all the way over the street (do not take any of the stairs on the right or left) until it dumps you out into an alley</li>

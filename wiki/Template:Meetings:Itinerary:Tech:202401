@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,21 +135,26 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
 <p><strong>“Developers — Build your Career Now!”</strong> By <em><a href="./Jim_Grisanzio">Jim Grisanzio</a></em></p>
-<p>Developers — Build your Career Now! Lessons learned from profiling hundreds of developers who have acquired deep mastery, developed robust networks, and contributed to open communities.</p>
+<p>Developers — Build your Career Now! Lessons learned from profiling
+hundreds of developers who have acquired deep mastery, developed
+robust networks, and contributed to open communities.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
-<h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
+<h6 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
 <p><strong>“A Future for Enterprise Linux”</strong> by <em><font color="#CC2200">Brian Clemens</font></em></p>
-<p>“A Future for Enterprise Linux”. Brian will cover the history, late unpleasantness, and some paths forward in the enterprise Linux ecosystem.</p>
-<h5 id="other-items-on-the-agenda-are">Other items on the agenda are:</h5>
+<p>“A Future for Enterprise Linux”. Brian will cover the history, late
+unpleasantness, and some paths forward in the enterprise Linux
+ecosystem.</p>
+<h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

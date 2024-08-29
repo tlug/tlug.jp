@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -147,7 +139,7 @@
 <p><a href="http://autotelic.com/windows_is_free">“Windows Is Free”</a>, <a href="http://autotelic.com/no_really_-_windows_is_free">“No, Really... Windows Is Free”</a>, <a href="http://autotelic.com/windows_is_free_for_business">“Windows Is Free For Business”</a> - A set of articles I wrote about how software piracy affects free software in the marketplace. The first one made a respectable splash on the content aggregation sites like Digg and Reddit. It was previously hosted on TLUG's web site, but now it's on my personal blog site, along with its follow up articles.</p>
 <p><a href="http://www.cbc.ca/searchengine/blog/2008/01/japanese_internet_to_be_govt_c_1.html">Interview On CBC Radio's “Search Engine”</a> - An interview in which I talk about the status of net neutrality in Japan. I don't think I came across quite how I intended, but it's not bad. I really hate what the woman interviewed before me says about Japan. Anyway, for more on the status of net neutrality in Japan, please see the <a href="http://miau.jp">Movement of Internet Active Users, or MIAU</a> (Japanese site), the Japanese group that is working to keep Japan's internet free from regulation.</p>
 <p><a href="http://articlass.org">Articlass</a> - a content management system, or “CMS”, that I made for my own purposes, now made available to anyone and everyone as open source software, under the GPL v3 license.</p>
-<h2 id="personal-history-with-computers">Personal History With Computers</h2>
+<h2 id="personal_history_with_computers">Personal History With Computers</h2>
 <p>Just for kicks, I wrote out a little history which represents my unfocused and random relationship with technology.</p>
 <p>I grew up around computers, on account of my father being a programmer. My first video game that I remember playing was over the 'net, sort of. It was a text version of “Lunar Lander”, which was played on a <a href="http://en.wikipedia.org/wiki/Texas_Instruments">Texus Instruments</a> <a href="http://en.wikipedia.org/wiki/Silent_700">Silent 700</a>. The game was actually on some computer at my dad's company, and we accessed it with one of those <a href="http://en.wikipedia.org/wiki/Acoustic_coupler">old-school modems where you put the phone into a cradle</a>.</p>
 <p>I took a shot at programming, in BASIC I think, on <a href="http://en.wikipedia.org/wiki/MS-DOS">MS-DOS</a> at some version before <a href="http://en.wikipedia.org/wiki/Drive_letter_assignment">C: drives</a> were standard in computers. I made a game which involved an <a href="http://en.wikipedia.org/wiki/ASCII">ASCII</a> happy face monster, from which there was no escape and it killed you almost instantly. Later I tried copying some code from a magazine into my mother's <a href="http://en.wikipedia.org/wiki/Commodore_64">Commodore 64</a>, which only succeeded in turning the screen purple. Programming is not really my thing.</p>

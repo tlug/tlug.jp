@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -153,23 +145,28 @@
 <h4 id="event">Event</h4>
 <p>Eat and drink (primarily a social activity)</p>
 <h4 id="location">Location</h4>
-<p>Mori no Beer Garden @Jingu Gaien <a href="http://mbg.rkfs.co.jp/">1</a></p>
+<p>Mori no Beer Garden @Jingu Gaien
+<a href="http://mbg.rkfs.co.jp/">1</a></p>
 <p>address: 14-13 Kirigaoka-machi, Shinjuku-ku, Tokyo (Jingu Gaien Outer Garden Playground)</p>
-<p>map: <a href="http://mbg.rkfs.co.jp/#location" class="uri">http://mbg.rkfs.co.jp/#location</a></p>
-<p>• 5 minutes walk from Shinanomachi Station (JR) • 5 minutes walk from Kokuritsukyogijo Station (Oedo line) • 10 minutes walk from Aoyama 1-chome station (Ginza line)</p>
+<p>map: <a href="http://mbg.rkfs.co.jp/#location">http://mbg.rkfs.co.jp/#location</a></p>
+<p>• 5 minutes walk from Shinanomachi Station (JR)
+• 5 minutes walk from Kokuritsukyogijo Station (Oedo line)
+• 10 minutes walk from Aoyama 1-chome station (Ginza line)</p>
 <h4 id="cost">Cost</h4>
-<p>Men: 4,200 yen / Women: 3,900 yen (all you can eat BBQ/all you can drink for 2 hours)</p>
+<p>Men: 4,200 yen / Women: 3,900 yen
+(all you can eat BBQ/all you can drink for 2 hours)</p>
 <h3 id="details">Details</h3>
 <p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
 <p>To help us make sure that there will be room for everyone to seat, <strong>please register</strong> your attendance in <a href="http://tlug.doorkeeper.jp/">Doorkeeper</a>.</p>
 <p>Even if you want to come at the last minute it's okay - we may have to squeeze a bit, but please come!</p>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 </ul>
-<p><font color="#CC2200">2016:07</font> <font color="#CC2200">07</font></p>
+<p><font color="#CC2200">2016:07</font>
+<font color="#CC2200">07</font></p>
     </div>
 
     <div id="footer">

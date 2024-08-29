@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -147,20 +139,20 @@
 <li><a href="http://lists.tlug.jp/MLadm/0902/msg00004.html">initial proposal</a> by <font color="#CC2200">Alberto Tomita</font></li>
 </ul>
 <h2 id="projects">Projects</h2>
-<h3 id="historical-timeline">Historical Timeline</h3>
+<h3 id="historical_timeline">Historical Timeline</h3>
 <p>List up past-officers in chronological order, along with other tid bits about where meetings have been held and special guest speakers/events over the years.</p>
 <ul>
 <li><a href="./TLUG_Timeline">TLUG Timeline</a></li>
 <li><a href="./Searching_Archives_with_Google">Methods for effectively searching TLUG mailing list archives with Google</a></li>
 <li><a href="http://lists.tlug.jp/ML/0401/msg00126.html">Post about first meeting</a> by <a href="./User:JimTittsler">Jim Tittsler</a></li>
 </ul>
-<h3 id="testimonial-videos">Testimonial Videos</h3>
+<h3 id="testimonial_videos">Testimonial Videos</h3>
 <p>A collection of testimonials from founding members, scanning pictures, and looking at video footage that may (or may not) be archived on hikari.</p>
 <ul>
 <li><font color="#CC2200">Bruce McIntosh</font> has offered to take charge of this.</li>
 <li><a href="./Meetings:1999:03">video of 1999 March nomikai</a></li>
 </ul>
-<h3 id="photo-album">Photo Album</h3>
+<h3 id="photo_album">Photo Album</h3>
 <p>Create a photo album giving the photo history of TLUG.</p>
 <p><em>A while back I linked the old meeting archives (most with some photos) <a href="./Meetings:Archive">*here*</a> in to the wiki. So at least there are some pics, albeit very low res for the early digi cam pics.</em> - <a href="./User:Tim">Tim Meggs</a></p>
 <ul>
@@ -170,7 +162,7 @@
 <li><a href="http://www.flickr.com/photos/jimgris/collections/72157605163519045/">Recent TLUG photos</a> by <a href="./User:Jimgris">Jim Grisanzio</a></li>
 <li><a href="http://www.flickr.com/search/?q=tlug&amp;w=65393447%40N00">Recent TLUG photos</a> by <a href="./User:Zuco">Pietro Zuco</a></li>
 </ul>
-<h3 id="celebration-party">Celebration Party</h3>
+<h3 id="celebration_party">Celebration Party</h3>
 <ul>
 <li>The intention was to hold this on a Friday or Saturday night in June which seems to be around the time of the first meeting.</li>
 <li>We have had an expression of interest in sponsoring a TLUG anniversary party but nothing confirmed.

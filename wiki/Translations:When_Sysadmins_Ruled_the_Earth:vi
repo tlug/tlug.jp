@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,36 +136,39 @@
       <h2 id="overview">Overview</h2>
 <p>This is a stub node for Nguyen's translation of “<a href="http://craphound.com/?p=1678">When Sysadmins Ruled the Earth</a>”.</p>
 <p>When Sysadmins Ruled the Earth</p>
-<p>Written by Cory Doctorow Winner of the 2007 Locus Award for best novelette. Congratulations Cory! This story has been unlocked, and is visible in its entirety to all readers. Please enjoy the 2007 Locus best Novelette!</p>
+<p>Written by Cory Doctorow
+Winner of the 2007 Locus Award for best novelette.
+Congratulations Cory!
+This story has been unlocked, and is visible in its entirety to all readers. Please enjoy the 2007 Locus best Novelette!</p>
 <p>Illustrated by Rob Dumuhosky</p>
 <p>“<a href="http://craphound.com/?p=1678">Tôi</a>” bắt đầu viết When Sysadmins Ruled the Earth từ mùng 6 tháng 7 năm 2005 trong khi dạy tại Clarion. Ngày hôm sau đó, tàu điện ngầm và xe buýt London bị đánh bom , trong đó có cả xe buyets mà tôi vẫn đi làm hàng sáng ( Tôi ở Michigan, dạy ở Clarion, lạy chúa ) . Sự trùng lặp này ngoài tưởng tượng nếu bạn là người cầm bút . Và tôi bỏ bễ truyện ngắn này trong vài tháng .</p>
 <p>Khi quay trở lại, tôi có một ý tưởng mới, một câu chuyện của Felix và Van anh dũng chiến đấu bảo vệ máy chủ online tong khi cả thế giới rớt mạng . Một khi nó đã xảy ra, sự khủng hoảng thầm lặng không thể xóa bỏ - giống như nỗi sợ hãi bởi sự hủy diệt hạt nhân ở những năm 80, tôi tỉnh dậy, mặt đất hoàn toàn khác với những bệnh dịch giả tưởng: Y2K, thay đổi thời tiết, und zo weiter . Đó là những ý tưởng cơ bản của một câu chuyện về ngày tận thế của thế giới .</p>
 <p>Những ngày đầu từ khi bắt đầu đi làm, tôi là một sysadmin và tôi kính trọng vô hạn những người đồng nghiệp: sysadmin là nững người thợ bí mật của vũ trụ, họ bảo vệ cuộc sống của bạn .</p>
-<h2 id="part-1">Part 1</h2>
-<p>Khi chiếc điện thoại đặc biệt của Felix đổ tiếng vào hai giờ sáng, Kelly đảo người, đấm vào vai Felix rít lên, &quot;Sao anh không tắt cái của chết tiệt ấy đi trước khi đi ngủ? &quot;</p>
-<p>&quot;Vì tôi cần phải nghe, &quot; Felix trả lời .</p>
-<p>&quot;Anh có phải bác sĩ đâu, &quot;, cô ta nói và đá Felix khi anh ta quay chân khỏi giường, đá quần đùi của Felix trước khi anh kịp mặc. &quot;Anh là thằng quản trị mạng khốn nạn. &quot;</p>
-<p>&quot;Đấy là nghề của tôi, &quot; Felix nói.</p>
-<p>“Họ dạy anh như một con rối,”, cô ta nói . &quot; Tôi biết tôi đúng . Lạy chúa, anh đã là bố rồi đấy, anh không thể ra khỏi nhà vào nửa đêm khi trang web sex của ai đó có vấn đề . Đừng nhấc máy nữa . &quot;</p>
+<h2 id="part_1">Part 1</h2>
+<p>Khi chiếc điện thoại đặc biệt của Felix đổ tiếng vào hai giờ sáng, Kelly đảo người, đấm vào vai Felix rít lên, “Sao anh không tắt cái của chết tiệt ấy đi trước khi đi ngủ?”</p>
+<p>“Vì tôi cần phải nghe,” Felix trả lời .</p>
+<p>“Anh có phải bác sĩ đâu,”, cô ta nói và đá Felix khi anh ta quay chân khỏi giường, đá quần đùi của Felix trước khi anh kịp mặc. “Anh là thằng quản trị mạng khốn nạn.”</p>
+<p>“Đấy là nghề của tôi,” Felix nói.</p>
+<p>“Họ dạy anh như một con rối,”, cô ta nói . " Tôi biết tôi đúng . Lạy chúa, anh đã là bố rồi đấy, anh không thể ra khỏi nhà vào nửa đêm khi trang web sex của ai đó có vấn đề . Đừng nhấc máy nữa . "</p>
 <p>Felix nghĩa cô nói đúng, nhưng anh nhấc máy .</p>
-<p>&quot;Router chính đứng. BGP không có tín hiệu phản hồi. &quot; Giọng máy từ hệ thống theo dõi tự động chả quan tâm nếu Felix chửi . Và Felix chửi tục để thoải mái hơn.</p>
-<p>&quot;Anh có thể chữa ở nhà, &quot; anh ta nói. Felix có thể login vào UPS và khởi động lại router . UPS ở netblock khác, có router riêng và có hệ thống cung cấp điện vĩnh cửu .</p>
-<p>Lúc này Kelly ngồi hẳn dạy trên giường, bộ dạng chẳng khỏe khoắn chút nào trước gương . &quot; Trong 5 năm kể từ ngày cưới, anh chả bao giờ chữa được máy tính từ nhà cả. &quot; Lần này cô ta sai - Felix luôn sửa máy từ nhà, nhưng anh là làm bí mật và không bao giờ để lộ ra mặt, nên cô ta không thể nhớ . Và Kelly cũng đúng , vì Felix không bao giờ có log làm việc sau 1AM, nghĩ là anh ta không bao giờ đến “phòng cấm” ( cage ) làm việc vào giờ đó. Đó là luật Bảo Toàn Vũ Trụ Vô Hạn - aka, Luật Felix.</p>
+<p>“Router chính đứng. BGP không có tín hiệu phản hồi.” Giọng máy từ hệ thống theo dõi tự động chả quan tâm nếu Felix chửi . Và Felix chửi tục để thoải mái hơn.</p>
+<p>“Anh có thể chữa ở nhà,” anh ta nói. Felix có thể login vào UPS và khởi động lại router . UPS ở netblock khác, có router riêng và có hệ thống cung cấp điện vĩnh cửu .</p>
+<p>Lúc này Kelly ngồi hẳn dạy trên giường, bộ dạng chẳng khỏe khoắn chút nào trước gương . " Trong 5 năm kể từ ngày cưới, anh chả bao giờ chữa được máy tính từ nhà cả. " Lần này cô ta sai - Felix luôn sửa máy từ nhà, nhưng anh là làm bí mật và không bao giờ để lộ ra mặt, nên cô ta không thể nhớ . Và Kelly cũng đúng , vì Felix không bao giờ có log làm việc sau 1AM, nghĩ là anh ta không bao giờ đến “phòng cấm” ( cage ) làm việc vào giờ đó. Đó là luật Bảo Toàn Vũ Trụ Vô Hạn - aka, Luật Felix.</p>
 <p>5 phút sau, Felix đã ngồi trước vô lăng . Anh ta không thể giải quyết vấn đề đó từ nhà . Netblock của router độc lập không còn trực tuyến . Lần cuối khi điều này xảy ra, một thằng công nhân xây dựng chết tiệt đã kéo ditch-witch qua ống chứa dây chính vào trung tâm dữ liệu . Kết quả là Felix đã phải cùng 50 sysadmin khốn khổ khác đứng trên cái lỗ trong cả tuần, chửi rủa thằng khốn khổ được thuê 24/7 để lắp lại hàng vạn dây dẫn với nhau vào một cuộn .</p>
 <p>Điện thoại của Felix dừng rung sau 02 lần . Anh để nó ghi đè lên tiếng stereo. TODO. Tiếng Kelly gọi .</p>
-<p>&quot;Hi, &quot; Felix trả lời.</p>
+<p>“Hi,” Felix trả lời.</p>
 <p>“Đừng khúm núm , Em nghe thấy trong giọng nói của anh.”</p>
-<p>Felix cười miễn cưỡng. &quot; Em kiểm tra đi, làm gì có!&quot;</p>
+<p>Felix cười miễn cưỡng. " Em kiểm tra đi, làm gì có!"</p>
 <p>“Em yêu anh, Felix,”, Kelly nói.</p>
 <p>“Anh yêu em đến phát điên đây, Kelly. EM ngủ tiếp đi.”</p>
-<p>“2.0 vẫn chưa ngủ,”, Kelly nói. Thằng bé đã từng là Beta Test từ khi còn trong trứng, và khi cô trở dạ, Felix nhận được điện và nhào ra khỏi office, hét lên, ' Hàng ra rồi, Gold Master!' Họ gọi nói là 2.0 trước khi nó cất tiếng khóc đầu tiền . &quot; Thằng nhỏ lỏi này sinh ra để bú tí mẹ.&quot;</p>
+<p>“2.0 vẫn chưa ngủ,”, Kelly nói. Thằng bé đã từng là Beta Test từ khi còn trong trứng, và khi cô trở dạ, Felix nhận được điện và nhào ra khỏi office, hét lên, ' Hàng ra rồi, Gold Master!' Họ gọi nói là 2.0 trước khi nó cất tiếng khóc đầu tiền . " Thằng nhỏ lỏi này sinh ra để bú tí mẹ."</p>
 <p>“Anh xin lỗi đã đánh thức em,” Felix nói . Felix đã gần đến trung tâm dữ liệu. Không có traffic vào 2AM. Anh giảm tốc và đưa xem chầm chậm vào cửa nhà xe. Anh không muốn để mất sóng trước khi vào nhà ga ngầm.</p>
 <p>“Điều đó không làm e thức dậy đâu,” cô nói. “Anh đã làm ở đó 7 năm. Anh được 3 cấp trên thông báo . Đưa cho họ điện thoại thì anh sẽ được trả tiền.”</p>
-<p>&quot;Anh không muốn đòi hỏi báo cáo của mình được làm gì nếu anh không làm, &quot;, anh ta nói.</p>
+<p>“Anh không muốn đòi hỏi báo cáo của mình được làm gì nếu anh không làm,”, anh ta nói.</p>
 <p>“Nhưng anh đã làm,” cô nói . “Thôi em xin! Em không muốn bị đánh thức vào nửa đêm. Em nhớ anh hàng đêm.”</p>
 <p>“Kelly—”</p>
 <p>“EM nhớ anh hơn cả giận dữ. Em chỉ nhớ anh, chỉ thế thôi. Anh cho em những giấc mơ ngọt ngào.”</p>
-<p>&quot;OK, &quot; Felix nói.</p>
+<p>“OK,” Felix nói.</p>
 <p>“Chỉ thế thôi ư?”</p>
 <p>“Chính xác. Chỉ thế thôi.Anh không thể để em bị ác mộng, và anh đã trả giá. Từ này trở đi, anh chi gọi vào đêm để bù lại những ngày nghỉ.”</p>
 <p>She laughed. “Sysadmins don't take holidays.”</p>
@@ -194,8 +189,9 @@
 <p>“Yeah.” Van was a type-two sysadmin, over six feet tall, long pony-tail, bobbing Adam's apple. Over his toast-rack chest, his tee said CHOOSE YOUR WEAPON and featured a row of polyhedral RPG dice.</p>
 <p>Felix was a type-one admin, with an extra seventy or eighty pounds all around the middle, and a neat but full beard that he wore over his extra chins. His tee said HELLO CTHULHU and featured a cute, mouthless, Hello-Kitty-style Cthulhu. They'd known each other for fifteen years, having met on Usenet, then f2f at Toronto Freenet beer-sessions, a Star Trek convention or two, and eventually Felix had hired Van to work under him at Ardent. Van was reliable and methodical. Trained as an electrical engineer, he kept a procession of spiral notebooks filled with the details of every step he'd ever taken, with time and date.</p>
 <p>“Not even PEBKAC this time,” Van said. Problem Exists Between Keyboard And Chair. Email trojans fell into that category—if people were smart enough not to open suspect attachments, email trojans would be a thing of the past. But worms that ate Cisco routers weren't a problem with the lusers—they were the fault of incompetent engineers.</p>
-<p>“No, it's Microsoft's fault,” Felix said. “Any time I'm at work at 2AM, it's either PEBKAC or Microsloth.”</p>
-<h2 id="part-2">Part 2</h2>
+<p>“No, it's Microsoft's fault,” Felix said. “Any time I'm at work at 2AM, it's
+either PEBKAC or Microsloth.”</p>
+<h2 id="part_2">Part 2</h2>
 <p>They ended up just unplugging the frigging routers from the Internet. Not Felix, of course, though he was itching to do it and get them rebooted after shutting down their IPv6 interfaces. It was done by a couple bull-goose Bastard Operators From Hell who had to turn two keys at once to get access to their cage—like guards in a Minuteman silo. 95 percent of the long distance traffic in Canada went through this building. It had better security than most Minuteman silos.</p>
 <p>Felix and Van got the Ardent boxes back online one at a time. They were being pounded by worm-probes—putting the routers back online just exposed the downstream cages to the attack. Every box on the Internet was drowning in worms, or creating worm-attacks, or both. Felix managed to get through to NIST and Bugtraq after about a hundred timeouts, and download some kernel patches that should reduce the load the worms put on the machines in his care. It was 10AM, and he was hungry enough to eat the ass out of a dead bear, but he recompiled his kernels and brought the machines back online. Van's long fingers flew over the administrative keyboard, his tongue protruding as he ran load-stats on each one.</p>
 <p>“I had two hundred days of uptime on Greedo,” Van said. Greedo was the oldest server in the rack, from the days when they'd named the boxes after Star Wars characters. Now they were all named after Smurfs, and they were running out of Smurfs and had started in on McDonaldland characters, starting with Van's laptop, Mayor McCheese.</p>
@@ -205,7 +201,7 @@
 <p>“I wanna eat,” Van said.</p>
 <p>“Tell you what,” Felix said. “We'll get your box up, then mine, then I'll take you to the Lakeview Lunch for breakfast pizzas and you can have the rest of the day off.”</p>
 <p>“You're on,” Van said. “Man, you're too good to us grunts. You should keep us in a pit and beat us like all the other bosses. It's all we deserve.”</p>
-<h2 id="part-3">Part 3</h2>
+<h2 id="part_3">Part 3</h2>
 <p>“It's your phone,” Van said. Felix extracted himself from the guts of the 486, which had refused to power up at all. He had cadged a spare power-supply from some guys who ran a spam operation and was trying to get it fitted. He let Van hand him the phone, which had fallen off his belt while he was twisting to get at the back of the machine.</p>
 <p>“Hey, Kel,” he said. There was an odd, snuffling noise in the background. Static, maybe? 2.0 splashing in the bath? “Kelly?”</p>
 <p>The line went dead. He tried to call back, but didn't get anything—no ring nor voicemail. His phone finally timed out and said NETWORK ERROR.</p>
@@ -238,7 +234,7 @@
 <p>“The worm? What?” Felix focused on the guy, who was a young admin with just a little type-two flab around the middle.</p>
 <p>“Not the worm,” the guy said. “I got an email that the whole city's quarantined because of some virus. Bioweapon, they say.” He handed Felix his Blackberry.</p>
 <p>Felix was so engrossed in the report—purportedly forwarded from Health Canada—that he didn't even notice that all the lights had gone out. Then he did, and he pressed the Blackberry back into its owner's hand, and let out one small sob.</p>
-<h2 id="part-4">Part 4</h2>
+<h2 id="part_4">Part 4</h2>
 <p>The generators kicked in a minute later. Sysadmins stampeded for the stairs. Felix grabbed Van by the arm, pulled him back.</p>
 <p>“Maybe we should wait this out in the cage,” he said.</p>
 <p>“What about Kelly?” Van said.</p>
@@ -268,7 +264,7 @@
 <p>&gt; No phone service</p>
 <p>Felix typed again.</p>
 <p>He looked up at Van, and saw that his skinny shoulders were shaking. Van said, “Holy motherfucking shit. The world is ending.”</p>
-<h2 id="part-5">Part 5</h2>
+<h2 id="part_5">Part 5</h2>
 <p>Felix pried himself off of IRC an hour later. Atlanta had burned. Manhattan was hot—radioactive enough to screw up the webcams looking out over Lincoln Plaza. Everyone blamed Islam until it became clear that Mecca was a smoking pit and the Saudi Royals had been hanged before their palaces.</p>
 <p>His hands were shaking, and Van was quietly weeping in the far corner of the cage. He tried calling home again, and then the police. It didn't work any better than it had the last 20 times.</p>
 <p>He sshed into his box downstairs and grabbed his mail. Spam, spam, spam. More spam. Automated messages. There—an urgent message from the intrusion detection system in the Ardent cage.</p>
@@ -309,7 +305,7 @@
 <p>&gt; How long until we can go out?</p>
 <p>&gt; I have no idea</p>
 <p>No one typed anything for quite some time then.</p>
-<h2 id="part-6">Part 6</h2>
+<h2 id="part_6">Part 6</h2>
 <p>Felix had to use the Mountain Dew bottle twice. Then Van used it again. Felix tried calling Kelly again. The Metro Police site was down.</p>
 <p>Finally, he slid back against the servers and wrapped his arms around his knees and wept like a baby.</p>
 <p>After a minute, Van came over and sat beside him, with his arm around Felix's shoulder.</p>
@@ -329,8 +325,8 @@
 <p>There was a cafeteria on the top floor, with working toilets, water and coffee and vending machine food. There was an uneasy queue of sysadmins before each. No one met anyone's eye. Felix wondered which one was Will and then he joined the vending machine queue.</p>
 <p>He got a couple more energy bars and a gigantic cup of vanilla coffee before running out of change. Van had scored them some table space and Felix set the stuff down before him and got in the toilet line. “Just save some for me,” he said, tossing an energy bar in front of Van.</p>
 <p>By the time they were all settled in, thoroughly evacuated, and eating, TALK NERDY and his friend had returned again. They cleared off the cash-register at the end of the food-prep area and TALK NERDY got up on it. Slowly the conversation died down.</p>
-<p>&quot;I'm Uri Popovich, this is Diego Rosenbaum. Thank you all for coming up here. Here's what we know for sure: the building's been on generators for three hours now. Visual observation indicates that we're the only building in central Toronto with working power—which should hold out for three more days. There is a bioagent of unknown origin loose beyond our doors. It kills quickly, within hours, and it is aerosolized. You get it from breathing bad air. No one has opened any of the exterior doors to this building since five this morning. No one will open the doors until I give the go-ahead.</p>
-<p>&quot;Attacks on major cities all over the world have left emergency responders in chaos. The attacks are electronic, biological, nuclear and conventional explosives, and they are very widespread. I'm a security engineer, and where I come from, attacks in this kind of cluster are usually viewed as opportunistic: group B blows up a bridge because everyone is off taking care of group A's dirty nuke event. It's smart. An Aum Shin Rikyo cell in Seoul gassed the subways there about 2AM Eastern—that's the earliest event we can locate, so it may have been the Archduke that broke the camel's back. We're pretty sure that Aum Shin Rikyo couldn't be behind this kind of mayhem: they have no history of infowar and have never shown the kind of organizational acumen necessary to take out so many targets at once. Basically, they're not smart enough.</p>
+<p>"I'm Uri Popovich, this is Diego Rosenbaum. Thank you all for coming up here. Here's what we know for sure: the building's been on generators for three hours now. Visual observation indicates that we're the only building in central Toronto with working power—which should hold out for three more days. There is a bioagent of unknown origin loose beyond our doors. It kills quickly, within hours, and it is aerosolized. You get it from breathing bad air. No one has opened any of the exterior doors to this building since five this morning. No one will open the doors until I give the go-ahead.</p>
+<p>"Attacks on major cities all over the world have left emergency responders in chaos. The attacks are electronic, biological, nuclear and conventional explosives, and they are very widespread. I'm a security engineer, and where I come from, attacks in this kind of cluster are usually viewed as opportunistic: group B blows up a bridge because everyone is off taking care of group A's dirty nuke event. It's smart. An Aum Shin Rikyo cell in Seoul gassed the subways there about 2AM Eastern—that's the earliest event we can locate, so it may have been the Archduke that broke the camel's back. We're pretty sure that Aum Shin Rikyo couldn't be behind this kind of mayhem: they have no history of infowar and have never shown the kind of organizational acumen necessary to take out so many targets at once. Basically, they're not smart enough.</p>
 <p>“We're holing up here for the foreseeable future, at least until the bioweapon has been identified and dispersed. We're going to staff the racks and keep the networks up. This is critical infrastructure, and it's our job to make sure it's got five nines of uptime. In times of national emergency, our responsibility to do that doubles.”</p>
 <p>One sysadmin put up his hand. He was very daring in a green Incredible Hulk ring-tee, and he was at the young end of the scale.</p>
 <p>“Who died and made you king?”</p>
@@ -350,22 +346,22 @@
 <p>“Shut UP!” Popovich hollered. The conversation dimmed by one Watt. Popovich yelled again, stamping his foot on the countertop. Finally there was a semblance of order. “One at a time,” he said. He was flushed red, his hands in his pockets.</p>
 <p>One sysadmin was for staying. Another for going. They should hide in the cages. They should inventory their supplies and appoint a quartermaster. They should go outside and find the police, or volunteer at hospitals. They should appoint defenders to keep the front door secure.</p>
 <p>Felix found to his surprise that he had his hand in the air. Popovich called on him.</p>
-<p>“My name is Felix Tremont,” he said, getting up on one of the tables, drawing out his PDA. &quot;I want to read you something.</p>
-<p>&quot;'Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather.</p>
-<p>&quot;'We have no elected government, nor are we likely to have one, so I address you with no greater authority than that with which liberty itself always speaks. I declare the global social space we are building to be naturally independent of the tyrannies you seek to impose on us. You have no moral right to rule us nor do you possess any methods of enforcement we have true reason to fear.</p>
-<p>&quot;'Governments derive their just powers from the consent of the governed. You have neither solicited nor received ours. We did not invite you. You do not know us, nor do you know our world. Cyberspace does not lie within your borders. Do not think that you can build it, as though it were a public construction project. You cannot. It is an act of nature and it grows itself through our collective actions.'</p>
+<p>“My name is Felix Tremont,” he said, getting up on one of the tables, drawing out his PDA. "I want to read you something.</p>
+<p>"'Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather.</p>
+<p>"'We have no elected government, nor are we likely to have one, so I address you with no greater authority than that with which liberty itself always speaks. I declare the global social space we are building to be naturally independent of the tyrannies you seek to impose on us. You have no moral right to rule us nor do you possess any methods of enforcement we have true reason to fear.</p>
+<p>"'Governments derive their just powers from the consent of the governed. You have neither solicited nor received ours. We did not invite you. You do not know us, nor do you know our world. Cyberspace does not lie within your borders. Do not think that you can build it, as though it were a public construction project. You cannot. It is an act of nature and it grows itself through our collective actions.'</p>
 <p>“That's from the Declaration of Independence of Cyberspace. It was written 12 years ago. I thought it was one of the most beautiful things I'd ever read. I wanted my kid to grow up in a world where cyberspace was free—and where that freedom infected the real world, so meatspace got freer too.”</p>
 <p>He swallowed hard and scrubbed at his eyes with the back of his hand. Van awkwardly patted him on the shoe.</p>
 <p>“My beautiful son and my beautiful wife died today. Millions more, too. The city is literally in flames. Whole cities have disappeared from the map.”</p>
 <p>He coughed up a sob and swallowed it again.</p>
-<p>&quot;All around the world, people like us are gathered in buildings like this. They were trying to recover from last night's worm when disaster struck. We have independent power. Food. Water.</p>
-<p>&quot;We have the network, that the bad guys use so well and that the good guys have never figured out.</p>
-<p>&quot;We have a shared love of liberty that comes from caring about and caring for the network. We are in charge of the most important organizational and governmental tool the world has ever seen. We are the closest thing to a government the world has right now. Geneva is a crater. The East River is on fire and the UN is evacuated.</p>
-<p>&quot;The Distributed Republic of Cyberspace weathered this storm basically unscathed. We are the custodians of a deathless, monstrous, wonderful machine, one with the potential to rebuild a better world.</p>
+<p>"All around the world, people like us are gathered in buildings like this. They were trying to recover from last night's worm when disaster struck. We have independent power. Food. Water.</p>
+<p>"We have the network, that the bad guys use so well and that the good guys have never figured out.</p>
+<p>"We have a shared love of liberty that comes from caring about and caring for the network. We are in charge of the most important organizational and governmental tool the world has ever seen. We are the closest thing to a government the world has right now. Geneva is a crater. The East River is on fire and the UN is evacuated.</p>
+<p>"The Distributed Republic of Cyberspace weathered this storm basically unscathed. We are the custodians of a deathless, monstrous, wonderful machine, one with the potential to rebuild a better world.</p>
 <p>“I have nothing to live for but that.”</p>
 <p>There were tears in Van's eyes. He wasn't the only one. They didn't applaud him, but they did one better. They maintained respectful, total silence for seconds that stretched to a minute.</p>
 <p>“How do we do it?” Popovich said, without a trace of sarcasm.</p>
-<h2 id="part-7">Part 7</h2>
+<h2 id="part_7">Part 7</h2>
 <p>The newsgroups were filling up fast. They'd announced them in news.admin.net-abuse.email, where all the spamfighters hung out, and where there was a tight culture of camaraderie in the face of full-out attack.</p>
 <p>The new group was alt.november5-disaster.recovery, with .recovery.goverance, .recovery.finance, .recovery.logistics and .recovery.defense hanging off of it. Bless the wooly alt. hierarchy and all those who sail in her.</p>
 <p>The sysadmins came out of the woodwork. The Googleplex was online, with the stalwart Queen Kong bossing a gang of rollerbladed grunts who wheeled through the gigantic data-center swapping out dead boxen and hitting reboot switches. The Internet Archive was offline in the Presidio, but the mirror in Amsterdam was live and they'd redirected the DNS so that you'd hardly know the difference. Amazon was down. Paypal was up. Blogger, Typepad and Livejournal were all up, and filling with millions of posts from scared survivors huddling together for electronic warmth.</p>
@@ -391,7 +387,7 @@
 <p>&gt; shell-shocked through the city streets. When do THEY get a vote?</p>
 <p>Felix had to admit she had a point. Queen Kong was sharp. Not many woman sysadmins, and that was a genuine tragedy. Women like Queen Kong were too good to exclude from the field. He'd have to hack a solution to get women balanced out in his new government. Require each region to elect one woman and one man?</p>
 <p>He happily clattered into argument with her. The elections would be the next day; he'd see to it.</p>
-<h2 id="part-8">Part 8</h2>
+<h2 id="part_8">Part 8</h2>
 <p>“Prime Minister of Cyberspace? Why not call yourself the Grand Poobah of the Global Data Network? It's more dignified, sounds cooler and it'll get you just as far.” Will had the sleeping spot next to him, up in the cafeteria, with Van on the other side. The room smelled like a dingleberry: twenty-five sysadmins who hadn't washed in at least a day all crammed into the same room. For some of them, it had been much, much longer than a day.</p>
 <p>“Shut up, Will,” Van said. “You wanted to try to knock the Internet offline.”</p>
 <p>“Correction: I want to knock the Internet offline. Present-tense”</p>
@@ -443,7 +439,7 @@
 <p>The Googloids were one of the largest and most powerful blocs left behind, along with the satellite uplink crews and the remaining transoceanic crews. Queen Kong's endorsement had come as a surprise and he'd sent her an email that she'd replied to tersely: “can't have the fuckrags in charge.”</p>
 <p>&gt; gtg</p>
 <p>she typed and then her connection dropped. He fired up a browser and called up google.com. The browser timed out. He hit reload, and then again, and then the Google front-page came back up. Whatever had hit Queen Kong's workplace—power failure, worms, another quake—she had fixed it. He snorted when he saw that they'd replaced the O's in the Google logo with little planet Earths with mushroom clouds rising from them.</p>
-<h2 id="part-9">Part 9</h2>
+<h2 id="part_9">Part 9</h2>
 <p>“Got anything to eat?” Van said to him. It was mid-afternoon, not that time particularly passed in the data-center. Felix patted his pockets. They'd put a quartermaster in charge, but not before everyone had snagged some chow out of the machines. He'd had a dozen power-bars and some apples. He'd taken a couple sandwiches but had wisely eaten them first before they got stale.</p>
 <p>“One power-bar left,” he said. He'd noticed a certain looseness in his waistline that morning and had briefly relished it. Then he'd remembered Kelly's teasing about his weight and he'd cried some. Then he'd eaten two power bars, leaving him with just one left.</p>
 <p>“Oh,” Van said. His face was hollower than ever, his shoulders sloping in on his toast-rack chest.</p>
@@ -461,7 +457,7 @@
 <p>Van scratched some more. “I'm sorry,” he said. “I didn't know.”</p>
 <p>Sario cracked up. “Oh, you are priceless. I'd bet that three quarters of this bunch is borderline autistic. Me, I'm just an asshole. But I'm one who isn't afraid to tell the truth, and that makes me better than you, dickweed.”</p>
 <p>“Fuckrag,” Felix said, “fuck off.”</p>
-<h2 id="part-10">Part 10</h2>
+<h2 id="part_10">Part 10</h2>
 <p>They had less than a day's worth of fuel when Felix was elected the first ever Prime Minister of Cyberspace. The first count was spoiled by a bot that spammed the voting process and they lost a critical day while they added up the votes a second time.</p>
 <p>But by then, it was all seeming like more of a joke. Half the data-centers had gone dark. Queen Kong's net-maps of Google queries were looking grimmer and grimmer as more of the world went offline, though she maintained a leader-board of new and rising queries—largely related to health, shelter, sanitation and self-defense.</p>
 <p>Worm-load slowed. Power was going off to many home PC users, and staying off, so their compromised PCs were going dark. The backbones were still lit up and blinking, but the missives from those data-centers were looking more and more desperate. Felix hadn't eaten in a day and neither had anyone in a satellite Earth-station of transoceanic head-end.</p>
@@ -490,7 +486,7 @@
 <p>“Prime Minister,” he said. “And you're no grunt, you're the Deputy Prime Minister. You're my designated ribbon-cutter and hander-out of oversized novelty checks.”</p>
 <p>It buoyed both of their spirits. Watching Popovich and Rosenbaum go, it buoyed them up. Felix knew then that they'd all be going soon.</p>
 <p>That had been pre-ordained by the fuel-supply, but who wanted to wait for the fuel to run out, anyway?</p>
-<h2 id="part-11">Part 11</h2>
+<h2 id="part_11">Part 11</h2>
 <p>- Phân nửa nhóm của tôi bỏ đi sáng nay.</p>
 <p>Queen Kong gõ bàn phím. Google vẫn còn đứng vững. Tải của các máy chủ giờ đây ít hơn nhiều so với trước kia, khi mà Google còn chạy trên một mớ PC ráp tay đặt dưới gầm bàn ở Stanford.</p>
 <p>- Bên này còn có một phần tư.</p>
@@ -514,7 +510,10 @@
 <p>Họ đá bọn bọ ra khỏi kênh chat hầu như đồng thời. Anh có một đoạn lệnh để làm việc này. Bọn thư rác biến mất không còn dấu vết.</p>
 <p>- Làm sao đám thư rác này vẫn còn nhiều thế? Một nửa số trung tâm dữ liệu đã tắt rồi kia mà.</p>
 <p>Queen Kong dừng một lúc lâu trước khi trả lời. Như một thói quen, khi Kong bị trễ, anh lại mở lại trang chủ của Google. Để chắc chắn là nó còn bị ngắt.</p>
-<p>- Sario, cậu còn đồ ăn không? &gt; You won't miss a couple more meals, Your Excellency Van had gone back to Mayor McCheese but he was in the same channel. “What a dick. You're looking pretty buff, though, dude.”</p>
+<p>- Sario, cậu còn đồ ăn không?
+&gt; You won't miss a couple more meals, Your Excellency
+Van had gone back to Mayor McCheese but he was in the same channel.
+“What a dick. You're looking pretty buff, though, dude.”</p>
 <p>Vân trông mệt mỏi, tưởng chừng một cơn gió nhẹ cũng xô ngã được. Giọng của anh thều thào:</p>
 <p>- Này Kong, mọi việc ổn chứ?</p>
 <p>- Vẫn ổn, chỉ có điều phải đi dọn dẹp mấy thứ.</p>
@@ -529,7 +528,7 @@
 <p>“Cậu uống đủ nước chứ?”</p>
 <p>Vân gật đầu. “Suốt cả ngày, cứ 10 giây một lần. Bất kỳ thứ gì để đầy bụng.” Anh chỉ vào cái vỏ chai Pepsi Max đầy nước đặt bên cạnh.</p>
 <p>“Phải họp mọi người lại thôi.” Felix nói.</p>
-<h2 id="part-12">Part 12</h2>
+<h2 id="part_12">Part 12</h2>
 <p>Họ từng có 43 người vào ngày N. Giờ chỉ còn 15. Sáu người đã bỏ đi, nói rằng đi dự một cuộc họp. Những người khác đều hiểu bản chất của “cuộc họp” đó, không đợi phải nói ra.</p>
 <p>“Thế đấy, các anh còn đợi gì mà không cho nó chết? “ Sario là người duy nhất còn đủ sức lực để mà tức giận. Hắn sẽ còn tức giận đến lúc xuống mồ. Những mạch máu ở cổ và trán hắn phồng lên một cách giận dữ. Hắn lắc lắc nắm đấm một cách giận dữ. Các nhân viên khác đều cụp mắt né Sario, trong cả cuộc họp chỉ nhất loạt ngước lên nhìn có một lần, nhưng không ngó ngàng gì đến lưu thoại hay bảng theo dõi cung cấp dịch vụ.</p>
 <p>“Sario, cậu chơi xỏ tôi phải không,” Felix nói. “Cậu muốn rút cái dây điện chết tiệt đó hả?”</p>
@@ -541,7 +540,7 @@
 <p>“Sario, cậu nói không sai, nhưng mà cũng chẳng đúng,” anh nói. “Nên để nó chạy ì ạch thế này. Tất cả chúng ta rồi còn ì ạch một thời gian dài, nhưng biết đâu nó được việc cho ai đó. Nếu như nó còn chuyển được một gói tin từ người này sang người khác, ở bất kỳ nơi nào trên thế giới, nó vẫn còn được việc.”</p>
 <p>“Nếu cậu muốn tắt nó đi thì cứ việc,” Felix nói tiếp. “Tôi là Thủ tướng và tôi cho phép. Tôi sẽ để lại mật khẩu root cho các bạn. Cho tất cả các bạn.” Anh bước đến bên tấm bảng, chỗ những nhân viên nhà hàng dùng để viết thực đơn trong ngày. Bây giờ nó đầy những dấu vết của các cuộc tranh cãi nảy lửa giữa những sysadmin, kể từ ngày xảy ra chuyện này.</p>
 <p>Anh lấy ống tay áo chùi sạch một góc bảng và bắt đầu viết ra những mật khẩu số-chữ phức tạp, điểm xuyết bởi các dấu ngắt. Felix có khả năng trời phú để nhớ những mật khẩu kiểu này. Anh ngờ rằng còn lâu anh mới cần đến cái khả năng đó một lần nữa.</p>
-<h2 id="part-13">Part 13</h2>
+<h2 id="part_13">Part 13</h2>
 <p>- Đi thôi Kong. Đằng nào cũng sắp hết dầu rồi.</p>
 <p>- Được thôi. Thật là vinh dự, thưa Thủ tướng.</p>
 <p>- Chị ổn chứ ?</p>
@@ -566,7 +565,7 @@
 <p>“Hình như có một hiệu thuốc Shopper ở King Street,” anh nói với Vân. “Ta sẽ đập cửa sổ và lấy cho cậu một ít thuốc mỡ bôi.”</p>
 <p>“Anh là Thủ tướng kia mà, đi trước đi.” Vân nói</p>
 <p><font color="#CC2200">Llddhh</font></p>
-<h2 id="part-14">Part 14</h2>
+<h2 id="part_14">Part 14</h2>
 <p>Không có ma nào trên đường, trong suốt cả 15 phút họ đi trên đường. Không có một tiếng động nào, ngoại trừ vài tiếng chim kêu và gầm gừ từ xa vọng lại, và tiếng gió thổi qua đám dây điện trên đầu họ. Giống như họ đang đi trên Mặt Trăng.</p>
 <p>“Hiệu Shopper’s phải còn sôcôla,” Vân nói</p>
 <p>Dạ dày của Felix quặn lại. Thức ăn. “Ối chà,” anh nói, nước miếng tứa ra đầy mồm.</p>
@@ -632,10 +631,12 @@
 <p>Sự thật tệ hơn thế nhiều. Anh xuống xe ở lối vào tiểu khu và họ dắt xe đạp, đi cùng nhau trong yên lặng, lắng nghe tiếng gió xào xạc ở ngọn cây. Mùa đông năm nay đến muộn, nhưng nó đã đến, và khi mồ hôi khô đi, Felix bắt đầu thấy rét run.</p>
 <p>Anh đã đánh mất chìa khóa. Chắc chúng ở trung tâm dữ liệu, cách xa đây cả một thế giới. Nắm cửa không xoay khi anh vặn nó. Anh xô mạnh vai, nó bật ra khỏi khung gây nên một tiếng đổ vỡ khủng khiếp. Trong nhà toàn là mùi thối.</p>
 <p>Cánh cửa vỡ toang khi đổ xuống đất. Nước đọng ở trong nhà, tạo thành những vũng dày hàng mười phân, nổi bọt và bốc mùi. Anh lội qua chúng, cảm thấy ván sàn cong đi vì thấm nước dưới chân mình.</p>
-<p>Lên cầu thang, mùi hôi mốc kinh khủng choán lấy anh. Trong phòng ngủ, đám đồ gỗ trông quen thuộc như người bạn cũ. Kelly nằm trên giường với 2.0. Nhìn dáng nằm của họ, anh biết họ đã không ra đi nhẹ nhàng – Kelly xoắn chặt lấy 2.0. Da họ sưng phồng, hầu như không thể nhận ra. Và cái mùi – lạy Chúa, cái mùi khủng khiếp!</p>
+<p>Lên cầu thang, mùi hôi mốc kinh khủng choán lấy anh. Trong phòng ngủ, đám đồ gỗ trông quen thuộc như người bạn cũ.
+Kelly nằm trên giường với 2.0. Nhìn dáng nằm của họ, anh biết họ đã không ra đi nhẹ nhàng – Kelly xoắn chặt lấy 2.0. Da họ sưng phồng, hầu như không thể nhận ra. Và cái mùi – lạy Chúa, cái mùi khủng khiếp!</p>
 <p>Đầu óc Felix quay cuồng. Anh vịn vào bàn trang điểm để khỏi ngã. Một cảm xúc không thể gọi tên – giận dữ, thịnh nộ, buồn bã – làm anh tức thở, hớp lấy không khí như người sắp chết chìm.</p>
 <p>Rồi điều đó cũng qua đi. Ngày tận thế đã đến. Kelly và 2.0 đã chết. Và anh còn có việc phải làm. Anh cuộn họ vào một chiếc chăn ướt. Vân giúp anh, theo đúng cách thức. Họ ra sân trước và thay nhau đào huyệt, dùng cái xẻng làm vườn của Kelly lấy ở gara. Họ có nhiều kinh nghiệm đào huyệt, nhiều kinh nghiệm chôn người chết rồi. Họ đào, và thấy những con chó cảnh giác nhìn họ qua đám cỏ từ vườn nhà hàng xóm. Họ đuổi chúng đi, bằng cách táng cho vài hòn đá vào đầu.</p>
-<p>Khi đào xong huyệt, họ đặt vợ và con của Felix vào đó. Felix nghĩ xem nên nói gì trước mộ, nhưng cuối cùng không nghĩ ra. Anh đã đào huyệt cho quá nhiều người chồng, quá nhiều người vợ và quá nhiều trẻ em. Chẳng còn từ nào để nói nữa. Felix đào rãnh, buô bán ve chai và chôn người chết. Anh trồng trọt và thu hoạch. Anh sửa xe hơi và học cách làm dầu diezel sinh học. Cuối cùng anh dừng bước ở trung tâm dữ liệu của một chính phủ. Các chính phủ theo nhau sụp đổ, nhưng họ đủ thông minh để lưu lại các bản ghi và họ cần ai đó để giữ cho chúng chạy tốt. Vân đã theo anh.</p>
+<p>Khi đào xong huyệt, họ đặt vợ và con của Felix vào đó. Felix nghĩ xem nên nói gì trước mộ, nhưng cuối cùng không nghĩ ra. Anh đã đào huyệt cho quá nhiều người chồng, quá nhiều người vợ và quá nhiều trẻ em. Chẳng còn từ nào để nói nữa.
+Felix đào rãnh, buô bán ve chai và chôn người chết. Anh trồng trọt và thu hoạch. Anh sửa xe hơi và học cách làm dầu diezel sinh học. Cuối cùng anh dừng bước ở trung tâm dữ liệu của một chính phủ. Các chính phủ theo nhau sụp đổ, nhưng họ đủ thông minh để lưu lại các bản ghi và họ cần ai đó để giữ cho chúng chạy tốt. Vân đã theo anh.</p>
 <p>Họ chat với nhau nhiều lần và đôi khi hóa ra họ đã từng là bạn cũ từ cái thời họ còn điều hành Cộng hòa Không gian Điều khiển Phân tán, và những chuyên gia lập dị kia cứ nhất định gọi anh là Thủ tướng, dù không có ai trong thế giới thật gọi anh như vậy.</p>
 <p>Chẳng mấy khi thấy cuộc đời tươi đẹp, hầu như lúc nào cũng tệ. Những vết thương của Felix không bao giờ lành hẳn, và mọi người khác cũng thế. Chúng là những căn bệnh kinh niên dai dẳng và đôi lúc bột phát. Thảm họa nối tiếp thảm họa.</p>
 <p>Nhưng Felix thích cái trung tâm dữ liệu này. Giữa những tiếng ồn ào phát ra từ giá để máy, anh chưa bao giờ nghĩ nó sẽ mang đến một ngày mai tươi sáng hơn cho nhân loại, nhưng chắc hẳn không phải là ngày tận thế.</p>
@@ -654,7 +655,7 @@
 <p>Felix đi ra cửa và bước trong đêm tối. Sau lưng anh, chiếc máy phát điện bằng diezel sinh học gầm gừ và nhả khói cay xè. Trăng rằm đã lên cao, anh thấy thật dễ chịu. Ngày mai, anh sẽ quay lại để sửa một chiếc máy tính khác, và dọn dẹp mớ hỗn độn này một lần nữa. Sao lại không nhỉ ?</p>
 <p>Đó là việc anh vẫn làm. Anh là một sysadmin.</p>
 <p><font color="#CC2200">Llddhh</font> 20:14, 2 August 2007 (JST)</p>
-<h2 id="see-also">See Also</h2>
+<h2 id="see_also">See Also</h2>
 <ul>
 <li><a href="./Translations:When_Sysadmins_Ruled_the_Earth:en">Translations:When Sysadmins Ruled the Earth:en</a></li>
 <li><a href="./Translations:When_Sysadmins_Ruled_the_Earth:ja">Translations:When Sysadmins Ruled the Earth:ja</a></li>

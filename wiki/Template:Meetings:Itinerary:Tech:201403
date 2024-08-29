@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,13 +135,21 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="programming-money-by-edmund-edgar">Programming Money (by <font color="#CC2200">Edmund Edgar </font>)</h6>
-<p>Bitcoin is sometimes referred to as “programmable money”. It has a built-in stack-based scripting language that can be used to require multiple signatures to spend money, lock money up in escrow contracts and more. This talk will show you how transactions work, how to make them and what you can do with them.</p>
-<h6 id="lua-scripting-in-nginx-by-ariel-monaco">Lua scripting in Nginx (by <font color="#CC2200">Ariel Monaco</font>)</h6>
-<p>Lua is a very light, fast and powerful programming language. We'll cover how to build high-performance functionality embedding and running Lua scripts in the Nginx web server&quot;.</p>
+<h6 id="programming_money_by_edmund_edgar">Programming Money (by <font color="#CC2200">Edmund Edgar </font>)</h6>
+<p>Bitcoin is sometimes referred to as “programmable money”. It has a built-in
+stack-based scripting language that can be used to require multiple
+signatures to spend money, lock money up in escrow contracts and more. This
+talk will show you how transactions work, how to make them and what you can
+do with them.</p>
+<h6 id="lua_scripting_in_nginx_by_ariel_monaco">Lua scripting in Nginx (by <font color="#CC2200">Ariel Monaco</font>)</h6>
+<p>Lua is a very light, fast and powerful programming language.
+We'll cover how to build high-performance functionality embedding and
+running Lua scripts in the Nginx web server".</p>
 <h5 id="nijikai">nijikai</h5>
-<p>After the presentations we will go for drinks at Wara-Wara Hanzomon <a href="http://goo.gl/maps/MH9b3" class="uri">http://goo.gl/maps/MH9b3</a></p>
-<p>2-3-36 Koujimachi, Koujimachi Suzuki Bldg Chiyoda-ku, Tokyo tel: 03-3239-4988</p>
+<p>After the presentations we will go for drinks at Wara-Wara Hanzomon
+<a href="http://goo.gl/maps/MH9b3">http://goo.gl/maps/MH9b3</a></p>
+<p>2-3-36 Koujimachi, Koujimachi Suzuki Bldg Chiyoda-ku, Tokyo
+tel: 03-3239-4988</p>
     </div>
 
     <div id="footer">

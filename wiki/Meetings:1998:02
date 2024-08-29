@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -149,7 +141,7 @@
 <p>At the start of operations on February 14, 1998, TLUG had 24,590 yen. We incurred 4,183 yen in costs as a result of purchase and distribution of tea, juice, beer, potato chips, general snacks, and peanuts.</p>
 <p>Dontations totalling 15,405 yen were collected at the meeting. An additional 150 yen was collected at the night drinking party. Current balance is 43,372 yen.</p>
 <p>Finances as of February 15, 1998 may be reviewed by accessing the finance pages.</p>
-<h3 id="election-of-officers">Election of Officers</h3>
+<h3 id="election_of_officers">Election of Officers</h3>
 <p>The following people were elected as new TLUG officers:</p>
 <ul>
 <li>Joe Marchak</li>
@@ -158,32 +150,34 @@
 <li>Jim Schweizer</li>
 </ul>
 <p>Craig is retaining his 6 month tenure for another few months. Officers are responsible for review and approval of allocation of club funds and setting the direction of TLUG.</p>
-<h3 id="voting-on-structure-of-events">Voting on Structure of Events</h3>
+<h3 id="voting_on_structure_of_events">Voting on Structure of Events</h3>
 <p>Saturday will be a structured meeting with speakers. Suggestions for topics and speakers will be solicited from TLUG members using the mailing list.</p>
 <p>Wednesday meetings will have an agenda as follows: 1) drink, 2) eat.</p>
 <h3 id="demonstrations">Demonstrations</h3>
 <p>There were four main demonstrations.</p>
-<h4 id="human-interface-using-a-video-grabber">human interface using a video grabber</h4>
+<h4 id="human_interface_using_a_video_grabber">human interface using a video grabber</h4>
 <p>“Doc” Alberto Tomita:-) explained his research in using Linux as the image processor to detect two and three dimensional movements using a single camera and two light sources. He explained application of his research in using the system for blind people who were interacting with the computer with a braille reader. The visually impaired person can click on the mouse and call up menus with hand movements over the braille reader.</p>
-<h4 id="yudit-unicode-editor">Yudit unicode editor</h4>
+<h4 id="yudit_unicode_editor">Yudit unicode editor</h4>
 <p>Gary Sinai, the author of Yudit, gave a demonstration of multi-lingual editing. He showed the display and print output of about 5 languages on the same screen using free fonts. Printing can be done on a standard English printer.</p>
-<h4 id="turbo-linux-pro">Turbo Linux Pro</h4>
+<h4 id="turbo_linux_pro">Turbo Linux Pro</h4>
 <p>Scott Stone, of PHT, demonstrated the installation and use of Turbo Linux Pro. The DPNote Japanese editor and the commercial Wnn6 Japanese input system were of special interest.</p>
-<h4 id="tlug-cd-rom">TLUG CD-ROM</h4>
+<h4 id="tlug_cd_rom">TLUG CD-ROM</h4>
 <p>Joe Marchak, TLUG officer, used XCD Roast to create the first TLUG CD- ROM. Tim Meggs won the CD in a contest. We are still looking for lots and lots of media.</p>
-<h3 id="prizes-and-raffle">Prizes and Raffle</h3>
+<h3 id="prizes_and_raffle">Prizes and Raffle</h3>
 <p>We raffled out 3 white Red Hat t-shirts, 3 black RPM t-shirts, 3 Red Hat mouse pads, one Sparc ELC motherboard, 3 Linux Journals, and a Japanese keyboard.</p>
-<h2 id="projects-and-future-directions">Projects and Future Directions</h2>
+<h2 id="projects_and_future_directions">Projects and Future Directions</h2>
 <p>TLUG had thirty people attend the February meeting, the largest turnout ever. The mailing list now as 139 active member and the digest has 23 members. As TLUG grows in size, TLUGers are now thinking about how to contribute back to the Linux community. Most TLUGers feel that Linux has give them so much and they want to give back and have fun doing it. With the success of the group, we are now planning larger projects. We aim to make the TLUG CD-ROM the best and most popular Linux User Group CD in the world. TLUGers are also trying to publish books and journals to establish TLUG as the Linux Users Group with the best reputation in the world. Tokyo is one of the most dynamic cities in the world and TLUG will be known as the Linux Users Group in the world. It all starts with you, so volunteer to give back to the Linux community.</p>
-<h3 id="tlug-server">TLUG Server</h3>
+<h3 id="tlug_server">TLUG Server</h3>
 <p>We are still trying to get a leased line to the Internet for the TLUG server. Scott Stone is asking his company if we can drop the server on the Internet. One use of the server will be to serve as a repository for the TLUG CD-ROM distribution.</p>
-<h3 id="tlug-cd-rom-distribution">TLUG CD-ROM Distribution</h3>
+<h3 id="tlug_cd_rom_distribution">TLUG CD-ROM Distribution</h3>
 <p>This is a hot project. We plan to roast media on to CD-ROMs, much of it multi-lingual or Japanese specific and a lot of the media will be original TLUG creations. Joe Marchak is coordinating this right now, but we are looking for help. We need a FTP repository to start collecting the media.</p>
-<h3 id="tlug-library">TLUG Library</h3>
+<h3 id="tlug_library">TLUG Library</h3>
 <p>We are accepting donations for the TLUG library. We loan out books and software for testing to members after they sign it out and promise to return what they check out. Again, Joe Marchak is coordinating this, but we're looking for help.</p>
-<h3 id="the-perl-journal-japanese-edition">The Perl Journal Japanese Edition</h3>
+<h3 id="the_perl_journal_japanese_edition">The Perl Journal Japanese Edition</h3>
 <p>TLUG is going to publish a Japanese version of the Perl Journal. Joe Marchak and Ayako Kato are coordinating this project. We are open to cooperation from any group. Chris Sekiya is inquiring with the BSD group if they want to participate.</p>
-<p>The first meeting of the TLUG Perl Journal Project is scheduled for 1998 Feb 28 at 13:30. We're meeting at Omotesando kouban. <font color="#CC2200">1998:02</font> <font color="#CC2200">02</font></p>
+<p>The first meeting of the TLUG Perl Journal Project is scheduled for 1998 Feb 28 at 13:30. We're meeting at Omotesando kouban.
+<font color="#CC2200">1998:02</font>
+<font color="#CC2200">02</font></p>
     </div>
 
     <div id="footer">

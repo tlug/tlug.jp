@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -147,9 +139,9 @@
 <p><font color="red"><em>This guide is provided for informational purposes only. I in no way advocate copyright infringement. The reader is hereby warned to use this guide in a manner consistent with all applicable copyright laws.</em></font></p>
 <p>This guide demonstrates how to back up single- and dual-layer DVD media onto single-layer recordable DVD media (DVD+R and DVD-R) on Unix-like operating systems (e.g. Linux). If you run Windows, there are many point-and-click tools that should get the job done.</p>
 <p>Note that MPEG video is a fairly complex beast, and thus there are many ways of skinning it. This guide shows you a way that works for the author. Other methods exist, using other tools. If you find a way that works better for you, great.</p>
-<h2 id="tools-of-the-trade">Tools of the Trade</h2>
+<h2 id="tools_of_the_trade">Tools of the Trade</h2>
 <p>You will need to download and install the following tools. For help on this, see the <a href="./Linux_Help:QND-Guides:Finding_and_Installing_Software">Linux_Help:QND-Guides:Finding_and_Installing_Software</a> or your distribution's documentation.</p>
-<h3 id="single-layer-dvds">Single-layer DVDs</h3>
+<h3 id="single_layer_dvds">Single-layer DVDs</h3>
 <p>In order to back up single-layer DVDs, you will need the following tools:</p>
 <ul>
 <li>kernel-level support for UDF filesystems</li>
@@ -158,7 +150,7 @@
 <li><a href="http://www.mplayerhq.hu/">MPlayer</a> is not absolutely necessary, but the ability to preview before you burn is likely to save you a few coasters.</li>
 <li><a href="ftp://ftp.berlios.de/pub/cdrecord/ProDVD/">cdrecord-ProDVD</a></li>
 </ul>
-<h3 id="dual-layer-dvds">Dual-layer DVDs</h3>
+<h3 id="dual_layer_dvds">Dual-layer DVDs</h3>
 <p>Backing up dual-layer DVDs onto single-layer media is a little bit harder. In addition to mkisofs, MPlayer (not optional for dual-layer DVD backup), and cdrecord-ProDVD from the <a href="#Single-layer_DVDs" title="wikilink">#Single-layer DVDs</a> list, you will need:</p>
 <ul>
 <li><em>lsdvd</em>, from the <a href="http://www.badabum.de/streamdvd.html">StreamDVD</a> project</li>
@@ -168,7 +160,7 @@
 <li><em>dvdauthor</em>, <em>spumux</em>, and <em>spuunmux</em>, all from the <a href="http://dvdauthor.sourceforge.net/">dvdauthor</a> project</li>
 <li><em>mplex</em>, from the <a href="http://mjpeg.sourceforge.net/">MJPEG Tools</a> project</li>
 </ul>
-<h2 id="filesystem-layout">Filesystem Layout</h2>
+<h2 id="filesystem_layout">Filesystem Layout</h2>
 <p>Locate a filesystem with enough free space. You will need at least twice the size of the largest disc you plan to backup: around 10 gigabytes for single-layer DVDs and 18 gigabytes for dual-layer ones (you can probably get by with less for dual-layer discs, but don't blame me if you run into problems due to running out of space). Create a directory called scratch, and create the following subdirectories: burndvd, masterdvd, mirrordvd, ripdvd, shrinkdvd, subdvd, and xmldvd.</p>
 <p><code>mkdir scratch</code><br />
 <code>cd scratch</code><br />
@@ -176,11 +168,11 @@
 <p>For the sake of convenience, if you have root access, symlink your <em>scratch</em> directory to <em>/scratch</em>:</p>
 <p><code>ln -s scratch /scratch</code></p>
 <p>If you do not have root access, you will just have to substitute the path to your <em>scratch</em> directory for <em>/scratch</em> for the remainder of this guide.</p>
-<h2 id="single--or-dual-layer">Single- or Dual-Layer?</h2>
+<h2 id="single__or_dual_layer">Single- or Dual-Layer?</h2>
 <p>If you do not know whether your source DVD is single- or dual-layer, stick it in your DVD drive, mount it as a UDF filesystem, and run:</p>
 <p><code>df -h /mnt/dvd</code></p>
 <p>(assuming that <em>/mnt/dvd</em> is where you mounted the DVD). If <em>df</em> reports that the disc is 4.3 gigabytes (because single-layer DVDs hold 4.7 billion bytes, not 4.7 gigabytes--4.7 times 2^10 (kilobytes) times 2^10 (megabytes) times 2^10 (gigabytes)) or less, you have yourself a single-layer disc. Otherwise, it is dual-layer.</p>
-<h2 id="single-layer-dvds-1">Single-Layer DVDs</h2>
+<h2 id="single_layer_dvds_1">Single-Layer DVDs</h2>
 <p>If the DVD you are backing up is a single-layer disc, then you can make a perfect copy (minus the pesky region lock if DeCSS is legal where you live), with menus and everything. Here is how:</p>
 <ol>
 <li>Insert the DVD and mount it as a UDF filesystem</li>
@@ -205,7 +197,7 @@
 <pre><code>cdrecord-ProDVD -v dev=ATAPI:0,0,0 speed=4 -dao -eject /scratch/burndvd/${vol}.iso</code></pre>
 <p>If cdrecord-ProDVD bombs out with an error, you probably have an expired key. Search for CDR_SECURITY in the <a href="ftp://ftp.berlios.de/pub/cdrecord/ProDVD/README">cdrecord-ProDVD README</a> file and follow the steps outlined there. This guide assumes that your DVD drive is capable of being used as an ATAPI device, and that it is the first ATAPI device on the bus. If this is not the case, you will have to refer to either the <em>cdrecord</em> man page or some other documentation, such as <a href="http://wiki.linuxquestions.org/wiki/Burning_a_CDROM_from_an_ISO_file">this entry in the LinuxQuestions.org Linux Wiki</a>. You can also use a GUI recording suite, such as a DVD-enabled version of <a href="http://www.k3b.org/">K3b</a> or <a href="http://www.xcdroast.org/">X-CD-Roast</a>.</p></li>
 </ol>
-<h2 id="dual-layer-dvds-1">Dual-Layer DVDs</h2>
+<h2 id="dual_layer_dvds_1">Dual-Layer DVDs</h2>
 <p>If the DVD you are backing up is a dual-layer disc, and your drive only supports single-layer media (or you do not want to pony up the cash for the more expensive dual-layer media), you will have to use a more intricate method. (If you are backing up a dual-layer DVD onto dual-layer media, you should be able to use the <a href="#Single-Layer_DVDs" title="wikilink">single-layer backup method</a> without problems.)</p>
 <ol>
 <li>Insert the source DVD into your DVD drive. No need to mount it.</li>

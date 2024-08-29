@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,13 +134,13 @@
 
     <div class="content">
       <p>from <a href="http://www.tlug.jp/meetings/1995/95jul.html">1</a>,<a href="http://lists.tlug.jp/ML/9507/msg00029.html">2</a></p>
-<h2 id="what-happened-on-23rd-july">What happened on 23rd July</h2>
-<h2 id="food-place">Food Place</h2>
+<h2 id="what_happened_on_23rd_july">What happened on 23rd July</h2>
+<h2 id="food_place">Food Place</h2>
 <p>Suzuyoshi</p>
 <p>Yes, once again, Chinese food and Linux!</p>
-<h2 id="meeting-place">Meeting Place</h2>
+<h2 id="meeting_place">Meeting Place</h2>
 <p>Linux heaven! The CTI head offices with Linux machines coming out of the walls.</p>
-<h2 id="crazed-members-present">Crazed Members Present</h2>
+<h2 id="crazed_members_present">Crazed Members Present</h2>
 <ul>
 <li><font color="#CC2200">Nori Nishigaya</font> anishi@cyber.ad.jp,</li>
 <li><font color="#CC2200">Craig Oda</font> craig@twics.com,</li>
@@ -156,12 +148,14 @@
 <li><font color="#CC2200">Jim Tittsler</font> jwt@shrine.cyber.ad.jp,</li>
 <li><font color="#CC2200">Steven Myers</font> myers@gol.com</li>
 </ul>
-<h2 id="summary-of-events">Summary of events</h2>
+<h2 id="summary_of_events">Summary of events</h2>
 <p>Nori showed us a demonstration of mSQL and Msqlperl that interfaced with the World Wide Web.</p>
 <p>We tried to compile the Tk module of TkPerl, but were unable to. Jim promised to go home and try to get it up.</p>
 <p>Steve Myers took some pictures of the club for an upcoming issue of Computing Japan.</p>
 <p>Jim showed us a Packet Radio Users Group BBS that was running on Linux. Jim explained how a port of the BBS software was done from DOS to Linux in order to overcome the memory limitations of DOS.</p>
-<p>Craig demoed xfm1.3.2 with drag and drop capabilities and a simple Motif demo. <font color="#CC2200">1995:07</font> <font color="#CC2200">07</font></p>
+<p>Craig demoed xfm1.3.2 with drag and drop capabilities and a simple Motif demo.
+<font color="#CC2200">1995:07</font>
+<font color="#CC2200">07</font></p>
     </div>
 
     <div id="footer">

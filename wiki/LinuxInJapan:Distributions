@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p>Distributions in Japan. This page English translation of Linux.or.jp's distribution information.</p>
-<h2 id="rpm-family">RPM Family</h2>
+<h2 id="rpm_family">RPM Family</h2>
 <ul>
 <li><a href="http://www.kondara.org/">Kondara MNU/Linux</a><br />
 Kondara MNU/Linux is RPM based Linux distribution. Basic installation enables both Japanese and English environments.</li>
@@ -190,15 +182,15 @@ Turbolinux Japanese Edition is a commercial distribution from <a href="http://ww
 <li><a href="http://www.vinelinux.org/">Vine Linux</a><br />
 Vine Linux is a distribution to supply Japanese environment. The basic installation installs enables Japanese environment.</li>
 </ul>
-<h2 id="tgz-family">TGZ Family</h2>
+<h2 id="tgz_family">TGZ Family</h2>
 <ul>
 <li><a href="http://www.linet.gr.jp/~kojima/Plamo/">Plamo Linux</a><br />
 Plamo Linux is based on <a href="http://www.slackware.org/">Slackware</a>, with Japanese installer and document database. They have the Namazu-backed search facility of Japanese documentations.</li>
 </ul>
 <ul>
-<li><a href="http://www.slackware.org/">Slackware</a> Slackware is a classic distribution. They also have [<a href="http://www.egroups.co.jp/group/slackware-pkg" class="uri">http://www.egroups.co.jp/group/slackware-pkg</a>&quot;&gt;Mail Magazine of Package Updates</A> in Japanese.</li>
+<li><a href="http://www.slackware.org/">Slackware</a> Slackware is a classic distribution. They also have [<a href="http://www.egroups.co.jp/group/slackware-pkg">http://www.egroups.co.jp/group/slackware-pkg</a>"&gt;Mail Magazine of Package Updates</A> in Japanese.</li>
 </ul>
-<h2 id="deb-family">DEB Family</h2>
+<h2 id="deb_family">DEB Family</h2>
 <ul>
 <li><a href="http://www.debian.org/">Debian GNU/Linux</a><br />
 <a href="http://www.jp.debian.org/intro/about#what">Debian</a> (でびあん) GNU/Linux offers very <a href="http://www.jp.debian.org/devel/help">open development environment</a> and is very competent with commercial distributors. They define <a href="http://www.jp.debian.org/intro/free">free software</a> as Debian Free Software Guideline (<a href="http://www.jp.debian.org/social_contract#guidelines">DFSG</a>) and is well known for the inspection of software licenses.</li>

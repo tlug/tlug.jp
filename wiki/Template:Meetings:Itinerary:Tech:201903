@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,9 +135,18 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations:</h5>
-<p><em>Dimension reduction, and word embeddings, in Natural Language Processing</em> - by Darren Cook</p>
-<p>Darren will talk about dimension reduction, and word embeddings in particular: the technology underlying a lot of the recent advances in natural language processing. He will show the same example in both English and Japanese, so you can get a good feel for what bits are common between languages, and what still needs language-specific processing.</p>
-<p>Darren Cook is a data scientist, and director at QQ Trend Ltd. He is author of two O'Reilly books, one on low-latency streaming to the browser, one on the H2O machine learning system. Currently based in the U.K., after nearly 20 years in Japan. A TLUG member since forever, but only gets to a meeting once every five years or so...</p>
+<p><em>Dimension reduction, and word embeddings, in Natural Language
+Processing</em> - by Darren Cook</p>
+<p>Darren will talk about dimension reduction, and word embeddings in
+particular: the technology underlying a lot of the recent advances in
+natural language processing. He will show the same example in both
+English and Japanese, so you can get a good feel for what bits are
+common between languages, and what still needs language-specific processing.</p>
+<p>Darren Cook is a data scientist, and director at QQ Trend Ltd. He is
+author of two O'Reilly books, one on low-latency streaming to the
+browser, one on the H2O machine learning system. Currently based in the
+U.K., after nearly 20 years in Japan. A TLUG member since forever, but
+only gets to a meeting once every five years or so...</p>
     </div>
 
     <div id="footer">

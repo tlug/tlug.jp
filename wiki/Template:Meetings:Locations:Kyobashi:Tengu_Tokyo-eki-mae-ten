@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -145,7 +137,13 @@
 EchiZenYa Bld. B1/B2<br />
 Chuo-ku, Kyobashi 1-1-6,<br />
 Phone: 03-3275-3691<br />
-Tengu is about 5 minutes away from the Yaesu Chuo exit of the JR Tokyo train station. It is on the right hand side of Yaesu Dori if you are walking out of the station. <font color="#CC2200">Tengu Tokyo-eki-mae-ten</font> <font color="#CC2200">Kyobashi:Tengu Tokyo-eki-mae-ten</font> <font color="#CC2200">Locations:Kyobashi:Tengu Tokyo-eki-mae-ten</font> <font color="#CC2200">Meetings:Locations:Kyobashi:Tengu Tokyo-eki-mae-ten</font></p>
+Tengu is about 5 minutes away from the Yaesu Chuo exit of the JR Tokyo
+train station. It is on the right hand side of Yaesu Dori if you are
+walking out of the station.
+<font color="#CC2200">Tengu Tokyo-eki-mae-ten</font>
+<font color="#CC2200">Kyobashi:Tengu Tokyo-eki-mae-ten</font>
+<font color="#CC2200">Locations:Kyobashi:Tengu Tokyo-eki-mae-ten</font>
+<font color="#CC2200">Meetings:Locations:Kyobashi:Tengu Tokyo-eki-mae-ten</font></p>
     </div>
 
     <div id="footer">

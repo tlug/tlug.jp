@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,22 +135,23 @@
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <p>We will be running an Open Space style meeting[1]. Our theme for this gathering is The Tokyo Linux User Group, where we have been and where we are going this year.</p>
-<p>1. <a href="http://www.openspaceworld.com/users_guide.htm" class="uri">http://www.openspaceworld.com/users_guide.htm</a></p>
+<p>1. <a href="http://www.openspaceworld.com/users_guide.htm">http://www.openspaceworld.com/users_guide.htm</a></p>
 <h4 id="opening">&lt;&lt; OPENING &gt;&gt;</h4>
 <ol>
 <li>Introduction of new members</li>
 </ol>
-<h4 id="agenda-setting">&lt;&lt; AGENDA SETTING &gt;&gt;</h4>
-<h4 id="open-space">&lt;&lt; OPEN SPACE &gt;&gt;</h4>
+<h4 id="agenda_setting">&lt;&lt; AGENDA SETTING &gt;&gt;</h4>
+<h4 id="open_space">&lt;&lt; OPEN SPACE &gt;&gt;</h4>
 <h4 id="announcements">&lt;&lt; ANNOUNCEMENTS &gt;&gt;</h4>
 <ol>
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 <li>Elections for Position of Vice President</li>
 </ol>
-<h4 id="open-space-1">&lt;&lt; OPEN SPACE &gt;&gt;</h4>
+<h4 id="open_space_1">&lt;&lt; OPEN SPACE &gt;&gt;</h4>
 <h4 id="closing">&lt;&lt; CLOSING &gt;&gt;</h4>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

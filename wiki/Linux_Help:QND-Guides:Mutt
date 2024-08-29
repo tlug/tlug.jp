@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,13 +134,16 @@
 
     <div class="content">
       <h2 id="introduction">Introduction</h2>
-<p>If all that you need is a basic mail reader, the basic mutt setup is quite simple. Mutt follows the old Unix axiom, do one thing and do it well. Although later versions do have some limited pop and smtp functions, in general, mutt is only for reading news and mail, leaving it to other programs to actually get and deliver your mail. For example I use <a href="./Linux_Help:QND-Guides:Getmail">Getmail</a> to fetch my mail.</p>
-<h2 id="basic-setup">Basic Setup</h2>
-<p>For this basic setup, we will assume your user name is john and your ISP is called example.com Open up your favorite text editor and make a .muttrc file (note the dot before it).</p>
+<p>If all that you need is a basic mail reader, the basic mutt setup is quite simple.
+Mutt follows the old Unix axiom, do one thing and do it well. Although later versions do have some limited pop and smtp functions, in general, mutt is only for reading news and mail, leaving it to other programs to actually get and deliver your mail. For example I use <a href="./Linux_Help:QND-Guides:Getmail">Getmail</a> to fetch my mail.</p>
+<h2 id="basic_setup">Basic Setup</h2>
+<p>For this basic setup, we will assume your user name is john and your ISP is called example.com
+Open up your favorite text editor and make a .muttrc file (note the dot before it).</p>
 <pre><code>folder-hook . &quot;my_hdr From: John &lt;john@example.com&gt;&quot;</code></pre>
 <p>The example given is the absolute minimum for a .muttrc. There are often examples, and the references given below go into much greater detail.</p>
 <p>Most distributions have a system wide /etc/Muttrc file. It's always good to take a look at that file to see what is there. (On some distros it's in /etc/Mutt/muttrc or something similar, but you should be able to find it.</p>
-<p>Note that you don't have to have sendmail, postfix or whatever your MTA is running as a daemon to use mutt. Mutt will call it when necessary. (Actually, in my experience, postfix can be iffy--sometimes it will work if postfix isn't started and other times it won't. I've also found that in FreeBSD, this doesn't seem to be the case. If sendmail isn't started, the messages will be queued but not sent. However, if you're using ssmtp as a sendmail replacement, done by typing make replace in /usr/ports/mail/ssmtp, you don't have to call it before sending mail). To actually send mail, however, you will have to have an smtp client that is able to send mail for your machine, whether it be sendmail, postfix or one of the other smtp programs.</p>
+<p>Note that you don't have to have sendmail, postfix or whatever your MTA is running as a daemon to use mutt. Mutt will call it when necessary.
+(Actually, in my experience, postfix can be iffy--sometimes it will work if postfix isn't started and other times it won't. I've also found that in FreeBSD, this doesn't seem to be the case. If sendmail isn't started, the messages will be queued but not sent. However, if you're using ssmtp as a sendmail replacement, done by typing make replace in /usr/ports/mail/ssmtp, you don't have to call it before sending mail). To actually send mail, however, you will have to have an smtp client that is able to send mail for your machine, whether it be sendmail, postfix or one of the other smtp programs.</p>
 <h2 id="aliases">Aliases</h2>
 <p>The aliases file is comparable to an address book. As this is the QND guide, we're only covering how to add an address of someone sending you mail.</p>
 <p>Open up your .muttrc file and add these two lines.</p>
@@ -156,8 +151,10 @@
 source ~/.mutt_aliases</code></pre>
 <p>This tells mutt where to look for your aliases. This will serve as an address book. Now we create our .mutt_aliases file.</p>
 <pre><code>touch .mutt_aliases</code></pre>
-<p>Now, if you receive mail from someone and want to add them to your aliases, while on their email hit the a key. Mutt will begin a dialog. It's usually safe to accept the defaults save for the last question, which is something like save to /.mutt_aliases? For that question, change it to ~/.mutt_aliases. If, however, it says save it to /home/john/.mutt_aliases then it's safe to accept it.</p>
-<p>This should enable you to get mutt up and running. Mutt is a very powerful and configurable client and there countless other options. For further reading you can start with a more detailed <a href="http://home.nyc.rr.com/computertaijutsu/mutt.html">page of mine</a> and, of course, the mutt manual which should probably be on your machine in /usr/share/doc/mutt[version number]. It's also available on line <a href="http://dev.mutt.org/doc/manual.html">here</a>. <font color="#CC2200">Mutt</font></p>
+<p>Now, if you receive mail from someone and want to add them to your aliases, while on their email hit the a key. Mutt will begin a dialog. It's usually safe to accept the defaults save for the last question, which is something like save to /.mutt_aliases?
+For that question, change it to ~/.mutt_aliases. If, however, it says save it to /home/john/.mutt_aliases then it's safe to accept it.</p>
+<p>This should enable you to get mutt up and running. Mutt is a very powerful and configurable client and there countless other options. For further reading you can start with a more detailed <a href="http://home.nyc.rr.com/computertaijutsu/mutt.html">page of mine</a> and, of course, the mutt manual which should probably be on your machine in /usr/share/doc/mutt[version number]. It's also available on line <a href="http://dev.mutt.org/doc/manual.html">here</a>.
+<font color="#CC2200">Mutt</font></p>
     </div>
 
     <div id="footer">

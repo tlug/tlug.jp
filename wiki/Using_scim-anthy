@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,31 +133,31 @@
     </div>
 
     <div class="content">
-      <h2 id="the-super-quick-version">The Super Quick Version</h2>
-<p>This will work in most versions of Linux. This quick guide is aimed towards a Linux using beginner who boots into X. <a href="#FreeBSD" class="uri" title="wikilink">#FreeBSD</a> and <a href="#NetBSD" class="uri" title="wikilink">#NetBSD</a> have their own sections, each beginning with a quickstart guide. (Actually, the quickstart guide for NetBSD uses uim rather than scim, but at present, I don't think it really merits a separate page.)</p>
+      <h2 id="the_super_quick_version">The Super Quick Version</h2>
+<p>This will work in most versions of Linux. This quick guide is aimed towards a Linux using beginner who boots into X. <a href="#FreeBSD" title="wikilink">#FreeBSD</a> and <a href="#NetBSD" title="wikilink">#NetBSD</a> have their own sections, each beginning with a quickstart guide. (Actually, the quickstart guide for NetBSD uses uim rather than scim, but at present, I don't think it really merits a separate page.)</p>
 <ul>
-<li>If your system has a package for scim-anthy, and has a package manager that tracks dependencies, install scim-anthy which will pull in scim and anthy. If you have to install from source, install anthy first, then scim, then scim-anthy (See <a href="#Installation" class="uri" title="wikilink">#Installation</a>)</li>
+<li>If your system has a package for scim-anthy, and has a package manager that tracks dependencies, install scim-anthy which will pull in scim and anthy. If you have to install from source, install anthy first, then scim, then scim-anthy (See <a href="#Installation" title="wikilink">#Installation</a>)</li>
 </ul>
 <ul>
 <li>Add to your .bash_profile</li>
 </ul>
 <p><code>export XMODIFIERS='@im=SCIM'</code><br />
 <code>export LC_CTYPE=ja_JP.utf8  </code><br />
-<code>export GTK_IM_MODULE=</code>“<code>scim</code>”<br />
-<code>export QT_IM_MODULE=</code>“<code>scim</code>”<br />
+<code>export GTK_IM_MODULE=“scim”</code><br />
+<code>export QT_IM_MODULE=“scim”</code><br />
 <code>scim -d</code></p>
-<p>(See <a href="#Environment" class="uri" title="wikilink">#Environment</a>, <a href="#Locale" class="uri" title="wikilink">#Locale</a> and <a href="#Starting_Scim" title="wikilink">#Starting Scim</a>)</p>
+<p>(See <a href="#Environment" title="wikilink">#Environment</a>, <a href="#Locale" title="wikilink">#Locale</a> and <a href="#Starting_Scim" title="wikilink">#Starting Scim</a>)</p>
 <ul>
-<li>Make sure you have Japanese fonts (See <a href="#Fonts" class="uri" title="wikilink">#Fonts</a>)</li>
+<li>Make sure you have Japanese fonts (See <a href="#Fonts" title="wikilink">#Fonts</a>)</li>
 </ul>
 <ul>
-<li>Make sure you have a ja_JP UTF-8 locale (See <a href="#Locale" class="uri" title="wikilink">#Locale</a>)</li>
+<li>Make sure you have a ja_JP UTF-8 locale (See <a href="#Locale" title="wikilink">#Locale</a>)</li>
 </ul>
 <p><code>locale -a |grep ja_JP </code></p>
 <ul>
 <li>If you will be using Japanese in a terminal as well as, say firefox, make sure you have a UTF-8 capable</li>
 </ul>
-<p>terminal. (See <a href="#Terminals" class="uri" title="wikilink">#Terminals</a>)</p>
+<p>terminal. (See <a href="#Terminals" title="wikilink">#Terminals</a>)</p>
 <ul>
 <li>Log out and log back in</li>
 <li>Start scim with Ctrl+space</li>
@@ -176,8 +168,9 @@
 <li>Hit enter</li>
 <li>When done inputting Japanese, hit Ctl+space again to turn it off.</li>
 </ul>
-<p>If you boot into console mode rather than boot into an Xsession, add the export and scim -d lines to your .xinitrc rather than your bash profile. Add them above the line that calls the window manager.</p>
-<h2 id="would-you-explain-that-please-it-didnt-work">Would you explain that please? It didn't work</h2>
+<p>If you boot into console mode rather than boot into an Xsession, add the export and scim -d lines to your
+.xinitrc rather than your bash profile. Add them above the line that calls the window manager.</p>
+<h2 id="would_you_explain_that_please_it_didnt_work">Would you explain that please? It didn't work</h2>
 <p>Ok, the <strong>much</strong> longer version.</p>
 <h2 id="installation">Installation</h2>
 <p>Japanese in Linux and other Unix like systems, becomes easier all the time. Most of this howto will focus on using the <a href="http://sourceforge.net/project/showfiles.php?group_id=108454/">scim</a> editor, <a href="http://sourceforge.jp/projects/anthy/">anthy</a> conversion method and <a href="http://sourceforge.jp/projects/scim-imengine/">scim-anthy</a> input engine. Note that this howto will only refer to inputting Japanese in X, not the console.</p>
@@ -205,8 +198,8 @@
 <p>In the quick start, I say that one should add the variables to their .bash_profile. This way, they're set whenever you log into the system. If you use Ubuntu, Fedora, PCLINUXOS or any of the more popular newcomer friendly distros, they boot up into a graphical environment. However, if you're using Slackware, ArchLinux or Gentoo, you often choose to boot into a console. If you boot into text mode, then you don't necessary need these variables set till you start X. In that case, you might simply put these settings into your .xinitrc. Put it in before the line that calls your window manager, for example</p>
 <p><code>export XMODIFIERS='@im=SCIM'</code><br />
 <code>export LC_CTYPE=ja_JP.utf8</code><br />
-<code>export GTK_IM_MODULE=</code>“<code>scim</code>”<br />
-<code>export QT_IM_MODULE=</code>“<code>scim</code>”<br />
+<code>export GTK_IM_MODULE=“scim”</code><br />
+<code>export QT_IM_MODULE=“scim”</code><br />
 <code>scim -d</code><br />
 <code>exec fluxbox</code></p>
 <h2 id="locale">Locale</h2>
@@ -215,19 +208,21 @@
 <p>With Debian, at one point (I haven't used it for awhile, this may no longer be the case) you had to first install and configure locales.</p>
 <p><code>apt-get install locales</code><br />
 <code>dpkg-reconfigure locales</code></p>
-<p>(This might be what Ubuntu does when you choose to add Japanese support from their System, Administration, Language Support menu, as well as add <a href="#Fonts" class="uri" title="wikilink">#Fonts</a>. It's possible that rather than installing everything Ubuntu thinks you'll need for Japanese support, just doing the above would suffice.)</p>
+<p>(This might be what Ubuntu does when you choose to add Japanese support from their System, Administration, Language Support menu, as well as add <a href="#Fonts" title="wikilink">#Fonts</a>. It's possible that rather than installing everything Ubuntu thinks you'll need for Japanese support, just doing the above would suffice.)</p>
 <p>Although most distributions use ja_JP.utf8 one should always check this</p>
 <p><code>locale | grep ja_JP</code></p>
 <p>Sometimes, you might get an answer like ja_JP.utf-8 or ja_JP.UTF8. This is case sensitive so set your LC_CTYPE according to the result. Otherwise, you'll get an error message like locale not supported by environment. (Depending upon the application, you might not see that message, but if for example, you open one terminal from another terminal, you will see it.)</p>
-<h2 id="starting-scim">Starting Scim</h2>
-<p>In the quick start, scim is started as soon as you log in. It doesn't seem to use too many resources, so this won't really hurt anything. It can be done that way, although if you boot into text mode, you might, as shown above, put it in .xinitrc rather than your .bash_profile. However, if you only use it on rare occasions, you eliminate that line in your startup file (whether it be .bash_profile or .xinitrc) and just call it when needed. Open a terminal window and type</p>
+<h2 id="starting_scim">Starting Scim</h2>
+<p>In the quick start, scim is started as soon as you log in. It doesn't seem to use too many resources, so this won't really hurt anything. It can be done that way, although if you boot into text mode, you might, as shown above, put it in .xinitrc rather than your
+.bash_profile. However, if you only use it on rare occasions, you eliminate that line in your startup file (whether it be .bash_profile or .xinitrc) and just call it when needed. Open a terminal window and type</p>
 <p><code>scim -d</code></p>
 <p>Once scim starts, you can then use it in your applications. (It might not work in the terminal that you used to start it, however. Also, if you already have, for example, firefox running, you might have to restart firefox to get scim to work with it.</p>
 <h2 id="fonts">Fonts</h2>
 <p>Many distributions include Japanese fonts by default. However, if they don't, you'll have to install them. With Ubuntu, fonts are installed if you choose to add Japanese support. With RedHat and its offshoots, one can search for Japanese fonts with</p>
 <p><code>yum search fonts-ja</code></p>
 <p>At different times, I've had different results. For instance, CentOS offered ttfonts-ja, Fedora offered something like fonts-japanese.noarch. Regardless, the search for fonts-ja usually gave me results. In ArchLinux one adds ttf-arphic-uming and ttf-arphic-ukai with pacman.</p>
-<p>One can always donwnload the substitute kochi fonts from <a href="http://download.sourceforge.jp/efont/5411/">sourceforge.jp</a>. Get the package kochi-substitute-20030809.tar.bz2. Decompress and untar it, and it will create a kochi-substitute-20030809 directory. In the directory you'll see two files with a ttf ending, the kochi-gothic and kochi-mincho substitute fonts. Move them into one of the directories that your distribution searches for fonts--as mentioned above, you can grep FontPath in /etc/X11/xorg.conf.</p>
+<p>One can always donwnload the substitute kochi fonts from
+<a href="http://download.sourceforge.jp/efont/5411/">sourceforge.jp</a>. Get the package kochi-substitute-20030809.tar.bz2. Decompress and untar it, and it will create a kochi-substitute-20030809 directory. In the directory you'll see two files with a ttf ending, the kochi-gothic and kochi-mincho substitute fonts. Move them into one of the directories that your distribution searches for fonts--as mentioned above, you can grep FontPath in /etc/X11/xorg.conf.</p>
 <p>For the beginner, you decompress and untar it with</p>
 <p><code>tar jxvf kochi-substitute-20030809.tar.bz2</code></p>
 <p>Most font directories (a popular location on many distros is /usr/X11R6/lib/X11/fonts) will already have a truetype, TrueType or TTF directory. Move the fonts into one of those (after making sure that directory is listed in your xorg.conf's FontPaths.)</p>
@@ -246,7 +241,7 @@
 <code>ln -s vim vi</code></p>
 <p>Make sure vim is in /usr/bin first by typing the command</p>
 <p><code>which vim</code></p>
-<h2 id="using-scim">Using scim</h2>
+<h2 id="using_scim">Using scim</h2>
 <p>To switch to Japanese conversion, hit Ctrl+space. You should see a small widget appear in the lower right hand corner of your screen. If you type in romaji, for example shi, you should then see the hiragana for shi. Hitting the space bar will bring up a list of kanji--you can navigate the kanji with the arrow keys. Hitting space again will select the kanji that you've chosen.</p>
 <p>In a few recent Fedora 7 installations, Ctl+space didn't work. Generally, when scim-anthy is installed, a $HOME/.scim/config file is created, with various defaults, includng that of using Ctl+space to open and close the input widget. In these Fedora installs, that line was blank. The scim-anthy application itself was working without problem, as long as I clicked on the icon it placed in the upper right of the Gnome screen when I started scim.</p>
 <p>In this case, I was able to fix it by opening my $HOME/.scim/config file and adding the line</p>
@@ -254,7 +249,7 @@
 <p>to it. (Note that you can use other key combinations if you prefer--I find that Ctrl+space is convenient for me, and these Fedora installs aside, it is the default.)</p>
 <p>If you are in an application that will not support scim, for example a standard xterm, then when you hit Ctl+space you won't see anything. If you see kana, but only see squares when you hit the space bar to bring up kanji, it means (and this is in the scim FAQ) that scim can't find the fonts. Check your font paths in xorg.conf with</p>
 <p><code>grep FontPath /etc/X11/xorg.conf</code></p>
-<p>and make sure that some Japanese fonts are there. (See <a href="#Fonts" class="uri" title="wikilink">#Fonts</a>)</p>
+<p>and make sure that some Japanese fonts are there. (See <a href="#Fonts" title="wikilink">#Fonts</a>)</p>
 <h2 id="freebsd">FreeBSD</h2>
 <p>Once again, the quick start.</p>
 <ul>
@@ -268,14 +263,15 @@
 <p><code>cd /usr/ports/japanese/kochi-ttfonts</code><br />
 <code>make install clean</code></p>
 <ul>
-<li>If you boot up into graphical mode, add the following to your shell's profile (The syntax here is for Bourne style shells, sh, bash, zsh and ksh.) If booting up into text mode, then add the lines to your .xinitrc above the line which calls your window manager as explained above in <a href="#Environment" class="uri" title="wikilink">#Environment</a> <a href="#Locale" class="uri" title="wikilink">#Locale</a> and <a href="#Starting_Scim" title="wikilink">#Starting Scim</a></li>
+<li>If you boot up into graphical mode, add the following to your shell's profile (The syntax here is for Bourne style shells, sh, bash, zsh and ksh.) If booting up into text mode, then add the lines to your .xinitrc above the line which calls your window manager as explained above in <a href="#Environment" title="wikilink">#Environment</a> <a href="#Locale" title="wikilink">#Locale</a> and <a href="#Starting_Scim" title="wikilink">#Starting Scim</a></li>
 </ul>
 <p><code>export XMODIFIERS='@im=SCIM'</code><br />
 <code>export LC_CTYPE=ja_JP.UTF-8</code><br />
-<code>export GTK_IM_MODULE=</code>“<code>scim</code>”<br />
-<code>export QT_IM_MODULE=</code>“<code>scim</code>”<br />
+<code>export GTK_IM_MODULE=“scim”</code><br />
+<code>export QT_IM_MODULE=“scim”</code><br />
 <code>scim -d</code></p>
-<p>The rest is the same as <a href="#The_Super_Quick_Version" title="wikilink">#The Super Quick Version</a> for Linux. The only real difference here is that while most versions of Linux use ja_JP.utf8, FreeBSD uses ja_JP.UTF-8. As previously mentioned, when setting LC_CTYPE, case is important.</p>
+<p>The rest is the same as <a href="#The_Super_Quick_Version" title="wikilink">#The Super Quick Version</a> for Linux.
+The only real difference here is that while most versions of Linux use ja_JP.utf8, FreeBSD uses ja_JP.UTF-8. As previously mentioned, when setting LC_CTYPE, case is important.</p>
 <h2 id="netbsd">NetBSD</h2>
 <p>The quickstart version of NetBSD doesn't use scim-anthy, however, as mentioned at the very beginning of this article, I didn't feel it was worth giving it a separate page. The basic concepts are relatively similar.</p>
 <p>NetBSD's pkgsrc doesn't yet have scim-anthy. It does, however, have anthy and uim, another popular input method.</p>
@@ -285,7 +281,7 @@
 <p><code>cd /usr/pkgsrc/inputmethod/anthy</code><br />
 <code>make install clean; make clean-depends</code><br />
 <code>cd /usr/pkgsrc/inputmethod/uim</code><br />
-<code>make PKG.OPTIONS.uim=&quot;-canna' install clean; make clean-depends</code></p>
+<code>make PKG.OPTIONS.uim="-canna' install clean; make clean-depends</code></p>
 <ul>
 <li>Install fonts</li>
 </ul>

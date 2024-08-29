@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,17 +134,20 @@
 
     <div class="content">
       <figure>
-<img src="/images/Tim.jpg" title="/images/Tim.jpg" alt="/images/Tim.jpg" /><figcaption>/images/Tim.jpg</figcaption>
+<img src="/images/Tim.jpg" title="/images/Tim.jpg" />
+<figcaption>/images/Tim.jpg</figcaption>
 </figure>
 <h2 id="general">General</h2>
 <p>First started using computers back around '81, on Apple II Plus', with Apple DOS, assembly, <a href="http://en.wikipedia.org/wiki/Logo_%28programming_language%29">Logo</a> and of course <a href="http://en.wikipedia.org/wiki/Applesoft_BASIC">Applesoft BASIC</a>! University years meant moving on to Pascal and C, before revisiting assembler again a few years later.</p>
 <p>Over the years have used many different systems including early DEC <a href="http://en.wikipedia.org/wiki/Programmed_Data_Processor">PDP</a>, Gould and <a href="http://en.wikipedia.org/wiki/Honeywell">Honeywell</a> DPS-6 systems. Not to mention all manner of industrial systems, TDC 3000, SCAN 3000, IPC 620, MA500, MX200, EST555Z.</p>
 <figure>
-<img src="/images/TDCS3000LCN.jpg" title="TDC 3000" alt="TDC 3000" /><figcaption>TDC 3000</figcaption>
+<img src="/images/TDCS3000LCN.jpg" title="TDC 3000" />
+<figcaption>TDC 3000</figcaption>
 </figure>
 <p>Started using Linux (circa 1996) with RedHat on an old SPARCstation (SLC to be precise) and have mostly stayed with the RedHat related distros since. These days (continuing in that vein) I tend to use CentOS, but on x86 hardware. Have been known to dabble with Debian and NetBSD too.</p>
 <p>Still have a decent SPARC collection at home, but rarely have time to tinker.</p>
-<p>Even tho' I use Linux for various tasks, my main desktop at home has always been a Mac (at least they are UNIX based now). My first Mac being a <a href="http://en.wikipedia.org/wiki/Macintosh_512K">Mac 512K</a>, aka 'Fat Mac'.</p>
+<p>Even tho' I use Linux for various tasks, my main desktop at home has always been a Mac (at least they are UNIX based now).
+My first Mac being a <a href="http://en.wikipedia.org/wiki/Macintosh_512K">Mac 512K</a>, aka 'Fat Mac'.</p>
 <h2 id="tlug">TLUG</h2>
 <ul>
 <li>TLUG member since March, 1997</li>

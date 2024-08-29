@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,8 +136,13 @@
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations:</h5>
 <p><strong>dot-home for version-control of a users environment configuration</strong> - Curt Sampson</p>
-<p>dot-home[1] lets you have version-controlled user environment configuration easily distributed amongst many different machines, with the ability to make changes anywhere and get them out to the other machines. It also lets you partition your configuration so that personal configuration doesn't end up on work machines and vice versa, yet common configuration is shared.</p>
-<p>1. <a href="https://github.com/dot-home/_dot-home" class="uri">https://github.com/dot-home/_dot-home</a></p>
+<p>dot-home[1] lets you have version-controlled user environment
+configuration easily distributed amongst many different machines, with
+the ability to make changes anywhere and get them out to the other
+machines. It also lets you partition your configuration so that
+personal configuration doesn't end up on work machines and vice versa,
+yet common configuration is shared.</p>
+<p>1. <a href="https://github.com/dot-home/_dot-home">https://github.com/dot-home/_dot-home</a></p>
     </div>
 
     <div id="footer">

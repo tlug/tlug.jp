@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -155,11 +147,11 @@
 </ul>
 <ul>
 <li>“I feel towards Fedora like an unloved family member--I don't like it, but I feel obliged to defend it.” --Scott Robbins (private email)</li>
-<li>&quot;Well, that sounds like it removes much of the utility from PayPal in this country when you can just do a normal furikomi within the country, and sending money overseas requires wading through an unceasing ocean of incompetence. <a href="http://lists.tlug.jp/ML/1006/msg00097.html">--Michael Bitker</a></li>
+<li>"Well, that sounds like it removes much of the utility from PayPal in this country when you can just do a normal furikomi within the country, and sending money overseas requires wading through an unceasing ocean of incompetence. <a href="http://lists.tlug.jp/ML/1006/msg00097.html">--Michael Bitker</a></li>
 </ul>
 <p><code>  On 06/07/2010 05:24 PM, Stephen J. Turnbull wrote:</code><br />
-<code>  &gt;But exactly what does </code>“<code>Microsoft</code><code> </code><code>Product</code><code> </code><code>Activation</code>”<code> do, then?</code><br />
-<code>  </code>“<code>Irritate</code><code> </code><code>the</code><code> </code><code>honest</code><code> </code><code>and</code><code> </code><code>humor</code><code> </code><code>the</code><code> </code><code>dishonest</code><code> </code><code>;)</code>”<code> </code><a href="http://lists.tlug.jp/ML/1006/msg00082.html"><code>--Edward</code><code> </code><code>Middleton</code></a></p>
+<code>  &gt;But exactly what does “Microsoft Product Activation” do, then?</code><br />
+<code>  “Irritate the honest and humor the dishonest ;)” </code><a href="http://lists.tlug.jp/ML/1006/msg00082.html"><code>--Edward Middleton</code></a></p>
     </div>
 
     <div id="footer">

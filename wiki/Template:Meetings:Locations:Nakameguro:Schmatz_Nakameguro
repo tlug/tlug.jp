@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,7 +136,13 @@
       <p><strong>Schmatz Nakameguro</strong><br />
 1 Chome-22-4 Kamimeguro,<br />
 Meguro City, Tokyo, 〒153-0051<br />
-tel: 03-6412-8770</br> [ <a href="https://www.schmatz.jp/locations/schmatz-nakameguro">web site (Japanese)</a> ] [ <a href="https://goo.gl/maps/N7cTxT18PEc4LNTPA">Google Maps</a> ] <font color="#CC2200">Schmatz Nakameguro</font> <font color="#CC2200">Nakameguro:Schmatz Nakameguro</font> <font color="#CC2200">Locations:Nakameguro:Schmatz Nakameguro</font> <font color="#CC2200">Meetings:Locations:Nakameguro:Schmatz Nakameguro</font></p>
+tel: 03-6412-8770</br>
+[ <a href="https://www.schmatz.jp/locations/schmatz-nakameguro">web site (Japanese)</a> ]
+[ <a href="https://goo.gl/maps/N7cTxT18PEc4LNTPA">Google Maps</a> ]
+<font color="#CC2200">Schmatz Nakameguro</font>
+<font color="#CC2200">Nakameguro:Schmatz Nakameguro</font>
+<font color="#CC2200">Locations:Nakameguro:Schmatz Nakameguro</font>
+<font color="#CC2200">Meetings:Locations:Nakameguro:Schmatz Nakameguro</font></p>
     </div>
 
     <div id="footer">

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,32 +133,32 @@
     </div>
 
     <div class="content">
-      <h2 id="japanese-laws">Japanese Laws</h2>
+      <h2 id="japanese_laws">Japanese Laws</h2>
 <ul>
-<li>[ <a href="http://www.cas.go.jp/jp/seisaku/hourei/data2.html" class="uri">http://www.cas.go.jp/jp/seisaku/hourei/data2.html</a> Cabinet Secretariat translations ]</li>
-<li>[ <a href="http://www.ehs.or.jp/en/index_en.html" class="uri">http://www.ehs.or.jp/en/index_en.html</a> EHS translations ]</li>
-<li>[ <a href="http://homepage2.nifty.com/paper/lawcollection.htm" class="uri">http://homepage2.nifty.com/paper/lawcollection.htm</a> ]</li>
+<li>[ <a href="http://www.cas.go.jp/jp/seisaku/hourei/data2.html">http://www.cas.go.jp/jp/seisaku/hourei/data2.html</a> Cabinet Secretariat translations ]</li>
+<li>[ <a href="http://www.ehs.or.jp/en/index_en.html">http://www.ehs.or.jp/en/index_en.html</a> EHS translations ]</li>
+<li>[ <a href="http://homepage2.nifty.com/paper/lawcollection.htm">http://homepage2.nifty.com/paper/lawcollection.htm</a> ]</li>
 </ul>
-<h3 id="constitution-of-japan">Constitution of Japan</h3>
+<h3 id="constitution_of_japan">Constitution of Japan</h3>
 <ul>
-<li>[ <a href="http://www.kantei.go.jp/foreign/constitution_and_government_of_japan/constitution_e.html" class="uri">http://www.kantei.go.jp/foreign/constitution_and_government_of_japan/constitution_e.html</a> translation of Japanese Constitution ]</li>
-<li>[ <a href="http://en.wikipedia.org/wiki/Constitution_of_Japan" class="uri">http://en.wikipedia.org/wiki/Constitution_of_Japan</a> Wikipedia reference ]</li>
+<li>[ <a href="http://www.kantei.go.jp/foreign/constitution_and_government_of_japan/constitution_e.html">http://www.kantei.go.jp/foreign/constitution_and_government_of_japan/constitution_e.html</a> translation of Japanese Constitution ]</li>
+<li>[ <a href="http://en.wikipedia.org/wiki/Constitution_of_Japan">http://en.wikipedia.org/wiki/Constitution_of_Japan</a> Wikipedia reference ]</li>
 </ul>
-<h2 id="legal-advice">Legal Advice</h2>
+<h2 id="legal_advice">Legal Advice</h2>
 <p>edward: I can't vouch for any of the referenced sources.</p>
 <ul>
-<li>[ <a href="http://www.nichibenren.or.jp/en/legal/counceling.html" class="uri">http://www.nichibenren.or.jp/en/legal/counceling.html</a> ]</li>
-<li>[ <a href="http://www.consular.australia.or.jp/lawyerstokyo.html" class="uri">http://www.consular.australia.or.jp/lawyerstokyo.html</a> ]</li>
+<li>[ <a href="http://www.nichibenren.or.jp/en/legal/counceling.html">http://www.nichibenren.or.jp/en/legal/counceling.html</a> ]</li>
+<li>[ <a href="http://www.consular.australia.or.jp/lawyerstokyo.html">http://www.consular.australia.or.jp/lawyerstokyo.html</a> ]</li>
 </ul>
-<h2 id="arrest-in-japan">Arrest In Japan</h2>
+<h2 id="arrest_in_japan">Arrest In Japan</h2>
 <blockquote>
 <p><strong>Article 34.</strong> No person shall be arrested or detained without being at once informed of the charges against him or without the immediate privilege of counsel; nor shall he be detained without adequate cause; and upon demand of any person such cause must be immediately shown in open court in his presence and the presence of his counsel.<br />
 <em>Translation of the Constitution of Japan</em></p>
 </blockquote>
 <ul>
-<li>[ <a href="http://www.nichibenren.or.jp/en/legal/arrest_01.html" class="uri">http://www.nichibenren.or.jp/en/legal/arrest_01.html</a> JFBA advice ]</li>
-<li>[ <a href="http://www.tlug.jp/ML/0610/msg00108.html" class="uri">http://www.tlug.jp/ML/0610/msg00108.html</a> US and British embassy advice ]</li>
-<li>[ <a href="http://www.nichibenren.or.jp/en/legal/arrest_contact_list.html" class="uri">http://www.nichibenren.or.jp/en/legal/arrest_contact_list.html</a> duty Attorney contact numbers ]</li>
+<li>[ <a href="http://www.nichibenren.or.jp/en/legal/arrest_01.html">http://www.nichibenren.or.jp/en/legal/arrest_01.html</a> JFBA advice ]</li>
+<li>[ <a href="http://www.tlug.jp/ML/0610/msg00108.html">http://www.tlug.jp/ML/0610/msg00108.html</a> US and British embassy advice ]</li>
+<li>[ <a href="http://www.nichibenren.or.jp/en/legal/arrest_contact_list.html">http://www.nichibenren.or.jp/en/legal/arrest_contact_list.html</a> duty Attorney contact numbers ]</li>
 </ul>
 <h2 id="disclaimer">Disclaimer</h2>
 <p>Nothing on this page constitutes legal advice. If you require legal advice seek a qualified lawyer.</p>

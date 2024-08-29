@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,7 +135,8 @@
     <div class="content">
       <h2 id="image">Image</h2>
 <figure>
-<img src="/images/Jmglov-nc-lecture.jpg" title="/images/Jmglov-nc-lecture.jpg" alt="/images/Jmglov-nc-lecture.jpg" /><figcaption>/images/Jmglov-nc-lecture.jpg</figcaption>
+<img src="/images/Jmglov-nc-lecture.jpg" title="/images/Jmglov-nc-lecture.jpg" />
+<figcaption>/images/Jmglov-nc-lecture.jpg</figcaption>
 </figure>
 <h2 id="contact">Contact</h2>
 <ul>
@@ -157,12 +150,12 @@
 </ul></li>
 <li>Day Job: Amazon Anywhere Software Development Engineer; hit one of these sites on your mobile:
 <ul>
-<li><a href="http://amazon.jp/" class="uri">http://amazon.jp/</a></li>
-<li><a href="http://amazon.com/" class="uri">http://amazon.com/</a></li>
-<li><a href="http://amazon.co.uk/" class="uri">http://amazon.co.uk/</a></li>
-<li><a href="http://amazon.de/" class="uri">http://amazon.de/</a></li>
-<li><a href="http://amazon.fr/" class="uri">http://amazon.fr/</a></li>
-<li><a href="http://amazon.ca/" class="uri">http://amazon.ca/</a></li>
+<li><a href="http://amazon.jp/">http://amazon.jp/</a></li>
+<li><a href="http://amazon.com/">http://amazon.com/</a></li>
+<li><a href="http://amazon.co.uk/">http://amazon.co.uk/</a></li>
+<li><a href="http://amazon.de/">http://amazon.de/</a></li>
+<li><a href="http://amazon.fr/">http://amazon.fr/</a></li>
+<li><a href="http://amazon.ca/">http://amazon.ca/</a></li>
 </ul></li>
 <li>Open Source:
 <ul>
@@ -187,9 +180,9 @@
 <p>I am a Tokyo-based Linux enthusiast, programmer, husband, and father. I run <a href="http://www.gentoo.org/">Gentoo Linux</a> with <a href="http://icculus.org/openbox/">openbox</a>, and do all of my coding in <a href="http://www.xemacs.org/">XEmacs</a>.</p>
 <h2 id="tlug">TLUG</h2>
 <p>I have been a member of <a href="http://www.tlug.jp/">TLUG</a> since late 2000, and currently serve as Listmaster.</p>
-<h2 id="wiki-contributions">Wiki Contributions</h2>
+<h2 id="wiki_contributions">Wiki Contributions</h2>
 <p>See <font color="#CC2200">Special:Contributions/Jmglov</font></p>
-<h2 id="gpg-key">GPG Key</h2>
+<h2 id="gpg_key">GPG Key</h2>
 <p><code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code><br />
 <code>Version: PGP Key Server 0.9.6</code><br />
 <br />

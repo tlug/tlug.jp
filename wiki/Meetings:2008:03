@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,24 +133,36 @@
     </div>
 
     <div class="content">
-      <h2 id="meeting-2008---03">Meeting / 2008 - 03</h2>
+      <h2 id="meeting_2008___03">Meeting / 2008 - 03</h2>
 <p><strong>Template:Meetings:Vitals placeholder</strong></p>
 <h3 id="itinerary">Itinerary</h3>
 <p><strong>Informal Discussion</strong></p>
-<p>“Copyright law in Japan” by Assoc. Prof. <font color="#CC2200">Hideaki Shirata</font>[1]</p>
+<p>“Copyright law in Japan”
+by Assoc. Prof. <font color="#CC2200">Hideaki Shirata</font>[1]</p>
 <p><strong>Main Topic</strong></p>
-<p>“Automated configuration and change management with Puppet” by <font color="#CC2200">Tomoyuki Sakurai</font></p>
+<p>“Automated configuration and change management with Puppet”
+by <font color="#CC2200">Tomoyuki Sakurai</font></p>
 <h4 id="presentations">Presentations</h4>
-<p>This month, Assoc. Prof. <font color="#CC2200">Hedeaki Shirata</font>[1], a renowned expert in Cyber Law, will be discussing the differences between Japanese copyright law and those of the US and Europe. If there are things you would like to hear about please post your question to the list before the meeting. Please be aware that not all questions may be answered.</p>
-<p>Our second speaker <font color="#CC2200">Tomoyuki Sakurai</font> will be introducing Puppet, a framework to allow system administrators to perform automated system configuration and change management. In this session, you'll learn why you need automation and how Puppet will change the way you maintain a large number of roles and OSes.</p>
-<p>If you can't make it during the meeting <font color="#CC2200">Yaegashi Takeshi</font> will be broadcasting it live. For details look at the page.</p>
-<p><a href="http://www.keshi.org/moin/Broadcast" class="uri">http://www.keshi.org/moin/Broadcast</a></p>
+<p>This month, Assoc. Prof. <font color="#CC2200">Hedeaki Shirata</font>[1], a renowned expert in Cyber
+Law, will be discussing the differences between Japanese copyright law
+and those of the US and Europe. If there are things you would like to
+hear about please post your question to the list before the meeting.
+Please be aware that not all questions may be answered.</p>
+<p>Our second speaker <font color="#CC2200">Tomoyuki Sakurai</font> will be introducing Puppet, a
+framework to allow system administrators to perform automated system
+configuration and change management. In this session, you'll learn why
+you need automation and how Puppet will change the way you maintain a
+large number of roles and OSes.</p>
+<p>If you can't make it during the meeting <font color="#CC2200">Yaegashi Takeshi</font> will be
+broadcasting it live. For details look at the page.</p>
+<p><a href="http://www.keshi.org/moin/Broadcast">http://www.keshi.org/moin/Broadcast</a></p>
 <p>we have two servers available</p>
 <ol>
-<li><a href="http://articles.tlug.jp:8000/tlug.ogg.m3u" class="uri">http://articles.tlug.jp:8000/tlug.ogg.m3u</a></li>
-<li><a href="http://broadcast.keshi.org:8000/tlug.ogg.m3u" class="uri">http://broadcast.keshi.org:8000/tlug.ogg.m3u</a></li>
+<li><a href="http://articles.tlug.jp:8000/tlug.ogg.m3u">http://articles.tlug.jp:8000/tlug.ogg.m3u</a></li>
+<li><a href="http://broadcast.keshi.org:8000/tlug.ogg.m3u">http://broadcast.keshi.org:8000/tlug.ogg.m3u</a></li>
 </ol>
-<p><font color="#CC2200">2008:03</font> <font color="#CC2200">03</font></p>
+<p><font color="#CC2200">2008:03</font>
+<font color="#CC2200">03</font></p>
     </div>
 
     <div id="footer">

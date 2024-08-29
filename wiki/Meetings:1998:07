@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p>from <a href="http://www.tlug.jp/meetings/9807/index.html">1</a> <em>17 July, 1998</em></p>
-<h2 id="july-party-events">July Party Events</h2>
+<h2 id="july_party_events">July Party Events</h2>
 <p><code> July Nomikai Information</code><br />
 <code> Date: 17 July, 1998</code><br />
 <code> Nomikai Meeting Time: 19:30</code><br />
@@ -156,8 +148,10 @@
 <p>Jonathan adds Joe Marchak is being too modest here. It was really an install by Joe and Chris on my disk, with me in attendance. This install was especially made possible by Joe, who not only brought an incredibly huge backpack of stuff, including a Sparc LX and an external SCSI enclosure, but also made not one, but two, jogs to his office to get things that we suddenly found we would need.</p>
 <p>Special thanks to Shigeo Honda for being snackmaster, and to Alberto Tomita for taking photographs of the event.</p>
 <p>This event was open to all Linux users and friends, and was to promote casual linux (and non-linux) related discussions over a few cold ones.</p>
-<p>Someone was waiting at Tokyo station Yaesu chuo ticket gate at 19:15. Here is a picture of Yaesu Chuo ticket gate: <a href="http://www.imasy.or.jp/Yaesu-Chuo.jpg" class="uri">http://www.imasy.or.jp/Yaesu-Chuo.jpg</a></p>
-<p>Tengu is about 5 minutes away from the Yaesu Chuo exit of the JR Tokyo train station. It is on the right hand side of Yaesu Dori if you are walking out of the station. <font color="#CC2200">1998:07</font> <font color="#CC2200">07</font></p>
+<p>Someone was waiting at Tokyo station Yaesu chuo ticket gate at 19:15. Here is a picture of Yaesu Chuo ticket gate: <a href="http://www.imasy.or.jp/Yaesu-Chuo.jpg">http://www.imasy.or.jp/Yaesu-Chuo.jpg</a></p>
+<p>Tengu is about 5 minutes away from the Yaesu Chuo exit of the JR Tokyo train station. It is on the right hand side of Yaesu Dori if you are walking out of the station.
+<font color="#CC2200">1998:07</font>
+<font color="#CC2200">07</font></p>
     </div>
 
     <div id="footer">

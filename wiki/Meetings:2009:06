@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p><strong>Template:Meetings:Nomikai:Vitals placeholder</strong></p>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
@@ -156,7 +148,8 @@
 <li><a href="http://blog.vortorus.net/2009/06/14/tlug-june-12-nomikai">Blog post with photos</a> by <a href="./Edward_Middleton">Edward Middleton</a></li>
 <li><a href="http://picasaweb.google.com/leo.howell/TLUG">Photos</a> by <font color="#CC2200">Leo Howell</font></li>
 </ul>
-<p><font color="#CC2200">2009:06</font> <font color="#CC2200">06</font></p>
+<p><font color="#CC2200">2009:06</font>
+<font color="#CC2200">06</font></p>
     </div>
 
     <div id="footer">

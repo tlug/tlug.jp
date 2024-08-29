@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,13 +134,14 @@
 
     <div class="content">
       <figure>
-<img src="/images/Edward.jpg" title="/images/Edward.jpg" alt="/images/Edward.jpg" /><figcaption>/images/Edward.jpg</figcaption>
+<img src="/images/Edward.jpg" title="/images/Edward.jpg" />
+<figcaption>/images/Edward.jpg</figcaption>
 </figure>
 <ul>
 <li>I am the current <a href="./TLUG:Organization#President">TLUG President.</a></li>
 <li><a href="https://blog.vortorus.net/">My blog</a> (which is fairly inactive).</li>
 <li>My <a href="https://github.com/emiddleton">github username is emiddleton</a>.</li>
-<li>My [<a href="https://www.linkedin.com/in/edward-middleton-541b673" class="uri">https://www.linkedin.com/in/edward-middleton-541b673</a>| linkedin profile is here]</li>
+<li>My [<a href="https://www.linkedin.com/in/edward-middleton-541b673">https://www.linkedin.com/in/edward-middleton-541b673</a>| linkedin profile is here]</li>
 <li>Email: Contact me via the tlug mailing list</li>
 <li>Phone: 090-3689-0292</li>
 </ul>

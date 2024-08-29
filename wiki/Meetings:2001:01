@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,10 +133,12 @@
     </div>
 
     <div class="content">
-      <h2 id="meeting-2001---01">Meeting / 2001 - 01</h2>
+      <h2 id="meeting_2001___01">Meeting / 2001 - 01</h2>
 <p><strong>Template:Meetings:Vitals placeholder</strong></p>
 <h2 id="itinerary">Itinerary</h2>
-<p>This months meeting will be a friendly round table discussion on various topics. It will be a good time to get to know others, discuss what current projects your working on, and have a laugh in the process.</p>
+<p>This months meeting will be a friendly round table discussion on various
+topics. It will be a good time to get to know others, discuss what current
+projects your working on, and have a laugh in the process.</p>
 <p>After the meeting, there will be a shin-en-kai at:</p>
 <p><strong>Tengu New Akasaka</strong><br />
 Fujibayashi Bldg. B1<br />
@@ -154,7 +148,8 @@ tel 03-3584-9745</p>
 <ul>
 <li><a href="http://lists.tlug.jp/ML/0101/msg00020.html">announcement</a></li>
 </ul>
-<p><font color="#CC2200">2001:01</font> <font color="#CC2200">01</font></p>
+<p><font color="#CC2200">2001:01</font>
+<font color="#CC2200">01</font></p>
     </div>
 
     <div id="footer">

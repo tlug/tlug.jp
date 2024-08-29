@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,9 @@
 
     <div class="content">
       <p>from <a href="http://www.tlug.jp/meetings/9712/dec-97.html">1</a> <em>Saturday, December 13, 1997</em></p>
-<p>Special thanks to Masaori 'Smiley' Omote For This Video!</p>
+<p>Special thanks to
+Masaori 'Smiley' Omote
+For This Video!</p>
 <p>The December, 1997 meeting of the Tokyo Linux Users Group (TLUG) was a raging success, and thanks are due again to HSBC, and to Joe Marchak in particular, for their continued generosity in allowing TLUG to use their facilities.</p>
 <p>There were about 27 people at the meeting, including three women, and 8 Japanese. Also of interest were Karl-Max from Germany (who lives in Germany) and Nick from the Ukraine (who may live in Japan now).</p>
 <p>For this meeting we had lots of “freebies” to give away and many members turned out early to help with the set up and preparation. At twelve-thirty we made out way to the central Yaesu wicket at Tokyo station to meet with everyone arriving for the pre-meeting lunch. Craig kept the locals amused with a Linux sticker held aloft. It worked very well though, and several new members were attracted by the whacky antics of our leader.</p>
@@ -152,12 +146,14 @@
 <p>David Riley had to take a plane to get to the meeting. He's one of the guys in a pony-tail sitting next to Craig in the Chinese restaurant picture.</p>
 <p>Frank O' Carrol has 64 processors hooked up with gigabyte hardware and BSD. Maybe one day, it will churn Linux. :-) Frank agreed to give a talk on high-performance super-computing in the future.</p>
 <p>Gaspar Sinai probably had the second fastest box with his 600mhz Alpha machine. He gave a demonstration of Yudit unicode editor.</p>
-<p>Two of the new members, Ayako Kato and Yohko Kase, are working at a company that sells fully configured Linux servers for intranet/Internet use and supports them. Amazing. Check out their web page at <a href="http://www.10art-ni.co.jp" class="uri">http://www.10art-ni.co.jp</a> ; their company is very Java and very Linux oriented</p>
+<p>Two of the new members, Ayako Kato and Yohko Kase, are working at a company that sells fully configured Linux servers for intranet/Internet use and supports them. Amazing. Check out their web page at <a href="http://www.10art-ni.co.jp">http://www.10art-ni.co.jp</a> ; their company is very Java and very Linux oriented</p>
 <p>This meeting was notable for several reasons; we attracted several new members; several of the new members were attractive and, not least, we had a much larger contingent of Japanese members, too. Thanks to Craig and Ken Harada for their efforts to bolster the membership.</p>
 <p>Finally, we'd like to say a special thank you to Alberto Tomita, who turned up early, with his car, at John Little's office and moved all of the equipment across town to Joe's place in preparation for the meeting. Thanks Alberto!</p>
-<h2 id="thoughts-about-the-next-meeting">Thoughts about the next meeting</h2>
+<h2 id="thoughts_about_the_next_meeting">Thoughts about the next meeting</h2>
 <p>Should TLUG set up a real agenda at the meeting and have a real lecture-style presentation for at least 30 minutes of the meeting? Should we designate an area as a novice area where an experienced Linux member explains things like UNIX/Linux system/network administration, TCP/IP routing, or maybe even basics of Apache performance tuning, SQL database, or maybe even intermediate emacs usage?</p>
-<p>Or, maybe we could have parallel sessions of novice and intermediate. If we get over 30 people at the next meeting, there is going to be a wide range of Linux knowledge and probably a wealth of information exchange possible. <font color="#CC2200">1997:12</font> <font color="#CC2200">12</font></p>
+<p>Or, maybe we could have parallel sessions of novice and intermediate. If we get over 30 people at the next meeting, there is going to be a wide range of Linux knowledge and probably a wealth of information exchange possible.
+<font color="#CC2200">1997:12</font>
+<font color="#CC2200">12</font></p>
     </div>
 
     <div id="footer">

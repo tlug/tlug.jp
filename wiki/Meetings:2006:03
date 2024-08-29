@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,20 +133,30 @@
     </div>
 
     <div class="content">
-      <h2 id="meeting-2006---03">Meeting / 2006 - 03</h2>
+      <h2 id="meeting_2006___03">Meeting / 2006 - 03</h2>
 <p><strong>Template:Meetings:Vitals placeholder</strong></p>
 <h3 id="agenda">Agenda</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
+<h5 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
 <p><strong>“F/OSS Licensing and distributing - Part 1”</strong> by <em><font color="#CC2200">Stephen J.Turnbull</font></em> and <em><font color="#CC2200">Zev Blut</font></em></p>
-<p>March's meeting is a discussion on Free and Open Source software licenses. After a short introduction to the application of intellectual property to software, we review some of the important dimensions of software licensing, giving as examples some of the widely-used, well-known licenses. Then we describe the mechanics of complying with upstream licenses (notices in source, documentation, and runtime banners, etc), and strategic issues that arise when working with multiple, imperfectly compatible licenses. Finally, we discuss advantages and disadvantages of various licensing strategies when choosing licenses for a new product.</p>
+<p>March's meeting is a discussion on Free and Open Source software
+licenses. After a short introduction to the application of
+intellectual property to software, we review some of the important
+dimensions of software licensing, giving as examples some of the
+widely-used, well-known licenses. Then we describe the mechanics of
+complying with upstream licenses (notices in source, documentation,
+and runtime banners, etc), and strategic issues that arise when
+working with multiple, imperfectly compatible licenses. Finally, we
+discuss advantages and disadvantages of various licensing strategies
+when choosing licenses for a new product.</p>
 <p>[ <a href="http://vimeo.com/6015076">video</a> ]</p>
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
 <p>Short break <em>(maybe)</em></p>
-<h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
+<h5 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
 <p><strong>“F/OSS Licensing and distributing - Part 2”</strong> by <em><font color="#CC2200">Stephen J.Turnbull</font></em> and <em><font color="#CC2200">Zev Blut</font></em></p>
 <p>[ <a href="http://vimeo.com/6015208">video</a> ]</p>
-<p><font color="#CC2200">2006:03</font> <font color="#CC2200">03</font></p>
+<p><font color="#CC2200">2006:03</font>
+<font color="#CC2200">03</font></p>
     </div>
 
     <div id="footer">

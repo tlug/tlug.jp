@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,7 +135,7 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="enterprise-metadata-management-in-cloud-by-shinji-kikuchi">Enterprise Metadata Management in Cloud (by <font color="#CC2200">Shinji Kikuchi</font>)</h6>
+<h6 id="enterprise_metadata_management_in_cloud_by_shinji_kikuchi">Enterprise Metadata Management in Cloud (by <font color="#CC2200">Shinji Kikuchi</font>)</h6>
 <p>Kikuchi-san will present the current research trends in the topic of Enterprise Metadata Management in Cloud</p>
     </div>
 

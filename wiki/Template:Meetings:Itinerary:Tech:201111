@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,13 +135,13 @@
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="haskell-on-debian">14:00-15:00 “Haskell on Debian”</h5>
+<h5 id="haskell_on_debian">14:00-15:00 “Haskell on Debian”</h5>
 <p><em>by Kiwamu Okabe (<a href="http://twitter.com/#!/master_q">@master_q</a>)</em></p>
 <p><a href="http://haskell.org/">Haskell</a> is a purely functional programming language that uses <a href="http://www.haskell.org/cabal/">Cabal</a> as a system for building and packaging Haskell libraries and programs.</p>
 <p>Okabe-san will talk about the problems with Cabal, and why the Debian packaging system is one of the best solutions to those problems.</p>
 <h5 id="break">Break</h5>
 <p>Short break, auction, announcements, etc.</p>
-<h5 id="infiniband-primer">15:30-16:30 “Infiniband Primer”</h5>
+<h5 id="infiniband_primer">15:30-16:30 “Infiniband Primer”</h5>
 <p><em>by Avi Telyas</em></p>
 <p>This presentation will cover:</p>
 <ul>
@@ -159,13 +151,14 @@
 <li>Open source software stack, open source management</li>
 </ul>
 <p>If you don't understand what the points above mean, then this talk is for you :)</p>
-<h4 id="other-items-on-the-agenda-are">Other items on the agenda are:</h4>
+<h4 id="other_items_on_the_agenda_are">Other items on the agenda are:</h4>
 <ol>
 <li>Introduction of new members</li>
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

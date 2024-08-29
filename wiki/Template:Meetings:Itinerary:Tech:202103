@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,9 +136,16 @@
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations:</h5>
 <p><em>Mailman - navigating commercial closed-source in an open source project</em> - Stephen Turnbull</p>
-<p>Mailman 3 is now the upgrade path for most sites with a team of three applications (Mailman core which handles the mail, and two Django apps, Postorius for administration and user profiles, and HyperKitty for archives). There are now commercially developed closed-source alternatives for Postorius and HyperKitty. Stephen will talk about how this came about, the frictions and how it can work.</p>
+<p>Mailman 3 is now the upgrade path for most sites with a team of three
+applications (Mailman core which handles the mail, and two Django apps,
+Postorius for administration and user profiles, and HyperKitty for
+archives). There are now commercially developed closed-source
+alternatives for Postorius and HyperKitty. Stephen will talk about
+how this came about, the frictions and how it can work.</p>
 <p><em>Exploring Lilypond</em> - Andreas Kieckens</p>
-<p>Andreas will talk about his progress exploring Lilypond which is a language for describing music in text files that can be compiled to midi or score.</p>
+<p>Andreas will talk about his progress exploring Lilypond which is a
+language for describing music in text files that can be compiled to
+midi or score.</p>
     </div>
 
     <div id="footer">

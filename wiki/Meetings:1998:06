@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p>from <a href="http://www.tlug.jp/meetings/9806/index.html">1</a></p>
-<h2 id="june-meeting-information">June Meeting Information</h2>
+<h2 id="june_meeting_information">June Meeting Information</h2>
 <p><code> Date:   June 13, 1998</code><br />
 <code> Lunch Meeting Time: 12:30</code><br />
 <code> Lunch Meeting Place: Tokyo JR Station Yaesu Chuo exit</code><br />
@@ -154,11 +146,11 @@
 <code>    11-1 Nihonbashi 3-chome, Chuo-ku, Tokyo 103-0027</code><br />
 <code>    (Tel.) 03-5203-3925</code><br />
 <code>    (fax) 03-5203-3699</code></p>
-<h2 id="meeting-topic">Meeting Topic</h2>
+<h2 id="meeting_topic">Meeting Topic</h2>
 <p>A talk on the Debian and RPM packaging systems for Linux was given by <font color="#CC2200">Stephen Turnbull</font> and <font color="#CC2200">Scott Stone</font>. Packaging systems allow easy installation and removal of Linux system software. The packaging systems come with powerful dependencies that inform the user what other programs are needed to ensure a functional Linux system. For example, the installation of the Japanese to English dicitionary xjdic is dependent on edict and kanjidic. An attempt to install xjdic with these packaging systems will result in a search of your system for edict and kanjidic. If the programs are not installed, the packaging system will tell you or install them for you over the Internet or from CD. The packaging systems allow the Linux user to find out information on every program on their system, learn the contents of software packages before installation, and find out what files were installed by what packages. Both rpm and dpkg come with a command line interface and a menu based interface.</p>
 <p>How these packaging systems can be used for development of .rpm or .deb packages was also covered.</p>
-<h2 id="about-the-speakers">About the Speakers</h2>
-<h3 id="stephen-turnbull"><font color="#CC2200">Stephen Turnbull</font></h3>
+<h2 id="about_the_speakers">About the Speakers</h2>
+<h3 id="stephen_turnbull"><font color="#CC2200">Stephen Turnbull</font></h3>
 <p>Mr. Turnbull spoke on the Debian packaging system. He is a long time Linux user and an early member of TLUG. Mr. Turnbull contributes to the development of XEmacs, is the maintainer of the elisp Japanese to English dictionary interface to edict, edict.el, and is one of the principal authors for an upcoming book on Japanese support of Linux to be published by O'Reilly Japan. Mr. Turnbull holds a doctorate in economics from Stanford University and is a professor at Tsukuba University in Japan when he is not hacking Linux.</p>
 <p>His presentation covered these areas:</p>
 <ol>
@@ -186,8 +178,8 @@
 <li>How should the XEmacs 21 package system coexist with Debian's?</li>
 </ol></li>
 </ol>
-<h3 id="scott-stone"><font color="#CC2200">Scott Stone</font></h3>
-<p>Mr. Stone spoke on the RPM packaging system, a topic he is intimate with through years of experience. Mr. Stone is the primary developer of Pacific HiTech's TurboLinux and TurboLinux-J which uses the RPM packaging system for all its programs. Mr. Stone is an active TLUG member, is the primary system administrator for the TLUG server, and is an active contributor to the free software movement. The TurboLinux-J Linux distribution that Mr. Stone developed is the only commercially developed and supported Japanese Linux distribution. Additional information on TurboLinux can be found on the web at <a href="http://www.pht.co.jp" class="uri">http://www.pht.co.jp</a>. Mr. Stone studied computer science at the University of Utah.</p>
+<h3 id="scott_stone"><font color="#CC2200">Scott Stone</font></h3>
+<p>Mr. Stone spoke on the RPM packaging system, a topic he is intimate with through years of experience. Mr. Stone is the primary developer of Pacific HiTech's TurboLinux and TurboLinux-J which uses the RPM packaging system for all its programs. Mr. Stone is an active TLUG member, is the primary system administrator for the TLUG server, and is an active contributor to the free software movement. The TurboLinux-J Linux distribution that Mr. Stone developed is the only commercially developed and supported Japanese Linux distribution. Additional information on TurboLinux can be found on the web at <a href="http://www.pht.co.jp">http://www.pht.co.jp</a>. Mr. Stone studied computer science at the University of Utah.</p>
 <p>His presentation covered RPMs, specifically:</p>
 <ul>
 <li>Basic usage of the commandline tool
@@ -235,7 +227,9 @@
 <code> 3 Hubs</code><br />
 <code> switch boxes</code><br />
 <code> lots of ethernet cables, connectors, etc.</code></p>
-<p>Finance information can be found in the accounting section of the TLUG home page. <font color="#CC2200">1998:06</font> <font color="#CC2200">06</font></p>
+<p>Finance information can be found in the accounting section of the TLUG home page.
+<font color="#CC2200">1998:06</font>
+<font color="#CC2200">06</font></p>
     </div>
 
     <div id="footer">

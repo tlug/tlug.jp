@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,27 +135,32 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
 <p><strong>“History of TLUG”</strong> By <em><a href="./Edward_Middleton">Edward Middleton</a></em></p>
 <p>A short history of TLUG</p>
-<h6 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
+<h6 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
 <p><strong>“Origins of early computing”</strong> By <em><font color="#CC2200">Matthew (Karamoon)</font></em></p>
-<p>This talk will detail the contribution that hackers at Station X made to early computing. Although the devices at Station X were not Turing-complete, they were the world's first programmable, digital, electronic, computing devices.</p>
+<p>This talk will detail the contribution that hackers at Station X made
+to early computing. Although the devices at Station X were not Turing-complete,
+they were the world's first programmable, digital, electronic, computing devices.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
-<h6 id="presentation-3">&lt;&lt; Presentation (3) &gt;&gt;</h6>
+<h6 id="presentation_3">&lt;&lt; Presentation (3) &gt;&gt;</h6>
 <p><strong>“Asterisk in Japan”</strong> by <em><font color="#CC2200">Simon Gibson</font></em> and <em><font color="#CC2200">Sach Jobbs</font></em></p>
 <p><font color="#CC2200">Simon Gibson</font> and <font color="#CC2200">Sach Jobbs</font> will talk about using Asterisk in Japan. The aim of the talk is to let people know what is being done, what is possible and where to go to get more information if needed.</p>
-<h6 id="presentation-4">&lt;&lt; Presentation (4) &gt;&gt;</h6>
+<h6 id="presentation_4">&lt;&lt; Presentation (4) &gt;&gt;</h6>
 <p><strong>“Creating a 1st Amazon Cloud instance”</strong> by <em><font color="#CC2200">Alberto Tomita</font></em></p>
-<p><font color="#CC2200">Alberto Tomita</font> will present his experience with setting up an account with AWS and creating a server instance for the first time - what went well and mistakes he could had avoided.</p>
-<h5 id="other-items-on-the-agenda-are">Other items on the agenda are:</h5>
+<p><font color="#CC2200">Alberto Tomita</font> will present his experience with setting up an account
+with AWS and creating a server instance for the first time - what went well and
+mistakes he could had avoided.</p>
+<h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

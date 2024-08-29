@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,7 +136,10 @@
       <p><strong>Akasaka Kumin Center</strong><br />
 4-18-13 Akasaka, Plaza Mikado, Minato-ku, Tokyo<br />
 [ <a href="http://www.minatocity-kissport.or.jp/sisetu/akasaka/akasaka.htm">homepage</a> ]</p>
-<p><font color="#CC2200">Akasaka_Kumin_Center</font> <font color="#CC2200">Akasaka:Akasaka_Kumin_Center</font> <font color="#CC2200">Locations:Akasaka:Akasaka_Kumin_Center</font> <font color="#CC2200">Meetings:Locations:Akasaka:Akasaka_Kumin_Center</font></p>
+<p><font color="#CC2200">Akasaka_Kumin_Center</font>
+<font color="#CC2200">Akasaka:Akasaka_Kumin_Center</font>
+<font color="#CC2200">Locations:Akasaka:Akasaka_Kumin_Center</font>
+<font color="#CC2200">Meetings:Locations:Akasaka:Akasaka_Kumin_Center</font></p>
     </div>
 
     <div id="footer">

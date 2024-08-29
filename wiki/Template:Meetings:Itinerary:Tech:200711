@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,18 +135,23 @@
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="a-ruby-script-for-backing-up-using-amazon-s3-for-data-storage-by-lars-kotthoff">A Ruby script for backing up using Amazon S3 for data storage by <font color="#CC2200">Lars Kotthoff</font></h5>
-<p>This month <font color="#CC2200">Lars Kotthoff</font> will be giving a presentation on a Ruby script he has developed for backup using Amazon S3 web service. If you are involved in a project or have something you would like to talk about, we are always looking for presenters.</p>
-<p>Thanks to <font color="#CC2200">Edmund Edgar</font> and <font color="#CC2200">Jeff Barr</font> this months meeting will be simulcast in Second Life at the Conference Center at Amazon Developers 1.</p>
+<h5 id="a_ruby_script_for_backing_up_using_amazon_s3_for_data_storage_by_lars_kotthoff">A Ruby script for backing up using Amazon S3 for data storage by <font color="#CC2200">Lars Kotthoff</font></h5>
+<p>This month <font color="#CC2200">Lars Kotthoff</font> will be giving a presentation on a Ruby script
+he has developed for backup using Amazon S3 web service. If you are
+involved in a project or have something you would like to talk about, we
+are always looking for presenters.</p>
+<p>Thanks to <font color="#CC2200">Edmund Edgar</font> and <font color="#CC2200">Jeff Barr</font> this months meeting will be
+simulcast in Second Life at the Conference Center at Amazon Developers 1.</p>
 <ul>
 <li><a href="http://www.flickr.com/photos/labsji/tags/tokyolinuxusersgroup/">SecondLife photos of presentation</a></li>
 </ul>
-<h3 id="other-items-on-the-agenda">Other Items on the Agenda</h3>
+<h3 id="other_items_on_the_agenda">Other Items on the Agenda</h3>
 <ol>
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -155,12 +147,13 @@
 <p>Zest cantina</p>
 <p>1-2-3, Ginza, Chuo-ku, Tokyo</p>
 <p>tel (03)5524-3621</p>
-<p><a href="http://www.zest-cantina.jp/gzone/?lang=en" class="uri">http://www.zest-cantina.jp/gzone/?lang=en</a></p>
-<h3 id="contact-info">Contact Info</h3>
+<p><a href="http://www.zest-cantina.jp/gzone/?lang=en">http://www.zest-cantina.jp/gzone/?lang=en</a></p>
+<h3 id="contact_info">Contact Info</h3>
 <ul>
 <li><font color="#CC2200">Bruce McIntosh</font> : 090-7180-1269</li>
 </ul>
-<p><font color="#CC2200">2017:08</font> <font color="#CC2200">08</font></p>
+<p><font color="#CC2200">2017:08</font>
+<font color="#CC2200">08</font></p>
     </div>
 
     <div id="footer">

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,9 +133,11 @@
     </div>
 
     <div class="content">
-      <p>Printing Japanese in Linux (as well as FreeBSD and NetBSD) has become relatively simple. Many applications such as OpenOffice and Firefox, will automatically send things to a printer as Postscript Level 2 or higher, which correctly prints Japanese text.</p>
+      <p>Printing Japanese in Linux (as well as FreeBSD and NetBSD) has become relatively simple.
+Many applications such as OpenOffice and Firefox, will automatically send things to a printer as Postscript Level 2 or higher, which correctly prints Japanese text.</p>
 <p>Much of this information was taken from an <a href="http://www.jw-stumpel.nl/stestu.html">excellent page</a>on using multilingual text in Linux by JWS.</p>
-<p>This will also enable you to print text files, such as one that you might create with vi. Open the file in firefox, hit print and it will print correctly.</p>
+<p>This will also enable you to print text files, such as one that you might create with vi.
+Open the file in firefox, hit print and it will print correctly.</p>
 <p>You can also open the file in OpenOffice (and probably AbiWord, though I haven't checked that) to print it.</p>
 <p>Another trick is to use OpenOffice to print it without actually opening OpenOffice writer.</p>
 <p>Find out what command your distribution uses to start OpenOffice. (In GUI based distributions like Ubuntu, this can sometimes be a challenge--usually, you can right click on a command and left click on properties.) In FreeBSD for example, the command is</p>
@@ -153,13 +147,15 @@
 <p>(In reality, I type openoff and hit the tab key and leave it my shell's tab completion feature.)</p>
 <p>For purposes of this discussion, say that your distribution uses the command ooffice to start OpenOffice. If you have a text file in Japanese called nihongo.txt you can print it this way</p>
 <p><code>ooffice -p nihongo.txt</code></p>
-<p>Another way to do it is to use the very good <a href="http://paps.sourceforge.net/">paps program</a>. Many distributions (e.g., Ubuntu, Fedora) have a package for it. In others, such as ArchLinux or the BSD's, you will have to install it yourself.</p>
+<p>Another way to do it is to use the very good <a href="http://paps.sourceforge.net/">paps program</a>.
+Many distributions (e.g., Ubuntu, Fedora) have a package for it. In others, such as ArchLinux or the BSD's, you will have to install it yourself.</p>
 <p>To install it, download the source code and save it somewhere. It requires that you have doxygen, pkgconfig and pango installed. (All of these are available as packages in ArchLinux, FreeBSD and NetBSD, the only three systems where I've done this. In FreeBSD at least, pkgconfig was called pkg-config.)</p>
 <p>In Linux, it's simply a matter of downloading the source, untarring it and installing it in typical fashion. (The source code tarbarll is available at the link given above).</p>
 <p><code>tar zxvf paps</code><version_number><code>.tar.gz</code><br />
 <code>cd paps</code><version_number><br />
 <code>./cofigure &amp;&amp; make &amp;&amp; make install</code></p>
-<p>In the BSD's, if you just do this, it will compile and install, but will give an error message about installing the documentation. This documentation is more for programmers than end users--the man page and --help option are more than sufficient for the non-programmer. If you need the documentation or simply hate error messages, after untarring paps, cd into the paps<version>/doc directory and find the part in the Makefile where it says cp -dpR. Change that to cp -pR.</p>
+<p>In the BSD's, if you just do this, it will compile and install, but will give an error message about installing the documentation. This documentation is more for programmers than end users--the man page and --help option are more than sufficient for the non-programmer. If you need the documentation or simply hate error messages, after untarring paps, cd into the
+paps<version>/doc directory and find the part in the Makefile where it says cp -dpR. Change that to cp -pR.</p>
 <p>Once it is installed, you would use it like this. Taking that same nihongo.txt file (assuming that you have used UTF-8 encoding)</p>
 <p><code>paps nihongo.txt | lp</code></p>
 <p>The paps program only works on UTF-8 encoded files. If you have used EUC or something else, you would first have to use iconv to convert it to UTF-8 encoding. The iconv program is often installed by default, but if not, it should be available as a package.</p>

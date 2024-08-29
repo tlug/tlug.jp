@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,7 +135,13 @@
     <div class="content">
       <p><strong>Sudacho Shokudo</strong><br />
 Akihabara UDX 3F, 4-14-1, Sotokanda, Chiyoda-ku, Tokyo, 101-0021<br />
-[ <a href="https://gurunavi.com/en/g095630/rst/">Info</a> ] [ <a href="https://r.gnavi.co.jp/g095630/">Info(ja)</a> ] [ <a href="https://goo.gl/maps/bcFW1mDpoZ82">map</a> ] <font color="#CC2200">Sudacho Shokudo</font> <font color="#CC2200">Akihabara:Sudacho Shokudo</font> <font color="#CC2200">Locations:Akihabara:Sudacho Shokudo</font> <font color="#CC2200">Meetings:Locations:Akihabara:Sudacho Shokudo</font></p>
+[ <a href="https://gurunavi.com/en/g095630/rst/">Info</a> ]
+[ <a href="https://r.gnavi.co.jp/g095630/">Info(ja)</a> ]
+[ <a href="https://goo.gl/maps/bcFW1mDpoZ82">map</a> ]
+<font color="#CC2200">Sudacho Shokudo</font>
+<font color="#CC2200">Akihabara:Sudacho Shokudo</font>
+<font color="#CC2200">Locations:Akihabara:Sudacho Shokudo</font>
+<font color="#CC2200">Meetings:Locations:Akihabara:Sudacho Shokudo</font></p>
     </div>
 
     <div id="footer">

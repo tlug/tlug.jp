@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,9 +135,14 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="nagira---nagios-restful-api-by-dmytro-kovalov">“Nagira - Nagios RESTful API” by <font color="#CC2200">Dmytro Kovalov</font></h6>
-<p>Nagira is open source project for development of web services API for popular monitoring system Nagios.</p>
-<p>RESTful API allows remote access to read configuration data and object status database of Nagios. Using same HTTP(S) protocol Nagira also allows to submit passive check results for hosts and service checks. In future versions planned also to be able to change Nagios configuration and control Nagios server.</p>
+<h6 id="nagira___nagios_restful_api_by_dmytro_kovalov">“Nagira - Nagios RESTful API” by <font color="#CC2200">Dmytro Kovalov</font></h6>
+<p>Nagira is open source project for development of web services API for
+popular monitoring system Nagios.</p>
+<p>RESTful API allows remote access to read configuration data and object
+status database of Nagios. Using same HTTP(S) protocol Nagira also allows
+to submit passive check results for hosts and service checks. In future
+versions planned also to be able to change Nagios configuration and control
+Nagios server.</p>
 <p>Using webservices API would allow:</p>
 <ul>
 <li>Distributed monitoring using multiple Nagios instances and integrating</li>
@@ -158,16 +155,23 @@
 <ul>
 <li>Modular monitoring setups for applications with RESTful API's</li>
 </ul>
-<p>1. <a href="http://dmytro.github.com/nagira" class="uri">http://dmytro.github.com/nagira</a></p>
-<p>2. <a href="http://exchange.nagios.org/directory/Addons/APIs/Nagira--2D-Nagios-RESTful-API/details" class="uri">http://exchange.nagios.org/directory/Addons/APIs/Nagira--2D-Nagios-RESTful-API/details</a></p>
-<h6 id="loading-snowplow-web-analytic-data-into-the-skydb-behavioral-database-by-edward-middleton">“Loading snowplow web analytic data into the skydb behavioral database” by <a href="./Edward_Middleton">Edward Middleton</a></h6>
-<p>Skydb is a high performance open source behavioral database(1) created by Ben Johnson(2). Snowplow(1) is a web analytics platform similar to google analytics for tracking user activity on a website. In this talk Edward will give some background about these tools and explain how to load data snowplow event data into a skydb database for performing some basic web analytics.</p>
-<p>1. <a href="http://skydb.io/blog/introduction-to-behavioral-databases.html" class="uri">http://skydb.io/blog/introduction-to-behavioral-databases.html</a></p>
-<p>2. <a href="https://twitter.com/benbjohnson" class="uri">https://twitter.com/benbjohnson</a></p>
+<p>1. <a href="http://dmytro.github.com/nagira">http://dmytro.github.com/nagira</a></p>
+<p>2. <a href="http://exchange.nagios.org/directory/Addons/APIs/Nagira--2D-Nagios-RESTful-API/details">http://exchange.nagios.org/directory/Addons/APIs/Nagira--2D-Nagios-RESTful-API/details</a></p>
+<h6 id="loading_snowplow_web_analytic_data_into_the_skydb_behavioral_database_by_edward_middleton">“Loading snowplow web analytic data into the skydb behavioral database” by <a href="./Edward_Middleton">Edward Middleton</a></h6>
+<p>Skydb is a high performance open source behavioral database(1) created
+by Ben Johnson(2). Snowplow(1) is a web analytics platform similar to
+google analytics for tracking user activity on a website. In this talk
+Edward will give some background about these tools and explain how to
+load data snowplow event data into a skydb database for performing some
+basic web analytics.</p>
+<p>1. <a href="http://skydb.io/blog/introduction-to-behavioral-databases.html">http://skydb.io/blog/introduction-to-behavioral-databases.html</a></p>
+<p>2. <a href="https://twitter.com/benbjohnson">https://twitter.com/benbjohnson</a></p>
 <h5 id="nijikai">nijikai</h5>
 <p>After the presentations we will go for drinks at Za Watami Jinbocho</p>
-<p><a href="http://goo.gl/maps/z3KKd" class="uri">http://goo.gl/maps/z3KKd</a></p>
-<p>1-1-13 Kanda-Jinbocho Sanseido Shoten, Dai-2 Anex Bld 3F Chiyoda-ku, Tokyo</p>
+<p><a href="http://goo.gl/maps/z3KKd">http://goo.gl/maps/z3KKd</a></p>
+<p>1-1-13 Kanda-Jinbocho
+Sanseido Shoten, Dai-2 Anex Bld 3F
+Chiyoda-ku, Tokyo</p>
     </div>
 
     <div id="footer">

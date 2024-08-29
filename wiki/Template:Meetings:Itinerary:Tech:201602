@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,11 +135,11 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="digital-photography-with-linux-by-alberto-tomita">Digital Photography with Linux (by <font color="#CC2200">Alberto Tomita</font>)</h6>
+<h6 id="digital_photography_with_linux_by_alberto_tomita">Digital Photography with Linux (by <font color="#CC2200">Alberto Tomita</font>)</h6>
 <p>This presentation will introduce some of the digital photography applications available in Linux, from GIMP to Darktable, and going through a few others.</p>
 <p>The first part will cover the very basics of photography and then introduce the concepts involved in digital photography, so that everyone (including beginners) can understand what the tools do. For intermediary and advanced photographers, this will also be a chance to review the basics and exchange ideas.</p>
 <p><a href="https://youtu.be/KRxJiRRXvxk?t=21m15s">Video</a></p>
-<h6 id="openvnet-live-demo-from-scratch-by-andreas-kieckens">OpenVNet live demo from scratch (by <font color="#CC2200">Andreas Kieckens</font>)</h6>
+<h6 id="openvnet_live_demo_from_scratch_by_andreas_kieckens">OpenVNet live demo from scratch (by <font color="#CC2200">Andreas Kieckens</font>)</h6>
 <p>OpenVNet is a Software Defined Networking solution developed by Axsh Co LTD. (where Andreas works) and published as free open source software (http://axsh.jp/openvnet/).</p>
 <p>During this presentation, Andreas will demonstrate how to set up OpenVNet from scratch. Over the course of the demo we will:</p>
 <ul>

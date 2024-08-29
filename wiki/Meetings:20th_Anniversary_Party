@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,8 +133,8 @@
     </div>
 
     <div class="content">
-      <p>''' <font color="#CC2200">please register</font> your attendance with <a href="http://tlug.doorkeeper.jp/events/14417">Doorkeeper</a><strong><br />
-</strong> we need to have at least 25 people registered <font color="#CC2200">by September 20</font> '''</p>
+      <p><strong><font color="#CC2200">please register</font> your attendance with <a href="http://tlug.doorkeeper.jp/events/14417">Doorkeeper</a></strong><br />
+<strong>we need to have at least 25 people registered <font color="#CC2200">by September 20</font></strong></p>
 <h2 id="overview">Overview</h2>
 <h3 id="date">Date</h3>
 <p>September 26, 2014 (Friday)</p>
@@ -153,7 +145,7 @@
 with food (fixed course) and drinks (all-you-can-drink)</p>
 <h3 id="location">Location</h3>
 <p><a href="http://www.outbacksteakhouse.co.jp/en/location/obg_shinagawa.html">Outback Bar&amp;Grill Shinagawa (Konan side)</a></p>
-<p><em>' not to be confused with the Outback Steakhouse on the other side of Shinagawa station</em>'<br />
+<p><strong>not to be confused with the Outback Steakhouse on the other side of Shinagawa station</strong><br />
 </p>
 <h3 id="address">Address</h3>
 <p>2-16-2 Konan, Minato-ku, Tokyo<br />
@@ -164,15 +156,16 @@ Shinagawa Grand Commons Taiyo Life Blg 3F</p>
 </li>
 <li>5,800 yen (at the door)</li>
 </ul>
-<p>''' <font color="#CC2200">please register</font> your attendance with <a href="http://tlug.doorkeeper.jp/events/14417">Doorkeeper</a><strong><br />
-</strong> we need to have at least 25 people registered <font color="#CC2200">by September 20</font> '''</p>
-<h3 id="contact-info">Contact Info</h3>
+<p><strong><font color="#CC2200">please register</font> your attendance with <a href="http://tlug.doorkeeper.jp/events/14417">Doorkeeper</a></strong><br />
+<strong>we need to have at least 25 people registered <font color="#CC2200">by September 20</font></strong></p>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 <li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p><font color="#CC2200">2014:09</font> <font color="#CC2200">09</font></p>
+<p><font color="#CC2200">2014:09</font>
+<font color="#CC2200">09</font></p>
     </div>
 
     <div id="footer">

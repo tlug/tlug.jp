@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -147,11 +139,11 @@
 <p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. Membership is open to anyone. There are currently no membership dues or entrance fees.</p>
 <p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
 <p>As a general rule, the Technical Meetings are held on the 2nd SAT of odd numbered months and the Nomikai Meetings are usually held on the 2nd FRI of even numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
-<h2 id="meeting-2009---19">Meeting / 2009 - 19</h2>
+<h2 id="meeting_2009___19">Meeting / 2009 - 19</h2>
 <p><strong>Template:Meetings:Vitals placeholder</strong></p>
 <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
+<h5 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
 <p><strong>“Parallels[1] virtualization products for Linux”</strong> By <em><font color="#CC2200">Alexei Anisimov</font></em></p>
 <p><em>Parallels Virtuozzo Containers:</em></p>
 <ul>
@@ -175,11 +167,11 @@
 <li>Combination of OS (Virtuozzo containers) and hypervisor (virtual machines) virtualization layers on a single server</li>
 <li>GUI tools - Parallels management console (PMC) and Parallels virtual automation (PVA)</li>
 </ul>
-<p>1. <a href="http://www.parallels.com/eu/products/pvc45/" class="uri">http://www.parallels.com/eu/products/pvc45/</a><br />
-2. <a href="http://openvz.org/" class="uri">http://openvz.org/</a></p>
+<p>1. <a href="http://www.parallels.com/eu/products/pvc45/">http://www.parallels.com/eu/products/pvc45/</a><br />
+2. <a href="http://openvz.org/">http://openvz.org/</a></p>
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
 <p>Short break <em>(maybe)</em></p>
-<h5 id="presentation-2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
+<h5 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h5>
 <p><strong>“Linux and the Top500”</strong> By <em><font color="#CC2200">Avi Telyas</font></em></p>
 <ul>
 <li>What is the Top 500
@@ -202,13 +194,13 @@
 </ul></li>
 </ul></li>
 </ul>
-<h4 id="other-items-on-the-agenda-are">Other items on the agenda are:</h4>
+<h4 id="other_items_on_the_agenda_are">Other items on the agenda are:</h4>
 <ol>
 <li>Introduction of new members</li>
 <li>News about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
@@ -222,19 +214,21 @@
 <h3 id="location">Location</h3>
 <p><strong>Zaru</strong><br />
 Zero Gate 4F, 16-9 Udagawa-cho, Shibuya-ku, Tokyo<br />
-[ <a href="http://r.gnavi.co.jp/g064216/">Info (In Japanese)</a> ] [ <a href="http://r.gnavi.co.jp/g064216/map1.htm">map</a> ]</p>
+[ <a href="http://r.gnavi.co.jp/g064216/">Info (In Japanese)</a> ]
+[ <a href="http://r.gnavi.co.jp/g064216/map1.htm">map</a> ]</p>
 <h3 id="costs">Costs</h3>
 <p>Will be divided up among participants (usually around 3,000-5,000 yen)</p>
 <h3 id="details">Details</h3>
 <p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
 <p>Even if you want to come at the last minute it's okay - we may have to squeeze a bit, but please come!</p>
-<h3 id="contact-info-1">Contact Info</h3>
+<h3 id="contact_info_1">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 <li><a href="./User:Zuco">Pietro Zuco</a> : 080-3351-1358</li>
 </ul>
-<p><font color="#CC2200">2009:12</font> <font color="#CC2200">12</font></p>
+<p><font color="#CC2200">2009:12</font>
+<font color="#CC2200">12</font></p>
     </div>
 
     <div id="footer">

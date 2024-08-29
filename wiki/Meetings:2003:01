@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -145,7 +137,9 @@
 <ul>
 <li><a href="http://www.sajjadzaidi.com/tlugjan2003.html">pictures of meeting on Sajjad Zaidi's Blog</a></li>
 </ul>
-<p>All Linux lovers, and supporters of open source code and free software are invited to attend the next Tokyo Linux Users Group meeting. Membership is open to anyone. There are currently no membership dues or entrance fees.</p>
+<p>All Linux lovers, and supporters of open source code and free software are
+invited to attend the next Tokyo Linux Users Group meeting. Membership is
+open to anyone. There are currently no membership dues or entrance fees.</p>
 <p><code> Date: Saturday, January 18th, 2003</code><br />
 <code> Place: Leading Edge Co., Ltd.</code><br />
 <code>   (This is our last meeting held at Leading Edge's hall. </code><br />
@@ -154,14 +148,23 @@
 <code>   </code><a href="http://www.leadinge.co.jp/access/body_e.html"><code>http://www.leadinge.co.jp/access/body_e.html</code></a><code>) </code><br />
 <code> Time: 13:30 (until around 17:00)</code></p>
 <h2 id="topics">Topics</h2>
-<h3 id="spam-prevention-attend-if-you-run-your-own-linux-mail-server">Spam Prevention: Attend if you run your own Linux mail server!</h3>
-<p>Jim Tittsler will speak briefly about some of the more recent spam detection/prevention/filtering techniques including SpamAssassin &lt;<a href="http://www.SpamAssassin.org/" class="uri">http://www.SpamAssassin.org/</a>&gt; and SpamBayes &lt;<a href="http://SpamBayes.SourceForge.net/" class="uri">http://SpamBayes.SourceForge.net/</a>&gt;.</p>
+<h3 id="spam_prevention_attend_if_you_run_your_own_linux_mail_server">Spam Prevention: Attend if you run your own Linux mail server!</h3>
+<p>Jim Tittsler will speak briefly about some of the more recent
+spam detection/prevention/filtering techniques including
+SpamAssassin &lt;<a href="http://www.SpamAssassin.org/">http://www.SpamAssassin.org/</a>&gt; and SpamBayes
+&lt;<a href="http://SpamBayes.SourceForge.net/">http://SpamBayes.SourceForge.net/</a>&gt;.</p>
 <ul>
 <li><a href="http://www.onjapan.net/notes/spam/">presentation notes</a></li>
 </ul>
 <h2 id="election">Election</h2>
-<p>This year, we're looking to elect new president who can serve the wonderful Tokyo Linux user community for the year 2003.</p>
-<p>President's job includes organizing technical meetings, (i.e., finding a meeting hall and speakers) set the general direction for the group, boss around the other officers (just kidding!) and promote the use of linux through technical meetings and drinking parties.</p>
+<p>This year, we're looking to elect new president who can
+serve the wonderful Tokyo Linux user community for the year
+2003.</p>
+<p>President's job includes organizing technical meetings,
+(i.e., finding a meeting hall and speakers) set the general
+direction for the group, boss around the other officers (just
+kidding!) and promote the use of linux through technical
+meetings and drinking parties.</p>
 <p>Currently, the key positions are held by members listed below:</p>
 <p><code> President (domainname caretaker): Ayako Kato</code><br />
 <code> Uvae Prez: Mauro Sauco</code><br />
@@ -171,20 +174,26 @@
 <code> Auctioneer: Jim Tittsler</code><br />
 <code> Tresurer: Tim Meggs</code><br />
 <code> (ShadowPresident: Alberto Tomita)</code></p>
-<h2 id="project-at-osdl-japan">Project at OSDL Japan</h2>
-<p>OSDL (Open Source Development Lab) currently hosts TLUG's server free or charge in their Yokohama datacentre, on the condition that TLUG proposes a Linux-based project with them, for which they will provide development environment. This is a great way to contribute to the open source community.</p>
-<p>If you have any suggestions, please bring them here for us to discuss and participate in.</p>
-<p>For more information please visit <a href="http://www.osdl.jp/" class="uri">http://www.osdl.jp/</a></p>
-<h2 id="tlug-auction-and-misc-topics">TLUG auction and misc topics</h2>
+<h2 id="project_at_osdl_japan">Project at OSDL Japan</h2>
+<p>OSDL (Open Source Development Lab) currently hosts TLUG's server
+free or charge in their Yokohama datacentre, on the condition
+that TLUG proposes a Linux-based project with them, for which
+they will provide development environment. This is a great way to
+contribute to the open source community.</p>
+<p>If you have any suggestions, please bring them here for us to
+discuss and participate in.</p>
+<p>For more information please visit <a href="http://www.osdl.jp/">http://www.osdl.jp/</a></p>
+<h2 id="tlug_auction_and_misc_topics">TLUG auction and misc topics</h2>
 <p>(Please see Jim's posting - our auctions are great fun!)</p>
-<h2 id="after-the-meeting">After the meeting</h2>
+<h2 id="after_the_meeting">After the meeting</h2>
 <p>We'll continue our meeting over some beer. (Place TBD)</p>
 <h2 id="contact">Contact</h2>
 <ul>
 <li>Mauro ......090-2492-0840 (Keitai)</li>
 <li>Kato ......070-5591-7003 (PHS)</li>
 </ul>
-<p><font color="#CC2200">2003:01</font> <font color="#CC2200">01</font></p>
+<p><font color="#CC2200">2003:01</font>
+<font color="#CC2200">01</font></p>
     </div>
 
     <div id="footer">

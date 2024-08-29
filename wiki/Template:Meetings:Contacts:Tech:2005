@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,13 +133,14 @@
     </div>
 
     <div class="content">
-      <h3 id="contact-info">Contact Info</h3>
+      <h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li>Zev Blut ............... 090-5778-8067</li>
 <li>Alberto Tomita ............... 080-3463-9256</li>
 </ul>
-<p><font color="#CC2200">Contacts</font> <font color="#CC2200">Meetings:Contacts</font></p>
+<p><font color="#CC2200">Contacts</font>
+<font color="#CC2200">Meetings:Contacts</font></p>
     </div>
 
     <div id="footer">

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,8 @@
     </div>
 
     <div class="content">
-      <p>from <a href="http://www.tlug.jp/meetings/9804/index.html">1</a> <em>Saturday, April 11th, 1998.</em></p>
+      <p>from <a href="http://www.tlug.jp/meetings/9804/index.html">1</a>
+<em>Saturday, April 11th, 1998.</em></p>
 <p>The April 11th meeting brought together over 65 Linux enthusiasts in Tokyo, including Tague Griffith of Netscape Communication's I18N division and Cliff Miller, President of Pacific HiTech.</p>
 <p>We first met at 12:30 at the Yaesu Chuo ticket gate and then went to HSBC for Domino's pizza. The total pizza bill was divided up among all those that ate.</p>
 <p>Joe Marchak, Ken Harada, and Craig Oda, (three of the infamous gang of five TLUG officers) hopped up and down in front of the meeting room to kick off this grand event. Ken gave an amazingly good simultaneous translation session. The bilingual meeting was an enormous success.</p>
@@ -153,29 +146,29 @@
 <p>mozilla.org is a seperate group from Netscape. It is intended that Netscape become another Mozilla distribution, in the same way that RedHat is another Linux distribution. The mozilla.org group is intended to function as the benevolent dictator that Linus works as for the Linux kernel.</p>
 <p>Tague gave out three source code CDs and dozens of Netscape pens.</p>
 <p>The slides of the talk are in the TLUG library. Tague has released the slides on the net at</p>
-<p><a href="http://people.netscape.com/tague/tlug_freesource/page0001.html" class="uri">http://people.netscape.com/tague/tlug_freesource/page0001.html</a></p>
+<p><a href="http://people.netscape.com/tague/tlug_freesource/page0001.html">http://people.netscape.com/tague/tlug_freesource/page0001.html</a></p>
 <p>Tague's personal home page is:</p>
-<p><a href="http://people.netscape.com/tague/" class="uri">http://people.netscape.com/tague/</a></p>
+<p><a href="http://people.netscape.com/tague/">http://people.netscape.com/tague/</a></p>
 <h2 id="linux">Linux</h2>
 <p>The meeting room was hot, filled with computers and people. Joe and Craig stopped counting after we found out that over 65 TLUG members were jammed into the meeting room in the basement of HSBC. There was a large showing of JLUG people including Daisuke Sato (densuke@ga2.so-net.ne.jp), core member of the jrpm project, and Chikasaka-san (chisaka@upu.co.jp), both of who agreed to help setup the TLUG server, though both had had a little to drink at the time they agreed to do the work. These two lads also gave a nice demonstration of the Japanese input using the GTk graphical widget set. Craig immediately went home and compiled it with the following:</p>
 <p><code> cow:~/apps/gtk+-0.99.10$ ./configure --enable-xim --with-locale=ja_JP --host=i586-linux-gnu</code></p>
 <p>Chikasaka-san is also going to tell Craig how to patch the majordomo digest to have it support Japanese subject lines. :-)</p>
 <p>The Metzler brothers showed their video driver.</p>
 <p>jrpm now has a binary distribution of the Xlib with proper locale support.</p>
-<h2 id="tlug-server">TLUG Server</h2>
+<h2 id="tlug_server">TLUG Server</h2>
 <p>The server is now accessible at:</p>
 <ul>
-<li><a href="http://tlug.jp" class="uri">http://tlug.jp</a></li>
-<li><a href="http://tokyo.tlug.org" class="uri">http://tokyo.tlug.org</a></li>
-<li><a href="http://tlug.pht.co.jp" class="uri">http://tlug.pht.co.jp</a></li>
+<li><a href="http://tlug.jp">http://tlug.jp</a></li>
+<li><a href="http://tokyo.tlug.org">http://tokyo.tlug.org</a></li>
+<li><a href="http://tlug.pht.co.jp">http://tlug.pht.co.jp</a></li>
 </ul>
 <p>We are still trying to register the tlug.gr.jp setsuzoku jyouhou with JPNIC.</p>
 <p>We plan to offer e-mail, web page and extended mailing list services to the membership in the near future.</p>
-<h2 id="tpj-jp">TPJ-JP</h2>
+<h2 id="tpj_jp">TPJ-JP</h2>
 <p>The Perl Journal Japan is a project to translate The Perl Journal into Japanese and seek publication from a professional publisher. The Perl Journal Japan home page is:</p>
-<p><a href="http://tlug.jp/~tpj-jp" class="uri">http://tlug.jp/~tpj-jp</a></p>
+<p><a href="http://tlug.jp/~tpj-jp">http://tlug.jp/~tpj-jp</a></p>
 <p>The current plan is to finish the online version and then make a proposal to O'Reilly Japan.</p>
-<h2 id="applixware-j">Applixware-J</h2>
+<h2 id="applixware_j">Applixware-J</h2>
 <p>Applixware Japanese is out in Beta and is functional. Cliff Miller, president of Pacific HiTech, developers of TurboLinux, distributed three copies of Applixware-J beta for testing. If you received a beta test copy, please send in a beta tester report.</p>
 <p>There was a nice demonstration of Applixware-J. Pacific HiTech is going to distribute it for 29,800 yen at the end of May. The first release will not come with any import or export filters, so it will not be able to read and write Microsoft Office files. However, they are working on the filters needed to do this in the future.</p>
 <h2 id="raffle">Raffle</h2>
@@ -190,7 +183,8 @@
 <h2 id="jlug">JLUG</h2>
 <p>We're proposing a minimum of 10,000 yen donation to JLUG using money collected at the meeting. The first round of money goes toward the purchase of a SCSI disk for the TLUG server. Left over money is being sent to JLUG.</p>
 <h2 id="jtlug">JTLUG</h2>
-<p>Japan Tokyo Linux Group home page is: <a href="http://tlug.jp/~jtlug" class="uri">http://tlug.jp/~jtlug</a></p>
+<p>Japan Tokyo Linux Group home page is:
+<a href="http://tlug.jp/~jtlug">http://tlug.jp/~jtlug</a></p>
 <p>Chisaka-san really wanted to encourage people to join jtlug.</p>
 <p><code> send e-mail to majordomo@tlug.jp</code><br />
 <code> and include</code><br />
@@ -209,16 +203,18 @@
 <code> and English</code></p>
 <p><code> JLUG</code><br />
 <code> primarily Japanese</code></p>
-<h2 id="clarification-of-tlug">Clarification of TLUG</h2>
+<h2 id="clarification_of_tlug">Clarification of TLUG</h2>
 <p>TLUG is totally independent of JLUG and has independent meetings and an independent structure. Membership is free and open to anyone. TLUG is non-profit, non-political, and independent of any educational or business organization. TLUG is a loose, 100 percent volunteer organization. Volunteers are always welcome... hint, hint, hint. ;-)</p>
 <h2 id="nomikai">Nomikai</h2>
 <p>After the meeting around 20 people went to Tengu for beer and food. We went to an alternate Tengu that was a little further from the station.</p>
-<h2 id="next-regular-meeting">Next Regular Meeting</h2>
+<h2 id="next_regular_meeting">Next Regular Meeting</h2>
 <p>June 13, 1998. 12:30 at Tokyo station Yaesu chuo ticket gate. The HSBC office has moved to a new location on the same street as the old office.</p>
-<h2 id="irc-servers">IRC Servers</h2>
+<h2 id="irc_servers">IRC Servers</h2>
 <p>Channel #TLUG exists on irc.karrn.ad.jp and irc.stealth.net</p>
-<h2 id="financial-information">Financial Information</h2>
-<p>36,009 yen was collected. <font color="#CC2200">1998:04</font> <font color="#CC2200">04</font></p>
+<h2 id="financial_information">Financial Information</h2>
+<p>36,009 yen was collected.
+<font color="#CC2200">1998:04</font>
+<font color="#CC2200">04</font></p>
     </div>
 
     <div id="footer">

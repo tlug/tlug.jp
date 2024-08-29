@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -146,36 +138,45 @@
 <p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or <b>entrance fees</b>.</p>
 <p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
 <p>As a general rule, the Technical Meetings are held on the 2nd SAT of odd numbered months and the Nomikai Meetings are usually held on the 2nd FRI of even numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
-<h2 id="meeting-2008---09">Meeting / 2008 - 09</h2>
+<h2 id="meeting_2008___09">Meeting / 2008 - 09</h2>
 <p><strong>Template:Meetings:Vitals placeholder</strong></p>
 <h3 id="agenda">Agenda</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
+<h5 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h5>
 <p><strong>“ModSecurity - A Web Application Firewall that actually works”</strong> by <em>Tomoyuki Sakurai</em></p>
-<p>In this session, I will introduce ModSecurity<a href="http://www.modsecurity.org/">[1</a>], which is the most widely deployed Web Application Firewall, licensed under GPL.</p>
+<p>In this session, I will introduce ModSecurity<a href="http://www.modsecurity.org/">[1</a>], which is the most widely
+deployed Web Application Firewall, licensed under GPL.</p>
 <ul>
-<li>[1] <a href="http://www.modsecurity.org/" class="uri">http://www.modsecurity.org/</a></li>
+<li>[1] <a href="http://www.modsecurity.org/">http://www.modsecurity.org/</a></li>
 </ul>
-<p>All vulnerabilities are bugs. The best way to fix the vulnerability is to fix the bug. However, sometimes we cannot do it for various reasons. Still, we have to do something to prevent bad things from happening.</p>
-<p>ModSecurity is an additional layer of security for Web applications. The talk will include overview of ModSecurity, its use cases, deployment, its latest feature and my Perl module to help deployment and operation.</p>
+<p>All vulnerabilities are bugs. The best way to fix the vulnerability is
+to fix the bug. However, sometimes we cannot do it for various reasons.
+Still, we have to do something to prevent bad things from happening.</p>
+<p>ModSecurity is an additional layer of security for Web applications. The
+talk will include overview of ModSecurity, its use cases, deployment,
+its latest feature and my Perl module to help deployment and operation.</p>
 <h5 id="break">&lt;&lt; Break &gt;&gt;</h5>
 <p>Short break <em>(maybe)</em></p>
-<h5 id="short-presentation-2">&lt;&lt; Short Presentation (2) &gt;&gt;</h5>
+<h5 id="short_presentation_2">&lt;&lt; Short Presentation (2) &gt;&gt;</h5>
 <p><strong>“Introduction to Detaxe group”</strong> by <em>Francois Cartegnie</em></p>
-<p>Francois Cartegnie will give an introduction to the Detaxe Group and talk about the work they have done against the linked sales of operating systems with hardware.</p>
-<h5 id="lightening-talks-3">&lt;&lt; Lightening Talks (3) &gt;&gt;</h5>
+<p>Francois Cartegnie will give an introduction to the Detaxe Group and
+talk about the work they have done against the linked sales of
+operating systems with hardware.</p>
+<h5 id="lightening_talks_3">&lt;&lt; Lightening Talks (3) &gt;&gt;</h5>
 <p><strong>“How to build a scalable storage system with OSS”</strong> by <em>Gosuke Miyashita</em></p>
-<p>Gosuke Miyashita will talk about his goal of setting up a Scalable filesytem and storage and give an overview of the technologies he has tried (cman, CLVM, GNBD, GFS2, DRBD and DM-MP).</p>
+<p>Gosuke Miyashita will talk about his goal of setting up a Scalable
+filesytem and storage and give an overview of the technologies he has
+tried (cman, CLVM, GNBD, GFS2, DRBD and DM-MP).</p>
 <ul>
 <li><a href="http://www.slideshare.net/mizzy/how-to-build-a-scalable-storage-system-at-tlug-meeting-20080913-presentation">slides on slideshare</a></li>
 <li><a href="http://trac.mizzy.org/public/wiki/ScalableStorageWithOSS01">Gosuke's blog post on scalable storage</a></li>
 </ul>
-<h4 id="other-items-on-the-agenda">Other Items on the Agenda</h4>
+<h4 id="other_items_on_the_agenda">Other Items on the Agenda</h4>
 <ol>
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
@@ -185,7 +186,8 @@
 <ul>
 <li><a href="http://blogs.sun.com/jimgris/entry/tokyo_linux_user_group_091308">photos of the meeting</a> by <a href="./User:Jimgris">Jim Grisanzio</a></li>
 </ul>
-<p><font color="#CC2200">2008:09</font> <font color="#CC2200">09</font></p>
+<p><font color="#CC2200">2008:09</font>
+<font color="#CC2200">09</font></p>
     </div>
 
     <div id="footer">

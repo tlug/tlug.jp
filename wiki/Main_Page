@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p><big><strong>Welcome to the Tokyo Linux Users Group (TLUG) Wiki</strong></big></p>
-<h2 id="tlug-related">TLUG Related</h2>
+<h2 id="tlug_related">TLUG Related</h2>
 <ul>
 <li><a href="./Current_Meeting">Next meeting</a></li>
 <li><font color="#CC2200">Past Meetings</font></li>
@@ -158,7 +150,7 @@
 <li>TLUG FAQ</li>
 <li>TLUG Threads of interest from the mailing list.</li>
 </ul>
-<h2 id="topics-on-this-wiki">Topics on this Wiki</h2>
+<h2 id="topics_on_this_wiki">Topics on this Wiki</h2>
 <ul>
 <li><a href="./Tech_Events_in_Tokyo">Tech Events in Tokyo</a></li>
 <li><a href="./Linux_Help">Linux Help</a>
@@ -201,14 +193,14 @@
 <li>LocationsInJapan</li>
 </ul></li>
 </ul>
-<h2 id="about-this-wiki">About this Wiki</h2>
+<h2 id="about_this_wiki">About this Wiki</h2>
 <ul>
 <li><a href="./TlugWiki:EditHOWTO">Hey, I can't edit anything! Help!</a></li>
 <li><a href="./TlugWiki:Wiki_Topics">Discussion about this wiki itself</a></li>
 <li><a href="./TlugWiki:Wiki_Topics">Suggestions for the Wiki</a></li>
 <li><font color="#CC2200">Who all is on this wiki?</font></li>
 </ul>
-<h2 id="wikimedia-references">Wikimedia references</h2>
+<h2 id="wikimedia_references">Wikimedia references</h2>
 <ul>
 <li><a href="http://meta.wikimedia.org/wiki/Help:Wikitext">Wiki Syntax Page</a></li>
 <li><a href="http://meta.wikimedia.org/wiki/Help:Contents">User's Guide</a></li>

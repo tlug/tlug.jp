@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,12 +134,16 @@
 
     <div class="content">
       <h2 id="topics">Topics</h2>
-<h3 id="wireless-lan-clinic">Wireless LAN Clinic</h3>
-<p><font color="#CC2200">Alberto Tomita</font> will be bringing in some equipment where we can discuss setting up a wireless LAN. Please bring a Laptop if possible since this will be hands on. There will also be a chance to try out Bluetooth cards.</p>
-<h3 id="philip-greenspun-posssibly"><font color="#CC2200">Philip Greenspun</font> (posssibly)</h3>
-<p>We are hoping Philip will have a chance to come down and speak on some things he has been working on recently. Please see</p>
+<h3 id="wireless_lan_clinic">Wireless LAN Clinic</h3>
+<p><font color="#CC2200">Alberto Tomita</font> will be bringing in some equipment where
+we can discuss setting up a wireless LAN. Please bring a Laptop
+if possible since this will be hands on. There will also be a
+chance to try out Bluetooth cards.</p>
+<h3 id="philip_greenspun_posssibly"><font color="#CC2200">Philip Greenspun</font> (posssibly)</h3>
+<p>We are hoping Philip will have a chance to come down and
+speak on some things he has been working on recently. Please see</p>
 <ul>
-<li><a href="http://philip.greenspun.com" class="uri">http://philip.greenspun.com</a></li>
+<li><a href="http://philip.greenspun.com">http://philip.greenspun.com</a></li>
 <li>http.//www.arsdigita.com</li>
 </ul>
 <h2 id="nomikai">Nomikai</h2>

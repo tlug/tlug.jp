@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,7 +136,7 @@
       <h2 id="overview">Overview</h2>
 <p>The Translations project will be a point to refer for all the peoples that want to translate some pages of this wiki in their language.</p>
 <p>We will use also the category <font color="#CC2200">Translations</font></p>
-<h2 id="language-subprojects">Language SubProjects</h2>
+<h2 id="language_subprojects">Language SubProjects</h2>
 <p>Every language will have a subproject page on Project:Translations:Language (es: <a href="./Projects:Translations:Italian">Projects:Translations:Italian</a>).</p>
 <p>The page of the subproject will be written in the language of the subproject.</p>
 <h2 id="status">Status</h2>

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -147,7 +139,7 @@
 <h5 id="video">Video</h5>
 <p>Weren't able to make it to the meeting? You can view the presentations on YouTube!</p>
 <p></p>
-<h3 id="other-items-on-the-agenda">Other Items on the Agenda</h3>
+<h3 id="other_items_on_the_agenda">Other Items on the Agenda</h3>
 <ol>
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,7 +136,12 @@
       <p><strong>Amataro Shinbashi-ten</strong><br />
 STEC 2nd Bldg., B1/B2 F<br />
 3-23-1 Shinbashi, Minato-ku, Tokyo<br />
-tel: 03-3431-5621 [ <a href="http://www.colowide.co.jp/tempo/amataro/60.html">homepage</a> ] <font color="#CC2200">Amataro_Shinbashi-ten</font> <font color="#CC2200">Shinbashi:Amataro_Shinbashi-ten</font> <font color="#CC2200">Locations:Shinbashi:Amataro_Shinbashi-ten</font> <font color="#CC2200">Meetings:Locations:Shinbashi:Amataro_Shinbashi-ten</font></p>
+tel: 03-3431-5621
+[ <a href="http://www.colowide.co.jp/tempo/amataro/60.html">homepage</a> ]
+<font color="#CC2200">Amataro_Shinbashi-ten</font>
+<font color="#CC2200">Shinbashi:Amataro_Shinbashi-ten</font>
+<font color="#CC2200">Locations:Shinbashi:Amataro_Shinbashi-ten</font>
+<font color="#CC2200">Meetings:Locations:Shinbashi:Amataro_Shinbashi-ten</font></p>
     </div>
 
     <div id="footer">

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,11 +133,12 @@
     </div>
 
     <div class="content">
-      <p><big><strong>Pietro Zuco</strong></big> <img src="/images/Pietro_zuco.jpg" title="fig:Photo by Jim Grisanzio http://jimgrisanzio.com/" alt="Photo by Jim Grisanzio http://jimgrisanzio.com/" /></p>
-<p>'''Linkedin: <em>' <a href="http://www.linkedin.com/in/zucopietro" class="uri">http://www.linkedin.com/in/zucopietro</a><br />
+      <p><big><strong>Pietro Zuco</strong></big>
+<img src="/images/Pietro_zuco.jpg" title="Photo by Jim Grisanzio http://jimgrisanzio.com/" alt="Photo by Jim Grisanzio http://jimgrisanzio.com/" /></p>
+<p><strong>Linkedin:</strong> <a href="http://www.linkedin.com/in/zucopietro">http://www.linkedin.com/in/zucopietro</a><br />
 <strong>Nationality:</strong> Italian<br />
-<strong>Work</strong>: <a href="http://www.pietrozuco.com" class="uri">http://www.pietrozuco.com</a><br />
-</em>'Follow me at Twitter: ''' <a href="http://twitter.com/pietrozuco" class="uri">http://twitter.com/pietrozuco</a><br />
+<strong>Work</strong>: <a href="http://www.pietrozuco.com">http://www.pietrozuco.com</a><br />
+<strong>Follow me at Twitter:</strong> <a href="http://twitter.com/pietrozuco">http://twitter.com/pietrozuco</a><br />
 <strong>Contact:</strong> mailto @ pietrozuco.com</p>
 <ul>
 <li>Previous TLUG Vice President</li>

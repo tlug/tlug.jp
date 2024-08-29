@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -145,7 +137,10 @@
 Fujibayashi Bldg. B1<br />
 3-15-13 Akasaka, Minato-ku, Tokyo<br />
 tel 03-3584-9745</p>
-<p><font color="#CC2200">Tengu_New_Akasaka-ten</font> <font color="#CC2200">Akasaka:Tengu_New_Akasaka-ten</font> <font color="#CC2200">Locations:Akasaka:Tengu_New_Akasaka-ten</font> <font color="#CC2200">Meetings:Locations:Akasaka:Tengu_New_Akasaka-ten</font></p>
+<p><font color="#CC2200">Tengu_New_Akasaka-ten</font>
+<font color="#CC2200">Akasaka:Tengu_New_Akasaka-ten</font>
+<font color="#CC2200">Locations:Akasaka:Tengu_New_Akasaka-ten</font>
+<font color="#CC2200">Meetings:Locations:Akasaka:Tengu_New_Akasaka-ten</font></p>
     </div>
 
     <div id="footer">

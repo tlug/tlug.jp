@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,7 @@
     </div>
 
     <div class="content">
-      <h2 id="limiting-search-to-year-and-month">Limiting Search to Year and Month</h2>
+      <h2 id="limiting_search_to_year_and_month">Limiting Search to Year and Month</h2>
 <p>The TLUG list urls have the following form</p>
 <p><code> http://tlug.jp/ML/[</code><em><code>y</code></em><code>][</code><em><code>m</code></em><code>]/msg['\d\d\d\d'].html</code></p>
 <ul>
@@ -151,26 +143,26 @@
 <p>e.g.</p>
 <p><code> </code><a href="http://tlug.jp/ML/9603/msg00170.html"><code>http://tlug.jp/ML/9603/msg00170.html</code></a></p>
 <p>This email was posted to the TLUG list in March 1996. To find other emails posted in this month with the keyword “Linux”</p>
-<p><code> </code><a href="http://www.google.com/search?q=inurl:tlug.jp/ML/9603+Linux"><code>inurl:tlug.jp/ML/9603</code><code> </code><code>Linux</code></a></p>
-<h2 id="find-emails-posted-by-specific-person">Find Emails posted by specific person</h2>
+<p><code> </code><a href="http://www.google.com/search?q=inurl:tlug.jp/ML/9603+Linux"><code>inurl:tlug.jp/ML/9603 Linux</code></a></p>
+<h2 id="find_emails_posted_by_specific_person">Find Emails posted by specific person</h2>
 <p>quoting a phrase matches the phrase rather then the individual words so to find emails by a specific user use</p>
-<p><code> </code>“<code>From:</code><code> </code><code>[name]</code>”</p>
+<p><code> “From: [name]”</code></p>
 <p>e.g.</p>
-<p><code> inurl:tlug.jp/ML/ </code>“<code>From:</code><code> </code><code>Jim</code><code> </code><code>Schweizer</code>”</p>
+<p><code> inurl:tlug.jp/ML/ “From: Jim Schweizer”</code></p>
 <p>This seems to work reasonable well.</p>
-<h2 id="messages-that-have-been-linked-to">Messages that have been linked to</h2>
+<h2 id="messages_that_have_been_linked_to">Messages that have been linked to</h2>
 <p>If you want to find who has a link to something in the mail archives use.</p>
 <p><code> links:[url]</code></p>
 <p>e.g.</p>
-<p><code> </code><a href="http://www.google.com/search?q=links:http://tlug.linux.or.jp/docs/linus.html"><code>links:</code><a href="http://tlug.linux.or.jp/docs/linus.html"><code>http://tlug.linux.or.jp/docs/linus.html</code></a></a></p>
+<p><code> </code><a href="http://www.google.com/search?q=links:http://tlug.linux.or.jp/docs/linus.html"><code>links:</code><span><code>http://tlug.linux.or.jp/docs/linus.html</code></span></a></p>
 <p>As shown above, this will work with any link not just the mail archives. Remember tlug has had multiple domain names over the years so not all links point to tlug.jp.</p>
-<h2 id="pruning-result-by-keyword">Pruning result by keyword</h2>
+<h2 id="pruning_result_by_keyword">Pruning result by keyword</h2>
 <p>Sometimes the most appropriate word for searching the archive has another meaning. To remove these irrelevant result place a negative before words found uniquely in these results. This can be particularly useful for removing maillist.html and threads.html pages from the results.</p>
 <p>e.g.</p>
-<p><code> </code><a href="http://www.google.com/search?q=inurl:tlug.jp/ML/+election+-IPU+-smb+-democrat+-council+-US+-maillist.html+-threads.html"><code>inurl:tlug.jp/ML/</code><code> </code><code>election</code><code> </code><code>-IPU</code><code> </code><code>-smb</code><code> </code><code>-democrat</code><code> </code><code>-council</code><code> </code><code>-US</code><code> </code><code>-maillist.html</code><code> </code><code>-threads.html</code></a></p>
+<p><code> </code><a href="http://www.google.com/search?q=inurl:tlug.jp/ML/+election+-IPU+-smb+-democrat+-council+-US+-maillist.html+-threads.html"><code>inurl:tlug.jp/ML/ election -IPU -smb -democrat -council -US -maillist.html -threads.html</code></a></p>
 <p>You could use this to search for messages on tlug elections and remove messages about samba domain elections and discussion about the US election.</p>
 <p>this also works for sites so you could do</p>
-<p><code> </code><a href="http://www.google.com/search?q=links:www.twics.com/~tlug/+-site:www.tlug.jp+-site:tlug.jp"><code>links:www.twics.com/~tlug/</code><code> </code><code>-site:www.tlug.jp</code><code> </code><code>-site:tlug.jp</code></a></p>
+<p><code> </code><a href="http://www.google.com/search?q=links:www.twics.com/~tlug/+-site:www.tlug.jp+-site:tlug.jp"><code>links:www.twics.com/~tlug/ -site:www.tlug.jp -site:tlug.jp</code></a></p>
 <p>to find all links to the old tlug site that aren't from the current site.</p>
     </div>
 

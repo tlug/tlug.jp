@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -153,24 +145,27 @@
 <h4 id="event">Event</h4>
 <p>Eat and drink (primarily a social activity)</p>
 <h4 id="location">Location</h4>
-<p>Nihonbashi Mitsukoshi Dept Store Rooftop Beer Garden <a href="http://mitsukoshi.mistore.jp/store/nihombashi/event/beergarden/index.html">1</a></p>
+<p>Nihonbashi Mitsukoshi Dept Store Rooftop Beer Garden
+<a href="http://mitsukoshi.mistore.jp/store/nihombashi/event/beergarden/index.html">1</a></p>
 <p>address: Nihombashi Muro-machi 1-4-1 Chuo-ku, Tokyo</p>
-<p>map: <a href="http://mitsukoshi.mistore.jp/store/nihombashi/access/index.html" class="uri">http://mitsukoshi.mistore.jp/store/nihombashi/access/index.html</a></p>
+<p>map: <a href="http://mitsukoshi.mistore.jp/store/nihombashi/access/index.html">http://mitsukoshi.mistore.jp/store/nihombashi/access/index.html</a></p>
 <p>English access info (map is still Japanese tho'):</p>
-<p><a href="http://mitsukoshi.mistore.jp.e.ki.hp.transer.com/store/nihombashi/access/index.html" class="uri">http://mitsukoshi.mistore.jp.e.ki.hp.transer.com/store/nihombashi/access/index.html</a></p>
+<p><a href="http://mitsukoshi.mistore.jp.e.ki.hp.transer.com/store/nihombashi/access/index.html">http://mitsukoshi.mistore.jp.e.ki.hp.transer.com/store/nihombashi/access/index.html</a></p>
 <h4 id="cost">Cost</h4>
-<p>Men: 3,901 yen / Women: 3,701 yen (all you can eat/all you can drink)</p>
+<p>Men: 3,901 yen / Women: 3,701 yen
+(all you can eat/all you can drink)</p>
 <h3 id="details">Details</h3>
 <p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
 <p>To help us make sure that there will be room for everyone to seat, <strong>please register</strong> your attendance in <a href="http://tlug.doorkeeper.jp/">Doorkeeper</a>.</p>
 <p>Even if you want to come at the last minute it's okay - we may have to squeeze a bit, but please come!</p>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 </ul>
-<p><font color="#CC2200">2014:06</font> <font color="#CC2200">06</font></p>
+<p><font color="#CC2200">2014:06</font>
+<font color="#CC2200">06</font></p>
     </div>
 
     <div id="footer">

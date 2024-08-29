@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,11 +134,11 @@
 
     <div class="content">
       <p>Author: <a href="./User:Jmglov">Josh Glover</a></p>
-<h2 id="do-you-have-mrtg">Do You Have MRTG?</h2>
+<h2 id="do_you_have_mrtg">Do You Have MRTG?</h2>
 <p>In a shell, type:</p>
 <p><code>which mrtg</code></p>
 <p>This should return the path to <em>mrtg</em>, probably <em>/usr/bin/mrtg</em>. If it is found, continue to <a href="#Configuring_MRTG" title="wikilink">#Configuring MRTG</a>. If it is not found, see <a href="./Linux_Help:QND-Guides:Finding_and_Installing_Software">Linux_Help:QND-Guides:Finding_and_Installing_Software</a></p>
-<h2 id="configuring-mrtg">Configuring MRTG</h2>
+<h2 id="configuring_mrtg">Configuring MRTG</h2>
 <p>To generate an <em>mrtg.cfg</em> file, you can use the <em>cfgmaker</em> program (included in the MRTG distribution). In a shell, type:</p>
 <p><code>su - root</code><br />
 <code>mkdir /usr/local/mrtg</code><br />
@@ -158,7 +150,7 @@
 <p>You will also need to change the bit of the command that says 'community@router.my.domain' to reflect the community string and hostname or IP address of whichever piece of networking hardware you will be using MRTG to monitor.</p>
 <p>For more on <em>cfgmaker</em>, type into a shell:</p>
 <p><code>man cfgmaker</code></p>
-<h2 id="letting-mrtg-grab-its-data">Letting MRTG Grab its Data</h2>
+<h2 id="letting_mrtg_grab_its_data">Letting MRTG Grab its Data</h2>
 <p>In a shell, type:</p>
 <p><code>su - root</code><br />
 <code>crontab -e</code></p>
@@ -168,36 +160,36 @@
 <p>This will run the MRTG script every five minutes, using the config file that you created in <a href="#Configuring_MRTG" title="wikilink">#Configuring MRTG</a>. If your <em>mrtg</em> script is installed in a difference place (type</p>
 <pre><code>which mrtg</code></pre>
 <p>to find out), replace the <em>/usr/bin/mrtg</em> with that path. Likewise, if you saved your config to a file other than <em>/etc/mrtg.cfg</em>, substitute that file above.</p>
-<h2 id="view-the-results">View the Results</h2>
+<h2 id="view_the_results">View the Results</h2>
 <p>Congratulations, you should be done. Fire up a web browser and point it at the directory (or URL, if you are running a webserver and you chose to put your MRTG data in its documents tree) that you specified in <a href="#Configuring_MRTG" title="wikilink">#Configuring MRTG</a>. You should see plenty of colourful graphs.</p>
 <h2 id="references">References</h2>
 <ol>
 <li>For more information on MRTG, see:
 <ol>
-<li><a href="http://people.ee.ethz.ch/~oetiker/webtools/mrtg/" class="uri">http://people.ee.ethz.ch/~oetiker/webtools/mrtg/</a></li>
-<li><a href="http://people.ee.ethz.ch/~oetiker/webtools/mrtg/mrtg.html" class="uri">http://people.ee.ethz.ch/~oetiker/webtools/mrtg/mrtg.html</a></li>
+<li><a href="http://people.ee.ethz.ch/~oetiker/webtools/mrtg/">http://people.ee.ethz.ch/~oetiker/webtools/mrtg/</a></li>
+<li><a href="http://people.ee.ethz.ch/~oetiker/webtools/mrtg/mrtg.html">http://people.ee.ethz.ch/~oetiker/webtools/mrtg/mrtg.html</a></li>
 </ol></li>
 <li>For more information on SNMP (Simple Network Management Protocol, which MRTG uses to get its data), see:
 <ol>
-<li><a href="ftp://ftp.isi.edu/in-notes/rfc1157.txt" class="uri">ftp://ftp.isi.edu/in-notes/rfc1157.txt</a></li>
-<li><a href="http://www.rescomp.berkeley.edu/about/training/senior/progs/SNMP-HOWTO/SNMP-HOWTO.html" class="uri">http://www.rescomp.berkeley.edu/about/training/senior/progs/SNMP-HOWTO/SNMP-HOWTO.html</a></li>
-<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm#xtocid176251" class="uri">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm#xtocid176251</a></li>
+<li><a href="ftp://ftp.isi.edu/in-notes/rfc1157.txt">ftp://ftp.isi.edu/in-notes/rfc1157.txt</a></li>
+<li><a href="http://www.rescomp.berkeley.edu/about/training/senior/progs/SNMP-HOWTO/SNMP-HOWTO.html">http://www.rescomp.berkeley.edu/about/training/senior/progs/SNMP-HOWTO/SNMP-HOWTO.html</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm#xtocid176251">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm#xtocid176251</a></li>
 </ol></li>
 <li>For more information on setting up MRTG to monitor Cisco hardware, see:
 <ol>
-<li><a href="http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/mrtg.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/mrtg.htm</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/mrtg.htm">http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/mrtg.htm</a></li>
 </ol></li>
 <li>And finally, for more information on enabling and configuring SNMP on Cisco hardware (you *do* use Cisco, right?), see:
 <ol>
-<li><a href="http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/snmpios.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/snmpios.htm</a></li>
-<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm</a></li>
-<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm" class="uri">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/snmpios.htm">http://www.cisco.com/univercd/cc/td/doc/cisintwk/intsolns/dialsol/nmssol/snmpios.htm</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm</a></li>
+<li><a href="http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm">http://www.cisco.com/univercd/cc/td/doc/product/software/ios121/121cgcr/fun_c/fcprt3/fcd301.htm</a></li>
 </ol></li>
 </ol>
-<h2 id="chasing-dependencies">Chasing Dependencies</h2>
+<h2 id="chasing_dependencies">Chasing Dependencies</h2>
 <p>If you are reading this, you must be having a problem with dependencies that is keeping MRTG from installing. If this is not the case, stop reading this appendix.</p>
 <p>The steps that you must follow to resolve your dependencies will again differ based on which distribution you run.</p>
-<h3 id="red-hat-mandrake-or-other-rpm-based-linux-distro">Red Hat, Mandrake, or other RPM-based Linux distro</h3>
+<h3 id="red_hat_mandrake_or_other_rpm_based_linux_distro">Red Hat, Mandrake, or other RPM-based Linux distro</h3>
 <p>The <em>mrtg-2.9.17-3.i386.rpm</em> RPM depends on the <em>gd-devel</em> package for generating the graphs. gd-devel has a few dependencies of its own. To fix the dependency problems, try the following steps:</p>
 <ol>
 <li>In a shell, type:

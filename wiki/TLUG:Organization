@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,39 +134,41 @@
 
     <div class="content">
       <p>TLUG welcomes members who want to volunteer for any position. You can volunteer to help as much or as little as you want. All contributions are valuable.</p>
-<h2 id="current-officers">Current Officers</h2>
+<h2 id="current_officers">Current Officers</h2>
 <h3 id="elected">Elected</h3>
 <h4 id="president">President</h4>
-<p><img src="/images/Edward.jpg" title="fig:/images/Edward.jpg" alt="/images/Edward.jpg" /> <a href="./User:Edward">Edward Middleton</a></p>
-<h4 id="vice-president">Vice President</h4>
+<p><img src="/images/Edward.jpg" title="/images/Edward.jpg" alt="/images/Edward.jpg" /> <a href="./User:Edward">Edward Middleton</a></p>
+<h4 id="vice_president">Vice President</h4>
 <h4 id="treasurer">Treasurer</h4>
-<p><img src="/images/Tim.jpg" title="fig:/images/Tim.jpg" alt="/images/Tim.jpg" /> <a href="./User:Tim">Tim Meggs</a></p>
+<p><img src="/images/Tim.jpg" title="/images/Tim.jpg" alt="/images/Tim.jpg" /> <a href="./User:Tim">Tim Meggs</a></p>
 <h3 id="appointed">Appointed</h3>
 <h4 id="sysadmin">Sysadmin</h4>
-<p><img src="/images/R_muffin_thumb.jpg" title="fig:/images/R_muffin_thumb.jpg" alt="/images/R_muffin_thumb.jpg" /> <a href="./User:Ragga">Henri 'ragga muffin' Servomaa</a></p>
+<p><img src="/images/R_muffin_thumb.jpg" title="/images/R_muffin_thumb.jpg" alt="/images/R_muffin_thumb.jpg" /> <a href="./User:Ragga">Henri 'ragga muffin' Servomaa</a></p>
 <h4 id="listmaster">Listmaster</h4>
-<p><img src="/images/Josh_glover.jpg" title="fig:/images/Josh_glover.jpg" alt="/images/Josh_glover.jpg" /> <a href="./User:Jmglov">Josh Glover</a></p>
-<h4 id="list-moderators">List Moderators</h4>
+<p><img src="/images/Josh_glover.jpg" title="/images/Josh_glover.jpg" alt="/images/Josh_glover.jpg" /> <a href="./User:Jmglov">Josh Glover</a></p>
+<h4 id="list_moderators">List Moderators</h4>
 <ul>
 <li><font color="#CC2200">Scott Robbins</font></li>
 <li>Jonathan Byrne</li>
 <li>Godwin Stewart</li>
 </ul>
 <h4 id="webmaster">Webmaster</h4>
-<p><img src="/images/Smallpenguin.jpg" title="fig:/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a> <img src="/images/Keith.jpg" title="fig:/images/Keith.jpg" alt="/images/Keith.jpg" /> <a href="./User:Bawdo2001">Keith Bawden</a></p>
+<p><img src="/images/Smallpenguin.jpg" title="/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a>
+<img src="/images/Keith.jpg" title="/images/Keith.jpg" alt="/images/Keith.jpg" /> <a href="./User:Bawdo2001">Keith Bawden</a></p>
 <h4 id="wikimaster">Wikimaster</h4>
-<p><img src="/images/Smallpenguin.jpg" title="fig:/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a></p>
-<h4 id="editor-in-chief">Editor in Chief</h4>
+<p><img src="/images/Smallpenguin.jpg" title="/images/Smallpenguin.jpg" alt="/images/Smallpenguin.jpg" /> <a href="./User:Hoanga">Alain Hoang</a></p>
+<h4 id="editor_in_chief">Editor in Chief</h4>
 <p><font color="red">''Proposal: <a href="./User:Jmglov">Jmglov</a> 14:19, 28 July 2007 (JST)</font></p>
-<p>Open. If you are interested, volunteer on <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a> .</p>
-<h2 id="job-descriptions">Job Descriptions</h2>
-<h3 id="elected-1">Elected</h3>
-<h4 id="president-1">President</h4>
-<h4 id="vice-president-1">Vice President</h4>
-<h4 id="treasurer-1">Treasurer</h4>
-<h3 id="appointed-1">Appointed</h3>
-<h4 id="sysadmin-1">Sysadmin</h4>
-<h4 id="listmaster-1">Listmaster</h4>
+<p>Open. If you are interested, volunteer on <a href="http://www.tlug.jp/mailman/listinfo/tlug-admin">the <em>tlug-admin</em> mailing list</a>
+.</p>
+<h2 id="job_descriptions">Job Descriptions</h2>
+<h3 id="elected_1">Elected</h3>
+<h4 id="president_1">President</h4>
+<h4 id="vice_president_1">Vice President</h4>
+<h4 id="treasurer_1">Treasurer</h4>
+<h3 id="appointed_1">Appointed</h3>
+<h4 id="sysadmin_1">Sysadmin</h4>
+<h4 id="listmaster_1">Listmaster</h4>
 <p>The duties of the Listmaster, in order of decreasing importance, are as follows:</p>
 <ol>
 <li>Ensure that the mailing list is receiving and delivering mail.</li>
@@ -188,14 +182,14 @@
 </ol></li>
 <li>Handle automatic deferrals of list-bound mail and sort the spam from the ham.</li>
 </ol>
-<h4 id="list-moderators-1">List Moderators</h4>
+<h4 id="list_moderators_1">List Moderators</h4>
 <p>The duties of the List Moderators are as follows:</p>
 <ol>
 <li>Moderate the mailing list, keeping discussions on-topic, polite, and useful.</li>
 </ol>
-<h4 id="webmaster-1">Webmaster</h4>
-<h4 id="wikimaster-1">Wikimaster</h4>
-<h4 id="editor-in-chief-1">Editor in Chief</h4>
+<h4 id="webmaster_1">Webmaster</h4>
+<h4 id="wikimaster_1">Wikimaster</h4>
+<h4 id="editor_in_chief_1">Editor in Chief</h4>
 <p><font color="red">''Proposal: <a href="./User:Jmglov">Jmglov</a> 14:19, 28 July 2007 (JST)</font></p>
 <p>I envision the responsibilities of this position to be as follows, in order of decreasing importance:</p>
 <ol>
@@ -207,7 +201,7 @@
 <li>Recruit language-specific editors to provide the same services for articles written in languages other than English.</li>
 </ol>
 <p>Due to the nature of the position, only native-level English speakers should apply.</p>
-<h2 id="see-also">See Also</h2>
+<h2 id="see_also">See Also</h2>
 <p><font color="#CC2200">Officers</font></p>
     </div>
 

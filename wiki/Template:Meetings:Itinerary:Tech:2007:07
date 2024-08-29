@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,27 +135,28 @@
     <div class="content">
       <h3 id="itinerary">Itinerary</h3>
 <h4 id="presentations">Presentations</h4>
-<h5 id="all-the-world-is-a-filesystem-what-fuse-is-and-why-you-care-by-josh-glover">“All the World is a Filesystem: What FUSE is and Why You Care” by <font color="#CC2200">Josh Glover</font></h5>
+<h5 id="all_the_world_is_a_filesystem_what_fuse_is_and_why_you_care_by_josh_glover">“All the World is a Filesystem: What FUSE is and Why You Care” by <font color="#CC2200">Josh Glover</font></h5>
 <p>Josh explained FUSE (Filesystem in UserSpacE), introduced a few neat filesystems built on top of FUSE, and mentioned his s3fs-jmglov. A future Lightning talk will be used to present s3fs-jmglov once the code advances beyond Proof-Of-Concept stage.</p>
-<h4 id="lightning-talks">Lightning Talks</h4>
-<p>''From <a href="http://en.wikipedia.org/wiki/Lightning_Talk">Lightning_Talk (Wikipedia)</a> ''</p>
+<h4 id="lightning_talks">Lightning Talks</h4>
+<p><em>From <a href="http://en.wikipedia.org/wiki/Lightning_Talk">Lightning_Talk (Wikipedia)</a></em></p>
 <blockquote>
 <p>A Lightning Talk is a short presentation given at a conference or similar forum. Unlike other presentations, lightning talks last only a few minutes and several will usually be delivered in a single period by different speakers.</p>
 </blockquote>
-<h5 id="opensolaris-an-update-on-happenings-in-japan-and-around-the-world-by-jim-grisanzio-sr.-program-manager-opensolaris-engineering">“OpenSolaris: an update on happenings in Japan and around the world”, by <a href="./Jim_Grisanzio">Jim Grisanzio</a>, Sr. Program Manager, OpenSolaris Engineering</h5>
+<h5 id="opensolaris_an_update_on_happenings_in_japan_and_around_the_world_by_jim_grisanzio_sr._program_manager_opensolaris_engineering">“OpenSolaris: an update on happenings in Japan and around the world”, by <a href="./Jim_Grisanzio">Jim Grisanzio</a>, Sr. Program Manager, OpenSolaris Engineering</h5>
 <p>Jim had OpenSolaris DVDs for all; if you could not make the meeting but want to try out OpenSolaris, you can download CD or DVD images or the OpenSolaris Starter Kit, or request a Starter Kit be mailed to you, free of charge!</p>
-<h5 id="time-tracking-thats-not-evil-by-emerson-mills">“Time Tracking that's not Evil” by <font color="#CC2200">Emerson Mills</font></h5>
-<h5 id="partitioning-with-lvm2-by-edward-middleton">“Partitioning with LVM2” by <a href="./User:Edward">Edward Middleton</a></h5>
+<h5 id="time_tracking_thats_not_evil_by_emerson_mills">“Time Tracking that's not Evil” by <font color="#CC2200">Emerson Mills</font></h5>
+<h5 id="partitioning_with_lvm2_by_edward_middleton">“Partitioning with LVM2” by <a href="./User:Edward">Edward Middleton</a></h5>
 <h4 id="demos">Demos</h4>
 <p>Questions, trouble-shooting, and smaller demonstrations. If you need some help or have something to show off, please bring your notebook.</p>
-<h5 id="xemacs-by-stephen-j.-turnbull-xemacs-project-release-manager">“XEmacs” by <font color="#CC2200">Stephen J. Turnbull</font>, XEmacs Project Release Manager</h5>
+<h5 id="xemacs_by_stephen_j._turnbull_xemacs_project_release_manager">“XEmacs” by <font color="#CC2200">Stephen J. Turnbull</font>, XEmacs Project Release Manager</h5>
 <p>Stephen showed</p>
-<h3 id="other-items-on-the-agenda">Other Items on the Agenda</h3>
+<h3 id="other_items_on_the_agenda">Other Items on the Agenda</h3>
 <ol>
 <li>Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A</li>
 <li>Auction (bring any gear that would would like to donate to TLUG)</li>
 </ol>
-<p><font color="#CC2200">Itinerary</font> <font color="#CC2200">Meetings:Itinerary</font></p>
+<p><font color="#CC2200">Itinerary</font>
+<font color="#CC2200">Meetings:Itinerary</font></p>
     </div>
 
     <div id="footer">

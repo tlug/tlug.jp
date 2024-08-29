@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,12 +134,17 @@
 
     <div class="content">
       <h2 id="topics">Topics</h2>
-<h3 id="linux-on-a-compaq-ipaq">Linux on a Compaq iPAQ</h3>
-<p><font color="#CC2200">Jim Tittsler</font> will talk about installing Linux on a Compaq iPAQ. Included in his talk will be demonstration as well as a discussion of embedded Linux.</p>
-<h3 id="linux-professional-institute-japan">Linux Professional Institute (Japan)</h3>
-<p><font color="#CC2200">Kinichi Kitano</font> will talk about LPI in Japan including how to register for the LPI examination and how to take the exam. He'll also talk about what other kind of linux certification is available (Sair, A++...)</p>
-<h3 id="red-hat-certified-engineer-japan">Red Hat Certified Engineer (Japan)</h3>
-<p><font color="#CC2200">Scott Hughs</font> will not be able to make it but will come and talk in more detail at a future meeting.</p>
+<h3 id="linux_on_a_compaq_ipaq">Linux on a Compaq iPAQ</h3>
+<p><font color="#CC2200">Jim Tittsler</font> will talk about installing Linux on a Compaq iPAQ. Included
+in his talk will be demonstration as well as a discussion of embedded
+Linux.</p>
+<h3 id="linux_professional_institute_japan">Linux Professional Institute (Japan)</h3>
+<p><font color="#CC2200">Kinichi Kitano</font> will talk about LPI in Japan including how to register for
+the LPI examination and how to take the exam. He'll also talk about
+what other kind of linux certification is available (Sair, A++...)</p>
+<h3 id="red_hat_certified_engineer_japan">Red Hat Certified Engineer (Japan)</h3>
+<p><font color="#CC2200">Scott Hughs</font> will not be able to make it but will come and talk in more
+detail at a future meeting.</p>
     </div>
 
     <div id="footer">

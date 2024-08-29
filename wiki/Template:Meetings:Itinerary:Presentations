@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,7 +135,9 @@
     <div class="content">
       <h4 id="presentations">Presentations</h4>
 <p></p>
-<p><font color="#CC2200">Presentations</font> <font color="#CC2200">Itinerary:Presentations</font> <font color="#CC2200">Meetings:Itinerary:Presentations</font></p>
+<p><font color="#CC2200">Presentations</font>
+<font color="#CC2200">Itinerary:Presentations</font>
+<font color="#CC2200">Meetings:Itinerary:Presentations</font></p>
     </div>
 
     <div id="footer">

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,9 +135,9 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="an-introduction-to-coreos-by-edward-middleton">An Introduction to CoreOS (by <a href="./Edward_Middleton">Edward Middleton</a>)</h6>
+<h6 id="an_introduction_to_coreos_by_edward_middleton">An Introduction to CoreOS (by <a href="./Edward_Middleton">Edward Middleton</a>)</h6>
 <p>The presentation will cover the basic features and architecture of CoreOS then go into the setup of a simple CoreOS cluster. There will be a brief introduction to the CoreOS sdk and a look at options for extending the base OS.</p>
-<h6 id="audio-production-on-linux-by-andreas-kieckens">Audio production on Linux (by <font color="#CC2200">Andreas Kieckens</font>)</h6>
+<h6 id="audio_production_on_linux_by_andreas_kieckens">Audio production on Linux (by <font color="#CC2200">Andreas Kieckens</font>)</h6>
 <p>For about six months now, Andreas has been self-studying the craft of audio production on Linux. During this presentation he will talk about some of the things he's learned so far.</p>
 <p>This will cover:</p>
 <ul>

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -146,10 +138,19 @@
 <ul>
 <li><strong>Main Topic</strong></li>
 </ul>
-<p>“AWS and deploying Linux with EC2” By Mauro Sauco</p>
-<p>This month, Mauro Sauco will be giving an introduction and demonstration of Amazon Web Services (AWS), and in particular will be showing how to deploy new Amazon Machine Instances (AMIs) to EC2. He will also explain how to manage instances.</p>
-<p>If you are involved in a project or have something you would like to talk about in this or a future technical meeting, we are always looking for presenters.</p>
-<p>Other items on the agenda are: 1. Introduction of new members, news about Linux/Open Source, general announcements, Q&amp;A 2. Auction</p>
+<p>“AWS and deploying Linux with EC2”
+By Mauro Sauco</p>
+<p>This month, Mauro Sauco will be giving an introduction and demonstration
+of Amazon Web Services (AWS), and in particular will be showing how to
+deploy new Amazon Machine Instances (AMIs) to EC2. He will also explain
+how to manage instances.</p>
+<p>If you are involved in a project or have something you would like to
+talk about in this or a future technical meeting, we are always looking
+for presenters.</p>
+<p>Other items on the agenda are:
+1. Introduction of new members, news about Linux/Open Source,
+general announcements, Q&amp;A
+2. Auction</p>
     </div>
 
     <div id="footer">

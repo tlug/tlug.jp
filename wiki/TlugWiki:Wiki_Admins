@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,7 +133,7 @@
     </div>
 
     <div class="content">
-      <h1 id="tlug-wiki-admin-list">TLUG Wiki Admin List</h1>
+      <h1 id="tlug_wiki_admin_list">TLUG Wiki Admin List</h1>
 <ul>
 <li><a href="./User:Hoanga">Al Hoang</a></li>
 <li><a href="./User:Jmglov">Josh Glover</a></li>

@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -144,7 +136,11 @@
       <p><strong>Hobgoblin (across from LinuxProbe)</strong><br />
 Tamondo Bldg., B1<br />
 2-13-19 Akasaka, Minato-ku, Tokyo<br />
-tel. 03-3585-3681 <font color="#CC2200">Tengu_New_Akasaka-ten</font> <font color="#CC2200">Akasaka:Tengu_New_Akasaka-ten</font> <font color="#CC2200">Locations:Akasaka:Tengu_New_Akasaka-ten</font> <font color="#CC2200">Meetings:Locations:Akasaka:Tengu_New_Akasaka-ten</font></p>
+tel. 03-3585-3681
+<font color="#CC2200">Tengu_New_Akasaka-ten</font>
+<font color="#CC2200">Akasaka:Tengu_New_Akasaka-ten</font>
+<font color="#CC2200">Locations:Akasaka:Tengu_New_Akasaka-ten</font>
+<font color="#CC2200">Meetings:Locations:Akasaka:Tengu_New_Akasaka-ten</font></p>
     </div>
 
     <div id="footer">

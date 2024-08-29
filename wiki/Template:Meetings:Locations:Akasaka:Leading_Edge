@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -145,7 +137,12 @@
 Canadian Embassy Building 1F (Place Canada)<br />
 7-3-37 Akasaka, Minato-ku, Tokyo<br />
 [ <a href="http://www.leadinge.co.jp/ver01/access/index_e.html">map</a> ]</p>
-<p>Leading Edge is on the 1st floor of Canadian Embassy building. Leading Edge offers IT consulting and IT professional placement services. Leading Edge's office is about a 5 minute walk from Aoyama 1 Chome Station on the Ginza Line or about 10 minutes from Akasaka Mitsuke Station on the Marunouchi/Ginza/Hanzomon Lines. <font color="#CC2200">Leading_Edge</font> <font color="#CC2200">Akasaka:Leading_Edge</font> <font color="#CC2200">Locations:Akasaka:Leading_Edge</font> <font color="#CC2200">Meetings:Locations:Akasaka:Leading_Edge</font></p>
+<p>Leading Edge is on the 1st floor of Canadian Embassy building. Leading Edge offers IT consulting and IT professional placement services. Leading Edge's office is about
+a 5 minute walk from Aoyama 1 Chome Station on the Ginza Line or about 10 minutes from Akasaka Mitsuke Station on the Marunouchi/Ginza/Hanzomon Lines.
+<font color="#CC2200">Leading_Edge</font>
+<font color="#CC2200">Akasaka:Leading_Edge</font>
+<font color="#CC2200">Locations:Akasaka:Leading_Edge</font>
+<font color="#CC2200">Meetings:Locations:Akasaka:Leading_Edge</font></p>
     </div>
 
     <div id="footer">

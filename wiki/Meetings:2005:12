@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p>from <a href="http://lists.tlug.jp/MLadm/0512/msg00008.html">1</a></p>
-<h2 id="bonenkai-year-end-party">“Bonenkai” Year-End Party</h2>
+<h2 id="bonenkai_year_end_party">“Bonenkai” Year-End Party</h2>
 <p><code> Date:December 9, 2005 (Friday)</code><br />
 <code> Time:19:30-21:30</code><br />
 <code> Place: British Pub TOWNCRYER Hibiya</code><br />
@@ -150,7 +142,8 @@
 <code>        1-2-9 Nishishinbashi Minato-ku Tokyo</code><br />
 <code> Phone: 03-3519-6690</code><br />
 <code> url: </code><a href="http://www.towncryer.jp/TChibiya.html"><code>http://www.towncryer.jp/TChibiya.html</code></a></p>
-<p><font color="#CC2200">2005:12</font> <font color="#CC2200">12</font></p>
+<p><font color="#CC2200">2005:12</font>
+<font color="#CC2200">12</font></p>
     </div>
 
     <div id="footer">

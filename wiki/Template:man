@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -141,10 +133,11 @@
     </div>
 
     <div class="content">
-      <p><code>[</code><a href="http://www.rt.com/man/"><code>http://www.rt.com/man/</code></a><code>.</code><code>.html man </code><code> </code><code>]</code> Creates a link to the specified Unix man page in the specified section.</p>
+      <p><code>[</code><a href="http://www.rt.com/man/"><code>http://www.rt.com/man/</code></a><code>.</code><code>.html man </code><code> </code><code>]</code>
+Creates a link to the specified Unix man page in the specified section.</p>
 <p>&lt;code&gt;[http://www.rt.com/man/ps.1.html man 1 ps]&lt;/code&gt;</p>
 <p>would produce:</p>
-<p><a href="http://www.rt.com/man/ps.1.html"><code>man</code><code> </code><code>1</code><code> </code><code>ps</code></a></p>
+<p><a href="http://www.rt.com/man/ps.1.html"><code>man 1 ps</code></a></p>
 <p><font color="#CC2200">man</font></p>
     </div>
 

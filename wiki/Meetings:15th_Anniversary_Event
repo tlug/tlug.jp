@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -155,7 +147,8 @@
 <strong>** If you haven't already RSVP'd, then please contact Ed. so we can put you on the list and keep track of numbers **</strong><br />
 <strong>** [This notice current as of 2009-10-22 15:30 (tim)] **</strong></p>
 <h3 id="address">Address</h3>
-<p>Akihabara UDX 1F Chiyoda-ku, Sotokanda 4-14-1</p>
+<p>Akihabara UDX 1F
+Chiyoda-ku, Sotokanda 4-14-1</p>
 <h3 id="cost">Cost</h3>
 <p>5,000 yen</p>
 <h3 id="menu">Menu</h3>
@@ -176,13 +169,14 @@
 <h2 id="details">Details</h2>
 <p>This event is <a href="./15th_Anniversary_Project">to celebrate the 15th anniversary</a> of the creation of TLUG.</p>
 <p>We need to confirm numbers to book the venue so please post something to the <a href="http://lists.tlug.jp/list.html#tlug">tlug list</a> or register at the <a href="http://atnd.org/events/1645">TLUG 15th Anniversary Party page on atnd.org</a> if you are planning on attending.</p>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
 <li><font color="#CC2200">Alberto Tomita</font> : 080-3463-9256</li>
 </ul>
-<p><font color="#CC2200">2009:09</font> <font color="#CC2200">09</font></p>
+<p><font color="#CC2200">2009:09</font>
+<font color="#CC2200">09</font></p>
     </div>
 
     <div id="footer">

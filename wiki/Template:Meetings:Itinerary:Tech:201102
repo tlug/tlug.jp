@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,10 +135,16 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="the-cacert-project-by-taisuke-yamada">The CAcert project (by <font color="#CC2200">Taisuke Yamada</font>)</h6>
-<h6 id="embedded-linux-development-by-jon-povey">Embedded Linux development (by <font color="#CC2200">Jon Povey</font>)</h6>
-<p>The first speaker <font color="#CC2200">Taisuke Yamada</font> will talk about the CAcert project which is a community-based effort to build RootCA (Certificate Authority). <font color="#CC2200">Taisuke Yamada</font> is currently working with CAcert.org to organize the is first official CAcert event in Japan.</p>
-<p>The second speaker <font color="#CC2200">Jon Povey</font> will talk about Embedded Linux development. The talk will include a general overview of the process from board layout end product, with an emphasis on the firmware, in an attempt to answer the “how the crap does that work anyway” questions.</p>
+<h6 id="the_cacert_project_by_taisuke_yamada">The CAcert project (by <font color="#CC2200">Taisuke Yamada</font>)</h6>
+<h6 id="embedded_linux_development_by_jon_povey">Embedded Linux development (by <font color="#CC2200">Jon Povey</font>)</h6>
+<p>The first speaker <font color="#CC2200">Taisuke Yamada</font> will talk about the CAcert project
+which is a community-based effort to build RootCA (Certificate
+Authority). <font color="#CC2200">Taisuke Yamada</font> is currently working with CAcert.org to
+organize the is first official CAcert event in Japan.</p>
+<p>The second speaker <font color="#CC2200">Jon Povey</font> will talk about Embedded Linux development.
+The talk will include a general overview of the process from board
+layout end product, with an emphasis on the firmware, in an attempt to
+answer the “how the crap does that work anyway” questions.</p>
     </div>
 
     <div id="footer">

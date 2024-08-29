@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -147,7 +139,7 @@
 <p>Typically, double-clicking in the location bar in Firefox selects the whole URI. This is counter-intuitive to old Unix hackers, who are used to double-clicking on a word in <em>xterm</em> to select just that word. Here's how to correct this behaviour in Firefox:</p>
 <ol>
 <li>Open Firefox</li>
-<li>Enter <a href="about:config" class="uri">about:config</a> in your location bar and hit Enter</li>
+<li>Enter <a href="about:config">about:config</a> in your location bar and hit Enter</li>
 <li>Type in layout.word</li>
 <li>Two preferences should appear (both should default to false)
 <ol>
@@ -155,7 +147,7 @@
 <li>layout.word_select.stop_at_punctuation</li>
 </ol></li>
 <li>Double-click on <em>layout.word_select.stop_at_punctuation</em> to toggle it to true</li>
-<li>Close <a href="about:config" class="uri">about:config</a></li>
+<li>Close <a href="about:config">about:config</a></li>
 <li>Double-click in the location in Firefox and see what gets selected</li>
 </ol>
 <p><font color="#CC2200">Firefox</font></p>

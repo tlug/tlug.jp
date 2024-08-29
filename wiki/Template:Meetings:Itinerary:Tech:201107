@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -143,19 +135,24 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="presentation-1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
 <p><strong>“Linux Storage - an introduction to FCoE/DCB”</strong> by <em><font color="#CC2200">Jack Morgan</font></em></p>
-<p>Linux storage options are growing with each release of the Linux kernel. I will introduce Fiber Channel over Ethernet (FCoE) and it's adjacent technology Data Canter Bridging (DCB) for 10Gbe adapters. I will cover some of the technical details of these two technologies, discuss how to get them installed/configured on your system and provide a demonstration, assuming we have Internet access. Here are a few links:</p>
+<p>Linux storage options are growing with each release of the
+Linux kernel. I will introduce Fiber Channel over Ethernet (FCoE) and
+it's adjacent technology Data Canter Bridging (DCB) for 10Gbe adapters.
+I will cover some of the technical details of these two technologies,
+discuss how to get them installed/configured on your system and provide
+a demonstration, assuming we have Internet access. Here are a few links:</p>
 <p>FCoE:</p>
 <ul>
-<li><a href="http://www.open-fcoe.org/" class="uri">http://www.open-fcoe.org/</a></li>
-<li><a href="http://www.fcoe.com/" class="uri">http://www.fcoe.com/</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Fibre_Channel_over_Ethernet/" class="uri">http://en.wikipedia.org/wiki/Fibre_Channel_over_Ethernet/</a></li>
+<li><a href="http://www.open-fcoe.org/">http://www.open-fcoe.org/</a></li>
+<li><a href="http://www.fcoe.com/">http://www.fcoe.com/</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fibre_Channel_over_Ethernet/">http://en.wikipedia.org/wiki/Fibre_Channel_over_Ethernet/</a></li>
 </ul>
 <p>DCB:</p>
 <ul>
-<li><a href="http://www.open-lldp.org/" class="uri">http://www.open-lldp.org/</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Data_center_bridging/" class="uri">http://en.wikipedia.org/wiki/Data_center_bridging/</a></li>
+<li><a href="http://www.open-lldp.org/">http://www.open-lldp.org/</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Data_center_bridging/">http://en.wikipedia.org/wiki/Data_center_bridging/</a></li>
 </ul>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>

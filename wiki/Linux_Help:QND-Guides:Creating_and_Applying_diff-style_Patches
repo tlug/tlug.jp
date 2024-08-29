@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -142,7 +134,7 @@
 
     <div class="content">
       <p>Author: <a href="./User:Jmglov">Josh Glover</a></p>
-<h2 id="creating-patches-with-diff">Creating Patches with diff</h2>
+<h2 id="creating_patches_with_diff">Creating Patches with diff</h2>
 <p>In a shell, change to the directory where the file you wish to make a patch for is located. Copy the original file (before your edits) to the same directory (you <strong>did</strong> make a backup copy of it before you edited it, right?). Now, type in the shell:</p>
 <p><code>diff -uN original_file new_file &gt;patch.original_file</code></p>
 <p>where <em>original_file</em> is the filename of the original file and <em>new_file</em> is the filename of the new file (the one containing your edits).</p>
@@ -153,7 +145,7 @@
 <code>diff -uNr linux-2.4.19 linux-2.4.19-my_version \</code><br />
 <code>  &gt;patch.linux-2.4.19-my_version</code></p>
 <p>That is all there is to creating patches with diff. Move on to <a href="#Applying_Patches_with_Patch" title="wikilink">#Applying Patches with Patch</a> to see how to apply them with patch.</p>
-<h2 id="applying-patches-with-patch">Applying Patches with Patch</h2>
+<h2 id="applying_patches_with_patch">Applying Patches with Patch</h2>
 <p>Copy the patch that you generated in Step 2 to the directory containing the file to which you want to apply the patch. Now, type in your shell:</p>
 <p><code>patch &lt;patch_file</code></p>
 <p>where <em>patch_file</em> is the filename of the patch file. Note that the filename of the file to be patched must be the same as it was in <a href="#Creating_Patches_with_diff" title="wikilink">#Creating Patches with diff</a>.</p>
@@ -166,8 +158,8 @@
 <h2 id="references">References</h2>
 <p>For more information on diff and patch, see:</p>
 <ul>
-<li><a href="http://www.gnu.org/software/diffutils/diffutils.html" class="uri">http://www.gnu.org/software/diffutils/diffutils.html</a></li>
-<li><a href="http://www.gnu.org/manual/diffutils/html_mono/diff.html" class="uri">http://www.gnu.org/manual/diffutils/html_mono/diff.html</a></li>
+<li><a href="http://www.gnu.org/software/diffutils/diffutils.html">http://www.gnu.org/software/diffutils/diffutils.html</a></li>
+<li><a href="http://www.gnu.org/manual/diffutils/html_mono/diff.html">http://www.gnu.org/manual/diffutils/html_mono/diff.html</a></li>
 </ul>
 <p><font color="#CC2200">Patches</font></p>
     </div>

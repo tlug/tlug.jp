@@ -126,14 +126,6 @@
             <a href="https://github.com/tlug/tlug.jp">
               <code>tlug/tlug.jp</code></a>.
           </p>
-          <p>
-            Hosting for this site is provided by
-            <a href="https://www.netlify.com" title="Netlify">Netlify</a>.
-            <br/>
-            <a href="https://www.netlify.com">
-              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
-            </a>
-          </p>
         </div>
 
         <div id="validator_logos_menu"></div>
@@ -153,17 +145,18 @@
 <h4 id="event">Event</h4>
 <p>Eat and drink BYO (primarily a social activity)</p>
 <h4 id="location">Location</h4>
-<p>Nomikai locaton on the Gathering is <a href="https://gather.town/app/727uId7HqGp83P7m/tlug-nomikai-2021-02" class="uri">https://gather.town/app/727uId7HqGp83P7m/tlug-nomikai-2021-02</a> and will be open from 7pm.</p>
+<p>Nomikai locaton on the Gathering is <a href="https://gather.town/app/727uId7HqGp83P7m/tlug-nomikai-2021-02">https://gather.town/app/727uId7HqGp83P7m/tlug-nomikai-2021-02</a> and will be open from 7pm.</p>
 <h4 id="cost">Cost</h4>
 <p>Free</p>
 <h3 id="details">Details</h3>
 <p>This event is open to all Linux users and friends, and is to promote casual Linux (and non-Linux) related discussions over a few cold ones. Even if you're not a Linux user or a LUG member, but want to hang out with Linux people, please come.</p>
-<h3 id="contact-info">Contact Info</h3>
+<h3 id="contact_info">Contact Info</h3>
 <p>For directions or information before the meeting, call:</p>
 <ul>
 <li>Edward: 090-3689-0292</li>
 </ul>
-<p><font color="#CC2200">2021:02</font> <font color="#CC2200">02</font></p>
+<p><font color="#CC2200">2021:02</font>
+<font color="#CC2200">02</font></p>
     </div>
 
     <div id="footer">
