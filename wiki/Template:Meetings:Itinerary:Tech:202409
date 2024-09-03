@@ -135,7 +135,18 @@
     <div class="content">
       <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<p>To be confirmed</p>
+<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<p><strong>“DIY 3D printing with the Voron 2.4r2 Printer”</strong> By <em><a href="./Edward_Middleton">Edward Middleton</a></em></p>
+<p>This will be an introduction to DIY 3d printing with a Voron 2.4r2 printer.
+It will introduce various 3d printing methods. It will go over some common
+printer layouts and covering in more detail key parts of a core xy printer.</p>
+<p>This will be followed by an introduction to creating 3d printed objects from your
+own designs using open source software. As part of this we will look at the
+types of plastics you can print some general design rules and properties of 3d
+printed objects.</p>
+<p>The talk will concolude with some things <a href="./Edward_Middleton">Edward Middleton</a> has printed and
+mods he has made to his printer and some other interesting DIY manufacturing
+technology.</p>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
 <p>Short break <em>(maybe)</em></p>
 <h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
