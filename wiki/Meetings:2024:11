@@ -151,9 +151,35 @@ Kitasando-R Bldg 1F<br />
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
 <h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
-<p>To be confirmed</p>
+<p><strong>“Asahi Linux on the Apple macbook”</strong> By <em><font color="#CC2200">Christian Horn</font></em></p>
+<ul>
+<li>Whoami, what I use the Mac for, mainly at work</li>
+<li>What's Asahi Linux?</li>
+<li>My Pros/cons list of deciding for a Mac w/ Asahi Linux</li>
+<li>Debunking some myths around Apple and Asahi Linux</li>
+<li>Asahi installation, essential features, hints</li>
+<li>First things to do after installation</li>
+<li>KVM virtualization/qemu emulation</li>
+</ul>
 <h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
-<p>Short break <em>(maybe)</em></p>
+<p>Short break</p>
+<h6 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
+<p><strong>“Measuring power consumption on Linux”</strong> By <em><font color="#CC2200">Christian Horn</font></em></p>
+<ul>
+<li><ul>
+<li>Theory**</li>
+</ul></li>
+<li>What is pmda-denki, why was it written?</li>
+<li>Prior art / related software</li>
+<li>A typical power measurement setup</li>
+<li>Implemented sources for power metrics
+<ul>
+<li>Practical usage**</li>
+</ul></li>
+<li>How much power are wlan/NIC etc. using?</li>
+<li>How much energy consume gpu/memory when playing a video?</li>
+<li>For a given task, which system is most energy efficient?</li>
+</ul>
 <h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
