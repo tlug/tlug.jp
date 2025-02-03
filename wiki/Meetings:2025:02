@@ -159,19 +159,10 @@ Kitasando-R Bldg 1F<br />
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
 <h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
-<ul>
-<li><ul>
-<li>to be confirmed **</li>
-</ul></li>
-</ul>
-<h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
-<p>Short break</p>
-<h6 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
-<ul>
-<li><ul>
-<li>to be confirmed **</li>
-</ul></li>
-</ul>
+<p><strong>“Atproto, Bluesky and open social networks”</strong> by <em><font color="#CC2200">Edmund Edgar</font></em></p>
+<p>Edmund will talk about AtProto, the protocol behind the Bluesky
+social network, and also a little bit on how other open social
+networks (Mastodon/Fediverse, Nostr, Farcaster) are designed.</p>
 <h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
