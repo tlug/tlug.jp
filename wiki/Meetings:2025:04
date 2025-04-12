@@ -157,7 +157,18 @@ Kitasando-R Bldg 1F<br />
 [ <a href="https://maps.app.goo.gl/3CRS3ovorqYZorsk8">map</a> ]</p>
 <h4 id="itinerary">Itinerary</h4>
 <h5 id="presentations">Presentations</h5>
-<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<h6 id="presentation">&lt;&lt; Presentation &gt;&gt;</h6>
+<p>“Introduction of open-source FPGA toolchains” by <font color="#CC2200">Yimin Gu</font></p>
+<p>FPGAs are powerful devices, but the mindset different from software
+development and the blackbox-like toolchains (and also ) makes it hard
+to start on. Yimin Gu will introduce the status of the newly emerged
+open-source FPGA toolchains. Some boards will be shown on-site.</p>
+<p>“How efficient are architectures x86/aarch/RISC-V etc. for a workload?” by <font color="#CC2200">Christian Horn</font></p>
+<p>Let's benchmark a cpu-bound workload over systems of various
+architectures, while measuring power consumption. Who will be most
+energy efficient? Christian will introduce the test setup, talk a bit
+about the used software. Then details on the benchmarked workload
+(“bzcat”), on the various systems he benchmarked, and then introduce and discuss the results.</p>
 <h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
 <ol>
 <li>Introduction of new members</li>
