@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e -o pipefail
+set -Eeuo pipefail
 trap 'x=$?; echo 1>&2 "FAILED ($x)."; exit $x' 0
 
 die() { local exitcode="$1"; shift; echo 1>&2 "$@"; trap '' 0; exit $exitcode; }
@@ -91,7 +91,7 @@ _____
 }
 
 test_only=false
-while true; do case "$1" in
+while [[ $# -gt 0 ]]; do case "$1" in
     -C)                 shift; git clean -fdX;;
     --prod-release)     shift; set_prod_release_branch;;
     --dev-release)      shift; set_dev_release_branch;;
@@ -118,7 +118,7 @@ if ! $test_only; then
     #   has changed or not.)
     stack exec site-compiler rebuild
 
-    [[ $relbranch ]] && {
+    [[ -n ${relbranch:-} ]] && {
         echo "Committing compiled site in _site/ to $relbranch"
         bin/git-commit-filetree "$relbranch" _site/
         echo 'Release with:'
