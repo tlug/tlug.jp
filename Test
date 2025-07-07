@@ -9,6 +9,24 @@ STACK_VERSION="3.1.1"
 stackbin=~/.local/bin
 export PATH="$PATH:$stackbin"
 
+install_sysdeps() {
+    #   Stack handles installation of a load of system dependencies that it
+    #   needs, but it appears that it may not be able to detect system
+    #   dependencies used for certain packages we depend on. Here we make
+    #   sure we have things that have come up while stack was trying to
+    #   build our Haskell dependencies.
+
+    #   XXX This assumes we're on a Debian-based system (e.g. Ubuntu).
+    #   Anybody running this on a non-Debian-based distro and seeing
+    #   an error from this will likely understand what to do, though.
+
+    #   pkg-config required by digest-0.0.2.1.
+    pkg-config --version >/dev/null 2>&1 || {
+        sudo -p 'sudo pw for %u to apt install pkg-config: ' \
+            apt install -y pkg-config
+    }
+}
+
 install_stack() {
     if stackver=$(stack --version); then
         if ! [[ "$stackver" =~ ^Version\ ${STACK_VERSION},.* ]]; then
@@ -87,6 +105,7 @@ esac; done
 basedir=$(cd "$(dirname "$0")" && pwd -P)
 cd "$basedir"
 
+install_sysdeps
 # Let's not auto-upgrade for now
 # install_or_upgrade_stack
 install_stack
