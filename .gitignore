@@ -1,7 +1,9 @@
+#   Handy place for developers to drop working files not to be committed.
+/tmp/
+
 /.HTF/
 /.netlify/
 /.stack-work/
 /_cache/
 /_site/
-/tmp/
-stack.yaml.lock
+/stack.yaml.lock
