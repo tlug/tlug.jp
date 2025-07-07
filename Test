@@ -13,11 +13,10 @@ install_stack() {
     if stackver=$(stack --version); then
         if ! [[ "$stackver" =~ ^Version\ ${STACK_VERSION},.* ]]; then
             echo "WARNING: Tested with stack version $STACK_VERSION, currently using:"
-		    echo "$stackver"
-	    fi
-		return
-	fi
-
+            echo "$stackver"
+        fi
+        return
+    fi
     echo "Installing stack to $stackbin/"
     echo "This may need to sudo to install additional OS packages."
     mkdir -p "$stackbin"
@@ -33,10 +32,7 @@ install_or_upgrade_stack() {
     local age=$(( $(date '+%s') - $ts))
     [[ $age -lt 3600 ]] && return 0     # Don't check more than once per hour.
 
-    stack upgrade || stack --version 2>/dev/null || {
-        install_stack
-    }
-
+    stack upgrade || stack --version 2>/dev/null || install_stack
     mkdir -p "$(dirname "$ts_file")"
     touch "$ts_file"
 }
