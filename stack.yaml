@@ -6,6 +6,6 @@
 #   Documentation for this file is found at:
 #   • https://docs.haskellstack.org/en/stable/configure/yaml/
 
-snapshot: lts-22.44
+snapshot: lts-23.27
 packages: [.]       # Paths with *.cabal files in this repo.
 extra-deps: []      # Deps we override or add to the snapshot.
