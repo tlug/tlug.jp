@@ -71,16 +71,6 @@
 	  </ul>
         </div>
 
-        <div id="members_menu">
-	  <h2>Members</h2>
-
-	  <ul>
-	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
-
-	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
-	  </ul>
-        </div>
-
         <div id="mls_menu">
 	  <h2>Mailing Lists</h2>
 
