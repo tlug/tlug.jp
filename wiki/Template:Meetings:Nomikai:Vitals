@@ -109,10 +109,6 @@
           <ul>
 	    <li><a href="https://ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
 
-	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
-
-	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
-
 	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
           </ul>
         </div>
