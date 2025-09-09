@@ -159,7 +159,12 @@ hosting option. This hasn't been tested.
 __Self-hosted:__ We could set up our own build server, if someone is
 willing to supply hosting.
 
-__[GitHub Pages][ghp]__ appears to support only Jekyll (Ruby) builds.
+__[GitHub Actions]__ offers limited free builds for open source
+projects. Fortunately, it will cache the Haskell Stack and Hakyll
+build. The first build (or when the cache is invalidated) of the
+[TLUG workflow] takes over 30 minutes to download and build
+everything (and sometimes fails). Subsequent site builds are
+typically taking just under a minute.
 
 __[Netlify]__ offers pre-installed Ruby, Python, Node.js, Go and Java
 interpreters/compilers. Unfortunately they have no pre-installed
@@ -177,7 +182,8 @@ workarounds:
    the `dev/cjs/190313/sastack` branch.
 
 [Netlify]: https://www.netlify.com/
-[ghp]: https://help.github.com/pages/
+[GitHub Actions]: https://github.com/features/actions
+[TLUG workflow]: https://github.com/tlug/tlug.jp/tree/master/.github/workflows
 
 #### Custom Application
 
