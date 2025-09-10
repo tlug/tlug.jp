@@ -1,0 +1,24 @@
+# Documentation for this file:
+#   https://www.netlify.com/docs/netlify-toml-reference/
+
+[build]
+    command = "# no build command"
+    publish = "."
+
+####################################################################
+#   Wiki support
+
+[[headers]]
+    for = "/wiki/*"
+    [headers.values]
+        Content-Type = "text/html; charset=utf-8"
+
+#   Emulate MediaWiki behavior. We need not worry about `/wiki` (with no
+#   trailing slash) because Netlify seems to automatically use this
+#   redirect for that, too. (MediaWiki issues a 302 temporary redirect
+#   to the one with a trailing slash and then the 301, but this is faster
+#   and it's not #   worth trying to emulate MediaWiki on this anyway.)
+[[redirects]]
+    from = "/wiki/"
+    to  = "/wiki/Main_Page"
+    status = 301
