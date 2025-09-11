@@ -62,12 +62,12 @@ test_parse = do
 test_file = do
     output <- parseFile "{{ML2|0803/msg00500.html|Dave Brown}}"
     assertEqual
-        (ProcPage "[http://lists.tlug.jp/ML/0803/msg00500.html --Dave Brown]\n" Nothing)
+        (ProcPage "[http://lists.tlug.jp/ML/0803/msg00500.html --Dave Brown]\n" Nothing [])
         $ output
 
     output <- parseFile "{{Template:Meetings:Itinerary:Tech:2005|presentations=ThePres}}"
     assertEqual
-        (ProcPage "=== Itinerary ===\n\n\n==== Presentations ====\nThePres\n\n\n=== Other Items on the Agenda ===\n# Introduction of new members, news about Linux/Open Source, general announcements, Q&A\n# Auction (bring any gear that would would like to donate to TLUG)\n\n\n" Nothing)
+        (ProcPage "=== Itinerary ===\n\n\n==== Presentations ====\nThePres\n\n\n=== Other Items on the Agenda ===\n# Introduction of new members, news about Linux/Open Source, general announcements, Q&A\n# Auction (bring any gear that would would like to donate to TLUG)\n\n\n" Nothing [])
         $ output
 
     output <- readFile "wiki/Meetings:2019:02" >>= parseFile
@@ -113,11 +113,11 @@ test_file = do
 \For directions or information before the meeting, call:\n\
 \* Justin: 050-5806-9898\n\
 \\n\
-\<font color=#CC2200>2019:02</font>\n\
-\<font color=#CC2200>02</font>\n\
+\[adiumxtra:./Category:Meetings Category:Meetings]\n\
+\[adiumxtra:./Category:Meetings:2019 Category:Meetings:2019]\n\
 \\n\
 \\n"
-                 Nothing)
+                 Nothing ["Category:Meetings:2019", "Category:Meetings"])
         output
 
 {- How do we test errors?
