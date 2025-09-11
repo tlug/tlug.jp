@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="/css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="/index.html">English</a> | <a href="/index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="/"><img src="/images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="/wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="/wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="/wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="/wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="/wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br/>
+	        Access Info:<br/><img src="/images/tlug-uname.png" alt="uname"/>/<img src="/images/tlug-pword.png" alt="pw"/><br/>
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="https://ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="hosting_menu">
+          <h2>Site Information</h2>
+          <p>
+            This site is built with
+            <a href="https://jaspervdj.be/hakyll/">Hakyll</a>
+            from GitHub repo
+            <a href="https://github.com/tlug/tlug.jp">
+              <code>tlug/tlug.jp</code></a>.
+          </p>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="introduction">Introduction</h2>
+<p>All Linux lovers, and supporters of open source code and free software, in the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux Users Group meeting. <b>Membership is open to anyone</b>. There are currently <b>no membership dues</b> or entrance fees.</p>
+<p>TLUG meetings are traditionally small and unstructured (VERY CASUAL). Most of the benefit of the meeting comes from chatting with other Linux users and having informal discussions.</p>
+<p>As a general rule, the Technical Meetings are held on the 2nd Saturday of odd-numbered months and the Nomikai Meetings are usually held on the 2nd Friday of even-numbered months. There are, of course, exceptions to this rule, so it is best to keep an eye on the mailing list, or check back here for date/venue changes as the date approaches.</p>
+<h2 id="technical_meeting">Technical Meeting</h2>
+<h4 id="date">Date</h4>
+<p>November 9, 2024 (Saturday)</p>
+<h4 id="time">Time</h4>
+<p>14:00-16:00 Presentations with a 10 minute break around 15:00
+16:00-17:30 will be a Nomikai at Axsh’s Wine Bar with alcohol.</p>
+<p>From 18:00, the Wine Bar will be open for business</p>
+<ul>
+<li>People interested in becoming paying customers for the Wine Bar, will be welcome to stay.</li>
+</ul>
+<ul>
+<li>People interested in moving on to another place will be asked to leave by 17:45.</li>
+</ul>
+<h4 id="location">Location</h4>
+<p>Axsh<br />
+Kitasando-R Bldg 1F<br />
+3-24-8, Sendagaya<br />
+151-0051 Shibuya-ku, Tokyo<br />
+[ <a href="https://maps.app.goo.gl/3CRS3ovorqYZorsk8">map</a> ]</p>
+<h4 id="itinerary">Itinerary</h4>
+<h5 id="presentations">Presentations</h5>
+<h6 id="presentation_1">&lt;&lt; Presentation (1) &gt;&gt;</h6>
+<p><strong>“Asahi Linux on the Apple macbook”</strong> By <em><font color="#CC2200">Christian Horn</font></em></p>
+<ul>
+<li>Whoami, what I use the Mac for, mainly at work</li>
+<li>What's Asahi Linux?</li>
+<li>My Pros/cons list of deciding for a Mac w/ Asahi Linux</li>
+<li>Debunking some myths around Apple and Asahi Linux</li>
+<li>Asahi installation, essential features, hints</li>
+<li>First things to do after installation</li>
+<li>KVM virtualization/qemu emulation</li>
+</ul>
+<h6 id="break">&lt;&lt; Break &gt;&gt;</h6>
+<p>Short break</p>
+<h6 id="presentation_2">&lt;&lt; Presentation (2) &gt;&gt;</h6>
+<p><strong>“Measuring power consumption on Linux”</strong> By <em><font color="#CC2200">Christian Horn</font></em></p>
+<ul>
+<li><ul>
+<li>Theory**</li>
+</ul></li>
+<li>What is pmda-denki, why was it written?</li>
+<li>Prior art / related software</li>
+<li>A typical power measurement setup</li>
+<li>Implemented sources for power metrics
+<ul>
+<li>Practical usage**</li>
+</ul></li>
+<li>How much power are wlan/NIC etc. using?</li>
+<li>How much energy consume gpu/memory when playing a video?</li>
+<li>For a given task, which system is most energy efficient?</li>
+</ul>
+<h5 id="other_items_on_the_agenda_are">Other items on the agenda are:</h5>
+<ol>
+<li>Introduction of new members</li>
+<li>News about Linux/Open Source, general announcements, Q&amp;A</li>
+<li>Auction (bring any gear that would would like to donate to TLUG)</li>
+</ol>
+<p>To help us make sure that there will be room for everyone
+to seat, please let us know if you are planning on attending</p>
+<h3 id="contact_info">Contact Info</h3>
+<p>For directions or information before the meeting, call:</p>
+<ul>
+<li><a href="./Edward_Middleton">Edward Middleton</a> : 090-3689-0292</li>
+</ul>
+<p><a href="./Category:Meetings">Category:Meetings</a>
+<a href="./Category:Meetings:2024">Category:Meetings:2024</a></p>
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

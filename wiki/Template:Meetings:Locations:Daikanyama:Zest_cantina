@@ -71,16 +71,6 @@
 	  </ul>
         </div>
 
-        <div id="members_menu">
-	  <h2>Members</h2>
-
-	  <ul>
-	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
-
-	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
-	  </ul>
-        </div>
-
         <div id="mls_menu">
 	  <h2>Mailing Lists</h2>
 
@@ -109,10 +99,6 @@
           <ul>
 	    <li><a href="https://ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
 
-	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
-
-	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
-
 	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
           </ul>
         </div>
@@ -136,8 +122,9 @@
       <p><strong>Zest Cantina - Daikanyama</strong><br />
 B1F, 16−2 1F, Daikanyamacho, Shibuya City, Tokyo<br />
 tel 050 5445 7235<br />
-[ <a href="https://zest-cantina.jp/daikanyama/">shop</a> ]
-[ <a href="https://goo.gl/maps/9ejrTuhJ2oQLeHmV6">map</a> ]</p>
+[ <a href="https://zest-cantina.jp/daikanyama/">Venue</a> ]
+[ <a href="https://maps.apple.com/place?place-id=IBB82791F0A95A1D9">Apple Maps</a> ]
+[ <a href="https://goo.gl/maps/9ejrTuhJ2oQLeHmV6">Google Maps</a> ]</p>
 <p><a href="./Category:Template:Meetings:Locations:Daikanyama">Category:Template:Meetings:Locations:Daikanyama</a>
 <a href="./Category:Template:Meetings:Locations">Category:Template:Meetings:Locations</a>
 <a href="./Category:Template:Meetings">Category:Template:Meetings</a>

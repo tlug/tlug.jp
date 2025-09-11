@@ -70,16 +70,6 @@
 	  </ul>
         </div>
 
-        <div id="members_menu">
-	  <h2>Members</h2>
-
-	  <ul>
-	    <li><a href="../wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
-
-	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
-	  </ul>
-        </div>
-
         <div id="mls_menu">
 	  <h2>Mailing Lists</h2>
 
@@ -108,10 +98,6 @@
           <ul>
 	    <li><a href="https://ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
 
-	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
-
-	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
-
 	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
           </ul>
         </div>
@@ -138,6 +124,14 @@
     <li><a href="../wiki/Meetings%3A2024%3A01">Meetings:2024:01</a></li>
     
     <li><a href="../wiki/Meetings%3A2024%3A05">Meetings:2024:05</a></li>
+    
+    <li><a href="../wiki/Meetings%3A2024%3A09">Meetings:2024:09</a></li>
+    
+    <li><a href="../wiki/Meetings%3A2024%3A10">Meetings:2024:10</a></li>
+    
+    <li><a href="../wiki/Meetings%3A2024%3A11">Meetings:2024:11</a></li>
+    
+    <li><a href="../wiki/Meetings%3A2024%3A12">Meetings:2024:12</a></li>
     
     </ul>
 

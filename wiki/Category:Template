@@ -70,16 +70,6 @@
 	  </ul>
         </div>
 
-        <div id="members_menu">
-	  <h2>Members</h2>
-
-	  <ul>
-	    <li><a href="../wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
-
-	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
-	  </ul>
-        </div>
-
         <div id="mls_menu">
 	  <h2>Mailing Lists</h2>
 
@@ -107,10 +97,6 @@
 
           <ul>
 	    <li><a href="https://ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
-
-	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
-
-	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
 
 	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
           </ul>
@@ -221,6 +207,18 @@
     
     <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202401">Template:Meetings:Itinerary:Tech:202401</a></li>
     
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202409">Template:Meetings:Itinerary:Tech:202409</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202411">Template:Meetings:Itinerary:Tech:202411</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202502">Template:Meetings:Itinerary:Tech:202502</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202504">Template:Meetings:Itinerary:Tech:202504</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202506">Template:Meetings:Itinerary:Tech:202506</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202508">Template:Meetings:Itinerary:Tech:202508</a></li>
+    
     <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATitle">Template:Meetings:Itinerary:Title</a></li>
     
     <li><a href="../wiki/Template%3AMeetings%3AItinerary%3AVideo">Template:Meetings:Itinerary:Video</a></li>
@@ -288,6 +286,8 @@
     <li><a href="../wiki/Template%3AMeetings%3ALocations%3ANishiogiKita%3ANISHIOGI_PLACE">Template:Meetings:Locations:NishiogiKita:NISHIOGI_PLACE</a></li>
     
     <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AAmazon">Template:Meetings:Locations:Shibuya:Amazon</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AAxsh">Template:Meetings:Locations:Shibuya:Axsh</a></li>
     
     <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3ACerego">Template:Meetings:Locations:Shibuya:Cerego</a></li>
     

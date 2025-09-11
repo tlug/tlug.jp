@@ -71,16 +71,6 @@
 	  </ul>
         </div>
 
-        <div id="members_menu">
-	  <h2>Members</h2>
-
-	  <ul>
-	    <li><a href="/wiki/Special:Listusers?group=tlug" title="profiles of TLUG members">Profiles</a></li>
-
-	    <li><a href="http://planet.tlug.jp/" title="TLUG member blogs">Blogs</a></li>
-	  </ul>
-        </div>
-
         <div id="mls_menu">
 	  <h2>Mailing Lists</h2>
 
@@ -109,10 +99,6 @@
           <ul>
 	    <li><a href="https://ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
 
-	    <li><a href="http://www.starling-software.com/en/tsac.html" title="Tokyo Society for the Application of Currying">TSAC</a></li>
-
-	    <li><a href="http://www.ylug.jp/" title="Yokohama Linux User Group">YLUG</a></li>
-
 	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
           </ul>
         </div>
@@ -137,7 +123,7 @@
 <h2 id="screenshots">Screenshots</h2>
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><figure>
 <img src="/images/EyeCandy1.jpg" title="/images/EyeCandy1.jpg" width="300" />
 <figcaption>/images/EyeCandy1.jpg</figcaption>
@@ -147,11 +133,11 @@
 <figcaption>/images/EyeCandy2.jpg</figcaption>
 </figure></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><em>Stuart Luppescu's WindowMaker desktop, left screen</em></p></td>
 <td><p><em>Stuart Luppescu's WindowMaker desktop, right screen</em></p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><figure>
 <img src="/images/EyeCandy3.jpg" title="/images/EyeCandy3.jpg" width="300" />
 <figcaption>/images/EyeCandy3.jpg</figcaption>
@@ -161,7 +147,7 @@
 <figcaption>/images/EyeCandy4.jpg</figcaption>
 </figure></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><em>Josh Glover's Openbox running four gnome-terminals with two tabs a piece.</em></p></td>
 <td><p>Keith Bawden's wmii desktop</p></td>
 </tr>
