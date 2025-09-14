@@ -1,8 +1,10 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
+import           Control.Monad.Trans (liftIO)
 import           Hakyll
 import           Hakyll.Web.Html (withUrls)
+import           Hakyll.Core.Rules.Internal
 import           System.FilePath (joinPath, splitPath, replaceExtension)
 import           Text.Pandoc (Pandoc, ReaderOptions, runPure, readMediaWiki)
 import           Data.List (isPrefixOf)
@@ -14,9 +16,24 @@ import           TLUG.WikiLink
 
 --------------------------------------------------------------------------------
 
+wikiCategoryRules :: Identifier -> Rules [String]
+wikiCategoryRules = Rules . liftIO . (categories <$>) . (parseFile =<<) . readFile . toFilePath
+
+createCategoryPages :: Tags -> Rules ()
+createCategoryPages tags = do
+  tagsRules tags $ \tag pattern -> do
+    route $ idRoute -- setExtension "html"
+    compile $ do
+      posts <- {-recentFirst =<<-} loadAll pattern
+      let context = constField "tag" tag `mappend`
+                    listField "posts" defaultContext (return posts)
+      makeItem ""
+        >>= loadAndApplyTemplate "template/category.html" context
+        >>= loadAndApplyTemplate "template/main.html" defaultContext
+        >>= relativizeUrls
+
 main :: IO ()
 main = hakyll $ do
-
     match "template/*" $ do
         compile templateCompiler
 
@@ -34,6 +51,9 @@ main = hakyll $ do
     match "wiki/*" $ do
         route   idRoute     -- No extension; netlify config serves as text/html
         compile mediawikiCompiler
+
+    tags <- buildTagsWith wikiCategoryRules "wiki/*" (fromCapture "wiki/*")
+    createCategoryPages tags
 
     -- The rest of this is the sample code for a blog site from the
     -- initial project template. We're keeping this here as an example

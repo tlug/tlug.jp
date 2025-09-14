@@ -71,19 +71,20 @@ type Page = [Chunk]
 -- | Processed markup plus metadata (just redirect for now)
 data ProcPage = ProcPage {
     body :: String,
-    redirect :: Maybe String
+    redirect :: Maybe String,
+    categories :: [String]
     } deriving (Show, Eq)
 
 -- | Process a top-level wiki markup file
 parseFile :: String -> IO ProcPage
 parseFile str =
     (doTransclude [] True $ parsePage str) >>= fixlinks
-    where fixlinks pp = (\x -> ProcPage x (redirect pp)) <$> fixWikiLinks (body pp)
+    where fixlinks pp = (\(x, y) -> ProcPage x (redirect pp) y) <$> fixWikiLinks (body pp)
 
 -- | Parse a wiki markup file
 parseFile' :: [Param] -> Bool -> FilePath -> IO ProcPage
 parseFile' par top file =
-    if file == "" then return $ ProcPage "" Nothing
+    if file == "" then return $ ProcPage "" Nothing []
     else parsePage <$> replaceWikiParams par <$> readFile ({-trace ("ReadFile: " ++ show file ++ ", " ++ show par)-} file) >>= doTransclude par top
 
 -- | Replace Transclude chunks with their actual parse tree by reading
@@ -94,7 +95,7 @@ doTransclude par False (NoInclude _:xs) = doTransclude par False xs
 doTransclude par top (Transclude{..}:xs) = concatPP <$> (parseFile' params False $ transFileName pageName) <*> (doTransclude par top xs)
 doTransclude par top (Markup x:xs) = strPP x <$> doTransclude par top xs
 doTransclude par top (Redirect x:xs) = (\a -> a { redirect = Just x }) <$> doTransclude par top xs
-doTransclude par top [] = return $ ProcPage "" Nothing
+doTransclude par top [] = return $ ProcPage "" Nothing []
 
 strPP :: String -> ProcPage -> ProcPage
 strPP a b = b { body = a ++ body b }
