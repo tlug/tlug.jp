@@ -16,22 +16,6 @@ import           TLUG.WikiLink
 
 --------------------------------------------------------------------------------
 
-wikiCategoryRules :: Identifier -> Rules [String]
-wikiCategoryRules = Rules . liftIO . (categories <$>) . (parseFile =<<) . readFile . toFilePath
-
-createCategoryPages :: Tags -> Rules ()
-createCategoryPages tags = do
-  tagsRules tags $ \tag pattern -> do
-    route $ idRoute -- setExtension "html"
-    compile $ do
-      posts <- {-recentFirst =<<-} loadAll pattern
-      let context = constField "tag" tag `mappend`
-                    listField "posts" defaultContext (return posts)
-      makeItem ""
-        >>= loadAndApplyTemplate "template/category.html" context
-        >>= loadAndApplyTemplate "template/main.html" defaultContext
-        >>= relativizeUrls
-
 main :: IO ()
 main = hakyll $ do
     match "template/*" $ do
@@ -151,6 +135,24 @@ mediawikiCompiler =
             case runPure $ traverse (readMediaWiki ropt) (fmap DT.pack item) of
                  Left err    -> fail $ "MediaWiki parse failed: " ++ show err
                  Right item' -> return item'
+
+-- | Parse categories into Hakyll tags
+wikiCategoryRules :: Identifier -> Rules [String]
+wikiCategoryRules = Rules . liftIO . (categories <$>) . (parseFile =<<) . readFile . toFilePath
+
+-- | Generate category pages from tags
+createCategoryPages :: Tags -> Rules ()
+createCategoryPages tags = do
+  tagsRules tags $ \tag pattern -> do
+    route $ idRoute -- setExtension "html"
+    compile $ do
+      posts <- {-recentFirst =<<-} loadAll pattern
+      let context = constField "tag" tag `mappend`
+                    listField "posts" defaultContext (return posts)
+      makeItem ""
+        >>= loadAndApplyTemplate "template/category.html" context
+        >>= loadAndApplyTemplate "template/main.html" defaultContext
+        >>= relativizeUrls
 
 -- FIXME: use the normal template but stick the redirect in the header
 makeRedir :: String -> String -> String

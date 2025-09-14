@@ -68,7 +68,7 @@ data Chunk
     deriving (Show, Eq)
 type Page = [Chunk]
 
--- | Processed markup plus metadata (just redirect for now)
+-- | Processed markup plus metadata (redirects and categories)
 data ProcPage = ProcPage {
     body :: String,
     redirect :: Maybe String,

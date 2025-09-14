@@ -25,7 +25,7 @@ data Chunk
     deriving (Show, Eq)
 type Page = [Chunk]
 
--- | Top-level link fixup function
+-- | Top-level link fixup function, also returns a list of category tags found
 fixWikiLinks :: String -> IO (String, [String])
 fixWikiLinks s = do
     files <- listDirectory "wiki"
