@@ -124,7 +124,7 @@ Creates a link to Wikipedia (日本語).</p>
 <p>[http://ja.wikipedia.org/wiki/桜 桜 (Wikipedia ja)]</p>
 <p>would produce:</p>
 <p><a href="http://ja.wikipedia.org/wiki/桜">桜 (Wikipedia ja)</a></p>
-<p><font color="#CC2200">w:ja</font></p>
+<p><a href="./Category:Template">Category:Template</a></p>
     </div>
 
     <div id="footer">

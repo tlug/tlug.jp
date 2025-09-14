@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Tokyo Linux Users Group</title>
+    <link rel="stylesheet" href="../css/tlug4.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="top">
+      <div id="sponsor">
+        <!--<p>Hosted by <a href="http://asahi-net.jp/en/">ASAHI Net</a>, provider of mobile and fixed broadband <br/>Internet services to individuals and corporations.
+        </p>-->
+      </div>
+
+      <div id="lang_options">
+        <p>| <a href="../index.html">English</a> | <a href="../index.ja.html">日本語</a> |</p>
+      </div>
+
+      <div id="logo">
+        <a href="../"><img src="../images/shirt200.png" alt="logo" /></a>
+      </div>
+
+      <h1 id="header">
+        Tokyo Linux Users Group
+      </h1>
+    </div>
+
+    <div id="menu">
+      <div class="search">
+        <!-- <h2>Search</h2> -->
+
+        <!-- Google CSE Search Box Begins -->
+        <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+        <form id="searchbox_012202592177554568923:r_bafg63erq" action="https://www.google.com/cse" name="searchbox_012202592177554568923:r_bafg63erq">
+	  <input type="hidden" name="cx" value="012202592177554568923:r_bafg63erq" />
+	  <input type="hidden" name="cof" value="FORID:0" />
+	  <input type="text" size="25" name="q" />
+	  <input id="searchgo" type="submit" value="Go" />
+        </form>
+
+        <!-- Google CSE Search Box Ends -->
+      </div>
+
+      <div class="items">
+        <div id="general_menu">
+	  <h2>General</h2>
+
+	  <ul>
+	    <li><a href="../wiki/TLUG:MemberGuide" title="Member Guide">Guide</a></li>
+
+            <!--	  <li><a href="http://articles.tlug.jp/" title="Featured Articles">Articles</a></li>
+            -->
+
+	    <li><a href="../wiki/" title="Wiki">Wiki</a></li>
+
+	    <li><a href="../wiki/TLUG:Organization" title="TLUG Officers">Organization</a></li>
+	  </ul>
+        </div>
+
+        <div id="meetings_menu">
+	  <h2>Meetings</h2>
+
+	  <ul>
+	    <li><a href="../wiki/Current_Meeting" title="Next Meeting">Next Meeting</a></li>
+
+	    <li><a href="../wiki/Meetings" title="Past Meetings">Past Meetings</a></li>
+	  </ul>
+        </div>
+
+        <div id="mls_menu">
+	  <h2>Mailing Lists</h2>
+
+	  <ul>
+	    <li><a href="http://lists.tlug.jp/listpolicy.html" title="TLUG mailing list policies">List Policy</a></li>
+
+	    <li id="mllists"><a href="http://lists.tlug.jp/list.html" title="TLUG mailing lists">Lists</a>
+	    <ul>
+	      <li><a href="http://lists.tlug.jp/ML/index.html" title="Archives of TLUG Main ML">Tlug</a></li>
+
+	      <li>
+	        <a href="http://lists.tlug.jp/MLadm/index.html" title="Archives of TLUG Admin ML">Tlug-admin</a><br />
+	        Access Info:<br /><img src="../images/tlug-uname.png" alt="uname" />/<img src="../images/tlug-pword.png" alt="pw" /><br />
+	      </li>
+
+	      <li><a href="http://lists.tlug.jp/MLlingo/index.html" title="Archives of TLUG Lingo ML">Tlug-lingo</a></li>
+
+	    </ul>
+	    </li>
+          </ul>
+        </div>
+
+        <div id="other_groups_menu">
+          <h2>Other Groups</h2>
+
+          <ul>
+	    <li><a href="https://ringo.net" title="The English based Mac Users Group in Tokyo">Tokyo Ringo MUG</a></li>
+
+	    <li><a href="http://zaurus.biojapan.de/" title="Zaurus Otaku Kurabu">ZOK</a></li>
+          </ul>
+        </div>
+
+        <div id="hosting_menu">
+          <h2>Site Information</h2>
+          <p>
+            This site is built with
+            <a href="https://jaspervdj.be/hakyll/">Hakyll</a>
+            from GitHub repo
+            <a href="https://github.com/tlug/tlug.jp">
+              <code>tlug/tlug.jp</code></a>.
+          </p>
+        </div>
+
+        <div id="validator_logos_menu"></div>
+      </div>
+    </div>
+
+    <div class="content">
+          <h1>Category:Template:Meetings</h1>
+    <ul>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ACategories">Template:Meetings:Categories</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AContacts%3ANomikai%3A2007">Template:Meetings:Contacts:Nomikai:2007</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AContacts%3ANomikai%3A200712">Template:Meetings:Contacts:Nomikai:200712</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AContacts%3ATech%3A2005">Template:Meetings:Contacts:Tech:2005</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AContacts%3ATech%3A2006">Template:Meetings:Contacts:Tech:2006</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AContacts%3ATech%3A2007">Template:Meetings:Contacts:Tech:2007</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AContacts%3ATech%3A200711">Template:Meetings:Contacts:Tech:200711</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AContacts%3ATech%3A2008">Template:Meetings:Contacts:Tech:2008</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AIntroduction">Template:Meetings:Introduction</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AIntroductionCerego">Template:Meetings:IntroductionCerego</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3AOther">Template:Meetings:Itinerary:Other</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3APresentations">Template:Meetings:Itinerary:Presentations</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A2006">Template:Meetings:Itinerary:Tech:2006</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A2006%3A01">Template:Meetings:Itinerary:Tech:2006:01</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A2006%3A03">Template:Meetings:Itinerary:Tech:2006:03</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200711">Template:Meetings:Itinerary:Tech:200711</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A2007%3A07">Template:Meetings:Itinerary:Tech:2007:07</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A2007%3A09">Template:Meetings:Itinerary:Tech:2007:09</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200801">Template:Meetings:Itinerary:Tech:200801</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200805">Template:Meetings:Itinerary:Tech:200805</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200807">Template:Meetings:Itinerary:Tech:200807</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200809">Template:Meetings:Itinerary:Tech:200809</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200811">Template:Meetings:Itinerary:Tech:200811</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200903">Template:Meetings:Itinerary:Tech:200903</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200905">Template:Meetings:Itinerary:Tech:200905</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200907">Template:Meetings:Itinerary:Tech:200907</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200909">Template:Meetings:Itinerary:Tech:200909</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200911">Template:Meetings:Itinerary:Tech:200911</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A200912">Template:Meetings:Itinerary:Tech:200912</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201001">Template:Meetings:Itinerary:Tech:201001</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201002">Template:Meetings:Itinerary:Tech:201002</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201003">Template:Meetings:Itinerary:Tech:201003</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201004">Template:Meetings:Itinerary:Tech:201004</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201005">Template:Meetings:Itinerary:Tech:201005</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201006">Template:Meetings:Itinerary:Tech:201006</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201007">Template:Meetings:Itinerary:Tech:201007</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A201111">Template:Meetings:Itinerary:Tech:201111</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202401">Template:Meetings:Itinerary:Tech:202401</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202409">Template:Meetings:Itinerary:Tech:202409</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202411">Template:Meetings:Itinerary:Tech:202411</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202502">Template:Meetings:Itinerary:Tech:202502</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202504">Template:Meetings:Itinerary:Tech:202504</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202506">Template:Meetings:Itinerary:Tech:202506</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATech%3A202508">Template:Meetings:Itinerary:Tech:202508</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3ATitle">Template:Meetings:Itinerary:Title</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3AItinerary%3AVideo">Template:Meetings:Itinerary:Video</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkasaka%3AAkasaka_Kumin_Center">Template:Meetings:Locations:Akasaka:Akasaka_Kumin_Center</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkasaka%3AHobgoblin">Template:Meetings:Locations:Akasaka:Hobgoblin</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkasaka%3ALeading_Edge">Template:Meetings:Locations:Akasaka:Leading_Edge</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkasaka%3ALinuxProbe_Hall">Template:Meetings:Locations:Akasaka:LinuxProbe_Hall</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkasaka%3ATengu_New_Akasaka-ten">Template:Meetings:Locations:Akasaka:Tengu_New_Akasaka-ten</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkihabara%3AChelsea_Market">Template:Meetings:Locations:Akihabara:Chelsea_Market</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkihabara%3ACraftBeerTap">Template:Meetings:Locations:Akihabara:CraftBeerTap</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkihabara%3AOerbier_Man">Template:Meetings:Locations:Akihabara:Oerbier_Man</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkihabara%3AOneCoinMeetingRoom">Template:Meetings:Locations:Akihabara:OneCoinMeetingRoom</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkihabara%3APlat_home">Template:Meetings:Locations:Akihabara:Plat_home</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkihabara%3ASafran_Building">Template:Meetings:Locations:Akihabara:Safran_Building</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAkihabara%3ASudacho_Shokudo">Template:Meetings:Locations:Akihabara:Sudacho_Shokudo</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AAoyama%3AOracle">Template:Meetings:Locations:Aoyama:Oracle</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3ADaikanyama%3AZest_cantina">Template:Meetings:Locations:Daikanyama:Zest_cantina</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AEbisu%3ADigital_Garage">Template:Meetings:Locations:Ebisu:Digital_Garage</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AGinza%3AWall_Street_Associates_Japan">Template:Meetings:Locations:Ginza:Wall_Street_Associates_Japan</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AGinza%3AZest_cantina">Template:Meetings:Locations:Ginza:Zest_cantina</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AGotanda%3ACultureCenter">Template:Meetings:Locations:Gotanda:CultureCenter</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AHamamatsucho%3ADevil_Craft">Template:Meetings:Locations:Hamamatsucho:Devil_Craft</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AHibiya%3ATown_Cryer_Hibiya">Template:Meetings:Locations:Hibiya:Town_Cryer_Hibiya</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AIidabashi%3AIIJ">Template:Meetings:Locations:Iidabashi:IIJ</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AIkebukuro%3AZa_Watami_Ikebukuro-nishiguchi-nanbanbiru-ten">Template:Meetings:Locations:Ikebukuro:Za_Watami_Ikebukuro-nishiguchi-nanbanbiru-ten</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AJinbocho%3AIIJ">Template:Meetings:Locations:Jinbocho:IIJ</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AJingumae%3ASun">Template:Meetings:Locations:Jingumae:Sun</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AKajicho%3ASHAREmee">Template:Meetings:Locations:Kajicho:SHAREmee</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AKoujimachi%3AKDDIwebcom">Template:Meetings:Locations:Koujimachi:KDDIwebcom</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AKyobashi%3ATengu_Tokyo-eki-mae-ten">Template:Meetings:Locations:Kyobashi:Tengu_Tokyo-eki-mae-ten</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AMeguro%3ABlack_Lion">Template:Meetings:Locations:Meguro:Black_Lion</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3ANakameguro%3ASchmatz_Nakameguro">Template:Meetings:Locations:Nakameguro:Schmatz_Nakameguro</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3ANihonbashi%3AMIXER">Template:Meetings:Locations:Nihonbashi:MIXER</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3ANishiogiKita%3ANISHIOGI_PLACE">Template:Meetings:Locations:NishiogiKita:NISHIOGI_PLACE</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AAmazon">Template:Meetings:Locations:Shibuya:Amazon</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AAxsh">Template:Meetings:Locations:Shibuya:Axsh</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3ACerego">Template:Meetings:Locations:Shibuya:Cerego</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AGroupon">Template:Meetings:Locations:Shibuya:Groupon</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AHDE">Template:Meetings:Locations:Shibuya:HDE</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AHobgoblin">Template:Meetings:Locations:Shibuya:Hobgoblin</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShibuya%3AZaru">Template:Meetings:Locations:Shibuya:Zaru</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShinbashi%3AAmataro_Shinbashi-ten">Template:Meetings:Locations:Shinbashi:Amataro_Shinbashi-ten</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShinbashi%3ATengu">Template:Meetings:Locations:Shinbashi:Tengu</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShinbashi%3AZa_Watami_Ginza-dobashi-ten">Template:Meetings:Locations:Shinbashi:Za_Watami_Ginza-dobashi-ten</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AShinjuku%3AGarden_Kitchen_East">Template:Meetings:Locations:Shinjuku:Garden_Kitchen_East</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AWeber_Park">Template:Meetings:Locations:Weber_Park</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AYoga%3ASun">Template:Meetings:Locations:Yoga:Sun</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ALocations%3AYotsuya%3ABURG_HOLIC">Template:Meetings:Locations:Yotsuya:BURG_HOLIC</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ANomikai">Template:Meetings:Nomikai</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ANomikai-2007-10">Template:Meetings:Nomikai-2007-10</a></li>
+    
+    <li><a href="../wiki/Template%3AMeetings%3ATitle">Template:Meetings:Title</a></li>
+    
+    </ul>
+
+    </div>
+
+    <div id="footer">
+      <div id="sponsor">
+        <!--<p>The TLUG web page is hosted by the award-winning Internet provider <a href="http://asahi-net.jp/en/">ASAHI Net.</a></p>
+        <p><a href="/wiki/TLUG_Archvie_Server">TLUG's archive server</a> is hosted by <a href="http://www.networld.ne.jp">K.K. NETWORLD</a></p>-->
+      </div>
+
+      <div id="copyright">
+        <p>Homepage of the Tokyo Linux Users Group. All rights reserved.<br />
+        Established June 16, 1994</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-5555263-2");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

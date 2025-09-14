@@ -124,7 +124,7 @@ Creates a link to Wikipedia (English).</p>
 <p>[http://en.wikipedia.org/wiki/Linux Linux (Wikipedia)]</p>
 <p>would produce:</p>
 <p><a href="http://en.wikipedia.org/wiki/Linux">Linux (Wikipedia)</a></p>
-<p><font color="#CC2200">w</font></p>
+<p><a href="./Category:Template">Category:Template</a></p>
     </div>
 
     <div id="footer">

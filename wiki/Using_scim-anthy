@@ -298,7 +298,7 @@ The only real difference here is that while most versions of Linux use ja_JP.utf
 <p>If the package fails to build with an unable to allocate memory error, add the following to the scim-anthy Makefile's configuration options. (If you look at the Makefile, it will be fairly plain where these are.)</p>
 <p><code>UNLIMIT_RESOURCES=      datasize</code></p>
 <p>After that scim-anthy can be used in the same way it's used with Linux or FreeBSD, adding the various XMODIFIER and LC_CTYPE lines to your .xinitrc, along with scim -d if you want it to always be running. It will then be called with Ctrl+space and work as you would expect, entering romaji, seeing hiragana and hitting the space bar to view available kanji.</p>
-<p><font color="#CC2200">Using_scim-anthy</font></p>
+<p><a href="./Category:Japanese_And_Linux_Howto">Category:Japanese_And_Linux_Howto</a></p>
     </div>
 
     <div id="footer">

@@ -160,7 +160,7 @@ Quoth Josh Glover:</p>
 <li>Wait for a while</li>
 <li>Once the transfer finishes (you will know when you get dropped back to a command prompt; switch to a different virtual terminal and run <code>top</code> if you'd like to monitor the procedure--<code>dd</code> and <code>nc</code> processes should be consistently near the top until completion), reboot the target machine off its hard drive</li>
 </ol>
-<p><font color="#CC2200">dd</font></p>
+<p><a href="./Category:Linux_Help:Tip_of_the_Day">Category:Linux_Help:Tip_of_the_Day</a></p>
     </div>
 
     <div id="footer">

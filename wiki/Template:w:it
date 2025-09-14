@@ -124,7 +124,7 @@ Creates a link to the Italian Wikipedia.</p>
 <p>&lt;includeonly&gt;[http://it.wikipedia.org/wiki/ciao ciao (Wikipedia it)]&lt;/includeonly&gt;</p>
 <p>would produce:</p>
 <p><includeonly><a href="http://it.wikipedia.org/wiki/ciao">ciao (Wikipedia it)</a></includeonly></p>
-<p><font color="#CC2200">w:it</font></p>
+<p><a href="./Category:Template">Category:Template</a></p>
     </div>
 
     <div id="footer">
