@@ -1,7 +1,7 @@
 tlug.jp: Tokyo Linux Users Group Website
 ========================================
 
-This is an experimental work in progress for one possible new version
+This is the current version
 of <https://tlug.jp>, the Tokyo Linux Users Group website. It's a
 fully static site generated using [Hakyll], intended to be deployed to
 a CDN such as [Netlify]. It's possible to add dynamic elements by having
@@ -14,10 +14,7 @@ The current developers/maintainers are:
 
 ### Discussion Forums
 
-* [TLUG Gitter room]. Web or desktop/mobile app. Read without
-  authentication; GitHub/GitLab/Twitter authentication needed to post.
-  Full history visible to all. Private channels also available.
-* `irc:chat.freenode.net/#tlug.jp`. No history (?).
+* [TLUG Matrix room]. Web or desktop/mobile app
 * [TLUG mailing list]. [Archives] on the web.
 
 ### Site Organization and Future Development
@@ -140,12 +137,22 @@ but we do have staging URLs set up under personal accounts:
 
 ### Non-local Builds/Build Servers
 
-Some proof-of-concept work has been done on this. See
+The site is currently rebuilt by a GitHub Action on push to
+the `master` branch. Some proof-of-concept work has been done
+on other alternatives. See
 [PROPOSALS](doc/proposals.md) for more details.
 
 
 Production Deployment
 ---------------------
+
+> [!IMPORTANT]
+> While the manual procedure described below is still possible,
+> there is currently a GitHub Action workflow that automatically
+> rebuilds and deploys the site on any push to the `master` branch.
+> Editors are still __strongly__ encouraged to do testing and
+> validation of changes locally before pushing to `master`. The
+> automated workflow is intended to simplify minor changes.
 
 Production deployment is done by commiting the compiled site to the
 `gh-pages` branch. Run `./Test --prod-release` to compile the site and
@@ -167,8 +174,8 @@ configured, see [`doc/hosting.md`](doc/hosting.md).
 [`@jimt`]: https://github.com/jimt
 [`@sssjjjnnn`]: https://github.com/sssjjjnnn
 
-[TLUG Gitter room]: https://gitter.im/tlug/tlug
-[TLUG mailing list]: https://lists.tlug.jp/list.html
+[TLUG Matrix room]: https://matrix.to/#/#tlug.jp:matrix.org
+[TLUG mailing list]: https://lists.tlug.jp/
 [archives]: https://lists.tlug.jp/ML/index.html
 [master repo]: https://github.com/tlug/tlug.jp
 

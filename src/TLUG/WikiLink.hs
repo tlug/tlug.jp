@@ -21,26 +21,31 @@ data Chunk
     | WikiLink { ref :: String, anc :: String, text :: String }
     | Anchor String
     | Image { ref :: String, args :: String }
+    | Category { ref :: String, args :: String }
     deriving (Show, Eq)
 type Page = [Chunk]
 
--- | Top-level link fixup function
-fixWikiLinks :: String -> IO String
+-- | Top-level link fixup function, also returns a list of category tags found
+fixWikiLinks :: String -> IO (String, [String])
 fixWikiLinks s = do
     files <- listDirectory "wiki"
     images <- listDirectory "docroot/images"
     fixLinks files images $ runParser page s
 
-fixLinks :: [FilePath] -> [FilePath] -> Page -> IO String
+fixLinks :: [FilePath] -> [FilePath] -> Page -> IO (String, [String])
 fixLinks files images (x:xs) = do
     str <- case x of
                WikiLink ref anc text -> cleanupWikiLink files ref anc text
                Anchor s -> return s
                Image ref arg -> cleanupImageLink images ref arg
+               Category cat arg -> return (addCategory cat arg)
                Markup s -> return s
-    rem <- fixLinks files images xs
-    return $ str ++ rem
-fixLinks files images [] = return ""
+    let cat = case x of
+               Category cat arg -> [getCategory cat arg]
+               otherwise -> []
+    (remstr, remcat) <- fixLinks files images xs
+    return $ (str ++ remstr, remcat ++ cat)
+fixLinks files images [] = return ("", [])
 
 -- | Clean up a normal wiki link
 cleanupWikiLink :: [FilePath] -> String -> String -> String -> IO String
@@ -63,6 +68,16 @@ cleanupImageLink files ref arg = do
         else "[[Image:/images/" ++ file ++ arg ++ "]]"
     where
         delEndSpace = dropWhileEnd isSpace
+
+-- | Clean up an category link
+addCategory :: String -> String -> String
+addCategory ref arg = do
+    let catfile = "Category:" ++ ref
+    wikiLink2Link catfile catfile ""
+
+-- | Return category name
+getCategory :: String -> String -> String
+getCategory ref arg = "Category:" ++ ref
 
 -- | Convert special chars into their filename encoding
 replChars :: String -> String
@@ -105,7 +120,7 @@ urlSchemeHack = "adiumxtra:"
 
 -- | Parse a page
 page :: Parser Page
-page = many (markup <|> wikilink <|> anchor <|> image)
+page = many (markup <|> wikilink <|> anchor <|> image <|> category)
 
 -- | Parse a chunk of unprocessed markup
 markup :: Parser Chunk
@@ -119,7 +134,7 @@ markup = Markup <$>
 wikilink :: Parser Chunk
 wikilink = WikiLink <$
     string wikilinkBeg <*
-    noMatch ["#", "Image:"] <*
+    noMatch ["#", "Image:", "Category:"] <*
     optional (string ":") <*>
     some (anyExcept ["]", "|", "#"]) <*>
     embanchor <*
@@ -149,3 +164,15 @@ image = Image <$
         argstr s = if isJust s then fromJust s else ""
         args = argstr <$>
             optional ((++) <$> string "|" <*> (some $ anyExcept ["]"]))
+
+-- | Parse a category tag
+category :: Parser Chunk
+category = Category <$
+    string (wikilinkBeg ++ "Category:") <*>
+    some (anyExcept ["]", "|"]) <*>
+    args <*
+    string "]]"
+    where
+        argstr s = if isJust s then fromJust s else ""
+        args = argstr <$>
+            optional ((++) <$> string "|" *> (some $ anyExcept ["]"]))
