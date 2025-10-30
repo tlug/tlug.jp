@@ -3,8 +3,8 @@
 
 '''Template:Category:Meetings placeholder'''
 
-<font color=#CC2200>Current:Current</font>
-<font color=#CC2200>Current</font>
+[adiumxtra:./Category:Meetings Category:Meetings]
+[adiumxtra:./Category:Meetings:Current Category:Meetings:Current]
 
 
 </p></body></html>

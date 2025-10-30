@@ -155,7 +155,7 @@ paps<version>/doc directory and find the part in the Makefile where it says cp -
 <p>I usually use mutt as my email client. The mutt program lets you pipe things to a command by hitting the | key. So, if I wanted to print a Japanese email I received, in mutt I would type</p>
 <p><code>|paps|lp</code></p>
 <p>I use HP printers both at work and home. The generic laserjet and deskjet drivers didn't work properly with paps, I had to install the hpijs program (available in most distributions) to get more sophisticated ppds. If it's not available in your distribution, you can get the source code from <a href="http://hplip.sourceforge.net/">the HPLIP page</a>. (The HPLIP package includes hpijs.)</p>
-<p><font color="#CC2200">Printing</font></p>
+<p><a href="./Category:Japanese_And_Linux_Howto">Category:Japanese_And_Linux_Howto</a></p>
     </div>
 
     <div id="footer">

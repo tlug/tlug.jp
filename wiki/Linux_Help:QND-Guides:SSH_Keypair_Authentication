@@ -139,7 +139,7 @@
 <code>ssh server chmod 700 “$HOME/.ssh”</code><br />
 <code>ssh server chmod 644 “$HOME/.ssh/authorized_keys”</code></p>
 <p>For each machine you want to be able to connect from, first copy the <em>id_dsa</em> file (the private key) to that machine, then follow the above steps.</p>
-<p><font color="#CC2200">SSH_Keypair_Authentication</font></p>
+<p><a href="./Category:Linux_Help:QND-Guides">Category:Linux_Help:QND-Guides</a></p>
     </div>
 
     <div id="footer">

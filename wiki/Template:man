@@ -124,7 +124,7 @@ Creates a link to the specified Unix man page in the specified section.</p>
 <p>&lt;code&gt;[http://www.rt.com/man/ps.1.html man 1 ps]&lt;/code&gt;</p>
 <p>would produce:</p>
 <p><a href="http://www.rt.com/man/ps.1.html"><code>man 1 ps</code></a></p>
-<p><font color="#CC2200">man</font></p>
+<p><a href="./Category:Template">Category:Template</a></p>
     </div>
 
     <div id="footer">

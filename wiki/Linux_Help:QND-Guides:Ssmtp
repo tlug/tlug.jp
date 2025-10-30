@@ -221,7 +221,7 @@ When ssmtp is installed, you will also see a revaliases or revaliases.sample fil
 <p>To test ssmtp, try sending an email. You can send one to yourself, and make sure you get it, or elsewhere. You can also look at /var/log/maillog which should show that the mail was sent successfully.</p>
 <p>References</p>
 <p>man ssmtp</p>
-<p><font color="#CC2200">SSMTP</font></p>
+<p><a href="./Category:Linux_Help:QND-Guides">Category:Linux_Help:QND-Guides</a></p>
     </div>
 
     <div id="footer">

@@ -124,7 +124,7 @@ Creates a link to Wiktionary (English).</p>
 <p>[http://en.wiktionary.org/wiki/collabo collabo (Wiktionary)]</p>
 <p>would produce:</p>
 <p><a href="http://en.wiktionary.org/wiki/collabo">collabo (Wiktionary)</a></p>
-<p><font color="#CC2200">wikt</font></p>
+<p><a href="./Category:Template">Category:Template</a></p>
     </div>
 
     <div id="footer">

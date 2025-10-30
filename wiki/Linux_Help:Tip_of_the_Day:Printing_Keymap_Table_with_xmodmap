@@ -154,7 +154,7 @@
 <pre><code>xmodmap ${HOME}/.xmodmaprc</code></pre>
 <p>to the file before the window manager is started. <font color="red"><strong>GNOME / KDE user: update this section to give instructions for running xmodmap on startup!</strong></font></p></li>
 </ol>
-<p><font color="#CC2200">xmodmap</font></p>
+<p><a href="./Category:Linux_Help:Tip_of_the_Day">Category:Linux_Help:Tip_of_the_Day</a></p>
     </div>
 
     <div id="footer">
