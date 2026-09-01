@@ -1,188 +1,79 @@
-tlug.jp: Tokyo Linux Users Group Website
-========================================
+Tokyo Linux Users Group Website
+===============================
 
-This is the current version
-of <https://tlug.jp>, the Tokyo Linux Users Group website. It's a
-fully static site generated using [Hakyll], intended to be deployed to
-a CDN such as [Netlify]. It's possible to add dynamic elements by having
-JS call an API on another server.
+This repository contains the source for [tlug.jp], a static site built with
+[Hugo].
 
-The current developers/maintainers are:
-- Curt Sampson ([`@0cjs`]) <cjs@cynic.net>
-- Jim Tittsler ([`@jimt`]) <jimt@onjapan.net>
-- [`@sssjjjnnn`]
+Development
+-----------
 
-### Discussion Forums
+Install [Hugo] (extended edition, see `HUGO_VERSION` in [`netlify.toml`] for
+the version used in production), then:
 
-* [TLUG Matrix room]. Web or desktop/mobile app
-* [TLUG mailing list]. [Archives] on the web.
+    hugo server        # local preview at http://localhost:1313/
+    hugo               # production build into public/
 
-### Site Organization and Future Development
+Layout:
 
-Documentation related to this site is stored in various files under
-the [`doc/`](doc/) directory. In order of importance, these include:
+- `content/en/`, `content/ja/` — page content (Markdown). The site is
+  multilingual; add a file at the same path under `content/ja/` to translate
+  a page.
+- `data/locations.yaml` — the venue registry for meeting pages.
+- `data/links.yaml` — community/social links (footer icons and homepage
+  buttons; icons live in `assets/icons/`, from [Simple Icons]).
+- `layouts/` — hand-written templates, no theme.
+- `assets/css/style.css` — the stylesheet.
+- `i18n/` — translated UI strings.
+- `static/` — files copied verbatim (images, etc.).
 
-- [`ORGANIZATION`](doc/ORGANIZATION.md): Information on the current
-  organization of the site, organization of the previous site(s) and
-  ideas for where to move forward from here.
-- [`proposals`](doc/proposals.md): Discussion of random ideas that we
-  could implement.
-- [`hakyll`](doc/hakyll.md): Information about hacking on the site
-  compiler itself (`app/SiteCompiler.hs`). You can safely skip this if
-  you're working only on site content.
-- [`hosting`](doc/hosting.md): Information about the hosting for this site.
-
-
-Building
+Meetings
 --------
 
-The top-level `Test` script (usually run with the command `./Test`)
-does a build, test and optional release. The steps it performs are:
+Meeting pages live in `content/en/meetings/`, one file per meeting, named
+`YYYY-MM-DD-slug.md` (e.g. `2026-09-05-technical-meeting.md`). The `date` in
+the frontmatter is the **event** date/time; meetings with a future date are
+automatically listed under "Upcoming Events" on the homepage (this is why
+`buildFuture = true` is set in `hugo.toml`).
 
-1. Install/update [Haskell Stack] if necessary. Stack will be
-   installed to `~/.local/bin/`, but if it requires OS package
-   dependencies that you don't have installed on your system you may
-   be required to respond to a sudo password prompt for the package
-   installer. This can also be done manually with:
+Frontmatter parameters:
 
-       #    Install Stack
-       curl -sSL https://get.haskellstack.org/ | sh
-       wget -qO- https://get.haskellstack.org/ | sh
-       #    Update existing Stack version
-       stack upgrade
+    ---
+    title: Technical Meeting        # or Nomikai, Software Freedom Day, ...
+    date: 2026-07-11T13:00:00+09:00 # event start
+    params:
+      meetingType: technical        # or nomikai
+      time: "13:00–16:00"           # human-readable time range
+      location: axsh                # key into data/locations.yaml
+      registration: https://...     # connpass event (optional)
+    ---
 
-2. Build Hakyll if necessary (this can take some time) and build the
-   site into the `_site/` directory. This can also be done manually
-   with:
+Venues are defined once in [`data/locations.yaml`] (name, address, map
+links, website) and referenced by key. For a one-off venue, skip the
+registry and inline the details instead:
 
-       stack build --test
-       stack exec site-compiler build
+      location: |-                  # first line = venue name
+        Some Event Space
+        1-2-3 Somewhere
+        Chiyoda-ku, Tokyo
+      locationApple: https://...    # optional map/venue links
+      locationGoogle: https://...
+      venue: https://...
 
-3. Run tests (of which we currently have none).
+To announce a new meeting, copy the most recent similar meeting page, update
+the frontmatter and body, and push. No other changes are needed.
 
-Hakyll also includes a preview server that will serve the
-locally-built site and rebuild it when the source files change:
+Deployment
+----------
 
-    stack exec site-compiler watch -- --host HOST --port PORT
-
-`--host` and `--port` are optional. The server will not automatically
-load or refresh pages in your browser when the site changes.
-
-
-Staging Deployment
-------------------
-
-Staging deployments of local builds can currently be done to any
-system that can serve the files on the `gh-pages` branch of a copy of
-this repo, including [GithHub Pages][ghp] (on `github.io`) and
-[Netlify].
-
-Running `./Test --dev-release` will compile the site and commit a copy
-to a branch named for the current branch with `-release` appended. You
-must be on a branch starting with `dev/` (e.g., `dev/cjs/my-changes`)
-and your working tree must be completely clean, with no uncommited
-changes, and no untracked files. (`git stash --all` can help with
-this.)
-
-When complete, the `Test` script will print out the command to use to
-push up your release branch; configure Netlify to serve this branch
-and you're set.
-
-#### GitHub Pages Deployment
-
-<https://tlug.github.io/tlug.jp/> is a deployment of the `gh-pages`
-branch from the [master repo], and is updated automatically with new
-pushes to that branch.
-
-Anybody with a fork of the repo can also deploy to [GitHub Pages][ghp]
-in the same way. [The documentation][ghp] has full details, but is
-missing a few important points.
-
-First, remember that even if your repo is private, the GitHub Pages
-deployed from that repo is fully public and anybody can fetch any
-contents from the `gh-pages` branch if they know the name.
-Additionally, some pages may continue to be served even after the repo
-has been deleted.
-
-After you fork the repo it may appear already to be configured for
-deployment under a [project pages][ghp-projectpg] URL, but it isn't.
-As per the documentation on [configuring a publishing
-source][ghp-pubconfig] you should go to "Settings", ensure "Options"
-is selected at the left, and scroll down to the "GitHub Pages"
-section.
-
-The "Source" dropdown already says "gh-pages branch", but this seems
-to be the case even when it's not configured; you need to drop down
-the menu and select "gh-pages branch" (again) anyway. This should
-automatically save and you should then see a message at the top of
-that section saying "Your site is ready to be published at
-<http://USER.github.io/tlug.jp>>, where `USER` is your GitHub user name.
-
-You then need to commit something to the `gh-pages` branch to trigger
-deployment of the site; the easiest way to do this is to select the
-branch from the drop-down at the main page for the site (i.e., taking
-you to <https://github.com/USER/tlug.jp/tree/gh-pages>) and use the
-"Create new file" button to add an empty file with any name,
-committing it directly to the `gh-pages` branch to triger deployment.
-
-#### Netlify
-
-There is currently work in progress to do staging deployments on
-[Netlify]. We don't have a shared organization account on Netlify
-because they seem to offer only paid options for that at the moment,
-but we do have staging URLs set up under personal accounts:
-
-- <https://tlug.netlify.com> using Jim's Netlify account.
-- <https://cjs-tlug.netlify.com> using cjs's Netlify account.
-
-### Non-local Builds/Build Servers
-
-The site is currently rebuilt by a GitHub Action on push to
-the `master` branch. Some proof-of-concept work has been done
-on other alternatives. See
-[PROPOSALS](doc/proposals.md) for more details.
+The site is deployed by [Netlify] from the `main` branch: every push to
+`main` triggers `hugo --gc --minify` (see [`netlify.toml`]). Redirects from
+old `/wiki/*` URLs are also configured there.
 
 
-Production Deployment
----------------------
-
-> [!IMPORTANT]
-> While the manual procedure described below is still possible,
-> there is currently a GitHub Action workflow that automatically
-> rebuilds and deploys the site on any push to the `master` branch.
-> Editors are still __strongly__ encouraged to do testing and
-> validation of changes locally before pushing to `master`. The
-> automated workflow is intended to simplify minor changes.
-
-Production deployment is done by commiting the compiled site to the
-`gh-pages` branch. Run `./Test --prod-release` to compile the site and
-commit the compiled code to that branch. (You must be on `master`
-branch to do this, and you must have a completely clean working copy,
-i.e., no modified files and no untracked files.)
-
-Once this is done you can push the branch up with `git push origin
-gh-pages` and Netlify will automatically pick up the changes and
-start serving them.
-
-For information about where this site is hosted and how it's
-configured, see [`doc/hosting.md`](doc/hosting.md).
-
-
-
-<!-------------------------------------------------------------------->
-[`@0cjs`]: https://github.com/0cjs
-[`@jimt`]: https://github.com/jimt
-[`@sssjjjnnn`]: https://github.com/sssjjjnnn
-
-[TLUG Matrix room]: https://matrix.to/#/#tlug.jp:matrix.org
-[TLUG mailing list]: https://lists.tlug.jp/
-[archives]: https://lists.tlug.jp/ML/index.html
-[master repo]: https://github.com/tlug/tlug.jp
-
-[Hakyll]: https://jaspervdj.be/hakyll/
-[Haskell Stack]: https://docs.haskellstack.org/
-
+[Hugo]: https://gohugo.io/
 [Netlify]: https://www.netlify.com/
-[ghp-projectpg]: https://help.github.com/en/articles/user-organization-and-project-pages#project-pages-sites
-[ghp-pubconfig]: https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
-[ghp]: https://help.github.com/pages/
+[pandoc]: https://pandoc.org/
+[Simple Icons]: https://simpleicons.org/
+[tlug.jp]: https://tlug.jp/
+[`data/locations.yaml`]: ./data/locations.yaml
+[`netlify.toml`]: ./netlify.toml

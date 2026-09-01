@@ -1,0 +1,28 @@
+{{- /* Resolve a meeting page's venue into a dict with keys:
+       name, address (slice of lines), apple, google, venue.
+
+       `location` in frontmatter is either a key into data/locations.yaml
+       or, for one-off venues, a literal multi-line address (first line =
+       venue name) optionally accompanied by locationApple / locationGoogle
+       / venue params. */ -}}
+{{- $p := . -}}
+{{- $loc := dict -}}
+{{- with $p.Params.location -}}
+  {{- with index hugo.Data.locations . -}}
+    {{- $loc = dict
+          "name" .name
+          "address" (.address | default slice)
+          "apple" .apple
+          "google" .google
+          "venue" .venue -}}
+  {{- else -}}
+    {{- $lines := split $p.Params.location "\n" -}}
+    {{- $loc = dict
+          "name" (index $lines 0)
+          "address" (after 1 $lines)
+          "apple" $p.Params.locationApple
+          "google" $p.Params.locationGoogle
+          "venue" $p.Params.venue -}}
+  {{- end -}}
+{{- end -}}
+{{- return $loc -}}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="upcoming">
+  <h2>{{ i18n "upcomingEvents" }}</h2>
+  {{ partial "upcoming-meetings.html" . }}
+</section>
+
+<article class="prose">
+  {{ .Content }}
+</article>
+
+<section class="community">
+  {{ partial "community-links.html" . }}
+</section>
+{{ end }}

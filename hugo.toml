@@ -1,0 +1,86 @@
+baseURL = "https://tlug.jp/"
+title = "Tokyo Linux Users Group"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# Meetings are published ahead of time with future event dates, so future
+# pages must be built.
+buildFuture = true
+
+enableRobotsTXT = true
+timeZone = "Asia/Tokyo"
+
+# No tags/categories on this site.
+disableKinds = ["taxonomy", "term"]
+
+[languages]
+  [languages.en]
+    locale = "en"
+    label = "English"
+    contentDir = "content/en"
+    weight = 1
+
+    [[languages.en.menus.main]]
+      name = "Meetings"
+      pageRef = "/meetings"
+      weight = 10
+    [[languages.en.menus.main]]
+      name = "Mailing Lists"
+      pageRef = "/mailing-lists"
+      weight = 20
+    [[languages.en.menus.main]]
+      name = "Member Guide"
+      pageRef = "/about/member-guide"
+      weight = 30
+    [[languages.en.menus.main]]
+      name = "Organization"
+      pageRef = "/about/organization"
+      weight = 40
+
+  [languages.ja]
+    locale = "ja"
+    label = "日本語"
+    contentDir = "content/ja"
+    weight = 2
+
+    # These pages exist only in English for now. When a Japanese
+    # translation is added under content/ja/, switch `url` to `pageRef`.
+    [[languages.ja.menus.main]]
+      name = "ミーティング"
+      url = "/meetings/"
+      weight = 10
+    [[languages.ja.menus.main]]
+      name = "メーリングリスト"
+      url = "/mailing-lists/"
+      weight = 20
+    [[languages.ja.menus.main]]
+      name = "メンバーガイド"
+      url = "/about/member-guide/"
+      weight = 30
+    [[languages.ja.menus.main]]
+      name = "運営"
+      url = "/about/organization/"
+      weight = 40
+
+[params]
+  established = "June 16, 1994"
+  # Mailing list links used in templates/content
+  listSubscribe = "http://lists.tlug.jp/list.html"
+  listPolicy = "http://lists.tlug.jp/listpolicy.html"
+  listArchiveMain = "http://lists.tlug.jp/ML/index.html"
+  listArchiveAdmin = "http://lists.tlug.jp/MLadm/index.html"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        # Allow {.class} attributes on blocks (used e.g. for the QR code).
+        block = true
+    [markup.goldmark.renderer]
+      # Content ported from the old site contains some inline HTML.
+      unsafe = true
+
+[outputs]
+  home = ["html", "rss"]
+  section = ["html", "rss"]

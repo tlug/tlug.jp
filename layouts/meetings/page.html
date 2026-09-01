@@ -1,0 +1,35 @@
+{{ define "main" }}
+<article class="prose">
+  <h1>{{ .Title }}</h1>
+
+  {{ $loc := partial "location-resolve.html" . }}
+  <dl class="meeting-meta">
+    <dt>{{ i18n "date" }}</dt>
+    <dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time></dd>
+    {{ with .Params.time }}
+    <dt>{{ i18n "time" }}</dt>
+    <dd>{{ . }}</dd>
+    {{ end }}
+    {{ with $loc.name }}
+    <dt>{{ i18n "location" }}</dt>
+    <dd>
+      {{ . }}<br>
+      {{ range $loc.address }}{{ . }}<br>{{ end }}
+      {{ $links := slice }}
+      {{ with $loc.apple }}{{ $links = $links | append (printf `<a href="%s">%s</a>` . (i18n "appleMaps")) }}{{ end }}
+      {{ with $loc.google }}{{ $links = $links | append (printf `<a href="%s">%s</a>` . (i18n "googleMaps")) }}{{ end }}
+      {{ with $loc.venue }}{{ $links = $links | append (printf `<a href="%s">%s</a>` . (i18n "venueSite")) }}{{ end }}
+      {{ delimit $links " · " | safeHTML }}
+    </dd>
+    {{ end }}
+    {{ with .Params.registration }}
+    <dt>{{ i18n "registration" }}</dt>
+    <dd><a href="{{ . }}">{{ . }}</a></dd>
+    {{ end }}
+  </dl>
+
+  {{ .Content }}
+
+  <p class="back-link"><a href="{{ .Parent.RelPermalink }}">&larr; {{ i18n "allMeetings" }}</a></p>
+</article>
+{{ end }}

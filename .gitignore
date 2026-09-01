@@ -1,9 +1,7 @@
-#   Handy place for developers to drop working files not to be committed.
-/tmp/
+# Hugo build output
+/public/
+/resources/
+.hugo_build.lock
 
-/.HTF/
-/.netlify/
-/.stack-work/
-/_cache/
-/_site/
-/stack.yaml.lock
+# Handy place for developers to drop working files not to be committed.
+/tmp/

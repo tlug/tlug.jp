@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ if .IsHome -}}
+<title>{{ site.Title }}</title>
+{{- else -}}
+<title>{{ .Title }} | {{ site.Title }}</title>
+{{- end }}
+<meta name="description" content="{{ .Description | default (i18n "siteDescription") }}">
+<meta name="theme-color" content="#1b1f24" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1013" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/images/TLUG.svg" type="image/svg+xml">
+{{ with resources.Get "css/style.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{- end }}
+{{ range .Translations -}}
+<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+{{ end -}}
+{{ with .OutputFormats.Get "rss" -}}
+<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">
+{{- end }}
+{{ if hugo.IsProduction -}}
+<script async src="https://pbl.tiuxo.com/js/pa-TPSOH1KqKSehteJS_9Vzy.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+{{- end }}

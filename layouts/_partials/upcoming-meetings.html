@@ -1,0 +1,34 @@
+{{- /* Meetings live only in the English content tree, so always pull them
+       from the English site; this partial works from any language. */ -}}
+{{- $meetings := slice -}}
+{{- range hugo.Sites -}}
+  {{- if eq .Language.Lang "en" -}}
+    {{- $meetings = where .RegularPages "Section" "meetings" -}}
+  {{- end -}}
+{{- end -}}
+{{- $upcoming := where $meetings "Date" "ge" now -}}
+{{- if $upcoming -}}
+<ul class="meeting-cards">
+  {{- range sort $upcoming "Date" "asc" }}
+  <li class="meeting-card">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="meeting-when">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time>
+      {{- with .Params.time }} · {{ . }}{{ end }}
+    </p>
+    {{ with (partial "location-resolve.html" .).name }}<p class="meeting-where">{{ . }}</p>{{ end }}
+    <p class="meeting-links">
+      <a href="{{ .RelPermalink }}">{{ i18n "moreInfo" }}</a>
+      {{ with .Params.registration }} · <a href="{{ . }}">{{ i18n "register" }}</a>{{ end }}
+    </p>
+  </li>
+  {{- end }}
+</ul>
+{{- else -}}
+<p>{{ i18n "noUpcoming" }}</p>
+{{- with first 1 (where $meetings "Date" "lt" now) -}}
+{{- with index . 0 -}}
+<p><a href="{{ .RelPermalink }}">{{ i18n "latestMeeting" }}: {{ .Title }} ({{ .Date | time.Format ":date_long" }})</a></p>
+{{- end -}}
+{{- end -}}
+{{- end }}

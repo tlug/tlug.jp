@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+
+{{ $now := now }}
+{{ range .Pages.GroupByDate "2006" }}
+<section class="meeting-year">
+  <h2>{{ .Key }}</h2>
+  <ul class="meeting-list">
+    {{ range .Pages }}
+    <li>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ if .Date.After $now }}<span class="badge">{{ i18n "upcoming" }}</span>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ end }}

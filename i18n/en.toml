@@ -1,0 +1,59 @@
+[siteName]
+other = "Tokyo Linux Users Group"
+
+[siteDescription]
+other = "The Tokyo Linux Users Group (TLUG) is a non-profit users group whose members exchange information on Linux and free software. Meetings are held in English and Japanese. All are welcome."
+
+[established]
+other = "Established {{ .date }}"
+
+[upcomingEvents]
+other = "Upcoming Events"
+
+[noUpcoming]
+other = "No meeting is scheduled at the moment. Meetings are announced on the mailing list — join us there!"
+
+[latestMeeting]
+other = "Latest meeting"
+
+[upcoming]
+other = "upcoming"
+
+[moreInfo]
+other = "More info"
+
+[register]
+other = "Register"
+
+[registration]
+other = "Registration"
+
+[date]
+other = "Date"
+
+[time]
+other = "Time"
+
+[location]
+other = "Location"
+
+[appleMaps]
+other = "Apple Maps"
+
+[googleMaps]
+other = "Google Maps"
+
+[venueSite]
+other = "Venue website"
+
+[allMeetings]
+other = "All meetings"
+
+[meetings]
+other = "Meetings"
+
+[mailingLists]
+other = "Mailing Lists"
+
+[scanQR]
+other = 'Meeting us in person? Scan the <a href="{{ .url }}">Signal QR code</a>.'

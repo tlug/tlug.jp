@@ -1,0 +1,46 @@
+# TLUG meeting venues.
+#
+# Reference a venue from a meeting page with `location: <key>` in the
+# frontmatter params. All fields except `name` are optional:
+#
+#   key:
+#     name: Venue Name          # shown on cards and meeting pages
+#     address:                  # one line per list item
+#       - Building, Floor
+#       - Street
+#       - Ward, City Postal-code
+#     apple: https://...        # Apple Maps link
+#     google: https://...       # Google Maps link
+#     venue: https://...        # venue's own website
+#
+# For a one-off venue, skip this file and put the address directly in the
+# meeting's frontmatter (see README.md).
+
+axsh:
+  name: Axsh / Japanese Wine Soirée
+  address:
+    - Kitasando-R Bldg 1F
+    - 3-24-8 Sendagaya
+    - Shibuya-ku, Tokyo 151-0051
+  apple: https://maps.apple.com/place?place-id=IC6CC040218BCC856
+  google: https://maps.app.goo.gl/x7GUcvs2JWYnf8TK7
+  venue: https://soiree-wine.com
+
+shift-shinjuku:
+  name: SHIFT Inc. Shinjuku Office
+  address:
+    - Shinjuku Bunka Quint Building
+    - 3-22-7 Yoyogi
+    - Shibuya-ku, Tokyo 151-0053
+  apple: https://maps.apple.com/place?place-id=IAEAA498DE61F8E53
+  google: https://maps.app.goo.gl/MLbuddjhV5V57irH8
+  venue: https://en.shiftinc.jp
+
+zest-cantina-daikanyama:
+  name: Zest Cantina Daikanyama
+  address:
+    - B1F, 16-2 Daikanyamacho
+    - Shibuya-ku, Tokyo
+  apple: https://maps.apple.com/place?place-id=IBB82791F0A95A1D9
+  google: https://goo.gl/maps/9ejrTuhJ2oQLeHmV6
+  venue: https://zest-cantina.jp/daikanyama/

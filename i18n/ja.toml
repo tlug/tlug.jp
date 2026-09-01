@@ -1,0 +1,59 @@
+[siteName]
+other = "東京Linuxユーザーズグループ"
+
+[siteDescription]
+other = "東京Linuxユーザーズグループ（TLUG）は、Linuxとフリーソフトウェアに関する情報交換を行う非営利のユーザーズグループです。ミーティングは英語と日本語で行われます。どなたでも歓迎します。"
+
+[established]
+other = "設立: 1994年6月16日"
+
+[upcomingEvents]
+other = "今後のイベント"
+
+[noUpcoming]
+other = "現在予定されているミーティングはありません。ミーティングはメーリングリストで告知されます。ぜひご参加ください！"
+
+[latestMeeting]
+other = "直近のミーティング"
+
+[upcoming]
+other = "開催予定"
+
+[moreInfo]
+other = "詳細"
+
+[register]
+other = "参加登録"
+
+[registration]
+other = "参加登録"
+
+[date]
+other = "日付"
+
+[time]
+other = "時間"
+
+[location]
+other = "場所"
+
+[appleMaps]
+other = "Appleマップ"
+
+[googleMaps]
+other = "Googleマップ"
+
+[venueSite]
+other = "会場のウェブサイト"
+
+[allMeetings]
+other = "ミーティング一覧"
+
+[meetings]
+other = "ミーティング"
+
+[mailingLists]
+other = "メーリングリスト"
+
+[scanQR]
+other = '対面でお会いする際は、<a href="{{ .url }}">SignalのQRコード</a>をスキャンできます。'

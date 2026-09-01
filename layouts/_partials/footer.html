@@ -1,0 +1,8 @@
+<footer class="site-footer">
+  <ul class="social">
+    {{ range hugo.Data.links -}}
+    <li><a href="{{ .url }}" aria-label="{{ .name }}" title="{{ .name }}">{{ partial "icon.html" .id }}</a></li>
+    {{ end -}}
+  </ul>
+  <p>{{ i18n "established" (dict "date" site.Params.established) }}</p>
+</footer>

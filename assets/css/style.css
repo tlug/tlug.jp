@@ -1,0 +1,337 @@
+/* TLUG — simple, clean. */
+
+:root {
+  /* TLUG brand red, constant across color schemes. */
+  --brand: #d90000;
+
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #24292f;
+  --muted: #57606a;
+  --accent: #c00000;
+  --accent-hover: #8f0000;
+  --header-bg: #1b1f24;
+  --header-fg: #f6f8fa;
+  --border: #d0d7de;
+  --card-bg: #f6f8fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181d;
+    --fg: #dfe3e8;
+    --muted: #9aa2ab;
+    --accent: #ff7066;
+    --accent-hover: #ff958d;
+    --header-bg: #0e1013;
+    --header-fg: #f6f8fa;
+    --border: #3a4048;
+    --card-bg: #1f232a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+/* Header */
+
+.site-header {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  border-bottom: 3px solid var(--brand);
+}
+
+.site-header-inner {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.5rem;
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--header-fg);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.site-brand img {
+  display: block;
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin-left: auto;
+}
+
+.site-nav a {
+  color: var(--header-fg);
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.site-nav .lang-switch {
+  border: 1px solid rgba(246, 248, 250, 0.4);
+  border-radius: 4px;
+  padding: 0 0.5rem;
+}
+
+/* Layout */
+
+main {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.25rem;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.25rem 1rem;
+  border-left: 4px solid var(--brand);
+  color: var(--muted);
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Meeting cards (homepage) */
+
+.upcoming h2 {
+  margin-top: 0;
+}
+
+.meeting-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.meeting-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.meeting-card h3 {
+  margin: 0 0 0.25rem;
+}
+
+.meeting-card h3 a {
+  text-decoration: none;
+}
+
+.meeting-card p {
+  margin: 0.25rem 0;
+}
+
+.meeting-when {
+  font-weight: 600;
+}
+
+.meeting-where {
+  color: var(--muted);
+}
+
+/* Meeting archive */
+
+.meeting-list {
+  list-style: none;
+  padding: 0;
+}
+
+.meeting-list li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+}
+
+.meeting-list time {
+  color: var(--muted);
+  min-width: 11rem;
+}
+
+.badge {
+  background: var(--brand);
+  color: #fff;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  padding: 0.05rem 0.6rem;
+  align-self: center;
+}
+
+/* Meeting page meta block */
+
+.meeting-meta {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.25rem 1.25rem;
+}
+
+.meeting-meta dt {
+  font-weight: 600;
+}
+
+.meeting-meta dd {
+  margin: 0;
+}
+
+/* Community links (homepage) */
+
+.community-links {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.community-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  color: var(--fg);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.community-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.community-links svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+  flex: none;
+}
+
+.community-links small {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.community-qr {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* QR code (chat page) */
+
+.qr img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0.25rem 0;
+}
+
+.site-footer a {
+  color: var(--muted);
+}
+
+.site-footer .social {
+  list-style: none;
+  margin: 0.25rem 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.site-footer .social a {
+  display: block;
+}
+
+.site-footer .social a:hover {
+  color: var(--accent);
+}
+
+.site-footer .social svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  fill: currentColor;
+}

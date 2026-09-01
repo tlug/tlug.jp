@@ -1,0 +1,39 @@
+# TLUG community / social links.
+#
+# Rendered as the icon row in the footer (all entries) and as the link
+# buttons on the homepages (entries with `home: true`).
+#
+#   id:    matches an SVG in assets/icons/<id>.svg
+#   name:  visible label
+#   note:  optional i18n key for a small tagline (homepage only)
+#   home:  include in the homepage community row
+
+- id: signal
+  name: Signal
+  url: "https://signal.group/#CjQKIOIrkbAAkVo1zAnMQnOl_D-jHsmBzifh8Lrx09LOL9W_EhDkXeEYfQaA6I5IsENXhMak"
+  home: true
+
+- id: matrix
+  name: Matrix
+  url: "https://matrix.to/#/#tlug.jp:matrix.org"
+  home: true
+
+- id: connpass
+  name: Connpass
+  url: https://tlug.connpass.com/
+  home: true
+
+- id: bluesky
+  name: Bluesky
+  url: https://bsky.app/profile/tlug.jp
+  home: true
+
+- id: youtube
+  name: YouTube
+  url: https://www.youtube.com/@TokyoLinuxUsersGroup
+  home: true
+
+- id: github
+  name: GitHub
+  url: https://github.com/tlug/tlug.jp
+  home: false

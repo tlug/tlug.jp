@@ -1,0 +1,24 @@
+# Netlify configuration.
+#   https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+    command = "hugo --gc --minify"
+    publish = "public"
+
+[build.environment]
+    HUGO_VERSION = "0.161.1"
+    TZ = "Asia/Tokyo"
+
+# The old MediaWiki-derived site lived under /wiki/. Until that content is
+# migrated, send old links to the homepage. Kept as 302 so that individual
+# pages can be given proper permanent redirects as they are migrated.
+[[redirects]]
+    from = "/wiki/*"
+    to = "/"
+    status = 302
+
+# Old Japanese homepage.
+[[redirects]]
+    from = "/index.ja.html"
+    to = "/ja/"
+    status = 301

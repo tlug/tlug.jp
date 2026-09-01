@@ -1,0 +1,12 @@
+<ul class="community-links">
+  {{ range where hugo.Data.links "home" true -}}
+  <li>
+    <a href="{{ .url }}">
+      {{ partial "icon.html" .id }}
+      <span>{{ .name }}</span>
+      {{ with .note }}<small>{{ i18n . }}</small>{{ end }}
+    </a>
+  </li>
+  {{ end -}}
+</ul>
+<p class="community-qr">{{ i18n "scanQR" (dict "url" "/chat/") | safeHTML }}</p>

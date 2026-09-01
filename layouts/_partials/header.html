@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-brand" href="{{ site.Home.RelPermalink }}">
+      <img src="/images/TLUG.svg" alt="" width="40" height="40">
+      <span>{{ i18n "siteName" }}</span>
+    </a>
+    <nav class="site-nav">
+      {{ range site.Menus.main -}}
+      <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end -}}
+      {{ if .IsTranslated -}}
+        {{ range .Translations -}}
+        <a class="lang-switch" href="{{ .RelPermalink }}" lang="{{ .Language.Locale }}">{{ .Language.Label }}</a>
+        {{ end -}}
+      {{ else -}}
+        {{ range hugo.Sites }}{{ if ne .Language.Lang $.Language.Lang -}}
+        <a class="lang-switch" href="{{ .Home.RelPermalink }}" lang="{{ .Language.Locale }}">{{ .Language.Label }}</a>
+        {{ end }}{{ end -}}
+      {{ end -}}
+    </nav>
+  </div>
+</header>
