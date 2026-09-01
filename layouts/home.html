@@ -1,6 +1,9 @@
 {{ define "main" }}
 <section class="hero">
-  <img src="/images/TLUG.svg" alt="" width="220" height="188" fetchpriority="high">
+  <picture>
+    <source srcset="/images/TLUG-dark.svg" media="(prefers-color-scheme: dark)">
+    <img src="/images/TLUG.svg" alt="" width="220" height="188" fetchpriority="high">
+  </picture>
   <h1>{{ i18n "siteName" }}</h1>
   <p>{{ i18n "tagline" }}</p>
 </section>
