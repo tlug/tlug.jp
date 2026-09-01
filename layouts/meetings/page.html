@@ -24,7 +24,11 @@
     {{ end }}
     {{ with .Params.registration }}
     <dt>{{ i18n "registration" }}</dt>
-    <dd><a href="{{ . }}">{{ . }}</a></dd>
+    {{ $host := (urls.Parse .).Hostname }}
+    {{ $label := cond (strings.Contains $host "connpass") "Connpass"
+                (cond (strings.Contains $host "doorkeeper") "Doorkeeper"
+                (cond (strings.Contains $host "meetup") "Meetup" $host)) }}
+    <dd><a href="{{ . }}">{{ $.Params.registrationName | default $label }}</a></dd>
     {{ end }}
   </dl>
 

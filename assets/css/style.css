@@ -114,6 +114,12 @@ a {
   color: var(--accent);
 }
 
+/* Long bare URLs (e.g. registration links in meeting bodies) must not
+   overflow narrow screens. */
+.prose a {
+  overflow-wrap: anywhere;
+}
+
 a:hover {
   color: var(--accent-hover);
 }

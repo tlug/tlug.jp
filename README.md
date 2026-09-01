@@ -44,7 +44,9 @@ Frontmatter parameters:
       meetingType: technical        # or nomikai
       time: "13:00–16:00"           # human-readable time range
       location: axsh                # key into data/locations.yaml
-      registration: https://...     # connpass event (optional)
+      registration: https://...    # connpass event (optional)
+      registrationName: Connpass   # optional label override; auto-detected
+                                   # from the URL otherwise
       cfp: false                    # optional; see below
     ---
 
