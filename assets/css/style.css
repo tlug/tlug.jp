@@ -149,6 +149,28 @@ img {
   height: auto;
 }
 
+/* Hero (homepage) */
+
+.hero {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+}
+
+.hero img {
+  width: clamp(140px, 40vw, 220px);
+  height: auto;
+}
+
+.hero h1 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.9rem;
+}
+
+.hero p {
+  margin: 0;
+  color: var(--muted);
+}
+
 /* Meeting cards (homepage) */
 
 .upcoming h2 {
