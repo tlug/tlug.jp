@@ -44,7 +44,7 @@ other = "Apple Maps"
 other = "Google Maps"
 
 [venueSite]
-other = "Venue website"
+other = "Website"
 
 [allMeetings]
 other = "All meetings"
@@ -54,6 +54,12 @@ other = "Meetings"
 
 [mailingLists]
 other = "Mailing Lists"
+
+[cfpTitle]
+other = "Call for Presenters — open"
+
+[cfpText]
+other = 'We are looking for presentations, lightning talks, and demos for this meeting. See <a href="{{ .url }}">Presenting at TLUG</a> for how to submit.'
 
 [scanQR]
 other = 'Meeting us in person? Scan the <a href="{{ .url }}">Signal QR code</a>.'

@@ -45,7 +45,12 @@ Frontmatter parameters:
       time: "13:00–16:00"           # human-readable time range
       location: axsh                # key into data/locations.yaml
       registration: https://...     # connpass event (optional)
+      cfp: false                    # optional; see below
     ---
+
+A "Call for Presenters — open" notice is shown automatically on future
+technical meetings (never on past ones or nomikai). Set `cfp: false` to turn
+it off for a meeting whose program is already full.
 
 Venues are defined once in [`data/locations.yaml`] (name, address, map
 links, website) and referenced by key. For a one-off venue, skip the

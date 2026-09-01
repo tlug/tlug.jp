@@ -23,9 +23,6 @@ params:
 
 Presentation recordings will be available on this page following the meeting.
 
-## Call for Presenters:
-The Call for Presenters for this meeting is **open**. See the [Presenting](/presenting) page for a guide to presenting at TLUG and submission instructions.
-
 ## Auction
 
 You may bring (preferably Linus / FOSS / tech related) items to be auctioned at the meeting to help fund TLUG. Funds are used to purchase event supplies, offer student discounts, etc. Please be prepared to take unsold items back home with you, we cannot leave them at the venue.

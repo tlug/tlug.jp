@@ -8,31 +8,24 @@ params:
   registration: https://tlug.connpass.com/event/392569/
 ---
 
-All Linux lovers, and supporters of open source code and free software, in
-the Kanto area (or anywhere else) are invited to attend the next Tokyo Linux
-Users Group meeting. **Membership is open to anyone**. There are currently
-**no membership dues** or entrance fees.
+## Schedule:
 
-TLUG meetings are traditionally small and unstructured (very casual). Most of
-the benefit of the meeting comes from chatting with other Linux users and
-having informal discussions.
+| Time | Name | Presenter |
+|:-|:-|:-|
+| 13:00 | Opening | |
+|       | **Computing in Drug Discovery** | Patrick Penner |
+|       | **The Vesuvius Challenge (Scroll Prize)** | Cam |
+|       | **The Functional Programming Paradigm** | Inaba Kazuhiko |
+|       | Konshinkai | |
+|       | Auction | |
+| 16:00 | Closing | |
+| 16:30 | Afterparty | Yamauchi Nojo Sendagaya 1-chome |
 
-## Schedule
+Presentation recordings will be available on this page following the meeting.
 
-- 13:00–15:00 — Presentations, with a 10 minute break around 15:00
-- 15:00–16:00 — Nomikai at Axsh's Wine Bar, with alcohol
+## Auction
 
-Presentations, lightning talks, and demos: T.B.D.
+You may bring (preferably Linus / FOSS / tech related) items to be auctioned at the meeting to help fund TLUG. Funds are used to purchase event supplies, offer student discounts, etc. Please be prepared to take unsold items back home with you, we cannot leave them at the venue.
 
-Notes on the Wine Bar nomikai:
-
-- People interested in becoming paying customers of the Wine Bar are welcome
-  to stay.
-- People interested in moving on to another place will be asked to leave by
-  15:45.
-
-## Registration
-
-To help us make sure that there will be room for everyone to sit, please let
-us know if you are planning on attending by registering on the event page at
-<https://tlug.connpass.com/event/392569/>.
+## Thanks
+This meeting's venue is provided by: **[Axsh](https://axsh.jp)** "Lighting the Future of Networks with SDN Technology"

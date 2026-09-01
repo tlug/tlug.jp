@@ -28,6 +28,13 @@
     {{ end }}
   </dl>
 
+  {{ if and (.Date.After now) (eq .Params.meetingType "technical") (ne .Params.cfp false) }}
+  <aside class="cfp">
+    <strong>{{ i18n "cfpTitle" }}</strong>
+    <p>{{ i18n "cfpText" (dict "url" "/presenting/") | safeHTML }}</p>
+  </aside>
+  {{ end }}
+
   {{ .Content }}
 
   <p class="back-link"><a href="{{ .Parent.RelPermalink }}">&larr; {{ i18n "allMeetings" }}</a></p>
