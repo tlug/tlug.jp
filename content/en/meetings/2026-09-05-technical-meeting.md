@@ -19,7 +19,7 @@ params:
 |       | Konshinkai | |
 |       | Auction | |
 | 16:00 | Closing | |
-| 16:30 | Afterparty | Yamauchi Nojo Sendagaya 1-chome |
+| 16:30 | Afterparty | Baird Beer Harajuku Taptoom |
 
 Presentation recordings will be available on this page following the meeting.
 
