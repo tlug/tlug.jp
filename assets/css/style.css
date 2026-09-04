@@ -216,6 +216,72 @@ img {
   color: var(--muted);
 }
 
+/* Tables (schedule + Markdown tables in content) */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.4rem 0.75rem 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+thead th {
+  border-bottom: 2px solid var(--border);
+}
+
+.schedule td:first-child,
+.schedule th:first-child {
+  white-space: nowrap;
+  width: 4.5rem;
+}
+
+.talk-links {
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.talk-links a + a {
+  margin-left: 0.5rem;
+}
+
+td details {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+td details summary {
+  cursor: pointer;
+}
+
+.schedule-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Canceled meetings / schedule entries */
+
+del {
+  color: var(--muted);
+}
+
+tr.canceled td,
+.meeting-card.canceled .meeting-when,
+.meeting-card.canceled .meeting-where {
+  color: var(--muted);
+}
+
+.canceled-label {
+  color: var(--brand);
+  font-size: 0.85rem;
+}
+
 /* Meeting archive */
 
 .meeting-list {
@@ -333,6 +399,55 @@ img {
   height: 200px;
   border: 1px solid var(--border);
   border-radius: 8px;
+}
+
+/* Sponsors */
+
+.sponsors {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem 2.5rem;
+}
+
+.sponsors a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: var(--fg);
+}
+
+.sponsors img {
+  height: 3rem;
+  width: auto;
+}
+
+.sponsors-detailed img {
+  height: 3.75rem;
+}
+
+.sponsor-name {
+  font-weight: 600;
+}
+
+.sponsor-tagline {
+  color: var(--muted);
+  font-size: 0.9rem;
+  max-width: 22rem;
+  text-align: center;
+}
+
+.sponsors-home {
+  text-align: center;
+}
+
+.sponsors-home .sponsors {
+  justify-content: center;
 }
 
 /* Footer */

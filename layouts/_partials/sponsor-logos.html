@@ -1,0 +1,16 @@
+{{- /* Sponsor logo row. Pass (dict "detailed" true) to include name and
+       tagline (used on /sponsors/); default is logos only (homepage). */ -}}
+{{- $detailed := .detailed | default false -}}
+<ul class="sponsors{{ if $detailed }} sponsors-detailed{{ end }}">
+  {{ range where hugo.Data.sponsors "active" true -}}
+  <li>
+    <a href="{{ .url }}">
+      <img src="{{ .logo }}" alt="{{ .name }}" loading="lazy">
+      {{ if $detailed }}
+      <span class="sponsor-name">{{ .name }}</span>
+      {{ with .tagline }}<span class="sponsor-tagline">{{ . }}</span>{{ end }}
+      {{ end }}
+    </a>
+  </li>
+  {{ end -}}
+</ul>

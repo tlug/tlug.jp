@@ -1,0 +1,47 @@
+{{- /* Render a meeting's schedule from the `schedule` frontmatter param.
+       Entry fields: time, title, presenter, note, abstract, slides, video.
+       Entries with a presenter are talks (rendered bold). */ -}}
+{{- with .Params.schedule }}
+<section class="schedule">
+  <h2>{{ i18n "schedule" }}</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>{{ i18n "colTime" }}</th>
+        <th>{{ i18n "colSession" }}</th>
+        <th>{{ i18n "colPresenter" }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range . }}
+      <tr{{ if .canceled }} class="canceled"{{ end }}>
+        <td>{{ .time }}</td>
+        <td>
+          {{- $title := .title }}
+          {{- if .presenter }}{{ $title = printf "<strong>%s</strong>" (.title | htmlEscape) | safeHTML }}{{ end }}
+          {{- if .canceled }}<del>{{ $title }}</del> <span class="canceled-label">({{ i18n "canceled" }})</span>{{ else }}{{ $title }}{{ end }}
+          {{- if or .slides .video }}
+          <span class="talk-links">
+            {{ with .slides }}<a href="{{ . }}">{{ i18n "slides" }}</a>{{ end }}
+            {{ with .video }}<a href="{{ . }}">{{ i18n "video" }}</a>{{ end }}
+          </span>
+          {{- end }}
+          {{- with .abstract }}
+          <details><summary>{{ i18n "abstract" }}</summary><p>{{ . }}</p></details>
+          {{- end }}
+        </td>
+        <td>{{ if .canceled }}<del>{{ .presenter | default .note }}</del>{{ else }}{{ .presenter | default .note }}{{ end }}</td>
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+  {{- $hasTalks := false }}{{ $hasVideo := false }}
+  {{- range . }}
+    {{- if and .presenter (not .canceled) }}{{ $hasTalks = true }}{{ end }}
+    {{- if .video }}{{ $hasVideo = true }}{{ end }}
+  {{- end }}
+  {{- if and $hasTalks (not $hasVideo) }}
+  <p class="schedule-note">{{ i18n "recordingsNote" }}</p>
+  {{- end }}
+</section>
+{{- end }}

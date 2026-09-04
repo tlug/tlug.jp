@@ -21,6 +21,9 @@ Layout:
 - `data/locations.yaml` — the venue registry for meeting pages.
 - `data/links.yaml` — community/social links (footer icons and homepage
   buttons; icons live in `assets/icons/`, from [Simple Icons]).
+- `data/sponsors.yaml` — sponsors; those with `active: true` are shown on
+  the homepage and `/sponsors/`. Logos live in `static/images/sponsors/`
+  (see the notes in the file about dark-mode legibility).
 - `layouts/` — hand-written templates, no theme.
 - `assets/css/style.css` — the stylesheet.
 - `i18n/` — translated UI strings.
@@ -48,11 +51,45 @@ Frontmatter parameters:
       registrationName: Connpass   # optional label override; auto-detected
                                    # from the URL otherwise
       cfp: false                    # optional; see below
+      auction: false                # optional; see below
+      canceled: true                # optional; see below
+      sponsors:                     # optional; renders a Thanks section,
+        - axsh                      # one line per key into data/sponsors.yaml
+      schedule:                     # optional; renders the schedule table
+        - time: "13:00"             # optional (blank = continuation row)
+          title: Opening
+        - title: My Great Talk
+          presenter: Jane Doe       # presence of a presenter = it's a talk
+          canceled: true            # optional; strikes out this entry
+          abstract: >-              # optional, collapsible
+            One-paragraph description.
+          slides: https://...       # optional, add after the meeting
+          video: https://...        # optional, add after the meeting
+        - time: "16:30"
+          title: Afterparty
+          note: Bar Name            # shown in the presenter column
     ---
 
-A "Call for Presenters — open" notice is shown automatically on future
-technical meetings (never on past ones or nomikai). Set `cfp: false` to turn
-it off for a meeting whose program is already full.
+Automatic behavior on meeting pages:
+
+- **Schedule** renders from `schedule` above the body. To position it
+  manually within prose, place the `{{< schedule >}}` shortcode in the
+  body instead. While no entry has a `video`, a "recordings will be
+  available" note is shown; adding video links removes it.
+- **Call for Presenters** notice is shown on future technical meetings
+  (never on past ones or nomikai). Set `cfp: false` to turn it off for a
+  meeting whose program is already full.
+- **Auction** section is shown on future technical meetings; disable with
+  `auction: false` (e.g. joint events).
+- **Thanks** section renders one "This meeting is supported by …" line per
+  entry in `sponsors`. Hand-write the section in the body instead for
+  one-off wording.
+- **Canceled meetings**: set `canceled: true` at the top level of the
+  meeting's params to strike out its title everywhere (homepage card,
+  archive, the page itself), add a "Canceled" badge, suppress the CFP and
+  auction sections, and mark the JSON-LD event as cancelled. A `canceled:
+  true` on an individual schedule entry strikes out just that row.
+- Each meeting page also emits schema.org Event JSON-LD for search engines.
 
 Venues are defined once in [`data/locations.yaml`] (name, address, map
 links, website) and referenced by key. For a one-off venue, skip the

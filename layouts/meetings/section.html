@@ -12,8 +12,9 @@
     {{ range .Pages }}
     <li>
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ if .Date.After $now }}<span class="badge">{{ i18n "upcoming" }}</span>{{ end }}
+      <a href="{{ .RelPermalink }}">{{ if .Params.canceled }}<del>{{ .Title }}</del>{{ else }}{{ .Title }}{{ end }}</a>
+      {{ if .Params.canceled }}<span class="badge">{{ i18n "canceled" }}</span>
+      {{ else if .Date.After $now }}<span class="badge">{{ i18n "upcoming" }}</span>{{ end }}
     </li>
     {{ end }}
   </ul>

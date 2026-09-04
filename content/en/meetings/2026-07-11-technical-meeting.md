@@ -1,31 +1,31 @@
 ---
 title: Technical Meeting
+# NOTE: the old wiki page said "July 11, 2025" but the old homepage and the
+# connpass event say Saturday, July 11, 2026.
 date: 2026-07-11T13:00:00+09:00
 params:
   meetingType: technical
   time: "13:00–16:00"
   location: axsh
   registration: https://tlug.connpass.com/event/392569/
+  sponsors:
+    - axsh
+  schedule:
+    - time: "13:00"
+      title: Opening
+    - title: Computing in Drug Discovery
+      presenter: Patrick Penner
+      video: https://www.youtube.com/watch?v=kaQmWimVnWY
+    - title: The Vesuvius Challenge (Scroll Prize)
+      presenter: Cam
+      canceled: true
+    - title: The Functional Programming Paradigm
+      presenter: Inaba Kazuhiko
+      video: https://www.youtube.com/watch?v=eKYmmNAhy9Q
+    - title: Konshinkai
+    - time: "16:00"
+      title: Closing
+    - time: "16:30"
+      title: Afterparty
+      note: Yamauchi Nojo Sendagaya 1-chome
 ---
-
-## Schedule:
-
-| Time | Name | Presenter |
-|:-|:-|:-|
-| 13:00 | Opening | |
-|       | **Computing in Drug Discovery** | Patrick Penner |
-|       | **The Vesuvius Challenge (Scroll Prize)** | Cam |
-|       | **The Functional Programming Paradigm** | Inaba Kazuhiko |
-|       | Konshinkai | |
-|       | Auction | |
-| 16:00 | Closing | |
-| 16:30 | Afterparty | Yamauchi Nojo Sendagaya 1-chome |
-
-Presentation recordings will be available on this page following the meeting.
-
-## Auction
-
-You may bring (preferably Linus / FOSS / tech related) items to be auctioned at the meeting to help fund TLUG. Funds are used to purchase event supplies, offer student discounts, etc. Please be prepared to take unsold items back home with you, we cannot leave them at the venue.
-
-## Thanks
-This meeting's venue is provided by: **[Axsh](https://axsh.jp)** "Lighting the Future of Networks with SDN Technology"

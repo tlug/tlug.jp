@@ -1,6 +1,10 @@
 {{ define "main" }}
 <article class="prose">
+  {{ if .Params.canceled }}
+  <h1><del>{{ .Title }}</del> <span class="badge">{{ i18n "canceled" }}</span></h1>
+  {{ else }}
   <h1>{{ .Title }}</h1>
+  {{ end }}
 
   {{ $loc := partial "location-resolve.html" . }}
   <dl class="meeting-meta">
@@ -32,14 +36,39 @@
     {{ end }}
   </dl>
 
-  {{ if and (.Date.After now) (eq .Params.meetingType "technical") (ne .Params.cfp false) }}
+  {{ if and (.Date.After now) (eq .Params.meetingType "technical") (ne .Params.cfp false) (not .Params.canceled) }}
   <aside class="cfp">
     <strong>{{ i18n "cfpTitle" }}</strong>
     <p>{{ i18n "cfpText" (dict "url" "/presenting/") | safeHTML }}</p>
   </aside>
   {{ end }}
 
+  {{ if not (.HasShortcode "schedule") }}
+  {{ partial "meeting-schedule.html" . }}
+  {{ end }}
+
   {{ .Content }}
+
+  {{ if and (.Date.After now) (eq .Params.meetingType "technical") (ne .Params.auction false) (not .Params.canceled) }}
+  <section>
+    <h2>{{ i18n "auctionTitle" }}</h2>
+    <p>{{ i18n "auctionText" }}</p>
+  </section>
+  {{ end }}
+
+  {{ with .Params.sponsors }}
+  <section class="thanks">
+    <h2>{{ i18n "thanksTitle" }}</h2>
+    {{ range . }}
+    {{ $matches := where hugo.Data.sponsors "id" . }}
+    {{ if not $matches }}{{ warnf "%s references unknown sponsor %q (not in data/sponsors.yaml)" $.File.Path . }}{{ end }}
+    {{ range $matches }}
+    <p>{{ i18n "sponsorThanks" (dict "sponsor" (printf `<a href="%s"><strong>%s</strong></a>` .url .name)) | safeHTML }}
+    {{ with .tagline }}<br><em class="sponsor-tagline">“{{ . }}”</em>{{ end }}</p>
+    {{ end }}
+    {{ end }}
+  </section>
+  {{ end }}
 
   <p class="back-link"><a href="{{ .Parent.RelPermalink }}">&larr; {{ i18n "allMeetings" }}</a></p>
 </article>

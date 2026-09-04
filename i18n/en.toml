@@ -22,6 +22,9 @@ other = "Latest meeting"
 [upcoming]
 other = "upcoming"
 
+[canceled]
+other = "Canceled"
+
 [moreInfo]
 other = "More info"
 
@@ -63,6 +66,48 @@ other = "Call for Presenters — open"
 
 [cfpText]
 other = 'We are looking for presentations, lightning talks, and demos for this meeting. See <a href="{{ .url }}">Presenting at TLUG</a> for how to submit.'
+
+[schedule]
+other = "Schedule"
+
+[colTime]
+other = "Time"
+
+[colSession]
+other = "Session"
+
+[colPresenter]
+other = "Presenter"
+
+[slides]
+other = "Slides"
+
+[video]
+other = "Video"
+
+[abstract]
+other = "Abstract"
+
+[recordingsNote]
+other = "Presentation recordings will be available on this page following the meeting."
+
+[auctionTitle]
+other = "Auction"
+
+[auctionText]
+other = "You may bring (preferably Linux / FOSS / tech related) items to be auctioned at the meeting to help fund TLUG. Funds are used to purchase event supplies, offer student discounts, etc. Please be prepared to take unsold items back home with you; we cannot leave them at the venue."
+
+[thanksTitle]
+other = "Thanks"
+
+[sponsorThanks]
+other = "This meeting is supported by {{ .sponsor }}."
+
+[sponsors]
+other = "Sponsors"
+
+[sponsorsCta]
+other = "Interested in sponsoring TLUG?"
 
 [scanQR]
 other = 'Meeting us in person? Scan the <a href="{{ .url }}">Signal QR code</a>.'

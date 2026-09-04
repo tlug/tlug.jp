@@ -18,6 +18,25 @@
 {{ with .OutputFormats.Get "rss" -}}
 <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">
 {{- end }}
+{{ if and .IsPage (eq .Section "meetings") -}}
+{{ $loc := partial "location-resolve.html" . -}}
+{{ $event := dict
+     "@context" "https://schema.org"
+     "@type" "Event"
+     "name" (printf "TLUG %s" .Title)
+     "startDate" (.Date.Format "2006-01-02T15:04:05-07:00")
+     "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+     "organizer" (dict "@type" "Organization" "name" "Tokyo Linux Users Group" "url" "https://tlug.jp/")
+     "eventStatus" (cond (eq .Params.canceled true) "https://schema.org/EventCancelled" "https://schema.org/EventScheduled")
+     "url" .Permalink -}}
+{{ with $loc.name -}}
+{{ $event = merge $event (dict "location" (dict
+     "@type" "Place"
+     "name" .
+     "address" (delimit $loc.address ", "))) -}}
+{{ end -}}
+<script type="application/ld+json">{{ $event | jsonify | safeJS }}</script>
+{{ end -}}
 {{ if hugo.IsProduction -}}
 <script async src="https://pbl.tiuxo.com/js/pa-TPSOH1KqKSehteJS_9Vzy.js"></script>
 <script>

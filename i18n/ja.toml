@@ -22,6 +22,9 @@ other = "直近のミーティング"
 [upcoming]
 other = "開催予定"
 
+[canceled]
+other = "中止"
+
 [moreInfo]
 other = "詳細"
 
@@ -63,6 +66,48 @@ other = "発表者募集中"
 
 [cfpText]
 other = 'このミーティングでのプレゼンテーション、ライトニングトーク、デモを募集しています。応募方法は<a href="{{ .url }}">発表について（英語）</a>をご覧ください。'
+
+[schedule]
+other = "スケジュール"
+
+[colTime]
+other = "時間"
+
+[colSession]
+other = "セッション"
+
+[colPresenter]
+other = "発表者"
+
+[slides]
+other = "スライド"
+
+[video]
+other = "動画"
+
+[abstract]
+other = "概要"
+
+[recordingsNote]
+other = "発表の録画はミーティング終了後、このページで公開されます。"
+
+[auctionTitle]
+other = "オークション"
+
+[auctionText]
+other = "TLUGの活動資金のため、ミーティングでオークションにかける品物（できればLinux・FOSS・技術関連のもの）をお持ちいただけます。収益はイベント用品の購入や学生割引などに使われます。売れ残った品物は会場に置いていけませんので、お持ち帰りください。"
+
+[thanksTitle]
+other = "謝辞"
+
+[sponsorThanks]
+other = "本ミーティングは {{ .sponsor }} にご支援いただいています。"
+
+[sponsors]
+other = "スポンサー"
+
+[sponsorsCta]
+other = "TLUGのスポンサーになりませんか？（英語）"
 
 [scanQR]
 other = '対面でお会いする際は、<a href="{{ .url }}">SignalのQRコード</a>をスキャンできます。'

@@ -1,0 +1,33 @@
+# TLUG sponsors, shown on the homepage and on /sponsors/.
+#
+#   id:       short identifier
+#   name:     sponsor name (also used as the logo's alt text)
+#   url:      sponsor website
+#   logo:     path under static/, ideally an SVG in /images/sponsors/.
+#             Check dark-mode legibility: if the logo contains dark text,
+#             embed a style like the one in axsh.svg (see git log) to
+#             recolor it under @media (prefers-color-scheme: dark).
+#   tagline:  short blurb, shown on /sponsors/ only
+#   active:   only active: true sponsors appear on the homepage and
+#             /sponsors/; meeting-page Thanks sections keep working either
+#             way, so set false (don't delete) when a sponsorship ends
+
+- id: axsh
+  name: Axsh
+  url: https://axsh.jp
+  logo: /images/sponsors/axsh.svg
+  tagline: Lighting the Future of Networks with SDN Technology
+  active: true
+- id: ciq
+  name: CIQ
+  url: https://ciq.com
+  logo: /images/sponsors/ciq.svg
+  tagline: Accelerate everything
+  active: false
+- id: lpi
+  name: Linux Professional Institute
+  url: https://www.lpi.org
+  logo: /images/sponsors/lpi.svg
+  tagline: The global certification standard and career support organization
+    for open source professionals
+  active: false

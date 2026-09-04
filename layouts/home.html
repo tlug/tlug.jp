@@ -20,4 +20,12 @@
 <section class="community">
   {{ partial "community-links.html" . }}
 </section>
+
+{{ if where hugo.Data.sponsors "active" true }}
+<section class="sponsors-home">
+  <h2>{{ i18n "sponsors" }}</h2>
+  {{ partial "sponsor-logos.html" (dict) }}
+  <p><a href="/sponsors/">{{ i18n "sponsorsCta" }}</a></p>
+</section>
+{{ end }}
 {{ end }}
