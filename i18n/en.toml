@@ -73,6 +73,16 @@ other = "Schedule"
 [colTime]
 other = "Time"
 
+[colDate]
+other = "Date"
+
+[colPresentation]
+other = "Presentation"
+
+[talkCount]
+one = "{{ . }} talk in the archive."
+other = "{{ . }} talks in the archive."
+
 [colSession]
 other = "Session"
 

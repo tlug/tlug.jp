@@ -21,7 +21,8 @@ very welcome.
   a problem you solved, a project you're hacking on.
 - **Demos** — show something running; no slides required.
 
-Talks may be given in English or Japanese.
+Talks may be given in English or Japanese. For inspiration, browse the
+[archive of past talks](/talks/).
 
 ## How to submit
 

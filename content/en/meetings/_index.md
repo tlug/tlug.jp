@@ -20,5 +20,7 @@ odd-numbered months and **Nomikai** (social) meetings are usually held on the
 is best to keep an eye on the [mailing list](/mailing-lists/) or check back
 here as the date approaches.
 
+Looking for a specific presentation? See the [talk archive](/talks/).
+
 *The archive below is being migrated from the old wiki; meeting pages back to
 1994 will reappear here over time.*

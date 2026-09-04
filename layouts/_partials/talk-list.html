@@ -1,0 +1,66 @@
+{{- /* Archive of all talks, collected from the `schedule` frontmatter of
+       every meeting page (entries with a presenter; canceled talks are
+       excluded). Grouped by year, newest first. */ -}}
+{{- $talks := slice -}}
+{{- $meetings := slice -}}
+{{- range hugo.Sites -}}
+  {{- if eq .Language.Lang "en" -}}
+    {{- $meetings = where .RegularPages "Section" "meetings" -}}
+  {{- end -}}
+{{- end -}}
+{{- range $meetings -}}
+  {{- $page := . -}}
+  {{- range .Params.schedule -}}
+    {{- if and .presenter (not .canceled) -}}
+      {{- $talks = $talks | append (dict
+            "title" .title
+            "presenter" .presenter
+            "slides" .slides
+            "video" .video
+            "date" $page.Date
+            "page" $page) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $talks = sort $talks "date" "desc" -}}
+<p class="talk-count">{{ i18n "talkCount" (len $talks) }}</p>
+{{- $byYear := dict -}}
+{{- $years := slice -}}
+{{- range $talks -}}
+  {{- $y := .date.Format "2006" -}}
+  {{- $years = $years | append $y -}}
+  {{- $byYear = merge $byYear (dict $y ((index $byYear $y | default slice) | append .)) -}}
+{{- end -}}
+{{- $now := now -}}
+{{- range $year := sort (uniq $years) "value" "desc" }}
+<section class="talk-year">
+  <h2>{{ $year }}</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>{{ i18n "colDate" }}</th>
+        <th>{{ i18n "colPresentation" }}</th>
+        <th>{{ i18n "colPresenter" }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range index $byYear $year }}
+      <tr>
+        <td><a href="{{ .page.RelPermalink }}"><time datetime="{{ .date.Format "2006-01-02" }}">{{ .date | time.Format ":date_medium" }}</time></a></td>
+        <td>
+          <strong>{{ .title }}</strong>
+          {{- if or .slides .video }}
+          <span class="talk-links">
+            {{ with .slides }}<a href="{{ . }}">{{ i18n "slides" }}</a>{{ end }}
+            {{ with .video }}<a href="{{ . }}">{{ i18n "video" }}</a>{{ end }}
+          </span>
+          {{- end }}
+          {{ if .date.After $now }}<span class="badge">{{ i18n "upcoming" }}</span>{{ end }}
+        </td>
+        <td>{{ .presenter }}</td>
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</section>
+{{- end }}

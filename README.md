@@ -90,6 +90,9 @@ Automatic behavior on meeting pages:
   auction sections, and mark the JSON-LD event as cancelled. A `canceled:
   true` on an individual schedule entry strikes out just that row.
 - Each meeting page also emits schema.org Event JSON-LD for search engines.
+- `/talks/` is generated from the same `schedule` data: every non-canceled
+  entry with a `presenter` is listed automatically, with its slides/video
+  links. Adding a talk to a meeting page is all it takes.
 
 Venues are defined once in [`data/locations.yaml`] (name, address, map
 links, website) and referenced by key. For a one-off venue, skip the

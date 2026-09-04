@@ -26,17 +26,17 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/meetings"
       weight = 10
     [[languages.en.menus.main]]
+      name = "Talks"
+      pageRef = "/talks"
+      weight = 15
+    [[languages.en.menus.main]]
       name = "Mailing Lists"
       pageRef = "/mailing-lists"
       weight = 20
     [[languages.en.menus.main]]
-      name = "Member Guide"
-      pageRef = "/about/member-guide"
+      name = "About"
+      pageRef = "/about"
       weight = 30
-    [[languages.en.menus.main]]
-      name = "Organization"
-      pageRef = "/about/organization"
-      weight = 40
 
   [languages.ja]
     locale = "ja"
@@ -51,17 +51,17 @@ disableKinds = ["taxonomy", "term"]
       url = "/meetings/"
       weight = 10
     [[languages.ja.menus.main]]
+      name = "発表"
+      url = "/talks/"
+      weight = 15
+    [[languages.ja.menus.main]]
       name = "メーリングリスト"
       url = "/mailing-lists/"
       weight = 20
     [[languages.ja.menus.main]]
-      name = "メンバーガイド"
-      url = "/about/member-guide/"
+      name = "TLUGについて"
+      url = "/about/"
       weight = 30
-    [[languages.ja.menus.main]]
-      name = "運営"
-      url = "/about/organization/"
-      weight = 40
 
 [params]
   established = "June 16, 1994"

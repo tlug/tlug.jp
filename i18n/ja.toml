@@ -73,6 +73,15 @@ other = "スケジュール"
 [colTime]
 other = "時間"
 
+[colDate]
+other = "日付"
+
+[colPresentation]
+other = "発表"
+
+[talkCount]
+other = "アーカイブには{{ . }}件の発表があります。"
+
 [colSession]
 other = "セッション"
 
