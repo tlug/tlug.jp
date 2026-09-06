@@ -1,0 +1,18 @@
+# Trigger a Netlify rebuild once a day.
+
+name: Daily rebuild
+
+on:
+  schedule:
+    # 15:10 UTC = 00:10 JST
+    - cron: "10 15 * * *"
+  workflow_dispatch:
+
+jobs:
+  trigger-netlify-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify build hook
+        run: curl -fsS -X POST "$BUILDHOOK"
+        env:
+          BUILDHOOK: ${{ secrets.BUILDHOOK }}
