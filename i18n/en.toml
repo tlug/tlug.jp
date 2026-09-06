@@ -52,6 +52,15 @@ other = "Google Maps"
 [venueSite]
 other = "Website"
 
+[calendar]
+other = "Calendar"
+
+[addToCalendar]
+other = "Add to calendar (.ics)"
+
+[calendarSubscribe]
+other = "Subscribe to the meeting calendar:"
+
 [allMeetings]
 other = "All meetings"
 

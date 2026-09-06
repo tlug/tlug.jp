@@ -10,7 +10,7 @@
   <dl class="meeting-meta">
     <dt>{{ i18n "date" }}</dt>
     <dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time></dd>
-    {{ with .Params.time }}
+    {{ with partial "meeting-time.html" . }}
     <dt>{{ i18n "time" }}</dt>
     <dd>{{ . }}</dd>
     {{ end }}
@@ -33,6 +33,10 @@
                 (cond (strings.Contains $host "doorkeeper") "Doorkeeper"
                 (cond (strings.Contains $host "meetup") "Meetup" $host)) }}
     <dd><a href="{{ . }}">{{ $.Params.registrationName | default $label }}</a></dd>
+    {{ end }}
+    {{ with .OutputFormats.Get "calendar" }}
+    <dt>{{ i18n "calendar" }}</dt>
+    <dd><a href="{{ .RelPermalink }}">{{ i18n "addToCalendar" }}</a></dd>
     {{ end }}
   </dl>
 

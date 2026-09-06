@@ -81,6 +81,16 @@ disableKinds = ["taxonomy", "term"]
       # Content ported from the old site contains some inline HTML.
       unsafe = true
 
+[mediaTypes]
+  [mediaTypes."text/calendar"]
+    suffixes = ["ics"]
+
+[outputFormats]
+  [outputFormats.calendar]
+    mediaType = "text/calendar"
+    baseName = "calendar"
+    isPlainText = true
+
 [outputs]
-  home = ["html", "rss"]
+  home = ["html", "rss", "calendar"]
   section = ["html", "rss"]

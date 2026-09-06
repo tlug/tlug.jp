@@ -1,0 +1,12 @@
+{{- /* Single-event iCalendar file for one meeting, served at
+       /meetings/<slug>/calendar.ics ("Add to calendar"). */ -}}
+{{- $lines := slice
+      "BEGIN:VCALENDAR"
+      "VERSION:2.0"
+      "PRODID:-//Tokyo Linux Users Group//tlug.jp//EN"
+      "CALSCALE:GREGORIAN"
+      "METHOD:PUBLISH"
+-}}
+{{- $lines = $lines | append (partial "ics-event.html" .) -}}
+{{- $lines = $lines | append "END:VCALENDAR" -}}
+{{- delimit $lines "\r\n" }}{{ "\r\n" -}}

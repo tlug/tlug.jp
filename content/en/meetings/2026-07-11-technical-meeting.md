@@ -5,7 +5,7 @@ title: Technical Meeting
 date: 2026-07-11T13:00:00+09:00
 params:
   meetingType: technical
-  time: "13:00–16:00"
+  endDate: 2026-07-11T16:00:00+09:00
   location: axsh
   registration: https://tlug.connpass.com/event/392569/
   sponsors:

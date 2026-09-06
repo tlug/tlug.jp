@@ -52,6 +52,15 @@ other = "Googleマップ"
 [venueSite]
 other = "ウェブサイト"
 
+[calendar]
+other = "カレンダー"
+
+[addToCalendar]
+other = "カレンダーに追加（.ics）"
+
+[calendarSubscribe]
+other = "ミーティングカレンダーを購読："
+
 [allMeetings]
 other = "ミーティング一覧"
 

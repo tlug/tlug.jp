@@ -4,7 +4,7 @@ date: 2026-09-19T14:00:00+09:00
 params:
   meetingType: technical
   auction: false
-  time: "14:00–18:00"
+  endDate: 2026-09-19T18:00:00+09:00
   location: shift-shinjuku
   registration: https://tlug.connpass.com/event/397587/
 ---

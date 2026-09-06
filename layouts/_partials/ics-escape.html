@@ -1,0 +1,2 @@
+{{- /* Escape a string for use in an iCalendar text value (RFC 5545 3.3.11). */ -}}
+{{- return (replace (replace (replace (replace (string .) "\\" "\\\\") ";" "\\;") "," "\\,") "\n" "\\n") -}}

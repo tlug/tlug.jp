@@ -3,7 +3,7 @@ title: Technical Meeting
 date: 2026-05-09T13:00:00+09:00
 params:
   meetingType: technical
-  time: "13:00–16:00"
+  endDate: 2026-05-09T16:00:00+09:00
   location: axsh
   registration: https://tlug.connpass.com/event/386953/
   sponsors:

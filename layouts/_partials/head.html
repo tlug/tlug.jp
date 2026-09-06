@@ -18,6 +18,8 @@
 {{ with .OutputFormats.Get "rss" -}}
 <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">
 {{- end }}
+<link rel="alternate" type="text/calendar" title="TLUG Meetings" href="/calendar.ics">
+
 {{ if and .IsPage (eq .Section "meetings") -}}
 {{ $loc := partial "location-resolve.html" . -}}
 {{ $event := dict
@@ -29,6 +31,9 @@
      "organizer" (dict "@type" "Organization" "name" "Tokyo Linux Users Group" "url" "https://tlug.jp/")
      "eventStatus" (cond (eq .Params.canceled true) "https://schema.org/EventCancelled" "https://schema.org/EventScheduled")
      "url" .Permalink -}}
+{{ with .Params.endDate -}}
+{{ $event = merge $event (dict "endDate" ((time.AsTime .).Format "2006-01-02T15:04:05-07:00")) -}}
+{{ end -}}
 {{ with $loc.name -}}
 {{ $event = merge $event (dict "location" (dict
      "@type" "Place"

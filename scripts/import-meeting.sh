@@ -106,7 +106,7 @@ import_one() {
         printf '# TODO: set the start time above (T00:00:00) and fill these in:\n'
         printf 'params:\n'
         [[ -n $type ]] && printf '  meetingType: %s\n' "$type"
-        printf '  time: ""      # e.g. "13:00-16:00"\n'
+        printf '  endDate: ""   # event end, e.g. %sT16:00:00+09:00\n' "$date"
         printf '  location: ""  # key into data/locations.yaml, or literal address\n'
         [[ -n $registration ]] && printf '  registration: %s\n' "$registration"
         printf -- '---\n\n'

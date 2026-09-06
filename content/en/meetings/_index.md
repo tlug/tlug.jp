@@ -3,6 +3,17 @@ title: Meetings
 description: >
   TLUG technical meetings and nomikai: upcoming events and the archive of
   past meetings.
+# The cascade below also applies to this section page itself, so restate
+# its own outputs explicitly.
+outputs:
+  - html
+  - rss
+cascade:
+  # Every meeting page also gets an "Add to calendar" file at
+  # /meetings/<slug>/calendar.ics
+  outputs:
+    - html
+    - calendar
 ---
 
 All Linux lovers, and supporters of open source and free software, in the

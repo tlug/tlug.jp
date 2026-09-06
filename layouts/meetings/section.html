@@ -2,6 +2,10 @@
 <article class="prose">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
+  <p class="calendar-subscribe">{{ i18n "calendarSubscribe" }}
+    <a href="webcal://tlug.jp/calendar.ics">webcal://tlug.jp/calendar.ics</a>
+    (<a href="/calendar.ics">https</a>)
+  </p>
 </article>
 
 {{ $now := now }}

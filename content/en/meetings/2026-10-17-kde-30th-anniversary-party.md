@@ -3,7 +3,6 @@ title: KDE 30th Anniversary Party
 date: 2026-10-17T13:00:00+09:00
 params:
   meetingType: nomikai
-  time:
   location: 
   registration: https://tlug.connpass.com/event/391016/
 ---

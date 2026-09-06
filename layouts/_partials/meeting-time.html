@@ -1,0 +1,18 @@
+{{- /* Human-readable time range for a meeting page. An explicit `time`
+       param wins; otherwise derived from the event date and optional
+       endDate ("13:00–16:00", or "19:00–" when open-ended). Returns ""
+       when the start time is unknown (midnight with no end/override,
+       as in unmigrated historical imports). */ -}}
+{{- $t := .Params.time -}}
+{{- if not $t -}}
+  {{- $start := time.AsTime .Date -}}
+  {{- if or $start.Hour $start.Minute .Params.endDate -}}
+    {{- $t = $start.Format "15:04" -}}
+    {{- with .Params.endDate -}}
+      {{- $t = printf "%s–%s" $t ((time.AsTime .).Format "15:04") -}}
+    {{- else -}}
+      {{- $t = printf "%s–" $t -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $t -}}

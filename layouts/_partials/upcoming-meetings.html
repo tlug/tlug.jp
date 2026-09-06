@@ -14,7 +14,7 @@
     <h3><a href="{{ .RelPermalink }}">{{ if .Params.canceled }}<del>{{ .Title }}</del>{{ else }}{{ .Title }}{{ end }}</a>{{ if .Params.canceled }} <span class="badge">{{ i18n "canceled" }}</span>{{ end }}</h3>
     <p class="meeting-when">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time>
-      {{- with .Params.time }} · {{ . }}{{ end }}
+      {{- with partial "meeting-time.html" . }} · {{ . }}{{ end }}
     </p>
     {{ with (partial "location-resolve.html" .).name }}<p class="meeting-where">{{ . }}</p>{{ end }}
     <p class="meeting-links">

@@ -44,9 +44,12 @@ Frontmatter parameters:
     title: Technical Meeting        # or Nomikai, Software Freedom Day, ...
     date: 2026-07-11T13:00:00+09:00 # event start
     params:
-      meetingType: technical        # or nomikai
-      time: "13:00–16:00"           # human-readable time range
+      endDate: 2026-07-11T16:00:00+09:00  # event end (optional); drives the
+                                    # displayed time range and the calendar
+                                    # feed. Omit for open-ended ("19:00–").
+      time: "Doors 12:30"           # optional display override for odd cases
       location: axsh                # key into data/locations.yaml
+      meetingType: technical        # or nomikai
       registration: https://...    # connpass event (optional)
       registrationName: Connpass   # optional label override; auto-detected
                                    # from the URL otherwise
@@ -93,6 +96,12 @@ Automatic behavior on meeting pages:
 - `/talks/` is generated from the same `schedule` data: every non-canceled
   entry with a `presenter` is listed automatically, with its slides/video
   links. Adding a talk to a meeting page is all it takes.
+- An iCalendar feed of all future meetings plus the past 12 months is
+  generated at `/calendar.ics` (subscribe via
+  `webcal://tlug.jp/calendar.ics`), and each meeting page gets its own
+  single-event `calendar.ics` linked from its meta block. Canceled meetings
+  are marked `STATUS:CANCELLED`; `endDate` sets the event end (default:
+  start + 3 hours).
 
 Venues are defined once in [`data/locations.yaml`] (name, address, map
 links, website) and referenced by key. For a one-off venue, skip the

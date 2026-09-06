@@ -1,0 +1,37 @@
+{{- /* Render a meeting page as a slice of iCalendar VEVENT lines.
+       Times are emitted in UTC to avoid needing a VTIMEZONE block. */ -}}
+{{- $start := time.AsTime .Date -}}
+{{- $end := "" -}}
+{{- with .Params.endDate -}}
+  {{- $end = time.AsTime . -}}
+{{- else -}}
+  {{- /* No end given: default to start + 3 hours. */ -}}
+  {{- $end = $start.Add (time.ParseDuration "3h") -}}
+{{- end -}}
+{{- $loc := partial "location-resolve.html" . -}}
+{{- $lines := slice
+      "BEGIN:VEVENT"
+      (printf "UID:%s" .Permalink)
+      (printf "DTSTAMP:%s" (now.UTC.Format "20060102T150405Z"))
+      (printf "DTSTART:%s" ($start.UTC.Format "20060102T150405Z"))
+      (printf "DTEND:%s" ($end.UTC.Format "20060102T150405Z"))
+      (printf "SUMMARY:%s" (partial "ics-escape.html" (printf "TLUG %s" .Title)))
+      (printf "URL:%s" .Permalink)
+-}}
+{{- if .Params.canceled -}}
+  {{- $lines = $lines | append "STATUS:CANCELLED" -}}
+{{- else -}}
+  {{- $lines = $lines | append "STATUS:CONFIRMED" -}}
+{{- end -}}
+{{- with $loc.name -}}
+  {{- /* Venue name first, then address lines. */ -}}
+  {{- $full := delimit (slice . | append $loc.address) ", " -}}
+  {{- $lines = $lines | append (printf "LOCATION:%s" (partial "ics-escape.html" (string $full))) -}}
+{{- end -}}
+{{- $desc := printf "Details: %s" .Permalink -}}
+{{- with .Params.registration -}}
+  {{- $desc = printf "%s\nRegistration: %s" $desc . -}}
+{{- end -}}
+{{- $lines = $lines | append (printf "DESCRIPTION:%s" (partial "ics-escape.html" $desc)) -}}
+{{- $lines = $lines | append "END:VEVENT" -}}
+{{- return $lines -}}
