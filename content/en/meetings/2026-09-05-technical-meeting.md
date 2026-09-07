@@ -15,6 +15,7 @@ params:
       presenter: Cam
     - title: Circled.me - A FOSS Photo / Video Backup Solution
       presenter: Nikolay Dimitrov
+      slides: https://gamma.app/docs/circledme-community-server-mrj9g810z2kftqm
     - title: FOSS VMWare ESXi Alternatives
       presenter: Inaba Kazuhiko
     - title: Konshinkai
