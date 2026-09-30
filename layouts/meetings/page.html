@@ -6,6 +6,8 @@
   <h1>{{ .Title }}</h1>
   {{ end }}
 
+  {{ partial "featured-image.html" (dict "page" . "kind" "banner") }}
+
   {{ $loc := partial "location-resolve.html" . }}
   <dl class="meeting-meta">
     <dt>{{ i18n "date" }}</dt>

@@ -9,8 +9,10 @@
 #   Wiki source is read from `master:wiki/<page>` in this repository's git
 #   history (the pre-Hugo site), unless an existing file path is given.
 #
-#   Output is written to content/en/meetings/YYYY-MM-DD-<slug>.md (or
-#   YYYY-MM-meeting.md when the event date cannot be parsed). The script
+#   Output is written as a page bundle to
+#   content/en/meetings/YYYY-MM-DD-<slug>/index.md (or
+#   YYYY-MM-meeting/index.md when the event date cannot be parsed). Images
+#   for the meeting can be dropped into the same directory. The script
 #   makes a best-effort conversion:
 #     - MediaWiki markup is converted to Markdown with pandoc.
 #     - The event date is parsed from the "==== Date ====" section when
@@ -69,13 +71,13 @@ import_one() {
                   <<<"$src" | sed 's/(.*)//')
     if [[ -n $rawdate ]] && date -d "$rawdate" >/dev/null 2>&1; then
         date=$(date -d "$rawdate" +%Y-%m-%d)
-        out=$outdir/$date-$slug.md
+        out=$outdir/$date-$slug/index.md
         if [[ ${date%%-*} != "$year" ]]; then
             date_todo="  # TODO: source says '$rawdate' but page is $year-$month"
         fi
     else
         date=$year-$month-01
-        out=$outdir/$year-$month-meeting.md
+        out=$outdir/$year-$month-meeting/index.md
         date_todo="  # TODO: could not parse event date, verify"
     fi
 
@@ -99,6 +101,7 @@ import_one() {
             /gex;
         ')
 
+    mkdir -p "$(dirname "$out")"
     {
         printf -- '---\n'
         printf 'title: "%s"\n' "$title"

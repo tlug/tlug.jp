@@ -11,6 +11,7 @@
 <ul class="meeting-cards">
   {{- range sort $upcoming "Date" "asc" }}
   <li class="meeting-card{{ if .Params.canceled }} canceled{{ end }}">
+    {{ partial "featured-image.html" (dict "page" . "kind" "card") }}
     <h3><a href="{{ .RelPermalink }}">{{ if .Params.canceled }}<del>{{ .Title }}</del>{{ else }}{{ .Title }}{{ end }}</a>{{ if .Params.canceled }} <span class="badge">{{ i18n "canceled" }}</span>{{ end }}</h3>
     <p class="meeting-when">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time>

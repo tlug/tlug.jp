@@ -1,0 +1,17 @@
+{{- /* Resolve a page's Open Graph image resource: the featured image
+       resized to 1200px JPEG, flattened onto the site's dark header color
+       (sources may have alpha). Returns "" when the page has none. */ -}}
+{{- $img := "" -}}
+{{- with .Params.image -}}
+  {{- $img = $.Resources.GetMatch . -}}
+{{- else -}}
+  {{- with .Resources -}}
+    {{- $img = index (.ByType "image") 0 -}}
+  {{- end -}}
+{{- end -}}
+{{- $out := "" -}}
+{{- with $img -}}
+  {{- $w := math.Min .Width 1200 -}}
+  {{- $out = .Process (printf "resize %.0fx jpg #1b1f24 q85" $w) -}}
+{{- end -}}
+{{- return $out -}}

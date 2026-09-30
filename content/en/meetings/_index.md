@@ -14,6 +14,9 @@ cascade:
   outputs:
     - html
     - calendar
+  # Publish only referenced image derivatives, not original bundle files.
+  build:
+    publishResources: false
 ---
 
 All Linux lovers, and supporters of open source and free software, in the

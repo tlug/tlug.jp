@@ -1,0 +1,39 @@
+{{- /* Featured image for a page bundle.
+
+       Usage: partial "featured-image.html" (dict "page" . "kind" "banner")
+
+       The image is taken from the `image` frontmatter param (a filename
+       inside the bundle), falling back to the first image resource in the
+       bundle. `imageAlt` provides alt text; `imageCredit` (markdown) is
+       rendered as a caption on the banner.
+
+       kind "banner": <figure> with a ~1000px WebP and optional caption.
+       kind "card":   linked 600x400 WebP thumbnail for list cards. */ -}}
+{{- $p := .page -}}
+{{- $kind := .kind | default "banner" -}}
+{{- $img := "" -}}
+{{- with $p.Params.image -}}
+  {{- $img = $p.Resources.GetMatch . -}}
+  {{- if not $img }}{{ warnf "%s: featured image %q not found in bundle" $p.File.Path $p.Params.image }}{{ end -}}
+{{- else -}}
+  {{- $img = index ($p.Resources.ByType "image") 0 -}}
+{{- end -}}
+{{- with $img -}}
+  {{- if eq $kind "card" -}}
+    {{- $thumb := .Fill "600x400 webp Smart q80" -}}
+    <a class="meeting-card-thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}"
+           alt="" loading="lazy">
+    </a>
+  {{- else -}}
+    {{- $w := math.Min .Width 1000 -}}
+    {{- $banner := .Process (printf "resize %.0fx webp q85" $w) -}}
+    <figure class="featured-image">
+      <img src="{{ $banner.RelPermalink }}" width="{{ $banner.Width }}" height="{{ $banner.Height }}"
+           alt="{{ $p.Params.imageAlt }}" fetchpriority="high">
+      {{- with $p.Params.imageCredit }}
+      <figcaption>{{ . | $p.RenderString }}</figcaption>
+      {{- end }}
+    </figure>
+  {{- end -}}
+{{- end -}}

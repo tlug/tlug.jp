@@ -32,11 +32,13 @@ Layout:
 Meetings
 --------
 
-Meeting pages live in `content/en/meetings/`, one file per meeting, named
-`YYYY-MM-DD-slug.md` (e.g. `2026-09-05-technical-meeting.md`). The `date` in
-the frontmatter is the **event** date/time; meetings with a future date are
-automatically listed under "Upcoming Events" on the homepage (this is why
-`buildFuture = true` is set in `hugo.toml`).
+Meeting pages live in `content/en/meetings/`, one page bundle per meeting,
+named `YYYY-MM-DD-slug/index.md` (e.g.
+`2026-09-05-technical-meeting/index.md`). Images belonging to a meeting go
+in the same directory. The `date` in the frontmatter is the **event**
+date/time; meetings with a future date are automatically listed under
+"Upcoming Events" on the homepage (this is why `buildFuture = true` is set
+in `hugo.toml`).
 
 Frontmatter parameters:
 
@@ -58,6 +60,13 @@ Frontmatter parameters:
       canceled: true                # optional; see below
       sponsors:                     # optional; renders a Thanks section,
         - axsh                      # one line per key into data/sponsors.yaml
+      image: konqi-30.png           # optional featured image: a file in the
+                                    # bundle directory (falls back to the
+                                    # bundle's first image). Shown as a
+                                    # banner, homepage-card thumbnail, and
+                                    # link preview (Open Graph).
+      imageAlt: Konqi the dragon    # alt text for the featured image
+      imageCredit: "[KDE](https://kde.org/), CC BY-SA 4.0"  # optional caption
       schedule:                     # optional; renders the schedule table
         - time: "13:00"             # optional (blank = continuation row)
           title: Opening

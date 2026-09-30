@@ -174,6 +174,36 @@ img {
   color: var(--muted);
 }
 
+/* Featured images */
+
+.featured-image {
+  margin: 1rem 0;
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.featured-image figcaption {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.featured-image figcaption a {
+  color: var(--muted);
+}
+
+.meeting-card-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
 /* Meeting cards (homepage) */
 
 .upcoming h2 {
