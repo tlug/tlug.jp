@@ -36,6 +36,15 @@ shift-shinjuku:
   google: https://maps.app.goo.gl/MLbuddjhV5V57irH8
   venue: https://en.shiftinc.jp
 
+wcb-the-room:
+  name: WCB The Room
+  address:
+    - 2-3, Toranomon 2-Chome
+    - Minato-ku, Tokyo 105-0001
+  apple: https://maps.apple.com/place?place-id=I571F08C1B60D72AA
+  google: https://maps.app.goo.gl/eXPrbAkvTS5gdqgCA
+  venue: https://www.westcoastbrewing.jp/location/wcb-the-room/
+
 zest-cantina-daikanyama:
   name: Zest Cantina Daikanyama
   address:
