@@ -2,6 +2,7 @@
 title: Technical Meeting
 date: 2022-03-12T14:00:00+09:00
 params:
+  location: Online
   meetingType: technical
 ---
 

@@ -64,6 +64,17 @@ zest-cantina-daikanyama:
   google: https://goo.gl/maps/9ejrTuhJ2oQLeHmV6
   venue: https://zest-cantina.jp/daikanyama/
 
+# Axsh hosted TLUG at an earlier office in Yoyogi before the current
+# Sendagaya premises, which is why the 2024 move was announced as a new
+# location.
+axsh-yoyogi:
+  name: Axsh Co. Ltd., Yoyogi office
+  address:
+    - First Umemura Building 6F
+    - 3-24-3 Yoyogi
+    - Shibuya-ku, Tokyo 151-0053
+  venue: https://axsh.jp/
+
 # Venues recovered from the mailing list archive.
 
 temple-university-japan:

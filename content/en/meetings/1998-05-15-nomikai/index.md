@@ -2,6 +2,7 @@
 title: Nomikai
 date: 1998-05-15T00:00:00+09:00
 params:
+  location: kyobashi-tengu-tokyo-eki-mae-ten
   meetingType: nomikai
 ---
 

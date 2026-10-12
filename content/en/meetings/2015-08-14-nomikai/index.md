@@ -2,6 +2,7 @@
 title: Nomikai
 date: 2015-08-14T19:00:00+09:00
 params:
+  location: "Nihonbashi Mitsukoshi Dept Store \"honkan\" Rooftop Beer Garden"
   endDate: 2015-08-14T21:30:00+09:00
   meetingType: nomikai
 ---

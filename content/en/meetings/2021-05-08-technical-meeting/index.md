@@ -2,6 +2,7 @@
 title: Technical Meeting
 date: 2021-05-08T13:30:00+09:00
 params:
+  location: Online
   endDate: 2021-05-08T17:30:00+09:00
   meetingType: technical
 ---

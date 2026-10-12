@@ -2,6 +2,7 @@
 title: Technical Meeting
 date: 2018-09-08T14:00:00+09:00
 params:
+  location: axsh-yoyogi
   endDate: 2018-09-08T18:00:00+09:00
   meetingType: technical
 ---

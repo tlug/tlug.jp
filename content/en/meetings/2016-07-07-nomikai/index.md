@@ -2,6 +2,7 @@
 title: Nomikai
 date: 2016-07-07T19:00:00+09:00
 params:
+  location: Mori no Beer Garden
   endDate: 2016-07-07T21:00:00+09:00
   meetingType: nomikai
 ---

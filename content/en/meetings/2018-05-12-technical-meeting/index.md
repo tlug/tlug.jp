@@ -2,6 +2,7 @@
 title: Technical Meeting
 date: 2018-05-12T13:00:00+09:00
 params:
+  location: Starbucks 1F
   endDate: 2018-05-12T16:30:00+09:00
   meetingType: technical
 ---

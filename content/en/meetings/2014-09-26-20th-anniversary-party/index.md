@@ -2,6 +2,7 @@
 title: Overview
 date: 2014-09-26T19:30:00+09:00
 params:
+  location: "Outback Bar & Grill Shinagawa (Konan side)"
   endDate: 2014-09-26T21:30:00+09:00
   meetingType: meeting
   registration: http://tlug.doorkeeper.jp/events/14417

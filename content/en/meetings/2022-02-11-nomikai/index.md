@@ -2,6 +2,7 @@
 title: Nomikai
 date: 2022-02-11T19:30:00+09:00
 params:
+  location: Virtual Nomikai on Jitsi
   meetingType: nomikai
 ---
 

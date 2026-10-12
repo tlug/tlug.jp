@@ -7,6 +7,8 @@ params:
     Tengu Tokyo EkiMae
     Kyobashi 1-1-6, EchiZenYa Bld. B1/B2
     Chuo-ku, Tokyo
+  schedule:
+    - title: Linux SMP and the Intel SC450NX Quad Xeon Server platform
 ---
 
 ## May Nomikai Information

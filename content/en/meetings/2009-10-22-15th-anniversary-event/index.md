@@ -2,6 +2,7 @@
 title: Overview
 date: 2009-10-22T19:30:00+09:00
 params:
+  location: "Chiocciol@ Pizzeria"
   endDate: 2009-10-22T22:00:00+09:00
   meetingType: meeting
 ---

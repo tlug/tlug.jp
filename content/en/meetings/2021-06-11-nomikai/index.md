@@ -2,6 +2,7 @@
 title: Nomikai
 date: 2021-06-11T19:30:00+09:00
 params:
+  location: Virtual Nomikai on Gather
   meetingType: nomikai
 ---
 

@@ -5,4 +5,6 @@ params:
   endDate: 2001-03-10T16:30:00+09:00
   meetingType: technical
   location: akasaka-linuxprobe-hall
+  schedule:
+    - title: INSIDE AN ELECTRONIC DICTIONARY
 ---

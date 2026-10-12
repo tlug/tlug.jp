@@ -2,6 +2,7 @@
 title: Technical Meeting
 date: 2021-09-11T14:00:00+09:00
 params:
+  location: Online
   meetingType: technical
 ---
 

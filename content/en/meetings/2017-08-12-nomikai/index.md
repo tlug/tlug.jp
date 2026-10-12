@@ -2,6 +2,7 @@
 title: Nomikai
 date: 2017-08-12T19:00:00+09:00
 params:
+  location: ginza-zest-cantina
   endDate: 2017-08-12T21:00:00+09:00
   meetingType: nomikai
 ---

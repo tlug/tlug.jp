@@ -2,6 +2,7 @@
 title: Technical Meeting
 date: 2020-11-14T13:00:00+09:00
 params:
+  location: Online
   endDate: 2020-11-14T17:30:00+09:00
   meetingType: technical
 ---

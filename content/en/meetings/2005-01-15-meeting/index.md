@@ -9,6 +9,9 @@ params:
     3-42-5 Hongo, Boa Building 2F
     Bunkyo-ku, Tokyo
     113-0033
+  schedule:
+    - title: "Knoppix and Morphix live-CDs: What they are, how they work and how to roll your own"
+      presenter: Edmund Edgar
 ---
 
 ## Sources

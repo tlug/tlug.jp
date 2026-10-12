@@ -2,6 +2,7 @@
 title: Nomikai
 date: 2021-08-20T19:30:00+09:00
 params:
+  location: Virtual Nomikai on Jitsi
   meetingType: nomikai
 ---
 
