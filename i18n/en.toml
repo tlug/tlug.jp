@@ -2,7 +2,7 @@
 other = "Tokyo Linux Users Group"
 
 [tagline]
-other = "Tokyo's bilingual Linux and free software community — since 1994"
+other = "Tokyo's bilingual Linux and free software community since 1994"
 
 [siteDescription]
 other = "The Tokyo Linux Users Group (TLUG) is a non-profit users group whose members exchange information on Linux and free software. Meetings are held in English and Japanese. All are welcome."
@@ -14,7 +14,7 @@ other = "Established {{ .date }}"
 other = "Upcoming Events"
 
 [noUpcoming]
-other = "No meeting is scheduled at the moment. Meetings are announced on the mailing list — join us there!"
+other = "No meeting is scheduled at the moment. Meetings are announced on the mailing list, so join us there."
 
 [latestMeeting]
 other = "Latest meeting"
@@ -71,7 +71,7 @@ other = "Meetings"
 other = "Mailing Lists"
 
 [cfpTitle]
-other = "Call for Presenters — open"
+other = "Call for Presenters: open"
 
 [cfpText]
 other = 'We are looking for presentations, lightning talks, and demos for this meeting. See <a href="{{ .url }}">Presenting at TLUG</a> for how to submit.'
@@ -120,7 +120,7 @@ other = "You may bring (preferably Linux / FOSS / tech related) items to be auct
 other = "Thanks"
 
 [sponsorThanks]
-other = "This meeting is supported by {{ .sponsor }}."
+other = "This event is supported by {{ .sponsor }}."
 
 [sponsors]
 other = "Sponsors"

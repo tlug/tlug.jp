@@ -15,19 +15,19 @@ the version used in production), then:
 
 Layout:
 
-- `content/en/`, `content/ja/` — page content (Markdown). The site is
+- `content/en/`, `content/ja/`: page content (Markdown). The site is
   multilingual; add a file at the same path under `content/ja/` to translate
   a page.
-- `data/locations.yaml` — the venue registry for meeting pages.
-- `data/links.yaml` — community/social links (footer icons and homepage
+- `data/locations.yaml`: the venue registry for meeting pages.
+- `data/links.yaml`: community/social links (footer icons and homepage
   buttons; icons live in `assets/icons/`, from [Simple Icons]).
-- `data/sponsors.yaml` — sponsors; those with `active: true` are shown on
+- `data/sponsors.yaml`: sponsors; those with `active: true` are shown on
   the homepage and `/sponsors/`. Logos live in `static/images/sponsors/`
   (see the notes in the file about dark-mode legibility).
-- `layouts/` — hand-written templates, no theme.
-- `assets/css/style.css` — the stylesheet.
-- `i18n/` — translated UI strings.
-- `static/` — files copied verbatim (images, etc.).
+- `layouts/`: hand-written templates, no theme.
+- `assets/css/style.css`: the stylesheet.
+- `i18n/`: translated UI strings.
+- `static/`: files copied verbatim (images, etc.).
 
 Meetings
 --------
@@ -51,7 +51,8 @@ Frontmatter parameters:
                                     # feed. Omit for open-ended ("19:00–").
       time: "Doors 12:30"           # optional display override for odd cases
       location: axsh                # key into data/locations.yaml
-      meetingType: technical        # or nomikai
+      meetingType: technical        # or nomikai, booth; only `technical`
+                                    # gets the CFP and auction sections
       registration: https://...    # connpass event (optional)
       registrationName: Connpass   # optional label override; auto-detected
                                    # from the URL otherwise

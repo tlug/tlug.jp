@@ -8,12 +8,12 @@ join and post in either English or Japanese.
 
 ## The Lists
 
-- **tlug** — the main forum for discussion: Linux and free software
+- **tlug**: the main forum for discussion: Linux and free software
   questions, announcements, and general (hopefully Linux-related) conversation.
-- **tlug-admin** — discussion of TLUG administration: the server, web pages,
+- **tlug-admin**: discussion of TLUG administration: the server, web pages,
   mailing lists, meetings, and finances. Open and unmoderated; if you would
   like to help run TLUG, or just want your voice heard, feel free to join.
-- **lingo** — natural-language-related discussion, such as use of Japanese.
+- **lingo**: natural-language-related discussion, such as use of Japanese.
 
 [Subscribe/Unsubscribe](http://lists.tlug.jp/list.html) ·
 [List Policy](http://lists.tlug.jp/listpolicy.html)

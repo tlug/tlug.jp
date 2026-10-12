@@ -2,7 +2,7 @@
 other = "東京Linuxユーザーズグループ"
 
 [tagline]
-other = "東京の日英バイリンガルLinux・自由ソフトウェアコミュニティ — 1994年から"
+other = "東京の日英バイリンガルLinux・自由ソフトウェアコミュニティ（1994年から）"
 
 [siteDescription]
 other = "東京Linuxユーザーズグループ（TLUG）は、Linuxとフリーソフトウェアに関する情報交換を行う非営利のユーザーズグループです。ミーティングは英語と日本語で行われます。どなたでも歓迎します。"
@@ -119,7 +119,7 @@ other = "TLUGの活動資金のため、ミーティングでオークション�
 other = "謝辞"
 
 [sponsorThanks]
-other = "本ミーティングは {{ .sponsor }} にご支援いただいています。"
+other = "本イベントは {{ .sponsor }} にご支援いただいています。"
 
 [sponsors]
 other = "スポンサー"

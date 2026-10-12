@@ -5,7 +5,7 @@ description: >
 ---
 
 Day-to-day TLUG chatter happens on **Signal** and **Matrix**. Everyone is
-welcome — introduce yourself when you join!
+welcome, so introduce yourself when you join.
 
 ## Signal
 

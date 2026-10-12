@@ -33,5 +33,5 @@ Friday of even-numbered months. Take a look at what happened at
 
 If you are interested in TLUG, we strongly recommend you join the group,
 either at a meeting or online. Membership is open to anyone and there are no
-membership dues — if you join the [mailing list](/mailing-lists/), you're a
+membership dues. If you join the [mailing list](/mailing-lists/), you're a
 member.

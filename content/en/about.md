@@ -51,12 +51,12 @@ If you can't make it to Tokyo, you can still join and participate online.
 
 ## Meetings and Activities
 
-- **Technical meetings** — held on the second Saturday of every odd month,
+- **Technical meetings**: held on the second Saturday of every odd month,
   with [presentations, talks, and demos](/talks/).
-- **Nomikai** — social meetings held in every even month. The social
+- **Nomikai**: social meetings held in every even month. The social
   interaction, beer, and food is an excellent way to create a stronger Linux
   community spirit.
-- **Auctions and prizes** — TLUG negotiates donations from corporations and
+- **Auctions and prizes**: TLUG negotiates donations from corporations and
   individuals and distributes software and hardware to the membership. TLUG
   has given out stickers, Linux distributions, Linux Journals, Sparc
   hardware, PCs, keyboards, T-Shirts, monitors, books, and a lot more.
@@ -65,7 +65,7 @@ See the [meetings page](/meetings/) for upcoming events.
 
 ## Organization
 
-TLUG is loosely structured. If you want to volunteer, don't be shy — we can
+TLUG is loosely structured. If you want to volunteer, don't be shy. We can
 use your help. TLUG welcomes members who want to volunteer for any position:
 you can help as much or as little as you want, and all contributions are
 valuable.
@@ -74,17 +74,17 @@ valuable.
 
 #### Elected
 
-- **President** — Edward Middleton
-- **Vice President** — *open*
-- **Treasurer** — Tim Meggs
+- **President**: Edward Middleton
+- **Vice President**: *open*
+- **Treasurer**: Tim Meggs
 
 #### Appointed
 
-- **Sysadmin** — Henri 'ragga muffin' Servomaa
-- **Listmaster** — Josh Glover
-- **List Moderators** — Scott Robbins, Jonathan Byrne, Godwin Stewart
-- **Webmaster** — Alain Hoang, Keith Bawden
-- **Wikimaster** — Alain Hoang
+- **Sysadmin**: Henri 'ragga muffin' Servomaa
+- **Listmaster**: Josh Glover
+- **List Moderators**: Scott Robbins, Jonathan Byrne, Godwin Stewart
+- **Webmaster**: Alain Hoang, Keith Bawden
+- **Wikimaster**: Alain Hoang
 
 ### Job Descriptions
 
@@ -114,7 +114,7 @@ The duties of the List Moderators are as follows:
 ## Helping Out
 
 TLUG is always looking for volunteers for both club administration and for
-various projects — organizing meetings and parties, expanding membership,
+various projects: organizing meetings and parties, expanding membership,
 and soliciting corporate donations. If you are interested in any open
 position, volunteer on the [tlug-admin mailing list](/mailing-lists/).
 

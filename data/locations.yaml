@@ -45,6 +45,16 @@ wcb-the-room:
   google: https://maps.app.goo.gl/eXPrbAkvTS5gdqgCA
   venue: https://www.westcoastbrewing.jp/location/wcb-the-room/
 
+tmitc-taito:
+  name: Tokyo Metropolitan Industrial Trade Center, Taito Building
+  address:
+    - 6F Exhibition Hall
+    - 2-6-5 Hanakawado
+    - Taito-ku, Tokyo 111-0033
+  apple: https://maps.apple.com/place?place-id=IFF9EDB538E0E6CBF
+  google: https://maps.app.goo.gl/2eAfUS2oqau6EPzY7
+  venue: https://www.sanbo.metro.tokyo.lg.jp/taito/
+
 zest-cantina-daikanyama:
   name: Zest Cantina Daikanyama
   address:
