@@ -5,6 +5,8 @@ params:
   endDate: 2025-04-19T16:00:00+09:00
   meetingType: technical
   location: axsh
+  sponsors:
+    - axsh
 ---
 
 #### Date

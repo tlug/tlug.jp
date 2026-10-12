@@ -90,9 +90,10 @@ RE_TIME_RANGE = re.compile(r"(\d{1,2}):(\d{2})\s*[-–~]\s*(\d{1,2}):(\d{2})")
 RE_TIME_START = re.compile(r"\b(\d{1,2}):(\d{2})\b")
 
 # Link labels and stray lines that are navigation, not venue information.
-RE_NAV = re.compile(r"^(details?|maps?|info(rmation)?|website|home ?page|"
+RE_NAV = re.compile(r"^(?:google|apple|yahoo)?\s*"
+                    r"(details?|maps?|info(rmation)?|web\s?site|home\s?page|"
                     r"venue|directions?|photos?|access|japanese|english)\b"
-                    r"[\s\w/(),.&+-]{0,34}$", re.I)
+                    r"[\s\w/(),.&+|-]{0,40}$", re.I)
 
 RE_MOBILE = re.compile(r"\b0[789]0[-\s]?\d{4}[-\s]?\d{4}\b")
 RE_EMAIL = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")

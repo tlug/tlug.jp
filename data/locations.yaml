@@ -64,6 +64,54 @@ zest-cantina-daikanyama:
   google: https://goo.gl/maps/9ejrTuhJ2oQLeHmV6
   venue: https://zest-cantina.jp/daikanyama/
 
+# Venues used by events imported from connpass.
+
+midtown-bbq-tokyo:
+  name: Midtown BBQ Tokyo
+  address:
+    - 3-10-9 Iidabashi, 2F
+    - Chiyoda-ku, Tokyo 102-0072
+  venue: https://www.midtown-bbq.com/tokyo
+
+schmatz-ginza-shochiku-square:
+  name: SCHMATZ Ginza Shochiku Square
+  address:
+    - Ginza Shochiku Square 2F
+    - 1-13-1 Tsukiji
+    - Chuo-ku, Tokyo
+  apple: https://maps.apple.com/place?place-id=IB4630EEF03C48180
+  google: https://maps.app.goo.gl/PaEeUuw7iCYFiUqw8
+  venue: https://tabelog.com/en/tokyo/A1301/A130101/13241603/
+
+ebisu-beer-hall:
+  name: Ebisu Beer Hall
+  address:
+    - Humax Building B1F
+    - 1-1-1 Ebisu Minami
+    - Shibuya-ku, Tokyo
+  apple: https://maps.apple.com/place?place-id=I62C504333B308835
+  google: https://maps.app.goo.gl/XXt7z9YNzFj1BLQ48
+  venue: https://www.ginzalion.jp/shop/brand/yebisubeerhall/shop86.html
+
+devilcraft-the-corner:
+  name: DevilCraft - The Corner
+  address:
+    - Kanda Ocean Building 1F, Room 102
+    - 1-15-2 Uchikanda
+    - Chiyoda-ku, Tokyo 101-0047
+  apple: https://maps.apple.com/place?place-id=I43021021364E0840
+  google: https://maps.app.goo.gl/sRYVgPRpD4jHyTp38
+  venue: https://en.devilcraft.jp/the-corner/
+
+komazawa-university:
+  name: Komazawa University, Shugetsu Hall (Building 3) 2F
+  address:
+    - 1-23-1 Komazawa
+    - Setagaya-ku, Tokyo 154-8525
+  apple: https://maps.apple.com/place?place-id=I81637630288CDBD2
+  google: https://maps.app.goo.gl/JYLvuvdG5PWSaEVB7
+  venue: https://www.komazawa-u.ac.jp/access/
+
 # Imported from the old wiki's location templates.
 
 akasaka-akasaka-kumin-center:
@@ -145,7 +193,6 @@ akihabara-watami-akihabara-showadori-ten:
     - 1-24 Kanda Sakuma-cho, Chiyoda-Ku, Tokyo
     - Mimura Bldg. 3F
     - "tel:03-5297-3181"
-    - "Google Maps | Gurunabi (in Japanese)"
   venue: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E4%BD%90%E4%B9%85%E9%96%93%E7%94%BA1-24+%E4%B8%89%E6%9D%91%E3%83%93%E3%83%AB&sll=37.0625,-95.677068&sspn=50.557552,63.28125&ie=UTF8&hq=%E4%B8%89%E6%9D%91%E3%83%93%E3%83%AB&hnear=Japan,+T%C5%8Dky%C5%8D-to+Chiyoda-ku%E7%A5%9E%E7%94%B0%E4%BD%90%E4%B9%85%E9%96%93%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%94&ll=35.698379,139.775169&spn=0.012773,0.01545&z=16&cid=17407401537961207935&iwloc=A
 aoyama-oracle:
   name: Oracle Japan Corporation
@@ -164,7 +211,6 @@ ebisu-digital-garage:
     - 3-5-7 Ebisu-minami, Shibuya-ku
     - Tokyo 150-0022, Japan
     - 8 minutes walk from Ebisu Station
-    - Google Maps
   venue: http://garage.co.jp/en/corporate/access.html
 ginza-wall-street-associates-japan:
   name: Wall Street Associates Japan (5F Boardroom).
@@ -196,8 +242,6 @@ hamamatsucho-devil-craft:
     - 2-13-12 Hamamatsucho, Risewell Bldg 1F
     - Minato-ku, Tokyo 105-0013
     - "tel: 03-6435-8428"
-    - web site (Japanese/English))
-    - Google Maps
   venue: http://en.devilcraft.jp/about/hamamatsucho/
 hibiya-town-cryer-hibiya:
   name: Town Cryer, Hibiya
@@ -234,7 +278,6 @@ its:
     - Ichigaya Meeting Room)
     - 「English translation of walking directions
     - "Here!」"
-    - Google Map
   google: http://www.its-kenpo.or.jp/restaurant/itigaya_kaigisitu/map.html
   venue: http://maps.google.com/maps?f=q&hl=en&geocode=&q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B8%82%E8%B0%B7%E4%BB%B2%E4%B9%8B%E7%94%BA4-39&sll=35.695299,139.724738&sspn=0.00213,0.004978&ie=UTF8&z=16&iwloc=addr
 jinbocho-iij:
@@ -288,8 +331,6 @@ nakameguro-schmatz-nakameguro:
     - 1 Chome-22-4 Kamimeguro
     - Meguro City, Tokyo, 〒153-0051
     - "tel: 03-6412-8770"
-    - web site (Japanese)
-    - Google Maps
   venue: https://www.schmatz.jp/locations/schmatz-nakameguro
 nihonbashi-mixer:
   name: MIXER meeting space
@@ -332,7 +373,6 @@ shibuya-glasscity:
     - Glass City Shibuya  (10F reception)
     - 16-28 Nanpeidai-cho, Shibuya-ku
     - 〒150-0036 Tokyo
-    - Google Map
   venue: https://goo.gl/maps/5pafMxLFgoM2
 shibuya-groupon:
   name: Groupon Japan
