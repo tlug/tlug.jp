@@ -25,3 +25,11 @@ John Little and Jim Tittsler gave an introduction to Sparc Linux. The installati
 There was a lot of variety at the meeting, ranging from the smallest Linux notebook yet to be seen at a TLUG meeting to the impressive Linux library Joe is building at HSBC.
 
 People at the meeting discussed Japanese on Linux, Sparc Linux, and took care of some administrivia. Craig Oda was elected to a 1 year term as President of TLUG and several goals were set for the coming months - get a dedicated TLUG machine with a full-time connection, provide greater support of multilingual software design and increase the number of meetings.
+
+## Summary
+
+Craig Oda accepted the role of club president at this meeting. Members
+agreed to start a TLUG library, with donated reference material to be lent
+out to members, and the group took stock of two machines donated for use at
+meetings: a SPARC 2 running SPARCLinux, set up by Jim Tittsler, and a PC
+running Debian. Spare SPARC keyboards were given away to attendees.

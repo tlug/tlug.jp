@@ -6,6 +6,12 @@ params:
   location: |-
     HSBC Securities 10F
     Tengu Tokyo EkiMae
+  schedule:
+    - title: IPv6 at IMASY
+      presenter: Ichiro Fukuhara and Hajimu Umemoto
+      abstract: A look at how IPv6 testing was progressing at leading Japanese organisations in coordination with IMASY. Most of the work was being done on FreeBSD at the time, with moves towards Linux interoperability.
+    - title: Corel Netwinder Computer
+      presenter: Jim Tittsler
 ---
 
 ## October Meeting Information
@@ -67,3 +73,9 @@ This month's auction proved to be the most successful yet! The totals aren't in 
 We had two volunteers to join the Tlug executive as technical directors, Rex Walters and Kenichi Itsumi, who were elected by acclamation. Thanks for volunteering!
 
 -Joe Marchak.
+
+## Summary
+
+Over 50 people attended, with volunteers arriving from 10:00 to help set up.
+The nijikai afterwards at Tengu was notable for the PCs and monitors won in
+the auction lining the walls.

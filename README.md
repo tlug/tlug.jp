@@ -141,10 +141,11 @@ the frontmatter and body, and push. No other changes are needed.
 
 ### The historical archive
 
-Meetings from 1994 to 2026 were migrated from the old MediaWiki site by
-[`scripts/import-wiki.py`], which reads the wiki pages from the `master`
-branch and writes page bundles. It is kept for reference and for re-running
-a migration; day-to-day editing is done directly on the Markdown files.
+Meetings from 1994 to 2026 were migrated from the old MediaWiki site on the
+`master` branch, and later enriched from the public mailing list archives.
+That was a one-off migration run with local tooling that is deliberately not
+kept in this repository; day-to-day editing is done directly on the Markdown
+files.
 
 Notes on the imported pages:
 
@@ -170,5 +171,4 @@ old `/wiki/*` URLs are also configured there.
 [Simple Icons]: https://simpleicons.org/
 [tlug.jp]: https://tlug.jp/
 [`data/locations.yaml`]: ./data/locations.yaml
-[`scripts/import-wiki.py`]: ./scripts/import-wiki.py
 [`netlify.toml`]: ./netlify.toml

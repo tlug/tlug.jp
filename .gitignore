@@ -8,3 +8,6 @@
 
 # Python bytecode
 __pycache__/
+
+# Local migration/import tooling, kept outside the repo
+/scripts/

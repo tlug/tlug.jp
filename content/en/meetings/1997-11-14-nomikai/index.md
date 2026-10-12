@@ -58,3 +58,11 @@ Craig, Joe, Stephen, and Hiro are leading the project to publish a book on Japan
 The next meeting is scheduled for December 13th on a Saturday. Six Sparc machines will be raffled off with 500 yen tickets. Three of the machines will be fully functional. All proceeds will be donated to TLUG.
 
 Be there for the best friends and hottest cutting edge technology in Tokyo!
+
+## Summary
+
+A social meeting at a Tengu izakaya, organised by Demian Martos. Around
+1,800 yen a head covered food and drink, with attendees also contributing
+200 yen each to club funds. The evening is remembered for a small fire
+started by napkins drifting too close to a sukiyaki burner, which Rob Bickel
+put out before any damage was done.

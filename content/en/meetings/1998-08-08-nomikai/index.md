@@ -37,3 +37,10 @@ Best surprise of the meeting: Jonathan's 5000 yen Sparc 2, labeled as defective 
 In addition there were free-take-as-many-as-you-can-carry 10baseT ethernet cables, power cables, UK power cables(!!), brass screws(!?!?) and other odds and ends at the door for all.
 
 The Tengu nijikai was a gathering of minds, mostly in a foggy state, and was a lot of fun. What was in those shooters, Tim? :-)
+
+## Summary
+
+Around 41 people attended this "Platform Independent Linux" meeting, held in
+the middle of the summer holiday season. The hardware on show ranged from
+the fastest machines TLUG had yet assembled, a 600MHz DEC Alpha and an SGI
+Indy, to a Macintosh IIci and a 25MHz 386 running Linux.

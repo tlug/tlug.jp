@@ -75,6 +75,12 @@ axsh-yoyogi:
     - Shibuya-ku, Tokyo 151-0053
   venue: https://axsh.jp/
 
+mitsukoshi-rooftop-beer-garden:
+  name: Nihonbashi Mitsukoshi Rooftop Beer Garden
+  address:
+    - Nihonbashi Mitsukoshi main store, rooftop
+    - Chuo-ku, Tokyo
+
 # Venues recovered from the mailing list archive.
 
 temple-university-japan:

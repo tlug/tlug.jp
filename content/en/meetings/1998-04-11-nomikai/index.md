@@ -134,3 +134,12 @@ Channel \#TLUG exists on irc.karrn.ad.jp and irc.stealth.net
 ## Financial Information
 
 36,009 yen was collected.
+
+## Summary
+
+A bilingual meeting, with Ken Harada providing simultaneous translation.
+Officers Joe Marchak, Ken Harada and Craig Oda opened proceedings. Shigeo
+Honda organised the pizza order, at about 1,000 yen a head, and volunteered
+as the club's "snackmaster" thereafter. The main draws were Linux and
+Netscape on Linux, with Tague Griffith's slides published on the web after
+the meeting.

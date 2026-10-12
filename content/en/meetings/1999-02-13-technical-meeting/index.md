@@ -48,3 +48,14 @@ Thanks are also due to Stephen Turnbull, for contacting the guest speakers, to O
 (map at <http://www.tuj.ac.jp/maps.html>)
 
 The Temple University Japan (TUJ) Campus is located at 'San no Hashi' (the street name is 'Sakurada Dori'). The DHC building across the street has a HUGE four sided sign that says DHC. The 06 bus from Shibuya stops at Furukawa-bashi, which is a one block walk away from TUJ. TUJ is in a single big building with a sign out front, right on Sakurada Dori.
+
+## Summary
+
+Lunch was coordinated by snackmaster Shigeo Honda and a group of volunteers.
+Ron Sears and Sean Mannon demonstrated KDE and WordPerfect running on their
+laptops. Librarian Jonathan Byrne began cataloguing the club's books and
+CDs, and Austin Kurahone burned a new edition of the TLUG CD set, collecting
+2.2.x kernel updates, KDE 1.1, Netscape Communicator, XFree86, emulators,
+games and the Monash Japanese archives alongside the mailing list and web
+archives. Jim Tittsler ran the auction, which included speakers, keyboards,
+power supplies, CD-ROMs and mouse pads.
