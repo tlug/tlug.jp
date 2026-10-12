@@ -1,6 +1,6 @@
 ---
-title: Nomikai
-date: 2024-12-12T19:00:00+09:00
+title: Bonenkai
+date: 2024-12-13T19:00:00+09:00
 params:
   meetingType: nomikai
   location: zest-cantina-daikanyama

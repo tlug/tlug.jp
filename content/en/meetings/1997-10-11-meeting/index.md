@@ -1,8 +1,10 @@
 ---
 title: Meeting
-date: 1997-10-01T00:00:00+09:00
+date: 1997-10-11T00:00:00+09:00
 params:
-  dateApprox: true
+  schedule:
+    - title: Japanese language support on Linux
+    - title: SPARC Linux
   meetingType: meeting
 ---
 

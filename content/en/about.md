@@ -33,6 +33,15 @@ organization that seeks to
 - 1996: Jim Schweizer becomes first official TLUG Webmaster
 - October 1997: first election of club officers.
 - March 1998: TLUG gets its own server compliments Pacific High Tech
+- February 1998: the first slate of officers is elected, after the first
+  call for an election at the October 1997 meeting.
+- March 1999: the group votes to adopt an anti-spam posting policy for the
+  mailing list.
+- September 2011: the last officer election is held. TLUG has run as an
+  informally organised group since.
+
+See the [elections page](/elections/) for the full record of officer
+elections from 1997 to 2011.
 
 ## Joining TLUG
 
@@ -77,6 +86,9 @@ valuable.
 - **President**: Edward Middleton
 - **Vice President**: *open*
 - **Treasurer**: Tim Meggs
+
+These are the officers returned by the last election, held in September
+2011; see the [elections page](/elections/) for the full record.
 
 #### Appointed
 

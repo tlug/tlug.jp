@@ -1,9 +1,8 @@
 ---
 title: Nomikai
-date: 2013-02-01T19:30:00+09:00
+date: 2013-03-08T19:30:00+09:00
 params:
-  dateApprox: true
-  endDate: 2013-02-01T21:30:00+09:00
+  endDate: 2013-03-08T21:30:00+09:00
   meetingType: nomikai
   location: shinbashi-za-watami-ginza-dobashi-ten
 ---

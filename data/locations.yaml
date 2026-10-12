@@ -64,6 +64,38 @@ zest-cantina-daikanyama:
   google: https://goo.gl/maps/9ejrTuhJ2oQLeHmV6
   venue: https://zest-cantina.jp/daikanyama/
 
+# Venues recovered from the mailing list archive.
+
+temple-university-japan:
+  name: Temple University Japan, Minami Azabu
+  address:
+    - 2-8-12 Minami Azabu
+    - Minato-ku, Tokyo
+
+farm-grill-ginza:
+  name: Farm Grill
+  address:
+    - Ginza Nine Sangoukan 2F
+    - 8-5 Ginza
+    - Chuo-ku, Tokyo
+
+kawasaki-takatsu-shimin-kaikan:
+  name: Kawasaki City Takatsu Shimin Kaikan, Meeting Room 6
+  address:
+    - Marui Family 12F, Mizonokuchi Station
+    - Kawasaki, Kanagawa
+
+penguin-village:
+  name: Penguin Village seminar room
+  address:
+    - Meet at Linux Cafe di Pronto, 1F
+
+oracle-japan-hq:
+  name: Oracle Japan HQ, 12F Seminar Room
+  address:
+    - New Otani Garden Court
+    - Chiyoda-ku, Tokyo
+
 # Venues used by events imported from connpass.
 
 midtown-bbq-tokyo:
