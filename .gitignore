@@ -5,3 +5,6 @@
 
 # Handy place for developers to drop working files not to be committed.
 /tmp/
+
+# Python bytecode
+__pycache__/

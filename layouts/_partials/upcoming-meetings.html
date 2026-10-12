@@ -14,7 +14,7 @@
     {{ partial "featured-image.html" (dict "page" . "kind" "card") }}
     <h3><a href="{{ .RelPermalink }}">{{ if .Params.canceled }}<del>{{ .Title }}</del>{{ else }}{{ .Title }}{{ end }}</a>{{ if .Params.canceled }} <span class="badge">{{ i18n "canceled" }}</span>{{ end }}</h3>
     <p class="meeting-when">
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "meeting-date.html" (dict "page" . "format" "full") }}</time>
       {{- with partial "meeting-time.html" . }} · {{ . }}{{ end }}
     </p>
     {{ with (partial "location-resolve.html" .).name }}<p class="meeting-where">{{ . }}</p>{{ end }}
@@ -29,7 +29,7 @@
 <p>{{ i18n "noUpcoming" }}</p>
 {{- with first 1 (where $meetings "Date" "lt" now) -}}
 {{- with index . 0 -}}
-<p><a href="{{ .RelPermalink }}">{{ i18n "latestMeeting" }}: {{ .Title }} ({{ .Date | time.Format ":date_long" }})</a></p>
+<p><a href="{{ .RelPermalink }}">{{ i18n "latestMeeting" }}: {{ .Title }} ({{ partial "meeting-date.html" (dict "page" . "format" "long") }})</a></p>
 {{- end -}}
 {{- end -}}
 {{- end }}

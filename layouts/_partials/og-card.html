@@ -17,7 +17,7 @@
 
   {{- /* Date and venue go on their own lines so that neither can wrap
          into the footer. */ -}}
-  {{- $date := .Date | time.Format ":date_full" -}}
+  {{- $date := partial "meeting-date.html" (dict "page" . "format" "full") -}}
   {{- $loc := partial "location-resolve.html" . -}}
   {{- $venue := truncate 58 ($loc.name | default "") -}}
 

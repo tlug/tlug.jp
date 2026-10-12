@@ -63,3 +63,349 @@ zest-cantina-daikanyama:
   apple: https://maps.apple.com/place?place-id=IBB82791F0A95A1D9
   google: https://goo.gl/maps/9ejrTuhJ2oQLeHmV6
   venue: https://zest-cantina.jp/daikanyama/
+
+# Imported from the old wiki's location templates.
+
+akasaka-akasaka-kumin-center:
+  name: Akasaka Kumin Center
+  address:
+    - 4-18-13 Akasaka, Plaza Mikado, Minato-ku, Tokyo
+  venue: http://www.minatocity-kissport.or.jp/sisetu/akasaka/akasaka.htm
+akasaka-leading-edge:
+  name: Leading Edge Co., Ltd.
+  address:
+    - Canadian Embassy Building 1F (Place Canada)
+    - 7-3-37 Akasaka, Minato-ku, Tokyo
+    - "Leading Edge is on the 1st floor of Canadian Embassy building.  Leading Edge offers IT consulting and IT professional placement services.  Leading Edge's office is about"
+    - a 5 minute walk from Aoyama 1 Chome Station on the Ginza Line or about 10 minutes from Akasaka Mitsuke Station on the Marunouchi/Ginza/Hanzomon Lines.
+  google: http://www.leadinge.co.jp/ver01/access/index_e.html
+akasaka-linuxprobe-hall:
+  name: LinuxProbe Hall
+  address:
+    - 2-14-15 Akasaka, Plaza Mikado, Minato-ku, Tokyo
+    - LinuxProbe is an organization working to independently test and certify hardware and software for Linux
+    - providing unbiased information to serve the Linux community.
+  google: http://www.tlug.gr.jp/~atomita/mikadomap.jpg
+  venue: http://www.linuxprobe.org/
+akihabara-chelsea-market:
+  name: CHELSEA MARKET
+  address:
+    - Atre Akihabara 2F, 1-9 Kanda Hanaoka-cho, Chiyoda-ku, Tokyo, 101-0021
+  google: https://goo.gl/maps/MZQU1iLjFDDE3K3BA
+  venue: https://tabelog.com/en/tokyo/A1310/A131001/13018900/
+akihabara-craftbeertap:
+  name: Craft Beer Tap
+  address:
+    - Yodobashi AKIBA building 8F, 1-1, Kandahanaokacho, Chiyoda-ku, Tokyo, 101-0028
+  google: https://goo.gl/maps/xHoBqRLVwJT2
+  venue: https://gurunavi.com/en/a033617/rst/
+akihabara-oerbier-man:
+  name: Oerbier Man
+  address:
+    - Akihabara UDX 1F, 4-14-1, Sotokanda, Chiyoda-ku, Tokyo, 101-0021
+  google: https://goo.gl/maps/pQPy2ZfkGP3fAf7u7
+  venue: https://gurunavi.com/en/p989625/rst/
+akihabara-onecoinmeetingroom:
+  name: One Coin Meeting Room Akihabara Kanda Riverside Meeting Room
+  address:
+    - Takigami Building 3F West
+    - 3-11-7 Iwamotocho
+    - Chiyoda-ku, Tokyo 101-0032
+  venue: https://www.spacee.jp/listings/2913
+akihabara-plat-home:
+  name: "Plat'Home Co., Ltd."
+  address:
+    - ぷらっとホーム株式会社
+    - Akihabara Daibiru 9Fth floor
+    - 1-18-13 Sotokanda
+    - Chiyoda-Ku, Tokyo, Japan, 101-0021
+    - 東京都千代田区外神田1-18-13 秋葉原ダイビル9F
+    - train
+  google: http://www.plathome.com/profile/location.html
+  venue: http://www.plathome.com/
+akihabara-safran-building:
+  name: Safran Building 1.
+  address:
+    - サフランビル１号館
+    - Safran Building 1. 2nd floor
+    - 1-3-3 Kanda Izumi-cho
+    - Chiyoda-ku, Tokyo, Japan, 101-0024
+    - 東京都千代田区神田和泉町1-3-3 サフランビル１号館２階
+  venue: https://www.spacee.jp/listings/9228
+akihabara-sudacho-shokudo:
+  name: Sudacho Shokudo
+  address:
+    - Akihabara UDX 3F, 4-14-1, Sotokanda, Chiyoda-ku, Tokyo, 101-0021
+  google: https://goo.gl/maps/bcFW1mDpoZ82
+  venue: https://gurunavi.com/en/g095630/rst/
+akihabara-watami-akihabara-showadori-ten:
+  name: Watami
+  address:
+    - Akihabara Showa Dori Eki-mae-ten
+    - 1-24 Kanda Sakuma-cho, Chiyoda-Ku, Tokyo
+    - Mimura Bldg. 3F
+    - "tel:03-5297-3181"
+    - "Google Maps | Gurunabi (in Japanese)"
+  venue: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E4%BD%90%E4%B9%85%E9%96%93%E7%94%BA1-24+%E4%B8%89%E6%9D%91%E3%83%93%E3%83%AB&sll=37.0625,-95.677068&sspn=50.557552,63.28125&ie=UTF8&hq=%E4%B8%89%E6%9D%91%E3%83%93%E3%83%AB&hnear=Japan,+T%C5%8Dky%C5%8D-to+Chiyoda-ku%E7%A5%9E%E7%94%B0%E4%BD%90%E4%B9%85%E9%96%93%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%94&ll=35.698379,139.775169&spn=0.012773,0.01545&z=16&cid=17407401537961207935&iwloc=A
+aoyama-oracle:
+  name: Oracle Japan Corporation
+  address:
+    - 日本オラクル株式会社
+    - 東京都港区北青山2-5-8　オラクル青山センター 13F
+    - Oracle Aoyama Center, 13th floor
+    - 2-5-8 Kita-Aoyama
+    - Minato-ku Tokyo Japan
+    - Train
+  venue: http://www.oracle.co.jp/aoyamacenter/
+ebisu-digital-garage:
+  name: Digital Garage
+  address:
+    - Digital Gate Building
+    - 3-5-7 Ebisu-minami, Shibuya-ku
+    - Tokyo 150-0022, Japan
+    - 8 minutes walk from Ebisu Station
+    - Google Maps
+  venue: http://garage.co.jp/en/corporate/access.html
+ginza-wall-street-associates-japan:
+  name: Wall Street Associates Japan (5F Boardroom).
+  address:
+    - 5F Yajima Building, 11-3, Ginza 7-chome
+    - Chuo-ku, Tokyo, 104-0061, Japan
+  google: http://www.wallstreetjapan.com/Images/Wsa_Map.jpg
+ginza-zest-cantina:
+  name: Zest Cantina - G-Zone Ginza
+  address:
+    - 1-2-3, Ginza, Chuo-ku, Tokyo, 104-0061
+    - tel (03)5524-3621
+    - shop
+    - shop(ja)
+  google: https://goo.gl/maps/kQEvNUVgAvq
+  venue: http://www.zest-cantina.jp/gzone/?lang=en
+gotanda-culturecenter:
+  name: "Gotanda Culture Center, Meeting Room #2"
+  address:
+    - 6-5-1 Nishi-Gotanda
+    - Shinagawa-ku, Tokyo 141-0031
+    - "tel: 03-3492-2451"
+    - (Google Map)
+    - (in Japanese)
+  venue: https://goo.gl/maps/uzbKe
+hamamatsucho-devil-craft:
+  name: Devil Craft, Hamamatsu-cho
+  address:
+    - 2-13-12 Hamamatsucho, Risewell Bldg 1F
+    - Minato-ku, Tokyo 105-0013
+    - "tel: 03-6435-8428"
+    - web site (Japanese/English))
+    - Google Maps
+  venue: http://en.devilcraft.jp/about/hamamatsucho/
+hibiya-town-cryer-hibiya:
+  name: Town Cryer, Hibiya
+  address:
+    - Hibiya Central Bldg B1
+    - 1-2-9 Nishishinbashi, Minato-ku, Tokyo
+    - Menu
+  google: http://www.towncryer.jp/TChibiya.html
+  venue: http://www.towncryer.jp/TCmenu.html
+iidabashi-iij:
+  name: IIJ (Internet Initiative Japan)
+  address:
+    - Iidabashi Grand Bloom
+    - 2-10-2 Fujimi
+    - Chiyoda-ku, Tokyo 102-0071
+    - "* Wait at the reception in the office entrance lobby in the 2F"
+    - "* We will all go together to the room at 13:30"
+    - "* If you arrive after that phone Edward to be let in Ph."
+  google: http://www.iij.ad.jp/en/company/about/map/head-office.html
+  venue: http://iidabashi-gb.jp/floor/index.html
+ikebukuro-za-watami-ikebukuro-nishiguchi-nanbanbiru-ten:
+  name: Za Watami, Ikebukuro-nishiuchi-nanbanbiru-ten
+  address:
+    - 1-21-13 Nishi-Ikebukuro, Toshima-ku, Tokyo
+  google: http://gourmet.yahoo.co.jp/0000978907/0009656095/coupon/
+  venue: http://gourmet.yahoo.co.jp/0000978907/0009656095/
+its:
+  name: ITS
+  address:
+    - Kantou IT Software Kenkou
+    - 東京都新宿区市谷仲之町4-39 市ヶ谷会議室
+    - (Tokyo-to, Shinjuku-ku
+    - IchigayaNakanochou 4-39
+    - Ichigaya Meeting Room)
+    - 「English translation of walking directions
+    - "Here!」"
+    - Google Map
+  google: http://www.its-kenpo.or.jp/restaurant/itigaya_kaigisitu/map.html
+  venue: http://maps.google.com/maps?f=q&hl=en&geocode=&q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B8%82%E8%B0%B7%E4%BB%B2%E4%B9%8B%E7%94%BA4-39&sll=35.695299,139.724738&sspn=0.00213,0.004978&ie=UTF8&z=16&iwloc=addr
+jinbocho-iij:
+  name: IIJ - Internet Initiative Japan
+  address:
+    - Jinbo-cho Mitsui Bldg.
+    - 1-105 Kanda Jinbo-cho
+    - Chiyoda-ku, Tokyo 101-0051
+  google: http://www.iij.ad.jp/en/company/about/map/head-office.html
+jingumae-sun:
+  name: SUN Microsystems, Inc.
+  address:
+    - Jingumae-office, B1
+    - 4-11 Jingumae 2-chome
+    - Shibuya-ku Tokyo
+  venue: http://jp.sun.com/
+kajicho-sharemee:
+  name: SHAREMee meeting space
+  address:
+    - 2F New Kanda Building
+    - 3-3 Kajicho
+    - Chiyoda-ku, Tokyo 101-0045
+  venue: https://www.spacee.jp/listings/6415
+koujimachi-kddiwebcom:
+  name: KDDI Web Communications
+  address:
+    - Sumitomo Fudosan Koujimachi Bldg. No.3
+    - 3-6 Koujimachi
+    - Chiyoda-ku, Tokyo 102-0083
+    - J-Map(Google)
+  google: http://www.kddi-webcommunications.co.jp/english/about/access.html
+  venue: http://www.kddi-webcommunications.co.jp/corporate/map.html
+kyobashi-tengu-tokyo-eki-mae-ten:
+  name: Tengu Tokyo eki mae
+  address:
+    - EchiZenYa Bld. B1/B2
+    - Chuo-ku, Kyobashi 1-1-6
+    - "Phone: 03-3275-3691"
+    - Tengu is about 5 minutes away from the Yaesu Chuo exit of the JR Tokyo
+    - train station. It is on the right hand side of Yaesu Dori if you are
+    - walking out of the station.
+meguro-black-lion:
+  name: Black Lion Meguro
+  address:
+    - 1-5-16 Meguro, Meguro-ku, Tokyo
+  google: http://g.co/maps/wmbs9
+  venue: http://blacklion.jp/
+nakameguro-schmatz-nakameguro:
+  name: Schmatz Nakameguro
+  address:
+    - 1 Chome-22-4 Kamimeguro
+    - Meguro City, Tokyo, 〒153-0051
+    - "tel: 03-6412-8770"
+    - web site (Japanese)
+    - Google Maps
+  venue: https://www.schmatz.jp/locations/schmatz-nakameguro
+nihonbashi-mixer:
+  name: MIXER meeting space
+  address:
+    - 5F Honmachi Building
+    - 4-5-14 Nihonbashi Honmachi
+    - Chuo-ku, Tokyo
+    - Chiyoda-ku, Tokyo 103-0023
+  venue: https://www.spacee.jp/listings/125
+nishiogikita-nishiogi-place:
+  name: NISHIOGI PLACE
+  address:
+    - 5-26-20 Nishiogi-kita
+    - Suginami-ku Tokyo 167-0042
+  google: https://goo.gl/maps/Y6eCDZZTWaz
+  venue: https://www.nishiogiplace.com/
+shibuya-amazon:
+  name: Amazon.co.jp headquarters
+  address:
+    - Shibuya Cross Tower, 6F
+    - 2-15-1 Shibuya
+    - Shibuya-ku, Tokyo, Japan
+  google: http://maps.google.co.jp/?q=%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B72-15-1+(Shibuya+Cross+Tower)&ie=UTF8&z=16&om=1&iwloc=addr
+  venue: http://www.amazon.co.jp/
+shibuya-cerego:
+  name: Cerego headquarters
+  address:
+    - Ninomiya Bldg 4F
+    - 18-4 Sakuragaoka-cho
+    - 150-0031 Shibuya-ku, Tokyo
+    - Conference Center
+    - Amazon Developers 1
+    - Second Life
+    - SecondLife Map
+  google: http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=++++%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%A1%9C%E4%B8%98%E7%94%BA18-4%E4%BA%8C%E5%AE%AE%E3%83%93%E3%83%AB&ie=UTF8&om=1&ll=35.657017,139.701312&spn=0.008386,0.01972&z=16&iwloc=addr
+  venue: http://www.iknow.co.jp/
+shibuya-glasscity:
+  name: HENNGE Open Lounge
+  address:
+    - Glass City Shibuya  (10F reception)
+    - 16-28 Nanpeidai-cho, Shibuya-ku
+    - 〒150-0036 Tokyo
+    - Google Map
+  venue: https://goo.gl/maps/5pafMxLFgoM2
+shibuya-groupon:
+  name: Groupon Japan
+  address:
+    - Sumitomo Fudosan Shibuya First Tower 5F
+    - 1-2-20 Higashi
+    - Shibuya-ku, Tokyo 150-0011
+  google: https://goo.gl/maps/yEZBz
+shibuya-hde:
+  name: Horizon Digital Enterprise meeting room
+  address:
+    - 16-2 Kamiyama-cho, Bit Cube 3F
+    - Shibuya-ku, Tokyo
+  google: http://www.hde.co.jp/information/map/
+  venue: http://www.hde.co.jp/
+shibuya-hobgoblin:
+  name: Hobgoblin Shibuya
+  address:
+    - 1-3-11 Dogenzaka, Ichiban Bldg 3F, Shibuya-ku, Tokyo
+  google: https://goo.gl/maps/r6WsqTFX3C72
+  venue: http://www.hobgoblin.jp/Shibuya/tabid/120/language/en-GB/Default.aspx
+shibuya-zaru:
+  name: Zaru
+  address:
+    - Zero Gate 4F, 16-9 Udagawa-cho, Shibuya-ku, Tokyo
+  google: http://r.gnavi.co.jp/g064216/map1.htm
+  venue: http://r.gnavi.co.jp/g064216/
+shinbashi-amataro-shinbashi-ten:
+  name: Amataro Shinbashi-ten
+  address:
+    - STEC 2nd Bldg., B1/B2 F
+    - 3-23-1 Shinbashi, Minato-ku, Tokyo
+    - "tel: 03-3431-5621"
+  venue: http://www.colowide.co.jp/tempo/amataro/60.html
+shinbashi-tengu:
+  name: Tengu Shinbashi
+  address:
+    - 3-22-1 Shinbashi, Kawazaki Dai-ichi Bldg. B1F, Minato-ku, Tokyo
+  google: http://r.gnavi.co.jp/ghajhcuv0000/map/
+  venue: http://r.gnavi.co.jp/ghajhcuv0000/
+shinbashi-za-watami-ginza-dobashi-ten:
+  name: Za Watami, Ginza-dobashi-ten
+  address:
+    - 1-3-10 Shinbashi, Minato-ku, Tokyo
+  google: http://r.gnavi.co.jp/a273568/map/
+  venue: http://r.gnavi.co.jp/a273568/
+shinjuku-garden-kitchen-east:
+  name: Garden Kitchen East
+  address:
+    - 4−25−13, Yotsuya, Shinjuku-ku, Tokyo, 160-0004
+  venue: http://www.gardenkitchen.jp/east/index.html
+weber-park:
+  name: Weber Park
+  address:
+    - Aqua City Odaiba 7F, 1-7-1 Daiba, Minato-ku, Tokyo, 135-0091
+  google: https://g.page/weberpark?share
+  venue: https://www.weberpark.com/index_us.html
+yoga-sun:
+  name: Oracle Japan Corporation
+  address:
+    - 日本オラクル株式会社
+    - SBS Tower, 27th floor
+    - 4-10-1 Yoga
+    - 東京都世田谷区用賀４−１０−１SBSタワー
+    - Setagaya-ku Tokyo, Japan
+    - "WARNING: Do NOT follow the map on the Oracle/Sun website. Follow the links BELOW."
+    - "Train ] [ Directions (日本語/English/Photos)"
+  venue: http://www.flickr.com/photos/jimgris/4507344557/
+yotsuya-burg-holic:
+  name: BURG HOLIC
+  address:
+    - Esupasu Konseru Building 2F
+    - 3-3, Yotsuya, Shinjuku-ku, Tokyo, 160-0004
+    - 〒160-0004東京都新宿区四谷3-3エスパスコンセールビル2F
+  google: https://goo.gl/maps/jf2p6DMH5CQ2
+  venue: https://tabelog.com/en/tokyo/A1309/A130903/13216053/?pplan_id=70855036

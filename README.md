@@ -139,6 +139,24 @@ registry and inline the details instead:
 To announce a new meeting, copy the most recent similar meeting page, update
 the frontmatter and body, and push. No other changes are needed.
 
+### The historical archive
+
+Meetings from 1994 to 2026 were migrated from the old MediaWiki site by
+[`scripts/import-wiki.py`], which reads the wiki pages from the `master`
+branch and writes page bundles. It is kept for reference and for re-running
+a migration; day-to-day editing is done directly on the Markdown files.
+
+Notes on the imported pages:
+
+- `dateApprox: true` marks meetings where only the month is recorded, so
+  they render as "September 1994" rather than inventing a day. Those pages
+  do not emit Event JSON-LD.
+- `meetingType: meeting` is used for pre-2000 meetings, which predate the
+  technical/nomikai split.
+- Personal phone numbers, email addresses and "Contact Info" sections were
+  deliberately dropped during the import; venue landlines were kept.
+- Pages that contained nothing but a category tag were not imported.
+
 Deployment
 ----------
 
@@ -149,8 +167,8 @@ old `/wiki/*` URLs are also configured there.
 
 [Hugo]: https://gohugo.io/
 [Netlify]: https://www.netlify.com/
-[pandoc]: https://pandoc.org/
 [Simple Icons]: https://simpleicons.org/
 [tlug.jp]: https://tlug.jp/
 [`data/locations.yaml`]: ./data/locations.yaml
+[`scripts/import-wiki.py`]: ./scripts/import-wiki.py
 [`netlify.toml`]: ./netlify.toml

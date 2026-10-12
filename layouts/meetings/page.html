@@ -11,7 +11,7 @@
   {{ $loc := partial "location-resolve.html" . }}
   <dl class="meeting-meta">
     <dt>{{ i18n "date" }}</dt>
-    <dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time></dd>
+    <dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "meeting-date.html" (dict "page" . "format" "full") }}</time></dd>
     {{ with partial "meeting-time.html" . }}
     <dt>{{ i18n "time" }}</dt>
     <dd>{{ . }}</dd>

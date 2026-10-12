@@ -1,0 +1,15 @@
+{{- /* Human-readable event date. Historical imports where only the month
+       is known carry `dateApprox: true`, so that we render "September 1994"
+       rather than inventing a day.
+
+       Usage: partial "meeting-date.html" (dict "page" . "format" "long")
+       format: "full" (default), "long", or "medium". */ -}}
+{{- $p := .page -}}
+{{- $f := .format | default "full" -}}
+{{- $out := "" -}}
+{{- if $p.Params.dateApprox -}}
+  {{- $out = $p.Date | time.Format "January 2006" -}}
+{{- else -}}
+  {{- $out = $p.Date | time.Format (printf ":date_%s" $f) -}}
+{{- end -}}
+{{- return $out -}}

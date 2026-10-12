@@ -1,0 +1,31 @@
+---
+title: Meeting
+date: 1995-02-01T00:00:00+09:00
+params:
+  dateApprox: true
+  meetingType: meeting
+---
+
+## Food Place
+
+We did the hacker special and bought food at a convenience store and took it to the CTI office:
+
+## Meeting Place
+
+Linux heaven! The CTI head offices with Linux machines coming out of the walls.
+
+## Crazed Members Present
+
+- Nori Nishigaya
+- Craig Oda
+- Steve Casmar casmar at twics.com
+- Jim Tittsler jwt at shrine.cyber.ad.jp
+- Mario Basa mbasa at twics.com
+
+## Summary of events
+
+We got Xanim to display QuickTime videos. :-) The hot topic was CGI scripts and we decided to talk about it a bit more at the next meeting. People were rapping about Perl and HTML. JWT showed us a cool Perl script that crawled through everyone's directory and created an index of home pages.
+
+## Summary of Decisions
+
+Kind of a laid-back meeting this time. :-)

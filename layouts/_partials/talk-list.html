@@ -46,7 +46,7 @@
     <tbody>
       {{- range index $byYear $year }}
       <tr>
-        <td><a href="{{ .page.RelPermalink }}"><time datetime="{{ .date.Format "2006-01-02" }}">{{ .date | time.Format ":date_medium" }}</time></a></td>
+        <td><a href="{{ .page.RelPermalink }}"><time datetime="{{ .date.Format "2006-01-02" }}">{{ partial "meeting-date.html" (dict "page" .page "format" "medium") }}</time></a></td>
         <td>
           <strong>{{ .title }}</strong>
           {{- if or .slides .video }}

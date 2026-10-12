@@ -38,7 +38,7 @@
 {{- end }}
 <meta name="twitter:card" content="summary_large_image">
 
-{{ if and .IsPage (eq .Section "meetings") -}}
+{{ if and .IsPage (eq .Section "meetings") (not .Params.dateApprox) -}}
 {{ $loc := partial "location-resolve.html" . -}}
 {{ $event := dict
      "@context" "https://schema.org"
