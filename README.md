@@ -103,6 +103,17 @@ Automatic behavior on meeting pages:
   auction sections, and mark the JSON-LD event as cancelled. A `canceled:
   true` on an individual schedule entry strikes out just that row.
 - Each meeting page also emits schema.org Event JSON-LD for search engines.
+- Meetings without a featured image fall back to a placeholder on the
+  homepage cards, chosen by `meetingType`
+  (`assets/images/placeholders/<type>.png`, drawn as SVG and rasterized;
+  the sources are kept alongside the PNGs). Add a new type by dropping in a
+  matching PNG.
+- For link previews, meetings without a featured image get an Open Graph
+  card generated at build time (`layouts/_partials/og-card.html`): the
+  logo, event title, date, and venue drawn onto
+  `assets/images/og/base.png`. The bundled font is subset to Latin, so
+  titles with non-Latin characters fall back to the static
+  `static/images/og-default.png`.
 - `/talks/` is generated from the same `schedule` data: every non-canceled
   entry with a `presenter` is listed automatically, with its slides/video
   links. Adding a talk to a meeting page is all it takes.

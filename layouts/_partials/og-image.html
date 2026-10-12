@@ -13,5 +13,10 @@
 {{- with $img -}}
   {{- $w := math.Min .Width 1200 -}}
   {{- $out = .Process (printf "resize %.0fx jpg #1b1f24 q85" $w) -}}
+{{- else -}}
+  {{- /* No featured image: meetings get a generated title card. */ -}}
+  {{- if and .IsPage (eq .Section "meetings") -}}
+    {{- $out = partial "og-card.html" . -}}
+  {{- end -}}
 {{- end -}}
 {{- return $out -}}

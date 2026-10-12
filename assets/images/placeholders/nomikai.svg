@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#1b1f24"/>
+  <rect x="0" y="0" width="1200" height="14" fill="#d90000"/>
+  <defs>
+    <g id="mug">
+      <path d="M-85 -130 L85 -130 L68 140 L-68 140 Z" fill="none" stroke="#f0a500" stroke-width="18" stroke-linejoin="round"/>
+      <path d="M85 -70 C150 -70 150 30 85 30" fill="none" stroke="#f0a500" stroke-width="18" stroke-linecap="round"/>
+      <path d="M-82 -122 L82 -122 L78 -80 L-78 -80 Z" fill="#f0a500" opacity="0.75"/>
+    </g>
+  </defs>
+  <g transform="translate(600 400)">
+    <g transform="translate(-132 10) rotate(-15) scale(-1 1)"><use href="#mug"/></g>
+    <g transform="translate(132 10) rotate(15)"><use href="#mug"/></g>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+{{- /* Generate an Open Graph card (1200x630) for a meeting that has no
+       featured image: the TLUG logo, the event title, and a date/venue
+       line, composited at build time.
+
+       The bundled font is subset to Latin, so titles containing non-Latin
+       characters are skipped (the caller falls back to the static default
+       card). */ -}}
+{{- $title := .Title -}}
+{{- $out := "" -}}
+{{- if not (findRE "[^\\x00-\\xFF]" $title) -}}
+  {{- $base := resources.Get "images/og/base.png" -}}
+  {{- $logo := resources.Get "images/og/logo.png" -}}
+  {{- $font := resources.Get "fonts/NotoSans-Bold-subset.ttf" -}}
+
+  {{- /* Long titles wrap automatically; shrink them so they still fit. */ -}}
+  {{- $size := cond (gt (len $title) 38) 56 72 -}}
+
+  {{- /* Date and venue go on their own lines so that neither can wrap
+         into the footer. */ -}}
+  {{- $date := .Date | time.Format ":date_full" -}}
+  {{- $loc := partial "location-resolve.html" . -}}
+  {{- $venue := truncate 58 ($loc.name | default "") -}}
+
+  {{- $out = $base.Filter
+        (images.Overlay $logo 70 70)
+        (images.Text $title (dict
+          "font" $font "size" $size "color" "#ffffff"
+          "x" 70 "y" 230 "linespacing" 14))
+        (images.Text $date (dict
+          "font" $font "size" 30 "color" "#dfe3e8"
+          "x" 70 "y" 440))
+        (images.Text $venue (dict
+          "font" $font "size" 28 "color" "#9aa2ab"
+          "x" 70 "y" 486))
+        (images.Text "tlug.jp" (dict
+          "font" $font "size" 26 "color" "#d90000"
+          "x" 70 "y" 556))
+  -}}
+{{- end -}}
+{{- return $out -}}

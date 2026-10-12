@@ -18,6 +18,12 @@
 {{- else -}}
   {{- $img = index ($p.Resources.ByType "image") 0 -}}
 {{- end -}}
+{{- /* Card thumbnails fall back to a placeholder chosen by meeting type. */ -}}
+{{- if and (not $img) (eq $kind "card") -}}
+  {{- with $p.Params.meetingType -}}
+    {{- $img = resources.Get (printf "images/placeholders/%s.png" .) -}}
+  {{- end -}}
+{{- end -}}
 {{- with $img -}}
   {{- if eq $kind "card" -}}
     {{- $thumb := .Fill "600x400 webp Smart q80" -}}
